@@ -533,7 +533,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
       if (hasKindSwitch() && state.kind !== tab.kind) bits.push({ pre: "Preprints", peer: "Journals", all: "Journals and preprints" }[state.kind]);
       if (state.q) bits.push(`“${state.q}”`);
       head = showFeatured() ? "" : `<div class="list-head"><h2>${esc(bits.join(" · "))}</h2><span class="meta">${list.length} paper${list.length === 1 ? "" : "s"} · ${esc(tab.note)}</span>${filtered ? clear : ""}</div>`;
-      empty = `<div class="empty"><strong>No papers match</strong>${filtered ? "Try another topic or clear the search." : `Nothing here in the last ${retention} days.`}</div>`;
+      empty = `<div class="empty"><strong>No papers match</strong>${filtered ? "Try another topic or clear the search." : `No ${esc(tab.label)} papers yet. The scheduled task adds new ones each morning.`}</div>`;
     }
     const page = list.slice(0, state.shown);
     el.innerHTML = head + (list.length ? page.map((p) => itemHTML(p, feedIds.has(p.id))).join("") : empty)
