@@ -56,12 +56,18 @@ img/              one picture per post: Figure 1 (.webp) or Claude's illustratio
 
 ## What the scheduled task does each run
 
-1. Search the chosen sources for papers published since the last run.
+1. Find candidate preprints with the **bioRxiv connector** (`mcp__bioRxiv__*` tools), not the raw bioRxiv API:
+   - Call `search_preprints` with `date_from` = the date of `updated` and `date_to` = today, once per category in the category list, with `limit=100`.
+   - Page with `cursor` (0, 100, 200, ...) until a page returns fewer than 100 results. Don't rely on the `total` field; it can come back as 0.
+   - The listing includes revised versions of older preprints, and can list the same DOI more than once. Treat a version above 1 as new only if its DOI has never been posted.
+   - `search_preprints` has no keyword search, so read every title and abstract preview and shortlist the relevant ones.
+   - Call `get_preprint` on each shortlisted DOI for the full abstract, license and published-journal DOI before deciding.
+   - DOIs use either the `10.1101/` or the newer `10.64898/` prefix. Both are valid.
 2. Skip any DOI already in `posts.json`.
 3. Write `summary`, `key_points`, `topics`, `data` and `code` for each new paper.
 4. Pick up to 3 posts from the last 7 days for `featured`.
 5. Give every new post a picture:
-   - If the paper's license allows reuse (CC BY or CC0, for example; check with the PubMed copyright tool or the bioRxiv license field) and Figure 1 can be downloaded, save it as `img/<DOI with / replaced by _>.webp`, about 800 px wide and under 150 KB. Set `kind` to `"figure"` and credit the authors and license.
+   - If the paper's license allows reuse (CC BY or CC0, for example; check the `license` field from `get_preprint`) and Figure 1 can be downloaded, save it as `img/<DOI with / replaced by _>.webp`, about 800 px wide and under 150 KB. Set `kind` to `"figure"` and credit the authors and license.
    - Otherwise, draw an SVG illustration and save it as `img/<DOI with / replaced by _>.svg`. Rules for the illustration:
      - `viewBox="0 0 640 400"`, a white background rectangle, and `font-family="Noto Sans, Arial, sans-serif"`.
      - A schematic of the study design or main finding, based only on the title and abstract: cells, tissues, transcripts as exon boxes, arrows between steps, simple bar or dot charts.
