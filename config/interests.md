@@ -93,6 +93,7 @@ The journal is the main signal for journal papers. Being on-topic is not enough 
 | Nature Reviews Genetics | `Nat Rev Genet` |
 | Nature Reviews Cancer | `Nat Rev Cancer` |
 | Nature Reviews Molecular Cell Biology | `Nat Rev Mol Cell Biol` |
+| Trends in Genetics | `Trends Genet` |
 
 **Every other journal: skip**, unless the paper is about chordoma.
 
