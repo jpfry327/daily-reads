@@ -1,384 +1,672 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-09-30T12:05:00Z",
+  "updated": "2026-10-01T12:00:00Z",
   "retention_days": 90,
   "featured": [
-    "example-02",
-    "example-01",
-    "example-05"
+    "10.1038/s41588-026-02758-w",
+    "10.1038/s41588-026-02745-1",
+    "10.1038/s41586-026-11048-8"
   ],
   "posts": [
     {
-      "id": "example-12",
-      "example": true,
-      "date_added": "2026-09-30",
-      "published": "2026-09-29",
-      "title": "Single-nucleus multiome of skull-base and sacral chordomas separates notochord-like and mesenchymal tumour states",
-      "authors": "Varga E, Mensah K, Holm J, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.0000/example.12",
-      "url": "#",
-      "topics": [
-        "Chordoma",
-        "Single-cell",
-        "Epigenomics"
-      ],
-      "summary": "Paired snRNA-seq and snATAC-seq from 22 chordomas found two malignant cell states. TBXT-driven notochord-like cells dominated most tumours, while a mesenchymal state with open chromatin at TGF-beta targets was enriched in recurrent samples.",
-      "key_points": [
-        "TBXT motif accessibility marked the notochord-like state.",
-        "The mesenchymal state was rare in primary tumours.",
-        "Deconvolution of two bulk cohorts linked the mesenchymal fraction to shorter time to recurrence."
-      ],
-      "data": "GEO GSE000012 (example)",
-      "code": ""
-    },
-    {
-      "id": "example-13",
-      "example": true,
-      "date_added": "2026-09-29",
-      "published": "2026-09-26",
-      "title": "Proton versus carbon-ion radiotherapy for sacral chordoma: a multi-centre outcomes analysis",
-      "authors": "Ricci M, Tanaka H, Dubois A, et al.",
-      "venue": "International Journal of Radiation Oncology",
+      "id": "10.47391/JPMA-7ANOS-ABS-35",
+      "date_added": "2026-10-01",
+      "published": "2026-09-01",
+      "title": "En Bloc Resection of a Giant Sacrococcygeal Chordoma Presenting with Urinary Bladder Distension to the L4 Level: A Case Report",
+      "authors": "John S, Khaliq T, Brohi G, et al.",
+      "venue": "J Pak Med Assoc",
       "type": "Article",
       "tier": null,
-      "doi": "10.0000/example.13",
-      "url": "#",
+      "doi": "10.47391/JPMA-7ANOS-ABS-35",
+      "url": "https://doi.org/10.47391/JPMA-7ANOS-ABS-35",
       "topics": [
         "Chordoma",
         "Clinical"
       ],
-      "summary": "Across 410 patients treated at four centres, local control at five years was similar for proton and carbon-ion therapy. Sacral nerve toxicity was lower after carbon ions.",
+      "summary": "A 54-year-old man with a giant S3-S5 sacrococcygeal chordoma presented with urinary retention and bladder distension to L4. A nerve-sparing posterior en bloc resection with neuromonitoring gave an R0 resection and restored voiding.",
       "key_points": [
-        "Matched on tumour volume and extent of resection.",
-        "Most local failures were at the margin of the treated volume.",
-        "Toxicity was graded on a single shared scale."
+        "Bladder distension from mechanical outlet obstruction had not been described with sacrococcygeal chordoma.",
+        "Bilateral S1-S2 nerve roots were preserved and bowel and limb function stayed intact.",
+        "No recurrence at one-year follow-up."
       ],
       "data": "",
-      "code": ""
-    },
-    {
-      "id": "example-01",
-      "example": true,
-      "date_added": "2026-09-30",
-      "published": "2026-09-28",
-      "title": "Benchmarking eleven differential transcript usage tools on long-read RNA-seq with spike-in ground truth",
-      "authors": "Okafor N, Lindqvist E, Marsh T, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "doi": "10.0000/example.01",
-      "url": "#",
-      "topics": [
-        "Long-read",
-        "Splicing",
-        "Benchmarking"
-      ],
-      "summary": "The authors sequenced a mixture of cell lines with synthetic spike-in isoforms on both nanopore and PacBio, then scored eleven DTU tools against the known truth. Tools built for short reads lost much of their power on long-read counts, while two methods that model read-to-isoform assignment uncertainty held up best.",
-      "key_points": [
-        "Spike-in mixes at three known ratios give a ground truth for isoform switching.",
-        "False discovery rates were badly calibrated for most tools below 10 reads per isoform.",
-        "Results were consistent between nanopore direct cDNA and PacBio Kinnex libraries."
-      ],
-      "data": "GEO GSE000001 (example)",
-      "code": "github.com/example/dtu-bench",
+      "code": "",
       "figure": {
-        "src": "img/example-01.webp",
-        "caption": "Fig. 1 | F1 score for detecting isoform switches in the spike-in mixes, by tool and platform.",
-        "credit": "Example figure drawn for this preview",
-        "kind": "figure"
-      },
-      "tier": null
-    },
-    {
-      "id": "example-02",
-      "example": true,
-      "date_added": "2026-09-30",
-      "published": "2026-09-29",
-      "title": "Subcellular spatial transcriptomics maps tumour–stroma boundaries in bone sarcomas",
-      "authors": "Ferreira L, Han J, Achebe C, et al.",
-      "venue": "Nature Genetics",
-      "type": "Article",
-      "doi": "10.0000/example.02",
-      "url": "#",
-      "topics": [
-        "Spatial",
-        "Cancer"
-      ],
-      "summary": "Imaging-based spatial profiling of 41 resected bone tumours located a thin band of transitional cells at the tumour edge. These cells co-expressed matrix remodelling and hypoxia programs and were enriched in samples from patients who later relapsed.",
-      "key_points": [
-        "A 480-gene panel plus custom probes for sarcoma driver fusions.",
-        "Boundary cells were defined computationally by distance to stromal neighbours.",
-        "The boundary signature was checked against two public bulk RNA-seq cohorts."
-      ],
-      "data": "Zenodo (example)",
-      "code": "github.com/example/sarcoma-edge",
-      "figure": {
-        "src": "img/example-02.webp",
-        "caption": "Fig. 1 | Cells in one resected tumour section coloured by region: tumour, boundary band and stroma.",
-        "credit": "Example figure drawn for this preview",
-        "kind": "figure"
-      },
-      "tier": 1
-    },
-    {
-      "id": "example-03",
-      "example": true,
-      "date_added": "2026-09-29",
-      "published": "2026-09-27",
-      "title": "scVelo-free RNA velocity from metabolic labelling in a single sequencing run",
-      "authors": "Brandt K, Osei A, Liu W, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "doi": "10.0000/example.03",
-      "url": "#",
-      "topics": [
-        "Single-cell",
-        "Methods"
-      ],
-      "summary": "A combinatorial-indexing protocol that labels newly made RNA with 4sU lets the authors estimate transcription and decay rates per cell without relying on spliced and unspliced read ratios. The estimates agreed with time-course experiments better than splicing-based velocity.",
-      "key_points": [
-        "Works on fixed cells, so samples can be pooled across days.",
-        "T-to-C conversion calls are made with a new error model for low-coverage reads.",
-        "Velocity streams in haematopoiesis matched known lineage order."
-      ],
-      "data": "GEO GSE000003 (example)",
-      "code": "github.com/example/labelvelo",
-      "figure": {
-        "src": "img/example-03.svg",
         "kind": "illustration",
-        "caption": "Labelled (new) RNA carries T>C conversions; comparing new and total RNA gives a velocity arrow for each cell.",
+        "src": "img/10.47391_JPMA-7ANOS-ABS-35.svg",
+        "caption": "Schematic | Case report.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      },
-      "tier": null
+      }
     },
     {
-      "id": "example-04",
-      "example": true,
-      "date_added": "2026-09-29",
-      "published": "2026-09-24",
-      "title": "Exitron splicing creates recurrent neoantigens across 9,000 tumours",
-      "authors": "Moreau P, Iyer S, Takahashi R, et al.",
-      "venue": "Genome Research",
+      "id": "10.1016/j.ijrobp.2026.06.3078",
+      "date_added": "2026-10-01",
+      "published": "2026-09-25",
+      "title": "International Consensus Guidelines for Radiation Target Volume Delineation for Skull Base Chordoma - A Particle Therapy Co-operative Group Initiative",
+      "authors": "McDonald MW, Zhou J, Holtzman AL, et al.",
+      "venue": "Int J Radiat Oncol Biol Phys",
       "type": "Article",
-      "doi": "10.0000/example.04",
-      "url": "#",
+      "tier": null,
+      "doi": "10.1016/j.ijrobp.2026.06.3078",
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.06.3078",
       "topics": [
-        "Splicing",
-        "Cancer"
+        "Chordoma",
+        "Clinical"
       ],
-      "summary": "Re-analysis of pan-cancer RNA-seq found exitron splicing events that recur in specific tumour types and shift the reading frame. Several predicted peptides were detected by immunopeptidomics in matched samples.",
+      "summary": "Fifteen particle-therapy radiation oncologists contoured three skull base chordoma cases, and a modified Delphi process turned the overlap into consensus target-volume guidelines. Preoperative tumour volumes were contoured consistently, while residual disease varied most.",
       "key_points": [
-        "Exitron calls required support from split reads in at least 5% of samples per cancer type.",
-        "Frame-shifting exitrons were enriched in tumours with spliceosome mutations.",
-        "Peptide hits came from 38 samples with matched mass-spec data."
+        "Preoperative GTV agreement was highest (mean Dice 0.85); residual GTV was lowest (0.45).",
+        "Intermediate-dose CTV should cover the tumour bed plus the rest of the clivus with a median 5 mm margin.",
+        "High-dose CTV covers bone and mucosa of the primary tumour bed and any residual disease."
       ],
-      "data": "Controlled access (example)",
-      "code": "github.com/example/exitron-neo",
+      "data": "",
+      "code": "",
       "figure": {
-        "src": "img/example-04.svg",
         "kind": "illustration",
-        "caption": "An exitron inside a coding exon is spliced out, shifting the reading frame and producing a new peptide shown on MHC.",
+        "src": "img/10.1016_j.ijrobp.2026.06.3078.svg",
+        "caption": "Schematic | Skull base chordoma.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      },
-      "tier": 2
+      }
     },
     {
-      "id": "example-05",
-      "example": true,
-      "date_added": "2026-09-28",
-      "published": "2026-09-23",
-      "title": "A foundation model of full-length mRNA predicts isoform half-life",
-      "authors": "Weiss D, Nakamura Y, Petrov I, et al.",
+      "id": "10.3390/curroncol33090569",
+      "date_added": "2026-10-01",
+      "published": "2026-09-20",
+      "title": "Pre-Spondylectomy Radiofrequency Ablation for Spinal Chordoma: An Illustrative Case and Systematic Review of Clinical Applications and Outcomes",
+      "authors": "Husbands H, Johnston D, Tharakan M, et al.",
+      "venue": "Curr Oncol",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.3390/curroncol33090569",
+      "url": "https://doi.org/10.3390/curroncol33090569",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A systematic review of 13 studies (33 patients) found that thermal ablation, mostly cryoablation or RFA, has been used for spinal and sacral chordoma before resection, as primary treatment, or for palliation. The authors add an L4 case treated with RFA before staged en bloc spondylectomy.",
+      "key_points": [
+        "Most reports described pain relief and few major complications.",
+        "The L4 case had no new neurological deficit or recurrence at 18 months.",
+        "Evidence is sparse and heterogeneous; ablation should not replace en bloc resection when that is safe."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.3390_curroncol33090569.svg",
+        "caption": "Schematic | Review of 13 studies plus one case.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03224-5",
+      "date_added": "2026-10-01",
+      "published": "2026-09-30",
+      "title": "CytoVI: deep generative modeling of antibody-based single cell data",
+      "authors": "Ingelfinger F, et al.",
       "venue": "Nature Methods",
       "type": "Article",
-      "doi": "10.0000/example.05",
-      "url": "#",
-      "topics": [
-        "Machine learning",
-        "Long-read"
-      ],
-      "summary": "The model is trained on mature transcript sequences from many species and learns embeddings that separate isoforms of the same gene. A linear probe on these embeddings predicted mRNA half-life better than models trained on the 3′ UTR alone.",
-      "key_points": [
-        "Contrastive training pairs orthologous and paralogous transcripts.",
-        "Embeddings are released for every GENCODE transcript.",
-        "Gains were largest for genes with alternative last exons."
-      ],
-      "data": "Precomputed embeddings on Zenodo (example)",
-      "code": "github.com/example/mrna-fm",
-      "figure": {
-        "src": "img/example-05.svg",
-        "kind": "illustration",
-        "caption": "Full-length transcripts go through one encoder; the embeddings separate isoforms and predict mRNA half-life.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      },
-      "tier": 1
-    },
-    {
-      "id": "example-06",
-      "example": true,
-      "date_added": "2026-09-25",
-      "published": "2026-09-22",
-      "title": "Cell-type deconvolution of bulk RNA-seq is biased by tumour purity in ways reference choice cannot fix",
-      "authors": "Grant H, Oyelaran F, Zhou M, et al.",
-      "venue": "Genome Biology",
-      "type": "Article",
-      "doi": "10.0000/example.06",
-      "url": "#",
-      "topics": [
-        "Deconvolution",
-        "Benchmarking",
-        "Cancer"
-      ],
-      "summary": "Using pseudo-bulk mixtures built from single-cell atlases, the authors show that seven deconvolution methods over-estimate immune fractions in low-purity tumours. Swapping in tissue-matched references reduced but did not remove the bias.",
-      "key_points": [
-        "Bias scaled with how much the malignant cells resembled their tissue of origin.",
-        "Bayesian methods that model a tumour-specific expression profile performed best.",
-        "The authors provide a correction based on estimated purity."
-      ],
-      "data": "Public atlases only",
-      "code": "github.com/example/purity-bias",
-      "figure": {
-        "src": "img/example-06.svg",
-        "kind": "illustration",
-        "caption": "At low tumour purity, estimated immune fractions come out higher than the true fractions.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      },
-      "tier": 2
-    },
-    {
-      "id": "example-07",
-      "example": true,
-      "date_added": "2026-09-25",
-      "published": "2026-09-19",
-      "title": "Ultra-low-input total RNA-seq from single organoid crypts",
-      "authors": "Svensson A, Kariuki J, Romero C, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "doi": "10.0000/example.07",
-      "url": "#",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03224-5",
+      "url": "https://doi.org/10.1038/s41592-026-03224-5",
       "topics": [
         "Methods",
-        "Library prep"
-      ],
-      "summary": "A ribosomal-RNA depletion step that works on picogram inputs lets the authors capture non-polyadenylated RNA from individual organoid crypts. Intronic and histone mRNA reads gave a readout of cell-cycle stage that poly-A libraries miss.",
-      "key_points": [
-        "Depletion efficiency stayed above 95% down to 10 pg of input.",
-        "Library cost is estimated at under $4 per sample.",
-        "Protocol and plate layouts are on protocols.io."
-      ],
-      "data": "GEO GSE000007 (example)",
-      "code": "",
-      "tier": null
-    },
-    {
-      "id": "example-08",
-      "example": true,
-      "date_added": "2026-09-21",
-      "published": "2026-09-16",
-      "title": "Allele-specific expression in 2,300 human brains links eQTLs to isoform choice",
-      "authors": "Abara U, Novak M, Chen Y, et al.",
-      "venue": "Cell Genomics",
-      "type": "Article",
-      "doi": "10.0000/example.08",
-      "url": "#",
-      "topics": [
-        "Genetics",
-        "Splicing"
-      ],
-      "summary": "Phased long-read data from a subset of donors showed that many variants called as expression QTLs act by shifting which isoform is made, not how much of the gene is expressed.",
-      "key_points": [
-        "Haplotype-resolved isoforms from 180 donors anchored the short-read analysis.",
-        "About a third of eQTL genes had a matching isoform-ratio QTL.",
-        "Several hits overlap risk loci for psychiatric traits."
-      ],
-      "data": "dbGaP (example)",
-      "code": "github.com/example/ase-isoforms",
-      "figure": {
-        "src": "img/example-08.svg",
-        "kind": "illustration",
-        "caption": "Two haplotypes give the same total expression but favour different isoforms.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      },
-      "tier": 2
-    },
-    {
-      "id": "example-09",
-      "example": true,
-      "date_added": "2026-09-14",
-      "published": "2026-09-10",
-      "title": "Fast pseudoalignment for direct RNA nanopore reads with modification calls",
-      "authors": "Laine R, Mbeki T, Ortiz S, et al.",
-      "venue": "Bioinformatics",
-      "type": "Article",
-      "doi": "10.0000/example.09",
-      "url": "#",
-      "topics": [
-        "Long-read",
-        "Methods",
-        "Epitranscriptomics"
-      ],
-      "summary": "A k-mer index tolerant of nanopore error profiles quantifies transcripts from direct RNA reads about forty times faster than alignment. m6A calls are carried through so modification rates are reported per isoform.",
-      "key_points": [
-        "Runs on a laptop for a full flow cell.",
-        "Isoform quantification correlated at 0.94 with alignment-based counts.",
-        "Outputs a tidy table that reads straight into R."
-      ],
-      "data": "Public test data",
-      "code": "github.com/example/nanoquant",
-      "tier": 2
-    },
-    {
-      "id": "example-10",
-      "example": true,
-      "date_added": "2026-07-12",
-      "published": "2026-07-08",
-      "title": "Batch effects in multi-site single-cell atlases are dominated by dissociation time",
-      "authors": "Petersen L, Adeyemi K, Rossi G, et al.",
-      "venue": "Nature Biotechnology",
-      "type": "Article",
-      "doi": "10.0000/example.10",
-      "url": "#",
-      "topics": [
+        "Computational",
         "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "CytoVI is a probabilistic generative model for flow cytometry, mass cytometry and CITE-seq protein data. One model handles embedding, batch correction, imputation, differential protein testing and cell annotation.",
+      "key_points": [
+        "Used to build a B-cell maturation atlas covering 350 proteins.",
+        "Found disease-associated T-cell states in B-cell non-Hodgkin lymphoma.",
+        "Open source in scvi-tools."
+      ],
+      "data": "",
+      "code": "scvi-tools.org",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03224-5.svg",
+        "caption": "Schematic | Schematic of the method described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03212-9",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "ResolVI: addressing noise and bias in spatial transcriptomics",
+      "authors": "Ergen C, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03212-9",
+      "url": "https://doi.org/10.1038/s41592-026-03212-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "resolVI is a probabilistic model that runs after any cell segmentation tool on subcellular-resolution spatial data. It corrects molecule-to-cell misassignment, batch effects and other nuisance factors.",
+      "key_points": [
+        "Improves separation of cell states and detection of subtle spatial expression changes.",
+        "Works with any segmentation method.",
+        "Enables integration across spatial datasets."
+      ],
+      "data": "",
+      "code": "scvi-tools",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03212-9.svg",
+        "caption": "Schematic | Schematic of the method described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41556-026-02067-8",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "The dual-enhanced graph learning framework DePass allows paired data integration in single-cell and spatial multiomics",
+      "authors": "Li W, et al.",
+      "venue": "Nature Cell Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41556-026-02067-8",
+      "url": "https://doi.org/10.1038/s41556-026-02067-8",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Multi-omics",
         "Benchmarking"
       ],
-      "summary": "In a controlled design where the same tissues were processed at five sites, time from resection to dissociation explained more variance than site or chemistry. A stress-gene score predicted which samples integration methods would over-correct.",
+      "summary": "DePass is a graph-learning framework that couples denoising and integration for paired single-cell and spatial multi-omics. It was benchmarked on 6 modalities, 9 tissues and 13 platforms, and applied to in-house colorectal cancer data.",
       "key_points": [
-        "Dissociation time was logged to the minute for every sample.",
-        "Integration methods differed most in how they handled stressed cells.",
-        "The stress score is a 24-gene list released with the paper."
+        "Iterative denoise-and-integrate design.",
+        "Superior integration accuracy across a broad benchmark.",
+        "Revealed immune niche substructure and spatial heterogeneity in colorectal cancer."
       ],
-      "data": "CELLxGENE (example)",
-      "code": "github.com/example/dissoc-time",
-      "tier": 1
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41556-026-02067-8.svg",
+        "caption": "Schematic | Schematic of the method described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
     },
     {
-      "id": "example-11",
-      "example": true,
-      "date_added": "2026-07-05",
-      "published": "2026-07-01",
-      "title": "Targeted long-read sequencing of fusion transcripts from FFPE tissue",
-      "authors": "Haddad S, Kim E, Duarte F, et al.",
+      "id": "10.1038/s41588-026-02756-y",
+      "date_added": "2026-10-01",
+      "published": "2026-09-30",
+      "title": "ArchMap is a web-based platform for reference-based analysis of single-cell datasets",
+      "authors": "Lotfollahi M, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02756-y",
+      "url": "https://doi.org/10.1038/s41588-026-02756-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "ArchMap is a no-code web platform for mapping query single-cell data onto integrated reference atlases and annotating cell types automatically. It supports collaborative use and extension of atlases such as the Human Cell Atlas.",
+      "key_points": [
+        "Lowers the compute and expertise barrier to reference mapping.",
+        "Automated cell-type annotation against integrated references.",
+        "Reference atlases can be extended by users."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02756-y.svg",
+        "caption": "Schematic | Schematic of the platform described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-10836-6",
+      "date_added": "2026-10-01",
+      "published": "2026-09-23",
+      "title": "Single-nucleus transcriptome-wide association study of human brain disorders",
+      "authors": "Venkatesh S, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-10836-6",
+      "url": "https://doi.org/10.1038/s41586-026-10836-6",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "The authors built cell-type-specific models that impute genetically regulated expression from PsychAD single-nucleus data, then applied them to neuropsychiatric and neurodegenerative GWAS. The models revealed gene-trait associations that bulk tissue models miss.",
+      "key_points": [
+        "Thousands of associations were not visible in bulk-tissue TWAS.",
+        "Results were replicated across ancestries in the Million Veteran Program.",
+        "Purely computational, built on existing single-nucleus and GWAS data."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-10836-6.svg",
+        "caption": "Schematic | Schematic of the study described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02753-1",
+      "date_added": "2026-10-01",
+      "published": "2026-09-23",
+      "title": "Genetic factor analysis for characterizing phenome-wide patterns of genetic pleiotropy",
+      "authors": "Morrison J, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02753-1",
+      "url": "https://doi.org/10.1038/s41588-026-02753-1",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "Genetic factor analysis (GFA) is a multi-phenotype method that finds shared patterns of association across traits. It chooses the number of factors automatically, handles overlapping samples and allows non-orthogonal factors.",
+      "key_points": [
+        "Decomposed 22 coronary artery disease and type 2 diabetes risk factors into 15 pleiotropic components.",
+        "Improved multivariable Mendelian randomization.",
+        "Applied to blood-cell traits."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02753-1.svg",
+        "caption": "Schematic | Schematic of the method described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02758-w",
+      "date_added": "2026-10-01",
+      "published": "2026-09-30",
+      "title": "Single-cell profiling and genetic regulation of alternative polyadenylation in the human brain",
+      "authors": "Nan J, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02758-w",
+      "url": "https://doi.org/10.1038/s41588-026-02758-w",
+      "topics": [
+        "RNA biology",
+        "Single-cell",
+        "Isoforms",
+        "Multi-omics"
+      ],
+      "summary": "A single-cell atlas of alternative polyadenylation (APA) built from about 2 million cells across 379 aged human brains. Mapping cell-type 3'aQTLs for 4,288 genes linked 168 GWAS loci to 3' UTR choice.",
+      "key_points": [
+        "Only 17.5% of these GWAS loci are shared with eQTLs, so APA adds distinct information.",
+        "3'aQTLs colocalise with pQTLs more than eQTLs do.",
+        "The SNCA 3' UTR choice changes mRNA localisation."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02758-w.svg",
+        "caption": "Schematic | Schematic of the study described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/2159-8290.CD-25-1779",
+      "date_added": "2026-10-01",
+      "published": "2026-09-29",
+      "title": "Peripheral Blood as the Sole Source for Cancer Neoantigen and Reactive T-Cell Discovery",
+      "authors": "Garcia-Garijo A, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-25-1779",
+      "url": "https://doi.org/10.1158/2159-8290.CD-25-1779",
+      "topics": [
+        "Cancer genomics",
+        "Immuno-oncology",
+        "Clinical",
+        "Multi-omics"
+      ],
+      "summary": "Neoantigens were predicted from cell-free DNA exome sequencing, and reactive T cells were isolated from blood by PD-1/CD39 co-expression. In 8 patients the blood-only pipeline recovered most biopsy-derived neoantigens and found extra ones.",
+      "key_points": [
+        "Needs no tumour biopsy.",
+        "Roughly half of 69 metastatic patients may be eligible.",
+        "Combines cfDNA genomics with T-cell reactivity."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-25-1779.svg",
+        "caption": "Schematic | Schematic of the pipeline described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02745-1",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "Divergent medulloblastoma chromatin states disclose KDM2B as a selective dependency",
+      "authors": "Tao R, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02745-1",
+      "url": "https://doi.org/10.1038/s41588-026-02745-1",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Multi-omics"
+      ],
+      "summary": "Integrating histone marks, mutations, methylation and transcriptomes across medulloblastoma subgroups showed a bivalent enhancer state at neurodevelopmental promoters in Group 3/4. KDM2B emerged as a selective dependency.",
+      "key_points": [
+        "Aberrant KDM2B binding recruits PRC1 and PRC2 and represses neuronal differentiation.",
+        "Knockout or degradation of KDM2B suppresses growth in vitro and in vivo.",
+        "Combines new chromatin profiling with computational integration."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02745-1.svg",
+        "caption": "Schematic | Schematic of the study described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11048-8",
+      "date_added": "2026-10-01",
+      "published": "2026-09-23",
+      "title": "MMEJ repair of breaks at TA repeats maintains ecDNA and cancer fitness",
+      "authors": "Billing D, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11048-8",
+      "url": "https://doi.org/10.1038/s41586-026-11048-8",
+      "topics": [
+        "Cancer genomics",
+        "Structural variants",
+        "Copy number"
+      ],
+      "summary": "Inhibiting microhomology-mediated end joining (MMEJ) selectively depletes extrachromosomal DNA (ecDNA). TA-rich loci on ecDNA are break hotspots, protected by FANCM and repaired through ERCC1-ERCC4 and Pol theta.",
+      "key_points": [
+        "Single-cell whole-genome sequencing and human tumours show ecDNA rearrangement breakpoints at TA repeats.",
+        "Pol theta inhibition destabilises ecDNA.",
+        "Points to a therapeutic vulnerability of ecDNA-bearing cancers."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11048-8.svg",
+        "caption": "Schematic | Schematic of the finding described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.09.18.752791",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "PeakATail: precision-first poly(A)-site calling and calibrated alternative polyadenylation analysis in single-cell RNA-seq",
+      "authors": "Tabat AA, Zendeh EB, Kaymaz Y",
       "venue": "bioRxiv",
       "type": "Preprint",
-      "doi": "10.0000/example.11",
-      "url": "#",
+      "tier": null,
+      "doi": "10.64898/2026.09.18.752791",
+      "url": "https://doi.org/10.64898/2026.09.18.752791",
       "topics": [
-        "Long-read",
-        "Cancer",
-        "Library prep"
+        "RNA biology",
+        "Computational",
+        "Single-cell",
+        "Isoforms"
       ],
-      "summary": "Hybrid capture of fusion partner genes followed by nanopore sequencing recovered full-length fusion transcripts from archival FFPE blocks up to 15 years old, including breakpoints missed by a clinical short-read panel.",
+      "summary": "PeakATail calls polyadenylation sites from single-cell reads that still carry part of the poly(A) tail and ranks them by supporting molecules. It pairs them with a differential test whose false-positive rate was measured on shuffled labels.",
       "key_points": [
-        "Median read length from FFPE was about 900 bases after repair.",
-        "Detected 4 fusions missed by the clinical assay in 60 samples.",
-        "Full-length reads showed which fusion isoforms keep the kinase domain."
+        "71-83% of calls fall within 100 bases of a curated atlas.",
+        "Cell-type switches replicated across twelve lung cancer patients and none appeared in shuffled-label runs.",
+        "Built for precision, at a cost to sensitivity; one pre-registered target was missed."
       ],
-      "data": "SRA (example)",
+      "data": "",
       "code": "",
-      "tier": null
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.09.18.752791.svg",
+        "caption": "Schematic | Schematic of the method described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.09.21.753192",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "FlowMap: Geometry Dynamics Consistent Embedding of RNA Velocity for Interpretable Cellular Trajectories",
+      "authors": "Hu J, Singh H, Das J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.21.753192",
+      "url": "https://doi.org/10.64898/2026.09.21.753192",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "FlowMap jointly learns a low-dimensional manifold of gene expression and constrains RNA velocity to follow its local geometry. This gives coherent, denoised cellular trajectories.",
+      "key_points": [
+        "Recovers continuous progressions, branching, cycles and stable-like states.",
+        "Highlights genes and programs involved in development.",
+        "Extends to spatial transcriptomics."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.09.21.753192.svg",
+        "caption": "Schematic | Schematic of the method described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.09.20.752979",
+      "date_added": "2026-10-01",
+      "published": "2026-09-25",
+      "title": "Copy number signatures in targeted gene panels associate with patient outcomes in routine clinical data",
+      "authors": "Netz E, Moris C, Hasanovic A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.20.752979",
+      "url": "https://doi.org/10.64898/2026.09.20.752979",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Clinical"
+      ],
+      "summary": "Copy-number signatures were recovered from targeted gene panels in two real-world cohorts of 1,726 patients across 62 tumour types. They recapitulated genome-wide signature associations and tracked survival in ovarian, pancreatic and colorectal cancer.",
+      "key_points": [
+        "Links to homologous recombination deficiency and TP53 alterations were reproduced.",
+        "In ovarian cancer, CN2 tracked CCNE1 amplification and shorter survival under paclitaxel/carboplatin, validated in an independent SNP-array cohort.",
+        "The underlying data are public."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.09.20.752979.svg",
+        "caption": "Schematic | Schematic of the study described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.09.23.753593",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "Somatic DDX41 mutations confer neomorphic splicing activity in the pathogenesis of myelodysplastic neoplasms",
+      "authors": "Venkataraman R, Puccio N, Hsueh T-Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.23.753593",
+      "url": "https://doi.org/10.64898/2026.09.23.753593",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Cancer genomics"
+      ],
+      "summary": "Hotspot somatic DDX41 mutations (R525H, G530D) behave as gain-of-function alleles that drive widespread splicing changes, unlike germline mutations. DDX41-R525H binds RNA more tightly, and its aberrantly spliced targets overlap its binding.",
+      "key_points": [
+        "SEPTIN7 mis-splicing creates a premature stop codon and lowers protein level.",
+        "SEPTIN7 mis-splicing was seen in CD34+ cells only from patients with both germline and somatic DDX41 mutations.",
+        "Consistent across isogenic AML lines, mouse progenitors and patient cells."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.09.23.753593.svg",
+        "caption": "Schematic | Schematic of the finding described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.09.18.752546",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "Ultra-fast and scalable high-resolution full-length single-cell RNA sequencing using CHART-seq",
+      "authors": "Zhang W, Chen A, Ye K, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.18.752546",
+      "url": "https://doi.org/10.64898/2026.09.18.752546",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Isoforms"
+      ],
+      "summary": "CHART-seq uses orthogonally indexed Tn5 complexes on RNA/cDNA heteroduplexes so samples can be pooled early, up to 96 cells per library. Library prep takes about 3 hours at under US$1 per cell.",
+      "key_points": [
+        "Detected more genes and annotated isoforms than Smart-seq2, Smart-seq3, Flash-seq and SHERRY2 at matched depth.",
+        "Compatible with 384-well expansion.",
+        "The biological findings in vascular smooth muscle cells are exploratory (no independent replicates)."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.09.18.752546.svg",
+        "caption": "Schematic | Schematic of the method described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.09.18.752721",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "An open imaging and AI resource enabling unbiased quantification of extrachromosomal DNA at scale",
+      "authors": "Behnamie P, Summers R, Chen J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.18.752721",
+      "url": "https://doi.org/10.64898/2026.09.18.752721",
+      "topics": [
+        "Cancer genomics",
+        "Resource",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "The authors release 2,986 metaphase FISH image sets with manual annotations and benchmarks for ecDNA quantification. Comparing rule-based, deep-learning and probabilistic methods exposed count-dependent underestimation, which motivated the new method ecCount.",
+      "key_points": [
+        "ecCount reaches an object-level F1 of 0.939 on held-out images with minimal count bias.",
+        "Images, annotations, retrainable models and workflows are shared.",
+        "Mixed: new imaging data plus computational methods."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.09.18.752721.svg",
+        "caption": "Schematic | Schematic of the resource described in the abstract.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.03.09.710580",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "STAR Suite: Integrating transcriptomics through AI software engineering in the NIH MorPhiC consortium",
+      "authors": "Hung L-H, Yeung KY",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.03.09.710580",
+      "url": "https://doi.org/10.64898/2026.03.09.710580",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "STAR Suite folds trimming, feature-barcode assignment, probe handling, SLAM-seq analysis and quantification into the STAR codebase as a drop-in executable. It handles bulk RNA-seq, scRNA-seq, Perturb-seq, 10x Flex and SLAM-seq.",
+      "key_points": [
+        "Up to 41-fold faster than Cell Ranger 9.0.1 on Flex, with high concordance (gene-level correlation 0.98-1.0).",
+        "First open-source Perturb-seq feature-barcode processing at production scale, per the authors.",
+        "Built through a human-directed, AI-implemented workflow; MIT licence."
+      ],
+      "data": "",
+      "code": "MIT-licensed source (see paper)",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.03.09.710580.svg",
+        "caption": "Schematic | Schematic of the tool described in the abstract (revised version of a March preprint).",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.64898/2026.03.29.707813",
+      "date_added": "2026-10-01",
+      "published": "2026-09-24",
+      "title": "Evaluating the reliability of tools for mRNA annotation and IRES studies",
+      "authors": "May GE, Akirtava C, McManus J",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.03.29.707813",
+      "url": "https://doi.org/10.64898/2026.03.29.707813",
+      "topics": [
+        "RNA biology",
+        "Methods",
+        "Benchmarking"
+      ],
+      "summary": "The authors show that back-splicing circRNA plasmids create linear mRNA artifacts that give false-positive cellular IRES signals. Orthogonal assays validated with viral IRESes found no activity in putative cellular IRESes.",
+      "key_points": [
+        "smFISH and qRT-PCR can misidentify nuclear ncRNAs as mRNAs.",
+        "A single-molecule sequencing assay is validated for identifying mRNA 5' ends.",
+        "A response to proposed approaches for IRES studies."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.64898_2026.03.29.707813.svg",
+        "caption": "Schematic | Schematic of the study described in the abstract (revised version of a March preprint).",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
     }
   ]
 }

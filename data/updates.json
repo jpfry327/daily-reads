@@ -1,21 +1,212 @@
 {
   "updates": [
     {
-      "example": true,
-      "date": "2026-09-30T10:05:00Z",
-      "summary": "Example report showing the layout. A quiet day for journals; two strong preprints and one chordoma paper.",
-      "counts": { "journal": 2, "preprint": 1, "chordoma": 1, "removed": 0 },
+      "date": "2026-10-01T12:00:00Z",
+      "summary": "First real run (manual test). Added 10 Tier 1 journal papers (6 purely computational), 8 close-match preprints and 3 chordoma papers; removed all example posts and the example report.",
+      "counts": {
+        "journal": 10,
+        "preprint": 8,
+        "chordoma": 3,
+        "removed": 0
+      },
       "added": [
-        { "id": "example-02", "title": "Subcellular spatial transcriptomics maps tumour–stroma boundaries in bone sarcomas", "venue": "Nature Genetics", "tier": 1, "topic": "Cancer genomics" },
-        { "id": "example-01", "title": "Benchmarking eleven differential transcript usage tools on long-read RNA-seq with spike-in ground truth", "venue": "bioRxiv", "tier": null, "topic": "Methods" },
-        { "id": "example-12", "title": "Single-nucleus multiome of skull-base and sacral chordomas separates notochord-like and mesenchymal tumour states", "venue": "bioRxiv", "tier": null, "topic": "Chordoma" }
+        {
+          "id": "10.47391/JPMA-7ANOS-ABS-35",
+          "title": "En Bloc Resection of a Giant Sacrococcygeal Chordoma Presenting with Urinary Bladder Distension to the L4 Level: A Case Report",
+          "venue": "J Pak Med Assoc",
+          "tier": null,
+          "topic": "Chordoma"
+        },
+        {
+          "id": "10.1016/j.ijrobp.2026.06.3078",
+          "title": "International Consensus Guidelines for Radiation Target Volume Delineation for Skull Base Chordoma - A Particle Therapy Co-operative Group Initiative",
+          "venue": "Int J Radiat Oncol Biol Phys",
+          "tier": null,
+          "topic": "Chordoma"
+        },
+        {
+          "id": "10.3390/curroncol33090569",
+          "title": "Pre-Spondylectomy Radiofrequency Ablation for Spinal Chordoma: An Illustrative Case and Systematic Review of Clinical Applications and Outcomes",
+          "venue": "Curr Oncol",
+          "tier": null,
+          "topic": "Chordoma"
+        },
+        {
+          "id": "10.1038/s41592-026-03224-5",
+          "title": "CytoVI: deep generative modeling of antibody-based single cell data",
+          "venue": "Nature Methods",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41592-026-03212-9",
+          "title": "ResolVI: addressing noise and bias in spatial transcriptomics",
+          "venue": "Nature Methods",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41556-026-02067-8",
+          "title": "The dual-enhanced graph learning framework DePass allows paired data integration in single-cell and spatial multiomics",
+          "venue": "Nature Cell Biology",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41588-026-02756-y",
+          "title": "ArchMap is a web-based platform for reference-based analysis of single-cell datasets",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41586-026-10836-6",
+          "title": "Single-nucleus transcriptome-wide association study of human brain disorders",
+          "venue": "Nature",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41588-026-02753-1",
+          "title": "Genetic factor analysis for characterizing phenome-wide patterns of genetic pleiotropy",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41588-026-02758-w",
+          "title": "Single-cell profiling and genetic regulation of alternative polyadenylation in the human brain",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1158/2159-8290.CD-25-1779",
+          "title": "Peripheral Blood as the Sole Source for Cancer Neoantigen and Reactive T-Cell Discovery",
+          "venue": "Cancer Discovery",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41588-026-02745-1",
+          "title": "Divergent medulloblastoma chromatin states disclose KDM2B as a selective dependency",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41586-026-11048-8",
+          "title": "MMEJ repair of breaks at TA repeats maintains ecDNA and cancer fitness",
+          "venue": "Nature",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.18.752791",
+          "title": "PeakATail: precision-first poly(A)-site calling and calibrated alternative polyadenylation analysis in single-cell RNA-seq",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.09.21.753192",
+          "title": "FlowMap: Geometry Dynamics Consistent Embedding of RNA Velocity for Interpretable Cellular Trajectories",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.20.752979",
+          "title": "Copy number signatures in targeted gene panels associate with patient outcomes in routine clinical data",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.23.753593",
+          "title": "Somatic DDX41 mutations confer neomorphic splicing activity in the pathogenesis of myelodysplastic neoplasms",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.09.18.752546",
+          "title": "Ultra-fast and scalable high-resolution full-length single-cell RNA sequencing using CHART-seq",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.18.752721",
+          "title": "An open imaging and AI resource enabling unbiased quantification of extrachromosomal DNA at scale",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.03.09.710580",
+          "title": "STAR Suite: Integrating transcriptomics through AI software engineering in the NIH MorPhiC consortium",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.03.29.707813",
+          "title": "Evaluating the reliability of tools for mRNA annotation and IRES studies",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        }
       ],
       "skipped": [
-        { "title": "A splicing-factor knockdown study in one cell line", "reason": "Tier 2 journal, experimental, not a close match" },
-        { "title": "Review of spatial transcriptomics platforms", "reason": "review outside the review-journal list" }
+        {
+          "title": "Handling biological replicates in long-read RNA-seq (Nat Commun)",
+          "reason": "Tier 2 computational, close match, but the 10 journal-paper cap was filled by higher-ranked Tier 1 papers"
+        },
+        {
+          "title": "APALORD: long-read APA analysis in neurons (Nat Commun)",
+          "reason": "Tier 2, over the 10 journal-paper cap"
+        },
+        {
+          "title": "Dreamlet and crumblr single-cell statistics (Nat Commun)",
+          "reason": "Tier 2 computational, over the cap"
+        },
+        {
+          "title": "MYC-SRM pan-cancer chemoresistance signatures (Genome Med)",
+          "reason": "Tier 2 mixed, over the cap"
+        },
+        {
+          "title": "Population-scale immune multiome atlas (Nature)",
+          "reason": "Tier 1 but not purely computational and off the main topics"
+        },
+        {
+          "title": "TP53 mutant hijacks RBM28 splicing factor (Nat Commun)",
+          "reason": "Tier 2, mostly mechanistic bench work, not a close match"
+        },
+        {
+          "title": "ZC3H18 directs first intron splicing (Mol Cell)",
+          "reason": "Tier 1 experimental RNA biology, over the cap"
+        },
+        {
+          "title": "En bloc resection for primary malignant tumors of the subaxial cervical spine (Clin Spine Surg)",
+          "reason": "Chordoma only as a keyword within a general spine tumour series"
+        },
+        {
+          "title": "Mechanical complications after cervical en bloc spondylectomy (J Neurosurg Spine)",
+          "reason": "Half the cohort is chordoma but not chordoma-specific; borderline, left out"
+        },
+        {
+          "title": "Single-cell eQTL mapping without pseudobulking (bioRxiv)",
+          "reason": "Not a close match to a main topic"
+        }
       ],
       "notes": [
-        "Figure downloads were not possible, so all new posts use drawn illustrations."
+        "PubMed's get_copyright_status showed no CC BY or CC0 licence for any picked journal paper, and Figure 1 was not downloaded for any post, so all 21 posts use drawn illustrations. Three CC BY preprints (FlowMap, STAR Suite, IRES) could have used their own Figure 1.",
+        "Tier 1 [ta] searches match 'Nature' and 'Science' loosely (they also return Nat Ment Health and similar), so Tier 1 searches were narrowed by topic keywords to stay under PubMed's 20-operator limit.",
+        "The 10 journal-paper cap was reached by Tier 1 papers alone; several close Tier 2 papers (long-read replicate handling, APALORD, Dreamlet) were left out for that reason.",
+        "Unclear in the rules: whether revised old preprints (STAR Suite, IRES tools, first posted in March) count as new; they were posted because their DOIs were never posted before. Also unclear whether papers with chordoma as a minor part of a general spine series count as chordoma.",
+        "Journal authors are shown as first author et al. only. No chordoma preprints were found this week.",
+        "Quirk: the featured list was chosen as three Tier 1 cancer/RNA papers from the last 7 days."
       ]
     }
   ]
