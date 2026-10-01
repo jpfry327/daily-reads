@@ -366,12 +366,15 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     if (p.figure && p.figure.src) {
       return `<a class="${cls} has-fig" href="${href}" target="_blank" rel="noopener" tabindex="-1" data-cover="${esc(p.id)}"><img src="${esc(p.figure.src)}" alt="${esc(p.figure.caption || "Figure")}" loading="lazy"></a>`;
     }
+    // Only featured posts get a picture. In the list, a post without one has no thumbnail;
+    // the featured row still draws generated art so its layout holds.
+    if (cls === "thumb") return "";
     return `<a class="${cls}" href="${href}" target="_blank" rel="noopener" tabindex="-1">${cover(p)}</a>`;
   }
   function wireImages(root) {
     root.querySelectorAll("[data-cover] img").forEach((img) => img.addEventListener("error", () => {
       const box = img.parentElement, p = byId(box.dataset.cover);
-      if (box.tagName === "FIGURE") { box.hidden = true; return; }
+      if (box.tagName === "FIGURE" || box.classList.contains("thumb")) { box.remove(); return; }
       box.classList.remove("has-fig"); box.innerHTML = p ? cover(p) : "";
     }, { once: true }));
   }

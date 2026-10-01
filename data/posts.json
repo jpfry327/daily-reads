@@ -30,13 +30,7 @@
         "No recurrence at one-year follow-up."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.47391_JPMA-7ANOS-ABS-35.svg",
-        "caption": "Schematic | Case report.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.1016/j.ijrobp.2026.06.3078",
@@ -60,13 +54,7 @@
         "High-dose CTV covers bone and mucosa of the primary tumour bed and any residual disease."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1016_j.ijrobp.2026.06.3078.svg",
-        "caption": "Schematic | Skull base chordoma.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.3390/curroncol33090569",
@@ -90,13 +78,7 @@
         "Evidence is sparse and heterogeneous; ablation should not replace en bloc resection when that is safe."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.3390_curroncol33090569.svg",
-        "caption": "Schematic | Review of 13 studies plus one case.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.1038/s41592-026-03224-5",
@@ -122,13 +104,7 @@
         "Open source in scvi-tools."
       ],
       "data": "",
-      "code": "scvi-tools.org",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1038_s41592-026-03224-5.svg",
-        "caption": "Schematic | Schematic of the method described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": "scvi-tools.org"
     },
     {
       "id": "10.1038/s41592-026-03212-9",
@@ -154,13 +130,7 @@
         "Enables integration across spatial datasets."
       ],
       "data": "",
-      "code": "scvi-tools",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1038_s41592-026-03212-9.svg",
-        "caption": "Schematic | Schematic of the method described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": "scvi-tools"
     },
     {
       "id": "10.1038/s41556-026-02067-8",
@@ -186,13 +156,7 @@
         "Revealed immune niche substructure and spatial heterogeneity in colorectal cancer."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1038_s41556-026-02067-8.svg",
-        "caption": "Schematic | Schematic of the method described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.1038/s41588-026-02756-y",
@@ -218,13 +182,7 @@
         "Reference atlases can be extended by users."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1038_s41588-026-02756-y.svg",
-        "caption": "Schematic | Schematic of the platform described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.1038/s41586-026-10836-6",
@@ -250,13 +208,7 @@
         "Purely computational, built on existing single-nucleus and GWAS data."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1038_s41586-026-10836-6.svg",
-        "caption": "Schematic | Schematic of the study described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.1038/s41588-026-02753-1",
@@ -281,13 +233,7 @@
         "Applied to blood-cell traits."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1038_s41588-026-02753-1.svg",
-        "caption": "Schematic | Schematic of the method described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.1038/s41588-026-02758-w",
@@ -317,7 +263,7 @@
       "figure": {
         "kind": "illustration",
         "src": "img/10.1038_s41588-026-02758-w.svg",
-        "caption": "Schematic | Schematic of the study described in the abstract.",
+        "caption": "A 3′aQTL changes which poly(A) site is used, mapped per brain cell type; these GWAS loci overlap little with eQTLs.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
       }
     },
@@ -345,13 +291,7 @@
         "Combines cfDNA genomics with T-cell reactivity."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.1158_2159-8290.CD-25-1779.svg",
-        "caption": "Schematic | Schematic of the pipeline described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.1038/s41588-026-02745-1",
@@ -380,7 +320,7 @@
       "figure": {
         "kind": "illustration",
         "src": "img/10.1038_s41588-026-02745-1.svg",
-        "caption": "Schematic | Schematic of the study described in the abstract.",
+        "caption": "KDM2B binds bivalent neuronal promoters in Group 3/4 tumours and recruits PRC1/PRC2; losing KDM2B slows growth.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
       }
     },
@@ -411,7 +351,7 @@
       "figure": {
         "kind": "illustration",
         "src": "img/10.1038_s41586-026-11048-8.svg",
-        "caption": "Schematic | Schematic of the finding described in the abstract.",
+        "caption": "Breaks at TA repeats on ecDNA are repaired by MMEJ; blocking Pol θ loses the ecDNA and the cells' growth advantage.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
       }
     },
@@ -439,13 +379,7 @@
         "Built for precision, at a cost to sensitivity; one pre-registered target was missed."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.09.18.752791.svg",
-        "caption": "Schematic | Schematic of the method described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.64898/2026.09.21.753192",
@@ -471,13 +405,7 @@
         "Extends to spatial transcriptomics."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.09.21.753192.svg",
-        "caption": "Schematic | Schematic of the method described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.64898/2026.09.20.752979",
@@ -503,13 +431,7 @@
         "The underlying data are public."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.09.20.752979.svg",
-        "caption": "Schematic | Schematic of the study described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.64898/2026.09.23.753593",
@@ -533,13 +455,7 @@
         "Consistent across isogenic AML lines, mouse progenitors and patient cells."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.09.23.753593.svg",
-        "caption": "Schematic | Schematic of the finding described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.64898/2026.09.18.752546",
@@ -564,13 +480,7 @@
         "The biological findings in vascular smooth muscle cells are exploratory (no independent replicates)."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.09.18.752546.svg",
-        "caption": "Schematic | Schematic of the method described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.64898/2026.09.18.752721",
@@ -596,13 +506,7 @@
         "Mixed: new imaging data plus computational methods."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.09.18.752721.svg",
-        "caption": "Schematic | Schematic of the resource described in the abstract.",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     },
     {
       "id": "10.64898/2026.03.09.710580",
@@ -628,13 +532,7 @@
         "Built through a human-directed, AI-implemented workflow; MIT licence."
       ],
       "data": "",
-      "code": "MIT-licensed source (see paper)",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.03.09.710580.svg",
-        "caption": "Schematic | Schematic of the tool described in the abstract (revised version of a March preprint).",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": "MIT-licensed source (see paper)"
     },
     {
       "id": "10.64898/2026.03.29.707813",
@@ -658,13 +556,7 @@
         "A response to proposed approaches for IRES studies."
       ],
       "data": "",
-      "code": "",
-      "figure": {
-        "kind": "illustration",
-        "src": "img/10.64898_2026.03.29.707813.svg",
-        "caption": "Schematic | Schematic of the study described in the abstract (revised version of a March preprint).",
-        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      "code": ""
     }
   ]
 }

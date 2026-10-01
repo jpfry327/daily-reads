@@ -1,21 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
-<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8z" fill="#8A949E"/></marker></defs>
-<rect width="640" height="400" fill="#ffffff"/>
-<text x="320" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B3138">Medulloblastoma chromatin states</text>
-<rect x="40" y="90" width="166" height="78" rx="10" fill="#1E5FA8" opacity="0.12" stroke="#1E5FA8" stroke-width="2"/>
-<text x="123.0" y="120" text-anchor="middle" font-size="15" fill="#2B3138">Histone marks and</text>
-<text x="123.0" y="138" text-anchor="middle" font-size="15" fill="#2B3138">methylation</text>
-<line x1="210" y1="129" x2="232" y2="129" stroke="#8A949E" stroke-width="2.5" marker-end="url(#a)"/>
-<rect x="236" y="90" width="166" height="78" rx="10" fill="#3C9A2E" opacity="0.12" stroke="#3C9A2E" stroke-width="2"/>
-<text x="319.0" y="129" text-anchor="middle" font-size="15" fill="#2B3138">Chromatin states</text>
-<line x1="406" y1="129" x2="428" y2="129" stroke="#8A949E" stroke-width="2.5" marker-end="url(#a)"/>
-<rect x="432" y="90" width="166" height="78" rx="10" fill="#D98A00" opacity="0.12" stroke="#D98A00" stroke-width="2"/>
-<text x="515.0" y="129" text-anchor="middle" font-size="15" fill="#2B3138">KDM2B dependency</text>
-<path d="M110 265 q10 -40 60 -30 q40 -25 80 5 q50 -5 40 40 q-20 35 -70 25 q-50 15 -90 -5 q-35 -10 -20 -35z" fill="#C8323F" opacity="0.8"/>
-<circle cx="330" cy="260" r="14" fill="#3C9A2E" opacity="0.85"/>
-<circle cx="380" cy="260" r="14" fill="#1E5FA8" opacity="0.85"/>
-<circle cx="430" cy="260" r="14" fill="#3C9A2E" opacity="0.85"/>
-<circle cx="480" cy="260" r="14" fill="#1E5FA8" opacity="0.85"/>
-<circle cx="530" cy="260" r="14" fill="#3C9A2E" opacity="0.85"/>
-<text x="320" y="360" text-anchor="middle" font-size="15" fill="#8A949E">Schematic of the study described in the abstract</text>
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#2B3138">KDM2B locks neuronal genes off</text>
+<!-- DNA with nucleosomes -->
+<line x1="30" y1="250" x2="430" y2="250" stroke="#8A949E" stroke-width="4"/>
+<g fill="#8A949E" fill-opacity="0.25" stroke="#8A949E" stroke-width="2">
+<ellipse cx="80" cy="250" rx="30" ry="22"/><ellipse cx="160" cy="250" rx="30" ry="22"/><ellipse cx="300" cy="250" rx="30" ry="22"/><ellipse cx="380" cy="250" rx="30" ry="22"/>
+</g>
+<!-- bivalent marks -->
+<g stroke-width="3"><line x1="72" y1="228" x2="66" y2="208" stroke="#3C9A2E"/><line x1="160" y1="228" x2="160" y2="208" stroke="#3C9A2E"/><line x1="88" y1="228" x2="94" y2="208" stroke="#C8323F"/><line x1="300" y1="228" x2="300" y2="208" stroke="#C8323F"/><line x1="380" y1="228" x2="380" y2="208" stroke="#C8323F"/></g>
+<g><circle cx="66" cy="204" r="6" fill="#3C9A2E"/><circle cx="160" cy="204" r="6" fill="#3C9A2E"/><circle cx="94" cy="204" r="6" fill="#C8323F"/><circle cx="300" cy="204" r="6" fill="#C8323F"/><circle cx="380" cy="204" r="6" fill="#C8323F"/></g>
+<text x="30" y="300" font-size="14" fill="#3C9A2E">● active mark</text><text x="140" y="300" font-size="14" fill="#C8323F">● repressive mark</text>
+<text x="230" y="330" text-anchor="middle" font-size="15" fill="#2B3138">bivalent neuronal promoter</text>
+<!-- KDM2B + PRC -->
+<rect x="196" y="218" width="68" height="30" rx="8" fill="#1E5FA8"/><text x="230" y="238" text-anchor="middle" font-size="14" fill="#fff" font-weight="700">KDM2B</text>
+<circle cx="208" cy="168" r="24" fill="#D98A00"/><text x="208" y="173" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">PRC1</text>
+<circle cx="258" cy="150" r="24" fill="#D98A00" fill-opacity="0.8"/><text x="258" y="155" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">PRC2</text>
+<path d="M230 216 L224 194" stroke="#2B3138" stroke-width="2" marker-end="url(#ar)"/>
+<!-- gene off arrow -->
+<path d="M410 200 L410 170 L470 170" fill="none" stroke="#8A949E" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="428" y1="156" x2="452" y2="184" stroke="#C8323F" stroke-width="4"/><line x1="452" y1="156" x2="428" y2="184" stroke="#C8323F" stroke-width="4"/>
+<text x="440" y="140" text-anchor="middle" font-size="14" fill="#2B3138">no differentiation</text>
+<!-- growth panel -->
+<line x1="500" y1="350" x2="610" y2="350" stroke="#2B3138" stroke-width="2"/><line x1="500" y1="350" x2="500" y2="230" stroke="#2B3138" stroke-width="2"/>
+<path d="M502 340 C540 330 570 290 606 240" fill="none" stroke="#1E5FA8" stroke-width="4"/>
+<path d="M502 340 C540 338 575 332 606 326" fill="none" stroke="#C8323F" stroke-width="4" stroke-dasharray="8 5"/>
+<text x="555" y="222" text-anchor="middle" font-size="14" fill="#2B3138">tumour growth</text>
+<text x="470" y="392" font-size="13" fill="#1E5FA8">— control</text>
+<text x="540" y="392" font-size="13" fill="#C8323F">‒ ‒ KDM2B lost</text>
+<text x="555" y="368" text-anchor="middle" font-size="13" fill="#8A949E">time</text>
 </svg>

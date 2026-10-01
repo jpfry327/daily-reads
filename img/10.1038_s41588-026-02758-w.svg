@@ -1,24 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
-<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8z" fill="#8A949E"/></marker></defs>
-<rect width="640" height="400" fill="#ffffff"/>
-<text x="320" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#2B3138">Alternative polyadenylation in brain</text>
-<rect x="40" y="90" width="166" height="78" rx="10" fill="#1E5FA8" opacity="0.12" stroke="#1E5FA8" stroke-width="2"/>
-<text x="123.0" y="120" text-anchor="middle" font-size="15" fill="#2B3138">Single-cell brain</text>
-<text x="123.0" y="138" text-anchor="middle" font-size="15" fill="#2B3138">data</text>
-<line x1="210" y1="129" x2="232" y2="129" stroke="#8A949E" stroke-width="2.5" marker-end="url(#a)"/>
-<rect x="236" y="90" width="166" height="78" rx="10" fill="#3C9A2E" opacity="0.12" stroke="#3C9A2E" stroke-width="2"/>
-<text x="319.0" y="129" text-anchor="middle" font-size="15" fill="#2B3138">3&#x27; UTR choice</text>
-<line x1="406" y1="129" x2="428" y2="129" stroke="#8A949E" stroke-width="2.5" marker-end="url(#a)"/>
-<rect x="432" y="90" width="166" height="78" rx="10" fill="#D98A00" opacity="0.12" stroke="#D98A00" stroke-width="2"/>
-<text x="515.0" y="129" text-anchor="middle" font-size="15" fill="#2B3138">3&#x27;aQTL mapping</text>
-<rect x="90" y="245" width="60" height="26" rx="3" fill="#1E5FA8"/>
-<rect x="200" y="245" width="60" height="26" rx="3" fill="#D98A00"/>
-<rect x="310" y="245" width="60" height="26" rx="3" fill="#1E5FA8"/>
-<rect x="420" y="245" width="60" height="26" rx="3" fill="#D98A00"/>
-<rect x="530" y="245" width="60" height="26" rx="3" fill="#1E5FA8"/>
-<path d="M150 245 Q175.0 215 200 245" fill="none" stroke="#8A949E" stroke-width="2"/>
-<path d="M260 245 Q285.0 215 310 245" fill="none" stroke="#8A949E" stroke-width="2"/>
-<path d="M370 245 Q395.0 215 420 245" fill="none" stroke="#8A949E" stroke-width="2"/>
-<path d="M150 271 Q 260 305 420 271" fill="none" stroke="#C8323F" stroke-width="2" stroke-dasharray="5 4"/>
-<text x="320" y="360" text-anchor="middle" font-size="15" fill="#8A949E">Schematic of the study described in the abstract</text>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#2B3138">A variant shifts 3′ UTR length</text>
+<!-- gene model -->
+<rect x="40" y="84" width="150" height="26" rx="4" fill="#1E5FA8"/><text x="115" y="102" text-anchor="middle" font-size="14" fill="#fff">coding</text>
+<rect x="190" y="90" width="330" height="14" rx="3" fill="#8A949E" fill-opacity="0.5"/>
+<text x="355" y="130" text-anchor="middle" font-size="14" fill="#8A949E">3′ UTR</text>
+<g font-size="13" fill="#2B3138" text-anchor="middle"><line x1="290" y1="78" x2="290" y2="116" stroke="#D98A00" stroke-width="3"/><text x="290" y="72">proximal pA</text><line x1="520" y1="78" x2="520" y2="116" stroke="#D98A00" stroke-width="3"/><text x="520" y="72">distal pA</text></g>
+<circle cx="250" cy="97" r="9" fill="#C8323F"/><text x="250" y="148" text-anchor="middle" font-size="13" fill="#C8323F">3′aQTL</text>
+<!-- allele rows -->
+<text x="40" y="196" font-size="15" fill="#2B3138" font-weight="700">allele A</text>
+<rect x="120" y="182" width="70" height="20" rx="3" fill="#1E5FA8"/><rect x="190" y="186" width="100" height="12" rx="2" fill="#8A949E" fill-opacity="0.6"/>
+<text x="300" y="197" font-size="13" fill="#2B3138">short</text>
+<text x="40" y="240" font-size="15" fill="#2B3138" font-weight="700">allele G</text>
+<rect x="120" y="226" width="70" height="20" rx="3" fill="#1E5FA8"/><rect x="190" y="230" width="330" height="12" rx="2" fill="#8A949E" fill-opacity="0.6"/>
+<text x="530" y="241" font-size="13" fill="#2B3138">long</text>
+<!-- cell types panel -->
+<text x="40" y="300" font-size="15" fill="#2B3138">Mapped in each cell type</text>
+<g font-size="13" fill="#2B3138" text-anchor="middle">
+<circle cx="80" cy="346" r="22" fill="#3C9A2E" fill-opacity="0.85"/><text x="80" y="388">neurons</text>
+<circle cx="190" cy="346" r="22" fill="#D98A00" fill-opacity="0.85"/><text x="190" y="388">astrocytes</text>
+<circle cx="300" cy="346" r="22" fill="#1E5FA8" fill-opacity="0.85"/><text x="300" y="388">microglia</text>
+</g>
+<circle cx="450" cy="335" r="42" fill="#8A949E" fill-opacity="0.25" stroke="#8A949E" stroke-width="2"/>
+<circle cx="520" cy="335" r="42" fill="#C8323F" fill-opacity="0.2" stroke="#C8323F" stroke-width="2"/>
+<text x="438" y="340" text-anchor="middle" font-size="14" fill="#2B3138">eQTL</text>
+<text x="528" y="340" text-anchor="middle" font-size="14" fill="#C8323F">3′aQTL</text>
+<text x="485" y="285" text-anchor="middle" font-size="13" fill="#2B3138">GWAS loci: little overlap</text>
 </svg>
