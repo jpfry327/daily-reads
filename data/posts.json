@@ -327,7 +327,7 @@
       ],
       "data": "Public test data",
       "code": "github.com/example/nanoquant",
-      "tier": null
+      "tier": 2
     },
     {
       "id": "example-10",

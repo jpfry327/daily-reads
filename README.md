@@ -51,8 +51,8 @@ img/              one picture per post: Figure 1 (.webp) or Claude's illustratio
 - `id`: use the DOI so the same paper is never added twice.
 - `date_added`: the day the task added it. The 90-day clock uses this, and the list is sorted by it.
 - `type`: `Preprint` or `Article`. Anything from bioRxiv/medRxiv is shown as a preprint.
-- `tier`: `1` or `2` for journal papers, from the journal tiers in `config/interests.md`. `null` for preprints and for chordoma papers from other journals.
-- `topics`: the main topic first (`Chordoma`, `Cancer genomics`, `RNA biology` or `Methods`), then up to 3 tags. Only use names listed in `config/interests.md`.
+- `tier`: `1`, `2` or `"review"` for journal papers, from the journal lists in `config/interests.md`. `null` for preprints and for chordoma papers from other journals.
+- `topics`: the main topic first (`Chordoma`, `Cancer genomics`, `RNA biology` or `Methods`), then up to 3 tags. Purely computational papers always include the `Computational` tag. Only use names listed in `config/interests.md`.
 - `data`, `code`: optional. Leave as `""` if the paper doesn't say.
 - `featured`: ids of the 3 posts shown at the top of the front page. Pick them from journal papers added in the last 7 days, Tier 1 first, never preprints or chordoma posts. If the list has fewer than 3 usable ids, the page fills the rest with the newest journal papers. Featured posts are left out of the list below them so they don't appear twice.
 
@@ -70,7 +70,7 @@ Read `config/interests.md` first. It decides what counts and how many to post.
 
 1. Look back **7 days** (from 7 days before today up to today), not just since the last run.
 2. Find journal papers with the **PubMed connector** (`mcp__PubMed__*` tools):
-   - Run the searches listed in `config/interests.md`: one per main topic, limited to the Tier 1 and Tier 2 journals with `[ta]`, plus `chordoma` with no journal limit.
+   - Run the searches listed in `config/interests.md`: one per main topic, limited to the Tier 1 and Tier 2 journals with `[ta]`, the review journals with `Review[pt]`, the Tier 1 computational search, and `chordoma` with no journal limit.
    - Use `datetype: "edat"` (the date PubMed added the paper) and page with `retstart` until every result has been read.
    - Get metadata (abstract, DOI, journal) with `get_article_metadata`, and check reuse with `get_copyright_status`.
 3. Find preprints with the **bioRxiv connector** (`mcp__bioRxiv__*` tools), not the raw bioRxiv API:
