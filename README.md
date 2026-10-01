@@ -55,16 +55,17 @@ img/              one picture per post: Figure 1 (.webp) or Claude's illustratio
 - `tier`: `1`, `2` or `"review"` for journal papers, from the journal lists in `config/interests.md`. `null` for preprints and for chordoma papers from other journals.
 - `topics`: the main topic first (`Chordoma`, `Cancer genomics`, `RNA biology` or `Methods`), then up to 3 tags. Purely computational papers always include the `Computational` tag. Only use names listed in `config/interests.md`.
 - `data`, `code`: optional. Leave as `""` if the paper doesn't say.
-- `featured`: ids of the 3 posts shown at the top of the front page. Pick them from the journal papers added in this run, Tier 1 first, never preprints or chordoma posts. If this run added fewer than 3, keep the most recent earlier featured posts to fill the rest. Only featured posts get a picture (step 7). If the list has fewer than 3 usable ids, the page fills the rest with the newest journal papers. Featured posts are left out of the list below them so they don't appear twice.
+- `featured`: ids of the 3 posts shown at the top of the front page. Pick them from the Tier 1 research papers added in this run (not reviews, preprints or chordoma posts). If this run added fewer than 3, keep the most recent earlier featured posts to fill the rest. Only featured posts get a picture (step 7). If the list has fewer than 3 usable ids, the page fills the rest with the newest Tier 1 posts. Featured posts are left out of the list below them so they don't appear twice.
 
 ## What the page shows
 
-- **Home**: 3 featured journal papers, then the list. Journal papers only, and no chordoma posts. Preprints appear only when the reader picks "Preprints" (or "Both") under "Show".
+- **Tier 1** tab (the front page): the 3 featured posts, then Tier 1 research papers and reviews.
+- **Tier 2** tab: Tier 2 journal papers. Preprints appear here when the reader picks "Preprints" (or "Both") under "Show".
 - **Chordoma** tab: every chordoma post, journal papers and preprints alike.
 - **Update** tab: the reports from `data/updates.json`, newest first.
 - **Saved** tab: everything the reader saved.
-- `figure`: the post's picture. Only featured posts have one; leave it out for every other post. `kind` is `"figure"` for the paper's own Figure 1 or `"illustration"` for an SVG Claude drew. For an illustration, set `credit` to `"Illustration drawn by Claude from the abstract, not a figure from the paper"`. In the list, a post without a `figure` (or whose file fails to load) shows no thumbnail. In the featured row, the page draws a simple topic picture instead.
-- `example`: only on the sample posts. Delete those posts on the first real run.
+
+A post's tab follows from its fields: `Chordoma` in `topics` puts it in Chordoma; otherwise `tier` 1 or `"review"` puts it in Tier 1; everything else (Tier 2 and preprints) goes in Tier 2.
 
 ## What the scheduled task does each run
 
@@ -72,7 +73,7 @@ Read `config/interests.md` first. It decides what counts and how many to post.
 
 1. Look back **7 days** (from 7 days before today up to today), not just since the last run.
 2. Find journal papers with the **PubMed connector** (`mcp__PubMed__*` tools):
-   - Run the searches listed in `config/interests.md`: one per main topic, limited to the Tier 1 and Tier 2 journals with `[ta]`, the review journals with `Review[pt]`, the Tier 1 computational search, and `chordoma` with no journal limit.
+   - Run the 7 searches listed in `config/interests.md` exactly as written (PubMed allows at most 20 boolean operators per query).
    - Use `datetype: "edat"` (the date PubMed added the paper) and page with `retstart` until every result has been read.
    - Get metadata (abstract, DOI, journal) with `get_article_metadata`, and check reuse with `get_copyright_status`.
 3. Find preprints with the **bioRxiv connector** (`mcp__bioRxiv__*` tools), not the raw bioRxiv API:
@@ -83,7 +84,7 @@ Read `config/interests.md` first. It decides what counts and how many to post.
    - Call `get_preprint` on each shortlisted DOI for the full abstract, license and published-journal DOI before deciding.
    - DOIs use either the `10.1101/` or the newer `10.64898/` prefix. Both are valid.
    - If a preprint has since been published in a journal, post the journal version instead (if it qualifies) and skip the preprint.
-4. Skip any DOI already in `posts.json`. Apply the rules and limits in `config/interests.md`: tier rules for journals, close-match rule for preprints, at most 10 journal papers and 10 preprints per run, no limit on chordoma. Zero is fine.
+4. Skip any DOI already in `posts.json`. Apply the rules and limits in `config/interests.md`: tier rules for journals, close-match rule for preprints, per-tab limits (Tier 1: 10; Tier 2: 10 journal papers plus 10 preprints; Chordoma: 10). Zero is fine.
 5. Write `summary`, `key_points`, `topics`, `tier`, `data` and `code` for each new paper.
 6. Pick 3 journal papers from the last 7 days for `featured` (see above).
 7. Give a picture to **the 3 featured posts only**. No other post gets a `figure`. The page shows posts without one with no thumbnail, so over time a picture marks a paper that was featured. A post that already has a picture from an earlier run keeps it.
@@ -107,13 +108,13 @@ Read `config/interests.md` first. It decides what counts and how many to post.
     {
       "date": "2026-10-02T10:05:00Z",
       "summary": "One or two sentences on the run.",
-      "counts": { "journal": 0, "preprint": 0, "chordoma": 0, "removed": 0 },
+      "counts": { "tier1": 0, "tier2": 0, "preprint": 0, "chordoma": 0, "removed": 0 },
       "added": [{ "id": "<post id>", "title": "...", "venue": "...", "tier": 1, "topic": "<main topic>" }],
       "skipped": [{ "title": "...", "reason": "one line" }],
       "notes": ["anything unclear in the rules, missing tools, failed downloads"]
     }
     ```
-    `skipped` holds at most 10 of the closest misses. `counts.chordoma` counts chordoma posts separately; they are not also counted under `journal` or `preprint`. `removed` is the number of posts the 90-day cleanup deleted.
+    `skipped` holds at most 10 of the closest misses. Each post is counted once, under its tab: `tier1`, `tier2` (Tier 2 journal papers), `preprint` (non-chordoma preprints) or `chordoma`. `removed` is the number of posts the 90-day cleanup deleted.
 11. Set `updated` in `posts.json` to now, check that `updates.json` is valid JSON, commit, and push.
 
 The page also hides posts older than `retention_days`, so the feed stays correct even if a cleanup run is missed.

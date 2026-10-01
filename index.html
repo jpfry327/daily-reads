@@ -252,7 +252,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   const NT = ["--nt-a", "--nt-c", "--nt-g", "--nt-t"];
   const today = startOfDay(new Date());
 
-  const state = { view: "home", topic: null, kind: "peer", q: "", shown: PAGE, open: new Set() };
+  const state = { view: "tier1", topic: null, kind: "all", q: "", shown: PAGE, open: new Set() };
   let posts = [], updates = [], retention = 90, featuredIds = [], saved = loadSaved();
 
   const $ = (id) => document.getElementById(id);
@@ -383,12 +383,22 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   const ICON_SAVE = '<svg width="12" height="12" viewBox="0 0 24 24" fill="FILL" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>';
 
   function isChordoma(p) { return (p.topics || []).includes("Chordoma"); }
+  function isTier1(p) { return !isChordoma(p) && !isPre(p) && (p.tier === 1 || p.tier === "review"); }
+  // The three main tabs. `kind` is the tab's default for the Journals/Preprints switch (null: no switch).
+  const TABS = {
+    tier1: { label: "Tier 1", kind: null, test: isTier1, note: "Tier 1 journals and review journals" },
+    tier2: { label: "Tier 2", kind: "peer", test: (p) => !isChordoma(p) && !isTier1(p), note: "Tier 2 journals; preprints under Show" },
+    chordoma: { label: "Chordoma", kind: "all", test: isChordoma, note: "any journal, and preprints" },
+  };
+  function defaultKind(view) { return TABS[view] ? TABS[view].kind || "all" : "all"; }
+  function hasKindSwitch() { return state.view === "saved" || (TABS[state.view] && TABS[state.view].kind !== null); }
+  function tabPosts() { return TABS[state.view] ? posts.filter(TABS[state.view].test) : state.view === "saved" ? Object.values(saved).map((s) => s.post) : posts; }
   function matches(p) {
     if (state.topic && !(p.topics || []).includes(state.topic)) return false;
-    // Chordoma posts live in their own tab; Home leaves them out unless you search.
-    if (state.view === "home" && !state.q && isChordoma(p)) return false;
-    if (state.kind === "pre" && !isPre(p)) return false;
-    if (state.kind === "peer" && isPre(p)) return false;
+    if (hasKindSwitch()) {
+      if (state.kind === "pre" && !isPre(p)) return false;
+      if (state.kind === "peer" && isPre(p)) return false;
+    }
     if (state.q) {
       const hay = [p.title, p.authors, p.summary, p.venue, (p.topics || []).join(" ")].join(" ").toLowerCase();
       if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
@@ -412,18 +422,18 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   }
 
   function featuredPosts() {
-    const ok = (p) => p && !isPre(p) && !isChordoma(p);
+    const ok = (p) => p && isTier1(p);
     let list = featuredIds.map((id) => posts.find((p) => p.id === id)).filter(ok);
     posts.filter(ok).forEach((p) => { if (list.length < 3 && !list.includes(p)) list.push(p); });
     return list.slice(0, 3);
   }
-  function isFront() { return state.view === "home" && !state.topic && !state.q; }  // featured row shows only here
-  function showFeatured() { return isFront() && state.kind === "peer" && posts.filter((p) => !isPre(p)).length > 3; }
+  // The featured row shows only on the Tier 1 tab with no filter or search.
+  function showFeatured() { return state.view === "tier1" && !state.topic && !state.q && posts.filter(isTier1).length > 3; }
 
   // ---------- Update reports (data/updates.json, written by the scheduled task) ----------
   function countsLine(c) {
     if (!c) return "";
-    const label = { journal: ["journal paper", "journal papers"], preprint: ["preprint", "preprints"], chordoma: ["chordoma paper", "chordoma papers"], removed: ["removed", "removed"] };
+    const label = { tier1: ["Tier 1", "Tier 1"], tier2: ["Tier 2", "Tier 2"], journal: ["journal paper", "journal papers"], preprint: ["preprint", "preprints"], chordoma: ["chordoma paper", "chordoma papers"], removed: ["removed", "removed"] };
     const bits = Object.keys(label).filter((k) => c[k] != null).map((k) => `${c[k]} ${label[k][c[k] === 1 ? 0 : 1]}`);
     return bits.join(" · ");
   }
@@ -507,25 +517,23 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
         + (list.length ? list.map(reportHTML).join("") : `<div class="empty"><strong>No reports yet</strong>The scheduled task writes one here after each run.</div>`);
       return;
     }
-    if (state.view === "chordoma") {
-      list = posts.filter((p) => isChordoma(p) && matches(p));
-      head = `<div class="list-head"><h2>Chordoma</h2><span class="meta">${list.length} paper${list.length === 1 ? "" : "s"} · journals and preprints</span>${state.topic || state.q || state.kind !== "all" ? clear : ""}</div>`;
-      empty = `<div class="empty"><strong>No chordoma papers match</strong>${state.q || state.topic || state.kind !== "all" ? "Clear the search or filters." : `None in the last ${retention} days.`}</div>`;
-    } else if (state.view === "saved") {
+    const filtered = state.topic || state.q || state.kind !== defaultKind(state.view);
+    if (state.view === "saved") {
       list = Object.values(saved).sort((a, b) => b.savedAt.localeCompare(a.savedAt)).map((s) => s.post).filter(matches);
-      head = `<div class="list-head"><h2>Saved for later</h2>${state.topic || state.q || state.kind !== "peer" ? clear : ""}</div>`;
+      head = `<div class="list-head"><h2>Saved for later</h2>${filtered ? clear : ""}</div>`;
       empty = Object.keys(saved).length
         ? `<div class="empty"><strong>No saved posts match</strong>Clear the search or filters to see all ${Object.keys(saved).length} saved posts.</div>`
         : `<div class="empty"><strong>Nothing saved yet</strong>Tap “Save for later” on any post. Saved posts stay here after they leave the 90-day feed.</div>`;
     } else {
+      const tab = TABS[state.view];
       const hide = showFeatured() ? new Set(featuredPosts().map((p) => p.id)) : new Set();
-      list = posts.filter((p) => !hide.has(p.id) && matches(p));
-      const bits = [];
+      list = posts.filter((p) => tab.test(p) && !hide.has(p.id) && matches(p));
+      const bits = [tab.label];
       if (state.topic) bits.push(state.topic);
-      if (state.kind !== "peer") bits.push(state.kind === "pre" ? "Preprints" : "Journals and preprints");
+      if (hasKindSwitch() && state.kind !== tab.kind) bits.push({ pre: "Preprints", peer: "Journals", all: "Journals and preprints" }[state.kind]);
       if (state.q) bits.push(`“${state.q}”`);
-      head = bits.length ? `<div class="list-head"><h2>${esc(bits.join(" · "))}</h2><span class="meta">${list.length} paper${list.length === 1 ? "" : "s"}</span>${clear}</div>` : "";
-      empty = `<div class="empty"><strong>No papers match</strong>Try another topic or clear the search.</div>`;
+      head = showFeatured() ? "" : `<div class="list-head"><h2>${esc(bits.join(" · "))}</h2><span class="meta">${list.length} paper${list.length === 1 ? "" : "s"} · ${esc(tab.note)}</span>${filtered ? clear : ""}</div>`;
+      empty = `<div class="empty"><strong>No papers match</strong>${filtered ? "Try another topic or clear the search." : `Nothing here in the last ${retention} days.`}</div>`;
     }
     const page = list.slice(0, state.shown);
     el.innerHTML = head + (list.length ? page.map((p) => itemHTML(p, feedIds.has(p.id))).join("") : empty)
@@ -535,18 +543,14 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
 
   function topicCounts() {
     const c = {};
-    posts.forEach((p) => (p.topics || []).forEach((t) => (c[t] = (c[t] || 0) + 1)));
+    tabPosts().forEach((p) => (p.topics || []).forEach((t) => (c[t] = (c[t] || 0) + 1)));
     return Object.entries(c).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
   }
 
   function renderNav() {
     const n = Object.keys(saved).length;
-    const top = topicCounts().filter(([t]) => t !== "Chordoma").slice(0, 5).map(([t]) => t);
-    if (state.topic && !top.includes(state.topic)) top.push(state.topic);
     $("nav").innerHTML =
-      `<button data-view="home" aria-current="${state.view === "home" && !state.topic}">Home</button>` +
-      `<button data-view="chordoma" aria-current="${state.view === "chordoma"}">Chordoma</button>` +
-      top.map((t) => `<button data-topic="${esc(t)}" data-from-nav aria-current="${state.view === "home" && state.topic === t}">${esc(t)}</button>`).join("") +
+      Object.entries(TABS).map(([k, t]) => `<button data-view="${k}" aria-current="${state.view === k}">${t.label}</button>`).join("") +
       `<button data-view="update" aria-current="${state.view === "update"}">Update</button>` +
       `<button data-view="saved" aria-current="${state.view === "saved"}">Saved${n ? `<span class="count">${n}</span>` : ""}</button>`;
   }
@@ -554,6 +558,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   function renderSide() {
     $("topics").innerHTML = topicCounts().map(([t, n]) => `<li><button data-topic="${esc(t)}" aria-pressed="${state.topic === t}">${esc(t)}<span class="n">${n}</span></button></li>`).join("");
     $("recent-pre").innerHTML = posts.filter(isPre).slice(0, 5).map((p) => `<li><a href="${esc(p.url || "#")}" target="_blank" rel="noopener">${esc(p.title)}</a><div class="when">${longDate(p.published || p.date_added)}</div></li>`).join("") || "<li class='when'>None yet.</li>";
+    $("kind").hidden = !hasKindSwitch();
     document.querySelectorAll("#kind button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.kind === state.kind));
     $("s-week").textContent = posts.filter((p) => daysBetween(parseDay(p.date_added), today) < 7).length;
     $("s-total").textContent = posts.length;
@@ -563,18 +568,18 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
 
   document.addEventListener("click", (e) => {
     const v = e.target.closest("[data-view]");
-    if (v) { e.preventDefault(); state.view = v.dataset.view; state.topic = null; state.kind = state.view === "home" ? "peer" : "all"; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
+    if (v) { e.preventDefault(); state.view = v.dataset.view; state.topic = null; state.kind = defaultKind(state.view); state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
     const t = e.target.closest("[data-topic]");
     if (t) {
       const topic = t.dataset.topic;
       if (topic === "Chordoma") { state.view = "chordoma"; state.topic = null; state.kind = "all"; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
-      state.topic = state.topic === topic && !t.hasAttribute("data-from-nav") ? null : topic;
-      if (t.closest("#nav") || state.view === "update") { state.view = "home"; state.kind = "peer"; }
+      state.topic = state.topic === topic ? null : topic;
+      if (state.view === "update") { state.view = "tier1"; state.kind = defaultKind("tier1"); }
       state.shown = PAGE; render(); return;
     }
     const k = e.target.closest("[data-kind]");
     if (k) { state.kind = k.dataset.kind; state.shown = PAGE; render(); return; }
-    if (e.target.closest("[data-clear]")) { state.topic = null; state.kind = state.view === "home" ? "peer" : "all"; state.q = ""; $("q").value = ""; render(); return; }
+    if (e.target.closest("[data-clear]")) { state.topic = null; state.kind = defaultKind(state.view); state.q = ""; $("q").value = ""; render(); return; }
     if (e.target.closest("[data-more]")) { state.shown += PAGE; renderList(); return; }
     const s = e.target.closest("[data-save]");
     if (s) {
@@ -597,9 +602,9 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
       o.textContent = on ? "Hide key points" : "Key points";
     }
   });
-  $("home-link").addEventListener("click", (e) => { e.preventDefault(); state.view = "home"; state.topic = null; state.kind = "peer"; state.q = ""; $("q").value = ""; state.shown = PAGE; render(); });
+  $("home-link").addEventListener("click", (e) => { e.preventDefault(); state.view = "tier1"; state.topic = null; state.kind = defaultKind("tier1"); state.q = ""; $("q").value = ""; state.shown = PAGE; render(); });
   $("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); state.shown = PAGE; renderFeatured(); renderList(); renderNav(); });
-  if (["#saved", "#chordoma", "#update"].includes(location.hash)) { state.view = location.hash.slice(1); state.kind = "all"; }
+  { const h = location.hash.slice(1); if (TABS[h] || h === "saved" || h === "update") { state.view = h; state.kind = defaultKind(h); } }
 
   fetch(UPDATES_URL, { cache: "no-cache" })
     .then((r) => (r.ok ? r.json() : { updates: [] }))

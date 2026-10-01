@@ -9,7 +9,7 @@ Every post has exactly one main topic, and it goes first in `topics`. The main t
 
 | Main topic | What counts |
 |---|---|
-| `Chordoma` | Any paper about chordoma, of any kind and from any journal or preprint server: molecular, clinical, surgical, radiotherapy, case reports. Always overrides the other topics. |
+| `Chordoma` | Any paper that mentions chordoma in its title or abstract, of any kind and from any journal or preprint server: molecular, clinical, surgical, radiotherapy, case reports, and mixed series (e.g. spine tumours) that include chordoma cases. Always overrides the other topics. |
 | `Cancer genomics` | Genomic, transcriptomic or epigenomic analysis of tumours, in any cancer type. What matters is the approach, discovery or topic: a study of one cancer type is in if the idea would interest people working on other cancers. |
 | `RNA biology` | Alternative splicing, RNA modifications (m6A, pseudouridine, inosine, A-to-I editing), RNA processing, decay, localisation and translation control. |
 | `Methods` | Bioinformatics methods, tools and benchmarks of any kind, including general ones (aligners, pangenomes, workflow tools). Long-read, single-cell and spatial methods come first. |
@@ -99,31 +99,54 @@ The journal is the main signal for journal papers. Being on-topic is not enough 
 
 Save the tier on each post as `"tier": 1`, `"tier": 2` or `"tier": "review"`. Chordoma papers from other journals get `"tier": null`. Reviews count toward the 10-journal-paper limit and rank after Tier 1 research papers.
 
+## Tabs
+
+The site has three main tabs. Every post belongs to exactly one:
+
+| Tab | What goes in it |
+|---|---|
+| **Tier 1** | Research papers from Tier 1 journals, and reviews from the review journals. The featured row is here. |
+| **Tier 2** | Research papers from Tier 2 journals, and preprints (shown when the reader picks "Preprints" under "Show"). |
+| **Chordoma** | Every chordoma post, whatever the journal, plus chordoma preprints. |
+
 ## Preprints (bioRxiv)
 
 - Preprints have no journal to go on, so judge them like Tier 2: post only if the paper is a close match to a main topic.
-- Preprints are kept out of the main feed. They only show when the reader picks "Preprints" under "Show". Chordoma preprints also show in the Chordoma section.
+- Preprints go in the Tier 2 tab, hidden until the reader picks "Preprints" under "Show". Chordoma preprints go in the Chordoma tab.
 - Never make a preprint `featured`.
 - Categories to scan every run: `bioinformatics`, `genomics`, `cancer biology`, `genetics`.
 - `search_preprints` has no keyword search, so finding chordoma preprints means reading every title in those categories, including `cancer biology`.
+- A revised version (v2, v3, ...) of an older preprint counts as new if its DOI has never been posted.
 
 ## How many to post
 
 - Each run looks back **7 days**, not just since the last run. Anything that fits and hasn't been posted yet can still be picked, so a paper missed one day can be caught the next.
-- Each run adds at most:
-  - **10 journal papers**. If there are more candidates, rank by tier first, then by approach (computational, mixed, experimental), then by how closely they match. So the order is Tier 1 computational, Tier 1 mixed, Tier 1 experimental, Tier 2 computational, and so on.
-  - **10 preprints**
-  - **no limit on chordoma papers**
-- Posting nothing is fine on slow days. Never lower the bar to fill the quota.
+- Each run adds at most, per tab:
+  - **Tier 1: 10 papers** (research papers and reviews together). Rank by approach (computational, mixed, experimental), then by how closely they match. Reviews rank after research papers.
+  - **Tier 2: 10 journal papers**, ranked the same way, **plus up to 10 preprints**.
+  - **Chordoma: 10 papers**. Prefer molecular and genomic work, then clinical studies, then case reports.
+- Posting nothing is fine on slow days. Never lower the bar to fill a tab's limit.
 
 ## PubMed searches
 
-Search by entry date (`datetype: "edat"`) over the last 7 days. Run one search per main topic, each limited to the Tier 1 and Tier 2 journals with `[ta]`, one search of the review journals with `Review[pt]` added, and one search for `chordoma` with no journal limit. Page with `retstart` until every result has been read.
+Search by entry date (`datetype: "edat"`) over the last 7 days. PubMed refuses a query with more than 20 boolean operators (`AND`, `OR`, `NOT` all count), so use exactly these searches. Page with `retstart` until every result has been read.
 
-Starting keywords per topic. Add or change keywords here as needed.
+`[ta]` matches the exact journal: `"Nature"[ta]` does **not** match Nature Communications or other Nature journals. What it does match is news, corrections and comments, which the `NOT` part removes. When you check a paper's metadata, also drop anything whose `article_types` is News, Comment, Editorial, Published Erratum or Letter.
 
-- Cancer genomics: `(cancer OR tumor OR tumour OR neoplasm) AND (genomic* OR transcriptom* OR "whole genome" OR "single-cell" OR mutation* OR "copy number" OR epigenom*)`
-- RNA biology: `splicing OR "RNA modification" OR m6A OR pseudouridine OR "RNA editing" OR isoform* OR "RNA-binding protein" OR "mRNA decay"`
-- Methods: `"long-read" OR nanopore OR PacBio OR "single-cell" OR "spatial transcriptomics" OR deconvolution OR benchmark* OR "computational method"`
+Let `RESEARCH` = `hasabstract NOT (News[pt] OR Comment[pt] OR Editorial[pt] OR "Published Erratum"[pt] OR Letter[pt])`.
 
-Also run one search of the Tier 1 journals for computational work outside the main topics, e.g. `("computational" OR "machine learning" OR "deep learning" OR algorithm OR "foundation model" OR "re-analysis")`.
+1. **Tier 1, no topic keywords** (read every title; this is how off-topic computational papers are found):
+   `("Nature"[ta] OR "Science"[ta] OR "Cell"[ta] OR "Nat Genet"[ta] OR "Nat Methods"[ta] OR "Nat Biotechnol"[ta] OR "Cancer Cell"[ta] OR "Nat Cancer"[ta] OR "Cancer Discov"[ta] OR "Mol Cell"[ta] OR "Nat Struct Mol Biol"[ta] OR "Nat Cell Biol"[ta]) AND RESEARCH`
+2. **Tier 2 specialist journals, no topic keywords:**
+   `("Genome Biol"[ta] OR "Genome Res"[ta] OR "Cell Genom"[ta] OR "Genome Med"[ta] OR "Nucleic Acids Res"[ta] OR "RNA"[ta] OR "Genes Dev"[ta] OR "Nat Med"[ta] OR "Nat Comput Sci"[ta] OR "Cell Rep Methods"[ta]) AND RESEARCH`
+3. **Tier 2 systems, cancer and computational journals, no topic keywords:**
+   `("Cell Syst"[ta] OR "Mol Syst Biol"[ta] OR "Cancer Res"[ta] OR "Clin Cancer Res"[ta] OR "Bioinformatics"[ta] OR "Nat Mach Intell"[ta]) AND RESEARCH`
+4. **Tier 2 broad journals, RNA and methods keywords** (these journals are too large to read in full):
+   `("Nat Commun"[ta] OR "Sci Adv"[ta] OR "Proc Natl Acad Sci U S A"[ta] OR "Elife"[ta]) AND hasabstract AND (splicing OR isoform* OR "long-read" OR nanopore OR "single-cell" OR "spatial transcriptomics" OR m6A OR "RNA modification" OR deconvolution OR benchmark*)`
+5. **Tier 2 broad journals, cancer genomics keywords:**
+   `("Nat Commun"[ta] OR "Sci Adv"[ta] OR "Proc Natl Acad Sci U S A"[ta] OR "Elife"[ta]) AND hasabstract AND (cancer OR tumor OR tumour) AND (genomic* OR transcriptom* OR "single-cell" OR "whole genome" OR "copy number" OR epigenom*)`
+6. **Review journals:**
+   `("Nat Rev Genet"[ta] OR "Nat Rev Cancer"[ta] OR "Nat Rev Mol Cell Biol"[ta] OR "Trends Genet"[ta]) AND Review[pt]`
+7. **Chordoma, any journal:** `chordoma[tiab]`
+
+Add or change keywords in searches 4 and 5 as needed, but count the operators.
