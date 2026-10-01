@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Reads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap">
+<script>
+  /* Pick the colour scheme before first paint: ?scheme= wins, then the saved choice, else Terracotta. */
+  (() => {
+    let v = new URLSearchParams(location.search).get("scheme");
+    if (!v) { try { v = localStorage.getItem("dr-scheme"); } catch (e) {} }
+    document.documentElement.dataset.scheme = ["original", "terracotta"].includes(v) ? v : "terracotta";
+  })();
+</script>
+<style>
+/* Layout: news-blog frame. Grey page, header + grey nav bar, one white bordered content box:
+   3 featured columns, then a thumbnail list beside a ruled sidebar. Light theme only, by choice. */
+:root {
+  color-scheme: light;
+  --page: #ECEEF1;
+  --box: #FFFFFF;
+  --nav: #DCDFE3;
+  --nav-line: #C9CED4;
+  --ink: #2E3338;
+  --text: #5C6268;
+  --muted: #8A9096;
+  --rule: #DCE0E4;
+  --frame: #C3C9CF;
+  --blue: #1D5EA8;
+  --blue-head: #2B6FB6;
+  --blue-soft: #E7EFF8;
+  --green: #3C9A2E;
+  --green-soft: #EAF4E6;
+  --note: #FFF6DD;
+  --note-ink: #7A5A00;
+  --cover: #EEF2F5;
+  --figure-bg: #FFFFFF;
+  --nt-a: #3C9A2E;
+  --nt-c: #1D5EA8;
+  --nt-g: #D98A00;
+  --nt-t: #C8323F;
+  --f-sans: "Noto Sans", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  --f-mono: ui-monospace, Menlo, Consolas, monospace;
+}
+/* Alternate colour scheme. Chosen with the switcher in the footer (or ?scheme=original|terracotta); Terracotta is the default; remembered per browser. */
+:root[data-scheme="terracotta"] {
+  --page: #F4F0EA; --box: #FFFDFA; --nav: #E8E1D6; --nav-line: #D5CBBC;
+  --ink: #2F2A25; --text: #625A51; --muted: #908679; --rule: #E6DFD4; --frame: #CFC5B6;
+  --blue: #0E7480; --blue-head: #0F808C; --blue-soft: #DFF0F1;
+  --green: #B5482A; --green-soft: #F7E6E0; --cover: #F2EDE5;
+}
+.scheme-pick { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4px; margin-top: 14px; font-size: 12px; }
+.scheme-pick span { color: var(--muted); margin-right: 4px; }
+.scheme-pick button { border: 1px solid var(--frame); background: var(--box); color: var(--ink); padding: 2px 8px; border-radius: 3px; cursor: pointer; font-size: 12px; }
+.scheme-pick button[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--page); color: var(--ink); font-family: var(--f-sans); font-size: 14px; line-height: 1.6; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.wrap { max-width: 1280px; margin: 0 auto; padding-inline: 16px; }
+
+/* Header */
+.site-head { padding-block: 24px; }
+.head-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; }
+.logo { display: flex; align-items: center; gap: 12px; color: inherit; }
+.logo:hover { text-decoration: none; }
+.logo svg { flex: none; }
+.wordmark { display: flex; flex-direction: column; }
+.wordmark b { font-size: clamp(28px, 5vw, 40px); font-weight: 800; line-height: 1; letter-spacing: -0.01em; }
+.wordmark b .d { color: var(--blue); }
+.wordmark b .r { color: var(--green); }
+.wordmark small { font-size: 13px; font-weight: 600; color: var(--green); margin-top: 4px; }
+.wordmark small span { color: var(--blue); }
+.head-side { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex: 0 1 320px; }
+.search { position: relative; width: 100%; }
+.search input { width: 100%; padding: 9px 12px 9px 34px; border: 1px solid var(--frame); background: var(--box); border-radius: 3px; font: inherit; font-size: 14px; color: var(--ink); }
+.search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+.updated { font-size: 12px; color: var(--muted); }
+@media (max-width: 640px) { .head-side { align-items: stretch; flex-basis: 100%; } .updated { text-align: left; } }
+
+/* Nav bar */
+.navbar { background: var(--nav); border-top: 1px solid var(--nav-line); border-bottom: 1px solid var(--nav-line); }
+.nav { display: flex; justify-content: center; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+.nav::-webkit-scrollbar { display: none; }
+.nav button { flex: none; border: 0; background: transparent; padding: 15px 16px 14px; font-size: 15px; font-weight: 500; color: var(--ink); cursor: pointer; border-top: 3px solid transparent; margin-top: -1px; }
+.nav button:hover { color: var(--green); }
+.nav button[aria-current="true"] { color: var(--green); font-weight: 600; border-top-color: var(--green); }
+.nav .count { font-size: 11px; font-weight: 600; background: var(--green); color: #fff; padding: 0 6px; border-radius: 8px; margin-left: 4px; vertical-align: 1px; }
+@media (max-width: 760px) { .nav { justify-content: flex-start; } .nav button { padding: 12px 11px 11px; font-size: 14px; } }
+
+/* Content box */
+.box { background: var(--box); border: 1px solid var(--frame); margin-block: 30px; padding: 28px 30px; display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 0 34px; }
+.box > main { min-width: 0; }
+.box > aside { border-left: 1px solid var(--rule); padding-left: 30px; min-width: 0; display: flex; flex-direction: column; gap: 30px; }
+@media (max-width: 900px) {
+  .box { grid-template-columns: minmax(0, 1fr); padding: 20px 16px; margin-block: 16px; }
+  .box > aside { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 24px; margin-top: 24px; }
+}
+
+.notice { background: var(--note); color: var(--note-ink); font-size: 13px; padding: 8px 12px; border-radius: 3px; margin-bottom: 22px; }
+
+/* Featured columns */
+.featured { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; padding-bottom: 30px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+@media (max-width: 760px) { .featured { grid-template-columns: minmax(0, 1fr); gap: 34px; } }
+.feat { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.cat-head { display: flex; align-items: center; gap: 10px; margin: 0 0 6px; font-size: 21px; font-weight: 400; color: var(--blue-head); line-height: 1.25; text-align: center; }
+.cat-head::before, .cat-head::after { content: ""; flex: 1 1 12px; min-width: 12px; border-top: 1px solid var(--rule); }
+.cat-head button { border: 0; background: none; padding: 0; color: inherit; cursor: pointer; font: inherit; }
+.feat-media { display: block; aspect-ratio: 315 / 168; max-width: 100%; border: 1px solid var(--frame); background: var(--cover); overflow: hidden; }
+.feat-media.has-fig { background: var(--figure-bg); }
+.feat-media img { width: 100%; height: 100%; display: block; object-fit: contain; padding: 4px; }
+.feat-media svg { width: 100%; height: 100%; display: block; }
+.feat h3 { margin: 4px 0 0; font-size: 18px; font-weight: 400; line-height: 1.38; text-wrap: balance; }
+.feat .excerpt { -webkit-line-clamp: 4; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* List */
+.list-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin: 0 0 18px; }
+.list-head h2 { margin: 0; font-size: 21px; font-weight: 400; color: var(--blue-head); }
+.clear { border: 1px solid var(--frame); background: var(--box); border-radius: 3px; padding: 2px 9px; font-size: 12px; cursor: pointer; color: var(--text); }
+.item { display: flow-root; padding-block: 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+.item:last-of-type { border-bottom: 0; }
+.thumb { float: left; width: 145px; aspect-ratio: 145 / 78; max-width: 40%; margin: 4px 20px 8px 0; border: 1px solid var(--frame); background: var(--cover); overflow: hidden; display: block; }
+.thumb.has-fig { background: var(--figure-bg); }
+.thumb img, .thumb svg { width: 100%; height: 100%; display: block; object-fit: cover; }
+@media (max-width: 520px) { .thumb { width: 108px; margin-right: 14px; } }
+.item h3 { margin: 0; font-size: 18px; font-weight: 400; line-height: 1.38; }
+.meta { font-size: 13px; color: var(--muted); margin-top: 3px; }
+.meta .sep { margin-inline: 6px; color: var(--frame); }
+.meta button { border: 0; background: none; padding: 0; color: var(--blue); cursor: pointer; font-size: 13px; }
+.meta button:hover { text-decoration: underline; }
+.tag { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 6px; border-radius: 2px; vertical-align: 1px; }
+.tag.pre { background: var(--note); color: var(--note-ink); }
+.tag.peer { background: var(--blue-soft); color: var(--blue); }
+.tag.venue { text-transform: none; letter-spacing: 0; font-size: 12px; }
+.tag.ex { border: 1px dashed var(--muted); color: var(--muted); }
+.excerpt { margin: 12px 0 0; color: var(--text); font-size: 14px; line-height: 1.8; }
+.tools { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; align-items: center; }
+.tools button { border: 0; background: none; padding: 0; cursor: pointer; color: var(--blue); font-size: 13px; display: inline-flex; align-items: center; gap: 4px; }
+.tools button:hover { text-decoration: underline; }
+.tools .save[aria-pressed="true"] { color: var(--green); font-weight: 600; }
+.expiry { color: var(--note-ink); }
+.gone { color: var(--muted); }
+.more { clear: both; margin-top: 14px; padding: 14px 16px; background: var(--page); border-radius: 3px; display: flex; flex-direction: column; gap: 12px; }
+.more h4 { margin: 0 0 4px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; }
+.more ul { margin: 0; padding-left: 18px; color: var(--ink); }
+.fig { margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.fig img { width: 100%; max-width: 520px; background: var(--figure-bg); border: 1px solid var(--frame); }
+.fig figcaption { font-size: 12.5px; color: var(--text); }
+.fig figcaption i { color: var(--muted); }
+.facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 2px 14px; margin: 0; font-size: 13px; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; overflow-wrap: anywhere; }
+.load-more { display: block; margin: 6px auto 0; border: 1px solid var(--frame); background: var(--box); padding: 8px 18px; border-radius: 3px; cursor: pointer; font-size: 14px; color: var(--blue); }
+.empty { padding: 24px; border: 1px dashed var(--frame); color: var(--text); }
+.empty strong { display: block; color: var(--ink); font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+
+/* Sidebar */
+.side h2 { margin: 0 0 12px; font-size: 18px; font-weight: 400; color: var(--ink); }
+.side p { margin: 0; font-size: 13.5px; color: var(--text); line-height: 1.7; }
+.side-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.side-list a { font-size: 14px; line-height: 1.5; display: block; }
+.side-list .when { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.topics { list-style: none; margin: 0; padding: 0; }
+.topics button { width: 100%; display: flex; gap: 8px; align-items: baseline; border: 0; border-bottom: 1px solid var(--rule); background: none; padding: 6px 0; cursor: pointer; font-size: 14px; color: var(--blue); text-align: left; }
+.topics button[aria-pressed="true"] { color: var(--green); font-weight: 600; }
+.topics .n { margin-left: auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.seg { display: flex; border: 1px solid var(--frame); border-radius: 3px; overflow: hidden; }
+.seg button { flex: 1; border: 0; background: var(--box); padding: 6px 4px; font-size: 13px; cursor: pointer; color: var(--text); }
+.seg button + button { border-left: 1px solid var(--frame); }
+.seg button[aria-pressed="true"] { background: var(--blue); color: #fff; }
+.stats { display: flex; gap: 18px; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.stats b { display: block; font-size: 20px; color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-align: center; }
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+
+
+<header class="site-head wrap">
+  <div class="head-row">
+    <a class="logo" href="#" id="home-link" aria-label="Daily Reads home">
+      <svg width="54" height="46" viewBox="0 0 54 46" aria-hidden="true">
+        <rect x="2" y="4" width="30" height="7" rx="2" fill="var(--blue)"/><rect x="34" y="4" width="6" height="7" rx="1" fill="#C8323F"/>
+        <rect x="10" y="15" width="40" height="7" rx="2" fill="var(--blue)"/>
+        <rect x="0" y="26" width="22" height="7" rx="2" fill="var(--green)"/><rect x="24" y="26" width="6" height="7" rx="1" fill="#D98A00"/><rect x="32" y="26" width="14" height="7" rx="2" fill="var(--green)"/>
+        <rect x="16" y="37" width="36" height="7" rx="2" fill="var(--green)"/>
+      </svg>
+      <span class="wordmark"><b><span class="d">Daily</span><span class="r">Reads</span></b><small>Transcriptomics <span>papers &amp; preprints, summarised</span></small></span>
+    </a>
+    <div class="head-side">
+      <label class="search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search papers" aria-label="Search papers">
+      </label>
+      <span class="updated" id="updated">Loading…</span>
+    </div>
+  </div>
+</header>
+
+<nav class="navbar" aria-label="Sections"><div class="wrap nav" id="nav"></div></nav>
+
+<div class="wrap">
+  <div class="box">
+    <main>
+      <div id="notice"></div>
+      <section class="featured" id="featured" aria-label="Featured papers" hidden></section>
+      <section id="list" aria-live="polite"></section>
+    </main>
+    <aside>
+      <section class="side">
+        <h2>Show</h2>
+        <div class="seg" id="kind">
+          <button data-kind="all" aria-pressed="true">All</button>
+          <button data-kind="peer" aria-pressed="false">Journals</button>
+          <button data-kind="pre" aria-pressed="false">Preprints</button>
+        </div>
+        <div class="stats"><span><b id="s-week">0</b>this week</span><span><b id="s-total">0</b>in the feed</span></div>
+      </section>
+      <section class="side"><h2>Topics</h2><ul class="topics" id="topics"></ul></section>
+      <section class="side"><h2>Recent preprints</h2><ul class="side-list" id="recent-pre"></ul></section>
+      <section class="side">
+        <h2>About this feed</h2>
+        <p>A scheduled task searches for new papers, writes a short overview of each and updates this site. Posts stay for 90 days. Use “Save for later” to keep a post after that; saves stay in this browser.</p>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<footer class="wrap">Overviews and illustrations are written automatically. Check the paper before citing it.<br><div class="scheme-pick" id="scheme-pick" role="group" aria-label="Colour scheme"><span>Colour scheme</span><button data-scheme="original">Original</button><button data-scheme="terracotta">Terracotta</button></div></footer>
+
+<script>
+(function () {
+  const DATA_URL = "data/posts.json";
+  const SAVE_KEY = "dailyreads.saved.v1";
+  const PAGE = 12;
+  const NT = ["--nt-a", "--nt-c", "--nt-g", "--nt-t"];
+  const today = startOfDay(new Date());
+
+  const state = { view: "home", topic: null, kind: "all", q: "", shown: PAGE, open: new Set() };
+  let posts = [], retention = 90, featuredIds = [], saved = loadSaved();
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  function startOfDay(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+  function parseDay(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
+  function daysBetween(a, b) { return Math.round((b - a) / 86400000); }
+  function ordinal(n) { const s = ["th", "st", "nd", "rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+  function longDate(s) { const d = parseDay(s); return `${d.toLocaleDateString("en-US", { month: "long" })} ${ordinal(d.getDate())}, ${d.getFullYear()}`; }
+  function loadSaved() { try { return JSON.parse(localStorage.getItem(SAVE_KEY)) || {}; } catch (e) { return {}; } }
+  function persist() { try { localStorage.setItem(SAVE_KEY, JSON.stringify(saved)); } catch (e) {} }
+  function isPre(p) { return /preprint/i.test(p.type || "") || /rxiv/i.test(p.venue || ""); }
+  function shortAuthors(a) { const first = String(a || "").split(",")[0].trim(); return first ? `${first} et al.` : ""; }
+
+  // ---------- Generated cover art (used when a post has no figure image) ----------
+  function rng(seedStr) {
+    let a = 2166136261;
+    for (const c of seedStr) { a ^= c.charCodeAt(0); a = Math.imul(a, 16777619); }
+    return function () { a |= 0; a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  }
+  const C = (i) => `var(${NT[((i % 4) + 4) % 4]})`;
+  const rnd = (n) => Math.round(n * 10) / 10;
+  function motif(topics) {
+    const t = (topics || []).join(" ").toLowerCase();
+    const first = ((topics || [])[0] || "").toLowerCase();
+    const pick = (s) => [["single", "sc"], ["spatial", "spatial"], ["long", "long"], ["splic", "splice"], ["cancer", "cancer"], ["bench", "bench"], ["machine", "ml"], ["deconv", "deconv"]].find(([k]) => s.includes(k));
+    const hit = pick(first) || pick(t);
+    return hit ? hit[1] : "pileup";
+  }
+  function cover(p) {
+    const r = rng(p.id || p.title || "x");
+    const gauss = () => Math.sqrt(-2 * Math.log(r() + 1e-9)) * Math.cos(2 * Math.PI * r());
+    const kind = motif(p.topics);
+    let g = "";
+    if (kind === "sc") {
+      const k = 4;
+      for (let c = 0; c < k; c++) {
+        const cx = 55 + r() * 210, cy = 45 + r() * 110, sx = 12 + r() * 14, sy = 9 + r() * 12;
+        for (let i = 0; i < 34; i++) g += `<circle cx="${rnd(cx + gauss() * sx)}" cy="${rnd(cy + gauss() * sy)}" r="3" style="fill:${C(c)};opacity:.85"/>`;
+      }
+    } else if (kind === "spatial") {
+      const ph = r() * 6;
+      for (let row = 0; row < 16; row++) for (let col = 0; col < 25; col++) {
+        if (r() < 0.06) continue;
+        const x = 8 + col * 13 + (row % 2) * 6.5, y = 8 + row * 12.4;
+        const d = x - (150 + 34 * Math.sin(y / 26 + ph) + 10 * Math.sin(y / 9));
+        g += `<circle cx="${rnd(x)}" cy="${rnd(y)}" r="5" style="fill:${d < -13 ? C(3) : d < 13 ? C(2) : C(1)};opacity:.9"/>`;
+      }
+    } else if (kind === "long") {
+      const ex = [[18, 46], [68, 96], [118, 160], [184, 206], [230, 262], [282, 304]];
+      for (let i = 0; i < 8; i++) {
+        const y = 22 + i * 22, s = r() < 0.3 ? 1 : 0, e = r() < 0.3 ? 4 : 5;
+        let used = []; let skipped = false;
+        for (let j = s; j <= e; j++) { if (j > s && j < e && r() < 0.22) { skipped = true; continue; } used.push(ex[j]); }
+        g += `<line x1="${used[0][0]}" x2="${used[used.length - 1][1]}" y1="${y}" y2="${y}" style="stroke:var(--muted);stroke-width:1.5"/>`;
+        used.forEach(([a, b]) => (g += `<rect x="${a}" y="${y - 5}" width="${b - a}" height="10" rx="2" style="fill:${skipped ? C(3) : C(1)}"/>`));
+      }
+    } else if (kind === "splice") {
+      const ex = [[20, 70], [112, 150], [182, 216], [256, 300]];
+      ex.forEach(([a, b]) => { for (let x = a; x < b; x += 4) { const h = 34 + r() * 46; g += `<rect x="${x}" y="${rnd(132 - h)}" width="3.4" height="${rnd(h)}" style="fill:${C(1)};opacity:.8"/>`; } });
+      const arcs = [[0, 1, 46], [1, 2, 38], [2, 3, 46], [1, 3, 70]];
+      arcs.forEach(([i, j, h], n) => {
+        const x1 = ex[i][1], x2 = ex[j][0], mid = (x1 + x2) / 2;
+        g += `<path d="M${x1} 132 Q${mid} ${132 - h * 2} ${x2} 132" style="fill:none;stroke:${C(3)};stroke-width:${n === 3 ? 1.5 : 3}"/>`;
+        g += `<text x="${mid}" y="${132 - h - 4}" text-anchor="middle" style="fill:var(--ink);font:500 10px var(--f-mono)">${Math.round(20 + r() * 180)}</text>`;
+      });
+      g += `<line x1="10" x2="310" y1="168" y2="168" style="stroke:var(--muted);stroke-width:1.5"/>`;
+      ex.forEach(([a, b]) => (g += `<rect x="${a}" y="160" width="${b - a}" height="16" rx="2" style="fill:${C(1)}"/>`));
+    } else if (kind === "cancer") {
+      for (let i = 0; i < 6; i++) {
+        const y = 22 + i * 28, len = 190 + r() * 100; let x = 18;
+        while (x < 18 + len - 6) {
+          const w = Math.min(18 + r() * 70, 18 + len - x), u = r();
+          g += `<rect x="${rnd(x)}" y="${y}" width="${rnd(w - 3)}" height="14" rx="3" style="fill:${u < 0.2 ? C(3) : u < 0.38 ? C(1) : "var(--muted)"};opacity:${u < 0.38 ? 0.95 : 0.3}"/>`;
+          x += w;
+        }
+      }
+    } else if (kind === "bench") {
+      const vals = Array.from({ length: 6 }, () => 70 + r() * 200).sort((a, b) => b - a);
+      vals.forEach((v, i) => {
+        const y = 28 + i * 29, v2 = Math.max(40, Math.min(300, v + (r() - 0.5) * 60));
+        g += `<line x1="24" x2="300" y1="${y}" y2="${y}" style="stroke:var(--muted);opacity:.25"/>`;
+        g += `<line x1="${rnd(v)}" x2="${rnd(v2)}" y1="${y}" y2="${y}" style="stroke:var(--muted);stroke-width:3;opacity:.5"/>`;
+        g += `<circle cx="${rnd(v)}" cy="${y}" r="6" style="fill:${C(0)}"/><circle cx="${rnd(v2)}" cy="${y}" r="6" style="fill:${C(1)}"/>`;
+      });
+    } else if (kind === "ml") {
+      const xs = [44, 124, 204, 280], ns = [4, 6, 6, 3];
+      const pts = xs.map((x, l) => Array.from({ length: ns[l] }, (_, i) => [x, 100 + (i - (ns[l] - 1) / 2) * 28]));
+      for (let l = 0; l < 3; l++) pts[l].forEach(([x1, y1]) => pts[l + 1].forEach(([x2, y2]) => { if (r() < 0.7) g += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" style="stroke:var(--muted);opacity:.3"/>`; }));
+      pts.forEach((layer, l) => layer.forEach(([x, y]) => (g += `<circle cx="${x}" cy="${y}" r="8" style="fill:${C(l)}"/>`)));
+    } else if (kind === "deconv") {
+      for (let i = 0; i < 10; i++) {
+        const parts = [0, 1, 2, 3].map(() => -Math.log(r() + 1e-9)); const sum = parts.reduce((a, b) => a + b);
+        let y = 20;
+        parts.forEach((v, k) => { const h = (v / sum) * 160; g += `<rect x="${20 + i * 29}" y="${rnd(y)}" width="22" height="${rnd(h)}" style="fill:${C(k)}"/>`; y += h; });
+      }
+    } else {
+      const snps = [148, 226];
+      for (let i = 0; i < 12; i++) {
+        const y = 12 + i * 15, x = -40 + r() * 230, w = 120 + r() * 50;
+        g += `<rect x="${rnd(x)}" y="${y}" width="${rnd(w)}" height="9" rx="2" style="fill:var(--muted);opacity:.3"/>`;
+        snps.forEach((sx, k) => { if (sx > x && sx < x + w && r() < (k ? 0.45 : 0.6)) g += `<rect x="${sx}" y="${y}" width="5" height="9" style="fill:${C(k ? 0 : 3)}"/>`; });
+      }
+    }
+    return `<svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="200" style="fill:var(--cover)"/>${g}</svg>`;
+  }
+
+  // A post's picture: Figure 1, or Claude's illustration, or (last resort) generated art.
+  function media(p, cls) {
+    const href = esc(p.url || "#");
+    if (p.figure && p.figure.src) {
+      return `<a class="${cls} has-fig" href="${href}" target="_blank" rel="noopener" tabindex="-1" data-cover="${esc(p.id)}"><img src="${esc(p.figure.src)}" alt="${esc(p.figure.caption || "Figure")}" loading="lazy"></a>`;
+    }
+    return `<a class="${cls}" href="${href}" target="_blank" rel="noopener" tabindex="-1">${cover(p)}</a>`;
+  }
+  function wireImages(root) {
+    root.querySelectorAll("[data-cover] img").forEach((img) => img.addEventListener("error", () => {
+      const box = img.parentElement, p = byId(box.dataset.cover);
+      if (box.tagName === "FIGURE") { box.hidden = true; return; }
+      box.classList.remove("has-fig"); box.innerHTML = p ? cover(p) : "";
+    }, { once: true }));
+  }
+  function byId(id) { return posts.find((x) => x.id === id) || (saved[id] && saved[id].post); }
+
+  const ICON_SAVE = '<svg width="12" height="12" viewBox="0 0 24 24" fill="FILL" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>';
+
+  function matches(p) {
+    if (state.topic && !(p.topics || []).includes(state.topic)) return false;
+    if (state.kind === "pre" && !isPre(p)) return false;
+    if (state.kind === "peer" && isPre(p)) return false;
+    if (state.q) {
+      const hay = [p.title, p.authors, p.summary, p.venue, (p.topics || []).join(" ")].join(" ").toLowerCase();
+      if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
+    }
+    return true;
+  }
+
+  function topicLinks(p) { return (p.topics || []).map((t) => `<button data-topic="${esc(t)}">${esc(t)}</button>`).join(", "); }
+  function metaHTML(p, withAuthors) {
+    const parts = [longDate(p.published || p.date_added)];
+    if (withAuthors && p.authors) parts.push(esc(shortAuthors(p.authors)));
+    parts.push(topicLinks(p));
+    return `<div class="meta">${parts.join('<span class="sep">|</span>')}</div>`;
+  }
+  function tagsHTML(p) {
+    return `<span class="tag venue ${isPre(p) ? "pre" : "peer"}">${esc(p.venue)}</span>${p.example ? ' <span class="tag ex">Example</span>' : ""}`;
+  }
+  function saveBtn(p) {
+    const on = !!saved[p.id];
+    return `<button class="save" data-save="${esc(p.id)}" aria-pressed="${on}">${ICON_SAVE.replace("FILL", on ? "currentColor" : "none")}${on ? "Saved" : "Save for later"}</button>`;
+  }
+
+  function featuredPosts() {
+    let list = featuredIds.map((id) => posts.find((p) => p.id === id)).filter(Boolean);
+    if (!list.length) list = posts.slice(0, 3);
+    return list.slice(0, 3);
+  }
+  function showFeatured() { return state.view === "home" && !state.topic && state.kind === "all" && !state.q && posts.length > 3; }
+
+  function renderFeatured() {
+    const box = $("featured");
+    if (!showFeatured()) { box.hidden = true; box.innerHTML = ""; return; }
+    box.innerHTML = featuredPosts().map((p) => `
+      <article class="feat">
+        <h2 class="cat-head"><button data-topic="${esc((p.topics || ["Featured"])[0])}">${esc((p.topics || ["Featured"])[0])}</button></h2>
+        ${media(p, "feat-media")}
+        <h3><a href="${esc(p.url || "#")}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+        ${metaHTML(p, false)}
+        <div class="meta">${tagsHTML(p)}</div>
+        <p class="excerpt">${esc(p.summary)}</p>
+        <div class="tools">${saveBtn(p)}<a href="${esc(p.url || "#")}" target="_blank" rel="noopener">Read the paper ↗</a></div>
+      </article>`).join("");
+    box.hidden = false;
+    wireImages(box);
+  }
+
+  function itemHTML(p, inFeed) {
+    const isSaved = !!saved[p.id];
+    const left = retention - daysBetween(parseDay(p.date_added), today);
+    const open = state.open.has(p.id);
+    let status = "";
+    if (!inFeed) status = `<span class="gone">No longer in the feed (saved copy)</span>`;
+    else if (left <= 14 && !isSaved) status = `<span class="expiry">Leaves the feed in ${left} day${left === 1 ? "" : "s"}</span>`;
+    const fig = p.figure && p.figure.src;
+    const facts = [["Authors", p.authors], ["Journal", p.venue], ["DOI", p.doi], ["Data", p.data], ["Code", p.code]].filter((r) => r[1]);
+    return `
+    <article class="item" data-id="${esc(p.id)}">
+      ${media(p, "thumb")}
+      <h3><a href="${esc(p.url || "#")}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+      ${metaHTML(p, true)}
+      <div class="meta">${tagsHTML(p)}</div>
+      <p class="excerpt">${esc(p.summary)}</p>
+      <div class="tools">
+        ${saveBtn(p)}
+        <button data-toggle="${esc(p.id)}" aria-expanded="${open}">${open ? "Hide key points" : "Key points"}</button>
+        <a href="${esc(p.url || "#")}" target="_blank" rel="noopener">Read the paper ↗</a>
+        ${status}
+      </div>
+      <div class="more" ${open ? "" : "hidden"}>
+        ${fig ? `<figure class="fig" data-cover="${esc(p.id)}"><img src="${esc(p.figure.src)}" alt="${esc(p.figure.caption || "Figure")}" loading="lazy"><figcaption>${esc(p.figure.caption || "")}${p.figure.credit ? ` <i>${esc(p.figure.credit)}.</i>` : ""}</figcaption></figure>` : ""}
+        ${p.key_points && p.key_points.length ? `<div><h4>Key points</h4><ul>${p.key_points.map((k) => `<li>${esc(k)}</li>`).join("")}</ul></div>` : ""}
+        <dl class="facts">${facts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+      </div>
+    </article>`;
+  }
+
+  function renderList() {
+    const el = $("list");
+    const feedIds = new Set(posts.map((p) => p.id));
+    $("notice").innerHTML = posts.some((p) => p.example)
+      ? `<div class="notice"><b>Sample posts.</b> These are made-up examples to show the layout. The scheduled task will replace them with real papers.</div>` : "";
+    let head = "", list = [], empty = "";
+    const clear = `<button class="clear" data-clear>Clear filters</button>`;
+    if (state.view === "saved") {
+      list = Object.values(saved).sort((a, b) => b.savedAt.localeCompare(a.savedAt)).map((s) => s.post).filter(matches);
+      head = `<div class="list-head"><h2>Saved for later</h2>${state.topic || state.q || state.kind !== "all" ? clear : ""}</div>`;
+      empty = Object.keys(saved).length
+        ? `<div class="empty"><strong>No saved posts match</strong>Clear the search or filters to see all ${Object.keys(saved).length} saved posts.</div>`
+        : `<div class="empty"><strong>Nothing saved yet</strong>Tap “Save for later” on any post. Saved posts stay here after they leave the 90-day feed.</div>`;
+    } else {
+      const hide = showFeatured() ? new Set(featuredPosts().map((p) => p.id)) : new Set();
+      list = posts.filter((p) => !hide.has(p.id) && matches(p));
+      const bits = [];
+      if (state.topic) bits.push(state.topic);
+      if (state.kind !== "all") bits.push(state.kind === "pre" ? "Preprints" : "Journal articles");
+      if (state.q) bits.push(`“${state.q}”`);
+      head = bits.length ? `<div class="list-head"><h2>${esc(bits.join(" · "))}</h2><span class="meta">${list.length} paper${list.length === 1 ? "" : "s"}</span>${clear}</div>` : "";
+      empty = `<div class="empty"><strong>No papers match</strong>Try another topic or clear the search.</div>`;
+    }
+    const page = list.slice(0, state.shown);
+    el.innerHTML = head + (list.length ? page.map((p) => itemHTML(p, feedIds.has(p.id))).join("") : empty)
+      + (list.length > state.shown ? `<button class="load-more" data-more>Show more papers (${list.length - state.shown} left)</button>` : "");
+    wireImages(el);
+  }
+
+  function topicCounts() {
+    const c = {};
+    posts.forEach((p) => (p.topics || []).forEach((t) => (c[t] = (c[t] || 0) + 1)));
+    return Object.entries(c).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  }
+
+  function renderNav() {
+    const n = Object.keys(saved).length;
+    const top = topicCounts().slice(0, 5).map(([t]) => t);
+    if (state.topic && !top.includes(state.topic)) top.push(state.topic);
+    $("nav").innerHTML =
+      `<button data-view="home" aria-current="${state.view === "home" && !state.topic}">Home</button>` +
+      top.map((t) => `<button data-topic="${esc(t)}" data-from-nav aria-current="${state.view === "home" && state.topic === t}">${esc(t)}</button>`).join("") +
+      `<button data-view="saved" aria-current="${state.view === "saved"}">Saved${n ? `<span class="count">${n}</span>` : ""}</button>`;
+  }
+
+  function renderSide() {
+    $("topics").innerHTML = topicCounts().map(([t, n]) => `<li><button data-topic="${esc(t)}" aria-pressed="${state.topic === t}">${esc(t)}<span class="n">${n}</span></button></li>`).join("");
+    $("recent-pre").innerHTML = posts.filter(isPre).slice(0, 5).map((p) => `<li><a href="${esc(p.url || "#")}" target="_blank" rel="noopener">${esc(p.title)}</a><div class="when">${longDate(p.published || p.date_added)}</div></li>`).join("") || "<li class='when'>None yet.</li>";
+    document.querySelectorAll("#kind button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.kind === state.kind));
+    $("s-week").textContent = posts.filter((p) => daysBetween(parseDay(p.date_added), today) < 7).length;
+    $("s-total").textContent = posts.length;
+  }
+
+  function render() { renderNav(); renderFeatured(); renderList(); renderSide(); }
+
+  document.addEventListener("click", (e) => {
+    const v = e.target.closest("[data-view]");
+    if (v) { e.preventDefault(); state.view = v.dataset.view; state.topic = null; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
+    const t = e.target.closest("[data-topic]");
+    if (t) {
+      const topic = t.dataset.topic;
+      state.topic = state.topic === topic && !t.hasAttribute("data-from-nav") ? null : topic;
+      if (t.closest("#nav")) state.view = "home";
+      state.shown = PAGE; render(); return;
+    }
+    const k = e.target.closest("[data-kind]");
+    if (k) { state.kind = k.dataset.kind; state.shown = PAGE; render(); return; }
+    if (e.target.closest("[data-clear]")) { state.topic = null; state.kind = "all"; state.q = ""; $("q").value = ""; render(); return; }
+    if (e.target.closest("[data-more]")) { state.shown += PAGE; renderList(); return; }
+    const s = e.target.closest("[data-save]");
+    if (s) {
+      const id = s.dataset.save;
+      if (saved[id]) delete saved[id];
+      else { const p = posts.find((x) => x.id === id); if (p) saved[id] = { savedAt: new Date().toISOString(), post: p }; }
+      persist();
+      document.querySelectorAll(`[data-save="${CSS.escape(id)}"]`).forEach((b) => (b.outerHTML = saveBtn(byId(id) || { id })));
+      renderNav(); renderSide();
+      if (state.view === "saved") renderList();
+      return;
+    }
+    const o = e.target.closest("[data-toggle]");
+    if (o) {
+      const id = o.dataset.toggle;
+      state.open.has(id) ? state.open.delete(id) : state.open.add(id);
+      const on = state.open.has(id);
+      o.closest(".item").querySelector(".more").hidden = !on;
+      o.setAttribute("aria-expanded", on);
+      o.textContent = on ? "Hide key points" : "Key points";
+    }
+  });
+  $("home-link").addEventListener("click", (e) => { e.preventDefault(); state.view = "home"; state.topic = null; state.kind = "all"; state.q = ""; $("q").value = ""; state.shown = PAGE; render(); });
+  $("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); state.shown = PAGE; renderFeatured(); renderList(); renderNav(); });
+  if (location.hash === "#saved") state.view = "saved";
+
+  fetch(DATA_URL, { cache: "no-cache" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((data) => {
+      retention = data.retention_days || 90;
+      featuredIds = Array.isArray(data.featured) ? data.featured : [];
+      posts = (data.posts || [])
+        .filter((p) => daysBetween(parseDay(p.date_added), today) < retention)
+        .sort((a, b) => b.date_added.localeCompare(a.date_added) || (b.published || "").localeCompare(a.published || ""));
+      const up = new Date(data.updated);
+      $("updated").textContent = "Updated " + up.toLocaleString("en-US", { month: "long", day: "numeric", hour: "numeric", minute: "2-digit" });
+      render();
+    })
+    .catch(() => {
+      $("updated").textContent = "";
+      $("list").innerHTML = '<div class="empty"><strong>Couldn’t load posts</strong>The file data/posts.json is missing or not valid JSON. Check the last commit from the scheduled task.</div>';
+      renderNav();
+    });
+})();
+</script>
+
+<script>
+(() => {
+  const root = document.documentElement, KEY = "dr-scheme";
+  const set = (v) => {
+    root.dataset.scheme = v;
+    try { localStorage.setItem(KEY, v); } catch (e) {}
+    document.querySelectorAll("#scheme-pick button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.scheme === v));
+  };
+  set(root.dataset.scheme);
+  document.getElementById("scheme-pick").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) set(b.dataset.scheme); });
+})();
+</script>
+</body>
+</html>
