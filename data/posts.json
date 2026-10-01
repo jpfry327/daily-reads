@@ -9,6 +9,57 @@
   ],
   "posts": [
     {
+      "id": "example-12",
+      "example": true,
+      "date_added": "2026-09-30",
+      "published": "2026-09-29",
+      "title": "Single-nucleus multiome of skull-base and sacral chordomas separates notochord-like and mesenchymal tumour states",
+      "authors": "Varga E, Mensah K, Holm J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.0000/example.12",
+      "url": "#",
+      "topics": [
+        "Chordoma",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "Paired snRNA-seq and snATAC-seq from 22 chordomas found two malignant cell states. TBXT-driven notochord-like cells dominated most tumours, while a mesenchymal state with open chromatin at TGF-beta targets was enriched in recurrent samples.",
+      "key_points": [
+        "TBXT motif accessibility marked the notochord-like state.",
+        "The mesenchymal state was rare in primary tumours.",
+        "Deconvolution of two bulk cohorts linked the mesenchymal fraction to shorter time to recurrence."
+      ],
+      "data": "GEO GSE000012 (example)",
+      "code": ""
+    },
+    {
+      "id": "example-13",
+      "example": true,
+      "date_added": "2026-09-29",
+      "published": "2026-09-26",
+      "title": "Proton versus carbon-ion radiotherapy for sacral chordoma: a multi-centre outcomes analysis",
+      "authors": "Ricci M, Tanaka H, Dubois A, et al.",
+      "venue": "International Journal of Radiation Oncology",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.0000/example.13",
+      "url": "#",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Across 410 patients treated at four centres, local control at five years was similar for proton and carbon-ion therapy. Sacral nerve toxicity was lower after carbon ions.",
+      "key_points": [
+        "Matched on tumour volume and extent of resection.",
+        "Most local failures were at the margin of the treated volume.",
+        "Toxicity was graded on a single shared scale."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
       "id": "example-01",
       "example": true,
       "date_added": "2026-09-30",
@@ -37,7 +88,8 @@
         "caption": "Fig. 1 | F1 score for detecting isoform switches in the spike-in mixes, by tool and platform.",
         "credit": "Example figure drawn for this preview",
         "kind": "figure"
-      }
+      },
+      "tier": null
     },
     {
       "id": "example-02",
@@ -67,7 +119,8 @@
         "caption": "Fig. 1 | Cells in one resected tumour section coloured by region: tumour, boundary band and stroma.",
         "credit": "Example figure drawn for this preview",
         "kind": "figure"
-      }
+      },
+      "tier": 1
     },
     {
       "id": "example-03",
@@ -97,7 +150,8 @@
         "kind": "illustration",
         "caption": "Labelled (new) RNA carries T>C conversions; comparing new and total RNA gives a velocity arrow for each cell.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      },
+      "tier": null
     },
     {
       "id": "example-04",
@@ -127,7 +181,8 @@
         "kind": "illustration",
         "caption": "An exitron inside a coding exon is spliced out, shifting the reading frame and producing a new peptide shown on MHC.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      },
+      "tier": 2
     },
     {
       "id": "example-05",
@@ -157,7 +212,8 @@
         "kind": "illustration",
         "caption": "Full-length transcripts go through one encoder; the embeddings separate isoforms and predict mRNA half-life.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      },
+      "tier": 1
     },
     {
       "id": "example-06",
@@ -188,7 +244,8 @@
         "kind": "illustration",
         "caption": "At low tumour purity, estimated immune fractions come out higher than the true fractions.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      },
+      "tier": 2
     },
     {
       "id": "example-07",
@@ -212,7 +269,8 @@
         "Protocol and plate layouts are on protocols.io."
       ],
       "data": "GEO GSE000007 (example)",
-      "code": ""
+      "code": "",
+      "tier": null
     },
     {
       "id": "example-08",
@@ -242,7 +300,8 @@
         "kind": "illustration",
         "caption": "Two haplotypes give the same total expression but favour different isoforms.",
         "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
-      }
+      },
+      "tier": 2
     },
     {
       "id": "example-09",
@@ -267,7 +326,8 @@
         "Outputs a tidy table that reads straight into R."
       ],
       "data": "Public test data",
-      "code": "github.com/example/nanoquant"
+      "code": "github.com/example/nanoquant",
+      "tier": null
     },
     {
       "id": "example-10",
@@ -291,7 +351,8 @@
         "The stress score is a 24-gene list released with the paper."
       ],
       "data": "CELLxGENE (example)",
-      "code": "github.com/example/dissoc-time"
+      "code": "github.com/example/dissoc-time",
+      "tier": 1
     },
     {
       "id": "example-11",
@@ -316,7 +377,8 @@
         "Full-length reads showed which fusion isoforms keep the kinase domain."
       ],
       "data": "SRA (example)",
-      "code": ""
+      "code": "",
+      "tier": null
     }
   ]
 }

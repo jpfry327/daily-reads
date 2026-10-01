@@ -120,6 +120,12 @@ button { font: inherit; color: inherit; }
 .feat .excerpt { -webkit-line-clamp: 4; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
 
 /* List */
+.chordoma { margin-bottom: 26px; padding-bottom: 22px; border-bottom: 1px solid var(--rule); }
+.chordoma .cat-head { margin-bottom: 14px; }
+.chordoma ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.chordoma h3 { margin: 0 0 3px; font-size: 16px; font-weight: 400; line-height: 1.4; }
+.chordoma .none { margin: 0; font-size: 14px; color: var(--muted); text-align: center; }
+.chordoma .all { margin-top: 12px; border: 0; background: none; padding: 0; color: var(--blue); cursor: pointer; font-size: 14px; }
 .list-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin: 0 0 18px; }
 .list-head h2 { margin: 0; font-size: 21px; font-weight: 400; color: var(--blue-head); }
 .clear { border: 1px solid var(--frame); background: var(--box); border-radius: 3px; padding: 2px 9px; font-size: 12px; cursor: pointer; color: var(--text); }
@@ -211,6 +217,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   <div class="box">
     <main>
       <div id="notice"></div>
+      <section class="chordoma" id="chordoma" aria-label="Chordoma papers" hidden></section>
       <section class="featured" id="featured" aria-label="Featured papers" hidden></section>
       <section id="list" aria-live="polite"></section>
     </main>
@@ -218,9 +225,9 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
       <section class="side">
         <h2>Show</h2>
         <div class="seg" id="kind">
-          <button data-kind="all" aria-pressed="true">All</button>
-          <button data-kind="peer" aria-pressed="false">Journals</button>
+          <button data-kind="peer" aria-pressed="true">Journals</button>
           <button data-kind="pre" aria-pressed="false">Preprints</button>
+          <button data-kind="all" aria-pressed="false">Both</button>
         </div>
         <div class="stats"><span><b id="s-week">0</b>this week</span><span><b id="s-total">0</b>in the feed</span></div>
       </section>
@@ -244,7 +251,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   const NT = ["--nt-a", "--nt-c", "--nt-g", "--nt-t"];
   const today = startOfDay(new Date());
 
-  const state = { view: "home", topic: null, kind: "all", q: "", shown: PAGE, open: new Set() };
+  const state = { view: "home", topic: null, kind: "peer", q: "", shown: PAGE, open: new Set() };
   let posts = [], retention = 90, featuredIds = [], saved = loadSaved();
 
   const $ = (id) => document.getElementById(id);
@@ -371,10 +378,13 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
 
   const ICON_SAVE = '<svg width="12" height="12" viewBox="0 0 24 24" fill="FILL" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>';
 
+  function isChordoma(p) { return (p.topics || []).includes("Chordoma"); }
   function matches(p) {
     if (state.topic && !(p.topics || []).includes(state.topic)) return false;
-    if (state.kind === "pre" && !isPre(p)) return false;
-    if (state.kind === "peer" && isPre(p)) return false;
+    // Preprints stay out of the journal view, except in the Chordoma topic, which shows everything.
+    const kind = state.topic === "Chordoma" && state.kind === "peer" ? "all" : state.kind;
+    if (kind === "pre" && !isPre(p)) return false;
+    if (kind === "peer" && isPre(p)) return false;
     if (state.q) {
       const hay = [p.title, p.authors, p.summary, p.venue, (p.topics || []).join(" ")].join(" ").toLowerCase();
       if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
@@ -398,11 +408,29 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   }
 
   function featuredPosts() {
-    let list = featuredIds.map((id) => posts.find((p) => p.id === id)).filter(Boolean);
-    if (!list.length) list = posts.slice(0, 3);
+    const ok = (p) => p && !isPre(p) && !isChordoma(p);
+    let list = featuredIds.map((id) => posts.find((p) => p.id === id)).filter(ok);
+    posts.filter(ok).forEach((p) => { if (list.length < 3 && !list.includes(p)) list.push(p); });
     return list.slice(0, 3);
   }
-  function showFeatured() { return state.view === "home" && !state.topic && state.kind === "all" && !state.q && posts.length > 3; }
+  function isFront() { return state.view === "home" && !state.topic && !state.q; }
+  function showFeatured() { return isFront() && state.kind === "peer" && posts.filter((p) => !isPre(p)).length > 3; }
+
+  const CHORDOMA_MAX = 4;
+  function renderChordoma() {
+    const box = $("chordoma");
+    if (!isFront()) { box.hidden = true; box.innerHTML = ""; return; }
+    const list = posts.filter(isChordoma);
+    const rows = list.slice(0, CHORDOMA_MAX).map((p) => `
+      <li>
+        <h3><a href="${esc(p.url || "#")}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+        <div class="meta">${tagsHTML(p)}<span class="sep">|</span>${longDate(p.published || p.date_added)}${p.authors ? `<span class="sep">|</span>${esc(shortAuthors(p.authors))}` : ""}</div>
+      </li>`).join("");
+    box.innerHTML = `<h2 class="cat-head"><button data-topic="Chordoma">Chordoma</button></h2>`
+      + (list.length ? `<ul>${rows}</ul>` : `<p class="none">No chordoma papers in the last ${retention} days.</p>`)
+      + (list.length > CHORDOMA_MAX ? `<button class="all" data-topic="Chordoma">All ${list.length} chordoma papers →</button>` : "");
+    box.hidden = false;
+  }
 
   function renderFeatured() {
     const box = $("featured");
@@ -460,16 +488,17 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     const clear = `<button class="clear" data-clear>Clear filters</button>`;
     if (state.view === "saved") {
       list = Object.values(saved).sort((a, b) => b.savedAt.localeCompare(a.savedAt)).map((s) => s.post).filter(matches);
-      head = `<div class="list-head"><h2>Saved for later</h2>${state.topic || state.q || state.kind !== "all" ? clear : ""}</div>`;
+      head = `<div class="list-head"><h2>Saved for later</h2>${state.topic || state.q || state.kind !== "peer" ? clear : ""}</div>`;
       empty = Object.keys(saved).length
         ? `<div class="empty"><strong>No saved posts match</strong>Clear the search or filters to see all ${Object.keys(saved).length} saved posts.</div>`
         : `<div class="empty"><strong>Nothing saved yet</strong>Tap “Save for later” on any post. Saved posts stay here after they leave the 90-day feed.</div>`;
     } else {
       const hide = showFeatured() ? new Set(featuredPosts().map((p) => p.id)) : new Set();
+      if (isFront()) posts.filter(isChordoma).slice(0, CHORDOMA_MAX).forEach((p) => hide.add(p.id));
       list = posts.filter((p) => !hide.has(p.id) && matches(p));
       const bits = [];
       if (state.topic) bits.push(state.topic);
-      if (state.kind !== "all") bits.push(state.kind === "pre" ? "Preprints" : "Journal articles");
+      if (state.kind !== "peer") bits.push(state.kind === "pre" ? "Preprints" : "Journals and preprints");
       if (state.q) bits.push(`“${state.q}”`);
       head = bits.length ? `<div class="list-head"><h2>${esc(bits.join(" · "))}</h2><span class="meta">${list.length} paper${list.length === 1 ? "" : "s"}</span>${clear}</div>` : "";
       empty = `<div class="empty"><strong>No papers match</strong>Try another topic or clear the search.</div>`;
@@ -504,11 +533,11 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     $("s-total").textContent = posts.length;
   }
 
-  function render() { renderNav(); renderFeatured(); renderList(); renderSide(); }
+  function render() { renderNav(); renderChordoma(); renderFeatured(); renderList(); renderSide(); }
 
   document.addEventListener("click", (e) => {
     const v = e.target.closest("[data-view]");
-    if (v) { e.preventDefault(); state.view = v.dataset.view; state.topic = null; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
+    if (v) { e.preventDefault(); state.view = v.dataset.view; state.topic = null; state.kind = state.view === "saved" ? "all" : "peer"; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
     const t = e.target.closest("[data-topic]");
     if (t) {
       const topic = t.dataset.topic;
@@ -518,7 +547,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     }
     const k = e.target.closest("[data-kind]");
     if (k) { state.kind = k.dataset.kind; state.shown = PAGE; render(); return; }
-    if (e.target.closest("[data-clear]")) { state.topic = null; state.kind = "all"; state.q = ""; $("q").value = ""; render(); return; }
+    if (e.target.closest("[data-clear]")) { state.topic = null; state.kind = "peer"; state.q = ""; $("q").value = ""; render(); return; }
     if (e.target.closest("[data-more]")) { state.shown += PAGE; renderList(); return; }
     const s = e.target.closest("[data-save]");
     if (s) {
@@ -541,8 +570,8 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
       o.textContent = on ? "Hide key points" : "Key points";
     }
   });
-  $("home-link").addEventListener("click", (e) => { e.preventDefault(); state.view = "home"; state.topic = null; state.kind = "all"; state.q = ""; $("q").value = ""; state.shown = PAGE; render(); });
-  $("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); state.shown = PAGE; renderFeatured(); renderList(); renderNav(); });
+  $("home-link").addEventListener("click", (e) => { e.preventDefault(); state.view = "home"; state.topic = null; state.kind = "peer"; state.q = ""; $("q").value = ""; state.shown = PAGE; render(); });
+  $("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); state.shown = PAGE; renderChordoma(); renderFeatured(); renderList(); renderNav(); });
   if (location.hash === "#saved") state.view = "saved";
 
   fetch(DATA_URL, { cache: "no-cache" })
