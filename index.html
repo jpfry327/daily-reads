@@ -120,12 +120,13 @@ button { font: inherit; color: inherit; }
 .feat .excerpt { -webkit-line-clamp: 4; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
 
 /* List */
-.chordoma { margin-bottom: 26px; padding-bottom: 22px; border-bottom: 1px solid var(--rule); }
-.chordoma .cat-head { margin-bottom: 14px; }
-.chordoma ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
-.chordoma h3 { margin: 0 0 3px; font-size: 16px; font-weight: 400; line-height: 1.4; }
-.chordoma .none { margin: 0; font-size: 14px; color: var(--muted); text-align: center; }
-.chordoma .all { margin-top: 12px; border: 0; background: none; padding: 0; color: var(--blue); cursor: pointer; font-size: 14px; }
+.report { padding-bottom: 24px; margin-bottom: 24px; border-bottom: 1px solid var(--rule); }
+.report h3 { margin: 0 0 4px; font-size: 18px; font-weight: 400; color: var(--blue-head); }
+.report .counts { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+.report p { margin: 0 0 10px; }
+.report h4 { margin: 14px 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); font-weight: 600; }
+.report ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 5px; font-size: 14.5px; }
+.report .why { color: var(--muted); }
 .list-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin: 0 0 18px; }
 .list-head h2 { margin: 0; font-size: 21px; font-weight: 400; color: var(--blue-head); }
 .clear { border: 1px solid var(--frame); background: var(--box); border-radius: 3px; padding: 2px 9px; font-size: 12px; cursor: pointer; color: var(--text); }
@@ -217,7 +218,6 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   <div class="box">
     <main>
       <div id="notice"></div>
-      <section class="chordoma" id="chordoma" aria-label="Chordoma papers" hidden></section>
       <section class="featured" id="featured" aria-label="Featured papers" hidden></section>
       <section id="list" aria-live="polite"></section>
     </main>
@@ -246,13 +246,14 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
 <script>
 (function () {
   const DATA_URL = "data/posts.json";
+  const UPDATES_URL = "data/updates.json";
   const SAVE_KEY = "dailyreads.saved.v1";
   const PAGE = 12;
   const NT = ["--nt-a", "--nt-c", "--nt-g", "--nt-t"];
   const today = startOfDay(new Date());
 
   const state = { view: "home", topic: null, kind: "peer", q: "", shown: PAGE, open: new Set() };
-  let posts = [], retention = 90, featuredIds = [], saved = loadSaved();
+  let posts = [], updates = [], retention = 90, featuredIds = [], saved = loadSaved();
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -381,10 +382,10 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   function isChordoma(p) { return (p.topics || []).includes("Chordoma"); }
   function matches(p) {
     if (state.topic && !(p.topics || []).includes(state.topic)) return false;
-    // Preprints stay out of the journal view, except in the Chordoma topic, which shows everything.
-    const kind = state.topic === "Chordoma" && state.kind === "peer" ? "all" : state.kind;
-    if (kind === "pre" && !isPre(p)) return false;
-    if (kind === "peer" && isPre(p)) return false;
+    // Chordoma posts live in their own tab; Home leaves them out unless you search.
+    if (state.view === "home" && !state.q && isChordoma(p)) return false;
+    if (state.kind === "pre" && !isPre(p)) return false;
+    if (state.kind === "peer" && isPre(p)) return false;
     if (state.q) {
       const hay = [p.title, p.authors, p.summary, p.venue, (p.topics || []).join(" ")].join(" ").toLowerCase();
       if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
@@ -413,23 +414,34 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     posts.filter(ok).forEach((p) => { if (list.length < 3 && !list.includes(p)) list.push(p); });
     return list.slice(0, 3);
   }
-  function isFront() { return state.view === "home" && !state.topic && !state.q; }
+  function isFront() { return state.view === "home" && !state.topic && !state.q; }  // featured row shows only here
   function showFeatured() { return isFront() && state.kind === "peer" && posts.filter((p) => !isPre(p)).length > 3; }
 
-  const CHORDOMA_MAX = 4;
-  function renderChordoma() {
-    const box = $("chordoma");
-    if (!isFront()) { box.hidden = true; box.innerHTML = ""; return; }
-    const list = posts.filter(isChordoma);
-    const rows = list.slice(0, CHORDOMA_MAX).map((p) => `
-      <li>
-        <h3><a href="${esc(p.url || "#")}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
-        <div class="meta">${tagsHTML(p)}<span class="sep">|</span>${longDate(p.published || p.date_added)}${p.authors ? `<span class="sep">|</span>${esc(shortAuthors(p.authors))}` : ""}</div>
-      </li>`).join("");
-    box.innerHTML = `<h2 class="cat-head"><button data-topic="Chordoma">Chordoma</button></h2>`
-      + (list.length ? `<ul>${rows}</ul>` : `<p class="none">No chordoma papers in the last ${retention} days.</p>`)
-      + (list.length > CHORDOMA_MAX ? `<button class="all" data-topic="Chordoma">All ${list.length} chordoma papers →</button>` : "");
-    box.hidden = false;
+  // ---------- Update reports (data/updates.json, written by the scheduled task) ----------
+  function countsLine(c) {
+    if (!c) return "";
+    const label = { journal: ["journal paper", "journal papers"], preprint: ["preprint", "preprints"], chordoma: ["chordoma paper", "chordoma papers"], removed: ["removed", "removed"] };
+    const bits = Object.keys(label).filter((k) => c[k] != null).map((k) => `${c[k]} ${label[k][c[k] === 1 ? 0 : 1]}`);
+    return bits.join(" · ");
+  }
+  function reportHTML(u) {
+    const when = new Date(u.date);
+    const added = (u.added || []).map((a) => {
+      const p = posts.find((x) => x.id === a.id);
+      const t = p ? `<a href="${esc(p.url || "#")}" target="_blank" rel="noopener">${esc(a.title)}</a>` : esc(a.title);
+      const tier = a.tier === "review" ? "review" : a.tier ? `Tier ${a.tier}` : "";
+      return `<li>${t} <span class="why">— ${esc([a.venue, tier, a.topic].filter(Boolean).join(", "))}</span></li>`;
+    }).join("");
+    const skipped = (u.skipped || []).map((x) => `<li>${esc(x.title)} <span class="why">— ${esc(x.reason)}</span></li>`).join("");
+    const notes = (u.notes || []).map((n) => `<li>${esc(n)}</li>`).join("");
+    return `<article class="report">
+      <h3>${when.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}</h3>
+      <div class="counts">${esc(countsLine(u.counts))}</div>
+      ${u.summary ? `<p>${esc(u.summary)}</p>` : ""}
+      ${added ? `<h4>Added</h4><ul>${added}</ul>` : ""}
+      ${skipped ? `<h4>Considered but skipped</h4><ul>${skipped}</ul>` : ""}
+      ${notes ? `<h4>Notes</h4><ul>${notes}</ul>` : ""}
+    </article>`;
   }
 
   function renderFeatured() {
@@ -486,7 +498,17 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
       ? `<div class="notice"><b>Sample posts.</b> These are made-up examples to show the layout. The scheduled task will replace them with real papers.</div>` : "";
     let head = "", list = [], empty = "";
     const clear = `<button class="clear" data-clear>Clear filters</button>`;
-    if (state.view === "saved") {
+    if (state.view === "update") {
+      const list = updates.slice().sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 7);
+      el.innerHTML = `<div class="list-head"><h2>Update reports</h2><span class="meta">What the scheduled task added and skipped, for its last 7 runs</span></div>`
+        + (list.length ? list.map(reportHTML).join("") : `<div class="empty"><strong>No reports yet</strong>The scheduled task writes one here after each run.</div>`);
+      return;
+    }
+    if (state.view === "chordoma") {
+      list = posts.filter((p) => isChordoma(p) && matches(p));
+      head = `<div class="list-head"><h2>Chordoma</h2><span class="meta">${list.length} paper${list.length === 1 ? "" : "s"} · journals and preprints</span>${state.topic || state.q || state.kind !== "all" ? clear : ""}</div>`;
+      empty = `<div class="empty"><strong>No chordoma papers match</strong>${state.q || state.topic || state.kind !== "all" ? "Clear the search or filters." : `None in the last ${retention} days.`}</div>`;
+    } else if (state.view === "saved") {
       list = Object.values(saved).sort((a, b) => b.savedAt.localeCompare(a.savedAt)).map((s) => s.post).filter(matches);
       head = `<div class="list-head"><h2>Saved for later</h2>${state.topic || state.q || state.kind !== "peer" ? clear : ""}</div>`;
       empty = Object.keys(saved).length
@@ -494,7 +516,6 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
         : `<div class="empty"><strong>Nothing saved yet</strong>Tap “Save for later” on any post. Saved posts stay here after they leave the 90-day feed.</div>`;
     } else {
       const hide = showFeatured() ? new Set(featuredPosts().map((p) => p.id)) : new Set();
-      if (isFront()) posts.filter(isChordoma).slice(0, CHORDOMA_MAX).forEach((p) => hide.add(p.id));
       list = posts.filter((p) => !hide.has(p.id) && matches(p));
       const bits = [];
       if (state.topic) bits.push(state.topic);
@@ -517,11 +538,13 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
 
   function renderNav() {
     const n = Object.keys(saved).length;
-    const top = topicCounts().slice(0, 5).map(([t]) => t);
+    const top = topicCounts().filter(([t]) => t !== "Chordoma").slice(0, 5).map(([t]) => t);
     if (state.topic && !top.includes(state.topic)) top.push(state.topic);
     $("nav").innerHTML =
       `<button data-view="home" aria-current="${state.view === "home" && !state.topic}">Home</button>` +
+      `<button data-view="chordoma" aria-current="${state.view === "chordoma"}">Chordoma</button>` +
       top.map((t) => `<button data-topic="${esc(t)}" data-from-nav aria-current="${state.view === "home" && state.topic === t}">${esc(t)}</button>`).join("") +
+      `<button data-view="update" aria-current="${state.view === "update"}">Update</button>` +
       `<button data-view="saved" aria-current="${state.view === "saved"}">Saved${n ? `<span class="count">${n}</span>` : ""}</button>`;
   }
 
@@ -533,21 +556,22 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     $("s-total").textContent = posts.length;
   }
 
-  function render() { renderNav(); renderChordoma(); renderFeatured(); renderList(); renderSide(); }
+  function render() { renderNav(); renderFeatured(); renderList(); renderSide(); }
 
   document.addEventListener("click", (e) => {
     const v = e.target.closest("[data-view]");
-    if (v) { e.preventDefault(); state.view = v.dataset.view; state.topic = null; state.kind = state.view === "saved" ? "all" : "peer"; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
+    if (v) { e.preventDefault(); state.view = v.dataset.view; state.topic = null; state.kind = state.view === "home" ? "peer" : "all"; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
     const t = e.target.closest("[data-topic]");
     if (t) {
       const topic = t.dataset.topic;
+      if (topic === "Chordoma") { state.view = "chordoma"; state.topic = null; state.kind = "all"; state.shown = PAGE; render(); window.scrollTo({ top: 0 }); return; }
       state.topic = state.topic === topic && !t.hasAttribute("data-from-nav") ? null : topic;
-      if (t.closest("#nav")) state.view = "home";
+      if (t.closest("#nav") || state.view === "update") { state.view = "home"; state.kind = "peer"; }
       state.shown = PAGE; render(); return;
     }
     const k = e.target.closest("[data-kind]");
     if (k) { state.kind = k.dataset.kind; state.shown = PAGE; render(); return; }
-    if (e.target.closest("[data-clear]")) { state.topic = null; state.kind = "peer"; state.q = ""; $("q").value = ""; render(); return; }
+    if (e.target.closest("[data-clear]")) { state.topic = null; state.kind = state.view === "home" ? "peer" : "all"; state.q = ""; $("q").value = ""; render(); return; }
     if (e.target.closest("[data-more]")) { state.shown += PAGE; renderList(); return; }
     const s = e.target.closest("[data-save]");
     if (s) {
@@ -571,8 +595,13 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     }
   });
   $("home-link").addEventListener("click", (e) => { e.preventDefault(); state.view = "home"; state.topic = null; state.kind = "peer"; state.q = ""; $("q").value = ""; state.shown = PAGE; render(); });
-  $("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); state.shown = PAGE; renderChordoma(); renderFeatured(); renderList(); renderNav(); });
-  if (location.hash === "#saved") state.view = "saved";
+  $("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); state.shown = PAGE; renderFeatured(); renderList(); renderNav(); });
+  if (["#saved", "#chordoma", "#update"].includes(location.hash)) { state.view = location.hash.slice(1); state.kind = "all"; }
+
+  fetch(UPDATES_URL, { cache: "no-cache" })
+    .then((r) => (r.ok ? r.json() : { updates: [] }))
+    .then((d) => { updates = Array.isArray(d.updates) ? d.updates : []; if (state.view === "update") renderList(); })
+    .catch(() => {});
 
   fetch(DATA_URL, { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })

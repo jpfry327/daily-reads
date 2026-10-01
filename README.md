@@ -7,6 +7,7 @@ A static GitHub Pages site that shows short overviews of new papers. A scheduled
 ```
 index.html        the whole site (HTML, CSS and JS in one file)
 data/posts.json   every post currently in the feed
+data/updates.json the task's report from each of its last 7 runs, shown in the Update tab
 config/interests.md  what to post: topics, tags, journal tiers, preprint rules, limits
 img/              one picture per post: Figure 1 (.webp) or Claude's illustration (.svg), named from the DOI
 .nojekyll         tells GitHub Pages to serve files as-is
@@ -58,9 +59,10 @@ img/              one picture per post: Figure 1 (.webp) or Claude's illustratio
 
 ## What the page shows
 
-- **Chordoma** section at the top of the front page: the 4 newest chordoma posts, journal papers and preprints alike, with a link to all of them.
-- **Featured**: 3 journal papers.
-- **The list**: journal papers only. Preprints appear only when the reader picks "Preprints" (or "Both") under "Show". The "Saved" view shows everything.
+- **Home**: 3 featured journal papers, then the list. Journal papers only, and no chordoma posts. Preprints appear only when the reader picks "Preprints" (or "Both") under "Show".
+- **Chordoma** tab: every chordoma post, journal papers and preprints alike.
+- **Update** tab: the reports from `data/updates.json`, newest first.
+- **Saved** tab: everything the reader saved.
 - `figure`: the post's picture. `kind` is `"figure"` for the paper's own Figure 1 or `"illustration"` for an SVG Claude drew. For an illustration, set `credit` to `"Illustration drawn by Claude from the abstract, not a figure from the paper"`. If `figure` is missing or its file fails to load, the page draws a simple topic picture instead (cell clusters for single-cell, a spot grid for spatial, a sashimi plot for splicing, and so on).
 - `example`: only on the sample posts. Delete those posts on the first real run.
 
@@ -96,7 +98,19 @@ Read `config/interests.md` first. It decides what counts and how many to post.
 8. Remove posts whose `date_added` is more than `retention_days` ago.
    Delete their image files from `img/` too.
 9. Check `data/posts.json` before committing: it must be valid JSON, every post needs `id`, `date_added`, `title`, `venue`, `type` and `topics`, topics must come from `config/interests.md`, and every `figure.src` file must exist. If any check fails, fix it, and don't push a broken file.
-10. Set `updated` to now, commit, and push.
+10. Add this run's report to the front of `updates` in `data/updates.json`, and keep only the 7 newest. Delete any report with `"example": true`. Write a report even when nothing was added. Format:
+    ```json
+    {
+      "date": "2026-10-02T10:05:00Z",
+      "summary": "One or two sentences on the run.",
+      "counts": { "journal": 0, "preprint": 0, "chordoma": 0, "removed": 0 },
+      "added": [{ "id": "<post id>", "title": "...", "venue": "...", "tier": 1, "topic": "<main topic>" }],
+      "skipped": [{ "title": "...", "reason": "one line" }],
+      "notes": ["anything unclear in the rules, missing tools, failed downloads"]
+    }
+    ```
+    `skipped` holds at most 10 of the closest misses. `counts.chordoma` counts chordoma posts separately; they are not also counted under `journal` or `preprint`. `removed` is the number of posts the 90-day cleanup deleted.
+11. Set `updated` in `posts.json` to now, check that `updates.json` is valid JSON, commit, and push.
 
 The page also hides posts older than `retention_days`, so the feed stays correct even if a cleanup run is missed.
 

@@ -1,0 +1,22 @@
+{
+  "updates": [
+    {
+      "example": true,
+      "date": "2026-09-30T10:05:00Z",
+      "summary": "Example report showing the layout. A quiet day for journals; two strong preprints and one chordoma paper.",
+      "counts": { "journal": 2, "preprint": 1, "chordoma": 1, "removed": 0 },
+      "added": [
+        { "id": "example-02", "title": "Subcellular spatial transcriptomics maps tumour–stroma boundaries in bone sarcomas", "venue": "Nature Genetics", "tier": 1, "topic": "Cancer genomics" },
+        { "id": "example-01", "title": "Benchmarking eleven differential transcript usage tools on long-read RNA-seq with spike-in ground truth", "venue": "bioRxiv", "tier": null, "topic": "Methods" },
+        { "id": "example-12", "title": "Single-nucleus multiome of skull-base and sacral chordomas separates notochord-like and mesenchymal tumour states", "venue": "bioRxiv", "tier": null, "topic": "Chordoma" }
+      ],
+      "skipped": [
+        { "title": "A splicing-factor knockdown study in one cell line", "reason": "Tier 2 journal, experimental, not a close match" },
+        { "title": "Review of spatial transcriptomics platforms", "reason": "review outside the review-journal list" }
+      ],
+      "notes": [
+        "Figure downloads were not possible, so all new posts use drawn illustrations."
+      ]
+    }
+  ]
+}
