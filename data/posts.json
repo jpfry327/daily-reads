@@ -1,13 +1,791 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-01T12:00:00Z",
+  "updated": "2026-10-02T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02758-w",
-    "10.1038/s41588-026-02745-1",
-    "10.1038/s41586-026-11048-8"
+    "10.1038/s41587-026-03307-w",
+    "10.1158/2159-8290.CD-25-2302",
+    "10.1016/j.cell.2026.09.012"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41587-026-03307-w",
+      "date_added": "2026-10-02",
+      "published": "2026-10-01",
+      "title": "Deep learning perturbation models can outperform baselines on calibrated metrics",
+      "authors": "Miller HE, Mejia GM, Leblanc FJA, et al.",
+      "venue": "Nature Biotechnology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41587-026-03307-w",
+      "url": "https://doi.org/10.1038/s41587-026-03307-w",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "Recent benchmarks said deep-learning models of genetic perturbation fail to beat uninformative baselines. The authors add a positive-control baseline and a metric calibration framework and re-test across 14 datasets and 18 metrics.",
+      "key_points": [
+        "Common metrics such as mean squared error and Pearson Δ are often miscalibrated and insensitive to real model skill.",
+        "With calibrated metrics, deep-learning perturbation models can outperform uninformative baselines."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41587-026-03307-w.svg",
+        "caption": "On common metrics models and baselines look alike; calibrated metrics separate the deep-learning model from the uninformative baseline.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/2159-8290.CD-25-2302",
+      "date_added": "2026-10-02",
+      "published": "2026-10-01",
+      "title": "Genomic alterations and treatment define spatiotemporal patterns of glioblastoma recurrence",
+      "authors": "Artzi SB, Harwood DSL, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-25-2302",
+      "url": "https://doi.org/10.1158/2159-8290.CD-25-2302",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Tumour evolution",
+        "Clinical"
+      ],
+      "summary": "Histology-guided sampling and single-cell spatial transcriptomics of the surgical margin, adjacent recurrent tumour and matched primaries from 40 glioblastoma patients. The margin is a distinct wound-healing microenvironment where mesenchymal-like malignant states are enriched.",
+      "key_points": [
+        "A 'stromal' subtype emerges at recurrence in patients with early TP53 mutation, sustained proliferation during temozolomide and shorter survival.",
+        "TP53 wild-type tumours recurring on temozolomide shift toward the mesenchymal subtype with higher p53 pathway activity and less proliferation.",
+        "TP53 loss increased temozolomide resistance in a patient-derived model."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-25-2302.svg",
+        "caption": "Recurrence arises around the resection cavity; early TP53 mutation leads to a stromal subtype, TP53 wild type to a mesenchymal one.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.012",
+      "date_added": "2026-10-02",
+      "published": "2026-09-29",
+      "title": "Spatial evolution of a cachexia-promoting microenvironment in pancreatic cancer",
+      "authors": "Hu Y, Lv G, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.012",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.012",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "Single-cell RNA-seq, Xenium spatial transcriptomics, multiplex IHC and bulk data from non-cachexia, pre-cachexia and cachexia pancreatic cancer samples, plus mouse models, define a cachexia niche. It is made of SEMA4A+ tumour cells, AQP9+ macrophages and LOXL2+ cancer-associated fibroblasts.",
+      "key_points": [
+        "SEMA4A signalling drives BMP2-dependent AQP9+ macrophages, whose CXCL8 activates LOXL2+ fibroblasts.",
+        "Fibroblasts feed back to tumour FOSL1/SEMA4A signalling through exosomal N-glycosylated LOXL2.",
+        "The niche grows with cachexia severity and is linked to later cachexia in previously non-cachectic patients."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.cell.2026.09.012.svg",
+        "caption": "Tumour SEMA4A+ cells, AQP9+ macrophages and LOXL2+ fibroblasts form a signalling loop whose niche grows with cachexia severity.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02772-y",
+      "date_added": "2026-10-02",
+      "published": "2026-09-25",
+      "title": "Genome-wide mapping of common and rare variant effects on adiposity across childhood",
+      "authors": "Kentistou KA, Sundfjord J, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02772-y",
+      "url": "https://doi.org/10.1038/s41588-026-02772-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "Age-stratified genetic association studies of childhood adiposity (up to about 600,000 children) find 624 common variants, a third without a matching adult BMI signal. Single-nucleus RNA-seq and exome sequencing in 479,615 people add cell types and rare coding variants.",
+      "key_points": [
+        "Leptin-melanocortin (BSX, GNAS, LEPR, PCSK1) and incretin (GIPR, GLP1R) signals show childhood-specific effects.",
+        "Childhood-specific adiposity cell populations were found in the arcuate nucleus and mammillary bodies.",
+        "Rare variants in ADCY3, CALCR, MC4R, MRAP2, POMC and MYH13 have stronger effects in childhood."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03243-2",
+      "date_added": "2026-10-02",
+      "published": "2026-10-01",
+      "title": "Times are changing but order matters: transferable prediction of small-molecule liquid chromatography retention times",
+      "authors": "Kretschmer F, Harrieder EM, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03243-2",
+      "url": "https://doi.org/10.1038/s41592-026-03243-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "Retention times shift between chromatographic systems, but retention order is more conserved. The 2-step method first predicts a retention order index with machine learning, then maps it to absolute retention times.",
+      "key_points": [
+        "Predicts retention times across conditions and compound classes with no training data from the target system.",
+        "Outperforms existing methods trained on the target dataset.",
+        "Also maps which chromatographic conditions change retention order."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.009",
+      "date_added": "2026-10-02",
+      "published": "2026-09-29",
+      "title": "Microbiome signatures linked to cancer and treatment adverse events in a real-world cohort",
+      "authors": "Yang L, Singh V, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.009",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.009",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Clinical",
+        "Multi-omics"
+      ],
+      "summary": "A mixed-cancer cohort of 1,364 patients and 287 healthy controls (Mayo Clinic Cancer Microbiome) is analysed with a framework that accounts for comorbidities and clinical variables. This separates cancer-specific from non-specific microbiome associations.",
+      "key_points": [
+        "341 cancer-associated species were identified across five cancer classes.",
+        "Early-onset breast cancer showed lower fecal bile acids and C. scindens; early-onset colorectal cancer showed more lactate and Veillonella parvula.",
+        "Anaerostipes hadrus encoding dihydropyrimidine dehydrogenase was protective against 5-fluorouracil-induced diarrhea."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02755-z",
+      "date_added": "2026-10-02",
+      "published": "2026-09-25",
+      "title": "Single-cell analysis of chromatin accessibility in the human intestine identifies regulatory programs and clarifies genetic associations in Crohn's disease",
+      "authors": "Zhao Y, Zhou R, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02755-z",
+      "url": "https://doi.org/10.1038/s41588-026-02755-z",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Epigenomics",
+        "Resource"
+      ],
+      "summary": "A cell-type-resolved atlas of 557,310 candidate cis-regulatory elements from terminal ileum and ascending colon of 23 patients with Crohn's disease and 16 healthy controls.",
+      "key_points": [
+        "Crohn's disease heritability is mainly enriched in T cells and neutrophils.",
+        "30 fine-mapped noncoding Crohn's variants fall within cCREs.",
+        "Regulatory programs behind inflammatory responses in the mucosa are characterised."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02752-2",
+      "date_added": "2026-10-02",
+      "published": "2026-09-28",
+      "title": "Germline homologous recombination deficiency influences TP53-mutant clonal hematopoiesis fitness during platinum and PARP inhibitor treatment",
+      "authors": "Baeten JT, Chan ICC, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02752-2",
+      "url": "https://doi.org/10.1038/s41588-026-02752-2",
+      "topics": [
+        "Cancer genomics",
+        "Clinical",
+        "Tumour evolution"
+      ],
+      "summary": "Serial blood sampling in patients on PARP inhibitors shows DNA-damage-response clonal hematopoiesis is common after therapy, mostly explained by prior carboplatin. A Trp53-mutant mouse model supports the findings.",
+      "key_points": [
+        "DDR clonal hematopoiesis expanded during carboplatin and, less so, during PARP inhibitor treatment.",
+        "Expansion was largely reduced in patients with germline HRD.",
+        "Risk of therapy-related myeloid neoplasm after PARPi may depend on earlier therapy and germline HRD status."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41556-026-02074-9",
+      "date_added": "2026-10-02",
+      "published": "2026-09-28",
+      "title": "Cell atlas of the developing human meninges reveals a dura-like nature of meningiomas",
+      "authors": "Vinsland E, Marco Salas S, et al.",
+      "venue": "Nature Cell Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41556-026-02074-9",
+      "url": "https://doi.org/10.1038/s41556-026-02074-9",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "A single-cell and spatial transcriptomic atlas of human fetal meninges (post-conceptional weeks 5-13) is compared with meningioma transcriptomes. Meningioma cells resemble the dura lineage rather than the arachnoid.",
+      "key_points": [
+        "Meningeal layers develop concurrently; the inner CDH1+ dura layer expresses tight-junction genes.",
+        "Common meningioma driver genes are expressed in the dura lineage.",
+        "Suggests meningiomas could originate from dura-lineage cells."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03218-3",
+      "date_added": "2026-10-02",
+      "published": "2026-09-25",
+      "title": "Spatially resolved chromatin architectures in mammalian brain tissues",
+      "authors": "Chen Z, Guo M, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03218-3",
+      "url": "https://doi.org/10.1038/s41592-026-03218-3",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Epigenomics"
+      ],
+      "summary": "Spatial Hi-C resolves genome-wide 3D chromatin structure directly in tissue sections of mouse embryo and brain. In the cerebellum, granular-layer subclusters defined by distinct 3D genomes align with anatomical lobules.",
+      "key_points": [
+        "Reconstructs single-spot 3D chromatin structures at 10 µm resolution in adult cortex, similar to single-cell data.",
+        "A radial gradient of the short-versus-long interaction ratio in developing brain tracks neuronal maturity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77367-6",
+      "date_added": "2026-10-02",
+      "published": "2026-09-01",
+      "title": "Handling biological replicates in long-read RNA sequencing data by joining or not joining",
+      "authors": "Jetzinger F, Paniagua A, Cormack S, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77367-6",
+      "url": "https://doi.org/10.1038/s41467-026-77367-6",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "Compares two ways to build a consensus transcriptome from replicated long-read RNA-seq: Join & Call (pool reads, then reconstruct) and Call & Join (reconstruct per sample, then merge). Tested on mouse brain and kidney with PacBio and ONT and six reconstruction tools.",
+      "key_points": [
+        "The best strategy depends on the tool and the goal.",
+        "Join & Call is generally better for finding novel isoforms.",
+        "Call & Join is often better for highly replicated datasets when novelty matters less."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-76897-3",
+      "date_added": "2026-10-02",
+      "published": "2026-08-29",
+      "title": "Regulation of mRNA poly(A) tail length governs mammalian body plan formation in gastruloids",
+      "authors": "Taborsky D, Valdivia-Francia F, Serrano P, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-76897-3",
+      "url": "https://doi.org/10.1038/s41467-026-76897-3",
+      "topics": [
+        "RNA biology",
+        "Single-cell"
+      ],
+      "summary": "A single-cell CRISPR screen in mouse gastruloids maps post-transcriptional drivers of germ layer specification and identifies the deadenylase Cnot8.",
+      "key_points": [
+        "Loss of Cnot8 lengthens poly(A) tails widely and stabilises transcripts.",
+        "Mesoderm shifts toward ectopic notochord fate, disrupting axial patterning."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aeg7722",
+      "date_added": "2026-10-02",
+      "published": "2026-09-25",
+      "title": "Multiplatform single-cell and spatial transcriptomics reveal sex-specific malignant states and architecture in male breast cancer",
+      "authors": "Shi H, Zhang X, Cai S, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aeg7722",
+      "url": "https://doi.org/10.1126/sciadv.aeg7722",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Copy number"
+      ],
+      "summary": "An atlas of over 660,000 cells from male and female breast cancer integrating scRNA-seq, SeekSpace, Visium HD, Xenium and multiplex IHC.",
+      "key_points": [
+        "Male-specific tumour cells are enriched in male breast cancer and linked to poorer disease-free survival.",
+        "They show neural programs, higher inferred copy-number burden and lower antigen presentation.",
+        "Spatial association with macrophages suggests a tumour-macrophage axis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-76858-w",
+      "date_added": "2026-10-02",
+      "published": "2026-08-26",
+      "title": "Fusion-driven oncogenic programs shape the immune landscape in translocation renal cell carcinoma",
+      "authors": "Konda P, Wakolbinger AJ, Cui Y, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-76858-w",
+      "url": "https://doi.org/10.1038/s41467-026-76858-w",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Epigenomics",
+        "Immuno-oncology"
+      ],
+      "summary": "Single-cell transcriptomes and chromatin accessibility from TFE3-fusion translocation RCC show six conserved tumour meta-programs, including EMT and proximal tubule identity.",
+      "key_points": [
+        "TFE3 fusion activity balances the EMT and proximal tubule programs.",
+        "The EMT program drives a suppressive microenvironment with progenitor-exhausted CD8+ T cells, SPP1+ macrophages and matrix fibroblasts.",
+        "May explain weaker immunotherapy response than clear cell RCC."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01763-2",
+      "date_added": "2026-10-02",
+      "published": "2026-09-16",
+      "title": "Uncovering pan-cancer signatures of chemoresistance",
+      "authors": "Inayatullah M, Demirdizen E, Keepers Z, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01763-2",
+      "url": "https://doi.org/10.1186/s13073-026-01763-2",
+      "topics": [
+        "Cancer genomics",
+        "Pan-cancer",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "Single-cell, spatial, regulatory network and TF-binding data across cancer types define a conserved chemoresistant state. Resistant cells are proliferative rather than quiescent, with E2F and MYC target activity.",
+      "key_points": [
+        "MYC is a central regulator of the resistant state.",
+        "SRM (spermidine synthase), a new MYC target, supports polyamine biosynthesis and predicts poor survival.",
+        "Inhibiting MYC, SRM or WNT restored chemosensitivity in cells, organoids and mice."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101612",
+      "date_added": "2026-10-02",
+      "published": "2026-09-30",
+      "title": "stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics",
+      "authors": "Cao S, Yang K, Cheng J, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101612",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101612",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "A transformer for spatial transcriptomics that uses cross-attention over spatial ligand genes. A biased cross-attention lets it learn single-cell resolution from low-resolution Visium data; pretrained on about 4.1 million spatial samples.",
+      "key_points": [
+        "Improves on scFoundation for clustering, batch correction, cell type and gene function prediction.",
+        "In silico perturbation reveals ligand-receptor signalling responses."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/0008-5472.CAN-25-5613",
+      "date_added": "2026-10-02",
+      "published": "2026-09-25",
+      "title": "Spatial Analysis Dissects the Microenvironmental Architecture of Local Recurrence after Breast-Conserving Surgery",
+      "authors": "Qu FL, Zhu XH, Chen F, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.CAN-25-5613",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-25-5613",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Single-cell",
+        "Clinical"
+      ],
+      "summary": "Single-cell spatial transcriptomics of primary breast cancers and matched ipsilateral recurrences from 22 patients (over 600,000 cells), separating true recurrences from new primaries.",
+      "key_points": [
+        "Recurrence is driven by a proliferative, immune-excluded epithelial subpopulation.",
+        "CD24+ tumour cells meet BGN+ cancer-associated fibroblasts with MDK and CXCL12 signalling.",
+        "Their colocalisation independently predicted recurrence."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag916",
+      "date_added": "2026-10-02",
+      "published": "2026-09-22",
+      "title": "Site-specific inhibition of translation initiation via 2'-O-methylation",
+      "authors": "Suh A, Mou S, Patrasso EA, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag916",
+      "url": "https://doi.org/10.1093/nar/gkag916",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "Cryo-EM structures suggest hydrogen bonds between 2'-OH groups of mRNA start codons and 18S rRNA. Methylating these 2'-OH groups (Nm) blocks start codon recognition by the preinitiation complex.",
+      "key_points": [
+        "Nm at upstream AUG and near-cognate codons represses uORF translation.",
+        "This can raise expression of the canonical ORF."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag728",
+      "date_added": "2026-10-02",
+      "published": "2026-09-29",
+      "title": "PRISM-GEP: Viewing Single-Cell Expression through the Lens of Topic Modeling",
+      "authors": "Buznah Y, Ishon T, Shaham U.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag728",
+      "url": "https://doi.org/10.1093/bioinformatics/btag728",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "Finds overlapping gene-expression programs in scRNA-seq with Latent Dirichlet Allocation, using a prior estimated from gene co-expression. No reference dataset or pathway database is needed.",
+      "key_points": [
+        "Across 15 human and mouse datasets it matches cNMF and scHPF on GO Biological Process metrics.",
+        "Never ranks last, unlike the specialised methods.",
+        "Also orders genes within programs to recover developmental cascades."
+      ],
+      "data": "",
+      "code": "github.com/shaham-lab/PRISM-GEP"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag676",
+      "date_added": "2026-10-02",
+      "published": "2026-08-31",
+      "title": "MultiSpaceNet: graph-based joint representation learning for paired spatial transcriptome-proteome data",
+      "authors": "Zhang Z, Chen B, Bai J, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag676",
+      "url": "https://doi.org/10.1093/bioinformatics/btag676",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "A cell-graph framework with typed spatial, transcriptomic and proteomic edges and per-cell attention fusion for paired spatial RNA and protein data.",
+      "key_points": [
+        "Beat nine published methods at spatial domain identification on five benchmarks.",
+        "Leakage-free RNA-to-protein imputation matches or exceeds existing methods.",
+        "One model gives domains, imputation and cross-section embeddings."
+      ],
+      "data": "",
+      "code": "github.com/yongzhuangliulab/MultiSpaceNet"
+    },
+    {
+      "id": "10.64898/2026.09.22.753383",
+      "date_added": "2026-10-02",
+      "published": "2026-09-28",
+      "title": "RNA isoform-resolved multiplexed sequencing with bioorthogonal barcoding",
+      "authors": "Malik T, Berlind J, Khan A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.22.753383",
+      "url": "https://doi.org/10.64898/2026.09.22.753383",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Isoforms",
+        "Splicing"
+      ],
+      "summary": "Bioorthogonal barcodes (bobcodes) are attached at internal positions along RNAs so samples can be pooled while keeping splice-junction information. Poly(dT) priming gives 3'-end counting; random hexamers give full-length isoform capture.",
+      "key_points": [
+        "Reverse transcriptase switches to the bobcode with over 99% accuracy in species-mixing tests.",
+        "A BOB-seq v0.1 drug screen found on- and off-target splicing effects genome-wide."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.22.753313",
+      "date_added": "2026-10-02",
+      "published": "2026-09-28",
+      "title": "Structural variation in repeat elements is widespread in normal human tissues and in tumorigenesis",
+      "authors": "Annapragada AV, White J, Orjuela H, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.22.753313",
+      "url": "https://doi.org/10.64898/2026.09.22.753313",
+      "topics": [
+        "Cancer genomics",
+        "Structural variants",
+        "Long-read",
+        "Pan-cancer"
+      ],
+      "summary": "Long- and short-read WGS of 47 normal individuals (168 samples) finds mosaic structural variants in every individual, mostly repeat-mediated. Repeat alterations are then measured across 15 cancer types.",
+      "key_points": [
+        "Mosaic SVs affect a median 285.2 kb per genome; 8.3% overlap functional elements.",
+        "Tumour-related repeat variation is similar in scale to normal mosaic variation.",
+        "Repeat changes in cell-free DNA offer noninvasive tumour monitoring."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.28.754465",
+      "date_added": "2026-10-02",
+      "published": "2026-09-29",
+      "title": "The strength of a gene's first 5' splice site is a key determinant of its expression",
+      "authors": "Sakai Y, McGurk MP, Kowal EJ, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.28.754465",
+      "url": "https://doi.org/10.64898/2026.09.28.754465",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "A reporter assay of thousands of natural human introns tests intron-mediated enhancement (IME) of expression. IME needs major-spliceosome introns and grows with 5' splice site strength, independent of 3' splice site strength.",
+      "key_points": [
+        "Minor introns often repress expression.",
+        "Variants altering the first 5' splice site may change expression without changing splicing.",
+        "U1 snRNP perturbations that improve recognition up-regulate the associated genes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.754980",
+      "date_added": "2026-10-02",
+      "published": "2026-09-30",
+      "title": "RNA splicing factor mutations drive myeloid neoplasm oncogenesis through protein complex poisoning",
+      "authors": "Moura PL, Branca RMM, Kaminskiy Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.754980",
+      "url": "https://doi.org/10.64898/2026.09.29.754980",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "Long/short-read single-cell transcriptomics and low-cell proteomics in 62 myeloid neoplasm patients and 20 healthy donors follow splicing factor mutations through haematopoietic differentiation.",
+      "key_points": [
+        "Mis-splicing decouples RNA and protein dynamics in a mutation-specific way.",
+        "Early protein effects poison whole functional protein complexes, which transcriptomics could not predict.",
+        "iPSC models of early haematopoiesis validate the proteome dynamics."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.23.752440",
+      "date_added": "2026-10-02",
+      "published": "2026-10-01",
+      "title": "The Genome In A Bottle HG002 assembly-based variant benchmark set enables comprehensive benchmarking of small and structural variants",
+      "authors": "Olson ND, Dwarshuis N, Hansen NF, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.23.752440",
+      "url": "https://doi.org/10.64898/2026.09.23.752440",
+      "topics": [
+        "Methods",
+        "Benchmarking",
+        "Structural variants",
+        "Resource"
+      ],
+      "summary": "The GIAB HG002 v5.0q benchmark is derived from a fully phased diploid assembly, covering segmental duplications, homopolymers, tandem repeats and complex immune loci. Available for GRCh37, GRCh38 and CHM13.",
+      "key_points": [
+        "Adds about 200 Mbp of callable sequence versus v4.2.1.",
+        "Variant counts rise 18% for small variants and 3-fold for structural variants.",
+        "Validated across several sequencing technologies and variant-calling pipelines."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.23.753695",
+      "date_added": "2026-10-02",
+      "published": "2026-09-29",
+      "title": "Genomic correlates of metastatic competence and progression in human melanoma",
+      "authors": "Chatziioannou E, Luthria K, Shah P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.23.753695",
+      "url": "https://doi.org/10.64898/2026.09.23.753695",
+      "topics": [
+        "Cancer genomics",
+        "Copy number",
+        "Tumour evolution",
+        "Spatial"
+      ],
+      "summary": "Sequencing of 247 stage I/II primary melanomas and 60 matched metastases, integrating copy-number, mutation, protein and spatial transcriptomic data.",
+      "key_points": [
+        "Relapse is marked by copy-number alterations and chromosomal instability, not point mutations.",
+        "OncoCycle, a six-gene copy-number signature, predicted relapse independently of clinicopathological features.",
+        "Both monoclonal and polyclonal metastasis seeding were seen."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.07.16.665072",
+      "date_added": "2026-10-02",
+      "published": "2026-09-28",
+      "title": "Base modification analysis in long read sequencing data using Minimod",
+      "authors": "Samarasinghe S, Robinson CM, Goeke J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.07.16.665072",
+      "url": "https://doi.org/10.1101/2025.07.16.665072",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "RNA modifications"
+      ],
+      "summary": "Minimod is a vendor-independent tool to extract and analyse DNA and RNA base modifications from MM/ML tags in ONT and PacBio data. Written in C.",
+      "key_points": [
+        "About 1.3-1.6x faster than modkit and pb-CpG-tools on DNA on a server, about 4x on a laptop.",
+        "On RNA data about 12x faster on a server and 55x on a laptop than modkit."
+      ],
+      "data": "",
+      "code": "github.com/warp9seq/minimod"
+    },
+    {
+      "id": "10.64898/2026.09.22.753522",
+      "date_added": "2026-10-02",
+      "published": "2026-09-28",
+      "title": "A framework for designing splice-junction experiments in deep 3' single-cell RNA sequencing",
+      "authors": "Saferali A, Liu C, Vendrame AS, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.22.753522",
+      "url": "https://doi.org/10.64898/2026.09.22.753522",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Splicing",
+        "Benchmarking"
+      ],
+      "summary": "Deep scRNA-seq of human airway epithelium (12 samples) benchmarked against matched bulk RNA-seq from a 190-donor cohort to quantify how depth governs junction recovery in 3' chemistries.",
+      "key_points": [
+        "Junction detection does not saturate with depth.",
+        "Recovering 90% of observed junctions needs about 52,250 reads per cell, several-fold more than gene-level analysis.",
+        "Rare cell types are limited by cell number, not depth."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.30.755803",
+      "date_added": "2026-10-02",
+      "published": "2026-10-02",
+      "title": "Post-transcriptional dysregulation precedes morphological transformation in chemically induced liver cancer",
+      "authors": "Izuogu OG, Jackson M.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.30.755803",
+      "url": "https://doi.org/10.64898/2026.09.30.755803",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "RNA modifications"
+      ],
+      "summary": "Reanalysis of total RNA and matched genomes from 438 mouse liver lesions (diethylnitrosamine-induced) across four backgrounds, plus normal liver from treated animals.",
+      "key_points": [
+        "Splicing efficiency falls, circRNA output rises and A-to-I editing sites fall in every background.",
+        "Coordination between these three outputs is lost after exposure, including in paired normal liver.",
+        "Histologically normal liver already looks tumour-like about eight months after one exposure."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.23.753832",
+      "date_added": "2026-10-02",
+      "published": "2026-09-29",
+      "title": "Complete timing of copy-number amplification histories reveals whole-genome duplication dynamics and coincident oncogene amplification bursts",
+      "authors": "Gulhan DC, Brew J, Park PJ.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.23.753832",
+      "url": "https://doi.org/10.64898/2026.09.23.753832",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Tumour evolution"
+      ],
+      "summary": "Tau enumerates every allele-specific gain route to a copy-number state and derives an analytical timing for each gain, using co-amplified mutation multiplicity.",
+      "key_points": [
+        "Across pan-cancer genomes about three-quarters of clonal gains are punctuated multichromosomal events, most of them whole-genome duplication.",
+        "The highest copy-number states arise in abrupt bursts around WGD, recurring at oncogenes."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.47391/JPMA-7ANOS-ABS-35",
       "date_added": "2026-10-01",

@@ -1,6 +1,279 @@
 {
   "updates": [
     {
+      "date": "2026-10-02T10:30:00Z",
+      "summary": "Added 10 Tier 1 papers (4 purely computational), 10 Tier 2 journal papers, 10 close-match preprints and 0 chordoma papers. Featured and illustrated three new Tier 1 papers.",
+      "counts": {
+        "tier1": 10,
+        "tier2": 10,
+        "preprint": 10,
+        "chordoma": 0,
+        "removed": 0
+      },
+      "added": [
+        {
+          "id": "10.1038/s41587-026-03307-w",
+          "title": "Deep learning perturbation models can outperform baselines on calibrated metrics",
+          "venue": "Nature Biotechnology",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1158/2159-8290.CD-25-2302",
+          "title": "Genomic alterations and treatment define spatiotemporal patterns of glioblastoma recurrence",
+          "venue": "Cancer Discovery",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1016/j.cell.2026.09.012",
+          "title": "Spatial evolution of a cachexia-promoting microenvironment in pancreatic cancer",
+          "venue": "Cell",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41588-026-02772-y",
+          "title": "Genome-wide mapping of common and rare variant effects on adiposity across childhood",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41592-026-03243-2",
+          "title": "Times are changing but order matters: transferable prediction of small-molecule liquid chromatography retention times",
+          "venue": "Nature Methods",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1016/j.cell.2026.09.009",
+          "title": "Microbiome signatures linked to cancer and treatment adverse events in a real-world cohort",
+          "venue": "Cell",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41588-026-02755-z",
+          "title": "Single-cell analysis of chromatin accessibility in the human intestine identifies regulatory programs and clarifies genetic associations in Crohn's disease",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41588-026-02752-2",
+          "title": "Germline homologous recombination deficiency influences TP53-mutant clonal hematopoiesis fitness during platinum and PARP inhibitor treatment",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41556-026-02074-9",
+          "title": "Cell atlas of the developing human meninges reveals a dura-like nature of meningiomas",
+          "venue": "Nature Cell Biology",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41592-026-03218-3",
+          "title": "Spatially resolved chromatin architectures in mammalian brain tissues",
+          "venue": "Nature Methods",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-77367-6",
+          "title": "Handling biological replicates in long-read RNA sequencing data by joining or not joining",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-76897-3",
+          "title": "Regulation of mRNA poly(A) tail length governs mammalian body plan formation in gastruloids",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1126/sciadv.aeg7722",
+          "title": "Multiplatform single-cell and spatial transcriptomics reveal sex-specific malignant states and architecture in male breast cancer",
+          "venue": "Science Advances",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41467-026-76858-w",
+          "title": "Fusion-driven oncogenic programs shape the immune landscape in translocation renal cell carcinoma",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1186/s13073-026-01763-2",
+          "title": "Uncovering pan-cancer signatures of chemoresistance",
+          "venue": "Genome Medicine",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1016/j.crmeth.2026.101612",
+          "title": "stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics",
+          "venue": "Cell Reports Methods",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1158/0008-5472.CAN-25-5613",
+          "title": "Spatial Analysis Dissects the Microenvironmental Architecture of Local Recurrence after Breast-Conserving Surgery",
+          "venue": "Cancer Research",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1093/nar/gkag916",
+          "title": "Site-specific inhibition of translation initiation via 2'-O-methylation",
+          "venue": "Nucleic Acids Research",
+          "tier": 2,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag728",
+          "title": "PRISM-GEP: Viewing Single-Cell Expression through the Lens of Topic Modeling",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag676",
+          "title": "MultiSpaceNet: graph-based joint representation learning for paired spatial transcriptome-proteome data",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.22.753383",
+          "title": "RNA isoform-resolved multiplexed sequencing with bioorthogonal barcoding",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.22.753313",
+          "title": "Structural variation in repeat elements is widespread in normal human tissues and in tumorigenesis",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.28.754465",
+          "title": "The strength of a gene's first 5' splice site is a key determinant of its expression",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.09.29.754980",
+          "title": "RNA splicing factor mutations drive myeloid neoplasm oncogenesis through protein complex poisoning",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.09.23.752440",
+          "title": "The Genome In A Bottle HG002 assembly-based variant benchmark set enables comprehensive benchmarking of small and structural variants",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.23.753695",
+          "title": "Genomic correlates of metastatic competence and progression in human melanoma",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1101/2025.07.16.665072",
+          "title": "Base modification analysis in long read sequencing data using Minimod",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.22.753522",
+          "title": "A framework for designing splice-junction experiments in deep 3' single-cell RNA sequencing",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.30.755803",
+          "title": "Post-transcriptional dysregulation precedes morphological transformation in chemically induced liver cancer",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.09.23.753832",
+          "title": "Complete timing of copy-number amplification histories reveals whole-genome duplication dynamics and coincident oncogene amplification bursts",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        }
+      ],
+      "skipped": [
+        {
+          "title": "En Bloc Resection for Primary Malignant Tumors of the Subaxial Cervical Spine (Clin Spine Surg)",
+          "reason": "Chordoma is only a keyword; the abstract and title never mention it."
+        },
+        {
+          "title": "Isolated clival Langerhans cell histiocytosis: systematic review and case (Childs Nerv Syst)",
+          "reason": "Mentions chordoma only as a radiological mimic; no chordoma cases."
+        },
+        {
+          "title": "Function-preserving watermarking of AI-generated proteins (Nature)",
+          "reason": "Protein design, out of scope; not purely computational."
+        },
+        {
+          "title": "Lineage identity governs oncogene dependence in mouse NSCLC models of KRAS inhibitor resistance (Nat Genet)",
+          "reason": "Experimental and cut by the 10-paper Tier 1 limit; computational and mixed papers ranked first."
+        },
+        {
+          "title": "The early RNA decay factor ZC3H18 directs first intron splicing (Mol Cell)",
+          "reason": "Experimental RNA biology, cut by the Tier 1 limit."
+        },
+        {
+          "title": "Population-scale immune multiome atlas reveals regulatory disease mechanisms (Nature)",
+          "reason": "Immune genetics, off-topic and not purely computational."
+        },
+        {
+          "title": "SRSF3 in liver cancer sex disparity (PNAS)",
+          "reason": "Experimental mouse work; the main point is liver cancer, not splicing."
+        },
+        {
+          "title": "Several further single-cell and spatial computational papers in Bioinformatics",
+          "reason": "Tier 2 limit; kept the closest matches (PRISM-GEP, MultiSpaceNet)."
+        },
+        {
+          "title": "seqsizzle: long-read barcode and adapter decoding (bioRxiv)",
+          "reason": "Preprint limit of 10; ranked below the posted preprints."
+        },
+        {
+          "title": "Pangenome polymorphic transposable elements and Mendel variant model (bioRxiv)",
+          "reason": "Preprint limit of 10."
+        }
+      ],
+      "notes": [
+        "bioRxiv search_preprints returned at most 30 results per call regardless of limit=100, so paging stopped only on an empty page, not on fewer than 100 as README step 3 says.",
+        "Chordoma rule is ambiguous for papers that only mention chordoma as a differential diagnosis or as a keyword; both were skipped.",
+        "No paper's license allowed confirmed figure reuse (CC BY), so the three featured posts have hand-drawn illustrations.",
+        "Tier 1 'purely computational' papers outside the main topics (adiposity GWAS, LC retention times) were posted under Methods with the Computational tag.",
+        "Minimod (10.1101/2025.07.16.665072) is a v2 revision of a 2025 preprint whose DOI had never been posted, so it counts as new.",
+        "Sub-agents helped triage titles; abstracts of posted papers were read from PubMed or bioRxiv."
+      ]
+    },
+    {
       "date": "2026-10-01T12:00:00Z",
       "summary": "First real run (manual test). Added 10 Tier 1 journal papers (6 purely computational), 8 close-match preprints and 3 chordoma papers; removed all example posts and the example report.",
       "counts": {

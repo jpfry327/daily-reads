@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="32" font-size="20" font-weight="700" fill="#2B3138" text-anchor="middle">A three-cell loop drives cachexia</text>
+<circle cx="320" cy="170" r="104" fill="#F4F5F6"/>
+<text x="320" y="166" font-size="14" fill="#8A949E" text-anchor="middle">Cachexia</text>
+<text x="320" y="184" font-size="14" fill="#8A949E" text-anchor="middle">niche</text>
+<circle cx="320" cy="94" r="46" fill="#C8323F"/>
+<text x="320" y="90" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Tumour</text>
+<text x="320" y="108" font-size="14" fill="#FFFFFF" text-anchor="middle">SEMA4A+</text>
+<circle cx="448" cy="252" r="46" fill="#1E5FA8"/>
+<text x="448" y="248" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Macrophage</text>
+<text x="448" y="266" font-size="14" fill="#FFFFFF" text-anchor="middle">AQP9+</text>
+<circle cx="192" cy="252" r="46" fill="#3C9A2E"/>
+<text x="192" y="248" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">CAF</text>
+<text x="192" y="266" font-size="14" fill="#FFFFFF" text-anchor="middle">LOXL2+</text>
+<path d="M360 120 Q430 140 452 208" fill="none" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="470" y="140" font-size="14" fill="#2B3138">BMP2</text>
+<path d="M404 276 Q320 322 236 276" fill="none" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="320" y="326" font-size="14" fill="#2B3138" text-anchor="middle">CXCL8</text>
+<path d="M188 208 Q210 130 284 114" fill="none" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="100" y="140" font-size="14" fill="#2B3138">Exosomal</text>
+<text x="100" y="158" font-size="14" fill="#2B3138">LOXL2 → FOSL1</text>
+<text x="40" y="372" font-size="13" fill="#2B3138">Niche grows with severity:</text>
+<rect x="250" y="358" width="110" height="20" fill="#E3E6E9"/>
+<text x="305" y="373" font-size="13" fill="#2B3138" text-anchor="middle">No cachexia</text>
+<rect x="364" y="358" width="110" height="20" fill="#F0C987"/>
+<text x="419" y="373" font-size="13" fill="#2B3138" text-anchor="middle">Pre-cachexia</text>
+<rect x="478" y="358" width="110" height="20" fill="#C8323F"/>
+<text x="533" y="373" font-size="13" fill="#FFFFFF" text-anchor="middle">Cachexia</text>
+</svg>

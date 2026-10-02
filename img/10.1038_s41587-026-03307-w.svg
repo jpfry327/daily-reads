@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="34" font-size="20" font-weight="700" fill="#2B3138" text-anchor="middle">Calibration reveals what metrics hid</text>
+<text x="40" y="82" font-size="15" font-weight="700" fill="#C8323F">Common metrics: MSE, Pearson Δ</text>
+<line x1="40" y1="140" x2="600" y2="140" stroke="#8A949E" stroke-width="3"/>
+<circle cx="290" cy="140" r="14" fill="#8A949E"/>
+<circle cx="320" cy="140" r="14" fill="#1E5FA8"/>
+<circle cx="350" cy="140" r="14" fill="#3C9A2E"/>
+<text x="40" y="180" font-size="14" fill="#2B3138">Models and baselines look the same</text>
+<text x="600" y="180" font-size="14" fill="#C8323F" text-anchor="end">Miscalibrated</text>
+<line x1="40" y1="208" x2="600" y2="208" stroke="#E3E6E9" stroke-width="2"/>
+<text x="40" y="244" font-size="15" font-weight="700" fill="#3C9A2E">Calibrated metrics</text>
+<line x1="40" y1="300" x2="600" y2="300" stroke="#8A949E" stroke-width="3"/>
+<circle cx="130" cy="300" r="14" fill="#8A949E"/>
+<circle cx="360" cy="300" r="14" fill="#1E5FA8"/>
+<circle cx="520" cy="300" r="14" fill="#3C9A2E"/>
+<path d="M146 282 Q245 262 344 282" fill="none" stroke="#1E5FA8" stroke-width="2.5"/>
+<path d="M338 276 L346 283 L336 286" fill="none" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="40" y="340" font-size="14" fill="#2B3138">Deep learning clears the baseline</text>
+<text x="600" y="340" font-size="14" fill="#3C9A2E" text-anchor="end">Sensitive</text>
+<circle cx="60" cy="378" r="8" fill="#8A949E"/><text x="76" y="383" font-size="13" fill="#2B3138">Uninformative baseline</text>
+<circle cx="266" cy="378" r="8" fill="#1E5FA8"/><text x="282" y="383" font-size="13" fill="#2B3138">Deep-learning model</text>
+<circle cx="440" cy="378" r="8" fill="#3C9A2E"/><text x="456" y="383" font-size="13" fill="#2B3138">Positive control</text>
+</svg>
