@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">scSTAMP-seq: stamping position with light</text>
+<!-- step 1 -->
+<text x="108" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#2B3138">1. Label cells</text>
+<g fill="#1E5FA8" fill-opacity="0.18" stroke="#1E5FA8" stroke-width="2"><circle cx="70" cy="150" r="22"/><circle cx="114" cy="150" r="22"/><circle cx="158" cy="150" r="22"/><circle cx="92" cy="190" r="22"/><circle cx="136" cy="190" r="22"/><circle cx="114" cy="228" r="22"/></g>
+<g stroke="#2B3138" stroke-width="2"><line x1="70" y1="128" x2="70" y2="112"/><line x1="114" y1="128" x2="114" y2="112"/><line x1="158" y1="128" x2="158" y2="112"/></g>
+<g fill="#D98A00"><circle cx="70" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><circle cx="158" cy="108" r="5"/></g>
+<text x="108" y="272" text-anchor="middle" font-size="13" fill="#2B3138">photocleavable hashtag</text>
+<text x="108" y="289" text-anchor="middle" font-size="13" fill="#2B3138">oligos on live embryoid cells</text>
+<path d="M200 170 L238 170" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)"/>
+<!-- step 2 -->
+<text x="320" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#2B3138">2. Pattern light</text>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#D98A00" stop-opacity="0.9"/><stop offset="1" stop-color="#D98A00" stop-opacity="0.08"/></linearGradient></defs>
+<rect x="250" y="96" width="140" height="26" rx="4" fill="url(#g)"/>
+<g stroke="#D98A00" stroke-width="2.5"><line x1="262" y1="124" x2="262" y2="150"/><line x1="292" y1="124" x2="292" y2="150"/><line x1="322" y1="124" x2="322" y2="150"/><line x1="352" y1="124" x2="352" y2="150"/><line x1="380" y1="124" x2="380" y2="150"/></g>
+<g fill="#1E5FA8" fill-opacity="0.18" stroke="#1E5FA8" stroke-width="2"><circle cx="268" cy="180" r="16"/><circle cx="302" cy="180" r="16"/><circle cx="336" cy="180" r="16"/><circle cx="370" cy="180" r="16"/><circle cx="285" cy="214" r="16"/><circle cx="319" cy="214" r="16"/><circle cx="353" cy="214" r="16"/></g>
+<text x="250" y="262" font-size="13" fill="#D98A00" font-weight="700">strong light</text>
+<text x="390" y="262" text-anchor="end" font-size="13" fill="#8A949E" font-weight="700">weak light</text>
+<text x="320" y="289" text-anchor="middle" font-size="13" fill="#2B3138">gradient cuts tags by position</text>
+<path d="M412 170 L450 170" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)"/>
+<!-- step 3 -->
+<text x="535" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#2B3138">3. Single-cell multiome</text>
+<rect x="462" y="96" width="146" height="56" rx="8" fill="#3C9A2E" fill-opacity="0.15" stroke="#3C9A2E" stroke-width="2"/>
+<text x="535" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#3C9A2E">RNA</text>
+<text x="535" y="140" text-anchor="middle" font-size="13" fill="#2B3138">transcriptome</text>
+<rect x="462" y="164" width="146" height="56" rx="8" fill="#1E5FA8" fill-opacity="0.12" stroke="#1E5FA8" stroke-width="2"/>
+<text x="535" y="188" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">ATAC</text>
+<text x="535" y="208" text-anchor="middle" font-size="13" fill="#2B3138">chromatin state</text>
+<rect x="462" y="232" width="146" height="40" rx="8" fill="#D98A00" fill-opacity="0.15" stroke="#D98A00" stroke-width="2"/>
+<text x="535" y="257" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">tag = position</text>
+<text x="320" y="352" text-anchor="middle" font-size="15" fill="#2B3138">Spatial coordinates come back with standard single-cell platforms</text>
+</svg>

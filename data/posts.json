@@ -1,13 +1,719 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-02T10:30:00Z",
+  "updated": "2026-10-03T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41587-026-03307-w",
-    "10.1158/2159-8290.CD-25-2302",
-    "10.1016/j.cell.2026.09.012"
+    "10.1016/j.molcel.2026.09.032",
+    "10.1038/s41588-026-02775-9",
+    "10.1038/s41587-026-03328-5"
   ],
   "posts": [
+    {
+      "id": "10.1016/j.molcel.2026.09.032",
+      "date_added": "2026-10-03",
+      "published": "2026-10-02",
+      "title": "An epigenetic program dictates MYC amplification dynamics that promote transient, extrachromosomal, and inherited genomic events",
+      "authors": "Ferman BI, Azadegan C, Santoro J, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.032",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.032",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Copy number"
+      ],
+      "summary": "The authors ask how MYC copy gains first arise from a diploid genome. They show that H3K4 methylation primes MYC for amplification by the demethylase KDM4C, while the methyltransferase SETD2 holds copy gains back.",
+      "key_points": [
+        "SETD2 loss or inhibition recruits active KDM4C, which starts and drives stepwise MYC copy gains; the same relationships appear in tumour datasets.",
+        "Blocking apoptosis or losing TP53 speeds up higher-level amplification, including extrachromosomal circular DNA and inherited copy gains.",
+        "Non-transformed cells with these changes are tumorigenic, and KDM4C inhibition suppresses MYC amplification."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.molcel.2026.09.032.svg",
+        "caption": "H3K4me-primed MYC is amplified through KDM4C and restrained by SETD2, giving stepwise copy gains that end in ecDNA, sped up by TP53 loss or blocked apoptosis.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02775-9",
+      "date_added": "2026-10-03",
+      "published": "2026-09-25",
+      "title": "Euchromatin forms condensed domains with short active regions on the surface",
+      "authors": "Paggi JM, Long LY, Zhang B",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02775-9",
+      "url": "https://doi.org/10.1038/s41588-026-02775-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics"
+      ],
+      "summary": "The authors built a simulation framework that turns region-capture micro-C contact maps into conformational ensembles of megabase-scale regions at nucleosome resolution. The inferred structures contradict the classical view of euchromatin as uniformly open.",
+      "key_points": [
+        "A micro-C balancing step corrects for variation in contact density, and the simulations reproduce distances measured by chromatin tracing.",
+        "Euchromatin forms condensed domains of similar density but smaller size than heterochromatin domains.",
+        "Kilobase-scale promoters and enhancers often protrude from these domains and become highly accessible, which may help protein binding and enhancer-promoter contact."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02775-9.svg",
+        "caption": "Instead of an open fibre, simulated euchromatin forms condensed domains from which promoters and enhancers protrude.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41587-026-03328-5",
+      "date_added": "2026-10-03",
+      "published": "2026-09-25",
+      "title": "Photolabile oligonucleotides with topological light gradients enable spatially resolved single-cell transcriptomics and epigenomics",
+      "authors": "Piscopio RA, Chialastri A, Wang C, et al.",
+      "venue": "Nature Biotechnology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41587-026-03328-5",
+      "url": "https://doi.org/10.1038/s41587-026-03328-5",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "scSTAMP-seq labels live or fixed cells with cholesterol-conjugated, photocleavable hashtag oligonucleotides. Patterned light then 'stamps' spatial coordinates onto cells before standard single-cell multiome sequencing.",
+      "key_points": [
+        "Spatial information is kept while using standard single-cell platforms, so no specialised spatial instrument is needed.",
+        "The method is modular and works for both transcriptomics and multiome profiling.",
+        "Applied to human embryoids, it shows how spatial organisation and epigenetic states jointly regulate cellular programs."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41587-026-03328-5.svg",
+        "caption": "Photocleavable tags on cells are cut by a patterned light gradient, so each cell's position is read out with its RNA and chromatin profile.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11078-2",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "Population-scale immune multiome atlas reveals regulatory disease mechanisms",
+      "authors": "Kanai M, Delorey TM, Honkanen J, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11078-2",
+      "url": "https://doi.org/10.1038/s41586-026-11078-2",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Multi-omics",
+        "Resource"
+      ],
+      "summary": "The authors profiled chromatin accessibility and gene expression together in 10 million PBMCs from 1,108 Finnish individuals. The paired data link non-coding variants to disease through chromatin-to-expression cascades.",
+      "key_points": [
+        "They report 51,083 cis-eQTLs, 338,100 cis-chromatin accessibility QTLs, 119,094 putative causal variants and 593,765 peak-gene links.",
+        "Variants that complete a chromatin-to-expression cascade show twice the disease colocalisation of chromatin-only effects; 10,428 fine-mapped QTLs were validated by massively parallel reporter assays.",
+        "At evolutionarily constrained genes, accessibility changes are buffered before reaching expression, through weaker and more numerous enhancer-gene links."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.009",
+      "date_added": "2026-10-03",
+      "published": "2026-09-29",
+      "title": "The early RNA decay factor ZC3H18 directs first intron splicing",
+      "authors": "Le Rest M, El Houda Benbahouche N, Kuhn CC, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.009",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.009",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "The authors show that ZC3H18, known as an early RNA decay linker, also stimulates splicing of the first intron genome-wide. It does this by interacting with the splicing factors PRPF40A, PRP4K and FNBP4.",
+      "key_points": [
+        "Disrupting the CBC-ARS2-ZC3H18 axis corrupts first intron splicing, linking the effect to the cap-binding complex.",
+        "ZC3H18's binding to splicing factors is mutually exclusive with its binding to the NEXT decay complex.",
+        "The model: splicing factors displace NEXT, sending nascent RNA down a productive splicing path instead of decay."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41594-026-01897-2",
+      "date_added": "2026-10-03",
+      "published": "2026-09-28",
+      "title": "Profiling extracellular vesicle glycoRNAs defines their function in vesicular communication",
+      "authors": "Chen X, Hao C, Chen X, et al.",
+      "venue": "Nature Structural & Molecular Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41594-026-01897-2",
+      "url": "https://doi.org/10.1038/s41594-026-01897-2",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The authors show that extracellular vesicles carry glycosylated RNAs (glycoRNAs). Metabolic tagging with bioorthogonal handles let them enrich and sequence these RNAs and track them by imaging.",
+      "key_points": [
+        "EV glycoRNAs differ by sequence, vesicle type and transfer dynamics; large and small EVs show distinct repertoires.",
+        "EVs deliver glycoRNAs to recipient cells, and hybridisation-based blockade of glycoRNAs strongly reduces EV uptake.",
+        "The authors suggest EV glycoRNAs are biomarkers of cell state and regulators of vesicle tropism."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02768-8",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "Lineage identity governs oncogene dependence in mouse NSCLC models of KRAS inhibitor resistance",
+      "authors": "Mathey-Andrews N, Rodriguez CL, Shui B, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02768-8",
+      "url": "https://doi.org/10.1038/s41588-026-02768-8",
+      "topics": [
+        "Cancer genomics"
+      ],
+      "summary": "Using mouse models of Kras-driven lung adenocarcinoma treated with KRAS inhibitors, the authors model both KRAS-dependent and KRAS-independent resistance. Genetic Kras amplification arises with continued treatment, while squamous lineage transformation gives oncogene-independent resistance.",
+      "key_points": [
+        "Residual tumour after initial treatment transcriptionally resembles alveolar epithelial cells.",
+        "ΔNp63 is sufficient to push alveolar organoids to a squamous state that ignores KRAS inhibition; Nkx2-1 loss and ectopic Sox2 poise tumours for squamous commitment in vivo.",
+        "Squamous-transformed tumours show no KRAS/MAPK reactivation, pointing to lineage transcription factors as the cause of KRAS independence."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02776-8",
+      "date_added": "2026-10-03",
+      "published": "2026-10-02",
+      "title": "Single-allele nanoscale mapping of regulatory variants",
+      "authors": "Hamley JC, Zhang W, Willmott D, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02776-8",
+      "url": "https://doi.org/10.1038/s41588-026-02776-8",
+      "topics": [
+        "Methods",
+        "Epigenomics"
+      ],
+      "summary": "The authors developed MCCv, a Micro Capture-C platform that reads single-allele chromatin structure to link regulatory variants to their target genes. They applied it to 405 cis-regulatory elements tied to immune-mediated inflammatory disease in CD4 T cells.",
+      "key_points": [
+        "MCCv can phase heterozygous variants to connect regulatory variants with allelically imbalanced expression, and reads variant effects on chromatin contacts after genome editing.",
+        "It found a gain-of-function mechanism where a neo-CTCF motif blocks super-enhancer contacts with the SESN3 promoter and raises autoimmunity risk.",
+        "SESN3 regulates mTOR by sensing tryptophan, and mouse models support its role in autoimmunity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41576-026-00990-y",
+      "date_added": "2026-10-03",
+      "published": "2026-09-25",
+      "title": "Machine learning and statistical methods for molecular quantitative trait loci",
+      "authors": "Engelhardt BE, Weinstock JS, Nyquist SK, et al.",
+      "venue": "Nature Reviews Genetics",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1038/s41576-026-00990-y",
+      "url": "https://doi.org/10.1038/s41576-026-00990-y",
+      "topics": [
+        "Methods",
+        "Machine learning"
+      ],
+      "summary": "This review covers statistical and machine-learning methods for mapping molecular quantitative trait loci (molQTLs), such as genetic effects on gene expression or chromatin accessibility. It focuses on how these methods improve standard mapping, downstream analyses and mechanistic insight.",
+      "key_points": [
+        "Larger cohorts and more molecular phenotypes have increased the power of molQTL mapping.",
+        "Statistical models and, increasingly, machine learning are being developed for mapping and downstream analysis.",
+        "The emphasis is on understanding mechanisms linking genetic variation to phenotype in a gene regulatory context."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77381-8",
+      "date_added": "2026-10-03",
+      "published": "2026-09-14",
+      "title": "GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference",
+      "authors": "Skok Gibbs C, Chen A, Bonneau R, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77381-8",
+      "url": "https://doi.org/10.1038/s41467-026-77381-8",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "GLM-Prior is a genomic language model fine-tuned to predict transcription factor-target gene interactions from nucleotide sequence. It supplies sequence-derived priors for gene regulatory network inference when curated priors are missing.",
+      "key_points": [
+        "Paired with PMF-GRN, it combines sequence-derived priors with single-cell expression for prior-conditioned network inference.",
+        "Across six cell-line contexts, it beats accessibility-based priors in four of five mammalian cell lines.",
+        "Prior quality largely limits network inference performance, and species-transfer training gives informative priors across related mammals."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77304-7",
+      "date_added": "2026-10-03",
+      "published": "2026-08-29",
+      "title": "Mapping genetic regulation of gene expression to cellular contexts identifies long non-coding RNAs associated with brain disorders",
+      "authors": "Jia Y, Chen L, Song L, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77304-7",
+      "url": "https://doi.org/10.1038/s41467-026-77304-7",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Deconvolution"
+      ],
+      "summary": "The authors map interaction eQTLs for long non-coding RNAs in cortical RNA-seq from 2,443 individuals, using deconvolution-derived cell-type proportions. This gives cell-context-dependent genetic regulation without single-nucleus data.",
+      "key_points": [
+        "3,763 of 17,541 analysed lncRNAs have cellular-context-dependent effects, and 74% of those are not annotated by GENCODE.",
+        "Colocalisation with GWAS of brain-related traits gives 118 lncRNA-trait events, about two-thirds detectable only after modelling cell context.",
+        "The result is a map for nominating lncRNAs that may mediate genetic risk for brain disorders."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag721",
+      "date_added": "2026-10-03",
+      "published": "2026-09-28",
+      "title": "pileup-hi: an ultra-high-throughput, customizable alignment pileup program for large datasets",
+      "authors": "Piliper E, Greninger AL",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag721",
+      "url": "https://doi.org/10.1093/bioinformatics/btag721",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "pileup-hi is a multi-threaded alignment pileup engine built for billions of reads and high-depth clinical sequencing, where variants down to 0.01% may be called. It also supports custom output formats.",
+      "key_points": [
+        "In mpileup format it is up to 13x faster than samtools mpileup, 3.2x faster than sambamba mpileup and up to 8x faster than perbase base-depth.",
+        "Aimed at time-sensitive uses such as cancer screening on Illumina NovaSeq X and Ultima UG 100 data."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag727",
+      "date_added": "2026-10-03",
+      "published": "2026-09-28",
+      "title": "scLDM: a conditional diffusion framework for single-cell perturbation prediction",
+      "authors": "Wu B, Liu Y, Cheng Y, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag727",
+      "url": "https://doi.org/10.1093/bioinformatics/btag727",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "scLDM predicts single-cell responses to perturbations with a latent diffusion model. A variational autoencoder compresses expression, and a conditional diffusion process generates post-perturbation states guided by cell state, cell type and perturbation.",
+      "key_points": [
+        "Tested on six datasets spanning drugs, viral and helminth infection, genetic perturbations and multi-species immune responses, with better accuracy than state-of-the-art methods.",
+        "Learned perturbation embeddings align with known biological mechanisms."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41591-026-04673-3",
+      "date_added": "2026-10-03",
+      "published": "2026-10-02",
+      "title": "Urine cell-free RNA for bladder cancer detection and treatment response prediction",
+      "authors": "Liu KJ, Shi WY, Nesselbush MC, et al.",
+      "venue": "Nature Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41591-026-04673-3",
+      "url": "https://doi.org/10.1038/s41591-026-04673-3",
+      "topics": [
+        "Cancer genomics",
+        "Clinical"
+      ],
+      "summary": "The authors describe uRARE-seq, a liquid-biopsy method that profiles urine cell-free RNA, and apply it to 683 urine samples from patients with cancer and controls. It detects tumour-derived transcripts in prostate, kidney and bladder cancer.",
+      "key_points": [
+        "It detects localised bladder cancer with 95% sensitivity at 90% specificity, outperforming urine tumour DNA analysis and unaffected by field-effect mutations.",
+        "It detects minimal residual disease and separates complete molecular responses after surgery from those after BCG.",
+        "Pretreatment urine from BCG responders is enriched for T cell signatures, and a biomarker built in 114 patients predicts likelihood of response."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281596.125",
+      "date_added": "2026-10-03",
+      "published": "2026-10-01",
+      "title": "Meso-scale spatial analysis of papilloma formation and clonal expansion in cancerized skin",
+      "authors": "Busa VF, Behm M, Baeza-Centurion P, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281596.125",
+      "url": "https://doi.org/10.1101/gr.281596.125",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Tumour evolution"
+      ],
+      "summary": "Using the two-stage DMBA/TPA mouse skin model, the authors profile genotype and transcriptome from the same coordinate-registered 1-mm punches across several centimetres, plus matched single-cell RNA-seq. This links clonal selection to local transcriptional programs.",
+      "key_points": [
+        "All sequenced papillomas carried a driver mutation, but the driver was necessary and not sufficient for tumorigenesis within the study period.",
+        "Field-level signalling is rewired before tumours appear: TNF-associated necroptosis rises broadly and TGFB activity becomes spatially 'rugged', measured by a new Laplacian-based score.",
+        "Papillomas sit at local TGFB signalling minima."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78170-z",
+      "date_added": "2026-10-03",
+      "published": "2026-09-28",
+      "title": "Diagnostic yield of cancer predisposition in a nationwide prospective childhood acute leukemia cohort",
+      "authors": "Taylan F, Staffas A, Sjögren S, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78170-z",
+      "url": "https://doi.org/10.1038/s41467-026-78170-z",
+      "topics": [
+        "Cancer genomics",
+        "Clinical"
+      ],
+      "summary": "In a nationwide prospective study of 181 children with acute leukaemia, the authors tested germline whole-genome sequencing with a 189-gene panel, plus tumour sequencing of positive cases and trio-WGS in 11 high-suspicion families.",
+      "key_points": [
+        "Nine patients (about 5%) had pathogenic germline alterations: six leukaemia predisposition syndromes (TP53, CEBPA, DNMT3A, trisomy 21) and three solid tumour syndromes (MSH6, PALB2, SDHA).",
+        "Six of the nine diagnoses were previously unrecognised; findings changed surveillance in 8 of 9 patients and treatment in 4 of 9.",
+        "The diagnostic yield is modest but actionable."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77331-4",
+      "date_added": "2026-10-03",
+      "published": "2026-08-29",
+      "title": "Persistent chromatin alterations and gene expression reprogramming follow widespread DNA damage in glioblastoma",
+      "authors": "Modrek AS, Chandradoss KR, Do C, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77331-4",
+      "url": "https://doi.org/10.1038/s41467-026-77331-4",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Structural variants"
+      ],
+      "summary": "The authors introduced many simultaneous Cas9-induced double-strand breaks at defined sites in glioblastoma cells and followed genetic and non-genetic changes over time. This models widespread DNA damage such as chemotherapy or radiotherapy.",
+      "key_points": [
+        "Megabase-scale changes persisted two weeks after damage, including a shift from transient intra-TAD contacts to lasting long-range cis and trans contacts.",
+        "Gene expression changed and large structural variants appeared.",
+        "The findings suggest widespread DNA damage can leave long-term genetic and non-genetic changes that may affect tumour outcome and resistance."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1007/s00381-026-07467-7",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "Isolated clival Langerhans cell histiocytosis in a pediatric patient: systematic review and illustrative case report",
+      "authors": "Abdallah AM, Hulliel AF, Dabash TY, et al.",
+      "venue": "Child's Nervous System",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1007/s00381-026-07467-7",
+      "url": "https://doi.org/10.1007/s00381-026-07467-7",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "The authors report a 3.5-year-old boy with isolated clival Langerhans cell histiocytosis and add a PRISMA systematic review of 11 published cases. Chordoma appears here as a skull base tumour that the lesion can mimic on imaging.",
+      "key_points": [
+        "Osteolytic clival lesions mimicked chordoma and other skull base tumours; abducens palsy and diplopia were the most common symptoms.",
+        "Histology showed typical LCH with CD1a and S100 positivity, so biopsy confirmation is essential.",
+        "Management varied (biopsy, resection, chemotherapy, radiotherapy) and outcomes were mostly favourable."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.25.754331",
+      "date_added": "2026-10-03",
+      "published": "2026-09-29",
+      "title": "Nailpolish: Reference-free UMI deduplication and consensus read generation",
+      "authors": "Cheng OY, Tan JW, Davidson NM",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.25.754331",
+      "url": "https://doi.org/10.64898/2026.09.25.754331",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "Nailpolish is a fast, reference-free tool that error-corrects and deduplicates UMI-tagged long reads by building consensus sequences with partial order alignment. It also separates false duplicates caused by UMI collisions.",
+      "key_points": [
+        "Tested on eleven Oxford Nanopore and PacBio datasets spanning bulk, single-cell, spatial and targeted protocols.",
+        "It lowered per-read error rates and outperformed existing deduplication tools."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2024.07.11.603067",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "Accurate isoform quantification in bulk and single-cell RNA-seq by integrating multi-platform sequencing data and sequence-to-expression models",
+      "authors": "Apostolides M, Wang J, Saberi A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2024.07.11.603067",
+      "url": "https://doi.org/10.1101/2024.07.11.603067",
+      "topics": [
+        "Methods",
+        "Isoforms",
+        "Long-read"
+      ],
+      "summary": "MPAQT is a probabilistic framework that combines short- and long-read RNA-seq while modelling each platform's biases. It quantifies transcript isoforms in bulk and single-cell data.",
+      "key_points": [
+        "It gives state-of-the-art isoform quantification from short reads alone, and improves further when short and long reads are analysed jointly.",
+        "Sequence-to-expression models (RNA-binding protein motifs, co-expression) can be added as priors, improving single-cell quantification.",
+        "The models point to isoform-specific UTR sequence features as strong contributors to isoform abundance and exon usage."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.24.753940",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "DECIPHER integrates disentangled representation learning and prototype-based cell-type deconvolution across molecular modalities",
+      "authors": "Lai W, Li C, Deng Q, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.753940",
+      "url": "https://doi.org/10.64898/2026.09.24.753940",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Deconvolution"
+      ],
+      "summary": "DECIPHER is an end-to-end deep-learning framework for cell-type deconvolution of bulk omics that works across molecular modalities. It learns a domain-constant representation for deconvolution and a domain-specific one for batch-like variation.",
+      "key_points": [
+        "Nonlinear representation learning is combined with differentiable non-negative least squares to estimate cell-type proportions.",
+        "It performs robustly on simulations, experimental bulk mixtures and real datasets.",
+        "The learned representation also supports age prediction across cohorts and prognostic stratification in lung adenocarcinoma."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.02.27.708202",
+      "date_added": "2026-10-03",
+      "published": "2026-10-02",
+      "title": "Benchmarking niche identification via domain segmentation for spatial transcriptomics data",
+      "authors": "Wang Y, Chen Y, Yang L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.02.27.708202",
+      "url": "https://doi.org/10.64898/2026.02.27.708202",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "The authors annotated single-cell-resolution CosMx data of a human follicular lymphoid hyperplasia lymph node as a reference. They benchmarked 16 domain segmentation algorithms for finding tissue niches.",
+      "key_points": [
+        "Most methods in default settings fail to recover biologically defined niche boundaries.",
+        "Stochastic infiltration of peripheral cell types lowers the spatial signal-to-noise ratio, which prioritises local variance over architecture.",
+        "Weighting core functional lineages restores niche resolution in some frameworks."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.05.06.652317",
+      "date_added": "2026-10-03",
+      "published": "2026-09-27",
+      "title": "A gene program association study (GPAS) delineates novel patterns of lineage plasticity and aggressiveness in non-small cell lung cancer",
+      "authors": "Campbell JD, Hong R, Klockner P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.05.06.652317",
+      "url": "https://doi.org/10.1101/2025.05.06.652317",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "The authors built an atlas of gene co-expression modules in cancer cells from 127 primary NSCLCs using a new framework, GPAS, and linked the modules to clinical and histopathological features.",
+      "key_points": [
+        "Lung adenocarcinoma shows extensive lineage infidelity, with modules from several alveolar cell types; late-stage modules appear in early-stage tumours.",
+        "Basal- and squamous-like cells are proposed intermediates in invasive mucinous adenocarcinoma.",
+        "A new squamous subtype has lower canonical squamous modules and higher fibrinogen; squamous modules also appear in smoke-exposed normal basal cells."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.25.754454",
+      "date_added": "2026-10-03",
+      "published": "2026-10-01",
+      "title": "Three-Year Longitudinal Analysis of Splicing Changes in Myotonic Dystrophy Type 1",
+      "authors": "Legare C, Planco L, Merritt R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.25.754454",
+      "url": "https://doi.org/10.64898/2026.09.25.754454",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Clinical"
+      ],
+      "summary": "The authors measured a splicing index (SI) by targeted RNA-seq in vastus lateralis biopsies from 20 people with myotonic dystrophy type 1, taken three years apart, to see how splicing dysregulation progresses.",
+      "key_points": [
+        "Baseline SI correlated with percent predicted muscle strength in ankle, knee and hand-grip muscles.",
+        "SI worsened on average, but progression varied widely between participants; adult versus juvenile phenotype and lower baseline SI were linked to faster progression.",
+        "The authors say clinical phenotype and baseline severity should be considered when reading longitudinal SI in trials."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2022.05.10.491431",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "RNA-sequencing as an expression-informed alternative for somatic variant detection and cancer driver identification",
+      "authors": "Akutagawa J, Mak AJ, Damle T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2022.05.10.491431",
+      "url": "https://doi.org/10.1101/2022.05.10.491431",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "The authors called somatic variants and cancer drivers from tumour RNA-seq alone in 1,359 PCAWG and TCGA samples that have matched WGS.",
+      "key_points": [
+        "RNA-seq alone found at least one putative driver gene in 15 of 16 cancer types, consistent with WGS-based predictions.",
+        "Variant allele frequency of RNA-derived variants reflects predicted functional impact.",
+        "The work offers a pan-cancer resource of RNA-seq-derived variants."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.26.754667",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "Accurate and scalable demultiplexing of single-cell RNA sequencing using BEACON",
+      "authors": "Ji BW, Lammers M, Houser A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.26.754667",
+      "url": "https://doi.org/10.64898/2026.09.26.754667",
+      "topics": [
+        "Methods",
+        "Single-cell"
+      ],
+      "summary": "BEACON is a sample demultiplexing method for barcode-multiplexed single-cell RNA-seq. It learns the background count distribution from the data and removes it from each cell, improving classification.",
+      "key_points": [
+        "It outperforms other state-of-the-art methods on several human datasets.",
+        "Applied to cancer cell line time courses, it helped identify genes associated with aggressive tumours in vivo.",
+        "Adapted to protein-transcriptome profiling, it improves protein signal recovery and found a CD161-positive effector memory CD4 T cell population that was validated."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.01.29.635499",
+      "date_added": "2026-10-03",
+      "published": "2026-09-30",
+      "title": "Hyper-mutational processes provide a head-start for weak cancer drivers: explaining atypical KRAS variants",
+      "authors": "Nicholson MD, Tomlinson I",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.01.29.635499",
+      "url": "https://doi.org/10.1101/2025.01.29.635499",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution"
+      ],
+      "summary": "Using mathematical modelling, the authors show that aberrant mutational processes alone can explain why hypermutant cancers carry weak rather than canonical driver mutations.",
+      "key_points": [
+        "Raising the mutation rate per cell division, without changing selection, can let weak drivers dominate because further driver events arrive quickly.",
+        "In POLE-mutant colorectal cancers, mutation bias plus elevated rate is enough to explain enrichment of atypical KRAS drivers; predictions fit mismatch-repair-deficient colorectal cancer too."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.23.753721",
+      "date_added": "2026-10-03",
+      "published": "2026-09-29",
+      "title": "DisenTE: Sparse Pattern-Context Modeling for Interpretable Translation-Efficiency Matrix Completion",
+      "authors": "Huo M, Yu Y, Li S",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.23.753721",
+      "url": "https://doi.org/10.64898/2026.09.23.753721",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "DisenTE is a sequence-conditioned neural model that completes a translation-efficiency atlas of 9,494 5' UTRs across 78 cellular and tissue contexts. It pairs sequence-derived modules with context-specific weights.",
+      "key_points": [
+        "Under five-fold masking it reaches a UTR-centred residual Spearman correlation of 0.641, versus 0.304 for the strongest reference model.",
+        "Of 20 candidate modules, 11 are retained; module CTM 6 matches a cap-proximal pyrimidine pattern and overlaps an external TOP set."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41587-026-03307-w",
       "date_added": "2026-10-02",
