@@ -1,13 +1,518 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-03T10:30:00Z",
+  "updated": "2026-10-04T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1016/j.molcel.2026.09.032",
-    "10.1038/s41588-026-02775-9",
-    "10.1038/s41587-026-03328-5"
+    "10.1038/s41556-026-02075-8",
+    "10.1038/s41588-026-02774-w",
+    "10.1016/j.molcel.2026.09.032"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41556-026-02075-8",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "Spatially resolved multiomics of human meningeal development reveal lineage and disease dynamics",
+      "authors": "To K, Pett JP, Dufva O, et al.",
+      "venue": "Nature Cell Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41556-026-02075-8",
+      "url": "https://doi.org/10.1038/s41556-026-02075-8",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "The authors built a paired single-nucleus RNA and ATAC atlas of the human meninges from 6 to 21 weeks of gestation and added spatial transcriptomics to place cell types in the meningeal layers. The atlas defines the regulatory networks behind blood-brain barrier endothelium and points to a yolk sac origin for meningeal myeloid cells.",
+      "key_points": [
+        "They release two tools: Nichefinder for spatial label transfer and proximity analysis, and cell2home for inferring chemotactic signalling.",
+        "cell2home suggests interactions that could draw B cells from cranial marrow into the prenatal meninges.",
+        "In trisomy 21, meningeal fibroblasts show lower chemokine expression and stronger JAK-STAT signalling."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41556-026-02075-8.svg",
+        "caption": "Human meninges: a marrow-to-meninges B-cell route, a yolk sac origin for macrophages, and weaker chemokine with stronger JAK-STAT signalling in trisomy 21 fibroblasts.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02774-w",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "A human single-cell atlas identifies OLR1scar-associated macrophages as a potential therapeutic target for chronic liver disease",
+      "authors": "Papachristoforou E, Kong K, Colella F, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02774-w",
+      "url": "https://doi.org/10.1038/s41588-026-02774-w",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "The authors assembled a liver single-cell atlas of 649,295 cells from 42 healthy people and 35 people with chronic liver disease, covering 125 cell states. It separates two disease-expanded TREM2+ scar-associated macrophage types, including a pro-inflammatory OLR1+ type found in the fibrotic niche.",
+      "key_points": [
+        "High liver OLR1 expression tracks with more fibrosis across disease causes and with worse outcomes in metabolic dysfunction-associated steatotic liver disease.",
+        "OLR1+ macrophages also expand in a mouse model, and targeting macrophage OLR1 lowered fibrogenic activity in human co-culture and spheroid models.",
+        "The atlas is offered as a reference for disease-associated cell states in chronic liver disease."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02774-w.svg",
+        "caption": "Healthy liver compared with fibrotic liver, where TREM2+ and pro-inflammatory OLR1+ scar-associated macrophages sit in the fibrotic niche.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1093/bioinformatics/btag726",
+      "date_added": "2026-10-04",
+      "published": "2026-09-29",
+      "title": "CSGDA: A Cell State-Guided Graph Domain Adaptation Network for Single-Cell Drug Response Prediction",
+      "authors": "Yan F, Xie D, Cao X, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag726",
+      "url": "https://doi.org/10.1093/bioinformatics/btag726",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "CSGDA predicts single-cell drug response when the training and target data differ, for example from cell lines to tissue or from primary to metastatic tumours. It maps gene expression into functional cell states and uses graph domain adaptation with an overlap penalty to cope with the shift.",
+      "key_points": [
+        "On five scRNA-seq datasets it beat the previous best method SSDA4Drug by about 6 percentage points in accuracy and AUPR.",
+        "Integrated gradients on a cross-metastasis cisplatin dataset highlighted genes linked to drug resistance."
+      ],
+      "data": "",
+      "code": "github.com/yanfen-g"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag723",
+      "date_added": "2026-10-04",
+      "published": "2026-09-29",
+      "title": "scURL: Uncertainty-Sharpened Representation Learning for Single-cell Multi-omics Clustering",
+      "authors": "Liu H, Yu D, Li W, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag723",
+      "url": "https://doi.org/10.1093/bioinformatics/btag723",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "scURL clusters single-cell multi-omics data while estimating how reliable each omics layer is for each cell. It turns that uncertainty into cell-wise weights for fusing the layers and calibrates each layer before fusion.",
+      "key_points": [
+        "It outperformed existing clustering methods on ten datasets.",
+        "It stayed robust under dropout noise and found cell populations supported by marker genes."
+      ],
+      "data": "",
+      "code": "github.com/Yaolab-fantastic/scURL"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag732",
+      "date_added": "2026-10-04",
+      "published": "2026-10-01",
+      "title": "RAGCell: Retrieval-Augmented Generation as Supervision for Versatile Single-cell Analysis",
+      "authors": "Liu T, Zhang F, Chen J, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag732",
+      "url": "https://doi.org/10.1093/bioinformatics/btag732",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "RAGCell is a single-cell analysis framework that uses a language model to build cell-level and feature-level knowledge databases, then aligns cell representations with text embeddings from them. This avoids the heavy pretraining that single-cell foundation models need.",
+      "key_points": [
+        "It was tested on six downstream single-cell tasks.",
+        "The authors report performance matching or beating state-of-the-art single-cell foundation models at lower training cost."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag711",
+      "date_added": "2026-10-04",
+      "published": "2026-09-29",
+      "title": "OrchAlign: Orchestrated Multimodal Alignment for Gene Expression Prediction",
+      "authors": "Liu L, Xv G, Liu S, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag711",
+      "url": "https://doi.org/10.1093/bioinformatics/btag711",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "OrchAlign predicts gene expression from DNA sequence and epigenomic signals. Instead of simple concatenation, it aligns the two modalities token by token on a shared representation within a key regulatory region.",
+      "key_points": [
+        "Each modality is split into shared and specific parts, and the aligned parts keep their internal structure through a consistency term.",
+        "A BiMamba backbone fuses the representations, and the authors report state-of-the-art gene expression prediction."
+      ],
+      "data": "",
+      "code": "github.com/XMUDM/OrchAlign"
+    },
+    {
+      "id": "10.1158/0008-5472.can-26-1087",
+      "date_added": "2026-10-04",
+      "published": "2026-10-02",
+      "title": "ScanTCR Enables Early Cancer Detection by Repertoire-Scale Representation of Cancer-Associated T-Cell Receptors in Peripheral Blood",
+      "authors": "Zhang J, Cai Y, Que J, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.can-26-1087",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-1087",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Immuno-oncology"
+      ],
+      "summary": "ScanTCR is a computational framework that detects cancer early from the T-cell receptor repertoire in peripheral blood. It encodes the whole repertoire against a reference instead of using only high-frequency receptors.",
+      "key_points": [
+        "In a pan-cancer analysis of seven cancer types it separated patients from non-cancer individuals and detected cancer types not seen in training.",
+        "It beat existing TCR-based methods and found cancer-associated TCRs whose T cells show stronger immune capacity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1073/pnas.2528513123",
+      "date_added": "2026-10-04",
+      "published": "2026-09-29",
+      "title": "Phosphoproteomic dysregulation promotes tumor proliferation in Cushing's disease",
+      "authors": "Asuzu DT, Bhatt D, Mullaney D, et al.",
+      "venue": "PNAS",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1073/pnas.2528513123",
+      "url": "https://doi.org/10.1073/pnas.2528513123",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Multi-omics"
+      ],
+      "summary": "The authors profiled chromatin accessibility, DNA methylation, transcriptome, proteome and phosphoproteome in paired Cushing disease pituitary adenomas and adjacent normal pituitary. In the adenomas, a neurodevelopmental phosphoprotein program that is normally lost after birth is switched back on.",
+      "key_points": [
+        "Adenoma cells overexpress PPP1R17, an inhibitor of the phosphatase PP2A; overexpressing it in normal mouse pituitary cells reproduced the hyperproliferation.",
+        "Fingolimod reversed that growth in a PP2A-dependent way in vitro and in vivo."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/0008-5472.can-26-0490",
+      "date_added": "2026-10-04",
+      "published": "2026-10-02",
+      "title": "Placenta-Related PEG10 Inhibits mRNA Decay to Promote Glucose Metabolism and Tumor Progression in Hepatocellular Carcinoma",
+      "authors": "Yao X, Wu B, Yang C, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.can-26-0490",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-0490",
+      "topics": [
+        "RNA biology",
+        "Cancer genomics"
+      ],
+      "summary": "The authors screened placenta-specific genes that are abnormally expressed in liver cancer and found the retrovirus-like gene PEG10 overexpressed with poor prognosis. PEG10 acts as an RNA-binding protein that blocks Staufen1-mediated mRNA decay.",
+      "key_points": [
+        "Blocking decay stabilises GLUT1 and HK2 mRNAs, raising glucose uptake and glycolysis in tumour cells.",
+        "Liver-specific Peg10 deletion slowed hepatocarcinogenesis in mice, and retinoic acid suppressed PEG10 and worked with sorafenib."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77142-7",
+      "date_added": "2026-10-04",
+      "published": "2026-08-27",
+      "title": "dioscRi enables transferable prediction of clinical outcomes in multi-parameter cytometry data",
+      "authors": "Willie E, Rao S, Figtree G, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77142-7",
+      "url": "https://doi.org/10.1038/s41467-026-77142-7",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "dioscRi is a deep learning framework for predicting clinical outcomes from multi-parameter cytometry data in a way that transfers across datasets. A variational autoencoder normalises and de-noises the data, and an overlapping group LASSO uses cell type hierarchies.",
+      "key_points": [
+        "It recovered known immune associations in a coronary artery disease study.",
+        "It outperformed existing methods on three of four benchmark datasets when moving between cohorts with compatible marker panels."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.21.753191",
+      "date_added": "2026-10-04",
+      "published": "2026-09-27",
+      "title": "Benchmarking single-cell foundation models for aging biology",
+      "authors": "Ni X, Liang Y, Zhu J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.21.753191",
+      "url": "https://doi.org/10.64898/2026.09.21.753191",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The authors benchmarked ten general single-cell foundation models, three aging-specific models and conventional methods on five aging questions using more than 2.5 million single-cell transcriptomes. Performance depended on the question.",
+      "key_points": [
+        "Geneformer was best among foundation models for age prediction, though 2,000 highly variable genes scored higher on average.",
+        "SCimilarity was best for rare cell state identification, and scGPT recovered the most reference TF targets."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.22.753590",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics",
+      "authors": "Liu H, Zhao Q, Lin L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.22.753590",
+      "url": "https://doi.org/10.64898/2026.09.22.753590",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "NexuST is a spatial transcriptomics foundation model that alternates gene-level molecular modelling with cell-level spatial modelling during pretraining. It was pretrained on HumanST-46M, 45.7 million human cells from 72 datasets.",
+      "key_points": [
+        "On four held-out datasets (about 2.6 million cells) it was state of the art or competitive for cell-type annotation, region prediction, gene recovery and neighbourhood composition.",
+        "An expression-only PCA baseline stayed informative even for spatial tasks."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.22.753496",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "AtlasOT - The Fused Unbalanced Gromov-Wasserstein for Multimodal Integration of Disease Atlases",
+      "authors": "Peng K, Ruiz M, Caron B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.22.753496",
+      "url": "https://doi.org/10.64898/2026.09.22.753496",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Multi-omics",
+        "Spatial"
+      ],
+      "summary": "AtlasOT integrates unpaired single-cell and spatial modalities with optimal transport. It maps cells only within the same donor or specimen and allows different cell recovery between modalities.",
+      "key_points": [
+        "It beat baselines on scRNA-scATAC and scRNA-spatial mapping.",
+        "The transport plan also helps with rare cell detection, spot-level deconvolution, spatial gene imputation and spatial regulatory dynamics."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.24.754285",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "Mutation Order and Selection Shape Intratumor Heterogeneity in Tumor Evolution",
+      "authors": "Chu Y, Sheng X, Zhang X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.754285",
+      "url": "https://doi.org/10.64898/2026.09.24.754285",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution"
+      ],
+      "summary": "The authors model a tumour where malignancy needs two driver mutations, acquired in either order, using a multitype branching process. They derive a closed-form expression for clonal concentration (Simpson index).",
+      "key_points": [
+        "A strong driver acquired early increases the supply of independent malignant founders; the same driver acquired last favours the growth of early clones.",
+        "Additive fitness can give a non-monotone link between selection and concentration, and threshold-like effects give highly concentrated populations."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.24.754178",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "Unsupervised transcriptomic analysis of paired pre- and post-treatment specimens reveals divergent chemoimmunomodulatory induction trajectories in breast cancer",
+      "authors": "Lopes de Lima I, Molchan E, Streeks K, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.754178",
+      "url": "https://doi.org/10.64898/2026.09.24.754178",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Immuno-oncology"
+      ],
+      "summary": "The authors built CIMIC, an unsupervised pipeline that clusters the change in expression of 3,189 immune-related genes between pre- and post-chemotherapy breast tumours. It finds two trajectories, a functional and a dysfunctional one.",
+      "key_points": [
+        "The functional trajectory shows inflammatory cell death, antigen presentation and adaptive immune programs; the dysfunctional one shows stress-adaptation programs and lower cytotoxic activity.",
+        "Baseline scores for each trajectory tracked with better or worse outcomes in METABRIC and SCAN-B."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755447",
+      "date_added": "2026-10-04",
+      "published": "2026-09-30",
+      "title": "Pervasive Somatic Mutations in NF1 Drive Cell Type and Spatially Specific Clonal Selection in Neurofibromatosis",
+      "authors": "Snellings D, Essuman K, Finander B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755447",
+      "url": "https://doi.org/10.64898/2026.09.29.755447",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Tumour evolution"
+      ],
+      "summary": "Single-cell genomics in more than 1.7 million cells from people with neurofibromatosis type 1 shows that somatic second-hit NF1 mutations are common and positively selected in oligodendrocytes and their precursors, but very rare in neurons.",
+      "key_points": [
+        "Spatial genotyping shows mutant precursor clones expand more in gray matter than white matter.",
+        "NF1-null oligodendrocyte lineage cells upregulate CDKN2A, while tumours from the same people lose it, suggesting CDKN2A loss is a key progression step."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.27.754855",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "ctDNA Release Heterogeneity in Luminal Breast Cancer Revealed by Single-Cell Multi-Omics Spatial Analysis",
+      "authors": "Xu H, Pu P, Liu B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.27.754855",
+      "url": "https://doi.org/10.64898/2026.09.27.754855",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "The authors developed scMASTER, combining single-cell transcriptomes and mutations, spatial transcriptomics and matched tumour and plasma DNA sequencing in ten HR+/HER2- breast cancer patients, to find which tumour cells release ctDNA.",
+      "key_points": [
+        "Eight recurrent malignant states differed in release; antigen-presentation, stress, mitosis and mesenchymal-like states released most.",
+        "Three spatial regions (EMT-enriched, intraductal luminal progenitor, hypoxic) released most, and a stratification model was validated in external cohorts."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.22.753482",
+      "date_added": "2026-10-04",
+      "published": "2026-09-27",
+      "title": "Integrative Nanopore and Illumina sequencing reveals age-associated tRNA modification and CCA-tail dynamics in yeast",
+      "authors": "Brazell K, Prevost C, Zawrotna N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.22.753482",
+      "url": "https://doi.org/10.64898/2026.09.22.753482",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Long-read"
+      ],
+      "summary": "The authors present a benchmarked nanopore direct RNA sequencing (RNA004) resource for the yeast tRNAome during replicative aging, validated with Illumina sequencing and in vitro transcribed controls.",
+      "key_points": [
+        "Overall tRNA abundance stays largely stable, but mature tRNAs lose the terminal A of the 3' CCA tail with age.",
+        "They also see targeted T-loop and anticodon modification changes and single-molecule co-occurrence of modifications."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.24.753979",
+      "date_added": "2026-10-04",
+      "published": "2026-09-28",
+      "title": "m6A-Driven Intratumoral Cholesterol Biosynthesis Fuels Castration-Resistant Prostate Cancer Progression",
+      "authors": "Lee J, Zhang Z, Hong J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.753979",
+      "url": "https://doi.org/10.64898/2026.09.24.753979",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The authors show that METTL3 interacts with the nucleoporin NUP93 to export m6A-modified mRNAs, and that this is coupled to cholesterol biosynthesis in castration-resistant prostate cancer.",
+      "key_points": [
+        "Overexpressing wild-type METTL3 or NUP93, but not catalytically dead METTL3 or a METTL3-binding-defective NUP93, raised androgen levels and androgen-independent growth.",
+        "Inhibiting METTL3 or demethylating cholesterol-enzyme mRNAs suppressed growth."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2024.11.19.624260",
+      "date_added": "2026-10-04",
+      "published": "2024-11-19",
+      "title": "Critical assessment of nanopore sequencing for the detection of multiple forms of DNA modifications",
+      "authors": "Kong Y, Zhang Y, Mead E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2024.11.19.624260",
+      "url": "https://doi.org/10.1101/2024.11.19.624260",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Benchmarking",
+        "Computational"
+      ],
+      "summary": "The authors introduce modFDR, a framework that uses negative controls and false discovery rates to assess nanopore detection of DNA modifications. Detection is reliable for abundant marks but not for rare ones.",
+      "key_points": [
+        "5mC at CpG sites and 5hmC in brain cells are detected reliably.",
+        "Low-abundance marks (5mC at CpH, 5hmC, 6mA) in most mammalian cell types have many false positives, and 5mCpG shows elevated false negatives."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1016/j.molcel.2026.09.032",
       "date_added": "2026-10-03",

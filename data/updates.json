@@ -1,6 +1,207 @@
 {
   "updates": [
     {
+      "date": "2026-10-04T10:30:00Z",
+      "summary": "Added 2 Tier 1 papers (the meningeal multiomic atlas and the liver single-cell atlas, both featured with illustrations), 8 Tier 2 journal papers (5 purely computational) and 10 close-match preprints. No new chordoma papers; the 4 chordoma hits this week were already posted or did not mention chordoma. bioRxiv listings only ran to 1 October.",
+      "counts": {
+        "tier1": 2,
+        "tier2": 8,
+        "preprint": 10,
+        "chordoma": 0,
+        "removed": 0
+      },
+      "added": [
+        {
+          "id": "10.1038/s41556-026-02075-8",
+          "title": "Spatially resolved multiomics of human meningeal development reveal lineage and disease dynamics",
+          "venue": "Nature Cell Biology",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41588-026-02774-w",
+          "title": "A human single-cell atlas identifies OLR1scar-associated macrophages as a potential therapeutic target for chronic liver disease",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag726",
+          "title": "CSGDA: A Cell State-Guided Graph Domain Adaptation Network for Single-Cell Drug Response Prediction",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag723",
+          "title": "scURL: Uncertainty-Sharpened Representation Learning for Single-cell Multi-omics Clustering",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag732",
+          "title": "RAGCell: Retrieval-Augmented Generation as Supervision for Versatile Single-cell Analysis",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag711",
+          "title": "OrchAlign: Orchestrated Multimodal Alignment for Gene Expression Prediction",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1158/0008-5472.can-26-1087",
+          "title": "ScanTCR Enables Early Cancer Detection by Repertoire-Scale Representation of Cancer-Associated T-Cell Receptors in Peripheral Blood",
+          "venue": "Cancer Research",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1073/pnas.2528513123",
+          "title": "Phosphoproteomic dysregulation promotes tumor proliferation in Cushing's disease",
+          "venue": "PNAS",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1158/0008-5472.can-26-0490",
+          "title": "Placenta-Related PEG10 Inhibits mRNA Decay to Promote Glucose Metabolism and Tumor Progression in Hepatocellular Carcinoma",
+          "venue": "Cancer Research",
+          "tier": 2,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1038/s41467-026-77142-7",
+          "title": "dioscRi enables transferable prediction of clinical outcomes in multi-parameter cytometry data",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.21.753191",
+          "title": "Benchmarking single-cell foundation models for aging biology",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.22.753590",
+          "title": "NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.22.753496",
+          "title": "AtlasOT - The Fused Unbalanced Gromov-Wasserstein for Multimodal Integration of Disease Atlases",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.24.754285",
+          "title": "Mutation Order and Selection Shape Intratumor Heterogeneity in Tumor Evolution",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.24.754178",
+          "title": "Unsupervised transcriptomic analysis of paired pre- and post-treatment specimens reveals divergent chemoimmunomodulatory induction trajectories in breast cancer",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.29.755447",
+          "title": "Pervasive Somatic Mutations in NF1 Drive Cell Type and Spatially Specific Clonal Selection in Neurofibromatosis",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.27.754855",
+          "title": "ctDNA Release Heterogeneity in Luminal Breast Cancer Revealed by Single-Cell Multi-Omics Spatial Analysis",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.22.753482",
+          "title": "Integrative Nanopore and Illumina sequencing reveals age-associated tRNA modification and CCA-tail dynamics in yeast",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.09.24.753979",
+          "title": "m6A-Driven Intratumoral Cholesterol Biosynthesis Fuels Castration-Resistant Prostate Cancer Progression",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1101/2024.11.19.624260",
+          "title": "Critical assessment of nanopore sequencing for the detection of multiple forms of DNA modifications",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        }
+      ],
+      "skipped": [
+        {
+          "title": "Trends Genet: How mutagenic are transposable elements?",
+          "reason": "Review journal, but about TE mutation rates, not one of the main topics."
+        },
+        {
+          "title": "Nature: Function-preserving watermarking of AI-generated proteins",
+          "reason": "Computational, but protein design is out of scope; see notes."
+        },
+        {
+          "title": "Nature Struct Mol Biol: phosphoproteome atlas of human cell lines",
+          "reason": "Proteomics resource, off-topic."
+        },
+        {
+          "title": "Nat Commun: PRPF31 AAV gene therapy restores splicing in RP11 organoids",
+          "reason": "Splicing disease, but main point is gene therapy, so not a close match."
+        },
+        {
+          "title": "Cancer Res: PLAU+ fibroblasts drive chemoresistance in lung adenocarcinoma",
+          "reason": "Organoid biology, not genomics."
+        },
+        {
+          "title": "Clin Cancer Res: liquid biopsy and radiomics in biliary tract cancer",
+          "reason": "Small clinical ctDNA panel study; below the Tier 2 bar this run."
+        },
+        {
+          "title": "NAR: DiCE-Ex and SingPro 2.0",
+          "reason": "General web server and database, not a close match."
+        },
+        {
+          "title": "bioRxiv: Non3nExonFinder (non-triplet coding exons)",
+          "reason": "Niche tool; cut at the 10-preprint limit."
+        },
+        {
+          "title": "bioRxiv: Mendel genetic-variation foundation model; MOD-scTWAS",
+          "reason": "Human genetics rather than the main topics; cut at the preprint limit."
+        },
+        {
+          "title": "PubMed: En bloc resection of malignant subaxial cervical spine tumours",
+          "reason": "No mention of chordoma in the abstract."
+        }
+      ],
+      "notes": [
+        "Rules unclear: Tier 1 says post every computational paper even off-topic, but protein structure/design is out of scope; I skipped the Nature protein-watermarking paper.",
+        "The PubMed metadata tool returns at most 20 articles per call, and the README does not mention this limit.",
+        "bioRxiv search returned nothing dated after 2026-10-01, so the last few days may be caught next run.",
+        "Only 2 Tier 1 papers were new, so the third featured slot keeps the earlier Molecular Cell MYC paper."
+      ]
+    },
+    {
       "date": "2026-10-03T10:30:00Z",
       "summary": "Added 9 Tier 1 papers (8 research papers and 1 review, 1 purely computational), 8 Tier 2 journal papers, 10 close-match preprints and 1 chordoma paper. Featured and illustrated three new Tier 1 papers.",
       "counts": {
