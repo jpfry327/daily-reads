@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Daily Reads</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0E7480">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap">
@@ -145,6 +148,8 @@ button { font: inherit; color: inherit; }
 .tag.pre { background: var(--note); color: var(--note-ink); }
 .tag.peer { background: var(--blue-soft); color: var(--blue); }
 .tag.venue { text-transform: none; letter-spacing: 0; font-size: 12px; }
+.tag.posted { background: var(--rule); color: var(--muted); }
+.tag.posted.new { background: var(--green-soft); color: var(--green); }
 .tag.ex { border: 1px dashed var(--muted); color: var(--muted); }
 .excerpt { margin: 12px 0 0; color: var(--text); font-size: 14px; line-height: 1.8; }
 .tools { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; align-items: center; }
@@ -253,7 +258,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   const today = startOfDay(new Date());
 
   const state = { view: "tier1", topic: null, kind: "all", q: "", shown: PAGE, open: new Set() };
-  let posts = [], updates = [], retention = 90, featuredIds = [], saved = loadSaved();
+  let posts = [], updates = [], retention = 90, featuredIds = [], saved = loadSaved(), lastDay = "";
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -413,8 +418,15 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
     parts.push(topicLinks(p));
     return `<div class="meta">${parts.join('<span class="sep">|</span>')}</div>`;
   }
+  // A post is new if the latest update (posts.json "updated") added it.
+  function isNew(p) { return !!lastDay && p.date_added === lastDay; }
+  function postedTag(p) {
+    if (!p.date_added) return "";
+    const d = parseDay(p.date_added).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    return ` <span class="tag posted${isNew(p) ? " new" : ""}" title="Added to the feed ${esc(longDate(p.date_added))}">${isNew(p) ? "New · posted" : "Posted"} ${esc(d)}</span>`;
+  }
   function tagsHTML(p) {
-    return `<span class="tag venue ${isPre(p) ? "pre" : "peer"}">${esc(p.venue)}</span>${p.example ? ' <span class="tag ex">Example</span>' : ""}`;
+    return `<span class="tag venue ${isPre(p) ? "pre" : "peer"}">${esc(p.venue)}</span>${postedTag(p)}${p.example ? ' <span class="tag ex">Example</span>' : ""}`;
   }
   function saveBtn(p) {
     const on = !!saved[p.id];
@@ -550,7 +562,10 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
   function renderNav() {
     const n = Object.keys(saved).length;
     $("nav").innerHTML =
-      Object.entries(TABS).map(([k, t]) => `<button data-view="${k}" aria-current="${state.view === k}">${t.label}</button>`).join("") +
+      Object.entries(TABS).map(([k, t]) => {
+        const m = posts.filter((p) => t.test(p) && isNew(p)).length;
+        return `<button data-view="${k}" aria-current="${state.view === k}"${m ? ` title="${m} new in the latest update"` : ""}>${t.label}${m ? `<span class="count">${m}</span>` : ""}</button>`;
+      }).join("") +
       `<button data-view="update" aria-current="${state.view === "update"}">Update</button>` +
       `<button data-view="saved" aria-current="${state.view === "saved"}">Saved${n ? `<span class="count">${n}</span>` : ""}</button>`;
   }
@@ -620,6 +635,7 @@ footer { padding-block: 0 32px; font-size: 12.5px; color: var(--muted); text-ali
         .filter((p) => daysBetween(parseDay(p.date_added), today) < retention)
         .sort((a, b) => b.date_added.localeCompare(a.date_added) || (b.published || "").localeCompare(a.published || ""));
       const up = new Date(data.updated);
+      lastDay = String(data.updated || "").slice(0, 10);
       $("updated").textContent = "Updated " + up.toLocaleString("en-US", { month: "long", day: "numeric", hour: "numeric", minute: "2-digit" });
       render();
     })

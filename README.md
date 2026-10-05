@@ -10,6 +10,7 @@ data/posts.json   every post currently in the feed
 data/updates.json the task's report from each of its last 7 runs, shown in the Update tab
 config/interests.md  what to post: topics, tags, journal tiers, preprint rules, limits
 img/              one picture per post: Figure 1 (.webp) or Claude's illustration (.svg), named from the DOI
+favicon.svg       browser-tab icon (apple-touch-icon.png is the 180 px phone home-screen version)
 .nojekyll         tells GitHub Pages to serve files as-is
 ```
 
@@ -64,6 +65,8 @@ img/              one picture per post: Figure 1 (.webp) or Claude's illustratio
 - **Chordoma** tab: every chordoma post, journal papers and preprints alike.
 - **Update** tab: the reports from `data/updates.json`, newest first.
 - **Saved** tab: everything the reader saved.
+
+Each post has a **Posted** tag with its `date_added`. Posts added by the latest update (their `date_added` matches the date in `updated`) are tagged **New**, and the Tier 1, Tier 2 and Chordoma tabs show how many new posts each has, like the count on Saved.
 
 A post's tab follows from its fields: `Chordoma` in `topics` puts it in Chordoma; otherwise `tier` 1 or `"review"` puts it in Tier 1; everything else (Tier 2 and preprints) goes in Tier 2.
 
