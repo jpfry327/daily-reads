@@ -1,6 +1,6 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-04T10:30:00Z",
+  "updated": "2026-10-05T10:30:00Z",
   "retention_days": 90,
   "featured": [
     "10.1038/s41556-026-02075-8",
@@ -8,6 +8,471 @@
     "10.1016/j.molcel.2026.09.032"
   ],
   "posts": [
+    {
+      "id": "10.1097/BSD.0000000000002187",
+      "date_added": "2026-10-05",
+      "published": "2026-09-28",
+      "title": "En Bloc Resection for Primary Malignant Tumors of the Subaxial Cervical Spine: Oncologic and Technical Considerations",
+      "authors": "Benato A, Du R, Kemeny H, et al.",
+      "venue": "Clinical Spine Surgery",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1097/BSD.0000000000002187",
+      "url": "https://doi.org/10.1097/BSD.0000000000002187",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Four illustrative cases and a narrative review set out how en bloc resection is planned and carried out for primary malignant bone tumours of the subaxial cervical spine, with a stepwise framework for surgical decisions. PubMed returned it for a chordoma search, but the abstract text retrieved did not name chordoma, so it is posted as a mixed spine-tumour series.",
+      "key_points": [
+        "Success depends on assessing tumour histology, compartmental extension, vertebral artery involvement, epidural disease and relations to the brachial plexus.",
+        "Multistage circumferential approaches are often needed to set osteotomy planes and restore spinal stability.",
+        "When en bloc resection is not feasible, stabilisation, decompression and radiation therapy are combined; larger prospective series are needed."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag717",
+      "date_added": "2026-10-05",
+      "published": "2026-10-03",
+      "title": "Inferring gene expression profiles of tumor clones",
+      "authors": "Shafighi S, Jurzysta B, Szczurek E",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag717",
+      "url": "https://doi.org/10.1093/bioinformatics/btag717",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Tumour evolution"
+      ],
+      "summary": "CLONALGE is a probabilistic graphical model that finds cancer clone genotypes, their gene expression profiles and their positions in tissue. It matches single-nucleotide variant sites seen in spatial transcriptomics to clone-specific variants from DNA sequencing and deconvolves each spot into clone contributions.",
+      "key_points": [
+        "A Monte Carlo procedure with a HDI+ROPE criterion picks genes that differ between clones.",
+        "It fills a gap: tools that infer clone genotypes and transcriptional phenotypes together in tumour tissue were lacking."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag706",
+      "date_added": "2026-10-05",
+      "published": "2026-10-03",
+      "title": "Quantifying distribution shifts in single-cell data with scXMatch",
+      "authors": "Möller A, Schnitzerlein M, Greto E, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag706",
+      "url": "https://doi.org/10.1093/bioinformatics/btag706",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "scXMatch is a non-parametric, graph-based test that quantifies whether cells from two conditions differ globally in any space with a usable distance. It aims to replace visual inspection of embeddings and clustering-based workflows, which are unstable and prone to confirmation bias.",
+      "key_points": [
+        "Tested on single-cell gene expression, chromatin accessibility and imaging-derived cell morphology data.",
+        "The authors report that it robustly detects distribution shifts across these data types; Python code is available."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag933",
+      "date_added": "2026-10-05",
+      "published": "2026-09-30",
+      "title": "SingPro 2.0: a proteomics-centric knowledge base for single-cell multimodal profiling",
+      "authors": "Zhou Y, Deng J, Zhu Z, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag933",
+      "url": "https://doi.org/10.1093/nar/gkag933",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "SingPro was expanded from a single-cell proteomics database into a knowledge base of protein-inclusive single-cell multimodal studies. It curates data and experimental details from 814 studies covering about 81.5 million cells.",
+      "key_points": [
+        "Covers 29 tissues, 44 diseases and several species, across 5 omics modalities and 12 technologies.",
+        "Offers cross-modality visualisation for joint analysis; free to use without login."
+      ],
+      "data": "",
+      "code": "idrblab.org/singpro"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag719",
+      "date_added": "2026-10-05",
+      "published": "2026-10-01",
+      "title": "GROMTools: scalable individual-level GReX imputation for mega-biobank-scale cohorts",
+      "authors": "Anyfantakis M, Venkatesh S, Bennett JJR, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag719",
+      "url": "https://doi.org/10.1093/bioinformatics/btag719",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "GROMTools is an open-source C++ engine with an R interface for imputing genetically regulated gene expression (GReX) at individual level in mega-biobanks. It uses sparse prediction weights and streams PLINK2 genotypes to cut runtime and memory.",
+      "key_points": [
+        "In UK Biobank benchmarks (up to 450,000 individuals, 32 single-nucleus imputation models) predictions matched PrediXcan and PLINK2 (Pearson correlation above 0.999).",
+        "CPU time fell about 10-fold and peak memory about 33-fold."
+      ],
+      "data": "",
+      "code": "github.com/voloudakislab/gromtools"
+    },
+    {
+      "id": "10.1093/nar/gkag896",
+      "date_added": "2026-10-05",
+      "published": "2026-09-28",
+      "title": "DiCE-Ex: a web server for network-based differential-centrality gene exploration",
+      "authors": "Lokuge SD, Liu S, Shang M, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag896",
+      "url": "https://doi.org/10.1093/nar/gkag896",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "DiCE-Ex is a web server that ranks genes by how much their network role changes between conditions. It combines expression data with protein-protein interaction networks and compares an ensemble of centrality measures, so it can surface regulators without large expression changes.",
+      "key_points": [
+        "Case studies recovered known disease modulators and also flagged non-hub regulators that differential expression missed.",
+        "Freely available with example data and tutorials."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cels.2026.101738",
+      "date_added": "2026-10-05",
+      "published": "2026-10-02",
+      "title": "Systematic transcriptomic evaluation of blastoid models of early human development",
+      "authors": "Long S, Kim HJ, Salehin N, et al.",
+      "venue": "Cell Systems",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.cels.2026.101738",
+      "url": "https://doi.org/10.1016/j.cels.2026.101738",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The authors built a reference map of human blastocyst cell identities by integrating single-cell transcriptomes of ex vivo blastocysts across culture time points. They used it to judge how well different stem-cell-derived blastoid models cover and match real blastocyst lineages.",
+      "key_points": [
+        "The reference map benchmarks lineage coverage, authenticity and progression of differentiation across blastoid protocols.",
+        "It is meant to guide optimisation of higher-fidelity blastoid models."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1073/pnas.2615985123",
+      "date_added": "2026-10-05",
+      "published": "2026-10-02",
+      "title": "Dynamic tRNA modification programs align codon usage with growth-phase-specific gene expression in Pseudomonas aeruginosa",
+      "authors": "Frommeyer YN, Sun J, Wu J, et al.",
+      "venue": "PNAS",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1073/pnas.2615985123",
+      "url": "https://doi.org/10.1073/pnas.2615985123",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Long-read",
+        "Multi-omics"
+      ],
+      "summary": "Time-resolved nanopore tRNA sequencing, LC-MS/MS modification profiling, transcriptomics and proteomics across the PA14 growth cycle show tRNA-modifying enzymes, their modifications and dependent genes expressed in a coordinated temporal cascade.",
+      "key_points": [
+        "GidA-dependent mnm5s2U rises after GidA expression peaks, coinciding with peak expression of genes rich in rare AGA and UUA codons and with virulence-associated functions.",
+        "The pattern may help horizontally acquired genes bridge codon-usage differences with the core genome."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281418.125",
+      "date_added": "2026-10-05",
+      "published": "2026-10-01",
+      "title": "Optical genome mapping identifies clinically relevant somatic structural variation in epilepsy-affected brain tissue",
+      "authors": "Miller AR, Anderson JJ, Hernandez Gonzalez ME, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281418.125",
+      "url": "https://doi.org/10.1101/gr.281418.125",
+      "topics": [
+        "Methods",
+        "Structural variants",
+        "Clinical"
+      ],
+      "summary": "The authors optimised optical genome mapping (OGM) for surgically resected brain tissue, reaching about 450x effective coverage, and applied it to four patients with epilepsy-associated cortical malformations. OGM found large and complex somatic structural variants that exome sequencing mostly missed.",
+      "key_points": [
+        "In one patient with a known germline variant, OGM revealed a somatic 13.2 kb deletion at about 20% allele fraction, fitting a two-hit model.",
+        "PacBio HiFi data resolved the breakpoints and pointed to recombination between two flanking elements."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.7554/eLife.109268",
+      "date_added": "2026-10-05",
+      "published": "2026-09-29",
+      "title": "Single-cell spatial mapping reveals reproducible cell type organization and spatially dependent gene expression in gastruloids",
+      "authors": "Triandafillou C, Sompalle P, Heyman Y, et al.",
+      "venue": "eLife",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.7554/eLife.109268",
+      "url": "https://doi.org/10.7554/eLife.109268",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "The authors made a spatially resolved single-cell transcriptome catalogue of 26 individual gastruloids. Cell-type composition and tissue-scale organisation were largely consistent, while meso-scale patterning of particular cell types varied between samples.",
+      "key_points": [
+        "They developed the L-score, a parameter-free measure of mutually exclusive gene expression that separates progressive differentiation from cell-type differences.",
+        "Neuromesodermal precursors differentiated in a continuous, spatially coordinated way; endothelial precursors showed distinct spatial organisation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.25.753722",
+      "date_added": "2026-10-05",
+      "published": "2026-09-28",
+      "title": "Cooperativity through Allee Effects drives growth of diffuse midline gliomas impacting the optimal scheduling of therapeutic interventions",
+      "authors": "Tari H, Kessler K, Izquierdo E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.25.753722",
+      "url": "https://doi.org/10.64898/2026.09.25.753722",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution"
+      ],
+      "summary": "The authors extend the Lotka-Volterra competition model to show that subpopulations from the same diffuse midline glioma can interact through Allee effects. Therapy perturbs these interactions, which changes the simulated outcome of treatment schedules.",
+      "key_points": [
+        "Interactions between subpopulations can offset the effect of therapy.",
+        "In a simulated two-drug regimen, the interactions substantially changed outcomes depending on scheduling."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.30.755713",
+      "date_added": "2026-10-05",
+      "published": "2026-10-02",
+      "title": "Multi-scale Transcriptional Characterization of HPV16 and HPV18 in Cervical Cancer: Host Pathway Alterations and Links With Viral Gene Expression Programs",
+      "authors": "Ishihara MA, Moro Valeriano MM, Oliveira N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.30.755713",
+      "url": "https://doi.org/10.64898/2026.09.30.755713",
+      "topics": [
+        "Cancer genomics",
+        "Computational"
+      ],
+      "summary": "Using viral and host RNA data from two cervical cancer cohorts (n = 93; 76 HPV16, 17 HPV18), the authors show the two genotypes differ in host transcriptional programs. A 55-gene signature separates them, and 293 genes were concordantly differential across cohorts.",
+      "key_points": [
+        "HPV16 tumours were enriched for epithelial polarity and RTK-RAS-MAPK signatures, with inferred CDX2 regulon activity.",
+        "HPV18 tumours showed metabolic and inflammatory (STAT3, HIF1A) programs, lower CASP8 and higher FDX1.",
+        "Viral early-to-late gene expression correlated with distinct host pathways in each genotype."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.30.755821",
+      "date_added": "2026-10-05",
+      "published": "2026-10-02",
+      "title": "Transcriptomic analysis reveals differential regulation of synaptic components in pediatric and adult brain tumors",
+      "authors": "Merino-Galan L, Arora S, Glatzer G, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.30.755821",
+      "url": "https://doi.org/10.64898/2026.09.30.755821",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Resource"
+      ],
+      "summary": "The authors assembled a reference map from bulk RNA-seq of about 4,300 adult and paediatric brain tumours and about 1,400 healthy brain samples, and used it to examine synaptic gene expression across tumour types.",
+      "key_points": [
+        "HNRNPH2, an RNA processing factor, is upregulated in gliomas and medulloblastomas.",
+        "CHRNA9 (cholinergic signalling) is proposed as a driver of glioma progression and is also raised in WNT and Group 4 medulloblastomas, ependymomas and meningiomas.",
+        "P2 purinergic signalling also emerges as a player in glioma progression."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.24.754104",
+      "date_added": "2026-10-05",
+      "published": "2026-09-29",
+      "title": "Integrated transcriptomic analysis identifies Paternally Expressed Gene 10 as a novel candidate biomarker associated with aggressive features in liposarcoma",
+      "authors": "Turiello R, Scognamiglio G, Bonicelli A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.754104",
+      "url": "https://doi.org/10.64898/2026.09.24.754104",
+      "topics": [
+        "Cancer genomics",
+        "Sarcoma",
+        "Clinical"
+      ],
+      "summary": "Bulk RNA-seq of paired liposarcoma and adjacent normal tissue (16 patients) showed subtype-specific programs and broad dysregulation of imprinted genes. PEG10 stood out as a candidate biomarker of aggressive disease.",
+      "key_points": [
+        "PEG10 separated tumour from normal tissue in the discovery cohort (AUC 0.867) and was higher in high-grade tumours.",
+        "High PEG10 was linked to shorter overall survival in TCGA-SARC and to reduced immune infiltration in an external single-cell dataset.",
+        "The authors say validation in larger, subtype-balanced cohorts is needed."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.03.17.643814",
+      "date_added": "2026-10-05",
+      "published": "2026-09-30",
+      "title": "Stochastically Emergent Tumors offer in vivo whole genome interrogation of cancer evolution from non-malignant precursors",
+      "authors": "Moussavi-Baygi R, Ryan MJ, Sim W, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.03.17.643814",
+      "url": "https://doi.org/10.1101/2025.03.17.643814",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution",
+        "Machine learning"
+      ],
+      "summary": "Stochastically Emergent Tumors (SETs) are an in vivo platform in which tumours evolve through combinatorial genome-wide alterations without chromosomal instability, giving sparse genetic variation suited to computational inference and deep learning. Applied to prostate cancer under hormone therapy, they reveal what shapes sensitivity and resistance.",
+      "key_points": [
+        "Six previously unrecognised sensitisation determinants were found, including ZFHX3 loss; CIC and KMT2D alterations were linked to resistance.",
+        "Patient tumour analyses tied these candidates to clinical outcomes, and ZFHX3 was nominated as a target to push tumours into a luminal state."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755432",
+      "date_added": "2026-10-05",
+      "published": "2026-09-30",
+      "title": "Sex-specific differences in ADAR editing patterns in response to SARS-CoV-2 infections",
+      "authors": "Nair AM, Piontkivska H",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755432",
+      "url": "https://doi.org/10.64898/2026.09.29.755432",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications"
+      ],
+      "summary": "Re-analysing a public whole-blood RNA-seq dataset matched for age and comorbidity, the authors compare ADAR expression and A-to-I editing between sexes before, during and after SARS-CoV-2 infection.",
+      "key_points": [
+        "ADAR and ADAR2 expression differed by sex pre- and mid-infection but not after clearance; ADAR3 was higher in females mid-infection.",
+        "The ADAR expression to global editing relationship differed by sex and stage, so editing is not set by transcript abundance alone.",
+        "Editing within genes that escape X-inactivation differed at baseline and across infection stages independently of expression."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.25.754486",
+      "date_added": "2026-10-05",
+      "published": "2026-10-01",
+      "title": "Limitations of differential expression for cell-type marker discovery in single-cell RNA sequencing atlases",
+      "authors": "Doggett K, Pintard D, Scheuermann RH, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.25.754486",
+      "url": "https://doi.org/10.64898/2026.09.25.754486",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The authors show that the Wilcoxon rank-sum test, the default for marker discovery in Seurat and recommended in Scanpy, gives scores that grow with cluster size, so rankings across unequal clusters are not comparable. They tested this on lung, kidney and brain atlases.",
+      "key_points": [
+        "Mean Wilcoxon score correlated with log cluster size at r = 0.90-0.95, versus r = 0.10-0.28 for the classification-based NS-Forest.",
+        "Normalising to a rank-based effect size removes the size dependence but nominates the same genes, so poor specificity is a separate problem.",
+        "Median on-target fraction of default DE markers was 0.083-0.204, versus 0.364-0.687 for NS-Forest."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.25.754471",
+      "date_added": "2026-10-05",
+      "published": "2026-09-28",
+      "title": "Trustworthy super-resolution reconstruction across spatial omics modalities",
+      "authors": "Li M, Wang X, Xu S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.25.754471",
+      "url": "https://doi.org/10.64898/2026.09.25.754471",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Isoforms"
+      ],
+      "summary": "spEnhance reconstructs high-resolution spatial molecular profiles from spot-level spatial omics data by combining histology features with single-cell RNA-seq references and gene co-expression structure. It adds a count-splitting scheme to validate and select models from a single tissue section.",
+      "key_points": [
+        "Predictive residuals give a spatial reliability estimate for each prediction.",
+        "Benchmarks across tissues, platforms and modalities show state-of-the-art accuracy and less overfitting.",
+        "It extends beyond transcriptomics to isoform-level, epigenomic, proteomic and metabolomic spatial data."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.08.11.669689",
+      "date_added": "2026-10-05",
+      "published": "2026-10-01",
+      "title": "Paired plus-minus sequencing is an ultra-high throughput and accurate method for dual strand sequencing of DNA molecules",
+      "authors": "Cheng AP, Rusinek I, Sossin A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.08.11.669689",
+      "url": "https://doi.org/10.1101/2025.08.11.669689",
+      "topics": [
+        "Cancer genomics",
+        "Clinical"
+      ],
+      "summary": "Paired plus-minus sequencing (ppmSeq) clonally amplifies both strands of a DNA molecule on one bead so a single read carries duplex information. This gives duplex recovery that scales with coverage, aimed at low-frequency variant settings such as ctDNA and somatic mosaicism.",
+      "key_points": [
+        "Duplex recovery was 44% +/- 5.5%, versus about 5-11% for leading duplex technologies; residual SNV error was as low as 7.98x10^-8 for gDNA.",
+        "Tumour-informed ctDNA detection reached 10^-4 concentrations across most cancers, and mutation-signature-based tumour-naive detection worked in urothelial and lung cancers."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41556-026-02075-8",
       "date_added": "2026-10-04",
