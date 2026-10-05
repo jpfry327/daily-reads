@@ -10,6 +10,7 @@ data/posts.json   every post currently in the feed
 data/updates.json the task's report from each of its last 7 runs, shown in the Update tab
 config/interests.md  what to post: topics, tags, journal tiers, preprint rules, limits
 img/              one picture per post: Figure 1 (.webp) or Claude's illustration (.svg), named from the DOI
+favicon.svg       browser-tab icon (apple-touch-icon.png is the 180 px phone home-screen version)
 .nojekyll         tells GitHub Pages to serve files as-is
 ```
 
