@@ -65,6 +65,8 @@ img/              one picture per post: Figure 1 (.webp) or Claude's illustratio
 - **Update** tab: the reports from `data/updates.json`, newest first.
 - **Saved** tab: everything the reader saved.
 
+Each post has a **Posted** tag with its `date_added`. Posts added by the latest update (their `date_added` matches the date in `updated`) are tagged **New**, and the Tier 1, Tier 2 and Chordoma tabs show how many new posts each has, like the count on Saved.
+
 A post's tab follows from its fields: `Chordoma` in `topics` puts it in Chordoma; otherwise `tier` 1 or `"review"` puts it in Tier 1; everything else (Tier 2 and preprints) goes in Tier 2.
 
 ## What the scheduled task does each run
