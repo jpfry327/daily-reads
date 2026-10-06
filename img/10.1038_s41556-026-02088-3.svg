@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#2B3138">Cancer cells mistranslate tryptophan</text>
+<!-- immune pressure -->
+<circle cx="64" cy="92" r="26" fill="#3C9A2E" fill-opacity="0.85"/>
+<text x="64" y="97" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">T cell</text>
+<path d="M92 92 L168 92" stroke="#3C9A2E" stroke-width="3" fill="none"/><path d="M168 84 L180 92 L168 100 Z" fill="#3C9A2E"/>
+<text x="136" y="78" text-anchor="middle" font-size="13" fill="#3C9A2E">IFN-γ</text>
+<rect x="188" y="68" width="170" height="48" rx="10" fill="#C8323F" fill-opacity="0.1" stroke="#C8323F" stroke-width="2"/>
+<text x="273" y="89" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">Tryptophan shortage</text>
+<text x="273" y="107" text-anchor="middle" font-size="13" fill="#2B3138">in the cancer cell</text>
+<!-- mRNA with UGG codon -->
+<rect x="40" y="188" width="330" height="14" rx="4" fill="#8A949E" fill-opacity="0.4"/>
+<g stroke="#2B3138" stroke-width="2"><rect x="150" y="180" width="74" height="30" rx="4" fill="#D98A00" fill-opacity="0.25"/></g>
+<text x="187" y="201" text-anchor="middle" font-size="16" font-weight="700" fill="#2B3138">UGG</text>
+<text x="105" y="176" text-anchor="middle" font-size="13" fill="#8A949E">mRNA</text>
+<!-- ribosome -->
+<ellipse cx="187" cy="152" rx="62" ry="22" fill="#1E5FA8" fill-opacity="0.18" stroke="#1E5FA8" stroke-width="2"/>
+<text x="187" y="157" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">Ribosome</text>
+<!-- tRNA decoding branches -->
+<path d="M120 126 L120 120" stroke="none"/>
+<!-- normal: Trp -->
+<rect x="40" y="240" width="130" height="50" rx="8" fill="#3C9A2E" fill-opacity="0.1" stroke="#3C9A2E" stroke-width="2"/>
+<text x="105" y="261" text-anchor="middle" font-size="13" font-weight="700" fill="#3C9A2E">Normal</text>
+<text x="105" y="279" text-anchor="middle" font-size="13" fill="#2B3138">Trp (W) inserted</text>
+<!-- mistranslation -->
+<rect x="190" y="240" width="180" height="50" rx="8" fill="#C8323F" fill-opacity="0.1" stroke="#C8323F" stroke-width="2"/>
+<text x="280" y="261" text-anchor="middle" font-size="13" font-weight="700" fill="#C8323F">W to F substitution</text>
+<text x="280" y="279" text-anchor="middle" font-size="13" fill="#2B3138">Phe (F) inserted</text>
+<path d="M120 212 L110 238" stroke="#3C9A2E" stroke-width="2.5" fill="none"/>
+<path d="M254 212 L276 238" stroke="#C8323F" stroke-width="2.5" fill="none"/>
+<!-- regulators -->
+<text x="500" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#2B3138">Screen hits</text>
+<rect x="404" y="142" width="192" height="76" rx="10" fill="#1E5FA8" fill-opacity="0.1" stroke="#1E5FA8" stroke-width="2"/>
+<text x="500" y="164" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">ADAR1</text>
+<text x="500" y="184" text-anchor="middle" font-size="13" fill="#2B3138">keeps ribosome quality</text>
+<text x="500" y="201" text-anchor="middle" font-size="13" fill="#2B3138">control genes expressed</text>
+<rect x="404" y="232" width="192" height="76" rx="10" fill="#D98A00" fill-opacity="0.12" stroke="#D98A00" stroke-width="2"/>
+<text x="500" y="254" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">FTSJ1</text>
+<text x="500" y="274" text-anchor="middle" font-size="13" fill="#2B3138">methylates tRNA-Trp</text>
+<text x="500" y="291" text-anchor="middle" font-size="13" fill="#2B3138">so WARS1 adds Phe</text>
+<path d="M404 168 L252 156" stroke="#1E5FA8" stroke-width="2" stroke-dasharray="5 4" fill="none"/>
+<path d="M404 266 L372 266" stroke="#D98A00" stroke-width="2" stroke-dasharray="5 4" fill="none"/>
+<text x="320" y="352" text-anchor="middle" font-size="13" fill="#8A949E">MAPK signalling separately drives ribosomal frameshifting</text>
+<text x="320" y="374" text-anchor="middle" font-size="13" fill="#8A949E">ADAR1 and FTSJ1 are high in many cancer types</text>
+</svg>

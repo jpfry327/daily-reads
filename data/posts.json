@@ -1,13 +1,672 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-05T10:30:00Z",
+  "updated": "2026-10-06T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41556-026-02075-8",
-    "10.1038/s41588-026-02774-w",
-    "10.1016/j.molcel.2026.09.032"
+    "10.1038/s41588-026-02766-w",
+    "10.1038/s41592-026-03237-0",
+    "10.1038/s41556-026-02088-3"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02766-w",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "A heritability-optimized method for functional prioritization of rare coding variants in complex traits",
+      "authors": "Pang K, Pathan N, Le A, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02766-w",
+      "url": "https://doi.org/10.1038/s41588-026-02766-w",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "RovHer scores missense rare variants by their probability of being functional, defined as their contribution to trait variance. It uses exome-wide association statistics across 4.9 million rare variants and multivariate adaptive regression splines to combine 75 variant- and gene-level features.",
+      "key_points": [
+        "Across 21 UK Biobank traits (up to 357,086 people), the top 1% of RovHer-ranked variants explained on average 16.1% of rare-variant heritability, about 10-fold more than 7 other methods.",
+        "Predictions are independent of allele frequency and replicate in a multi-ancestry analysis.",
+        "The scores pick out high-risk carriers of severe outcomes across 17 monogenic gene-trait pairs."
+      ],
+      "data": "UK Biobank",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02766-w.svg",
+        "caption": "RovHer sifts millions of rare missense variants into a top 1% that carries much of the rare-variant heritability and flags high-risk carriers.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03237-0",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "Resolving cell-cell interaction networks and their molecular logic in complex tissues",
+      "authors": "Tang L, Tian K, Fu X, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03237-0",
+      "url": "https://doi.org/10.1038/s41592-026-03237-0",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "CCI-seq captures cell-cell interactions at scale by combining cell clump combinatorial indexing with single-cell sequencing. Because it sits on a single-cell RNA-seq backbone, each interacting cell also gets a full transcriptome, so the molecular state tied to an interaction can be read out.",
+      "key_points": [
+        "It recovered known interactions and fine-grained organisation in mouse kidney and intestine, and showed disrupted interactions in Apc-KO intestines.",
+        "In human colorectal cancer it revealed subtype-specific interactions linked to clinical classifications.",
+        "Interacting cells carried distinct programmes: ion transport in kidney, antigen presentation in Apc-KO villi and NF-κB inflammatory activation in colorectal cancer."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03237-0.svg",
+        "caption": "Touching cells are kept as clumps, barcoded combinatorially and sequenced, giving an interaction network plus each cell's transcriptome.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41556-026-02088-3",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "Global and specific mechanisms stimulate mistranslation in cancer",
+      "authors": "Wernaart D, Fumagalli A, Adhikary M, et al.",
+      "venue": "Nature Cell Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41556-026-02088-3",
+      "url": "https://doi.org/10.1038/s41556-026-02088-3",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Immuno-oncology"
+      ],
+      "summary": "Tryptophan shortage imposed by anti-tumour immunity makes cancer cells mistranslate tryptophan codons, by frameshifting or by reading them as phenylalanine (W>F substitutants). A genetic screen after interferon-γ-driven tryptophan depletion found what controls the W>F events.",
+      "key_points": [
+        "The screen identified ADAR1, an A-to-I RNA editing enzyme, which sustains ribosome quality control pathway genes that are needed for mistranslation.",
+        "FTSJ1 2'-O-methylates the anticodon of tRNA-Trp, which promotes its binding to WARS1 loaded with phenylalanine and so drives W>F mistranslation.",
+        "ADAR1 and FTSJ1 are elevated in many cancer types, suggesting a general mechanism."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41556-026-02088-3.svg",
+        "caption": "Under tryptophan shortage the ribosome can insert phenylalanine at UGG codons; ADAR1 and FTSJ1 are the screen hits that control this.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02787-5",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "Imputation of fluid intelligence scores reduces ascertainment bias and increases power for analyses of common and rare variants",
+      "authors": "van den Berg DM, Malawsky DS, Huang W, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02787-5",
+      "url": "https://doi.org/10.1038/s41588-026-02787-5",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "The authors combined fluid intelligence tests across UK Biobank measures and imputed the score for unmeasured people, raising the sample from about 270,000 to over 455,000. Analyses use only existing biobank data, so it counts as computational.",
+      "key_points": [
+        "The imputed phenotype resembles measured fluid intelligence genetically, though some non-cognitive signal likely remains.",
+        "Common-variant hits rose from 390 to 550, and the extra people reduce the bias from test-takers being more educated.",
+        "Rare-variant analysis found 26 genes (FDR below 1%), 8 without strong prior links to intelligence, which replicate in aggregate in external cohorts."
+      ],
+      "data": "UK Biobank",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41586-026-10965-y",
+      "date_added": "2026-10-06",
+      "published": "2026-09-30",
+      "title": "Function-preserving watermarking of AI-generated proteins",
+      "authors": "Stutz D, Cowen-Rivers AI, Ortiz-Jimenez G, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-10965-y",
+      "url": "https://doi.org/10.1038/s41586-026-10965-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "SynthIDBio is a family of methods for watermarking protein sequences and structures so AI-generated proteins can be traced to their source. It is posted because Tier 1 journals are tracked for computational biology work, although protein design is otherwise outside the interest list.",
+      "key_points": [
+        "SynthIDBio-sequence embeds a watermark into protein sequences while preserving function; watermarked designed binders had binding affinity comparable with unwatermarked ones, with near-perfect detection.",
+        "SynthIDBio-structure is a fine-tuned AlphaFold 3 model that embeds an imperceptible watermark into biomolecular structures.",
+        "The authors present it as a proof of concept for provenance and biosecurity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.010",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "DND1-NANOS3 shapes the PGC transcriptome via a heptanucleotide sequence in mRNA 3' UTRs",
+      "authors": "Suzawa M, Qiu C, Polash AH, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.010",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.010",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Primordial germ cell survival needs the RNA-binding proteins DND1 and NANOS3. This study shows they act as a pair, where neither alone has strong sequence specificity, to repress mRNAs through one high-information motif in 3' UTRs.",
+      "key_points": [
+        "Tandem PAR-CLIP showed the DND1-NANOS3 complex represses dozens of epigenome and cell-cycle regulator mRNAs by recognising the heptamer AUGAAUU.",
+        "Genome editing of the element relieved repression of CDK1 in vivo.",
+        "A structure shows a continuous RNA-binding surface formed by both proteins, and a NANOS3 disordered region adds affinity and specificity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41576-026-01015-4",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "Decoding epithelial-mesenchymal transitions with multi-omics",
+      "authors": "Narwade N, Nieto MA",
+      "venue": "Nature Reviews Genetics",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1038/s41576-026-01015-4",
+      "url": "https://doi.org/10.1038/s41576-026-01015-4",
+      "topics": [
+        "Methods",
+        "Multi-omics",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "A review of how single-cell and spatial omics and computational frameworks such as machine learning and network modelling have advanced the study of epithelial-mesenchymal transition (EMT), a plastic programme co-opted in cancer and fibrosis.",
+      "key_points": [
+        "EMT is a continuum of intermediate states, which has limited systematic study across the transcriptome, epigenome, proteome and metabolome.",
+        "The review covers analytical considerations, current challenges, and prospects for biomarker discovery and translation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-76871-z",
+      "date_added": "2026-10-06",
+      "published": "2026-09-03",
+      "title": "Weighted sliced inverse regression for scalable supervised dimensionality reduction of spatial transcriptomics data",
+      "authors": "Woollard M, Panwar P, Harland LTG, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-76871-z",
+      "url": "https://doi.org/10.1038/s41467-026-76871-z",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "wSIR is a supervised dimension-reduction method for spatial transcriptomics that keeps the predictive power of the spatial coordinates, which common variance-preserving reductions do not.",
+      "key_points": [
+        "Works across several spatial platforms and processes over 100,000 cells in under two minutes on a standard laptop.",
+        "Feature loadings are interpretable and new non-spatial data can be projected into the same space.",
+        "Case studies in human breast cancer and mouse early embryo show biological relevance."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77349-8",
+      "date_added": "2026-10-06",
+      "published": "2026-09-03",
+      "title": "Microenvironment-aware transcriptome reconstruction in spatial transcriptomics",
+      "authors": "Yang ST, Peng P, He HF, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77349-8",
+      "url": "https://doi.org/10.1038/s41467-026-77349-8",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "Emerge extends imaging-based spatial transcriptomics, which measures only a gene panel, to transcriptome scale by combining a cell's transcriptional identity with its local microenvironment.",
+      "key_points": [
+        "Local microenvironment explains transcriptional variation beyond cell identity.",
+        "Tested on MERFISH and Xenium data from neural and tumour tissue, it improved recovery of structured variation.",
+        "It also reveals links among cell states, niches and intercellular communication programmes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77434-y",
+      "date_added": "2026-10-06",
+      "published": "2026-09-03",
+      "title": "Spatial transcriptomics reveals laminar and cell-type-specific A-to-I RNA editing signatures in the macaque cortex",
+      "authors": "Chen C, Yang J, Zhu Z, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77434-y",
+      "url": "https://doi.org/10.1038/s41467-026-77434-y",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Spatial"
+      ],
+      "summary": "The authors built SRDRE, an analysis framework to call RNA editing sites in spatial transcriptomics data, and applied it to over 40 million cells across 142 annotated regions of the adult macaque cortex.",
+      "key_points": [
+        "Editing levels in neurons tracked cortical hierarchy in the visual and somatosensory systems.",
+        "Parvalbumin neurons had the highest editing activity in most regions, and primate-enriched sites fell in ion channel genes of prefrontal excitatory neurons.",
+        "An exploratory analysis found altered editing in deeper dorsolateral prefrontal layers of macaques with depressive-like behaviour."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag914",
+      "date_added": "2026-10-06",
+      "published": "2026-09-22",
+      "title": "A systematic single-cell analysis of enhancer RNAs across human and mouse",
+      "authors": "Rong H, Liu H, Li Y, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag914",
+      "url": "https://doi.org/10.1093/nar/gkag914",
+      "topics": [
+        "RNA biology",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "Using 187 full-length single-cell RNA-seq datasets (184,329 cells), the study catalogues enhancer RNAs (eRNAs) at single-cell resolution and builds a resource of their expression and regulatory networks.",
+      "key_points": [
+        "Identified 85,977 human and 82,727 mouse eRNAs, sparsely detected per cell but heterogeneous between cells.",
+        "eRNAs made up to 33.5% of human and 46.5% of mouse lineage markers.",
+        "RACE confirmed a colorectal cancer-associated eRNA whose plasma level supports a possible non-invasive biomarker."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s43588-026-01054-1",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics",
+      "authors": "Chen Y, Liu Y, Wang Z, et al.",
+      "venue": "Nature Computational Science",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s43588-026-01054-1",
+      "url": "https://doi.org/10.1038/s43588-026-01054-1",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "CellART does cell segmentation and cell-type annotation together for high-resolution spatial transcriptomics, using staining images, the spatial data and a single-cell RNA-seq reference, with deep learning and probabilistic modelling.",
+      "key_points": [
+        "Designed to work across diverse sub-cellular-resolution platforms, including sparse-count and limited-gene-panel ones.",
+        "Its outputs are compatible with widely used community tools for downstream analysis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag737",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "MAJEC: unified gene, isoform, and locus-level transposable element quantification from RNA-seq",
+      "authors": "Lim TY, Firestone AJ",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag737",
+      "url": "https://doi.org/10.1093/bioinformatics/btag737",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Isoforms"
+      ],
+      "summary": "MAJEC is an expectation-maximisation framework that jointly quantifies genes, transcript isoforms and individual transposable element loci from alignments in one pass, using splice junctions to separate gene reads from TE-derived reads.",
+      "key_points": [
+        "It cuts exon-overlap contamination of locus-level TE estimates from 43% of signal (Telescope) to 5%.",
+        "Subfamily-level accuracy is kept (differential expression r = 0.987 vs TEtranscripts), isoform quantification was checked against Salmon and RSEM, and it runs faster than either TE tool.",
+        "Examples show it avoids both false TE reactivation and false gene upregulation."
+      ],
+      "data": "Zenodo 10.5281/zenodo.19224157",
+      "code": "github.com/calico/majec"
+    },
+    {
+      "id": "10.1101/gr.282254.126",
+      "date_added": "2026-10-06",
+      "published": "2026-10-01",
+      "title": "Fast and accurate construction of multiple sequence alignments from protein language embeddings with ARIES",
+      "authors": "Hoang M, Armour-Garb I, Singh M",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282254.126",
+      "url": "https://doi.org/10.1101/gr.282254.126",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "ARIES builds multiple sequence alignments from protein language model embeddings: it makes a template embedding and aligns every sequence to it by dynamic time warping. The aim is better accuracy in the low-identity twilight zone.",
+      "key_points": [
+        "A windowed reciprocal-weighted embedding similarity identifies corresponding amino acids across sequences.",
+        "Across benchmarks it beats state-of-the-art aligners, especially at low identity, and scales almost linearly with sequence number."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.282257.126",
+      "date_added": "2026-10-06",
+      "published": "2026-10-01",
+      "title": "Scaling coalescent-based species tree inference to 100,000 taxa with STELAR-X",
+      "authors": "Saha A, Bayzid MS",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282257.126",
+      "url": "https://doi.org/10.1101/gr.282257.126",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "STELAR-X is a statistically consistent, triplet-based species tree method that uses a compact tuple encoding of bipartitions, precomputed weights and GPU parallelism to scale far beyond ASTRAL and STELAR.",
+      "key_points": [
+        "On 10,000 taxa and 1,000 gene trees it ran 3,576 times faster than ASTRAL-MP with 13.9 times less memory.",
+        "It analysed 100,000 taxa with 1,000 genes in about 34 minutes, and trees for two avian datasets matched established bird phylogenies."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag918",
+      "date_added": "2026-10-06",
+      "published": "2026-09-22",
+      "title": "Functional roles for viral RNA ribosylation in mammalian cells",
+      "authors": "Sears JD, Chang CK, Shirasaki T, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag918",
+      "url": "https://doi.org/10.1093/nar/gkag918",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "During chikungunya virus infection, viral RNA is ribosylated by the PARP12 ribosyltransferase and counteracted by the viral nsP3 macrodomain hydrolase. The study asks what ribosylation does to RNA.",
+      "key_points": [
+        "Ribosylated RNA was translated less in cell-free systems and infected fibroblasts, and viral RNA decayed faster.",
+        "Ribosylated RNA strongly induced antiviral host response genes, so it acts like a pathogen-associated molecular pattern.",
+        "Because macrodomains occur in many unrelated viruses, RNA ribosylation may be a general part of antiviral sensing."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.11.21.689845",
+      "date_added": "2026-10-06",
+      "published": "2025-11-24",
+      "title": "Determining gene specificity from multivariate single-cell RNA sequencing data",
+      "authors": "Swarna NP, Booeshaghi AS, Rebboah E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.11.21.689845",
+      "url": "https://doi.org/10.1101/2025.11.21.689845",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "ember is an entropy-based framework that scores how specific a gene is to biological categories in single-cell data, using Shannon's chain rule across nested partitions. It is applied to eight tissues from eight founder mouse strains and a 255-person PBMC dataset.",
+      "key_points": [
+        "Gene specificity is often unintuitive: canonical markers can be supplanted and housekeeping genes are context-dependent.",
+        "In PBMCs, variation is largely localised to classical monocytes, with genes of unique specificity by sex, age and ancestry.",
+        "A specificity database with web interface, API and MCP server is provided."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.10.737775",
+      "date_added": "2026-10-06",
+      "published": "2026-07-11",
+      "title": "GBZ-base and GAF-base: Indexed pangenome file formats",
+      "authors": "Siren J, Paten B, Human Pangenome Reference Consortium",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.10.737775",
+      "url": "https://doi.org/10.64898/2026.07.10.737775",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "GBZ-base and GAF-base are SQLite-backed pangenome file formats that can be queried directly from disk, unlike existing formats built for batch processing in memory.",
+      "key_points": [
+        "GBZ-base supports efficient extraction of local subgraphs and GAF-base extracts all alignments to a subgraph.",
+        "GAF-base is smaller than any other format for sequence-to-graph alignments."
+      ],
+      "data": "",
+      "code": "github.com/jltsiren/gbz-base"
+    },
+    {
+      "id": "10.64898/2026.09.24.754017",
+      "date_added": "2026-10-06",
+      "published": "2026-09-29",
+      "title": "EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics",
+      "authors": "Li K, Chen X, Jiang Q, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.754017",
+      "url": "https://doi.org/10.64898/2026.09.24.754017",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "EpiZoo is a 2.6-billion-parameter mixture-of-experts transformer pretrained on about 20.9 million single-cell ATAC cells from many species. It encodes DNA sequence into cell 'sentences', so it does not depend on genomic coordinates.",
+      "key_points": [
+        "Reports state-of-the-art feature extraction, cell type annotation and imputation on datasets held out of pretraining.",
+        "Supports comparison of regulatory conservation across primates, prioritisation of somatic mutations in cancer, and prediction of accessibility from sequence."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.23.753836",
+      "date_added": "2026-10-06",
+      "published": "2026-09-29",
+      "title": "SpatialTRACE predicts anatomical axes and regions in spatial transcriptomics and microscopy",
+      "authors": "Monell AT, Gogate AA, Patravali D, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.23.753836",
+      "url": "https://doi.org/10.64898/2026.09.23.753836",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "SpatialTRACE extends a few annotated structures into tissue-wide maps of anatomical axes and regions. A graph model uses expression plus spatial neighbourhoods; an image model learns from it to predict the same coordinates from DAPI alone.",
+      "key_points": [
+        "In held-out mouse small-intestine sections the graph model predicted crypt-villus axis coordinates with as few as 10 annotated villi and found Peyer's patches.",
+        "Applied to immunofluorescence, it mapped where antigen-specific CD8 T cells sit in the intestine after LCMV infection."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.24.753981",
+      "date_added": "2026-10-06",
+      "published": "2026-09-29",
+      "title": "Platform-specific count-matrix preprocessing workflows for spatial transcriptomics data analysis",
+      "authors": "Du Y, Li S, Yang X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.753981",
+      "url": "https://doi.org/10.64898/2026.09.24.753981",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "A benchmark of 371 count-matrix preprocessing workflows on 45 datasets from 11 spatial transcriptomics platforms, plus image preprocessing steps such as cell segmentation.",
+      "key_points": [
+        "No single workflow was best across platforms, but data from the same platform favoured the same workflows.",
+        "The authors give platform- and data-structure-guided recommendations, and show the best choice uncovers spatial patterns hidden by poor preprocessing."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.28.755196",
+      "date_added": "2026-10-06",
+      "published": "2026-10-04",
+      "title": "Distinct sequence grammars of nucleosomal and linker DNA shape mutational and methylation landscapes in cancer",
+      "authors": "Masoudi-Sobhanzadeh Y, Kumar S",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.28.755196",
+      "url": "https://doi.org/10.64898/2026.09.28.755196",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "DeepND is an interpretable deep learning model that separates nucleosomal from inter-nucleosomal DNA and reveals the sequence motifs behind it, then links them to somatic mutations and DNA methylation in cancer.",
+      "key_points": [
+        "210 motifs of 2-16 bp were enriched or depleted in nucleosomal DNA; 44 had cancer-type-specific mutation patterns and 6 were tied to methylation differences.",
+        "Mutations in lung and endometrial cancers showed a roughly 10-bp periodic pattern linked to minor-groove orientation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.755833",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "Spatial transcriptomics reveals tumour cell-intrinsic and microenvironmental features associated with survival in high-grade serous ovarian carcinoma",
+      "authors": "Khan MAAK, Lin W, Denisenko E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.755833",
+      "url": "https://doi.org/10.64898/2026.10.02.755833",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Clinical"
+      ],
+      "summary": "Xenium spatial transcriptomics with a custom 480-gene panel was applied to treatment-naive tumours from 122 high-grade serous ovarian carcinoma patients, to separate tumour-cell from microenvironment signals linked to survival.",
+      "key_points": [
+        "61 tumour-intrinsic genes were nominally tied to overall survival, and 46 of them were not significant when expression was pooled over all cells in a patient.",
+        "Immune populations near tumour cells were linked to longer survival and two fibroblast populations to shorter survival.",
+        "Consensus clustering gave four patient groups with different tumour-intrinsic and microenvironment combinations."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.754332",
+      "date_added": "2026-10-06",
+      "published": "2026-10-05",
+      "title": "Matched primary-metastasis single-nucleus and spatial profiling of leiomyosarcoma identifies antigen-presenting fibroblasts at the tumor-organ interface",
+      "authors": "Kuebler A, Bergmayr L, Knoesel T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.754332",
+      "url": "https://doi.org/10.64898/2026.10.02.754332",
+      "topics": [
+        "Cancer genomics",
+        "Sarcoma",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "Single-nucleus RNA-seq of four matched primary-metastasis leiomyosarcoma pairs (from archival FFPE tissue) was combined with spatial transcriptomics of 21 patients, with malignant cells defined by inferred copy number and checked against DNA methylation.",
+      "key_points": [
+        "Malignant programmes were organ-associated: stress and hypoxia in lung metastases, proliferative matrix remodelling in liver metastases.",
+        "Antigen-presenting fibroblasts were enriched in metastases and formed a band at the tumour-organ interface.",
+        "Three histomolecular phenotypes were resolved, including a GPNMB one that might be targetable."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.05.13.653614",
+      "date_added": "2026-10-06",
+      "published": "2025-05-13",
+      "title": "A generative language model decodes contextual constraints on codon choice for mRNA design",
+      "authors": "Faizi M, Sakharova H, Lareau LF",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.05.13.653614",
+      "url": "https://doi.org/10.1101/2025.05.13.653614",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "Trias is a generative encoder-decoder language model trained on millions of vertebrate coding sequences to learn codon usage rules, used to design mRNAs with high protein output. This is a later version (v3) of a preprint first posted in May 2025.",
+      "key_points": [
+        "Zero-shot predictions correlate strongly with measured mRNA stability and protein output, without training on expression.",
+        "Experimentally, Trias-designed sequences for a therapeutic target gave more protein than existing methods.",
+        "Open-source code and weights are released."
+      ],
+      "data": "",
+      "code": "(open source; code and weights released)"
+    },
+    {
+      "id": "10.64898/2026.09.24.754167",
+      "date_added": "2026-10-06",
+      "published": "2026-09-30",
+      "title": "Pangenome-resolved polymorphic transposable elements reveal human regulatory evolution in action",
+      "authors": "Jiang J, Zhuo X, Li R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.754167",
+      "url": "https://doi.org/10.64898/2026.09.24.754167",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "Using 231 haplotype-resolved human pangenomes with matched long-read multi-omics, segregating transposable element alleles are resolved as sequences, epigenetic states and transcript components.",
+      "key_points": [
+        "Regulatory effects depend on methylation and transcript context and are often missed by gene-level analyses.",
+        "The elements give mechanisms at trait-associated loci, and selection favours both presence and absence of elements."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1097/BSD.0000000000002187",
       "date_added": "2026-10-05",
@@ -697,8 +1356,7 @@
       "doi": "10.1158/0008-5472.can-26-0490",
       "url": "https://doi.org/10.1158/0008-5472.can-26-0490",
       "topics": [
-        "RNA biology",
-        "Cancer genomics"
+        "RNA biology"
       ],
       "summary": "The authors screened placenta-specific genes that are abnormally expressed in liver cancer and found the retrovirus-like gene PEG10 overexpressed with poor prognosis. PEG10 acts as an RNA-binding protein that blocks Staufen1-mediated mRNA decay.",
       "key_points": [

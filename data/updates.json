@@ -1,6 +1,251 @@
 {
   "updates": [
     {
+      "date": "2026-10-06T10:30:00Z",
+      "summary": "Added 7 Tier 1 papers (6 research, 1 review; 2 purely computational), 9 Tier 2 journal papers (6 purely computational), 10 close-match preprints and 0 chordoma papers. Featured now: RovHer (Nat Genet), CCI-seq (Nat Methods), mistranslation in cancer (Nat Cell Biol). No new chordoma papers in the 7-day window.",
+      "counts": {
+        "tier1": 7,
+        "tier2": 9,
+        "preprint": 10,
+        "chordoma": 0,
+        "removed": 0
+      },
+      "added": [
+        {
+          "id": "10.1038/s41588-026-02766-w",
+          "title": "A heritability-optimized method for functional prioritization of rare coding variants in complex traits",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41592-026-03237-0",
+          "title": "Resolving cell-cell interaction networks and their molecular logic in complex tissues",
+          "venue": "Nature Methods",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41556-026-02088-3",
+          "title": "Global and specific mechanisms stimulate mistranslation in cancer",
+          "venue": "Nature Cell Biology",
+          "tier": 1,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1038/s41588-026-02787-5",
+          "title": "Imputation of fluid intelligence scores reduces ascertainment bias and increases power for analyses of common and rare variants",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41586-026-10965-y",
+          "title": "Function-preserving watermarking of AI-generated proteins",
+          "venue": "Nature",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1016/j.molcel.2026.09.010",
+          "title": "DND1-NANOS3 shapes the PGC transcriptome via a heptanucleotide sequence in mRNA 3' UTRs",
+          "venue": "Molecular Cell",
+          "tier": 1,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1038/s41576-026-01015-4",
+          "title": "Decoding epithelial-mesenchymal transitions with multi-omics",
+          "venue": "Nature Reviews Genetics",
+          "tier": "review",
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-76871-z",
+          "title": "Weighted sliced inverse regression for scalable supervised dimensionality reduction of spatial transcriptomics data",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-77349-8",
+          "title": "Microenvironment-aware transcriptome reconstruction in spatial transcriptomics",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-77434-y",
+          "title": "Spatial transcriptomics reveals laminar and cell-type-specific A-to-I RNA editing signatures in the macaque cortex",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1093/nar/gkag914",
+          "title": "A systematic single-cell analysis of enhancer RNAs across human and mouse",
+          "venue": "Nucleic Acids Research",
+          "tier": 2,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1038/s43588-026-01054-1",
+          "title": "CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics",
+          "venue": "Nature Computational Science",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag737",
+          "title": "MAJEC: unified gene, isoform, and locus-level transposable element quantification from RNA-seq",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1101/gr.282254.126",
+          "title": "Fast and accurate construction of multiple sequence alignments from protein language embeddings with ARIES",
+          "venue": "Genome Research",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1101/gr.282257.126",
+          "title": "Scaling coalescent-based species tree inference to 100,000 taxa with STELAR-X",
+          "venue": "Genome Research",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/nar/gkag918",
+          "title": "Functional roles for viral RNA ribosylation in mammalian cells",
+          "venue": "Nucleic Acids Research",
+          "tier": 2,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1101/2025.11.21.689845",
+          "title": "Determining gene specificity from multivariate single-cell RNA sequencing data",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.07.10.737775",
+          "title": "GBZ-base and GAF-base: Indexed pangenome file formats",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.24.754017",
+          "title": "EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.23.753836",
+          "title": "SpatialTRACE predicts anatomical axes and regions in spatial transcriptomics and microscopy",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.24.753981",
+          "title": "Platform-specific count-matrix preprocessing workflows for spatial transcriptomics data analysis",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.28.755196",
+          "title": "Distinct sequence grammars of nucleosomal and linker DNA shape mutational and methylation landscapes in cancer",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.10.02.755833",
+          "title": "Spatial transcriptomics reveals tumour cell-intrinsic and microenvironmental features associated with survival in high-grade serous ovarian carcinoma",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.10.02.754332",
+          "title": "Matched primary-metastasis single-nucleus and spatial profiling of leiomyosarcoma identifies antigen-presenting fibroblasts at the tumor-organ interface",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1101/2025.05.13.653614",
+          "title": "A generative language model decodes contextual constraints on codon choice for mRNA design",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.09.24.754167",
+          "title": "Pangenome-resolved polymorphic transposable elements reveal human regulatory evolution in action",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        }
+      ],
+      "skipped": [
+        {
+          "title": "Mitochondrial proteome series (Cell, Mol Cell)",
+          "reason": "Experimental cell biology, not a main topic"
+        },
+        {
+          "title": "Transcription pause and elongation regulators mediate somatic hypermutation (Nature)",
+          "reason": "Experimental, outside the main topics"
+        },
+        {
+          "title": "Detectrons: RNA sequences to DNA barcodes (Nat Biotechnol)",
+          "reason": "Bacterial synthetic-biology sensor, not RNA biology as defined"
+        },
+        {
+          "title": "A phosphoproteome atlas of human cell lines (Nat Struct Mol Biol)",
+          "reason": "Proteomics, not a main topic"
+        },
+        {
+          "title": "ProFormer: classification of single-cell and plasma proteomes (Nat Commun)",
+          "reason": "Proteomics deep learning; not a close match to a main topic"
+        },
+        {
+          "title": "SRSF3 in liver cancer sex disparity (PNAS)",
+          "reason": "Splicing factor, but findings are about transcriptional regulation; not a close match"
+        },
+        {
+          "title": "Cell-autonomous restoration of splicing by PRPF31 gene therapy (Nat Commun)",
+          "reason": "Gene-therapy rescue study; splicing is not the main point"
+        },
+        {
+          "title": "Werner helicase inhibitor in MSI solid tumours, phase 1 (Nat Med)",
+          "reason": "Clinical trial, not a close match"
+        },
+        {
+          "title": "RBFOX2 restrains plasticity in Group 3 medulloblastoma (preprint)",
+          "reason": "Experimental; the 10-preprint limit was filled by computational and sarcoma preprints"
+        },
+        {
+          "title": "SON-mediated circular RNA suppression in glioblastoma (preprint)",
+          "reason": "Experimental; ranked below computational preprints within the limit of 10"
+        }
+      ],
+      "notes": [
+        "bioRxiv search_preprints returned only 13-30 results per page for category filters even with limit=100, so the README rule 'stop when a page returns fewer than 100' would have stopped far too early. I kept paging until a page came back empty, and also re-queried narrower date windows (2 to 6 Oct, 3 to 6 Oct) because the first 7-day query only reached about 1 to 2 October for genomics, cancer biology and genetics. Coverage of those categories for 2 to 6 October rests on the narrower queries.",
+        "The first PubMed query for search 4 hit a rate limit and was retried successfully. get_article_metadata returns at most 20 papers per call, so metadata was fetched in batches.",
+        "Three Nat Commun papers have PubMed publication dates of 3 September but were added to PubMed this week (entry date), so they were treated as new.",
+        "Featured pictures are hand-drawn illustrations; Figure 1 was not downloaded because the tools in this session cannot fetch full-text figures, and the licences were not confirmed as CC BY.",
+        "Nature (SynthIDBio watermarking of AI proteins) and the UK Biobank fluid-intelligence imputation paper were posted under the rule that Tier 1 journals post every purely computational biology paper, although protein design and psychiatric genetics are otherwise outside the interest list.",
+        "README says the featured row should come from this run's Tier 1 research papers; I picked the three best matches (RovHer, CCI-seq, mistranslation) rather than the two purely computational ones that were off-topic."
+      ]
+    },
+    {
       "date": "2026-10-05T10:30:00Z",
       "summary": "Added 0 Tier 1 papers, 9 Tier 2 journal papers (7 purely computational), 9 close-match preprints and 1 chordoma-search paper. No Tier 1 paper fit: the Tier 1 hits were experimental or reviews. Featured posts are unchanged. bioRxiv listings only ran to 2 October.",
       "counts": {
