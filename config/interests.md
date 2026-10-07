@@ -101,18 +101,19 @@ Save the tier on each post as `"tier": 1`, `"tier": 2` or `"tier": "review"`. Ch
 
 ## Tabs
 
-The site has three main tabs. Every post belongs to exactly one:
+The site has four main tabs. Every post belongs to exactly one:
 
 | Tab | What goes in it |
 |---|---|
 | **Tier 1** | Research papers from Tier 1 journals, and reviews from the review journals. The featured row is here. |
-| **Tier 2** | Research papers from Tier 2 journals, and preprints (shown when the reader picks "Preprints" under "Show"). |
+| **Tier 2** | Research papers from Tier 2 journals. |
+| **Preprints** | Preprints from bioRxiv and medRxiv, except chordoma preprints. |
 | **Chordoma** | Every chordoma post, whatever the journal, plus chordoma preprints. |
 
 ## Preprints (bioRxiv)
 
 - Preprints have no journal to go on, so judge them like Tier 2: post only if the paper is a close match to a main topic.
-- Preprints go in the Tier 2 tab, hidden until the reader picks "Preprints" under "Show". Chordoma preprints go in the Chordoma tab.
+- Preprints go in the Preprints tab. Chordoma preprints go in the Chordoma tab.
 - Never make a preprint `featured`.
 - Categories to scan every run: `bioinformatics`, `genomics`, `cancer biology`, `genetics`.
 - `search_preprints` has no keyword search, so finding chordoma preprints means reading every title in those categories, including `cancer biology`.
@@ -123,7 +124,8 @@ The site has three main tabs. Every post belongs to exactly one:
 - Each run looks back **7 days**, not just since the last run. Anything that fits and hasn't been posted yet can still be picked, so a paper missed one day can be caught the next.
 - Each run adds at most, per tab:
   - **Tier 1: 10 papers** (research papers and reviews together). Rank by approach (computational, mixed, experimental), then by how closely they match. Reviews rank after research papers.
-  - **Tier 2: 10 journal papers**, ranked the same way, **plus up to 10 preprints**.
+  - **Tier 2: 10 journal papers**, ranked the same way.
+  - **Preprints: 10 preprints**, ranked the same way.
   - **Chordoma: 10 papers**. Prefer molecular and genomic work, then clinical studies, then case reports.
 - Posting nothing is fine on slow days. Never lower the bar to fill a tab's limit.
 

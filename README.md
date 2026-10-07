@@ -61,14 +61,15 @@ favicon.svg       browser-tab icon (apple-touch-icon.png is the 180 px phone hom
 ## What the page shows
 
 - **Tier 1** tab (the front page): the 3 featured posts, then Tier 1 research papers and reviews.
-- **Tier 2** tab: Tier 2 journal papers. Preprints appear here when the reader picks "Preprints" (or "Both") under "Show".
+- **Tier 2** tab: Tier 2 journal papers.
+- **Preprints** tab: bioRxiv and medRxiv preprints (chordoma preprints go in Chordoma instead).
 - **Chordoma** tab: every chordoma post, journal papers and preprints alike.
 - **Update** tab: the reports from `data/updates.json`, newest first.
 - **Saved** tab: everything the reader saved.
 
-Each post has a **Posted** tag with its `date_added`. Posts added by the latest update (their `date_added` matches the date in `updated`) are tagged **New**, and the Tier 1, Tier 2 and Chordoma tabs show how many new posts each has, like the count on Saved.
+Each post has a **Posted** tag with its `date_added`. Posts added by the latest update (their `date_added` matches the date in `updated`) are tagged **New**, and the Tier 1, Tier 2, Preprints and Chordoma tabs show how many new posts each has, like the count on Saved.
 
-A post's tab follows from its fields: `Chordoma` in `topics` puts it in Chordoma; otherwise `tier` 1 or `"review"` puts it in Tier 1; everything else (Tier 2 and preprints) goes in Tier 2.
+A post's tab follows from its fields: `Chordoma` in `topics` puts it in Chordoma; otherwise a preprint (`type` `Preprint`, or a bioRxiv/medRxiv `venue`) goes in Preprints; otherwise `tier` 1 or `"review"` puts it in Tier 1; everything else goes in Tier 2.
 
 ## What the scheduled task does each run
 
@@ -87,7 +88,7 @@ Read `config/interests.md` first. It decides what counts and how many to post.
    - Call `get_preprint` on each shortlisted DOI for the full abstract, license and published-journal DOI before deciding.
    - DOIs use either the `10.1101/` or the newer `10.64898/` prefix. Both are valid.
    - If a preprint has since been published in a journal, post the journal version instead (if it qualifies) and skip the preprint.
-4. Skip any DOI already in `posts.json`. Apply the rules and limits in `config/interests.md`: tier rules for journals, close-match rule for preprints, per-tab limits (Tier 1: 10; Tier 2: 10 journal papers plus 10 preprints; Chordoma: 10). Zero is fine.
+4. Skip any DOI already in `posts.json`. Apply the rules and limits in `config/interests.md`: tier rules for journals, close-match rule for preprints, per-tab limits (Tier 1: 10; Tier 2: 10; Preprints: 10; Chordoma: 10). Zero is fine.
 5. Write `summary`, `key_points`, `topics`, `tier`, `data` and `code` for each new paper.
 6. Pick 3 journal papers from the last 7 days for `featured` (see above).
 7. Give a picture to **the 3 featured posts only**. No other post gets a `figure`. The page shows posts without one with no thumbnail, so over time a picture marks a paper that was featured. A post that already has a picture from an earlier run keeps it.
