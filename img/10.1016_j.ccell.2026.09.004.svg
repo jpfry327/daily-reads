@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#2B3138">Chromatin states across gastric tumorigenesis</text>
+<!-- staircase -->
+<path d="M24 188 L24 150 L132 150 L132 118 L240 118 L240 86 L348 86" fill="none" stroke="#1E5FA8" stroke-width="3"/>
+<g stroke-width="2" fill-opacity="0.12">
+<rect x="24" y="150" width="108" height="38" fill="#8A949E" stroke="#8A949E"/>
+<rect x="132" y="118" width="108" height="70" fill="#D98A00" stroke="#D98A00"/>
+<rect x="240" y="86" width="108" height="102" fill="#C8323F" stroke="#C8323F"/>
+</g>
+<g font-size="14" text-anchor="middle" fill="#2B3138" font-weight="700">
+<text x="78" y="174">Normal</text>
+<text x="186" y="152">Intestinal</text><text x="186" y="170">metaplasia</text>
+<text x="294" y="124">Gastric</text><text x="294" y="142">cancer</text>
+</g>
+<text x="186" y="208" text-anchor="middle" font-size="13" fill="#D98A00">epigenetic priming</text>
+<text x="186" y="224" text-anchor="middle" font-size="13" fill="#D98A00">already cancer-like</text>
+<!-- subtype panel -->
+<text x="500" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#2B3138">Three epigenomic subtypes</text>
+<rect x="372" y="82" width="248" height="34" rx="6" fill="#3C9A2E" fill-opacity="0.12" stroke="#3C9A2E" stroke-width="2"/>
+<text x="382" y="104" font-size="13" fill="#2B3138">Proliferative: sensitive</text>
+<rect x="372" y="124" width="248" height="34" rx="6" fill="#3C9A2E" fill-opacity="0.12" stroke="#3C9A2E" stroke-width="2"/>
+<text x="382" y="146" font-size="13" fill="#2B3138">Mesenchymal-inflammatory: sensitive</text>
+<rect x="372" y="166" width="248" height="34" rx="6" fill="#C8323F" fill-opacity="0.12" stroke="#C8323F" stroke-width="2"/>
+<text x="382" y="188" font-size="13" fill="#2B3138">Pseudo-gastric: resistant</text>
+<path d="M348 140 L368 140" stroke="#2B3138" stroke-width="2.5"/>
+<!-- mechanism chain -->
+<rect x="24" y="252" width="612" height="136" rx="10" fill="#C8323F" fill-opacity="0.05" stroke="#C8323F" stroke-width="1.5"/>
+<text x="40" y="276" font-size="14" font-weight="700" fill="#C8323F">Why the pseudo-gastric subtype resists</text>
+<g stroke-width="2" fill-opacity="0.12">
+<rect x="40" y="296" width="100" height="44" rx="8" fill="#1E5FA8" stroke="#1E5FA8"/>
+<rect x="168" y="296" width="120" height="44" rx="8" fill="#1E5FA8" stroke="#1E5FA8"/>
+<rect x="316" y="296" width="100" height="44" rx="8" fill="#D98A00" stroke="#D98A00"/>
+<rect x="444" y="296" width="170" height="44" rx="8" fill="#C8323F" stroke="#C8323F"/>
+</g>
+<g font-size="14" text-anchor="middle" fill="#2B3138" font-weight="700">
+<text x="90" y="324">FOSL2</text>
+<text x="228" y="314">H/K ATPase</text><text x="228" y="331" font-size="13" font-weight="400">transporters up</text>
+<text x="366" y="314">Acidic</text><text x="366" y="331" font-size="13" font-weight="400">milieu</text>
+<text x="529" y="314">CD8 T cells</text><text x="529" y="331" font-size="13" font-weight="400">suppressed</text>
+</g>
+<g stroke="#2B3138" stroke-width="2.5" fill="none">
+<path d="M142 318 L164 318 M158 312 L166 318 L158 324"/>
+<path d="M290 318 L312 318 M306 312 L314 318 L306 324"/>
+<path d="M418 318 L440 318 M434 312 L442 318 L434 324"/>
+</g>
+<!-- inhibitors -->
+<g stroke="#3C9A2E" stroke-width="3" fill="none">
+<path d="M90 372 L90 350 M80 372 L100 372" transform="translate(0,-4)"/>
+<path d="M228 372 L228 350 M218 372 L238 372" transform="translate(0,-4)"/>
+</g>
+<text x="90" y="384" text-anchor="middle" font-size="13" fill="#3C9A2E">FOSL2 depletion</text>
+<text x="228" y="384" text-anchor="middle" font-size="13" fill="#3C9A2E">Vonoprazan</text>
+<text x="420" y="378" text-anchor="middle" font-size="13" fill="#2B3138">Either block sensitizes to immunotherapy</text>
+</svg>

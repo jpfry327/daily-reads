@@ -1,6 +1,165 @@
 {
   "updates": [
     {
+      "date": "2026-10-07T10:30:00Z",
+      "summary": "Added 2 Tier 1 papers (VIMA, Nat Methods; gastric chromatin atlas, Cancer Cell), 4 Tier 2 journal papers (3 Methods/benchmark, 1 pediatric rWGS) and 8 close-match preprints; 0 chordoma. Featured now: VIMA, the gastric chromatin atlas and RovHer. The 3 chordoma-matching PubMed hits and the Nat Rev Genet EMT review were already posted.",
+      "counts": {
+        "tier1": 2,
+        "tier2": 4,
+        "preprint": 8,
+        "chordoma": 0,
+        "removed": 0
+      },
+      "added": [
+        {
+          "id": "10.1038/s41592-026-03236-1",
+          "title": "Accurate and well-powered case-control analysis of spatial molecular data",
+          "venue": "Nature Methods",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1016/j.ccell.2026.09.004",
+          "title": "Chromatin accessibility trajectories reveal pre-cancerous epigenetic priming and an acid-driven immunotherapy-resistant gastric cancer subtype",
+          "venue": "Cancer Cell",
+          "tier": 1,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41467-026-77500-5",
+          "title": "Benchmarking copy number alteration inference methods for spatial transcriptomics",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41467-026-77535-8",
+          "title": "Cost-efficient long-read trio-barcoded adaptive sequencing improves rare disease diagnosis",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-77918-x",
+          "title": "Rapid Whole Genome Sequencing Enhances Pediatric Cancer Diagnosis",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag572",
+          "title": "STiLE: Automated Tissue Microarray Dearraying for Spatial Transcriptomics",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.25.754372",
+          "title": "ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1101/2025.04.19.649656",
+          "title": "Vizitig: context-rich exploration of sequencing datasets",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.17.752415",
+          "title": "Deciphering the Network Architecture of APOBEC3-Driven Mutagenesis in HPV-Positive Head and Neck Cancers",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.08.20.746031",
+          "title": "Multimodal spatial-omics reveal the heterogeneity and intercellular network characteristics of papillary craniopharyngiomas",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.27.754858",
+          "title": "TET loss of function selects for aneuploidies that confer a proliferative advantage",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.09.24.754034",
+          "title": "MOD-scTWAS: Leveraging gene co-expression for single-cell transcriptome-wide association studies",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.28.755183",
+          "title": "Mendel, a foundation model of human genetic variation, prioritizes regulatory variants and improves gene expression prediction",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.09.29.755499",
+          "title": "Cell-of-origin shapes tumor subtype in BRCA1-associated triple-negative breast cancer",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        }
+      ],
+      "skipped": [
+        {
+          "title": "Detectrons (Nat Biotechnol)",
+          "reason": "bacterial phage sensing; out of scope"
+        },
+        {
+          "title": "Immunologic Consequences of Genomic Instabilities (Cancer Discov)",
+          "reason": "a review in a non-review journal"
+        },
+        {
+          "title": "Nat Rev Mol Cell Biol reviews on extracellular vesicles and chaperone-mediated autophagy",
+          "reason": "off-topic reviews"
+        },
+        {
+          "title": "Nat Rev Genet: Inheritance and selection of the mitochondrial genome",
+          "reason": "review, off-topic"
+        },
+        {
+          "title": "SPARCS image-based CRISPR screening (Cell)",
+          "reason": "experimental screening platform, not computational/genomic"
+        },
+        {
+          "title": "BACH2-NRF2 axis in HbF activation (Nature)",
+          "reason": "experimental human genetics, off the main topics"
+        },
+        {
+          "title": "RAFA RNA all-atom structure reconstruction (Bioinformatics)",
+          "reason": "RNA 3D structure modelling, not a main-topic match"
+        },
+        {
+          "title": "Telomere variant sequences and allele-specific telomere length (Nat Commun)",
+          "reason": "long-read use is incidental; not a close match"
+        },
+        {
+          "title": "MetTag ovarian cancer metastasis (Nat Commun)",
+          "reason": "mainly experimental biology of IFNg signalling"
+        },
+        {
+          "title": "BEACON scRNA demultiplexing (bioRxiv)",
+          "reason": "already posted"
+        }
+      ],
+      "notes": [
+        "Many Nature/Science/Cell hits were off-topic physical science, chemistry, ecology or mitochondrial-proteome papers and were skipped.",
+        "Only 2 Tier 1 papers were new, so the third featured slot reuses RovHer from the earlier run, as the README says.",
+        "Chordoma search returned only already-posted papers; the case-report-style hits remain posted from earlier runs.",
+        "Tag list has no tag for RNA structure or lineage barcoding; left out."
+      ]
+    },
+    {
       "date": "2026-10-06T10:30:00Z",
       "summary": "Added 7 Tier 1 papers (6 research, 1 review; 2 purely computational), 9 Tier 2 journal papers (6 purely computational), 10 close-match preprints and 0 chordoma papers. Featured now: RovHer (Nat Genet), CCI-seq (Nat Methods), mistranslation in cancer (Nat Cell Biol). No new chordoma papers in the 7-day window.",
       "counts": {

@@ -1,13 +1,374 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-06T10:30:00Z",
+  "updated": "2026-10-07T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02766-w",
-    "10.1038/s41592-026-03237-0",
-    "10.1038/s41556-026-02088-3"
+    "10.1038/s41592-026-03236-1",
+    "10.1016/j.ccell.2026.09.004",
+    "10.1038/s41588-026-02766-w"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03236-1",
+      "date_added": "2026-10-07",
+      "published": "2026-10-06",
+      "title": "Accurate and well-powered case-control analysis of spatial molecular data",
+      "authors": "Reshef YA, Sood L, Curtis M, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03236-1",
+      "url": "https://doi.org/10.1038/s41592-026-03236-1",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "VIMA (variational inference-based microniche analysis) finds disease-associated spatial features without forcing tissue into discrete cell types or niches. An ensemble of variational autoencoders gives every small tissue patch a numeric fingerprint, and these define many overlapping, data-dependent microniches whose abundance is tested against case-control status.",
+      "key_points": [
+        "Simulations confirm VIMA's calibration, power and spatial accuracy.",
+        "It was applied to spatial datasets spanning three diseases and spatial modalities, recapitulating known biology.",
+        "It also identified new spatial features of disease."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03236-1.svg",
+        "caption": "Patch fingerprints from a VAE ensemble define overlapping microniches, and those whose abundance differs between case and control tissue are flagged.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.ccell.2026.09.004",
+      "date_added": "2026-10-07",
+      "published": "2026-10-06",
+      "title": "Chromatin accessibility trajectories reveal pre-cancerous epigenetic priming and an acid-driven immunotherapy-resistant gastric cancer subtype",
+      "authors": "Wang T, Xiang J, Tian S, et al.",
+      "venue": "Cancer Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.ccell.2026.09.004",
+      "url": "https://doi.org/10.1016/j.ccell.2026.09.004",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Immuno-oncology"
+      ],
+      "summary": "A chromatin accessibility atlas of 650 multistage samples from 439 patients maps the epigenetic switches across stepwise gastric tumorigenesis. Advanced tumours split into three epigenomic subtypes, one of which is intrinsically resistant to neoadjuvant immunotherapy.",
+      "key_points": [
+        "A cancer-resembling epigenetic priming state already exists in intestinal metaplasia and licenses later tumour initiation.",
+        "The proliferative and mesenchymal-inflammatory subtypes respond to neoadjuvant immunotherapy, while the pseudo-gastric subtype is drug resistant.",
+        "In the resistant subtype, FOSL2 helps raise H/K ATPase transporters and builds an acidic milieu that suppresses CD8 T cells; FOSL2 depletion or the acid blocker vonoprazan sensitizes to immunotherapy."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.ccell.2026.09.004.svg",
+        "caption": "Chromatin states step from normal stomach through intestinal metaplasia to cancer, and in the resistant subtype FOSL2 drives acid that suppresses CD8 T cells.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41467-026-77500-5",
+      "date_added": "2026-10-07",
+      "published": "2026-09-05",
+      "title": "Benchmarking copy number alteration inference methods for spatial transcriptomics",
+      "authors": "Han S, Xiong Z, Zhou Y, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77500-5",
+      "url": "https://doi.org/10.1038/s41467-026-77500-5",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "Direct spatial genomic profiling is hard, so copy number alterations are often inferred from spatial transcriptomics. This benchmark compares nine such inference methods across 69 tissue sections from six cancer types and four platforms.",
+      "key_points": [
+        "Methods were evaluated on four key tasks.",
+        "No single method consistently outperforms the others; performance depends on the analytical goal and the data.",
+        "The authors give task-specific, data-aware guidance for choosing a method."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77535-8",
+      "date_added": "2026-10-07",
+      "published": "2026-09-04",
+      "title": "Cost-efficient long-read trio-barcoded adaptive sequencing improves rare disease diagnosis",
+      "authors": "Fu Y, English AC, Paulin LF, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77535-8",
+      "url": "https://doi.org/10.1038/s41467-026-77535-8",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "TBAS barcodes an affected child and both parents and runs them on one Oxford Nanopore flow cell, using adaptive sequencing to enrich phenotype-driven disease-gene panels. It makes long-read trio analysis cheaper without needing to know the causal locus.",
+      "key_points": [
+        "In benchmark regions it raised coverage and accurately detected small variants, structural variants, tandem repeat expansions, methylation and phasing.",
+        "Estimated consumable cost fell to 32.2% of conventional three-flow-cell trio long-read sequencing.",
+        "Across 13 trios it recovered all five known diagnoses and prioritized candidates in five of eight unresolved cases."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77918-x",
+      "date_added": "2026-10-07",
+      "published": "2026-10-06",
+      "title": "Rapid Whole Genome Sequencing Enhances Pediatric Cancer Diagnosis",
+      "authors": "Vedi A, Trotman J, Dias JML, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77918-x",
+      "url": "https://doi.org/10.1038/s41467-026-77918-x",
+      "topics": [
+        "Cancer genomics",
+        "Clinical"
+      ],
+      "summary": "A rapid whole-genome sequencing (rWGS) research workflow with streamlined bioinformatics was tested in 54 children with suspected or confirmed cancer. It aims to return clinically actionable genomic findings in days rather than weeks.",
+      "key_points": [
+        "Mean end-to-end turnaround dropped from 42 to 3 days.",
+        "rWGS detected 147 of 155 (95%) clinically actionable variants, versus 138 of 155 (89%) for standard-of-care testing.",
+        "In 35 prospectively assessed patients, clinicians said rWGS sped targeted therapy and risk stratification or avoided unnecessary treatment escalation in 17 (49%)."
+      ],
+      "data": "Trial NCT07201038",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag572",
+      "date_added": "2026-10-07",
+      "published": "2026-10-06",
+      "title": "STiLE: Automated Tissue Microarray Dearraying for Spatial Transcriptomics",
+      "authors": "Sinha H, Das A, Chiu YC, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag572",
+      "url": "https://doi.org/10.1093/bioinformatics/btag572",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "STiLE assigns cells to their tissue microarray cores using only cell centroid coordinates, removing the manual dearraying bottleneck and any dependence on histology images. It combines connectivity-based component detection, HDBSCAN clustering, cluster merging and optional grid-based peak detection.",
+      "key_points": [
+        "On seven public TMA samples (50-150 cores, three platforms) it reached ARI > 0.99.",
+        "On 396 synthetic datasets with realistic artefacts, mean ARI was 0.992.",
+        "It is platform-agnostic (MERSCOPE, Xenium, CosMx), reads AnnData and CSV, and has an interactive Streamlit interface."
+      ],
+      "data": "",
+      "code": "github.com/Huang-AI4Medicine-Lab/stile"
+    },
+    {
+      "id": "10.64898/2026.09.25.754372",
+      "date_added": "2026-10-07",
+      "published": "2026-09-30",
+      "title": "ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes",
+      "authors": "Zhan Y, Yan B, Zhang A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.25.754372",
+      "url": "https://doi.org/10.64898/2026.09.25.754372",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Single-cell"
+      ],
+      "summary": "ProxiNet learns transcriptomic signatures of pairwise cellular proximity from spatial reference data and transfers them to dissociated scRNA-seq, which has lost neighbourhood information.",
+      "key_points": [
+        "It predicted proximity across brain regions and spatial technologies, including zero-shot cross-technology transfer.",
+        "Inferred neighbourhoods recovered reproducible tissue organisation in datasets with known coordinates.",
+        "In an Alzheimer dataset it found age-associated neighbourhood remodelling, including an AD-associated neighbourhood at 8 months."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.04.19.649656",
+      "date_added": "2026-10-07",
+      "published": "2026-09-30",
+      "title": "Vizitig: context-rich exploration of sequencing datasets",
+      "authors": "Degardins B, Paperman C, Marchet C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.04.19.649656",
+      "url": "https://doi.org/10.1101/2025.04.19.649656",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Isoforms"
+      ],
+      "summary": "Vizitig is a platform for real-time exploration and querying of DNA and RNA compacted colored de Bruijn graphs across many samples, with a metadata-aware query language and on-demand subgraph loading.",
+      "key_points": [
+        "Pantranscriptomic case study: it recovers fusion transcript breakpoints in long and short reads.",
+        "Pangenomic case studies span yeast, rice, nematode and human pangenomes.",
+        "It scales from small virus genomes to up to 20 assembled human haplotypes on a laptop."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.17.752415",
+      "date_added": "2026-10-07",
+      "published": "2026-09-18",
+      "title": "Deciphering the Network Architecture of APOBEC3-Driven Mutagenesis in HPV-Positive Head and Neck Cancers",
+      "authors": "Lehle JD, Soleimanpour M, Haghjoo N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.17.752415",
+      "url": "https://doi.org/10.64898/2026.09.17.752415",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "Single-cell profiling of HPV16-positive head and neck tumours and matched normal tissue separates the effects of APOBEC3A and APOBEC3B, which bulk sequencing averages together.",
+      "key_points": [
+        "The APOBEC3 signature SBS2 is enriched in cells expressing more A3A than A3B, while copy number alteration burden is enriched in cells with more A3B than A3A.",
+        "Co-expression networks nominate RALY and HNRNPA2B1 as candidate A3 activators.",
+        "The SBS2 to CNA ratio may estimate tumour age, and neoantigens from SBS2-high and CNA-high cells suggest mRNA vaccine candidates."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.08.20.746031",
+      "date_added": "2026-10-07",
+      "published": "2026-08-24",
+      "title": "Multimodal spatial-omics reveal the heterogeneity and intercellular network characteristics of papillary craniopharyngiomas",
+      "authors": "Jiang Y, Luo H, Zheng H, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.08.20.746031",
+      "url": "https://doi.org/10.64898/2026.08.20.746031",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Single-cell"
+      ],
+      "summary": "Integrated single-cell and spatial profiling of papillary craniopharyngioma tissue and blood builds a cell-state, spatial and microenvironment atlas of this tumour.",
+      "key_points": [
+        "Four tumour cell states were defined, each with specific transcriptional regulatory programs and spatial features.",
+        "A spatial niche of tumour, immune and stromal cells was used to infer cell-cell communication."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.27.754858",
+      "date_added": "2026-10-07",
+      "published": "2026-10-01",
+      "title": "TET loss of function selects for aneuploidies that confer a proliferative advantage",
+      "authors": "Lopez-Moyado IF, Suzuki K, Hernandez-Espinosa L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.27.754858",
+      "url": "https://doi.org/10.64898/2026.09.27.754858",
+      "topics": [
+        "Cancer genomics",
+        "Copy number",
+        "Tumour evolution"
+      ],
+      "summary": "Loss of Tet2/3 in iNKT cells drives lymphoid expansion consistently tied to chromosome 17 trisomy, suggesting TET loss promotes selection of cryptic aneuploid subclones.",
+      "key_points": [
+        "Single-cell whole-genome sequencing showed rare trisomy 17 cells appear early after Tet deletion and are then progressively enriched.",
+        "Tet-deficient mouse embryonic stem cells also selected pre-existing aneuploid states, including trisomy 6.",
+        "Reanalysis of Dnmt3a-deficient mouse lymphomas found recurrent chromosome gains including trisomy 17."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.24.754034",
+      "date_added": "2026-10-07",
+      "published": "2026-09-29",
+      "title": "MOD-scTWAS: Leveraging gene co-expression for single-cell transcriptome-wide association studies",
+      "authors": "Guo H, Lu Y, Hou L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.24.754034",
+      "url": "https://doi.org/10.64898/2026.09.24.754034",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "MOD-scTWAS jointly models genetically regulated expression for genes inside co-expression modules, borrowing information across genes to improve cell-type-specific TWAS.",
+      "key_points": [
+        "In OneK1K cross-validation it beat scTWAS in mean GReX prediction accuracy across all 14 cell types and imputed more genes.",
+        "On UK Biobank haematological traits it found more significant cell type-gene-trait associations than scTWAS."
+      ],
+      "data": "OneK1K, UK Biobank",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.28.755183",
+      "date_added": "2026-10-07",
+      "published": "2026-09-30",
+      "title": "Mendel, a foundation model of human genetic variation, prioritizes regulatory variants and improves gene expression prediction",
+      "authors": "Salman A, Feng H, Wei P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.28.755183",
+      "url": "https://doi.org/10.64898/2026.09.28.755183",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "Mendel is a DNA foundation model trained from scratch on human whole-genome sequences with a variant-centric objective, so supervision concentrates on allelic events rather than conserved background.",
+      "key_points": [
+        "On held-out individuals it reached 0.984 micro-averaged SNV allele-prediction accuracy versus 0.311 for Evo 2.",
+        "Its residual difficulty is enriched at cis-eQTL variants and prioritizes fine-mapped causal variants (AUROC 0.731), where Evo 2 was near chance.",
+        "Used as a cis-expression prior, it improved expression prediction in all 50 GTEx tissues."
+      ],
+      "data": "GTEx",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755499",
+      "date_added": "2026-10-07",
+      "published": "2026-09-30",
+      "title": "Cell-of-origin shapes tumor subtype in BRCA1-associated triple-negative breast cancer",
+      "authors": "Lev T, Samy ALPA, Mallya S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755499",
+      "url": "https://doi.org/10.64898/2026.09.29.755499",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell"
+      ],
+      "summary": "Single-cell RNA-seq of 67,001 cells from Wap-Cre Brca1/p53 mice, plus reanalysis of Blg-Cre data, shows triple-negative breast cancer also arises from basal-myoepithelial cells, and that the cell of origin shapes the subtype.",
+      "key_points": [
+        "Aberrant basal-myoepithelial differentiation gives the mesenchymal subtype (TNBC-M); aberrant luminal differentiation gives the basal-like subtype (TNBC-BL1).",
+        "Both subtypes occur at comparable frequency in BRCA1 carriers.",
+        "Findings argue for including basal-myoepithelial and luminal cells in prevention strategies for BRCA1 carriers."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02766-w",
       "date_added": "2026-10-06",

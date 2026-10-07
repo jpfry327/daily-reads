@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#2B3138">VIMA finds disease-linked microniches</text>
+<!-- pipeline column -->
+<g stroke="#1E5FA8" stroke-width="2" fill="#1E5FA8" fill-opacity="0.1">
+<rect x="24" y="64" width="190" height="52" rx="8"/>
+<rect x="24" y="136" width="190" height="52" rx="8"/>
+<rect x="24" y="208" width="190" height="52" rx="8"/>
+<rect x="24" y="280" width="190" height="52" rx="8"/>
+</g>
+<g font-size="14" fill="#2B3138" text-anchor="middle">
+<text x="119" y="86" font-weight="700">Small tissue patches</text><text x="119" y="104" font-size="13">every patch, every sample</text>
+<text x="119" y="158" font-weight="700">Ensemble of VAEs</text><text x="119" y="176" font-size="13">deep learning</text>
+<text x="119" y="230" font-weight="700">Patch fingerprints</text><text x="119" y="248" font-size="13">numeric summaries</text>
+<text x="119" y="302" font-weight="700">Overlapping microniches</text><text x="119" y="320" font-size="13">data-dependent</text>
+</g>
+<g fill="#2B3138">
+<path d="M119 118 L119 130 M111 124 L119 134 L127 124" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<path d="M119 190 L119 202 M111 196 L119 206 L127 196" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<path d="M119 262 L119 274 M111 268 L119 278 L127 268" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+</g>
+<!-- arrow to maps -->
+<path d="M222 306 L262 306 L262 250" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<path d="M254 258 L262 246 L270 258" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<!-- control tissue -->
+<text x="350" y="76" text-anchor="middle" font-size="16" font-weight="700" fill="#2B3138">Control tissue</text>
+<path d="M270 100 Q300 82 350 90 Q410 84 428 118 Q440 160 420 196 Q390 226 340 224 Q290 228 274 192 Q258 146 270 100 Z" fill="#8A949E" fill-opacity="0.12" stroke="#8A949E" stroke-width="2"/>
+<g fill="none" stroke="#1E5FA8" stroke-width="2" stroke-opacity="0.7">
+<circle cx="316" cy="132" r="24"/><circle cx="372" cy="120" r="22"/><circle cx="345" cy="170" r="26"/><circle cx="396" cy="170" r="20"/><circle cx="302" cy="186" r="18"/>
+</g>
+<!-- case tissue -->
+<text x="540" y="76" text-anchor="middle" font-size="16" font-weight="700" fill="#2B3138">Case tissue</text>
+<path d="M462 100 Q492 82 542 90 Q602 84 620 118 Q632 160 612 196 Q582 226 532 224 Q482 228 466 192 Q450 146 462 100 Z" fill="#8A949E" fill-opacity="0.12" stroke="#8A949E" stroke-width="2"/>
+<g fill="none" stroke="#1E5FA8" stroke-width="2" stroke-opacity="0.7">
+<circle cx="508" cy="132" r="24"/><circle cx="564" cy="120" r="22"/><circle cx="537" cy="170" r="26"/><circle cx="588" cy="170" r="20"/><circle cx="494" cy="186" r="18"/>
+</g>
+<circle cx="537" cy="170" r="26" fill="#C8323F" fill-opacity="0.3" stroke="#C8323F" stroke-width="3"/>
+<circle cx="564" cy="120" r="22" fill="#C8323F" fill-opacity="0.3" stroke="#C8323F" stroke-width="3"/>
+<!-- compare -->
+<text x="446" y="146" text-anchor="middle" font-size="13" fill="#2B3138">vs</text>
+<!-- result box -->
+<rect x="300" y="256" width="320" height="100" rx="10" fill="#C8323F" fill-opacity="0.08" stroke="#C8323F" stroke-width="2"/>
+<circle cx="326" cy="288" r="9" fill="#C8323F" fill-opacity="0.3" stroke="#C8323F" stroke-width="3"/>
+<text x="344" y="293" font-size="14" fill="#2B3138">Microniche abundance tracks</text>
+<text x="344" y="311" font-size="14" fill="#2B3138">case-control status</text>
+<text x="316" y="338" font-size="13" fill="#2B3138">Meta-analysis across microniches:</text>
+<text x="316" y="354" font-size="13" fill="#2B3138">calibrated, spatially accurate</text>
+</svg>
