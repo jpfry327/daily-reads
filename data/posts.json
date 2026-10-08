@@ -1,13 +1,555 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-07T10:30:00Z",
+  "updated": "2026-10-08T10:10:37Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03236-1",
-    "10.1016/j.ccell.2026.09.004",
-    "10.1038/s41588-026-02766-w"
+    "10.1038/s41586-026-11101-6",
+    "10.1038/s41586-026-11153-8",
+    "10.1038/s41586-026-11125-y"
   ],
   "posts": [
+    {
+      "id": "10.1055/a-2964-8969",
+      "date_added": "2026-10-08",
+      "published": "2026-10-06",
+      "title": "Recurrent Dedifferentiated Clival Chondrosarcoma Presenting 32 Years after Initial Treatment: A Case Report",
+      "authors": "Ravindran PK, Keizer ME, Erdem ZB, et al.",
+      "venue": "Journal of Neurological Surgery Reports",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1055/a-2964-8969",
+      "url": "https://doi.org/10.1055/a-2964-8969",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Case report of a 66-year-old woman with a recurrent clival lesion first suspected to be a chordoma. Histology showed a conventional chondrosarcoma with a small dedifferentiated component and an IDH1 R132 mutation, 32 years after subtotal resection and radiosurgery.",
+      "key_points": [
+        "Illustrates the diagnostic challenge of telling skull-base chondrosarcoma from chordoma.",
+        "Careful histologic sampling found a dedifferentiated focus of under 5% of the tumour that could otherwise be undergraded.",
+        "Argues for subtype-driven treatment, molecular annotation and multicentre registries for these rare tumours."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41586-026-11101-6",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Mechanism of spliceosome termination",
+      "authors": "Boreikaite V, Faraway R, Vorländer MK, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11101-6",
+      "url": "https://doi.org/10.1038/s41586-026-11101-6",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "Cryo-EM structures of human spliceosomes at two stages of termination show how the post-catalytic complex is taken apart. The RNA helicases DHX15 and Aquarius unwind the active site, DBR1 debranches the intron, and DHX35 then ejects it so the spliceosome can be recycled.",
+      "key_points": [
+        "A previously unknown debranched-intron spliceosome is described, with DBR1 tethered to the complex.",
+        "DHX35 with GPATCH1-WDR83, assisted by YJU2B, ejects the intron from the U6 snRNA-5' splice site duplex.",
+        "On defective spliceosomes stalled on aberrant introns, YJU2B partners with LENG1 to guide the same helicase for quality-control termination."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11101-6.svg",
+        "caption": "Three stages end the spliceosome: DHX15 and Aquarius unwind it, DBR1 debranches the intron, and DHX35 ejects the intron, with YJU2B and LENG1 steering the quality-control route.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11153-8",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "tRNA dosage regulates lineage dependency and resistance in prostate cancer",
+      "authors": "Kim YS, Arora S, Young D, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11153-8",
+      "url": "https://doi.org/10.1038/s41586-026-11153-8",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Small RNA sequencing in prostate cancer identified tRNA(UCU) as a regulator of lineage transitions and therapy resistance. Its level tunes a translational programme centred on SWI/SNF chromatin remodellers that keeps tumour cells in their lineage.",
+      "key_points": [
+        "TARDBP and ZSCAN29 bind the tRNA(UCU) genomic locus and regulate its expression.",
+        "Changing tRNA(UCU) can reprogram lineage dependence and restore sensitivity to therapies that target the androgen receptor.",
+        "In patients, tRNA(UCU) is lower in neuroendocrine prostate cancer, and its loss is linked to faster metastasis and poorer survival."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11153-8.svg",
+        "caption": "TARDBP and ZSCAN29 set tRNA(UCU) level; high levels keep the SWI/SNF programme and lineage, low levels give a neuroendocrine, resistant state.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11125-y",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Dynamics of human cardiogenesis and its disruption in trisomy 21",
+      "authors": "Cranley J, Kanemaru K, Bayraktar S, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11125-y",
+      "url": "https://doi.org/10.1038/s41586-026-11125-y",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "Single-cell and spatial multiomics of the developing human heart define 21 tissue niches, which the authors use to build TissueTypist, a niche classification tool that works across resolutions. Hearts with trisomy 21 had fewer compact cardiomyocytes and more apoptosis than euploid hearts.",
+      "key_points": [
+        "High-resolution profiling of the sinoatrial node resolved three pacemaker cell subtypes along a linear axis.",
+        "Trajectories mapped atrial and ventricular cardiomyocyte maturation and pointed to a lipid-metabolic switch.",
+        "The trisomy 21 finding was checked in isogenic trisomy 21 and euploid iPSC-derived cardiomyocytes."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11125-y.svg",
+        "caption": "A map of heart niches with the sinoatrial node showing three pacemaker subtypes on one axis, and trisomy 21 hearts with fewer compact cardiomyocytes and more apoptosis.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.008",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Ribosome remodeling drives translation adaptation during viral infection and cellular stress",
+      "authors": "Tsai HY, Liu L, Fleming RH, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.008",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.008",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Ribosome composition is reprogrammed in response to infection and stress. During infection with non-segmented negative-sense viruses, rpL40 moves to a non-canonical site on the small subunit near the mRNA entry site, giving ribosomes that preferentially bind viral mRNAs.",
+      "key_points": [
+        "These specialised ribosomes boost viral protein synthesis that is needed for replication.",
+        "Viruses appear to have co-opted a previously unrecognised endogenous ribosome remodeling programme triggered by metabolic stress.",
+        "Presented as a conserved mechanism for dynamic protein synthesis in pathogen and cellular adaptation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aeg9610",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Translocation-induced enhancer rewiring reveals cryptic oncogenic circuits in multiple myeloma",
+      "authors": "Zheng E, Li Q, Dou X, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aeg9610",
+      "url": "https://doi.org/10.1126/sciadv.aeg9610",
+      "topics": [
+        "Cancer genomics",
+        "Long-read",
+        "Structural variants",
+        "Epigenomics"
+      ],
+      "summary": "TransFinder integrates SMRT long-read sequencing, Hi-C, H3K27ac profiling and RNA-seq to resolve cryptic IGH enhancer translocations and the oncogenes they hijack by reading the enhancer-promoter neo-loops at the breakpoints. It found previously unrecognised translocations in multiple myeloma.",
+      "key_points": [
+        "Identified t(5;8)(q35;q24) and t(1;22)(q25;q13) as new enhancer-hijacking events, and CRISPR-engineered t(1;22) recapitulated the induction.",
+        "Pharmacological inhibition of CBX7 suppressed myeloma cell proliferation.",
+        "Also found enhancer hijacking in chronic myeloid leukaemia and pancreatic ductal adenocarcinoma."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77458-4",
+      "date_added": "2026-10-08",
+      "published": "2026-09-08",
+      "title": "Systematic benchmarking of ambient RNA decontamination tools to advance precision in single-cell transcriptomic analysis",
+      "authors": "Nie Y, Zhang C, Tan J, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77458-4",
+      "url": "https://doi.org/10.1038/s41467-026-77458-4",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Seven tools that remove ambient RNA from single-cell RNA-seq were compared on simulated and experimental datasets from several tissues and species. The tools showed distinct strengths in accuracy, robustness and handling of subtype-specific contamination.",
+      "key_points": [
+        "DecontX gave the most accurate contamination-level estimates.",
+        "scAR was the most robust across conditions but tended to overestimate contamination.",
+        "CellClear did best at resolving closely related cell subtypes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.282251.126",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Error correction algorithms for efficient gene expression quantification in single cell transcriptomics with Arcane",
+      "authors": "Zentgraf J, Schmitz JE, Keller A, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282251.126",
+      "url": "https://doi.org/10.1101/gr.282251.126",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "Arcane is a new tool for turning droplet-based scRNA-seq reads into an expression matrix, with new algorithms for barcode correction, read-to-gene mapping and UMI resolution. It builds on the Fourway method for finding k-mers within Hamming distance 1.",
+      "key_points": [
+        "It is faster than Cell Ranger, kallisto | bustools and alevin-fry while giving very similar results.",
+        "Storing three genes per k-mer is enough to cover almost all genes almost completely, avoiding large colour sets in the de Bruijn graph index.",
+        "Provided as a workflow-friendly command-line tool."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag707",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Serval: A modular framework for decoding imaging based spatial transcriptomics data",
+      "authors": "Tsui J, Adam N, Choi W, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag707",
+      "url": "https://doi.org/10.1093/bioinformatics/btag707",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "Serval splits the barcode-decoding step of imaging-based spatial transcriptomics into configurable modules so decoders can be built and benchmarked across platforms. The authors use it to develop CoSiD, a cosine-similarity decoder.",
+      "key_points": [
+        "CoSiD recovered more transcripts and correlated better with expression references than existing decoders on synthetic and real MERFISH data.",
+        "The framework also worked on DART-FISH, improving transcript recovery and clustering stability.",
+        "Open source; code is on GitHub."
+      ],
+      "data": "",
+      "code": "github.com/Roth-Lab/serval"
+    },
+    {
+      "id": "10.1126/sciadv.aed7880",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Clonal lineage tracing and parallel multiomics profiling reveal transcriptional heterogeneity induced by ARID1A deficiency",
+      "authors": "Miyata K, Yang L, Yang Y, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aed7880",
+      "url": "https://doi.org/10.1126/sciadv.aed7880",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Epigenomics",
+        "Tumour evolution"
+      ],
+      "summary": "Lineage tracing combined with parallel single-cell multiomics followed what ARID1A loss does inside individual clones. ARID1A deficiency raised transcriptional variability within and across clones without converging on one pattern.",
+      "key_points": [
+        "The variability came with broader chromatin accessibility at normally silenced loci and depended on residual SMARCA4 activity.",
+        "Clones with high variability had no growth advantage under standard conditions but were recovered under specific stresses and during lung colonisation, consistent with bet-hedging.",
+        "Suggests loss of an epigenetic regulator promotes tumour evolution by widening the phenotypes a clone can reach."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77222-8",
+      "date_added": "2026-10-08",
+      "published": "2026-09-03",
+      "title": "Tumor-intrinsic IFNγ signaling and niche adaptation drive early colonization in ovarian cancer metastasis",
+      "authors": "Aleksandrovic E, Fross SR, Golomb SM, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77222-8",
+      "url": "https://doi.org/10.1038/s41467-026-77222-8",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Tumour evolution"
+      ],
+      "summary": "MetTag is a single-cell barcoding and transcriptome profiling approach with time-stamped batch identifiers, used to follow the timing of ovarian cancer dissemination. Early-disseminated clones were enriched across metastatic sites.",
+      "key_points": [
+        "Depleting the pioneer clones reduced the outgrowth of later-arriving cells.",
+        "MetTag-coupled scRNA-seq found an interferon-gamma-centred trajectory in pioneer clones; IFNGR1 knockout cut metastatic burden.",
+        "Tumour-intrinsic IFNγ response and peritoneal macrophages together protect disseminating cells from anoikis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.01.755972",
+      "date_added": "2026-10-08",
+      "published": "2026-10-02",
+      "title": "TangentXY: Improved copy-number estimation of sex chromosomes reveals features associated with aneuploidies in chromosomes X and Y across cancers",
+      "authors": "Enomoto K, Sarmashghi S, Misek S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.01.755972",
+      "url": "https://doi.org/10.64898/2026.10.01.755972",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Pan-cancer"
+      ],
+      "summary": "TangentXY is a copy-number normalisation method that uses both male and female reference samples, corrects for sex differences on chrX and allows for mosaic chrY loss in normal male tissue. It was then used to study sex-chromosome aneuploidy across cancers.",
+      "key_points": [
+        "Losses of chrX, but not chrY, correlate with TP53 mutation, and chrX gain can predict prognosis in some tumour types.",
+        "Most chrX gains in males stay active, whereas gains in females split roughly equally between active and inactive copies.",
+        "chrY loss correlates with inactivating driver mutations in chrX escape genes, a possible mechanism for its frequency in male cancers."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755492",
+      "date_added": "2026-10-08",
+      "published": "2026-10-06",
+      "title": "A map of RBP-miRNA regulatory connections for deciphering the mechanisms of transcriptome remodeling in cancer",
+      "authors": "Perron G, Amaravadi M, Tseng H-W, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755492",
+      "url": "https://doi.org/10.64898/2026.09.29.755492",
+      "topics": [
+        "RNA biology",
+        "Pan-cancer"
+      ],
+      "summary": "Modelling miRNA-family regulon activity in RNA-seq from RNA-binding-protein inhibition experiments, cell lines and tissues gives a map of regulatory links between 34 RBPs and 28 miRNAs. Across 17 cancer types, RBP-driven control of miRNA activity is common in tumours.",
+      "key_points": [
+        "A set of RBPs regulates oncogenic and tumour-suppressor miRNAs, including miR-29-3p, miR-17-5p and miR-19-3p.",
+        "DDX55 negatively regulates the miR-29-3p family across cancers; inhibiting DDX55 restored miR-29-3p silencing and reduced cancer cell viability.",
+        "Described as the first pan-cancer analysis of RBP-miRNA regulatory connections."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.05.756660",
+      "date_added": "2026-10-08",
+      "published": "2026-10-06",
+      "title": "RNA and protein are not interchangeable in single-cell spatial multi-omics",
+      "authors": "Cervilla S, Grases D, Montesdeoca N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.05.756660",
+      "url": "https://doi.org/10.64898/2026.10.05.756660",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Multi-omics",
+        "Benchmarking"
+      ],
+      "summary": "Paired Xenium RNA and protein profiling of 21 matched targets in about 1.8 million cells from lung adenocarcinoma and metastatic prostate cancer tests whether spatial RNA can stand in for protein. Agreement depended strongly on the marker.",
+      "key_points": [
+        "Canonical lineage markers were largely concordant, but PD-1, PD-L1 and LAG-3 showed little concordance across modalities.",
+        "Spatial organisation was more discordant between RNA and protein than overall abundance.",
+        "Gives practical guidance on when spatial transcriptomics can proxy protein and when protein validation is advisable."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757127",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "The Spliceosome Scaffold Component BCAS2 Promotes Pancreatic Cancer Progression through Weak 5 Splice Site Dependent Splicing Regulation",
+      "authors": "Wan L, Wang M, Ishigami Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757127",
+      "url": "https://doi.org/10.64898/2026.10.06.757127",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "BCAS2, a component of the nineteen complex of the spliceosome, is raised in pancreatic ductal adenocarcinoma and linked to poor outcomes. Transcriptomics shows it specifically regulates alternative exons with weak splice sites.",
+      "key_points": [
+        "BCAS2 promotes inclusion of SOS1 exon 21, which activates RAC signalling.",
+        "A splice-switching antisense oligonucleotide that skips SOS1 exon 21 suppressed PDAC proliferation and migration.",
+        "Nominates the BCAS2/SOS1/RAC axis as a therapeutic vulnerability."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757013",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "A ribosomal pseudouridine drives an oncogenic translation program",
+      "authors": "Faucher-Giguère L, Rivera-Pizana A, Seguineau de Préval B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757013",
+      "url": "https://doi.org/10.64898/2026.10.06.757013",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "SNORA81-guided pseudouridylation at U4636 of 28S rRNA, near eL31 and the peptide exit tunnel, controls a selective translational programme in ovarian cancer cells. Depleting SNORA81 lowers the modification without broadly disturbing rRNA processing or bulk translation.",
+      "key_points": [
+        "Loss of the modification remodels codon-specific and nascent-peptide-associated ribosome pausing.",
+        "The affected mRNAs share GC content and amino-acid composition, are enriched in cancer functions and change in protein level.",
+        "The authors call the cascade from snoRNA level to rRNA modification, ribosome dynamics, translation and proliferation the \"sno-balling\" effect."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.756936",
+      "date_added": "2026-10-08",
+      "published": "2026-10-07",
+      "title": "Loss of the Y chromosome drives basal identity and metastatic potential via epigenetic reprogramming in pancreatic cancer",
+      "authors": "Dorsch M, Beaudry FEG, Baginska AK, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.756936",
+      "url": "https://doi.org/10.64898/2026.10.06.756936",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Copy number"
+      ],
+      "summary": "Loss of the Y chromosome affects about half of male pancreatic cancer patients in two cohorts, and is enriched in advanced disease, the basal subtype and TP53-mutant tumours. Bulk, single-cell and CRISPR-engineered models point to an epithelial-to-mesenchymal programme.",
+      "key_points": [
+        "Deleting the Y chromosome alone induced EMT states, mesenchymal morphology and more metastasis.",
+        "Loss of Y-linked chromatin modifiers reshapes DNA methylation at EMT- and basal-defining loci.",
+        "Y loss also reduced chemotherapy sensitivity, pitched as a causal driver and clinical biomarker."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756347",
+      "date_added": "2026-10-08",
+      "published": "2026-10-06",
+      "title": "Genomic classification and immune profiling define mucosal melanoma",
+      "authors": "Shi Y, Sharma P, Lin J-r, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756347",
+      "url": "https://doi.org/10.64898/2026.10.02.756347",
+      "topics": [
+        "Cancer genomics",
+        "Immuno-oncology",
+        "Multi-omics"
+      ],
+      "summary": "A large multimodally profiled cohort of primary and metastatic mucosal melanoma was compared with cutaneous melanoma, and sequencing of 339 patients defined four mutually exclusive genomic subtypes. Primary mucosal tumours showed more genomic heterogeneity, ploidy and aneuploidy.",
+      "key_points": [
+        "The subtypes are CDK4/MDM2/CCND1, SF3B1-mutated, TP53/ATRX and triple wild-type, linked to anatomic site but with similar outcomes.",
+        "CD163+ tumour-associated macrophages were increased and T cell infiltration reduced; the macrophages rose with progression and immunotherapy resistance.",
+        "They engaged non-regulatory T cells through GAL9-TIM-3, nominating TIM-3 blockade."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.01.755962",
+      "date_added": "2026-10-08",
+      "published": "2026-10-02",
+      "title": "Phenotypes of ultra-rare variant carriers benchmark variant effect scores",
+      "authors": "Londhe S, Holtkamp E, Tsitsiridis G, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.01.755962",
+      "url": "https://doi.org/10.64898/2026.10.01.755962",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "UKBBGym benchmarks coding and non-coding variant effect scores against plasma protein abundance and quantitative traits in UK Biobank carriers of ultra-rare variants, avoiding the ascertainment bias of clinical labels.",
+      "key_points": [
+        "Scores designed for coding and splicing variants correlate more strongly with protein abundance and traits than scores modelling transcriptional regulation.",
+        "Experimental assays do not consistently beat computational scores for predicting missense effects.",
+        "Captured versus detectable variance shows most room to improve for indels and loss-of-function variants."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.27.754868",
+      "date_added": "2026-10-08",
+      "published": "2026-10-02",
+      "title": "ST-DISTAL: Dual-Branch Graph Convolution with Distributional Alignment for Cell-Type Deconvolution",
+      "authors": "Abir AR, Alif MN, Zhang W",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.27.754868",
+      "url": "https://doi.org/10.64898/2026.09.27.754868",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Deconvolution"
+      ],
+      "summary": "ST-DISTAL is a dual-branch graph convolutional method for deconvolving cell types in sequencing-based spatial transcriptomics, combining spatial graph convolution with spectral Chebyshev filtering through adaptive attention. Its loss enforces proportion accuracy, alignment with reference profiles and spatial smoothness.",
+      "key_points": [
+        "It outperformed state-of-the-art methods on three simulated benchmarks in accuracy and distributional alignment.",
+        "On a human embryonic heart dataset and a colorectal cancer dataset it gave plausible, spatially coherent cell-type organisation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.15.751768",
+      "date_added": "2026-10-08",
+      "published": "2026-09-18",
+      "title": "Pretrained gene representations transfer mean expression more broadly than spatial patterns in virtual spatial transcriptomics",
+      "authors": "Chen T, Hicks SC",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.15.751768",
+      "url": "https://doi.org/10.64898/2026.09.15.751768",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "Virtual spatial transcriptomics models predict expression of unseen genes from tissue images plus pretrained gene representations. Separating gene-mean from spatial variation across four cohorts, including three brain regions and HER2-positive breast cancer, shows what the representations add.",
+      "key_points": [
+        "Reductions in gene-mean error accounted for 91-96% of the total error reduction over matched random vectors.",
+        "Mean-only models without images kept 82-99% of the full correlation gain; spatial gains were smaller and varied by cohort and representation.",
+        "Extending the gene panel alone therefore does not show that spatial patterns of new targets are recovered."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03236-1",
       "date_added": "2026-10-07",
