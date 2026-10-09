@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#2B3138">Finding mesenchymal cells in neuroblastoma</text>
+<!-- tumor section -->
+<ellipse cx="150" cy="190" rx="130" ry="112" fill="#8A949E" fill-opacity="0.1" stroke="#8A949E" stroke-width="2"/>
+<!-- stromal / immune cells -->
+<g fill="#8A949E"><circle cx="60" cy="150" r="7"/><circle cx="52" cy="200" r="7"/><circle cx="74" cy="248" r="7"/><circle cx="238" cy="130" r="7"/><circle cx="250" cy="196" r="7"/><circle cx="228" cy="254" r="7"/><circle cx="150" cy="288" r="7"/><circle cx="148" cy="100" r="7"/></g>
+<!-- ADRN neighborhood -->
+<g fill="#1E5FA8"><circle cx="100" cy="170" r="9"/><circle cx="122" cy="156" r="9"/><circle cx="118" cy="188" r="9"/><circle cx="96" cy="204" r="9"/><circle cx="140" cy="176" r="9"/><circle cx="116" cy="222" r="9"/></g>
+<!-- MES neighborhood -->
+<g fill="#D98A00"><circle cx="186" cy="198" r="9"/><circle cx="206" cy="180" r="9"/><circle cx="204" cy="216" r="9"/><circle cx="180" cy="232" r="9"/><circle cx="162" cy="214" r="9"/></g>
+<text x="150" y="330" text-anchor="middle" font-size="14" fill="#2B3138">54 patient tumours</text>
+<text x="150" y="348" text-anchor="middle" font-size="13" fill="#8A949E">single-cell, spatial RNA and protein</text>
+<!-- legend -->
+<circle cx="24" cy="372" r="6" fill="#1E5FA8"/><text x="36" y="377" font-size="13" fill="#2B3138">ADRN</text>
+<circle cx="92" cy="372" r="6" fill="#D98A00"/><text x="104" y="377" font-size="13" fill="#2B3138">MES</text>
+<circle cx="156" cy="372" r="6" fill="#8A949E"/><text x="168" y="377" font-size="13" fill="#2B3138">immune, stroma</text>
+<!-- comparison panels -->
+<rect x="318" y="62" width="302" height="106" rx="10" fill="#C8323F" fill-opacity="0.08" stroke="#C8323F" stroke-width="2"/>
+<text x="334" y="88" font-size="15" font-weight="700" fill="#2B3138">Cell-line signatures</text>
+<text x="334" y="110" font-size="13" fill="#2B3138">MES tumour cells not identified</text>
+<g stroke="#C8323F" stroke-width="5" stroke-linecap="round"><path d="M566 84 L596 114"/><path d="M596 84 L566 114"/></g>
+<circle cx="350" cy="142" r="7" fill="#D98A00" fill-opacity="0.35" stroke="#D98A00" stroke-dasharray="3 3"/>
+<text x="366" y="147" font-size="13" fill="#8A949E">MES cells missed</text>
+<rect x="318" y="186" width="302" height="106" rx="10" fill="#3C9A2E" fill-opacity="0.08" stroke="#3C9A2E" stroke-width="2"/>
+<text x="334" y="212" font-size="15" font-weight="700" fill="#2B3138">Early-passage PDX signatures</text>
+<text x="334" y="234" font-size="13" fill="#2B3138">MES tumour cells identified</text>
+<path d="M566 240 L578 254 L604 218" stroke="#3C9A2E" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="350" cy="266" r="7" fill="#D98A00"/>
+<text x="366" y="271" font-size="13" fill="#2B3138">validated by 5 assay types</text>
+<path d="M468 296 L468 318" stroke="#2B3138" stroke-width="3" fill="none"/><path d="M460 316 L468 328 L476 316 Z" fill="#2B3138"/>
+<rect x="318" y="332" width="302" height="46" rx="10" fill="#D98A00" fill-opacity="0.12" stroke="#D98A00" stroke-width="2"/>
+<text x="469" y="352" text-anchor="middle" font-size="14" font-weight="700" fill="#2B3138">High MES expression</text>
+<text x="469" y="369" text-anchor="middle" font-size="13" fill="#2B3138">goes with worse survival</text>
+</svg>

@@ -1,13 +1,689 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-08T10:10:37Z",
+  "updated": "2026-10-09T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41586-026-11101-6",
-    "10.1038/s41586-026-11153-8",
-    "10.1038/s41586-026-11125-y"
+    "10.1038/s41592-026-03254-z",
+    "10.1016/j.ccell.2026.09.008",
+    "10.1158/2159-8290.CD-26-0971"
   ],
   "posts": [
+    {
+      "id": "10.7759/cureus.115906",
+      "date_added": "2026-10-09",
+      "published": "2026-09-07",
+      "title": "Primary Intraosseous Cavernous Hemangioma of the Petrous Bone Involving the Jugular Fossa Mimicking a Jugular Paraganglioma: A Radiologic-Pathologic Correlation and Review of Relevant Literature",
+      "authors": "Kedar K, Arora D, Rao AK, et al.",
+      "venue": "Cureus",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.7759/cureus.115906",
+      "url": "https://doi.org/10.7759/cureus.115906",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Case report of a benign vascular tumour (primary intraosseous cavernous hemangioma) in the petrous temporal bone with jugular fossa involvement, which looked like a jugular paraganglioma on imaging. Chordoma appears only as one item in the differential diagnosis.",
+      "key_points": [
+        "A 46-year-old man presented with progressive unilateral sensorineural hearing loss; MRI showed a heterogeneously enhancing jugular foramen lesion with cerebellopontine angle extension.",
+        "High-resolution CT showed a coarse \"honeycomb\" trabecular pattern with smooth bone expansion, pointing to an intraosseous origin.",
+        "Histology confirmed cavernous hemangioma; the authors list imaging features that help separate it from paraganglioma, schwannoma, meningioma, chordoma, chondrosarcoma and metastasis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03254-z",
+      "date_added": "2026-10-09",
+      "published": "2026-10-08",
+      "title": "Tangermeme: a toolkit for understanding cis-regulatory logic using deep learning models",
+      "authors": "Schreiber J",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03254-z",
+      "url": "https://doi.org/10.1038/s41592-026-03254-z",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "Tangermeme is a highly optimised toolkit for the steps that come after a genomic deep learning model has been trained. It is meant to turn the cis-regulatory patterns a model has learned into insights a person can read.",
+      "key_points": [
+        "Covers \"everything-but-the-model\" for genomic deep learning, so the analysis is separated from model training.",
+        "Aims to distil learned cis-regulatory patterns from models into human-interpretable results.",
+        "The abstract gives no benchmark numbers; the paper demonstrates typical uses of the toolkit."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03254-z.svg",
+        "caption": "Tangermeme sits around a trained genomic deep learning model and helps turn what it learned about DNA motifs into readable cis-regulatory logic.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.ccell.2026.09.008",
+      "date_added": "2026-10-09",
+      "published": "2026-10-08",
+      "title": "Spatial omics resolves adrenergic and mesenchymal cell states in neuroblastoma",
+      "authors": "Patel AG, Ashenberg O, Collins NB, et al.",
+      "venue": "Cancer Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.ccell.2026.09.008",
+      "url": "https://doi.org/10.1016/j.ccell.2026.09.008",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "Single-cell and single-nucleus RNA-seq, bulk RNA-seq, spatial transcriptomics and spatial proteomics of 54 neuroblastoma tumours show tumour cells sitting in neighbourhoods separate from immune and stromal cells. Signatures taken from cell lines failed to find mesenchymal (MES) tumour cells, so the authors built new adrenergic (ADRN) and MES signatures from early-passage patient-derived xenografts.",
+      "key_points": [
+        "The new PDX-derived signatures identify MES tumour cells in patient tumours, validated by transcriptomic, epigenomic, proteomic, ultrastructural and functional assays.",
+        "Established cell line-derived signatures could not identify MES neuroblastoma cells in patients.",
+        "High MES gene expression correlates with worse event-free and overall survival."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.ccell.2026.09.008.svg",
+        "caption": "Cell-line signatures miss mesenchymal cells in patient neuroblastomas, while signatures from early-passage xenografts find them and link them to worse survival.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/2159-8290.CD-26-0971",
+      "date_added": "2026-10-09",
+      "published": "2026-10-08",
+      "title": "Universal Germline Genetic Testing after a Diagnosis of Cancer",
+      "authors": "Stadler ZK, Maio A, Khurram A, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-26-0971",
+      "url": "https://doi.org/10.1158/2159-8290.CD-26-0971",
+      "topics": [
+        "Cancer genomics",
+        "Pan-cancer",
+        "Clinical"
+      ],
+      "summary": "Germline sequencing of 39,184 unselected patients with solid tumours across 32 tumour types, covering more than 90 cancer predisposition genes, tests whether age at diagnosis is a good rule for who should be tested. Patients were grouped as early, average or late onset relative to each tumour type.",
+      "key_points": [
+        "Pathogenic variant prevalence fell with age at diagnosis: 18.4% in early-onset, 15.6% in average-onset and 12.3% in late-onset tumours.",
+        "Variants in high- and moderate-penetrance genes accounted for the excess in early-onset cases.",
+        "Testing only patients diagnosed before age 50 would miss 4,601 carriers, 72% of all variants found."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-26-0971.svg",
+        "caption": "Pathogenic germline variant carriers appear at every age at diagnosis, so an age-50 testing rule leaves most of them untested.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11066-6",
+      "date_added": "2026-10-09",
+      "published": "2026-10-07",
+      "title": "A preinvasive regulatory T cell axis for lung cancer interception",
+      "authors": "Gamble S, Whiteman ZE, Peinador-Marín C, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11066-6",
+      "url": "https://doi.org/10.1038/s41586-026-11066-6",
+      "topics": [
+        "Cancer genomics",
+        "Immuno-oncology",
+        "Multi-omics",
+        "Clinical"
+      ],
+      "summary": "Multi-omic, cross-tissue immune profiling of patients with preinvasive lung lesions followed by bronchoscopy and CT shows that effector regulatory CD4 T cells expressing BATF build up in high-grade premalignant airway lesions. These cells are clonally related to circulating counterparts, so progression can be followed in blood.",
+      "key_points": [
+        "Circulating effector regulatory T cells rose during preinvasive progression, and a clonally coordinated circuit marked rapid progression in early-stage NSCLC found by CT screening.",
+        "In a mouse carcinogen model, an analogous blood-airway-lymph node axis appeared, with expansion of lung BATF-positive T cells and immature tertiary lymphoid structures.",
+        "PI3Kδ inhibition blocked these structures, raised local cDC1s and reduced lung tumour incidence and size."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41568-026-00985-1",
+      "date_added": "2026-10-09",
+      "published": "2026-10-08",
+      "title": "Mapping the functional dark proteome in cancer",
+      "authors": "Prensner JR, Freed-Pastor WA, Abelin JG, et al.",
+      "venue": "Nature Reviews Cancer",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1038/s41568-026-00985-1",
+      "url": "https://doi.org/10.1038/s41568-026-00985-1",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics"
+      ],
+      "summary": "This Perspective, indexed as a review, surveys the cancer \"dark proteome\": uncharacterised proteins that come from alternative genomic loci or altered RNA translation. It covers the classes found so far, their functions in cancer cells and their potential as therapeutic targets.",
+      "key_points": [
+        "Over the past decade the dark proteome has been resolved in much greater depth, with diverse classes of dark proteins each having thousands of members.",
+        "Individual dark proteins are being shown to act in cancer cell biology and to be possible targets.",
+        "Open gaps include how they are regulated, how they contribute to cancer phenotypes and antigenicity, and whether they can be made into clinical-grade therapies."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77627-5",
+      "date_added": "2026-10-09",
+      "published": "2026-09-08",
+      "title": "Interpretable machine learning enables de novo mapping of cell type-specific RNA splicing regulation from scRNA-seq data",
+      "authors": "Xiang X, Yang X",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77627-5",
+      "url": "https://doi.org/10.1038/s41467-026-77627-5",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Single-cell"
+      ],
+      "summary": "CASREL is a machine learning framework that infers candidate regulatory links between RNA-binding proteins and alternative splicing directly from single-cell RNA-seq, without needing prior protein-RNA binding annotations. It combines ensemble learning with Shapley additive explanations to interpret the model.",
+      "key_points": [
+        "It uses features specific to single-cell splicing profiles: polarised isoform usage, little averaging of regulatory programs and resilience to expression noise.",
+        "Applications across several tissues and cell types showed robustness, accuracy and biological relevance, according to the authors.",
+        "Offers a way to map cell-specific splicing regulation where CLIP and RNA-binding protein perturbation experiments are too low-throughput or only bulk."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag960",
+      "date_added": "2026-10-09",
+      "published": "2026-09-22",
+      "title": "Wavelet-based whole genome doubling aware single-cell copy number calling",
+      "authors": "Wesley BK, Wos F, Germer S, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag960",
+      "url": "https://doi.org/10.1093/nar/gkag960",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "Songbird is a copy number caller for low-coverage single-cell whole genome sequencing (such as Direct Library Preparation+). Unlike tools that rely on read depth ratios in fixed bins, it can detect whole genome doubling, and it is built for frozen samples with variable DNA preservation.",
+      "key_points": [
+        "Outperforms existing tools at both breakpoint identification and true copy number detection.",
+        "Robust down to very low coverage (below 0.1x for the method it targets).",
+        "Works across genome versions (hg19, hg38, hs.1) and extends to other Tn5-tagmentation single-cell WGS methods."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-1134",
+      "date_added": "2026-10-09",
+      "published": "2026-10-08",
+      "title": "Multimodal Gene Expression Deep Learning for Predicting Sentinel Lymph Node Macro-metastasis in Early Breast Cancer: Development and Validation in the SCAN-B Cohort",
+      "authors": "Zhang D, Staaf J, Bendahl PO, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-1134",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-1134",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Clinical"
+      ],
+      "summary": "Three deep learning models (a multilayer perceptron, a pathway-informed sparse neural network and a transformer) were trained on tumour gene expression, with or without preoperative clinical data, to predict sentinel lymph node macro-metastasis in 6,836 node-negative breast cancer patients from SCAN-B. They were compared with XGBoost in an independent test set.",
+      "key_points": [
+        "The transformer did best on gene expression and needed the least prior gene selection.",
+        "Adding gene expression to clinical data raised ROC AUC from 0.596 to 0.693 in the test set, and could spare 27.2% of patients a sentinel node biopsy at 92.1% sensitivity; the combined model did not beat expression alone.",
+        "Paired biopsy and surgical specimens (n=116) agreed well, supporting future biopsy-based use."
+      ],
+      "data": "SCAN-B cohort",
+      "code": ""
+    },
+    {
+      "id": "10.1073/pnas.2602630123",
+      "date_added": "2026-10-09",
+      "published": "2026-10-08",
+      "title": "Latent causal diffusions for single-cell perturbation modeling",
+      "authors": "Lorch L, Zhang J, Bunne C, et al.",
+      "venue": "PNAS",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1073/pnas.2602630123",
+      "url": "https://doi.org/10.1073/pnas.2602630123",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "The latent causal diffusion (LCD) model treats single-cell gene expression as a stationary diffusion process seen through measurement noise, and predicts how unseen combinations of perturbations shift expression. A companion method, CLIPR, reads direct causal effects between genes out of the learned dynamics.",
+      "key_points": [
+        "LCD outperformed established approaches at predicting distribution shifts for unseen perturbation combinations in scRNA-seq screens.",
+        "CLIPR provably identifies causal effects under a linear drift assumption and recovered causal structure in simulations and a genome-wide perturbation screen.",
+        "In that screen it grouped genes into coherent functional modules and resolved causal relationships that standard differential expression cannot."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag738",
+      "date_added": "2026-10-09",
+      "published": "2026-10-07",
+      "title": "METANet: a supervised ensemble learning framework for reconstructing direct and functional tissue-specific transcription factor networks",
+      "authors": "Jung WJ, Acharya S, Ruskin DP, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag738",
+      "url": "https://doi.org/10.1093/bioinformatics/btag738",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "METANet is a supervised ensemble learning framework that predicts which genes a transcription factor directly binds in a given tissue. It combines TF motifs, cis-regulatory element activity and both linear and non-linear expression-derived features.",
+      "key_points": [
+        "Applied to 36 human tissues, its maps beat established methods at finding direct, likely functional TF targets validated by ChIP-seq and gene ontology.",
+        "Tissue-specific regulation was captured as well as by existing methods.",
+        "The maps allow reproducible gene-trait associations to be identified."
+      ],
+      "data": "",
+      "code": "doi.org/10.5281/zenodo.20614479"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag743",
+      "date_added": "2026-10-09",
+      "published": "2026-10-07",
+      "title": "NoiBic: a noise-tolerant biclustering algorithm for high-throughput gene expression data analysis",
+      "authors": "Long C, Li J, Liu B, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag743",
+      "url": "https://doi.org/10.1093/bioinformatics/btag743",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "NoiBic is a biclustering algorithm for finding gene modules in transcriptomic data when technical and biological noise hides coherent patterns. It uses a longest approximate common subsequence step to find seeds, then expands columns in a noise-aware way.",
+      "key_points": [
+        "On simulated data with controlled coherency, size, noise and overlap, it recovered planted biclusters accurately, especially under noise and overlap.",
+        "On bulk and single-cell RNA-seq data it found biologically meaningful gene modules and cell type-associated biclusters.",
+        "Implemented in C++17 with benchmark data archived on Zenodo."
+      ],
+      "data": "",
+      "code": "github.com/lcyi0208/NoiBic"
+    },
+    {
+      "id": "10.1038/s41467-026-78143-2",
+      "date_added": "2026-10-09",
+      "published": "2026-10-05",
+      "title": "ProFormer: generalizable classification of single-cell and plasma proteomes using deep learning",
+      "authors": "Krull KK, Kühn A, Höhn J, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78143-2",
+      "url": "https://doi.org/10.1038/s41467-026-78143-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Single-cell"
+      ],
+      "summary": "ProFormer is a transformer pipeline that classifies samples directly from tabular MS1-level features of peptide ions, skipping the usual protein identification and interpretation step. It was tested on single-cell and plasma proteomes.",
+      "key_points": [
+        "Outperformed traditional machine learning and image-based CNNs across 14 evaluated architectures.",
+        "Classified single-cell proteomes by cell type, cell cycle stage or differentiation trajectory, and patient disease status from plasma proteomes.",
+        "Explainable AI analysis works at single-peptide resolution."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag746",
+      "date_added": "2026-10-09",
+      "published": "2026-10-06",
+      "title": "RAFA: RNA all-atom structure reconstruction from sparse anchor coordinates",
+      "authors": "Wang L, Zeng Z",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag746",
+      "url": "https://doi.org/10.1093/bioinformatics/btag746",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "RAFA is a C++ command-line tool that rebuilds a full all-atom RNA structure from sparse or partial anchor coordinates, as produced by coarse-grained modelling or low-resolution fitting. It retrieves known 3-5 nucleotide all-atom fragments, fits them to local anchors and combines overlapping estimates by weighted consensus.",
+      "key_points": [
+        "On an RNA3DB train/test split with no library-test pair above 80% sequence identity, RAFA gave lower all-atom RMSD than Arena in 73.3% of target-mode comparisons.",
+        "Gains were largest when the input had the fewest structural constraints."
+      ],
+      "data": "",
+      "code": "github.com/wangleiofficial/RAFA"
+    },
+    {
+      "id": "10.1093/nar/gkag937",
+      "date_added": "2026-10-09",
+      "published": "2026-09-22",
+      "title": "STAT3D as a new image-tailored Xenium-based spatial transcriptomics tool for accurately dissecting the tumor microenvironment",
+      "authors": "Ajazi K, Volpe M, Roylands J, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag937",
+      "url": "https://doi.org/10.1093/nar/gkag937",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "STAT3D is a customisable pipeline for whole-tumour Xenium slides that does 3D cell segmentation on only the sharpest optical z-planes, to avoid blur and signal bleed-through from out-of-focus layers. It then maps transcripts to cells and annotates them automatically using standard tools such as Seurat and SingleR.",
+      "key_points": [
+        "The \"image-tailored\" strategy combines only the sharpest z-planes to compute single-cell features and spatial distances.",
+        "Fully automated annotation supports exploring infiltrating cell types, interactions and tissue architecture.",
+        "Aimed at problems that built-in platform tools such as Xenium Explorer cannot solve."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aeh2362",
+      "date_added": "2026-10-09",
+      "published": "2026-10-07",
+      "title": "SLC39-driven zinc influx orchestrates pleiotropic tumor-immune system cross-talk to establish immune suppression in colorectal cancer",
+      "authors": "Hong SJ, Park S, Kim S, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aeh2362",
+      "url": "https://doi.org/10.1126/sciadv.aeh2362",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Immuno-oncology"
+      ],
+      "summary": "Bulk multi-omics of 258 colorectal cancer patients, single-cell transcriptomics, spatial profiling and functional assays identify a zinc-driven immunosuppressive circuit. Three solute carrier archetypes emerged, with an SLC39-enriched subtype matching CMS2-like immune-desert tumours.",
+      "key_points": [
+        "SLC39-mediated zinc influx activates CDX2, which uses a distal enhancer to switch on CD24 in tumour cells; CD24-high cells form spatial niches with SIGLEC10-expressing macrophages and dendritic cells.",
+        "CD24 blockade restored macrophage engulfment of tumour cells in vitro.",
+        "A seven-gene signature predicted immunotherapy response across five colorectal cancer cohorts."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.08.28.747622",
+      "date_added": "2026-10-09",
+      "published": "2026-09-03",
+      "title": "Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms",
+      "authors": "Wardhana O, Zeng Z, Lu X",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.08.28.747622",
+      "url": "https://doi.org/10.64898/2026.08.28.747622",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "A benchmark of 63 cell-type annotation tools from seven families (marker-based, similarity-based, classical ML, deep learning, semi-supervised, LLM and foundation models) on a Taguchi orthogonal array that varied cell number, class imbalance, cell-type number and differential-expression strength independently, then extended to real data and cross-platform transfer.",
+      "key_points": [
+        "How separable cell types are in a shared expression embedding (kNN purity) predicted accuracy near-linearly, R2 0.85-0.99.",
+        "Dataset identity accounted for about 84% of kappa variance and tool identity about 4%; leading cell-level families were within 0.06 kappa of each other.",
+        "Strong performers were spread across families, e.g. Seurat label transfer, singleCellNet and mLLMCelltype."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755279",
+      "date_added": "2026-10-09",
+      "published": "2026-10-05",
+      "title": "methylTFR: Computational quantification of transcription factor activity from DNA methylation",
+      "authors": "Gunduz IB, Nitsch R, Murugan SK, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755279",
+      "url": "https://doi.org/10.64898/2026.09.29.755279",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics",
+        "Single-cell"
+      ],
+      "summary": "methylTFR is an R package that scores transcription factor activity from DNA methylation across TF-binding sites, giving a low-dimensional, interpretable activity profile.",
+      "key_points": [
+        "In 147 human immune cell methylomes it found cell-type-specific regulators, including CEBP and ETS family activity in myeloid cells.",
+        "In CD4+ T cells the scores resolved the naive-to-memory trajectory and pointed to AP-1 factors as memory regulators.",
+        "It works on sparse single-cell methylomes and can be combined with expression and accessibility in joint factor models."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.30.755703",
+      "date_added": "2026-10-09",
+      "published": "2026-10-05",
+      "title": "Reconstructing donor genotypes from scRNA-seq for downstream eQTL and HLA-TCR analysis",
+      "authors": "Kockelbergh H, Astley J, Kichula KM, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.30.755703",
+      "url": "https://doi.org/10.64898/2026.09.30.755703",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "scTAPAS reconstructs donor genotypes directly from single-cell RNA-seq reads, so single-cell eQTL and HLA analyses become possible when no matched genotype data exist. It was applied to 5-prime scRNA-seq from the COMBAT COVID-19 blood atlas.",
+      "key_points": [
+        "Despite testing only 18.0% of the variants from array genotyping plus imputation, it recovered 68.6% of cell type-eGene pairs with strong effect-size concordance.",
+        "The derived variants support imputation of classical HLA alleles and HLA-aware QTL analysis.",
+        "With matched single-cell TCR data it found CD4+ T cell-specific associations between HLA class II alleles and TCR V-alpha gene usage."
+      ],
+      "data": "COMBAT",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.30.755585",
+      "date_added": "2026-10-09",
+      "published": "2026-10-05",
+      "title": "Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models",
+      "authors": "McConnell U, Nonchev K, Koelzer VH, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.30.755585",
+      "url": "https://doi.org/10.64898/2026.09.30.755585",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "Tests whether matched H&E histology can improve transcriptomic foundation model representations when used as a training-time supervisory signal that is dropped at inference, using spot-based spatial transcriptomics.",
+      "key_points": [
+        "Across three foundation models, histology-guided supervision gave no consistent aggregate gain in cross-donor annotation transfer, even though histology alone transferred much better.",
+        "Spot-based expression embeddings are low-dimensional and strongly structured by slide identity, which limits the shared gene-morphology signal.",
+        "Guidance helped some morphologically distinctive classes but reduced held-out gene predictivity broadly; the authors advise diagnosing slide-specific structure first."
+      ],
+      "data": "",
+      "code": "github.com/ratschlab/vision-guided-transcriptomics-fm-2026"
+    },
+    {
+      "id": "10.64898/2026.09.27.753847",
+      "date_added": "2026-10-09",
+      "published": "2026-10-02",
+      "title": "Downstream mRNA Secondary Structure, Not Codon Elongation Supply, Coordinates Co-Translational Protein Folding Across the Human Ribosomal Exit Tunnel",
+      "authors": "Saad Ul Hassan M, Jabeen I, Kiani YS",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.27.753847",
+      "url": "https://doi.org/10.64898/2026.09.27.753847",
+      "topics": [
+        "RNA biology",
+        "Computational"
+      ],
+      "summary": "Analysis of 1,270 high-resolution human crystal structures (410,151 residues) mapped to their mRNA transcripts asks what paces translation to help nascent proteins fold. Synonymous codon choice was separated from amino acid identity by orthogonal linear projection.",
+      "key_points": [
+        "Codon supply metrics (tAI and CAI) showed negligible independent coupling with downstream structure once amino acid identity was removed.",
+        "Downstream mRNA minimum free energy showed a small, consistent correlation centred about +15 to +16 codons, matching the ribosome geometry (packing density r = -0.0699, B-factor r = +0.0614, SASA r = +0.0492).",
+        "The effect explains about 0.49% of local packing variance, so it is modest."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.08.20.671303",
+      "date_added": "2026-10-09",
+      "published": "2025-08-24",
+      "title": "Quantification method affects replicability of eQTL analysis, colocalization, and TWAS",
+      "authors": "Cole N, Wu WH, Head ST, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.08.20.671303",
+      "url": "https://doi.org/10.1101/2025.08.20.671303",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Isoforms"
+      ],
+      "summary": "Asks how the transcriptomic reference annotation and the RNA-seq quantification method change eQTL mapping, colocalization and TWAS, across 48 GTEx tissues and seven phenotypes. This is a newly listed version (v3) of a preprint first posted in 2025.",
+      "key_points": [
+        "These upstream choices substantially affect eQTL detection and gene expression prediction, with downstream effects on colocalization and TWAS.",
+        "Concordant results across pipelines are enriched for longer genes, genes with more isoforms and higher expression heritability.",
+        "The authors call for standardised practices to make genetic association studies reproducible."
+      ],
+      "data": "GTEx",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.03.09.710583",
+      "date_added": "2026-10-09",
+      "published": "2026-03-11",
+      "title": "scDEcrypter: Uncertainty-aware differential expression analysis for viral infection in scRNA-seq",
+      "authors": "Zhong L, Ensberg K, Tibbetts S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.03.09.710583",
+      "url": "https://doi.org/10.64898/2026.03.09.710583",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "scDEcrypter is a penalised two-way mixture model for differential expression in virus-infected single-cell data, where viral reads are sparse, infected cells are under-labelled and bystander cells respond too. It uses partial infection and cell-type labels to estimate latent cell-state probabilities and gives fast permutation-based p-values. This is a newly listed version (v2).",
+      "key_points": [
+        "In simulations and two viral infection datasets it recovered infected cell states better than existing approaches.",
+        "It identified more biologically coherent infection-associated genes and enriched pathways."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.01.756124",
+      "date_added": "2026-10-09",
+      "published": "2026-10-05",
+      "title": "Mechanistic Decoding of Pharmacodynamic Intratumoral Heterogeneity: A Pan-Cancer Regulatory Framework",
+      "authors": "Ren Z, Ren Y, Li Z, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.01.756124",
+      "url": "https://doi.org/10.64898/2026.10.01.756124",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Tumour evolution"
+      ],
+      "summary": "Links single-cell transcriptomes from 1,279 samples across 24 cancer types to drug response profiles for 1,218 compounds to explain why coexisting subclones respond differently to drugs (\"pharmacodynamic intratumoral heterogeneity\"). A multi-omics network analysis in lung adenocarcinoma adds regulation, mutations, cell-cell communication and alternative splicing.",
+      "key_points": [
+        "425 hub genes were consistently linked to predicted response heterogeneity.",
+        "In the lung adenocarcinoma case study: 3 transcription factors, 41 genomic alterations, 5 ligand-receptor pairs and 8 genes with opposing splice isoforms were associated with the response programs, converging on 6 core pathways.",
+        "Reports experimental validation and an online platform, PharmITH."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756297",
+      "date_added": "2026-10-09",
+      "published": "2026-10-05",
+      "title": "PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets",
+      "authors": "Verma R, Adduri A, Bevilacqua B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756297",
+      "url": "https://doi.org/10.64898/2026.10.02.756297",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "PIE predicts the population-level effect of a perturbation in a given cellular context, directly outputting differentially expressed genes and expression changes. It uses external biological knowledge, baseline expression and observed perturbation responses, and handles input sources with variable feature sets.",
+      "key_points": [
+        "On the Replogle Nadig dataset it reaches state-of-the-art performance on most metrics in all tested generalisation settings, including unseen contexts and perturbations together.",
+        "For differentially expressed gene prediction it achieves 1.2 to 3.2 times the AUPRC of the strongest baseline in each setting."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.756924",
+      "date_added": "2026-10-09",
+      "published": "2026-10-06",
+      "title": "MERFISH-based pooled genetic screening reveals cell non-autonomous phenotypes in intact tissue",
+      "authors": "Jin K, Saunders RA, Zhang J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.756924",
+      "url": "https://doi.org/10.64898/2026.10.06.756924",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Single-cell"
+      ],
+      "summary": "An imaging-based pooled screening method that detects perturbation identities and endogenous RNAs by amplification-free MERFISH, so both perturbed cells and their neighbours can be profiled in intact tissue. It was applied to a genetic mosaic mouse liver screen of about 200 genes in hepatocytes.",
+      "key_points": [
+        "Amplification-free detection raised perturbation barcode recovery about 10-fold and endogenous transcript recovery 2.5-fold.",
+        "1.5 million cells were profiled, mapping both cell-autonomous hepatocyte responses and changes in neighbouring immune and vascular cells.",
+        "Examples include pDC-like cells gathering near hepatocytes with impaired V-ATPase function, and angiogenic responses near Vhl-perturbed hepatocytes."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1055/a-2964-8969",
       "date_added": "2026-10-08",
