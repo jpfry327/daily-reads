@@ -1,13 +1,619 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-09T10:30:00Z",
+  "updated": "2026-10-12T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03254-z",
-    "10.1016/j.ccell.2026.09.008",
-    "10.1158/2159-8290.CD-26-0971"
+    "10.1016/j.molcel.2026.09.021",
+    "10.1016/j.molcel.2026.09.022",
+    "10.1016/j.cell.2026.09.017"
   ],
   "posts": [
+    {
+      "id": "10.1016/j.molcel.2026.09.021",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Oligo(uridine) tailing and exonucleolytic decay drive 40S ribosome degradation in response to stress",
+      "authors": "Diehl FF, Buskirk AR, Green R",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.021",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.021",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "When cells are starved, they destroy mature 40S ribosomal subunits, which means breaking down a large, stable RNA-protein complex. This study shows that the kinase RIOK3 recruits the uridylyl-transferase TUT7 and the exonuclease DIS3L2, and that U-tails on 18S rRNA drive its decay.",
+      "key_points": [
+        "TUT7 adds oligo(uridine) tails to the 3' end of 18S rRNA in 40S ribosomes, and DIS3L2 recognises the tailed rRNA and degrades it 3'-5'.",
+        "Major decay intermediates are themselves uridylated again, so tailing and decay repeat in cycles.",
+        "Loss of DIS3L2 slows 18S rRNA decay during starvation and uridylated 18S rRNA accumulates."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.molcel.2026.09.021.svg",
+        "caption": "Starvation-activated RIOK3 brings TUT7 to the 40S subunit; TUT7 adds U-tails to 18S rRNA and DIS3L2 trims them, in repeated rounds.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.022",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "40S ribosome remodeling triggers 18S rRNA U-tailing and DIS3L2-dependent decay",
+      "authors": "Shah A, Coria AR, Miller JT, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.022",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.022",
+      "topics": [
+        "RNA biology",
+        "Long-read"
+      ],
+      "summary": "This companion study asks how defective 40S ribosomal subunits are committed to decay. Using in vitro reconstitution and nanopore direct RNA sequencing, it shows that RIOK3-driven remodeling exposes the 3' end of 18S rRNA, which is then uridylated and degraded by DIS3L2.",
+      "key_points": [
+        "The atypical kinase RIOK3 remodels 40S subunits in vitro, exposing the 3' end of 18S rRNA.",
+        "Nanopore direct RNA sequencing shows this remodeling promotes oligo-uridylation, giving uridylated 18S rRNA decay intermediates.",
+        "DIS3L2 degrades the uridylated rRNA, and its exonucleolytic cleavage triggers endonucleolytic decay of 18S rRNA, amplifying turnover."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.molcel.2026.09.022.svg",
+        "caption": "RIOK3 remodels the closed 40S subunit to expose the 18S rRNA 3' end, which is U-tailed, trimmed by DIS3L2 and then cut; nanopore sequencing reads the tails.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.017",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Mapping transcriptional responses to cellular perturbations with RNA fingerprinting",
+      "authors": "Grabski IN, Lee J, Blair JD, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.017",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.017",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "RNA fingerprinting is a statistical framework that maps the transcriptional response in a new experiment onto reference single-cell perturbation dictionaries. It learns a \"fingerprint\" for each perturbation and probabilistically assigns each query cell to one or more candidate perturbations.",
+      "key_points": [
+        "Benchmarks on ground-truth datasets show accurate assignments at single-cell resolution, scaling to genome-wide screens and resolving combinatorial perturbations.",
+        "Applied to identify context-specific regulators of p53 under ribosomal stress and to characterise dose-dependent drug mechanisms of action.",
+        "Also used to uncover cytokine-driven B cell heterogeneity during secondary influenza infection in vivo."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.cell.2026.09.017.svg",
+        "caption": "A query single cell is matched probabilistically to perturbation fingerprints in a reference dictionary (CRISPR knockout, drug dose, combination).",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41467-026-77418-y",
+      "date_added": "2026-10-12",
+      "published": "2026-09-10",
+      "title": "Himito: a graph-based toolkit for mitochondrial genome analysis using long reads",
+      "authors": "Su H, Huang Y, Durham TJ, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77418-y",
+      "url": "https://doi.org/10.1038/s41467-026-77418-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "Himito is a toolkit for analysing the mitochondrial genome with long reads. It filters nuclear mitochondrial insertions (NUMTs), builds a sequence graph of mtDNA diversity, assembles haplotypes, calls variants and analyses 5mC in one framework.",
+      "key_points": [
+        "Benchmarking on reference datasets shows better assembly and variant calling than existing tools.",
+        "Applied to the All of Us v8 dataset, it identified pathogenic mtDNA variants and population-scale haplogroup diversity.",
+        "It also uncovered age-related genetic and epigenetic patterns in mtDNA."
+      ],
+      "data": "",
+      "code": "github.com/broadinstitute/Himito"
+    },
+    {
+      "id": "10.7554/eLife.108058",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Punctuated mutagenesis promotes multi-step evolutionary adaptation in human cancers",
+      "authors": "Graser CJ, Wu W, Christini C, et al.",
+      "venue": "eLife",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.7554/eLife.108058",
+      "url": "https://doi.org/10.7554/eLife.108058",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution"
+      ],
+      "summary": "This modelling study asks how bursts of mutations (punctuated mutagenesis) change a tumour's ability to gain and keep fitness-enhancing adaptations. It also checks the predictions against TCGA data.",
+      "key_points": [
+        "Punctuation helps most when adaptation needs several mutations that are individually harmful but jointly beneficial (crossing a fitness valley).",
+        "Mutations in close succession give mutants more chance to reach a fitness peak before going extinct.",
+        "TCGA tumours with APOBEC mutagenesis signatures show patterns consistent with higher rates of crossing fitness valleys."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281566.125",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Protein large language model-assisted one-to-one gene homology mapping in cross-species single-cell transcriptome integration",
+      "authors": "Kuang ZY, Sun YC, Wei NN, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281566.125",
+      "url": "https://doi.org/10.1101/gr.281566.125",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Cross-species single-cell integration needs gene correspondences, and default many-to-many Ensembl mappings can create microclusters with no clear cell-type identity. This paper adds a protein language model to recover more one-to-one homology pairs.",
+      "key_points": [
+        "A strict one-to-one scheme removes about 8% of homology pairs (about 900); the new fused mapping combines pLLM representations with sequence similarity to boost the number of pairs.",
+        "It achieves top performance in a benchmark of nine datasets, 11 species and more than 3.2 million cells.",
+        "It also identifies previously unannotated cell-type marker pairs across species."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281292.125",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Single-cell transcriptome analysis reveals onco-fetal reprogramming with implications for drug resistance and clinical outcome",
+      "authors": "Xu Y, Chen S, Lu Z, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281292.125",
+      "url": "https://doi.org/10.1101/gr.281292.125",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Pan-cancer"
+      ],
+      "summary": "The authors build a computational pipeline that compares fetal and tumour single-cell transcriptomes to identify onco-fetal (OF) cells across several cancer types. OF cells are stem-like and appear to shape the tumour microenvironment.",
+      "key_points": [
+        "Core transcription factors in the programme include PTMA, ATF5, TCF4 and FOS.",
+        "OF cells impair B cell function and are linked to drug resistance and recurrence.",
+        "Pan-cancer analyses show OF cell markers universally predict adverse prognosis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77343-0",
+      "date_added": "2026-10-12",
+      "published": "2026-09-09",
+      "title": "Explainable data generation from observed small samples by matrix tri-factorization",
+      "authors": "Zhang B, Tao P, Ren J, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77343-0",
+      "url": "https://doi.org/10.1038/s41467-026-77343-0",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "Explainable Data Generation (EDG) represents a handful of high-dimensional samples with a low-dimensional latent representation that has a larger sample size, using matrix tri-factorization. It targets extreme sample scarcity, such as a single patient with a new disease.",
+      "key_points": [
+        "Because the decomposition and reconstruction are transparent, the generated samples are explainable.",
+        "Tested on classification, clustering, feature selection and tipping-point prediction.",
+        "Used simulated and real datasets, including single-cell RNA-seq and ATAC-seq data."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/0008-5472.CAN-25-5027",
+      "date_added": "2026-10-12",
+      "published": "2026-10-08",
+      "title": "The HDAC8-U2AF1 Axis Dysregulates DNA Damage-Responsive RNA Splicing and Creates Targetable Vulnerabilities in Acute Myeloid Leukemia",
+      "authors": "Zhang L, Fu YH, Hua WK, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.CAN-25-5027",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-25-5027",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "HDAC8 is overexpressed in over half of AML cases in patient datasets. This study shows it deacetylates the splicing factor U2AF1, which disrupts DNA damage-responsive splicing and homologous recombination repair.",
+      "key_points": [
+        "TIP60 acetylates U2AF1 at lysines 23 and 175, needed for U2AF1 to join BRCA1 and BCLAF1 in a splicing complex; HDAC8 removes these marks.",
+        "HDAC8 hyperactivity causes widespread splicing dysregulation and raises sensitivity to splicing modulators and PARP inhibitors.",
+        "In preclinical models including PDXs, H3B-8800 plus talazoparib reduced leukemia burden and leukemia stem cell activity, with enhanced efficacy in combination."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aee5257",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Citron kinase activity controls alternative splicing events that drive prostate cancer growth",
+      "authors": "Rawat C, Singh N, Dahiya UR, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aee5257",
+      "url": "https://doi.org/10.1126/sciadv.aee5257",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "Citron (CIT) kinase drives prostate cancer progression, and its substrates are enriched in alternative splicing regulators. The study follows the splicing regulator THRAP3 as a representative substrate.",
+      "key_points": [
+        "CIT phosphorylates THRAP3 directly, which sets THRAP3's RNA binding to CIT-controlled pre-mRNA targets (identified by CLIP-seq).",
+        "CIT-dependent THRAP3-bound transcripts stimulated growth in cell lines, xenografts and patient-derived organoids.",
+        "An antisense oligo that blocks THRAP3 recruitment inhibited growth of cell lines and PDX-derived organoids but not benign cells."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aea2001",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Targeting SUV39H2 exon skipping reverses resistance to CDK4/6 inhibitors via transcriptional activation of p21",
+      "authors": "Yu S, Gong X, Yang Y, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aea2001",
+      "url": "https://doi.org/10.1126/sciadv.aea2001",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "CDK4/6 inhibitors are standard care for ER-positive breast cancer but resistance limits them. This study finds a splicing-mediated mechanism: exon 2 inclusion in SUV39H2 drives its overexpression in resistant cells.",
+      "key_points": [
+        "Higher exon 2 inclusion in SUV39H2 correlates with poor prognosis in patients with breast cancer.",
+        "Gapmer antisense oligonucleotides or a methyltransferase inhibitor overcome resistance and restore therapy-induced senescence.",
+        "Mechanistically, this removes H3K9me3 at enhancers and opens chromatin at promoters of senescence-associated secretory phenotype genes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081162.126",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "PNLDC1 deadenylase affects translational rate and cell proliferation in mESCs",
+      "authors": "Skeparnias I, Shaukat AN, Katsioulas C, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081162.126",
+      "url": "https://doi.org/10.1261/rna.081162.126",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "PNLDC1 is a deadenylase known for pre-piRNA trimming, but its wider role in poly(A) tail removal is poorly understood. This study maps its regulation during mouse embryonic stem cell differentiation and tests what happens when it is lost.",
+      "key_points": [
+        "Pnldc1 promoter methylation pattern is linked to its repression during differentiation; knockout mESCs stay viable and pluripotent.",
+        "RNA-seq and polysome profiling show Pnldc1 loss downregulates translation gene networks and lowers overall translation rate.",
+        "Virtual screening with a PARN-based homology model led to 12 compounds; two affected stress-response and signal-transduction genes and suppressed aberrant proliferation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1007/s00264-026-07058-w",
+      "date_added": "2026-10-12",
+      "published": "2026-10-12",
+      "title": "Risk factors for postoperative recurrence of sacral chordoma: an eleven-year single-centre retrospective study",
+      "authors": "Du X, Wei H, Zhang B, et al.",
+      "venue": "International Orthopaedics",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1007/s00264-026-07058-w",
+      "url": "https://doi.org/10.1007/s00264-026-07058-w",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A retrospective review of 34 consecutive patients with sacral chordoma, all with R0 resection, treated at one centre between 2013 and 2024. It looks for independent risk factors for recurrence.",
+      "key_points": [
+        "Recurrence occurred in 19 of 34 patients (55.9%) after a median 36 months; median recurrence-free survival was 33 months and nine patients developed distant metastases.",
+        "Tumour diameter of 65 mm or more (HR 3.42) and previous surgery (HR 4.57) were independent risk factors.",
+        "Postoperative targeted therapy was associated with lower recurrence (HR 0.31), but treatment was not randomised so this needs caution."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.7759/cureus.115999",
+      "date_added": "2026-10-12",
+      "published": "2026-09-09",
+      "title": "Rural-Urban Disparities in Survival Among Patients With Malignant Primary Osseous Neoplasms of the Spine and Sacropelvis: A Population-Based Cohort Study",
+      "authors": "Dietrich G, Tambunan J, Haynal E, et al.",
+      "venue": "Cureus",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.7759/cureus.115999",
+      "url": "https://doi.org/10.7759/cureus.115999",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A SEER-based cohort of 3,631 patients (2000-2023) with chordoma, chondrosarcoma, osteosarcoma or Ewing sarcoma of the spine or sacropelvis, asking whether rural residence independently affects survival.",
+      "key_points": [
+        "Rural residence was not independently associated with overall survival (HR 0.95) or cause-specific survival (HR 0.94).",
+        "Higher county income was associated with better survival in a graded way (HR 0.68 for counties above $120,000).",
+        "Surgery was associated with lower mortality, whereas radiotherapy was not."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1055/s-0046-1822672",
+      "date_added": "2026-10-12",
+      "published": "2026-05-06",
+      "title": "Osteochondroma of the Sella Turcica: A Rare Mimic in the Spectrum of Sellar Masses",
+      "authors": "Jain S, Osama MA, Gupta A, et al.",
+      "venue": "Asian Journal of Neurosurgery",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1055/s-0046-1822672",
+      "url": "https://doi.org/10.1055/s-0046-1822672",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A case report of what the authors call the sixth known sellar osteochondroma, in a 30-year-old woman with progressive visual loss. The calcified sellar-suprasellar mass was first suspected to be a calcified pituitary adenoma or chordoma.",
+      "key_points": [
+        "Endoscopic transsphenoidal resection and histology confirmed osteochondroma.",
+        "Chordoma is mentioned only as an initial differential diagnosis.",
+        "Vision improved significantly after surgery, and adjuvant radiotherapy was given."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1055/s-0046-1820436",
+      "date_added": "2026-10-12",
+      "published": "2026-05-04",
+      "title": "Sphenoid Sinus Mucocele with Clival and Sellar Extension Mimicking a Neoplastic Lesion: A Case Report",
+      "authors": "Ovalles-Álvarez HK, Calderón-Garcidueñas AL, Villegas-Hernández JC, et al.",
+      "venue": "Asian Journal of Neurosurgery",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1055/s-0046-1820436",
+      "url": "https://doi.org/10.1055/s-0046-1820436",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A case report of a 28-year-old man whose lesion eroded the sphenoid sinus and clivus and was first thought to be a chordoma. Intraoperative study showed a sphenoid sinus mucocele.",
+      "key_points": [
+        "Clival extension is a rare presentation and can mimic neoplasms such as chordoma.",
+        "The lesion was resected and the patient did well.",
+        "Sphenoid mucoceles can be dangerous because they compress nearby critical structures."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757170",
+      "date_added": "2026-10-12",
+      "published": "2026-10-08",
+      "title": "A gene-centric analysis of copy number variation reveals tumour suppressor modulation of cancer risk and novel associations with common diseases",
+      "authors": "Matthews S, Seoighe C, Wheeler GL",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757170",
+      "url": "https://doi.org/10.64898/2026.10.06.757170",
+      "topics": [
+        "Cancer genomics",
+        "Copy number",
+        "Computational"
+      ],
+      "summary": "Instead of analysing CNVs one by one or by region, this work links whole-gene copy number changes to phenotype. It first checks the approach against gene expression in GTEx, then tests cancer risk and other diseases.",
+      "key_points": [
+        "Found 34 gene deletions associated with cancer incidence, including a germline link for 13q14 deletions that region-based methods missed.",
+        "Whole-gene loss of tumour suppressor genes was associated with overall cancer risk.",
+        "The total number of whole-gene losses predicted cancer risk even without known cancer-related genes; associations were also found for asthma and heart attack."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756296",
+      "date_added": "2026-10-12",
+      "published": "2026-10-09",
+      "title": "Niche-dependent epistasis within the cancer genome shapes metastatic fitness",
+      "authors": "Liu X, He L, Zhao M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756296",
+      "url": "https://doi.org/10.64898/2026.10.02.756296",
+      "topics": [
+        "Cancer genomics"
+      ],
+      "summary": "Using lung metastasis in mice, the authors mapped gene-by-gene-by-environment (GxGxE) epistasis with combinatorial CRISPR perturbation plus depletion of defined host myeloid populations.",
+      "key_points": [
+        "The metastatic niche first selects tumour cells on gene-by-gene epistatic fitness, then drives transcriptome convergence regardless of genotype.",
+        "Removing anatomically distinct myeloid populations reshaped the epistasis landscape despite identical tumour genotypes.",
+        "The interaction size and sign were set by niche cells."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756284",
+      "date_added": "2026-10-12",
+      "published": "2026-10-06",
+      "title": "RBFOX2 restrains oncogenic cell plasticity in Group 3 medulloblastoma",
+      "authors": "Sah RK, Yan X, Louis L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756284",
+      "url": "https://doi.org/10.64898/2026.10.02.756284",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "This study identifies the splicing regulator RBFOX2 as a suppressor of cell plasticity in Group 3 medulloblastoma. OTX2 opposes it by directing a different alternative splicing programme.",
+      "key_points": [
+        "OTX2 alters the RBFOX2 RNA-binding landscape, limiting RBFOX2 at cytoskeletal loci and suppressing exon inclusion.",
+        "RBFOX2 loss rewires splicing and transcription towards plastic, mesenchymal-like and undifferentiated states.",
+        "RBFOX2-low states mark highly plastic cells in patient tumours and xenografts."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.07.25.666897",
+      "date_added": "2026-10-12",
+      "published": "2026-10-06",
+      "title": "Nuclear RNA cap-chaperones eIF4E and NCBP2 govern distinct fates for 1000s of mRNAs uncovering an unexpected regulatory point in gene expression",
+      "authors": "Mars J-C, Embree CM, Kraljacic B-C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.07.25.666897",
+      "url": "https://doi.org/10.1101/2025.07.25.666897",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "The nuclear cap-binding protein NCBP2 is usually seen as a single housekeeping checkpoint for mRNA processing. This preprint shows the translation factor eIF4E also acts in the nucleus and affects mostly different mRNAs.",
+      "key_points": [
+        "Changing eIF4E or NCBP2 levels gives distinct transcriptomic and splicing signatures across thousands of transcripts, with few shared splicing events.",
+        "The authors propose mRNA Specification by Cap Chaperones (SOCCs).",
+        "The two proteins sit in separate nuclear regions and have non-overlapping protein-partner networks."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755467",
+      "date_added": "2026-10-12",
+      "published": "2026-10-06",
+      "title": "Circular Data Analysis for Spatial Omics",
+      "authors": "Shin J, Yoo J, Cho Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755467",
+      "url": "https://doi.org/10.64898/2026.09.29.755467",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Computational"
+      ],
+      "summary": "Many omics quantities such as circadian phase, cell-cycle position and cell orientation are periodic, and treating them as ordinary linear variables creates artificial breaks. This paper gives practical guidance, with R software, for circular analysis in single-cell and spatial omics.",
+      "key_points": [
+        "Covers circular representation, inference, clustering, regression, machine learning and spatial analysis.",
+        "Case studies use spatial transcriptomics: circadian peak phase in a mouse Alzheimer's model and cell-cycle position in human ovarian cancer.",
+        "Shows when spatial modelling is not warranted, depending on how the angle and tissue heterogeneity are defined."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.30.741642",
+      "date_added": "2026-10-12",
+      "published": "2026-10-05",
+      "title": "Pervasive Backdoor Vulnerabilities in Genomic Foundation Models",
+      "authors": "Ni S, Wang Q, Wei C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.30.741642",
+      "url": "https://doi.org/10.64898/2026.07.30.741642",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "This preprint shows that genomic foundation models can be backdoored during fine-tuning by poisoning a small fraction of training data with short DNA motifs, including triggers derived from transposon terminal inverted repeats.",
+      "key_points": [
+        "Attacks work across encoder-based and autoregressive models, tasks and scales, while clean-task performance stays almost unchanged.",
+        "Larger models were not more resistant.",
+        "A two-stage auditing framework flags poisoned sequences using single-nucleotide mutation sensitivity, without knowing the trigger."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.01.24.701460",
+      "date_added": "2026-10-12",
+      "published": "2026-10-07",
+      "title": "A Measure of Transcriptional Dyscoordination for Quantifying Aging in Single Cells",
+      "authors": "Yang Y, Hess PR, Chen XE, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.01.24.701460",
+      "url": "https://doi.org/10.64898/2026.01.24.701460",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Computational"
+      ],
+      "summary": "An unsupervised framework that scores transcriptional dyscoordination in single cells as deviation from a learned, predictable structure that accounts for technical noise.",
+      "key_points": [
+        "Dyscoordination rises after genotoxic injury and senescence induction, then falls after senolytic depletion.",
+        "It increases with chronological age across mouse, rat and human tissues, especially in regenerative compartments.",
+        "In human T cells it rises with clonal expansion and effector function, and links to chromatin-based mitotic age and genome instability."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.01.756056",
+      "date_added": "2026-10-12",
+      "published": "2026-10-06",
+      "title": "Identifiable inverse optimal transport for single-cell state transitions",
+      "authors": "Dong H, Gong Y, Liu Y",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.01.756056",
+      "url": "https://doi.org/10.64898/2026.10.01.756056",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "In balanced optimal transport, signed effects of target-state programmes are unidentifiable. UOT-IOT is a semi-relaxed inverse transport framework that restores measurable effects and gives a rank condition for local identifiability.",
+      "key_points": [
+        "Recovers coefficients in ground-truth benchmarks and has the lowest transition error against seven methods under matched conditions.",
+        "IFN/HLA programmes are associated with patient treatment response, and EMT with drug sensitivity and perturbation-induced state changes.",
+        "The PERSIST-IOT module improves prediction of future population composition in an independent experiment."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.7759/cureus.115906",
       "date_added": "2026-10-09",
