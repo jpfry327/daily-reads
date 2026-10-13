@@ -1,13 +1,448 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-12T10:30:00Z",
+  "updated": "2026-10-13T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1016/j.molcel.2026.09.021",
-    "10.1016/j.molcel.2026.09.022",
-    "10.1016/j.cell.2026.09.017"
+    "10.1038/s41588-026-02782-w",
+    "10.1016/j.molcel.2026.09.020",
+    "10.1016/j.molcel.2026.09.021"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02782-w",
+      "date_added": "2026-10-13",
+      "published": "2026-10-12",
+      "title": "Micronuclear ecDNA constrains tumor cell fitness and is associated with favorable patient survival",
+      "authors": "Brückner L, Xu R, Tang J, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02782-w",
+      "url": "https://doi.org/10.1038/s41588-026-02782-w",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution"
+      ],
+      "summary": "Extrachromosomal DNA (ecDNA) lets tumours keep many copies of an oncogene, but its link to micronuclei was unclear. This study shows that damaged ecDNA is a major source of micronuclei and that ecDNA mis-segregation into them limits tumour cell fitness.",
+      "key_points": [
+        "Replication stress promotes mitotic ecDNA clustering, asymmetric inheritance, mis-segregation into micronuclei and lower transcriptional output.",
+        "Single-micronucleus sequencing shows several distinct ecDNA species can coalesce within one micronucleus.",
+        "In MYCN-amplified neuroblastoma, a higher frequency of ecDNA micronuclei at diagnosis is associated with better overall survival."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02782-w.svg",
+        "caption": "Replication-stressed ecDNA is mis-segregated into a micronucleus in the daughter cell, which cuts output and survival of the cell, while more ecDNA micronuclei in neuroblastoma go with better patient survival.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.020",
+      "date_added": "2026-10-13",
+      "published": "2026-10-12",
+      "title": "PHYHD1-mediated translational control regulates renal cell carcinoma progression",
+      "authors": "Liang Q, Zurlo G, Jin J, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.020",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.020",
+      "topics": [
+        "RNA biology",
+        "Machine learning"
+      ],
+      "summary": "PHYHD1 is lost progressively as renal cell carcinoma advances. It binds the elongation factor eEF1A1, changes how eEF1A1 sits on ribosomes and restrains translation, and this works independently of its dioxygenase activity.",
+      "key_points": [
+        "Integrative deep learning analysis of pan-cancer datasets links PHYHD1 loss to tumour advancement and poor prognosis.",
+        "Ribosome profiling and RNA-seq identify ceramide transporter 1 (CERT1) as the key effector: PHYHD1 depletion raises CERT1 translation.",
+        "Restoring PHYHD1 suppresses growth in RCC cells and patient-derived xenografts, and targeting CERT1 impairs PHYHD1-deficient cells."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.molcel.2026.09.020.svg",
+        "caption": "Where PHYHD1 binds eEF1A1, translation of CERT1 mRNA is held in check; where PHYHD1 is lost, CERT1 translation runs freely and RCC progresses.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41467-026-77620-y",
+      "date_added": "2026-10-13",
+      "published": "2026-09-11",
+      "title": "RAISE quantifies RNA binding protein activity via transcriptomic profiling",
+      "authors": "Liu Y, Lo Y, Zheng Y, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77620-y",
+      "url": "https://doi.org/10.1038/s41467-026-77620-y",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Resource"
+      ],
+      "summary": "RAISE is a computational framework that infers the activity of RNA-binding proteins (RBPs) on alternative splicing. It combines CLIP-seq, sequence motifs and splicing changes from RNA-seq to build RBP-exon regulatory networks.",
+      "key_points": [
+        "It accurately inferred RBP activity across multiple cell lines and perturbation experiments, including changes independent of RBP expression.",
+        "Applied to TCGA, it revealed RBPs with altered activity in cancer.",
+        "The authors provide RAISEDB, a database of predicted RBP-exon interactions."
+      ],
+      "data": "RAISEDB",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77609-7",
+      "date_added": "2026-10-13",
+      "published": "2026-09-11",
+      "title": "Cardiac fibroblast deletion of PTBP1 modulates the profibrotic response by alternative splicing",
+      "authors": "Ricketts SN, Farber GM, Verma SK, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77609-7",
+      "url": "https://doi.org/10.1038/s41467-026-77609-7",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "The RNA-binding protein PTBP1 regulates activation of cardiac fibroblasts. Deleting Ptbp1 in these cells reduces fibrosis and preserves heart function in three mouse injury models.",
+      "key_points": [
+        "Ptbp1 deletion in cardiac fibroblasts helped after angiotensin II infusion, transverse aortic constriction and myocardial infarction.",
+        "Transcriptomic and splicing analyses found PTBP1-dependent expression and alternative splicing programmes in extracellular matrix and cytoskeleton genes.",
+        "PTBP1 regulates Fgfr1 alternative splicing, and restoring the FGFR1β isoform partly rescued the contractile defect."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag763",
+      "date_added": "2026-10-13",
+      "published": "2026-10-12",
+      "title": "CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification",
+      "authors": "Fan B, Yin H, Yi S, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag763",
+      "url": "https://doi.org/10.1093/bioinformatics/btag763",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Multi-omics"
+      ],
+      "summary": "CMGL is a multi-omics graph learning method for cancer subtype classification. It estimates how reliable each omics layer is for each patient before fusing them, and uses consensus patient neighbourhoods for graph classification.",
+      "key_points": [
+        "Two problems are addressed: uninformative omics layers weakening the fused representation, and noisy layers adding wrong patient links.",
+        "The reliability estimate is made separately, before fusion, rather than inside the classification objective."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag747",
+      "date_added": "2026-10-13",
+      "published": "2026-10-12",
+      "title": "Dynamic Graph Prior-Guided Latent Adaptation for Generalizable Single-Cell Perturbation Response Prediction",
+      "authors": "Bie Y, Fan P, Yin Q, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag747",
+      "url": "https://doi.org/10.1093/bioinformatics/btag747",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "DGP-LA predicts single-cell transcriptional responses to drugs in cell types the model has not seen. It refines a biological graph prior for each perturbation and injects it as gated latent corrections into a cell-state transition model.",
+      "key_points": [
+        "On the Tahoe and NeurIPS datasets it improves Pearson Delta over State by 8.7% and 35.8% for unseen cell types.",
+        "In zero-shot drug response prediction on unseen cell types it improves Pearson Delta over CRISP by 79.1% and 67.6%.",
+        "It also improves DE-gene recovery and Hallmark pathway recovery."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag758",
+      "date_added": "2026-10-13",
+      "published": "2026-10-12",
+      "title": "smiMAD: Adaptive multi-view graph learning for paired spatial omics integration",
+      "authors": "Tao Y, Wang F",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag758",
+      "url": "https://doi.org/10.1093/bioinformatics/btag758",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "smiMAD integrates paired spatial omics data, where RNA is measured together with chromatin accessibility or protein in the same tissue. It models spatial-neighbourhood and molecular-feature graphs with separate and shared branches.",
+      "key_points": [
+        "Across 17 simulated and 15 real RNA-ATAC and RNA-protein datasets it gave competitive clustering accuracy, spatial coherence and multimodal integration.",
+        "A dynamic strategy gradually relaxes the spatial constraint during training."
+      ],
+      "data": "Zenodo 17207079",
+      "code": "github.com/fdu-wangfeilab/smiMAD"
+    },
+    {
+      "id": "10.1158/0008-5472.CAN-26-1201",
+      "date_added": "2026-10-13",
+      "published": "2026-10-08",
+      "title": "Paired Single-Cell Profiling Reveals Glutathione-Dependent Immune Evasion in Breast Cancer Liver Metastasis",
+      "authors": "Lyu C, Wang M, Wang H, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.CAN-26-1201",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-26-1201",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Tumour evolution"
+      ],
+      "summary": "Single-cell RNA-seq of matched primary tumours and liver metastases from 13 treatment-naive breast cancer patients shows metastases that are immune-infiltrated yet evade destruction. Metastatic cells keep the clonal and genomic diversity of the primary tumour, pointing to polyclonal spread.",
+      "key_points": [
+        "Liver metastases show cytotoxic T cell expansion and fewer regulatory T cells, yet still escape immune attack.",
+        "Elevated glutathione metabolism in the liver fosters glutamine addiction, and network analysis points to NRF2 as a regulator.",
+        "Inhibiting NRF2 and glutathione reduced liver metastasis in vivo and was associated with stronger antitumour immunity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag720",
+      "date_added": "2026-10-13",
+      "published": "2026-10-09",
+      "title": "hpci improves reproducibility of computational biology research by integrating Continuous Integration with High Performance Computing clusters",
+      "authors": "Menzies IJ, Urng E, Bouras G, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag720",
+      "url": "https://doi.org/10.1093/bioinformatics/btag720",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "hpci links continuous integration platforms such as GitHub Actions and GitLab CI to HPC schedulers (Slurm, PBS), so analysis pipelines can be tested automatically on a cluster. It runs as an unprivileged user over SSH and needs no cluster-side installation.",
+      "key_points": [
+        "It ends with the same exit code as the HPC job, so CI steps stop when the job fails.",
+        "The authors show it on five computational biology workflows.",
+        "Written in Haskell, GPL-3.0."
+      ],
+      "data": "",
+      "code": "github.com/Garvan-Data-Science-Platform/hpci"
+    },
+    {
+      "id": "10.64898/2026.10.06.757003",
+      "date_added": "2026-10-13",
+      "published": "2026-10-07",
+      "title": "A Ribosomal RNA modification regulates translation of PI3K/AKT activators in high-grade serous ovarian carcinoma",
+      "authors": "Rivera Pizana A, Faucher-Giguère L, Scott MS, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757003",
+      "url": "https://doi.org/10.64898/2026.10.06.757003",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "SNORA81 directs pseudouridylation of 28S rRNA at U4636 and is linked to high-grade serous ovarian carcinoma. Depleting it changes the ribosome association of hundreds of mRNAs, many of them PI3K/AKT regulators.",
+      "key_points": [
+        "Polysome profiling after SNORA81 depletion found 524 mRNAs with altered ribosome association, 485 independent of RNA abundance, including 29 PI3K/AKT regulators.",
+        "Depletion reduced AKT phosphorylation, cell growth and migration, and lowered ITGB4 and RASGRP2 protein.",
+        "ITGB4 expression partly restored growth after depletion."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757201",
+      "date_added": "2026-10-13",
+      "published": "2026-10-08",
+      "title": "The impact of sex and ancestry on the molecular landscape of pancreatic adenocarcinoma",
+      "authors": "Chen CY, Arbet JY, Zhu C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757201",
+      "url": "https://doi.org/10.64898/2026.10.06.757201",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "A re-analysis of 7,527 pancreatic cancers from five datasets asks how sex and ancestry shape genomic instability and driver events. Ancestry was linked to both global and gene-specific mutation patterns.",
+      "key_points": [
+        "SNV burden was higher in African-ancestry tumours and lower in Asian-ancestry tumours than in European-ancestry tumours.",
+        "GNAS driver SNVs were found more often in Asian and less often in African ancestry.",
+        "No sex or ancestry associations were found for KRAS overall, though individual KRAS variants trended with ancestry."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757186",
+      "date_added": "2026-10-13",
+      "published": "2026-10-07",
+      "title": "An androgen-derived transcriptional state reveals signaling and mitochondrial vulnerabilities in cancer",
+      "authors": "Miao Y, Baba T",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757186",
+      "url": "https://doi.org/10.64898/2026.10.06.757186",
+      "topics": [
+        "Cancer genomics",
+        "Computational"
+      ],
+      "summary": "A transcriptional signature derived from dihydrotestosterone-treated mouse adrenal cells is projected onto human cancer cell lines as an 'androgen-suppressed transcriptional state' (ASTS). Using pharmacogenomic and CRISPR dependency data, the state is linked to drug resistance and dependencies.",
+      "key_points": [
+        "Higher ASTS goes with resistance to EGFR-targeted drugs and lower EGFR dependency.",
+        "It also goes with greater dependency on mitochondrial translation and respiratory electron transport.",
+        "The associations are not due to one lineage and hold after adjusting for oncogenic drivers."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755517",
+      "date_added": "2026-10-13",
+      "published": "2026-10-06",
+      "title": "sORF-Trans2MS: a two-module deep learning framework for sORF translation and MS-supported microprotein prediction",
+      "authors": "He J, Sui J, Chen Q, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755517",
+      "url": "https://doi.org/10.64898/2026.09.29.755517",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "sORF-Trans2MS predicts which small open reading frames are translated, using two modules: one for Ribo-seq-supported sORFs and one for microproteins supported by mass spectrometry but not Ribo-seq.",
+      "key_points": [
+        "Module I combines RNA-FM representations with a Transformer and reached an AUROC of 0.870 internally and 0.930 on an independent GENCODE set.",
+        "Module II adds ESM-2 protein representations and reached AUROC 0.804 internally and 0.785 on an independent mass spectrometry set.",
+        "Ablation highlighted upstream RNA context, including a signal about 50 nt upstream of the AUG."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.30.755660",
+      "date_added": "2026-10-13",
+      "published": "2026-10-06",
+      "title": "pre-miRBench: a multispecies benchmark and reference model for animal precursor microRNA prediction",
+      "authors": "Tzimotoudis D, Chatzitolios VK, Alexiou P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.30.755660",
+      "url": "https://doi.org/10.64898/2026.09.30.755660",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "pre-miRBench is a benchmark of 7,056 pre-miRNA windows and 70,560 genomic negatives from 71 animal species, with four test sets that hold out species, miRNA family, both or neither. Six published predictors were retrained on it.",
+      "key_points": [
+        "The reference model, an ensemble of three neural networks built with an LLM-agent system, had the highest mean AP (0.9809 versus 0.9719 for dnnPreMiR).",
+        "On the joint species-and-family holdout dnnPreMiR was slightly ahead, and the difference was not significant."
+      ],
+      "data": "Zenodo 22813044",
+      "code": "github.com/dimostzim/pre-miRBench"
+    },
+    {
+      "id": "10.64898/2026.09.30.755663",
+      "date_added": "2026-10-13",
+      "published": "2026-10-06",
+      "title": "ASTRA enables zero-shot super-resolution of spatial transcriptomics across capture geometries",
+      "authors": "Ye J, Cui Q",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.30.755663",
+      "url": "https://doi.org/10.64898/2026.09.30.755663",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "ASTRA is a pretrained model that reconstructs higher-resolution spatial expression from histology and measured RNA without fitting a model to each section. Training on arbitrarily shaped count-bearing regions lets one frozen model handle dense bins and separated spots.",
+      "key_points": [
+        "On six held-out Visium HD sections it had higher correlations, lower errors and shorter run times than existing methods.",
+        "It improved colorectal tissue segmentation and tumour-boundary recovery.",
+        "The same checkpoint was applied to 43 invasive lobular carcinoma and 92 triple-negative breast cancer sections."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.29.755425",
+      "date_added": "2026-10-13",
+      "published": "2026-10-06",
+      "title": "lisaR: An LLM-Inferred Semantic Annotation of biological categories for gene set enrichment analysis",
+      "authors": "Velasco-Lopez C, de la Vega-Barranco G, Olmeda D",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.29.755425",
+      "url": "https://doi.org/10.64898/2026.09.29.755425",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "lisaR is an R package that runs GSEA on existing differential expression results and groups the output into 158 biological categories using fixed LLM-inferred dictionaries. No language model is queried during an analysis.",
+      "key_points": [
+        "The dictionaries place 13,511 gene sets from GO, Reactome, WikiPathways, KEGG, BioCarta and PID into categories scored by four open-weight models.",
+        "Closed testing with Hommel's procedure gives a simultaneous lower bound on enriched gene sets per category.",
+        "Examples: melanoma biopsies on nivolumab and clear cell renal carcinoma proteomics."
+      ],
+      "data": "",
+      "code": "github.com/DBM-OlmedaLab/lisaR"
+    },
+    {
+      "id": "10.64898/2026.05.23.727431",
+      "date_added": "2026-10-13",
+      "published": "2026-05-27",
+      "title": "gRely: Relyability for genome trained sequence-to-expression models",
+      "authors": "Rafi AM, Eraslan G, Fletez-Brant K",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.23.727431",
+      "url": "https://doi.org/10.64898/2026.05.23.727431",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "gRely is a meta-model that estimates how likely a Borzoi variant-effect prediction is to get the eQTL direction right, instead of filtering by prediction magnitude alone.",
+      "key_points": [
+        "On held-out tissues it reached a mean average precision of 0.885 (random baseline 0.744).",
+        "Among low-magnitude predictions it found a high-confidence subset with 76% accuracy against a 58% baseline.",
+        "It also improved AlphaGenome predictions."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1016/j.molcel.2026.09.021",
       "date_added": "2026-10-12",

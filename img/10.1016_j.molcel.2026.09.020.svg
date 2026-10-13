@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">PHYHD1 restrains translation in RCC</text>
+<!-- left: PHYHD1 present -->
+<rect x="14" y="54" width="300" height="248" rx="12" fill="#3C9A2E" fill-opacity="0.06" stroke="#3C9A2E" stroke-width="2"/>
+<text x="164" y="80" text-anchor="middle" font-size="16" font-weight="700" fill="#3C9A2E">PHYHD1 present</text>
+<ellipse cx="164" cy="158" rx="62" ry="40" fill="#8A949E" fill-opacity="0.25" stroke="#8A949E" stroke-width="2"/>
+<text x="164" y="164" text-anchor="middle" font-size="15" font-weight="700" fill="#2B3138">Ribosome</text>
+<rect x="30" y="92" width="74" height="24" rx="12" fill="#1E5FA8"/><text x="67" y="109" text-anchor="middle" font-size="13" fill="#fff">eEF1A1</text>
+<rect x="224" y="92" width="78" height="26" rx="13" fill="#3C9A2E"/><text x="263" y="110" text-anchor="middle" font-size="13" fill="#fff">PHYHD1</text>
+<path d="M224 105 L106 105" stroke="#3C9A2E" stroke-width="3" stroke-dasharray="5 4"/>
+<path d="M40 228 L288 228" stroke="#D98A00" stroke-width="4" stroke-linecap="round"/>
+<text x="164" y="218" text-anchor="middle" font-size="13" fill="#D98A00" font-weight="700">CERT1 mRNA</text>
+<text x="164" y="254" text-anchor="middle" font-size="14" fill="#2B3138">Translation held in check</text>
+<rect x="104" y="266" width="120" height="26" rx="13" fill="#fff" stroke="#3C9A2E" stroke-width="2"/><text x="164" y="284" text-anchor="middle" font-size="13" fill="#2B3138">Little CERT1</text>
+<!-- right: PHYHD1 lost -->
+<rect x="326" y="54" width="300" height="248" rx="12" fill="#C8323F" fill-opacity="0.06" stroke="#C8323F" stroke-width="2"/>
+<text x="476" y="80" text-anchor="middle" font-size="16" font-weight="700" fill="#C8323F">PHYHD1 lost</text>
+<ellipse cx="476" cy="158" rx="62" ry="40" fill="#8A949E" fill-opacity="0.25" stroke="#8A949E" stroke-width="2"/>
+<text x="476" y="164" text-anchor="middle" font-size="15" font-weight="700" fill="#2B3138">Ribosome</text>
+<rect x="342" y="92" width="74" height="24" rx="12" fill="#1E5FA8"/><text x="379" y="109" text-anchor="middle" font-size="13" fill="#fff">eEF1A1</text>
+<path d="M352 228 L600 228" stroke="#D98A00" stroke-width="4" stroke-linecap="round"/>
+<text x="476" y="218" text-anchor="middle" font-size="13" fill="#D98A00" font-weight="700">CERT1 mRNA</text>
+<text x="476" y="254" text-anchor="middle" font-size="14" fill="#2B3138">Translation runs freely</text>
+<rect x="404" y="266" width="144" height="26" rx="13" fill="#C8323F"/><text x="476" y="284" text-anchor="middle" font-size="13" fill="#fff">More CERT1 protein</text>
+<!-- bottom -->
+<rect x="14" y="322" width="612" height="62" rx="12" fill="#1E5FA8" fill-opacity="0.07" stroke="#1E5FA8" stroke-width="2"/>
+<text x="320" y="348" text-anchor="middle" font-size="15" font-weight="700" fill="#2B3138">Renal cell carcinoma progression</text>
+<text x="320" y="370" text-anchor="middle" font-size="14" fill="#2B3138">Targeting CERT1 slows PHYHD1-deficient cells</text>
+</svg>
