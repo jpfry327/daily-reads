@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">Metastatic mutations arrive late</text>
+<!-- time axis -->
+<path d="M30 340 H610" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="610" y="366" text-anchor="end" font-size="14" fill="#2B3138">Time</text>
+<!-- dissemination line -->
+<line x1="215" y1="56" x2="215" y2="340" stroke="#8A949E" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="215" y="366" text-anchor="middle" font-size="14" font-weight="700" fill="#8A949E">Dissemination</text>
+<!-- primary tumour -->
+<ellipse cx="108" cy="170" rx="70" ry="58" fill="#1E5FA8" fill-opacity="0.12" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="108" y="104" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5FA8">Primary tumour</text>
+<g fill="#1E5FA8"><circle cx="82" cy="160" r="6"/><circle cx="120" cy="140" r="6"/><circle cx="130" cy="186" r="6"/><circle cx="94" cy="196" r="6"/></g>
+<text x="108" y="250" text-anchor="middle" font-size="14" fill="#2B3138">Early driver mutations</text>
+<!-- DTC -->
+<path d="M180 170 H262" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="296" cy="170" r="24" fill="#D98A00" fill-opacity="0.15" stroke="#D98A00" stroke-width="2.5"/>
+<text x="296" y="136" text-anchor="middle" font-size="15" font-weight="700" fill="#D98A00">Disseminated cell</text>
+<!-- mutation accumulation ladder -->
+<g stroke="#C8323F" stroke-width="3" fill="#C8323F">
+<circle cx="372" cy="170" r="6"/><circle cx="420" cy="170" r="6"/><circle cx="468" cy="170" r="6"/>
+</g>
+<path d="M322 170 H362 M382 170 H410 M430 170 H458 M478 170 H500" stroke="#2B3138" stroke-width="2.5"/>
+<text x="420" y="204" text-anchor="middle" font-size="14" fill="#C8323F" font-weight="700">APOBEC mutagenesis</text>
+<!-- metastasis -->
+<g fill="#C8323F" fill-opacity="0.15" stroke="#C8323F" stroke-width="2.5"><circle cx="560" cy="170" r="42"/></g>
+<g fill="#C8323F"><circle cx="544" cy="160" r="6"/><circle cx="572" cy="154" r="6"/><circle cx="580" cy="182" r="6"/><circle cx="552" cy="186" r="6"/><circle cx="564" cy="170" r="6"/></g>
+<text x="560" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#C8323F">Metastasis</text>
+<!-- latency bracket -->
+<path d="M222 300 H500" stroke="#D98A00" stroke-width="3" marker-end="url(#a)"/>
+<path d="M222 292 V308" stroke="#D98A00" stroke-width="3"/>
+<text x="360" y="288" text-anchor="middle" font-size="15" font-weight="700" fill="#D98A00">Latency to recurrence</text>
+<text x="360" y="326" text-anchor="middle" font-size="14" fill="#2B3138">Time to gain remaining driver mutations</text>
+<!-- pathway note -->
+<rect x="420" y="232" width="198" height="34" rx="8" fill="#fff" stroke="#8A949E" stroke-width="2"/>
+<text x="519" y="254" text-anchor="middle" font-size="14" fill="#2B3138">Same 10 pathways recur</text>
+</svg>

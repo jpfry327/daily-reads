@@ -1,13 +1,575 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-13T10:30:00Z",
+  "updated": "2026-10-14T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02782-w",
-    "10.1016/j.molcel.2026.09.020",
-    "10.1016/j.molcel.2026.09.021"
+    "10.1016/j.cell.2026.08.053",
+    "10.1158/2159-8290.CD-25-2090",
+    "10.1038/s41588-026-02779-5"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02779-5",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "Clonal heterogeneity in human pancreatic ductal adenocarcinoma and its impact on tumor progression",
+      "authors": "Kalfakakou D, Cameron DC, Kawaler EA, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02779-5",
+      "url": "https://doi.org/10.1038/s41588-026-02779-5",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Tumour evolution"
+      ],
+      "summary": "Single-cell RNA sequencing of 62 primary pancreatic tumours (443,451 cells), 11 of them with matched spatial transcriptomics, resolves genetically distinct clones within each tumour. Focal 8q24 (MYC) amplification is linked to classical-to-basal transitions and loss of immune-response programmes.",
+      "key_points": [
+        "Clones coexist within single tumours and show clone-specific ligand-receptor programmes that follow gene dosage: amplifications enrich interactions, deletions suppress them.",
+        "MYC knockdown in murine and primary human models reactivated classical programmes and restored immune-response pathways.",
+        "Dispersed clones with EMT and immune-suppression activity correlated with metastatic potential and lymph node colonisation; six tumours were also sampled before and after chemotherapy."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02779-5.svg",
+        "caption": "A pancreatic tumour map of three clones, one carrying 8q24 MYC gain, which tips cells from a classical, immune-active state to a basal, immune-off state that MYC knockdown reverses.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.08.053",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "Rare k-mers reveal centromere haplogroups underlying human diversity and cancer translocations",
+      "authors": "Shiraishi Y, Ochi Y, Sugawa M, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.08.053",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.053",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Structural variants"
+      ],
+      "summary": "Rare k-mers in centromeric regions define discrete, lineage-specific haplogroups. The authors built ascairn to infer them from short-read whole-genome sequencing and applied it to more than 3,300 genomes and 142 oligodendroglioma cases.",
+      "key_points": [
+        "Centromere haplogroups show extensive global diversity and carry signatures of population history.",
+        "In 142 oligodendrogliomas with 1p/19q co-deletion, breakpoints map to the centromeres of chromosomes 1 and 19, positioned relative to kinetochore attachment sites.",
+        "Centromere haplotype structure is linked to susceptibility to rearrangement."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.cell.2026.08.053.svg",
+        "caption": "Rare k-mers on three centromere arrays sort them into haplogroups A, B and C, and 1p/19q co-deletion breakpoints in oligodendroglioma fall at the centromeres of chromosomes 1 and 19.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/2159-8290.CD-25-2090",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "Mutability Dependence of Breast Cancer Metastasis and Latency to Recurrence",
+      "authors": "Lawrence-Paul MR, Pan TC, Pant DK, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-25-2090",
+      "url": "https://doi.org/10.1158/2159-8290.CD-25-2090",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution"
+      ],
+      "summary": "Analysis of genomic data from 662 paired and about 6,000 unpaired primary and metastatic breast tumours finds that metastasis-specific mutations are often acquired after dissemination, with a disproportionate share from APOBEC mutagenesis. The authors propose a mutability-dependent model of metastasis.",
+      "key_points": [
+        "Metastasis-specific mutations converge on recurrent pathways that differ from those altered in primary tumours and depend on metastatic site; 95% of patients carry them in a minimum set of 10 pathways.",
+        "More than half of the variation in metastatic latency across patients is explained by when mutations in these pathways were acquired relative to dissemination.",
+        "Latency may reflect the time disseminated cells need to acquire the remaining drivers."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-25-2090.svg",
+        "caption": "Driver mutations in the primary tumour come first, then APOBEC mutagenesis in the disseminated cell adds the remaining mutations, and that time sets the latency to metastatic recurrence.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.015",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "Transposable element splicing reveals a tumor-enriched class of gene-independent transcripts",
+      "authors": "Li Z, Bao Y, Yu H, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.015",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.015",
+      "topics": [
+        "Cancer genomics",
+        "Splicing",
+        "Pan-cancer"
+      ],
+      "summary": "A pan-cancer survey of splicing involving transposable elements defines TEtrans, spliced transcripts that start in TEs, are made mostly of TE sequence and are enriched in tumours independent of host genes. One endogenous retrovirus-derived TEtrans promotes colorectal cancer growth and some encode shared tumour antigens.",
+      "key_points": [
+        "TEtrans expression is linked to stemness and inflammation regulators in a context-dependent way.",
+        "An endogenous retrovirus-derived TEtrans promotes colorectal cancer growth by enhancing topoisomerase I-mediated DNA relaxation.",
+        "A subset of TEtrans encodes shared tumour antigens that drive antigen-specific cytotoxic T cell responses, and a mouse TEtrans-like transcript controls tumours in vivo."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.027",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "A feedback mechanism of m6A via PARP1-mediated ADP ribosylation of METTL3/METTL14",
+      "authors": "Bai Y, Zhou Z, Yan X, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.027",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.027",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "In human cell lines, m6A readers IGF2BPs recruit PARP1 to m6A-modified RNAs, and PARP1 then ADP-ribosylates the writer METTL3/METTL14, reducing m6A deposition. This read-orchestrate-write loop is a negative feedback on m6A levels.",
+      "key_points": [
+        "ADP ribosylation impairs METTL3/14 RNA-binding capability and so reduces m6A deposition.",
+        "Combining a PARP inhibitor with inhibition of IGF2BP2 or METTL3 gave synergistic anti-tumour effects.",
+        "The work extends the writer/eraser/reader model by showing signalling pathways can regulate m6A homeostasis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag945",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "Double-base deletions and signatures associated with platinum adducts in metastatic cancer",
+      "authors": "Smid M, van Leeuwen L, Wilting SM, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag945",
+      "url": "https://doi.org/10.1093/nar/gkag945",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "Platinum drugs make G-G intrastrand adducts, yet existing platinum-linked double-base substitution signatures have no GG component. In a large pan-cancer metastatic cohort the authors derive de novo signatures that include double-base deletions.",
+      "key_points": [
+        "One oxaliplatin-associated signature is dominated by GG deletion and also contains new and known substitutions.",
+        "Signatures with TT deletion as the single feature are strongly associated with microsatellite instability in several cohorts, and provisionally in liquid biopsies.",
+        "The signatures extend the catalogue of mutational effects of platinum."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag969",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "RiboBA: a bias-aware probabilistic framework for robust ORF identification across diverse ribosome profiling protocols",
+      "authors": "Bai J, Yang R",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag969",
+      "url": "https://doi.org/10.1093/nar/gkag969",
+      "topics": [
+        "RNA biology",
+        "Computational"
+      ],
+      "summary": "RiboBA is a probabilistic framework that models protocol-induced biases in ribosome profiling, which blur the three-nucleotide periodicity that ORF callers rely on. It jointly infers these biases and codon-level occupancy, then calls translated ORFs and initiation sites.",
+      "key_points": [
+        "It improved exact nucleotide- and codon-level P-site assignment over a fixed-offset approach in simulations.",
+        "Across simulations and empirical datasets, with immunopeptidomics as orthogonal support, it improved non-canonical ORF identification, most for RNase I libraries with weak periodicity and for MNase and nuclease P1 data.",
+        "In Drosophila it flagged candidate ncORFs, including upstream translation in ThrRS and Mettl2."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281770.125",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "Reconstruction of contact signals from repeated elements with Hicberg",
+      "authors": "Gradit S, Ortion S, Larrous P, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281770.125",
+      "url": "https://doi.org/10.1101/gr.281770.125",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics"
+      ],
+      "summary": "Hicberg is an algorithm that recovers reads usually discarded because they map to repeats, using statistical inference to place missing 3D contacts of transposons, rDNA and other repeated elements from paired data such as Hi-C.",
+      "key_points": [
+        "It gives new views of how repetitive elements shape the spatial organisation of genomes.",
+        "In yeast it placed molecular motors that form chromosomal loops next to certain transposons."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag760",
+      "date_added": "2026-10-14",
+      "published": "2026-10-10",
+      "title": "TL-iGeneCombo: Transfer Learning for Individual Sample Specific Gene Combination Effect Prediction and Selection in Cancer Cells",
+      "authors": "Gökbağ B, Wang L, Yang C, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag760",
+      "url": "https://doi.org/10.1093/bioinformatics/btag760",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "TL-iGeneCombo uses transfer learning to borrow combinatorial double-knockout data from other cancer cell lines to predict synthetic lethality and gene combination effects in a target cell line.",
+      "key_points": [
+        "It improved synthetic lethality classification accuracy by 19% and the Spearman correlation of combination effect scores by 29%.",
+        "Gene pairs designed with a model built on the first double-knockout experiment in 22RV1 prostate cancer cells were tested in a second experiment; the combination-effect prediction held, the synthetic lethality prediction did not."
+      ],
+      "data": "",
+      "code": "github.com/BirkanGokbag/TL-iGeneCombo"
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-2212",
+      "date_added": "2026-10-14",
+      "published": "2026-10-14",
+      "title": "DNA-Based Biomarkers as Predictors of Carboplatin Response in Neoadjuvant Treatment for Hormone Receptor Positive and Triple-Negative Breast Cancer",
+      "authors": "Pladsen AV, Smebye ML, Garred Ø, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-2212",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-2212",
+      "topics": [
+        "Cancer genomics",
+        "Clinical",
+        "Copy number"
+      ],
+      "summary": "In a randomised neoadjuvant trial of 187 patients with high-risk HER2-negative breast cancer, pretreatment whole-exome sequencing gave genome-instability scores (CAAI, LOH fraction, HRD status) that were tested as predictors of benefit from added carboplatin.",
+      "key_points": [
+        "In triple-negative disease, carboplatin raised pCR from 43% to 69% and prolonged event-free survival, with the clearest benefit in tumours with a low genomic LOH fraction (confirmed prognostic effect in an independent cohort of 67).",
+        "In hormone receptor-positive disease, pCR was not significantly different, but low residual cancer burden rose from 16% to 35%.",
+        "HRD-positive hormone receptor-positive tumours had pCR in 5 of 8 with carboplatin, versus 4 of 47 HRD-negative."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.jbo.2026.100805",
+      "date_added": "2026-10-14",
+      "published": "2026-09-27",
+      "title": "Ultrastructural pathological features and clinical significance of recurrent chordoma",
+      "authors": "Zhang Q, Yang H, Zhang C, et al.",
+      "venue": "Journal of Bone Oncology",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1016/j.jbo.2026.100805",
+      "url": "https://doi.org/10.1016/j.jbo.2026.100805",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Transmission electron microscopy of 50 recurrent and 50 primary chordoma specimens (16 matched pairs from the same patient) compares subcellular features of recurrence.",
+      "key_points": [
+        "Recurrent tumours showed atypical cytoplasmic vacuolation with giant cystic fusion, mitochondrial injury, loss of mitochondria-associated ER membrane complexes, nuclear atypia, lost desmosomal junctions, invadopodia and stromal microvascular dysplasia, all significantly more often than primary tumours.",
+        "Severity of ultrastructural damage rose with the number of prior recurrences.",
+        "The series is cross-sectional and not linked to survival, so use for risk prediction remains a hypothesis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1007/s00586-026-10416-2",
+      "date_added": "2026-10-14",
+      "published": "2026-10-13",
+      "title": "Primary spinal bone sarcomas in Japan: a nationwide comparative analysis of demographic and pathologic features, treatment patterns, and survival",
+      "authors": "Toda Y, Ogura K, Morizane C, et al.",
+      "venue": "European Spine Journal",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1007/s00586-026-10416-2",
+      "url": "https://doi.org/10.1007/s00586-026-10416-2",
+      "topics": [
+        "Chordoma",
+        "Clinical",
+        "Sarcoma"
+      ],
+      "summary": "A retrospective national registry study of 3,755 Japanese patients with primary bone sarcoma diagnosed 2016 to 2019, comparing 356 spinal tumours with non-spinal ones. Chordoma is among the spinal histologies.",
+      "key_points": [
+        "Spinal sarcomas presented at older age and at a more advanced stage, were less often managed at specialist centres, and had lower 3-year survival (45% vs 69%).",
+        "Within the spinal group, osteosarcoma had significantly worse survival than chordoma (HR 5.98), and distant disease predicted worse survival than localised disease (HR 3.54)."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.09.758054",
+      "date_added": "2026-10-14",
+      "published": "2026-10-11",
+      "title": "Inferring ecDNA Evolution from Allele Frequency Spectra",
+      "authors": "Dameracharla B, Prasad G, Luebeck J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.758054",
+      "url": "https://doi.org/10.64898/2026.10.09.758054",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution",
+        "Copy number"
+      ],
+      "summary": "ecEvol infers when an extrachromosomal DNA (ecDNA) arose, its selection strength, mutation rate and clonal dominance from allele frequency spectra in bulk whole-genome sequencing of one tumour biopsy.",
+      "key_points": [
+        "In primary, treatment-naive tumours ecDNA typically emerges early and is under strong positive selection, with variation across cancer types; ecDNA carrying known oncogenes emerges earlier and becomes more dominant.",
+        "In advanced, mostly treated tumours ecDNA emerges later than in matched primaries, and earlier emergence is associated with poorer overall survival."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.05.756871",
+      "date_added": "2026-10-14",
+      "published": "2026-10-12",
+      "title": "Optimizing copy number profiles for tumor cell phylogeny inference from low-coverage single-cell sequencing data",
+      "authors": "Ahmed N, Weiner S, Payne C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.05.756871",
+      "url": "https://doi.org/10.64898/2026.10.05.756871",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "Tumour cell phylogenies built from low-coverage single-cell DNA sequencing depend heavily on the bin size used to infer copy number profiles. The authors show this on three real datasets and in simulations, and propose a way to choose bin size.",
+      "key_points": [
+        "Small changes in bin size can strongly change reconstructed phylogenies, even in idealised simulations.",
+        "The proposed selection approach significantly improved reconstruction accuracy over baselines across coverage levels and reconstruction methods."
+      ],
+      "data": "",
+      "code": "github.com/Tanveer14/BinSelector"
+    },
+    {
+      "id": "10.64898/2026.10.08.757715",
+      "date_added": "2026-10-14",
+      "published": "2026-10-11",
+      "title": "Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner",
+      "authors": "Atanda HC, Ewing AD",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.08.757715",
+      "url": "https://doi.org/10.64898/2026.10.08.757715",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "unduliner is a framework with a pretrained convolutional neural network that predicts which somatic SNVs and structural variants are associated with methylation changes in cancer genomes, using nanopore reads that carry both variants and base modification.",
+      "key_points": [
+        "The model reached 0.803 accuracy on validation and 0.897 on held-out test data.",
+        "On MCF7 subline-specific variants it found variant-linked methylation differences independent of haplotype effects; in one pancreatic ductal adenocarcinoma it linked coding and non-coding variants to tumour-normal and allele-specific methylation."
+      ],
+      "data": "",
+      "code": "github.com/Chisomgold/unduliner"
+    },
+    {
+      "id": "10.1101/2025.11.02.686099",
+      "date_added": "2026-10-14",
+      "published": "2026-10-14",
+      "title": "Calibrated analysis framework for nanopore direct RNA sequencing uncovers cell-specific m6A proportions at conserved sites",
+      "authors": "Ohnezeit D, Loliashvili E, Putzel G, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.11.02.686099",
+      "url": "https://doi.org/10.1101/2025.11.02.686099",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "RNA modifications",
+        "Benchmarking"
+      ],
+      "summary": "This work benchmarks m6A mapping by nanopore direct RNA sequencing with Dorado modification-aware basecalling, using primary-cell RNA, unmodified in vitro transcripts and a methyltransferase inhibitor as controls, and compares it with GLORI on the same RNA.",
+      "key_points": [
+        "Stringent filtering is needed to remove background, and Dorado calls capture more GLORI sites at high m6A/A proportions.",
+        "Applied to human fibroblasts and HD10.6 neurons, it detected differences in predicted m6A/A proportions at conserved sites between the two cell types."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.05.756841",
+      "date_added": "2026-10-14",
+      "published": "2026-10-12",
+      "title": "phyloDS: phylogeny-aware differential splicing across species, beyond reference annotations",
+      "authors": "Liehrmann A, Carrel Billiard L, Bastide P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.05.756841",
+      "url": "https://doi.org/10.64898/2026.10.05.756841",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Isoforms"
+      ],
+      "summary": "phyloDS compares alternative splicing across species by defining orthologous splice junctions on alignments of one-to-one orthologous genes, testing differential usage with a regularised Ornstein-Uhlenbeck model, and checking shifts against sequence-based splice-site predictions.",
+      "key_points": [
+        "On primate brain and rodent heart RNA-seq it recovered up to 2.9-fold more shared orthologous junctions than a reference-based strategy and kept type I error near nominal where other methods inflate it more than two-fold.",
+        "It found 234 differentially used junctions in hominoids and 502 in mole-rats (86 and 141 unannotated), including a mitochondrial and contractile splicing signature in mole-rats."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.01.755973",
+      "date_added": "2026-10-14",
+      "published": "2026-10-08",
+      "title": "Robust ORF Deconvolution from Multiple Ribo-seq Datasets with Group LASSO Penalty",
+      "authors": "Maidhof K, Schlosser A, Erhard F",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.01.755973",
+      "url": "https://doi.org/10.64898/2026.10.01.755973",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "PRICE 2 resolves short, weakly translated and overlapping ORFs in Ribo-seq by adapting isoform deconvolution: a generative model with group LASSO regression infers active ORFs jointly across runs.",
+      "key_points": [
+        "It outperformed thirteen other tools on short and overlapping ORFs in a benchmark.",
+        "ORFs it called yielded about 40% more cryptic MHC-I peptides than the best competing tool at a fixed false discovery rate.",
+        "Public ribo-seq from 45 cell and tissue types was used to build ORF-stock, a database of non-canonical ORFs."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.09.757944",
+      "date_added": "2026-10-14",
+      "published": "2026-10-11",
+      "title": "WarpDemuX-custom - Multiplexed sequence-specific direct RNA sequencing",
+      "authors": "Naarmann-de Vries I, van der Toorn W, Mishra S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.757944",
+      "url": "https://doi.org/10.64898/2026.10.09.757944",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "RNA modifications"
+      ],
+      "summary": "An improved sequence-specific nanopore direct RNA protocol for ribosomal RNA, with longer reads and better capture of human 28S rRNA, plus an expanded WarpDemuX toolbox for flexible (de)multiplexing of non-polyadenylated RNAs.",
+      "key_points": [
+        "Validated in human cell lines with knockouts of different C/D box snoRNAs that direct 2'-O-methylation of 28S rRNA, detecting the associated modification changes.",
+        "The approach was also validated on another panel of non-polyadenylated RNAs."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.09.757882",
+      "date_added": "2026-10-14",
+      "published": "2026-10-12",
+      "title": "STARgrid: an open-source pipeline from Visium HD sequencing reads to count matrices",
+      "authors": "Hung L-H, Yeung KY",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.757882",
+      "url": "https://doi.org/10.64898/2026.10.09.757882",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "STARgrid is an open-source pipeline from Visium HD FASTQ files to count matrices at 2, 8 and 16 um, offered as an alternative to Space Ranger, which cannot be modified or redistributed.",
+      "key_points": [
+        "On three human slides gene totals correlate at least 0.9989 with Space Ranger, with 20-35% less wall time.",
+        "It resolves location per molecule rather than per read, giving molecule totals 1.9-7.6% higher; against an adjacent Xenium section its counts were closer for 15 of 20 cancer panel genes.",
+        "The authors call the results preliminary."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756356",
+      "date_added": "2026-10-14",
+      "published": "2026-10-09",
+      "title": "DECONVersation: Single Cell Foundation Model-Derived Embeddings for Robust Cell Type Deconvolution of Bulk RNA-seq",
+      "authors": "Oku A, Geiger H, Robine N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756356",
+      "url": "https://doi.org/10.64898/2026.10.02.756356",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Deconvolution",
+        "Machine learning"
+      ],
+      "summary": "DECONVersation uses embeddings from pretrained or fine-tuned single-cell foundation models with a non-negative least squares solver to estimate cell type proportions in bulk RNA-seq, avoiding explicit marker gene selection.",
+      "key_points": [
+        "Benchmarked against MuSiC, DWLS and BayesPrism, it was comparable or better across diverse tissues.",
+        "Tissue-specific fine-tuning improved performance further."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.08.757673",
+      "date_added": "2026-10-14",
+      "published": "2026-10-11",
+      "title": "A unified framework for quantitative splicing and transcript prediction",
+      "authors": "Jaganathan K, Chen J, Liu X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.08.757673",
+      "url": "https://doi.org/10.64898/2026.10.08.757673",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Machine learning"
+      ],
+      "summary": "SpliceAI2 is a deep learning model trained end to end on splice site, junction and transcript usage across mammalian species. It rebuilds whole transcripts from genomic sequence and quantifies the effect of splice-altering variants.",
+      "key_points": [
+        "It improved detection and quantification of splice-altering variants across benchmarks of cryptic splicing, splicing QTLs and massively parallel reporter assays.",
+        "In a rare disease cohort, predicted splice-altering variants were enriched in disease genes and accounted for 15% of the excess genetic burden, about half of them deep intronic."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02782-w",
       "date_added": "2026-10-13",

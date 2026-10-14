@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">PDAC clones switch state via MYC</text>
+<!-- tumour map with three clones -->
+<circle cx="150" cy="200" r="118" fill="#fff" stroke="#8A949E" stroke-width="2.5"/>
+<path d="M150 82 A118 118 0 0 1 252 142 L150 200Z" fill="#1E5FA8" fill-opacity="0.2" stroke="#1E5FA8" stroke-width="2"/>
+<path d="M252 142 A118 118 0 0 1 150 318 L150 200Z" fill="#D98A00" fill-opacity="0.22" stroke="#D98A00" stroke-width="2"/>
+<path d="M150 318 A118 118 0 0 1 150 82 L150 200Z" fill="#3C9A2E" fill-opacity="0.18" stroke="#3C9A2E" stroke-width="2"/>
+<text x="196" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">Clone 1</text>
+<text x="206" y="226" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">Clone 2</text>
+<text x="96" y="204" text-anchor="middle" font-size="14" font-weight="700" fill="#3C9A2E">Clone 3</text>
+<!-- 8q24 amplification marker on clone 2 -->
+<g fill="none" stroke="#C8323F" stroke-width="3.5"><circle cx="204" cy="262" r="7"/><circle cx="222" cy="276" r="7"/><circle cx="188" cy="280" r="7"/></g>
+<text x="150" y="346" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">Clone 2: 8q24 MYC gain</text>
+<text x="150" y="372" text-anchor="middle" font-size="14" fill="#2B3138">scRNA-seq plus spatial map</text>
+<!-- state switch -->
+<rect x="318" y="76" width="140" height="64" rx="12" fill="#3C9A2E" fill-opacity="0.12" stroke="#3C9A2E" stroke-width="2.5"/>
+<text x="388" y="104" text-anchor="middle" font-size="15" font-weight="700" fill="#3C9A2E">Classical</text>
+<text x="388" y="124" text-anchor="middle" font-size="14" fill="#2B3138">Immune response on</text>
+<rect x="318" y="262" width="140" height="64" rx="12" fill="#C8323F" fill-opacity="0.1" stroke="#C8323F" stroke-width="2.5"/>
+<text x="388" y="290" text-anchor="middle" font-size="15" font-weight="700" fill="#C8323F">Basal</text>
+<text x="388" y="310" text-anchor="middle" font-size="14" fill="#2B3138">Immune response off</text>
+<path d="M368 142 V258" stroke="#2B3138" stroke-width="3" marker-end="url(#a)"/>
+<text x="352" y="204" text-anchor="end" font-size="14" font-weight="700" fill="#C8323F">MYC gain</text>
+<path d="M410 258 V144" stroke="#1E5FA8" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<text x="424" y="204" font-size="14" font-weight="700" fill="#1E5FA8">MYC</text>
+<text x="424" y="222" font-size="14" font-weight="700" fill="#1E5FA8">knockdown</text>
+<!-- dispersed clones -->
+<path d="M510 120 L630 120 L630 196 L510 196Z" fill="#fff" stroke="#8A949E" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="534" cy="150" r="9" fill="#D98A00"/><circle cx="572" cy="166" r="9" fill="#D98A00"/><circle cx="606" cy="142" r="9" fill="#D98A00"/>
+<text x="570" y="188" text-anchor="middle" font-size="13" fill="#2B3138">Dispersed clones</text>
+<text x="570" y="226" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">EMT, immune</text>
+<text x="570" y="244" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">suppression</text>
+<path d="M570 252 V292 L548 292" stroke="#2B3138" stroke-width="2.5" marker-end="url(#a)" fill="none"/>
+<rect x="500" y="300" width="130" height="40" rx="8" fill="#fff" stroke="#8A949E" stroke-width="2"/>
+<text x="565" y="325" text-anchor="middle" font-size="14" fill="#2B3138">Lymph node niche</text>
+</svg>

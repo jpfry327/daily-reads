@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">Rare k-mers type centromeres</text>
+<!-- three centromere arrays from short-read WGS -->
+<text x="30" y="62" font-size="14" font-weight="700" fill="#2B3138">Centromere k-mers, short-read WGS</text>
+<g stroke="#8A949E" stroke-width="1.5">
+<rect x="30" y="74" width="360" height="24" rx="12" fill="#8A949E" fill-opacity="0.12"/>
+<rect x="30" y="110" width="360" height="24" rx="12" fill="#8A949E" fill-opacity="0.12"/>
+<rect x="30" y="146" width="360" height="24" rx="12" fill="#8A949E" fill-opacity="0.12"/>
+</g>
+<g stroke="#1E5FA8" stroke-width="4" stroke-linecap="round"><path d="M70 78v16M112 78v16M168 78v16M236 78v16M300 78v16M356 78v16"/></g>
+<g stroke="#3C9A2E" stroke-width="4" stroke-linecap="round"><path d="M56 114v16M130 114v16M196 114v16M250 114v16M322 114v16M370 114v16"/></g>
+<g stroke="#D98A00" stroke-width="4" stroke-linecap="round"><path d="M88 150v16M148 150v16M214 150v16M272 150v16M338 150v16M382 150v16"/></g>
+<g font-size="14" font-weight="700">
+<text x="404" y="92" fill="#1E5FA8">Haplogroup A</text>
+<text x="404" y="128" fill="#3C9A2E">Haplogroup B</text>
+<text x="404" y="164" fill="#D98A00">Haplogroup C</text>
+</g>
+<text x="404" y="190" font-size="13" fill="#2B3138">Inferred by ascairn</text>
+<line x1="30" y1="204" x2="610" y2="204" stroke="#8A949E" stroke-width="1.5" stroke-dasharray="6 5"/>
+<!-- chromosomes with 1p/19q co-deletion -->
+<text x="30" y="232" font-size="14" font-weight="700" fill="#2B3138">Oligodendroglioma 1p/19q co-deletion</text>
+<!-- chr1 -->
+<text x="30" y="272" font-size="14" fill="#2B3138">Chr 1</text>
+<path d="M90 256 H190 Q204 256 204 268 Q204 280 190 280 H90 Q76 280 76 268 Q76 256 90 256Z" fill="#C8323F" fill-opacity="0.12" stroke="#C8323F" stroke-width="2.5" stroke-dasharray="6 4"/>
+<path d="M212 258 H360 Q374 258 374 268 Q374 278 360 278 H212 Q198 278 198 268 Q198 258 212 258Z" fill="#1E5FA8" fill-opacity="0.15" stroke="#1E5FA8" stroke-width="2.5"/>
+<circle cx="200" cy="268" r="9" fill="#2B3138"/>
+<text x="140" y="302" text-anchor="middle" font-size="14" fill="#C8323F">1p lost</text>
+<!-- chr19 -->
+<text x="30" y="346" font-size="14" fill="#2B3138">Chr 19</text>
+<path d="M90 332 H170 Q184 332 184 342 Q184 352 170 352 H90 Q76 352 76 342 Q76 332 90 332Z" fill="#1E5FA8" fill-opacity="0.15" stroke="#1E5FA8" stroke-width="2.5"/>
+<path d="M196 328 H340 Q356 328 356 342 Q356 356 340 356 H196 Q180 356 180 342 Q180 328 196 328Z" fill="#C8323F" fill-opacity="0.12" stroke="#C8323F" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="182" cy="342" r="9" fill="#2B3138"/>
+<text x="268" y="380" text-anchor="middle" font-size="14" fill="#C8323F">19q lost</text>
+<!-- breakpoint callout -->
+<path d="M200 252 L200 236 M182 324 L182 316" stroke="#C8323F" stroke-width="3"/>
+<path d="M392 268 L440 292 M370 342 L440 306" stroke="#2B3138" stroke-width="2"/>
+<rect x="444" y="278" width="170" height="44" rx="8" fill="#fff" stroke="#C8323F" stroke-width="2.5"/>
+<text x="529" y="297" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">Breakpoints sit</text>
+<text x="529" y="314" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">in centromeres</text>
+</svg>
