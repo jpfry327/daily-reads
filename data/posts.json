@@ -1,6 +1,6 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-14T10:30:00Z",
+  "updated": "2026-10-15T10:30:00Z",
   "retention_days": 90,
   "featured": [
     "10.1016/j.cell.2026.08.053",
@@ -8,6 +8,432 @@
     "10.1038/s41588-026-02779-5"
   ],
   "posts": [
+    {
+      "id": "10.1007/s43465-026-01856-5",
+      "date_added": "2026-10-15",
+      "published": "2026-07-03",
+      "title": "Intraosseous Schwannoma of the Spine: A Report of Three Cases",
+      "authors": "Saha D, Shahi P, Ghavalkar A, et al.",
+      "venue": "Indian Journal of Orthopaedics",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1007/s43465-026-01856-5",
+      "url": "https://doi.org/10.1007/s43465-026-01856-5",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A case series of three spinal intraosseous schwannomas (two thoracic, one sacral). These rare benign tumours are often misdiagnosed on imaging as metastasis, chordoma or giant cell tumour.",
+      "key_points": [
+        "All three patients had gross total resection with instrumented stabilisation, and histology confirmed benign schwannoma.",
+        "Both thoracic patients, who presented with progressive myelopathy, had excellent outcomes.",
+        "The sacral patient, who presented with chronic low back pain, died after surgery from urosepsis."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.tig.2026.09.005",
+      "date_added": "2026-10-15",
+      "published": "2026-10-14",
+      "title": "Design foresight and model humility for omics inference",
+      "authors": "Yu G",
+      "venue": "Trends in Genetics",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1016/j.tig.2026.09.005",
+      "url": "https://doi.org/10.1016/j.tig.2026.09.005",
+      "topics": [
+        "Methods",
+        "Multi-omics"
+      ],
+      "summary": "A review-style argument that omics inference should be question-first: decide what must be directly observed before choosing the assay, and say what the data can honestly support. Transcriptomics is used as the central case.",
+      "key_points": [
+        "\"Design foresight\" means choosing assays, sampling and orthogonal measurements for the question, and stating whether transcriptomics is primary, supporting or insufficient for a claim.",
+        "\"Model humility\" means not promoting computational output beyond what the data and assumptions support.",
+        "Measured, inferred and predicted results should be written in voices matched to their support."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag970",
+      "date_added": "2026-10-15",
+      "published": "2026-10-13",
+      "title": "Attribute Network-based Ranking (ANeR) identifies conserved translational fingerprints of M-phase",
+      "authors": "Eivers SB, Baumgartner A, Dorn M, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag970",
+      "url": "https://doi.org/10.1093/nar/gkag970",
+      "topics": [
+        "RNA biology",
+        "Multi-omics",
+        "Benchmarking"
+      ],
+      "summary": "The authors built ANeR, a network-based method that ranks mRNAs by their proximity to a training group across two-condition omics datasets. Applied to 30 datasets of mitotic and meiotic divisions, it found a conserved M-phase translational programme.",
+      "key_points": [
+        "ANeR predictions were benchmarked against independent mitotic datasets and validated experimentally in Xenopus oocytes.",
+        "Fam76b and Cdca3 were identified as translationally activated regulators needed for timely Cdk1 activation in meiosis.",
+        "Analysis of the oocyte programme tested how broadly CPE/PAS regulatory rules apply and found transcripts that do not conform."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag772",
+      "date_added": "2026-10-15",
+      "published": "2026-10-14",
+      "title": "scChronos: Hierarchical Temporal Context Learning for Missing Snapshot Prediction in Single-Cell Time Series",
+      "authors": "Yao J, Zhang Y, Xu Y, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag772",
+      "url": "https://doi.org/10.1093/bioinformatics/btag772",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scChronos predicts missing time points in single-cell time-series atlases by treating the task as target-conditioned prediction of a population distribution rather than propagating individual cells. It compresses each snapshot into cluster-representative cells and fuses nearby time points.",
+      "key_points": [
+        "Reported to improve both interpolation-style recovery and extrapolation-style forecasting over state-of-the-art methods.",
+        "Better preserves developmental topology and cell-type-specific marker and pathway programs.",
+        "Code and data are public on GitHub and Zenodo."
+      ],
+      "data": "Zenodo 10.5281/zenodo.20933283",
+      "code": "github.com/yjs193/scChronos"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag708",
+      "date_added": "2026-10-15",
+      "published": "2026-10-14",
+      "title": "CRISPR-HAWK: Haplotype- and Variant-Aware Guide Design Toolkit for CRISPR-Cas",
+      "authors": "Kumbara A, Tognon M, Carone G, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag708",
+      "url": "https://doi.org/10.1093/bioinformatics/btag708",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "CRISPR-HAWK designs guide RNAs using individual- and population-scale variants and haplotypes rather than the reference genome alone. Across 79,648 genomes it shows that variation substantially changes predicted guide performance at therapeutic targets.",
+      "key_points": [
+        "For the approved sickle cell disease guide targeting BCL11A, some haplotypes completely abolish predicted cutting activity.",
+        "Across seven therapeutic loci, 82.5% of guides contain variants that modify on-target activity.",
+        "Variants can also create new PAM sites, giving individual-specific guides that reference-based design misses."
+      ],
+      "data": "",
+      "code": "github.com/pinellolab/CRISPR-HAWK"
+    },
+    {
+      "id": "10.1126/sciadv.aee5884",
+      "date_added": "2026-10-15",
+      "published": "2026-10-14",
+      "title": "A B1 SINE element within the mouse long noncoding RNA acts as an internal ribosome entry site mediating micropeptide translation",
+      "authors": "Xiao W, Hann T, Perry Z, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aee5884",
+      "url": "https://doi.org/10.1126/sciadv.aee5884",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "In mouse neurons a long noncoding RNA is exported to the cytoplasm and translated into the M1 micropeptide. The authors map the IRES that drives this cap-independent translation and show it coincides with a B1 SINE repeat folded into a three-stem-loop structure.",
+      "key_points": [
+        "In vivo chemical probing and structural modelling defined the three-stem-loop IRES.",
+        "The minimal IRES RNA bound ribosomal subunits, translation factors and the IRES cofactors Rack1 and hnRNP A2/B1.",
+        "Depleting Rack1 and hnRNP A2/B1 reduced IRES-driven reporter translation and endogenous M1 peptide expression."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-2215",
+      "date_added": "2026-10-15",
+      "published": "2026-10-13",
+      "title": "Differential impact of tumor-derived ESR1 mutations on elacestrant benefit in metastatic breast cancer",
+      "authors": "Sledge GW, Xiu J, Fuqua S, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-2215",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-2215",
+      "topics": [
+        "Cancer genomics",
+        "Clinical",
+        "Multi-omics"
+      ],
+      "summary": "Using Caris sequencing data from 3,344 ESR1-mutant breast tumours (transcriptome for 1,663) linked to claims-based time on treatment, the study asks whether different ESR1 mutations predict benefit from the oral SERD elacestrant.",
+      "key_points": [
+        "Tumours with ESR1-L536 mutations had shorter time on elacestrant than those with Y537 or D538G (HR 2.089, p=0.001).",
+        "L536-mutant tumours had lower GREB1 expression and weaker estrogen-response pathway enrichment.",
+        "Patients with multiple ESR1 mutations had shorter time on treatment than those with a single mutation (adjusted HR 1.62, p=0.038)."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.08.757570",
+      "date_added": "2026-10-15",
+      "published": "2026-10-09",
+      "title": "Loss of the Y chromosome is transcriptionally silent in clear cell renal cell carcinoma and across cancer entities",
+      "authors": "Waterhoelter A, Scholz R, Tsouris A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.08.757570",
+      "url": "https://doi.org/10.64898/2026.10.08.757570",
+      "topics": [
+        "Cancer genomics",
+        "Pan-cancer"
+      ],
+      "summary": "The authors asked whether loss of the Y chromosome (LOY) changes the tumour transcriptome. Using two human ccRCC cohorts (TCGA-KIRC, CPTAC), a mouse ccRCC model and isogenic Y-deficient 786-O clones, they find changes are essentially limited to Y and pseudoautosomal gene dosage.",
+      "key_points": [
+        "A pan-cancer meta-analysis across TCGA entities showed the same pattern, with no autosomal gene showing a large consistent effect.",
+        "Human cohorts showed a modest, reproducible pathway-level response in cell cycle, ribosome biogenesis and DNA repair genes.",
+        "Cancer/testis antigen expression was higher in LOY tumours in some entities, but not in ccRCC."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756288",
+      "date_added": "2026-10-15",
+      "published": "2026-10-08",
+      "title": "A Weighted Estimation Approach to Correct for Imperfect Mutation Detection Due to Intra-tumor Heterogeneity in Tumor Sequencing",
+      "authors": "Mauguen A, Ostrovnaya I.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756288",
+      "url": "https://doi.org/10.64898/2026.10.02.756288",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution"
+      ],
+      "summary": "Somatic mutations are often missed in tumour sequencing because of heterogeneity and limited depth, which biases mutation prevalence and inflates type I error when groups such as responders and non-responders are compared. The authors propose a weighted estimator that adjusts for imperfect detection sensitivity.",
+      "key_points": [
+        "Assumes a surrogate of mutation sensitivity is observed only in patients with a called mutation and derives its unconditional mean.",
+        "Gives less biased mutation frequency estimates than the unweighted approach.",
+        "Better controls the type I error when comparing mutation prevalence between groups."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.08.757737",
+      "date_added": "2026-10-15",
+      "published": "2026-10-09",
+      "title": "Multi-omic long-read sequencing reveals nucleosome control of transcriptional fidelity at the isoform level",
+      "authors": "Bai G, Dhillon N, Meissner B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.08.757737",
+      "url": "https://doi.org/10.64898/2026.10.08.757737",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "Isoforms",
+        "Splicing"
+      ],
+      "summary": "In yeast lacking the chromatin remodelers ISW1 and CHD1, the authors profiled chromatin fibres, nascent RNA and full-length mature RNA by nanopore sequencing. A new framework, EpiFLAIR, links single-molecule chromatin states across whole genes to isoform-level outputs.",
+      "key_points": [
+        "Single-molecule chromatin states plus sequence motifs strongly predicted alternative TSS isoform expression.",
+        "Loss of ISW1 and CHD1 activated silenced promoters while repressing active ones, with promoter and gene-body accessibility anticorrelated on the same fibre.",
+        "Disrupted nucleosome spacing impaired RNAPII processivity and co-transcriptional splicing, changing splice isoform composition."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.03.756430",
+      "date_added": "2026-10-15",
+      "published": "2026-10-10",
+      "title": "Systematic benchmark of demultiplexing workflows for direct RNA sequencing",
+      "authors": "Bryson JW, Johansson LB, George A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.03.756430",
+      "url": "https://doi.org/10.64898/2026.10.03.756430",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Benchmarking",
+        "RNA modifications"
+      ],
+      "summary": "The study benchmarks two barcode demultiplexing tools for nanopore direct RNA sequencing, WarpDemuX and SeqTagger, using species identity and matched IVT spike-ins as ground truth across four RNA004 flow cells.",
+      "key_points": [
+        "Both tools achieve high precision but trade off precision against read retention.",
+        "SeqTagger performed well at its recommended settings, whereas WarpDemuX varied by model, barcode and read quality.",
+        "IVT-derived score cutoffs raised WarpDemuX yield, but precision seen on IVTs did not always carry over to species reads."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.12.758580",
+      "date_added": "2026-10-15",
+      "published": "2026-10-13",
+      "title": "A high-resolution protein-RNA binding atlas for structure-aware interaction prediction and post-transcriptional regulatory modeling",
+      "authors": "Karimzadeh M, Fish L, Karner H, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.12.758580",
+      "url": "https://doi.org/10.64898/2026.10.12.758580",
+      "topics": [
+        "RNA biology",
+        "Machine learning",
+        "Resource"
+      ],
+      "summary": "The authors introduce ecCLIP, a high-throughput CLIP-seq platform, and apply it to 67 endogenously tagged RNA-binding proteins in HEK293T cells. They also built Pythia, a structure-aware neural network that predicts RBP binding from sequence and RNA base-pairing.",
+      "key_points": [
+        "Adding ecCLIP data to a Borzoi-derived model improved RNA half-life prediction and 3′ UTR variant effect assessment.",
+        "Pythia splits predictions into sequence- and structure-dependent parts, tested with massively parallel reporter CLIP assays for five RBPs.",
+        "The same assay confirmed allele-specific binding effects for variants prioritised by Pythia."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.07.757366",
+      "date_added": "2026-10-15",
+      "published": "2026-10-09",
+      "title": "Fine-tuning genomic models on rare splicing events identifies a novel biomarker of TDP-43 pathology",
+      "authors": "Martin-Linares CP, Peethambaran Mallika A, Sandal PS, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.07.757366",
+      "url": "https://doi.org/10.64898/2026.10.07.757366",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Machine learning"
+      ],
+      "summary": "Using TDP-43 cryptic exons as a test case, the authors ask whether genomic foundation models can learn rare splicing events after fine-tuning. Fine-tuned OpenSpliceAI detected held-out cryptic exons in human and mouse, while AlphaGenome needed all its weights unfrozen to generalise.",
+      "key_points": [
+        "A splicing head trained on AlphaGenome’s frozen backbone failed to predict cryptic exons.",
+        "Genome-wide application of fine-tuned OpenSpliceAI found new cryptic events in CLDN11 and ARHGAP23, validated in FTLD-TDP brain tissue.",
+        "The CLDN11 cryptic exon is predicted to create a neoepitope that could be an oligodendrocyte-specific biomarker of TDP-43 pathology."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.06.26.734884",
+      "date_added": "2026-10-15",
+      "published": "2026-10-09",
+      "title": "Unveiling the Hidden Rules: Enhancing NMD Prediction for Protein-Truncating Variants",
+      "authors": "Egab I, Schmidt J, Cortazar M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.06.26.734884",
+      "url": "https://doi.org/10.64898/2026.06.26.734884",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning",
+        "Resource"
+      ],
+      "summary": "The canonical 50-55 nucleotide rule explains only about half of nonsense-mediated decay outcomes. Using paired genome and RNA sequencing from 10,306 TOPMed samples, the authors measured NMD efficiency for 5,749 germline truncating variants and trained a classifier, TrunCat.",
+      "key_points": [
+        "TrunCat separates NMD-sensitive from NMD-escape transcripts with about 78% ROC-AUC.",
+        "A reduced eight-feature model chosen by SHAP value nearly matched the full model.",
+        "Variants of uncertain significance showed higher predicted NMD escape than pathogenic variants."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.04.756439",
+      "date_added": "2026-10-15",
+      "published": "2026-10-11",
+      "title": "IsoGraph resolves coordinated transcript choice and gene abundance in the aging human brain",
+      "authors": "Bennett A, Johnson EK, Benjamin KJM.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.04.756439",
+      "url": "https://doi.org/10.64898/2026.10.04.756439",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms"
+      ],
+      "summary": "IsoGraph represents isoform usage and gene abundance as paired network channels, finds gene modules and quantifies each channel’s contribution. Applied to BrainSEQ and GTEx brain transcriptomes, it finds age-associated transcript-usage signals that persist after conditioning on gene abundance.",
+      "key_points": [
+        "In synthetic benchmarks IsoGraph recovered structure when the planted signal was in coordinated transcript usage.",
+        "Modules were stable across donor subsets and supported by junction usage, independent long-read data and allelic analyses.",
+        "Disease colocalisation prioritised candidate isoform events, including an alternative terminal exon at PRDM2 linked to ALS."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.28.755067",
+      "date_added": "2026-10-15",
+      "published": "2026-10-12",
+      "title": "tRNAZAP: Deep learning toolkit for nanopore tRNA signal analysis",
+      "authors": "Daneshwar Kakhaki P, Akeson S, Ghohabi Esfahani N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.28.755067",
+      "url": "https://doi.org/10.64898/2026.09.28.755067",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Machine learning"
+      ],
+      "summary": "Existing nanopore basecallers and aligners are tuned for mRNA and struggle with short, modification-dense tRNA. tRNAZAP works directly on raw current signal with two transformer models: one segments adapter from tRNA, the other classifies the tRNA type to pick the alignment reference.",
+      "key_points": [
+        "Trained on in vitro transcribed RNA and evaluated on yeast tRNA.",
+        "Reached about 98% classification accuracy and about 0.98 intersection-over-union for segmentation.",
+        "Together the outputs allow direct pairwise alignment of the tRNA portion to its reference."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.13.758836",
+      "date_added": "2026-10-15",
+      "published": "2026-10-14",
+      "title": "Towards standards for analysing structural variants from short-read whole genome sequencing data",
+      "authors": "Slimmer JC, Jones JL, Reay WR, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.758836",
+      "url": "https://doi.org/10.64898/2026.10.13.758836",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Structural variants"
+      ],
+      "summary": "The study benchmarks short-read SV callers against truth sets (HG002 T2T-Q100, Platinum Pedigree) and long-read databases at base-pair resolution, using 30X Illumina data. Only five of sixteen tools reliably output perfectly matching deletions, insertions and duplications.",
+      "key_points": [
+        "Ensemble pipelines such as GATK-SV, MOPline and Parliament2 cut perfect-match accuracy by up to 98% versus their best constituent tools.",
+        "The inaccuracy propagates into gnomAD-SV and likely other short-read SV databases.",
+        "A proof-of-concept intra-sample merging strategy gave the highest F1 for deletions and insertions on HG002."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02779-5",
       "date_added": "2026-10-14",
