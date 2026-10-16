@@ -1,13 +1,714 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-15T10:30:00Z",
+  "updated": "2026-10-16T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1016/j.cell.2026.08.053",
-    "10.1158/2159-8290.CD-25-2090",
-    "10.1038/s41588-026-02779-5"
+    "10.1038/s41587-026-03332-9",
+    "10.1016/j.cell.2026.09.033",
+    "10.1038/s41586-026-11119-w"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41587-026-03332-9",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Structural variant detection across sequencing technologies",
+      "authors": "Li G, Liu Y, Zhang A, et al.",
+      "venue": "Nature Biotechnology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41587-026-03332-9",
+      "url": "https://doi.org/10.1038/s41587-026-03332-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants",
+        "Long-read"
+      ],
+      "summary": "The authors introduce HitSV, a structural variant caller that recognises breakpoints with awareness of repeats and signature density, then does haplotype-resolved local assembly to reconstruct and genotype SVs at base resolution. It works on short, long and hybrid sequencing data.",
+      "key_points": [
+        "On the HG002 benchmark, HitSV had higher genotype F1 scores than state-of-the-art callers for long reads (15-72%), short reads (10-36%) and hybrid data (12%).",
+        "Applied to the 1KGP phase 4 cohort it expanded the SV callset by 31.5% and reshaped allele-frequency landscapes.",
+        "In a large Chinese long-read cohort it found tandem-repeat-mobile-element composite arrays to be a common, multi-allelic class of complex SV."
+      ],
+      "data": "HG002 benchmark; 1KGP phase 4; Chinese long-read cohort",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41587-026-03332-9.svg",
+        "caption": "HitSV takes short, long or hybrid reads through repeat-aware breakpoint calling and local assembly, and resolves a repeat locus into alleles with different numbers of tandem-repeat and mobile-element units.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.033",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer",
+      "authors": "Sohn MH, Dubocanin D, Vollger MR, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.033",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.033",
+      "topics": [
+        "Cancer genomics",
+        "Long-read",
+        "Epigenomics",
+        "Tumour evolution"
+      ],
+      "summary": "The authors paired a near-telomere-to-telomere diploid assembly of one donor with deep short- and long-read sequencing of that donor's melanoma. This lets them score somatic variation in sequence that the GRCh38 reference does not contain.",
+      "key_points": [
+        "16% of somatic variants fall in sequences absent from GRCh38, and satellite repeats are hotspots of UV-associated mutagenesis.",
+        "Centromere kinetochore binding domains are focal sites of arm-level aneuploidy breakpoints and somatic variation, also seen in non-cancerous tissue, but their epigenetic remodelling appears specific to the tumour.",
+        "Single-molecule telomere analysis reconstructs cycles of erosion and telomerase extension during tumour evolution, and haplotype-resolved chromatin maps show widespread somatic epimutations."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.cell.2026.09.033.svg",
+        "caption": "A chromosome with satellite-repeat UV hotspots, a kinetochore binding domain and telomeres, and a donor T2T assembly that covers sequence GRCh38 leaves missing.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11119-w",
+      "date_added": "2026-10-16",
+      "published": "2026-10-14",
+      "title": "A microexon regulatory code reveals autism-linked genetic variation",
+      "authors": "Parada GE, Bretschneider H, Li JD, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11119-w",
+      "url": "https://doi.org/10.1038/s41586-026-11119-w",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Machine learning"
+      ],
+      "summary": "Using deep transcriptome profiling, the authors catalogue hundreds of new neuronal microexons, including neuronal subtype-specific ones and some that trigger nonsense-mediated decay. A machine-learning model then learns a sequence code that predicts which microexons are spliced in neurons.",
+      "key_points": [
+        "The code identifies regulatory elements around the expanded microexon set.",
+        "It flags genomic variants in autistic individuals predicted to alter microexon splicing, with rare variants having the strongest estimated impact.",
+        "These variants are mostly in idiopathic cases, are associated with autism status and converge on synaptic and other autism-linked genes, plus some not previously linked."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11119-w.svg",
+        "caption": "A gene with a microexon between two flanking regulatory elements, shown included in the reference and skipped when a variant hits a flanking element.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.035",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "A phenome-wide structural variant map from 467,152 UK Biobank genomes",
+      "authors": "Atanur SS, Hu F, Lou H, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.035",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.035",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants",
+        "Resource"
+      ],
+      "summary": "The authors ran a phenome-wide association study of 1.6 million structural variants called from whole-genome sequencing of 467,152 UK Biobank participants. It covers 13,322 binary, 2,018 quantitative and 2,923 plasma protein traits.",
+      "key_points": [
+        "82.25% of the SVs were outside the detectable range of earlier copy-number-variant studies.",
+        "Protein QTL analysis linked 3,467 SVs to 1,690 proteins, with effects depending on SV type and location.",
+        "The SV-PheWAS found 28,184 associations with health outcomes, including rare SVs with strong effects; at known GWAS loci, 32.21% of associated SVs overlapped functional regions."
+      ],
+      "data": "UK Biobank WGS",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.037",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network",
+      "authors": "SMaHT Network",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.037",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.037",
+      "topics": [
+        "Methods",
+        "Benchmarking",
+        "Long-read",
+        "Resource"
+      ],
+      "summary": "The SMaHT Network ran large benchmarking experiments on cell lines and donor tissues to compare sequencing technologies, experimental approaches and computational methods for detecting somatic mutations. They release more than 1,000x short-read and 100-400x long-read data for nine samples.",
+      "key_points": [
+        "The study defines effective strategies for using short and long reads to detect mutations.",
+        "Donor-specific and pangenome-inferred diploid assemblies improved calling and extended catalogues into difficult genomic regions.",
+        "Six duplex technologies were benchmarked, and single-cell sequencing resolved cell-type-specific mutational patterns; bulk, single-cell and duplex analyses were complementary."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.034",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome",
+      "authors": "Vollger MR, Swanson EG, Neph SJ, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.034",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.034",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "The authors present Fiber-seq inferred regulatory elements (FIRE), a method that gives a more complete, quantitative map of accessible chromatin across the diploid human genome and avoids biases in existing regulatory element catalogues.",
+      "key_points": [
+        "FIRE enables comprehensive detection of haplotype-selective chromatin accessibility, including imprinted elements without parent-of-origin DNA methylation differences and modules that let genes escape X inactivation.",
+        "The HLA locus carries the most haplotype-selective accessibility in immune cells, and specific transcription factor binding events disrupted by disease-associated variants are resolved.",
+        "Autosomal somatic chromatin epimutations are widespread and are propagated by clonal expansion."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41594-026-01875-8",
+      "date_added": "2026-10-16",
+      "published": "2026-10-14",
+      "title": "Alternative splicing fine-tunes modular protein interfaces to control protein localization",
+      "authors": "Kjer-Hansen P, Pazaky K, Kavanagh D, et al.",
+      "venue": "Nature Structural & Molecular Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41594-026-01875-8",
+      "url": "https://doi.org/10.1038/s41594-026-01875-8",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Isoforms"
+      ],
+      "summary": "The authors combine computational analysis of interactions and localisation data with a high-content imaging screen to ask how alternative exons rewire protein interactions and where proteins sit in the cell.",
+      "key_points": [
+        "Tissue-regulated longer exons tend to reshape local interaction patterns, whereas microexons fine-tune key interfaces linking distinct processes.",
+        "38% of tested isoform pairs changed localisation, with microexons (typically under five amino acids) accounting for a substantial share.",
+        "A 4-amino-acid microexon in sorting nexin 2 changes localisation through repositioning of a flanking charged residue, not through side-chain chemistry."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41586-026-11150-x",
+      "date_added": "2026-10-16",
+      "published": "2026-10-14",
+      "title": "Divergent genomic evolution in astrocytomas and oligodendrogliomas",
+      "authors": "Chowdhury T, Tesileanu CMS, Kocakavuk E, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11150-x",
+      "url": "https://doi.org/10.1038/s41586-026-11150-x",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution",
+        "Copy number"
+      ],
+      "summary": "Using whole-genome and whole-exome sequencing of longitudinal samples from 183 patients with IDH-mutant glioma in the GLASS Consortium, the authors compare how astrocytomas and oligodendrogliomas evolve with progression and treatment.",
+      "key_points": [
+        "PI3K and NOTCH1 mutations are newly acquired in recurrent oligodendrogliomas and go with higher mutational burden; recurrent astrocytomas instead gain focal oncogene amplifications and CDKN2A/B deletions that go with chromosomal instability, chromothripsis and genome doubling.",
+        "In both types, convergence of acquired alterations, genome-wide changes and worse outcomes suggests selection of treatment-refractory clones.",
+        "Temozolomide is linked to signatures SBS11 and SBS119 in both types, whereas the radiotherapy-associated ID8 signature rises only in astrocytomas."
+      ],
+      "data": "GLASS Consortium WGS/WES",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03247-y",
+      "date_added": "2026-10-16",
+      "published": "2026-10-14",
+      "title": "MassNet: billion-scale AI-ready mass spectral corpus empowering scalable deep learning in proteomics",
+      "authors": "Jiang A, Zhang X, Zhang X, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03247-y",
+      "url": "https://doi.org/10.1038/s41592-026-03247-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Resource"
+      ],
+      "summary": "The authors build MassNet, an AI-ready corpus of 1.5 billion tandem mass spectra from data-dependent acquisition across 35 species, plus a compact data format (MSDT). They use it to train XuanjiNovo, a transformer model for de novo peptide sequencing.",
+      "key_points": [
+        "Roughly 1.7 million peptide precursors in the corpus come from human samples.",
+        "XuanjiNovo, a non-autoregressive transformer trained with curriculum learning, improves 38.35-143.57% over state-of-the-art methods on human Astral data.",
+        "The corpus also supports retention time prediction and PSM rescoring."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03249-w",
+      "date_added": "2026-10-16",
+      "published": "2026-10-14",
+      "title": "LoL-align: sensitive and fast probabilistic protein structure alignment",
+      "authors": "Reifenrath L, van Kempen M, Kim G, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03249-w",
+      "url": "https://doi.org/10.1038/s41592-026-03249-w",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "LoL-align is a structure alignment method that maximises a local log-odds score for two proteins being homologous, given their intra-protein C-alpha distances. It is integrated into Foldseek.",
+      "key_points": [
+        "It is markedly more sensitive than TM-align and Dali at detecting remote homologs on single- and multidomain benchmarks.",
+        "It gives better alignment quality at 5-20 times their speed."
+      ],
+      "data": "",
+      "code": "Integrated into Foldseek"
+    },
+    {
+      "id": "10.1016/j.xgen.2026.101397",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "NeoBridge: Biophysics-informed neoantigen prioritization and clonal architecture profiling in pancreatic cancer",
+      "authors": "Mediavilla AL, Cardoso JP, Alvarez-Benayas J, et al.",
+      "venue": "Cell Genomics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.xgen.2026.101397",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101397",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Immuno-oncology"
+      ],
+      "summary": "NeoBridge is a hybrid ensemble of gradient boosting and a deep neural network that ranks neoantigens using HLA binding and processing, differential agretopicity, tumour neoantigen abundance and TCR recognition potential. It targets low-mutation-burden tumours such as pancreatic cancer.",
+      "key_points": [
+        "Trained on 11,188 experimentally validated neoantigens, it reached an AUC-ROC of 0.904 on held-out data and outperformed established tools; cross-cancer AUC was 0.73-0.82, including 0.82 in pancreatic cancer.",
+        "Differential agretopicity was the most predictive feature.",
+        "In 118 PDAC patients with resolved phylogenies, subclonal neoantigen load was associated with worse progression-free survival (p < 0.001) and overall survival (p = 0.038); the authors call this hypothesis-generating."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.xgen.2026.101390",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Detecting low-allele-fraction mosaic mutations: A multi-institution benchmarking with cell-line mixtures",
+      "authors": "Ha YJ, Maziec D, Markowski J, et al.",
+      "venue": "Cell Genomics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.xgen.2026.101390",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101390",
+      "topics": [
+        "Methods",
+        "Benchmarking",
+        "Resource"
+      ],
+      "summary": "The SMaHT Network mixed cell lines at 1:49 and produced ultra-deep short- and long-read whole-genome data at five centres (170x-470x each). Seven institutions then ran twelve pipelines on it, against a cross-validated reference set of mosaic SNVs and indels.",
+      "key_points": [
+        "Callsets were largely discordant across tools and replicates, partly because low-VAF mutations are sampled stochastically.",
+        "For SNVs above 2% VAF, sensitivity and precision approached 80% at 300x or more, with little gain from deeper sequencing.",
+        "The work gives a framework and best practices for low-VAF mutation detection in non-cancer tissue."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.xgen.2026.101358",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "A pangenomic method for establishing a synthetic somatic variant resource in HapMap mixtures",
+      "authors": "Kong N, Tang Z, Ruttenberg A, et al.",
+      "venue": "Cell Genomics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.xgen.2026.101358",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101358",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Resource"
+      ],
+      "summary": "Six HapMap cell lines were mixed to create artificial somatic variants at 0.25%-16.5% allele fraction. The authors build pangenome graphs from the individual assemblies to turn this into a technology-agnostic benchmarking set.",
+      "key_points": [
+        "The set has more than 6 million SNVs, 1.8 million small indels, 49,000 structural variants and 10,000 mobile element insertions.",
+        "A binomial model estimates the coverage needed for variant detection; aligning to T2T-CHM13 improves SV detection over GRCh38.",
+        "Low-allele-fraction detection stays hard in repeat-rich regions and falsely duplicated genes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag753",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Ryder: Epigenome normalization using a two-tier model and internal reference regions",
+      "authors": "Cao Y, Ge G, Zhao K",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag753",
+      "url": "https://doi.org/10.1093/bioinformatics/btag753",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics"
+      ],
+      "summary": "Ryder is a Python package that normalises epigenomic signal tracks using stable internal reference regions, such as invariant CTCF binding sites, instead of spike-ins or assumptions that may not hold.",
+      "key_points": [
+        "It corrects background noise and signal intensity genome-wide and works across DNase-seq, CUT&RUN, ATAC-seq, MNase-seq and ChIP-seq, with or without spike-ins.",
+        "After normalisation it detects a quantitative loss of chromatin accessibility at key enhancers on BRG1 depletion."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag735",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Revisiting Batch Effect Correction: A Structured Problem Formulation and Novel Solutions",
+      "authors": "Harrar A, Shaham U",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag735",
+      "url": "https://doi.org/10.1093/bioinformatics/btag735",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "The authors argue that existing batch-effect removal methods rest on an ill-defined problem and unverified assumptions, and propose a principled formulation with two new methods: an unsupervised one based on independent component analysis and a supervised one using domain adaptation.",
+      "key_points": [
+        "Both methods are grounded in mathematical derivations.",
+        "They outperform existing methods across multiple datasets."
+      ],
+      "data": "",
+      "code": "github.com/shaham-lab/revisiting-batch-effect-removal"
+    },
+    {
+      "id": "10.1038/s41467-026-77538-5",
+      "date_added": "2026-10-16",
+      "published": "2026-09-14",
+      "title": "scTransMIL bridges patient-level disease states and single-cell transcriptomics for cancer screening and heterogeneity inference",
+      "authors": "Tang Z, Wang F, Yang F, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77538-5",
+      "url": "https://doi.org/10.1038/s41467-026-77538-5",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scTransMIL treats a sample as a bag of cells and uses transformer-based multi-instance learning to link single-cell transcriptomes to sample-level labels, without cell-level annotations.",
+      "key_points": [
+        "It predicts sample-level cancer phenotypes, including tissue of origin for metastatic tumours.",
+        "At cell level it identifies tumour-associated populations and maps progression trajectories from minimal sample-level labels.",
+        "Attention weights support full-transcriptome biomarker discovery."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag999",
+      "date_added": "2026-10-16",
+      "published": "2026-10-13",
+      "title": "The MODNAP benchmark set for modeling ribose-based modified nucleic acid and nucleic acid-protein complexes: a case study with AlphaFold 3",
+      "authors": "Fu J, Milam VT, McShan AC",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag999",
+      "url": "https://doi.org/10.1093/nar/gkag999",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications",
+        "Benchmarking"
+      ],
+      "summary": "The authors survey ribose-based modified nucleotides in PDB structures, build MODNAP as the first curated set of experimental structures containing them, and benchmark AlphaFold 3 on 1,039 nucleic acid and nucleic acid-protein complexes.",
+      "key_points": [
+        "Modified nucleotides sit mainly on the nucleobase and are chemically and structurally diverse.",
+        "AlphaFold 3 succeeds above 80% at a 2.5 A RMSD threshold, but is less accurate at placing modified nucleotides, especially in structures not represented in training.",
+        "PoseBusters flags frequent intramolecular validity failures, mainly from non-ideal ribose ring geometry."
+      ],
+      "data": "MODNAP (PDB-derived)",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.10.757893",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Systematic evaluation of transcript normalization methods and quantification pipelines across long-read sequencing platforms",
+      "authors": "Paniagua A, Jetzinger F, Tarazona S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.10.757893",
+      "url": "https://doi.org/10.64898/2026.10.10.757893",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Benchmarking"
+      ],
+      "summary": "The authors benchmark five quantification workflows (Bambu, FLAIR, IsoQuant, Oarfish, Kallisto) and five normalisation methods on PacBio and Nanopore long-read RNA-seq, using SIRV and ERCC spike-ins and matched Illumina data.",
+      "key_points": [
+        "TPM scaling corrects short-molecule depletion in PacBio data but distorts Nanopore expression estimates.",
+        "For Nanopore, covariate-aware normalisation (CQN, EDASeq) reduces length bias without TPM over-correction; scaled median ratio degrades accuracy in low-variability samples.",
+        "Reference-restricted quantifiers (Oarfish, Kallisto) beat transcript-reconstruction tools in short-read validation, and FLAIR had the lowest error on short SIRVs."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.14.758627",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Beyond the gene: contextualizing novel isoforms through pathway analysis in long-read single-cell RNA sequencing",
+      "authors": "Doyle PH, Page ML, Ebbert MTW",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.14.758627",
+      "url": "https://doi.org/10.64898/2026.10.14.758627",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Single-cell"
+      ],
+      "summary": "Long-read single-cell RNA-seq finds thousands of new isoforms and genes whose function is unknown. The authors present CIPI, which places a novel isoform among reference genes with similar cell-type expression and infers its pathway context from those neighbours.",
+      "key_points": [
+        "CIPI builds expression-based neighbourhoods rather than relying on host-gene annotation or protein-domain similarity.",
+        "Combined with GO, KEGG or Reactome analysis, it gives a hypothesis-generating way to prioritise novel isoforms."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.06.30.735642",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Estimation of splicing metrics for NMD-sensitive transcripts",
+      "authors": "Zavileyskiy L, Vlasenok M, Kuznetsova A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.06.30.735642",
+      "url": "https://doi.org/10.64898/2026.06.30.735642",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing"
+      ],
+      "summary": "Percent-spliced-in underestimates the true splicing rate of isoforms degraded by nonsense-mediated decay. The authors build statistical models that correct for this with a single decay-rate parameter. This is a revised version (v2) of a July preprint.",
+      "key_points": [
+        "Gaussian mixture models separate splicing events into NMD-sensitive and NMD-evading classes; the latter show higher coding potential and stronger translation signals around the stop codon, consistent with readthrough.",
+        "Event-specific relative decay rates improve interpretation of differential splicing for NMD-annotated transcripts from short-read RNA-seq."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756289",
+      "date_added": "2026-10-16",
+      "published": "2026-10-09",
+      "title": "Probing Genomic Foundation Models with Splice-Variant Perturbations",
+      "authors": "Alavi MV",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756289",
+      "url": "https://doi.org/10.64898/2026.10.02.756289",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Benchmarking"
+      ],
+      "summary": "The author probes generalist genomic foundation models (NTv3 650M, Evo2 40B, Genos 10B) and splicing specialists (SpliceAI, AlphaGenome, Borzoi) with expert-curated substitutions in the splicing regions of OPA1, then a 65-gene set of spliceogenic mutations.",
+      "key_points": [
+        "Generalist models can match task-specific networks at predicting splice-altering variants.",
+        "Training data scale, genetic diversity and evolutionary context matter for capturing splicing syntax.",
+        "Classification accuracy improved with locus-specific rather than mutation-class thresholds."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.12.758421",
+      "date_added": "2026-10-16",
+      "published": "2026-10-12",
+      "title": "Benchmarking single-cell foundation models reveals an advantage in the low-data regime for cell-type and disease-state prediction",
+      "authors": "Benhayon H, Danziger MM, Ben-Zvi D, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.12.758421",
+      "url": "https://doi.org/10.64898/2026.10.12.758421",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The authors benchmark cell representations from four single-cell foundation models, with logistic regression, on 868 disease-prediction tasks across 82 datasets and 65 cell-type datasets from CELLxGENE.",
+      "key_points": [
+        "With full data, log-normalised counts beat the best model (TranscriptFormer-Sapiens) for cell type and matched it for disease.",
+        "With few labelled cells, TranscriptFormer-Sapiens significantly outperformed the baseline on both tasks, up to about 100 samples per class."
+      ],
+      "data": "CELLxGENE",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757206",
+      "date_added": "2026-10-16",
+      "published": "2026-10-14",
+      "title": "Revealing pan-cancer clonal niches of T cells from single-cell RNA sequencing using contrastive learning",
+      "authors": "Shorer O, Pinhasi A, Amit R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757206",
+      "url": "https://doi.org/10.64898/2026.10.06.757206",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Immuno-oncology"
+      ],
+      "summary": "CloneTrast is a supervised contrastive-learning model that learns clonal-functional T-cell states from paired scRNA/TCR-seq during training but needs only scRNA-seq at inference.",
+      "key_points": [
+        "Using 2.6 million T cells from 16 cancer types, it finds clonal niches not explained by TCR similarity or standard cell-state labels.",
+        "An NK-like niche enriched for tumour-blood shared TCRs is consistently associated with poor immunotherapy response across cancers.",
+        "Tumour-resident and blood-borne antigen-specific clones fall in different niches."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.07.757305",
+      "date_added": "2026-10-16",
+      "published": "2026-10-09",
+      "title": "Mathematical Modelling of Stochastic Gene Expression Quantifies mRNA Heterogeneity in Cancer Cell Populations with Extrachromosomal DNA",
+      "authors": "Ganguly PS, Huang W",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.07.757305",
+      "url": "https://doi.org/10.64898/2026.10.07.757305",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number"
+      ],
+      "summary": "The authors use a stochastic model of transcription to ask how ecDNA copy-number variation turns into mRNA heterogeneity, and fit it to single-cell ecDNA and mRNA counts from cell lines.",
+      "key_points": [
+        "The model reproduces realistic mRNA distributions across parameter regimes.",
+        "Estimated transcriptional parameters are strikingly similar across cell lines and between ecDNA and chromosomal amplifications.",
+        "Modelling genotoxic therapy predicts the mRNA composition of persisting cells."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.02.756019",
+      "date_added": "2026-10-16",
+      "published": "2026-10-10",
+      "title": "Point-Process Modelling of Cell-Type Interaction Structure in CosMx Glioma Data for Hypothesis-Driven Tumor Inference from scRNA-seq",
+      "authors": "Carcanholo FP, Cassiano MHA, Panepucci EM, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.02.756019",
+      "url": "https://doi.org/10.64898/2026.10.02.756019",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "The authors model cell-type spatial organisation in eight CosMx glioblastoma specimens (2.4 million cells) with Log-Gaussian Cox Processes, then predict the resulting spatial phenotypes from transcript abundance.",
+      "key_points": [
+        "Macrophages, microglia, monocytes, cDCs, neutrophils and T cells show spatial attraction toward malignant states.",
+        "Transcriptomic features outperform metabolic pathway scores, but leave-one-patient-out validation lowers performance and harmonisation does not restore it.",
+        "Predicted interaction scores stratify subclusters in external non-spatial single-cell datasets; generalisation needs larger spatial cohorts."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.09.757935",
+      "date_added": "2026-10-16",
+      "published": "2026-10-15",
+      "title": "Global signatures of Ribonucleotide Excision Repair deficiency and its therapeutic vulnerabilities",
+      "authors": "Toong PJ, Boushaki S, Zhao SJ, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.757935",
+      "url": "https://doi.org/10.64898/2026.10.09.757935",
+      "topics": [
+        "Cancer genomics",
+        "Pan-cancer",
+        "Structural variants"
+      ],
+      "summary": "The authors show that loss of ribonucleotide excision repair (RER) leaves a genome-wide scar of indel, substitution and structural variant signatures, and build RERDetect, a whole-genome classifier for it.",
+      "key_points": [
+        "Applied to more than 11,000 primary and metastatic cancers, RERDetect finds a recurrent subset of RER-deficient tumours, most without detectable RNASEH2 gene alterations.",
+        "RNASEH2C promoter hypermethylation is a recurrent cause.",
+        "RER-deficient cells are sensitive to EXO1 and FANCM inhibition."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.11.758380",
+      "date_added": "2026-10-16",
+      "published": "2026-10-13",
+      "title": "Benchmarked sequencing methods reveal hidden mosaic variation in the human brain",
+      "authors": "Weng J, Cha DH, Chun J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.11.758380",
+      "url": "https://doi.org/10.64898/2026.10.11.758380",
+      "topics": [
+        "Methods",
+        "Benchmarking",
+        "Single-cell"
+      ],
+      "summary": "The authors benchmark four duplex sequencing methods alongside bulk and single-neuron genome sequencing in matched human brain tissue, then develop RIVER, which integrates read-level evidence across methods.",
+      "key_points": [
+        "Methods differ in genome representation, yield and mutational profile, with little caller-level concordance but far more cross-method support at the read level.",
+        "RIVER expands cross-method-supported candidates about two orders of magnitude; roughly half of those tested validated at about 10,000x orthogonal sequencing.",
+        "Recovered variants resolve broadly distributed and regionally restricted clones and lineage among single neurons."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1007/s43465-026-01856-5",
       "date_added": "2026-10-15",

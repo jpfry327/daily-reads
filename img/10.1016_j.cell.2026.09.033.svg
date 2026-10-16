@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">A melanoma read against its own T2T genome</text>
+<!-- chromosome ideogram -->
+<rect x="70" y="92" width="500" height="44" rx="22" fill="#8A949E" fill-opacity="0.18" stroke="#8A949E" stroke-width="2.5"/>
+<!-- centromere -->
+<rect x="268" y="84" width="104" height="60" rx="14" fill="#1E5FA8" fill-opacity="0.2" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="320" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">Kinetochore binding domain</text>
+<!-- satellite hotspots with UV ticks -->
+<g stroke="#C8323F" stroke-width="3" stroke-linecap="round">
+<path d="M130 98V86M142 98V80M154 98V88M166 98V82"/><path d="M450 98V86M464 98V80M478 98V88"/>
+</g>
+<text x="148" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">Satellite repeats</text>
+<text x="464" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">UV hotspots</text>
+<!-- telomeres -->
+<circle cx="70" cy="114" r="10" fill="#D98A00"/><circle cx="570" cy="114" r="10" fill="#D98A00"/>
+<text x="70" y="156" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">Telomere</text>
+<text x="570" y="156" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">Telomere</text>
+<!-- assembly tracks -->
+<text x="40" y="208" font-size="14" fill="#2B3138">GRCh38</text>
+<rect x="130" y="194" width="130" height="18" fill="#8A949E"/><rect x="380" y="194" width="190" height="18" fill="#8A949E"/>
+<rect x="260" y="194" width="120" height="18" fill="#fff" stroke="#C8323F" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="320" y="208" text-anchor="middle" font-size="13" fill="#C8323F">Missing</text>
+<text x="40" y="244" font-size="14" fill="#2B3138">Donor T2T</text>
+<rect x="130" y="230" width="440" height="18" fill="#3C9A2E"/>
+<g stroke="#C8323F" stroke-width="3"><path d="M150 230V222M162 230V220M174 230V224"/><path d="M286 230V220M300 230V222M314 230V218M328 230V222"/><path d="M455 230V222M470 230V220"/></g>
+<text x="320" y="272" text-anchor="middle" font-size="14" fill="#2B3138">Somatic variants in sequence GRCh38 lacks</text>
+<!-- three findings -->
+<rect x="40" y="300" width="170" height="70" rx="12" fill="#1E5FA8" fill-opacity="0.1" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="125" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">Aneuploidy breakpoints</text>
+<text x="125" y="348" text-anchor="middle" font-size="14" fill="#2B3138">at kinetochore domains</text>
+<rect x="235" y="300" width="170" height="70" rx="12" fill="#C8323F" fill-opacity="0.1" stroke="#C8323F" stroke-width="2.5"/>
+<text x="320" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#C8323F">Epigenetic remodeling</text>
+<text x="320" y="348" text-anchor="middle" font-size="14" fill="#2B3138">tumour-specific</text>
+<rect x="430" y="300" width="170" height="70" rx="12" fill="#D98A00" fill-opacity="0.12" stroke="#D98A00" stroke-width="2.5"/>
+<text x="515" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">Telomere cycle</text>
+<text x="515" y="348" text-anchor="middle" font-size="14" fill="#2B3138">erosion, then extension</text>
+</svg>
