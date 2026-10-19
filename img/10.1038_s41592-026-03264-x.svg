@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs>
+<marker id="ar" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker>
+<pattern id="dots" width="22" height="18" patternUnits="userSpaceOnUse"><circle cx="11" cy="9" r="5" fill="#8A949E" fill-opacity="0.45"/></pattern>
+</defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">Sorting focal amplifications in tumour genomes</text>
+<!-- input -->
+<rect x="14" y="58" width="150" height="150" rx="12" fill="#8A949E" fill-opacity="0.08" stroke="#8A949E" stroke-width="2"/>
+<text x="89" y="82" text-anchor="middle" font-size="15" font-weight="700" fill="#2B3138">Cancer WGS</text>
+<path d="M28 172 H68 L78 172 L86 112 L94 172 H150" fill="none" stroke="#C8323F" stroke-width="4" stroke-linejoin="round"/>
+<line x1="28" y1="172" x2="150" y2="172" stroke="#8A949E" stroke-width="1.5"/>
+<text x="89" y="196" text-anchor="middle" font-size="13" fill="#2B3138">focal copy gain</text>
+<path d="M166 133 L196 133" stroke="#2B3138" stroke-width="2.5" marker-end="url(#ar)"/>
+<!-- tool -->
+<rect x="198" y="98" width="128" height="70" rx="14" fill="#1E5FA8"/>
+<text x="262" y="139" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">AmpliconSuite</text>
+<path d="M328 126 L362 84" stroke="#2B3138" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M328 133 L362 138" stroke="#2B3138" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M328 142 L362 190" stroke="#2B3138" stroke-width="2.5" marker-end="url(#ar)"/>
+<!-- outputs -->
+<rect x="366" y="62" width="260" height="44" rx="10" fill="#8A949E" fill-opacity="0.08" stroke="#8A949E" stroke-width="2"/>
+<g fill="#8A949E" fill-opacity="0.6"><rect x="378" y="78" width="9" height="12"/><rect x="391" y="78" width="9" height="12"/><rect x="404" y="78" width="9" height="12"/></g>
+<text x="426" y="89" font-size="15" font-weight="700" fill="#2B3138">Other amplification</text>
+<rect x="366" y="116" width="260" height="44" rx="10" fill="#D98A00" fill-opacity="0.08" stroke="#D98A00" stroke-width="2"/>
+<path d="M380 150 V132 Q389 122 398 132 V150" fill="none" stroke="#D98A00" stroke-width="5" stroke-linejoin="round"/>
+<text x="426" y="143" font-size="15" font-weight="700" fill="#D98A00">Breakage-fusion-bridge</text>
+<rect x="366" y="170" width="260" height="44" rx="10" fill="#1E5FA8" fill-opacity="0.08" stroke="#1E5FA8" stroke-width="2"/>
+<circle cx="392" cy="192" r="13" fill="none" stroke="#1E5FA8" stroke-width="5"/>
+<text x="426" y="198" font-size="15" font-weight="700" fill="#1E5FA8">ecDNA</text>
+<path d="M496 216 L496 242" stroke="#2B3138" stroke-width="2.5" marker-end="url(#ar)"/>
+<!-- ecContext -->
+<rect x="366" y="246" width="260" height="138" rx="12" fill="#3C9A2E" fill-opacity="0.08" stroke="#3C9A2E" stroke-width="2"/>
+<text x="496" y="270" text-anchor="middle" font-size="15" font-weight="700" fill="#3C9A2E">ecContext</text>
+<g fill="none" stroke-width="8">
+<circle cx="412" cy="318" r="22" stroke="#1E5FA8"/>
+<circle cx="496" cy="318" r="22" stroke="#1E5FA8" stroke-dasharray="92 46"/>
+<circle cx="496" cy="318" r="22" stroke="#C8323F" stroke-dasharray="46 92" stroke-dashoffset="-92"/>
+<circle cx="580" cy="318" r="22" stroke="#1E5FA8" stroke-dasharray="52 86"/>
+<circle cx="580" cy="318" r="22" stroke="#C8323F" stroke-dasharray="40 98" stroke-dashoffset="-52"/>
+<circle cx="580" cy="318" r="22" stroke="#D98A00" stroke-dasharray="30 108" stroke-dashoffset="-92"/>
+</g>
+<text x="496" y="368" text-anchor="middle" font-size="13" fill="#2B3138">structure → mechanism</text>
+<!-- repository -->
+<rect x="14" y="246" width="330" height="138" rx="12" fill="#8A949E" fill-opacity="0.08" stroke="#8A949E" stroke-width="2"/>
+<text x="179" y="270" text-anchor="middle" font-size="15" font-weight="700" fill="#2B3138">AmpliconRepository</text>
+<rect x="34" y="282" width="290" height="54" fill="url(#dots)"/>
+<circle cx="45" cy="291" r="5" fill="#1E5FA8"/><circle cx="111" cy="309" r="5" fill="#1E5FA8"/><circle cx="199" cy="291" r="5" fill="#1E5FA8"/><circle cx="265" cy="327" r="5" fill="#1E5FA8"/><circle cx="309" cy="309" r="5" fill="#1E5FA8"/>
+<text x="179" y="362" text-anchor="middle" font-size="13" fill="#2B3138">shared community results</text>
+</svg>

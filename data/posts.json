@@ -1,13 +1,626 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-16T10:30:00Z",
+  "updated": "2026-10-19T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41587-026-03332-9",
-    "10.1016/j.cell.2026.09.033",
-    "10.1038/s41586-026-11119-w"
+    "10.1038/s41592-026-03264-x",
+    "10.1016/j.cell.2026.09.043",
+    "10.1038/s41587-026-03332-9"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03264-x",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
+      "authors": "Luebeck J, Liefeld T, Wong IT, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03264-x",
+      "url": "https://doi.org/10.1038/s41592-026-03264-x",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Pan-cancer"
+      ],
+      "summary": "AmpliconSuite is a toolkit that finds focal amplifications in cancer whole-genome sequencing, including extrachromosomal DNA (ecDNA), breakage-fusion-bridge cycles and other amplification modes. Its ecContext module categorises ecDNA structures to help explain how they formed.",
+      "key_points": [
+        "Predictions were validated against metaphase FISH for 175 probed genes across 72 models.",
+        "Analysis of 6,506 pan-cancer patient samples revealed ecDNA-mediated oncogene co-amplification preferences.",
+        "AmpliconRepository, a community-contributable platform, lets users compare results across more than 15,000 public samples."
+      ],
+      "data": "AmpliconRepository",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03264-x.svg",
+        "caption": "Focal copy gains in tumour whole-genome data are sorted by AmpliconSuite into ecDNA, breakage-fusion-bridge and other amplification types, and ecContext then categorises ecDNA structures to infer how they formed.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.043",
+      "date_added": "2026-10-19",
+      "published": "2026-10-15",
+      "title": "Functional diversification of the cephalopod proteome by RNA editing",
+      "authors": "Moen JM, Richards AL, Krogsaeter EK, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.043",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.043",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "Coleoid cephalopods show the highest known levels of ADAR-mediated RNA editing, but the effects of most recoding events were unclear. Integrating proteomics with biochemical and cellular assays across the Doryteuthis pealeii proteome, this study shows how recoding changes protein behaviour.",
+      "key_points": [
+        "Proteomics confirmed translation of 7,997 recoded sites.",
+        "Recoding alters protein stability, subcellular localisation, post-translational modifications and enzymatic activity, and can create or remove modification sites.",
+        "Recoding the E3 ligase MARCHF5 changes widespread substrate ubiquitylation and perturbs mitochondrial homeostasis."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.cell.2026.09.043.svg",
+        "caption": "ADAR converts adenosine to inosine in squid mRNA, recoding the protein; recoding changes stability, localisation, modification sites and activity, and recoded MARCHF5 shifts substrate ubiquitylation and disturbs mitochondria.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41467-026-77900-7",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "The molecular heterogeneity and clinical impact of genomic driver alterations in prostate cancer",
+      "authors": "Pellegrina D, Kiriy D, C L Cheng K, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77900-7",
+      "url": "https://doi.org/10.1038/s41467-026-77900-7",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Structural variants",
+        "Copy number"
+      ],
+      "summary": "Using the Pan Prostate Cancer Group whole-genome dataset of 1,001 men, this study integrates small mutations, structural variants and copy number alterations to find recurrent driver alterations in 961 primary prostate tumours. At least one recurrent somatic or germline alteration was found in 97% of tumours.",
+      "key_points": [
+        "Structural variation can hijack onco-enhancers of solute carrier genes, with SLC30A4 as a prominent example.",
+        "FOXA1, MDM4, COL5A1, TP53 and BRCA1 alterations stratify with metastatic disease, and additional drivers are enriched in African-ancestry tumours.",
+        "One quarter of tumours carry genome-informed therapeutic targets, and four oncotypes were defined, two of them with shorter metastasis-free survival."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01793-w",
+      "date_added": "2026-10-19",
+      "published": "2026-10-15",
+      "title": "Decoding coupled epigenetic-fragmentomic signals in circulating cell-free DNA for interpretable cancer diagnosis",
+      "authors": "Wang Y, Hou Y, Liu X, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01793-w",
+      "url": "https://doi.org/10.1186/s13073-026-01793-w",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Machine learning"
+      ],
+      "summary": "This study asks whether methylation sequencing of plasma cell-free DNA preserves fragmentomic signals and how methylation and fragmentation are coupled. It defines plasma-derived methylation haplotype blocks (MHBs) as interpretable units and builds FAME, a multimodal cancer-detection model.",
+      "key_points": [
+        "Canonical fragmentomic patterns were partially preserved in WGBS and EM-seq relative to conventional WGS, with preservation varying by feature.",
+        "Methylation levels were associated with fragment length and end-motif patterns, and MHBs showed tissue-associated regulatory features.",
+        "FAME and its genome-wide-augmented version FAME-GW performed robustly in cross-validation and independent validation against THEMIS, SPOT-MAS and DELFI, with FAME-GW strongest overall."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281897.126",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "Conditional diffusion for single-cell Hi-C data imputation and enhancement with scHiC-Diff",
+      "authors": "Liu W, Fang Z, Du X, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281897.126",
+      "url": "https://doi.org/10.1101/gr.281897.126",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scHiC-Diff is a conditional diffusion framework that imputes and enhances sparse single-cell Hi-C contact maps, treating them as masked images modelled with a Diffusion Transformer. It aims to separate technical dropouts from genuine absences of chromatin contacts.",
+      "key_points": [
+        "Tested on two simulated and three real scHi-C datasets, it improved recovery of chromatin interaction patterns and downstream analyses over existing methods.",
+        "It is designed to avoid the smoothing and restrictive likelihood assumptions of existing methods, which can obscure fine-scale chromatin structure.",
+        "On a developmental scHi-C dataset it improved reconstruction of chromatin organisation and chromatin loop detection."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aed4155",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "CellDiffusion: Enhancing scRNA-seq data integration with accurate inference of cell-cell association",
+      "authors": "Liu YC, Huang Z, Lu SL, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aed4155",
+      "url": "https://doi.org/10.1126/sciadv.aed4155",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "CellDiffusion is an unsupervised graph-based model that propagates cellular features through a diffusion process and learns a cell-cell attention network to integrate scRNA-seq datasets across batches. It applies cell-specific correction while preserving cell types and developmental trajectories.",
+      "key_points": [
+        "It aims to separate genuine biological variation from technical noise, avoiding misaligned cell populations or uncorrected batch effects.",
+        "Validated across various datasets, including the human endometrium across the menstrual cycle.",
+        "The framework also improves label transfer, clustering and trajectory inference."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78344-9",
+      "date_added": "2026-10-19",
+      "published": "2026-10-15",
+      "title": "cPRIME enables endogenous mapping of genetic variant effects at RNA level",
+      "authors": "El Kassem G, Westphal C, Doebel M, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78344-9",
+      "url": "https://doi.org/10.1038/s41467-026-78344-9",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "cPRIME (prime editing with cDNA readout) inserts genetic variants into endogenous genomic loci with prime editing, then compares variant frequencies in cDNA and genomic DNA to measure effects at the RNA level. It is a scalable way to study post-transcriptional consequences of variants, including variants of uncertain significance.",
+      "key_points": [
+        "It works across diverse karyotypes and genomic loci.",
+        "Synonymous marker edits commonly used in prime editing screens can themselves alter RNA processing and confound the interpretation of variant effects.",
+        "It provides a framework for interpreting RNA-altering variants in cancer and other diseases."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77414-2",
+      "date_added": "2026-10-19",
+      "published": "2026-09-14",
+      "title": "Telomere length of both parents contributes to heritable POT1 cancer-predisposition syndrome",
+      "authors": "Martin A, Lu R, Blake A, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77414-2",
+      "url": "https://doi.org/10.1038/s41467-026-77414-2",
+      "topics": [
+        "Cancer genomics",
+        "Long-read"
+      ],
+      "summary": "Using a nanopore sequencing approach with haplotype-specific telomere length resolution, this study examined telomere inheritance in families carrying germline POT1 mutations. Telomeres from both parents were elongated in carriers.",
+      "key_points": [
+        "Offspring preferentially inherit their longest telomeres from the carrier parent, consistent with extensive germline elongation, while shorter telomeres mostly come from the non-carrier parent.",
+        "In carrier and non-carrier siblings, telomeres from both parents were elongated in POT1 carriers, with preferential elongation of the shortest telomeres.",
+        "The authors propose a mechanism of genetic anticipation in which POT1 mutations progressively deplete short telomeres that enforce telomere-based tumour suppression."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1027",
+      "date_added": "2026-10-19",
+      "published": "2026-10-19",
+      "title": "EvoNiche: a comprehensive database for dissecting tumor niche dynamics and spatiotemporal evolution within the cancer ecosystem",
+      "authors": "Zhao H, Yin X, Wang S, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1027",
+      "url": "https://doi.org/10.1093/nar/gkag1027",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Resource"
+      ],
+      "summary": "EvoNiche is a database that integrates 91 matched spatial and single-cell transcriptomic datasets across 35 cancer types to dissect regional tumour niche dynamics and spatiotemporal trajectories. It covers 712 tissue sections and 58 single-cell datasets and identifies 5,609 spatial niches.",
+      "key_points": [
+        "It provides tissue-level and cell-level trajectories, spatially organised cell composition, region-specific molecular programmes and cell-cell interactions.",
+        "It prioritises region-specific and transition genes as candidate genes across pan-cancer and immunotherapy cohorts.",
+        "It is intended as a resource for studying tumour ecosystem organisation, progression and therapeutic response."
+      ],
+      "data": "bio-bigdata.hrbmu.edu.cn/EvoNiche",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag990",
+      "date_added": "2026-10-19",
+      "published": "2026-10-13",
+      "title": "Chemically stabilized long antisense oligonucleotides perturb RNA exosome function",
+      "authors": "Hofacker DT, Gackstatter S, Deisling V, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag990",
+      "url": "https://doi.org/10.1093/nar/gkag990",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Proximity biotinylation proteomics identifies the RNA exosome catalytic subunits DIS3 and EXOSC10 as modification-sensitive binders of long, chemically stabilised single-stranded RNA drugs. Binding correlates with exosome impairment.",
+      "key_points": [
+        "Impairment shows up as stabilised promoter upstream transcripts and accumulated ribosomal RNA processing intermediates, with reduced cell viability.",
+        "Oligonucleotides longer than 24 nucleotides can impair exosome function, and inhibition depends on how ribose and backbone modifications are arranged; bulky 2'-MOE residues or mesyl phosphoramidate linkages mitigate it.",
+        "ADAR-recruiting oligonucleotides can be designed that keep editing activity while minimising exosome interference."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/0008-5472.CAN-25-5866",
+      "date_added": "2026-10-19",
+      "published": "2026-10-13",
+      "title": "A Germline-Encoded lncRNA-Mitochondrial Axis Rewires Oxidative Phosphorylation to Drive Progression in Clear Cell Renal Cell Carcinoma",
+      "authors": "Duan G, Xu W, Jiang W, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.CAN-25-5866",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-25-5866",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics"
+      ],
+      "summary": "Whole-genome sequencing and transcriptomes of matched ccRCC tumour and normal kidney were integrated with cross-ancestry GWAS, eQTL, TWAS and fine-mapping to find germline regulatory variation behind ccRCC susceptibility. LINC02068 emerged as a genetically regulated tumour suppressor, with rs234043 prioritised as the candidate causal variant.",
+      "key_points": [
+        "The rs234043 risk allele recruits HOXC8 and represses LINC02068 transcription; low LINC02068 is linked to adverse outcomes.",
+        "LINC02068 localises to mitochondria, binds the co-chaperone DNAJA3 and promotes its destabilisation, dampening oxidative phosphorylation.",
+        "Allele-specific editing and rescue experiments support an rs234043-HOXC8-LINC02068-DNAJA3 axis, and mitochondrial complex I inhibition suppressed ccRCC cell migration and proliferation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-1885",
+      "date_added": "2026-10-19",
+      "published": "2026-10-13",
+      "title": "Cerebrospinal fluid and plasma circulating tumor DNA dynamics as a biomarker of response during trastuzumab deruxtecan treatment in patients with breast cancer with leptomeningeal disease",
+      "authors": "Fitzpatrick A, Shanmugalingam T, Haider S, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-1885",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-1885",
+      "topics": [
+        "Cancer genomics",
+        "Clinical"
+      ],
+      "summary": "Serial CSF and plasma samples from seven patients with breast cancer leptomeningeal disease in cohort 5 of the phase II DEBBRAH trial (trastuzumab deruxtecan) were profiled for ctDNA tumour fraction by ultra-low-pass whole-genome sequencing and for mutations by UMI-based targeted sequencing. CSF ctDNA looks like a sensitive, dynamic marker of leptomeningeal disease burden.",
+      "key_points": [
+        "ctDNA was detected by ulpWGS in all baseline CSF samples but in only two of six baseline plasma samples.",
+        "Early falls in CSF ctDNA tumour fraction within 1-2 cycles were associated with prolonged radiological control, while plasma ctDNA mainly reflected extracranial disease.",
+        "CSF and plasma showed marked genomic compartmentalisation, including copy number alterations and subclonal variants that may relate to response and resistance."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.7759/cureus.116321",
+      "date_added": "2026-10-19",
+      "published": "2026-09-15",
+      "title": "Patient-Centered Transition to Clean Intermittent Catheterization After a Sacrectomy for Sacral Chordoma: A Case Report and Narrative Review",
+      "authors": "Semenenko IG, Abdaev M, Bulatov AV, et al.",
+      "venue": "Cureus",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.7759/cureus.116321",
+      "url": "https://doi.org/10.7759/cureus.116321",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Case report of a 57-year-old woman with an S2-S4 sacral chordoma treated with a two-stage procedure (endoscopic mobilisation, then midline S2-S5 sacrectomy). Sacrificing the S2-S5 roots left her with complete bladder atony, and she learned clean intermittent catheterisation.",
+      "key_points": [
+        "Imaging showed a 70 x 50 x 42 mm lesion that had grown to 72 x 51 x 81 mm by week 11, before surgery.",
+        "At six months a small stable residual tumour remained; proton therapy had not been given because of a postoperative cerebrospinal fluid collection.",
+        "The authors argue that the choice of bladder-emptying strategy after sacral tumour surgery should weigh oncological prognosis, neurological injury, patient preferences and structured education."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "pmid:42886980",
+      "date_added": "2026-10-19",
+      "published": "",
+      "title": "Sacral chordoma",
+      "authors": "Turesso VD, Tzu Chen Y, Fabrissin MM, et al.",
+      "venue": "Medicina (Buenos Aires)",
+      "type": "Article",
+      "tier": null,
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42886980/",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Case report of a 78-year-old man with low back pain and a 75 mm sacrococcygeal mass, treated by posterior oncological resection with S4-S5 sacral osteotomy. Pathology confirmed chordoma with negative margins.",
+      "key_points": [
+        "MRI showed a lobulated tumour involving the distal sacrum and adjacent soft tissues without visceral invasion.",
+        "The authors note that sacral chordoma is hard to manage because of its infiltrative growth and closeness to pelvic structures.",
+        "They conclude that complete en bloc resection remains the cornerstone of treatment, within multidisciplinary management."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.15.759320",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "The pan-cancer whole-genome landscape of Adolescent and Young Adult solid cancers",
+      "authors": "van Putten J, Rosendahl Huber A, Koster R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.15.759320",
+      "url": "https://doi.org/10.64898/2026.10.15.759320",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "Paired tumour-normal whole genomes from 698 adolescent and young adult (AYA) patients and 5,220 older adults (OAs) show how age shapes cancer genomes. AYA tumours carry fewer somatic variants but largely share the same drivers.",
+      "key_points": [
+        "Many apparent age differences reflect age-dependent subtypes such as IDH-mutant glioma and HPV-positive cervical cancer.",
+        "Colibactin, APOBEC and homologous recombination deficiency signatures were more prevalent in AYA colorectal, gynaecological and breast cancers, but were not more mutagenic when present.",
+        "Tumour type-concordant pathogenic germline variants were enriched in AYAs (10.9% vs 6.6% in matched OAs; p=0.006), often with a somatic second hit."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.12.758417",
+      "date_added": "2026-10-19",
+      "published": "2026-10-18",
+      "title": "Pan-cancer nucleosome landscapes reveal tumor heterogeneity and inform cell-free DNA-based detection",
+      "authors": "Yang S, Ye J, Yuan J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.12.758417",
+      "url": "https://doi.org/10.64898/2026.10.12.758417",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Pan-cancer"
+      ],
+      "summary": "An atlas of nucleosome positioning and occupancy across 410 primary tumours from 23 cancer types, built from ATAC-seq and validated with independent MNase-seq data. Tissue-derived nucleosome signatures were then tested for cancer classification and detection in cell-free DNA.",
+      "key_points": [
+        "Nucleosome occupancy carried information complementary to chromatin accessibility for tumour stratification and revealed heterogeneity within cancers, including Basal-like breast cancer subgroups.",
+        "In hepatocellular carcinoma, differential nucleosome analysis revealed cancer-associated chromatin remodelling.",
+        "In cfDNA the signatures classified three cancer types (AUROC 0.877) and detected colorectal cancer (AUROC 0.930), with 0.773 in an independent validation cohort."
+      ],
+      "data": "OncoNucAtlas",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.15.759385",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "Modulator Resolves Transcript-, Allele-, and Condition-associated RNA Modification Differences from Direct RNA Sequencing",
+      "authors": "Nelson TM, Goneos M, Aufgebauer CJ, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.15.759385",
+      "url": "https://doi.org/10.64898/2026.10.15.759385",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications",
+        "Long-read"
+      ],
+      "summary": "Modulator assigns every nanopore direct-RNA read, including 5'-truncated ones, to a 'fragmentform' defined by a shared transcript 3' end and its upstream splice junctions, then estimates per-base modification stoichiometry for each fragmentform. It classifies differences as transcript-, allele- or condition-dependent.",
+      "key_points": [
+        "In the HG002 transcriptome it built 23,746 fragmentforms, 15,620 of them candidate novel isoforms, and assigning truncated reads to fragmentforms nearly doubled the number of testable, differentially modified sites.",
+        "m6A sites within 100 nt of a splice junction or 1 kb of a poly(A) site were less modified in fragmentforms using that junction or site, suggesting local transcript context shapes m6A deposition.",
+        "From the same reads it called SNPs with 93% precision and found 1,358 allele-specific modification differences; in Zika-infected cells, 96% of m6A changes at GLORI-measured sites agreed in direction with GLORI."
+      ],
+      "data": "",
+      "code": "github.com/Theo-Nelson/Modulator"
+    },
+    {
+      "id": "10.64898/2026.10.09.758114",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "IsoMatch enables population-scale transcript integration and reveals reference-dependent isoform novelty",
+      "authors": "Zheng X, Garcia-Ruiz S, Fu Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.758114",
+      "url": "https://doi.org/10.64898/2026.10.09.758114",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "IsoMatch is a scalable framework that merges transcript models and classifies them against reference annotations using explicit, configurable structural criteria for splice junction chains and transcript ends, keeping every merged model traceable to its inputs.",
+      "key_points": [
+        "It merged 163 ENCODE transcript catalogs and classified 7.9 million transcript models, with peak memory of 0.49 GB and 1.1 GB respectively.",
+        "Integrating GENCODE, RefSeq and CHESS showed that 71.2% of transcript groups stayed annotation-specific even without terminal constraints.",
+        "For 4.84 million merged models from 119 long-read transcriptomes of the 1000 Genomes Project, the integrated reference raised the full-splice-match proportion from 12.0-13.6% with single annotations to 18.0%."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.12.757986",
+      "date_added": "2026-10-19",
+      "published": "2026-10-14",
+      "title": "Predicting resistance to synthetic lethal therapies in cancer",
+      "authors": "Yazar M, Lord CJ, Ryan CJ",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.12.757986",
+      "url": "https://doi.org/10.64898/2026.10.12.757986",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "This study asks whether resistance to synthetic lethal (SL) cancer therapies can be predicted in advance. Using ten genome-wide CRISPR-Cas9 chemogenetic resistance screens, the authors trained a random forest on protein-protein interaction, co-expression and essentiality features.",
+      "key_points": [
+        "Resistance genes were enriched among the protein-protein interaction partners of SL pairs, were more co-expressed with the target and showed distinct essentiality patterns.",
+        "Under leave-one-SL-pair-out validation the model reached a mean AUROC of 0.72 (range 0.57-0.91) but low average precision (~9%), because resistance genes are under 1% of genes.",
+        "The model was also tested on resistance to two SL therapies in clinical trials, MTAP-PRMT5 and ATM-ATR."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.14.759162",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "Biopsy-aware phylogenetic reconstruction from longitudinal single-cell copy number profiles",
+      "authors": "Paszek J, Mykowiecka A, Gogolewski K",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.14.759162",
+      "url": "https://doi.org/10.64898/2026.10.14.759162",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Tumour evolution"
+      ],
+      "summary": "The Cancer Tree Biopsy Framework (CTBF) reconstructs cancer phylogenies from longitudinal single-cell copy-number profiles, distinguishing a profile from its separate observations across biopsies so that sampled ancestors and collection order can be used.",
+      "key_points": [
+        "Biopsy-guided partial methods scored higher mean rooted generalized Robinson-Foulds similarity than pooled neighbor joining and topology-only MEDICC2 across 100 simulated histories.",
+        "Under a fixed computational budget they also beat NestedBD-Long at two evolutionary depths, although convergence of its MCMC runs was not established.",
+        "An application to three longitudinal KTN152 biopsies showed genome-scale feasibility on patient-derived copy-number estimates."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.13.758949",
+      "date_added": "2026-10-19",
+      "published": "2026-10-15",
+      "title": "Pervasive expression of early embryonic programs in cancer has stage-dependent survival impact",
+      "authors": "Wang T, Hernandez-Rodriguez B, Seneviratne JA, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.758949",
+      "url": "https://doi.org/10.64898/2026.10.13.758949",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Pan-cancer"
+      ],
+      "summary": "Using EmbryoRadar, a suite of preimplantation stage-specific machine learning classifiers, the authors show that early embryonic gene expression programmes are widespread in human tumours and independently predict overall survival beyond clinical covariates.",
+      "key_points": [
+        "Similarity to the zygote and 2-cell stages was associated with better survival; in kidney cancer this came from stromal and immune cells responding to the tumour.",
+        "Trophectoderm-associated programmes in tumour cells were linked to worse survival in breast cancer and melanoma, and to MYBL2-driven cell cycle, oxidative phosphorylation and biosynthesis.",
+        "Cell line dependency data identified MYBL2 and FOXM1 as vulnerabilities in trophectoderm-high cancers."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.11.758362",
+      "date_added": "2026-10-19",
+      "published": "2026-10-17",
+      "title": "Benchmarking the AlphaGenome Variant Impact score against SpliceAI on post-release ClinVar classifications and experimental splicing assays",
+      "authors": "Cavus OA, Kuskucu A",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.11.758362",
+      "url": "https://doi.org/10.64898/2026.10.11.758362",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Splicing"
+      ],
+      "summary": "A pre-planned benchmark of the AlphaGenome Variant Impact (AVI) score against SpliceAI, Pangolin and CADD, using ClinVar classifications made after AlphaGenome's ClinVar release (87,666 rare variants outside its training chromosomes) and six splicing assays.",
+      "key_points": [
+        "For intronic variants at least 3 bases from an exon, AVI reached an AUROC of 0.957, not detectably different from SpliceAI (-0.005) or Pangolin (-0.006) and above CADD (+0.071).",
+        "For deep intronic variants AVI trailed SpliceAI (-0.070), and on the assays it ranked splice-altering variants below raw SpliceAI (-0.089).",
+        "AVI gave benign evidence to 24% of benign variants versus 90% for SpliceAI, and SpliceAI2, released during the study, led AVI on both kinds of ground truth."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.15.759112",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "Navigating the rapidly evolving landscape of sequencing-based spatial transcriptomics technologies: a comprehensive multi-platform benchmark",
+      "authors": "Mortier J, Scheyltjens I, Kuznecova E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.15.759112",
+      "url": "https://doi.org/10.64898/2026.10.15.759112",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "A systematic benchmark of a diverse set of sequencing-based spatial transcriptomics platforms across multiple tissue types and preservation methods, comparing capture area architecture, capture efficiency and spatial accuracy. The authors also propose terminology and operational performance metrics.",
+      "key_points": [
+        "Platforms differ in transcript detection chemistry, capture area architecture, imaging capabilities and tissue compatibility.",
+        "The proposed metrics aim to link technical performance to downstream data analysis and biological interpretation.",
+        "The authors offer the results as a resource for experimental design and a step towards standards for future benchmarking."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.15.759235",
+      "date_added": "2026-10-19",
+      "published": "2026-10-16",
+      "title": "SF3B1 mutation generates novel peptides from long non-coding RNAs",
+      "authors": "Bhattacharya S, Fernandez M, Wu Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.15.759235",
+      "url": "https://doi.org/10.64898/2026.10.15.759235",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Long-read"
+      ],
+      "summary": "Long-read sequencing of full-length transcripts from cell lines with and without SF3B1 mutation, together with ALLR, a new workflow to identify, quantify and annotate lncRNAs. With matched short-read RNA-seq and proteomics, the authors show SF3B1 mutation generates thousands of novel lncRNAs.",
+      "key_points": [
+        "The mutation-associated lncRNAs show diverse levels of alternative splicing and produce translatable peptides with putative function, immunogenicity and protein-binding potential.",
+        "47 lncRNAs were also detected in primary chronic lymphocytic leukaemia samples and were associated with significantly higher risk of adverse prognosis, alongside known CLL risk factors.",
+        "The work demonstrates the utility of long-read sequencing for lncRNA research."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41587-026-03332-9",
       "date_added": "2026-10-16",
