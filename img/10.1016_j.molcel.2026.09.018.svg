@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs>
+<marker id="ar" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker>
+<radialGradient id="cloud"><stop offset="0.5" stop-color="#3C9A2E" stop-opacity="0.28"/><stop offset="1" stop-color="#3C9A2E" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">An ecDNA hub keeps its own redox shield</text>
+<!-- nucleus -->
+<circle cx="190" cy="216" r="156" fill="#8A949E" fill-opacity="0.08" stroke="#8A949E" stroke-width="2"/>
+<text x="190" y="90" text-anchor="middle" font-size="14" fill="#8A949E">nucleus (oxidising)</text>
+<!-- GSH cloud -->
+<circle cx="190" cy="226" r="100" fill="url(#cloud)"/>
+<text x="190" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#3C9A2E">GSH cloud</text>
+<!-- hub of rings -->
+<g fill="none" stroke="#1E5FA8" stroke-width="5">
+<circle cx="164" cy="214" r="18"/><circle cx="206" cy="206" r="18"/><circle cx="188" cy="250" r="18"/><circle cx="228" cy="244" r="14"/><circle cx="148" cy="252" r="14"/>
+</g>
+<text x="190" y="298" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">ecDNA hub</text>
+<!-- GSSG in -->
+<rect x="30" y="196" width="56" height="28" rx="14" fill="#C8323F" fill-opacity="0.15" stroke="#C8323F" stroke-width="2"/>
+<text x="58" y="215" text-anchor="middle" font-size="13" font-weight="700" fill="#C8323F">GSSG</text>
+<path d="M88 212 L134 218" stroke="#2B3138" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="112" y="196" text-anchor="middle" font-size="13" fill="#2B3138">reduced</text>
+<!-- right side: effects -->
+<rect x="376" y="62" width="250" height="140" rx="12" fill="#3C9A2E" fill-opacity="0.08" stroke="#3C9A2E" stroke-width="2"/>
+<text x="501" y="88" text-anchor="middle" font-size="15" font-weight="700" fill="#3C9A2E">Hub intact</text>
+<text x="501" y="116" text-anchor="middle" font-size="13" fill="#2B3138">GSSG → GSH, no enzyme</text>
+<text x="501" y="140" text-anchor="middle" font-size="13" fill="#2B3138">ecDNA shielded from damage</text>
+<text x="501" y="164" text-anchor="middle" font-size="13" fill="#2B3138">oncogene expression sustained</text>
+<path d="M501 210 L501 236" stroke="#2B3138" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="512" y="228" font-size="13" font-weight="700" fill="#D98A00">+ spermidine</text>
+<rect x="376" y="242" width="250" height="142" rx="12" fill="#C8323F" fill-opacity="0.08" stroke="#C8323F" stroke-width="2"/>
+<text x="501" y="268" text-anchor="middle" font-size="15" font-weight="700" fill="#C8323F">Hub interface disrupted</text>
+<text x="501" y="296" text-anchor="middle" font-size="13" fill="#2B3138">redox balance lost</text>
+<text x="501" y="320" text-anchor="middle" font-size="13" fill="#2B3138">GSH shield thins</text>
+<text x="501" y="344" text-anchor="middle" font-size="13" fill="#2B3138">tumour cells die</text>
+<path d="M300 226 L370 226" stroke="#2B3138" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+</svg>

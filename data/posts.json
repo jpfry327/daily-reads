@@ -1,13 +1,503 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-19T10:30:00Z",
+  "updated": "2026-10-20T10:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03264-x",
-    "10.1016/j.cell.2026.09.043",
-    "10.1038/s41587-026-03332-9"
+    "10.1158/2159-8290.CD-26-0180",
+    "10.1016/j.molcel.2026.09.018",
+    "10.1038/s41592-026-03264-x"
   ],
   "posts": [
+    {
+      "id": "10.1158/2159-8290.CD-26-0180",
+      "date_added": "2026-10-20",
+      "published": "2026-10-19",
+      "title": "H3K4me1-Mediated Epigenomic Priming of Chemoresistant Tumor States in Ovarian Cancer",
+      "authors": "Landais Y, Bertorello J, Puerto MP, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-26-0180",
+      "url": "https://doi.org/10.1158/2159-8290.CD-26-0180",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Epigenomics",
+        "Tumour evolution"
+      ],
+      "summary": "Multimodal single-nucleus RNA and histone profiling of longitudinal biopsies from 16 patients with high-grade serous ovarian cancer shows that chemoresistant states exist before therapy. Programs that persist or expand under chemotherapy are already enriched for H3K4me1 at baseline.",
+      "key_points": [
+        "Tumours comprise a limited set of functional states that evolve reproducibly under chemotherapy.",
+        "Proliferative and IFN-responsive states are depleted, while TNFα- and EMT-associated programs persist or expand.",
+        "Baseline tumour composition is associated with survival, and fibroblast remodelling accompanies malignant adaptation."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-26-0180.svg",
+        "caption": "Before chemotherapy, TNFα- and EMT-associated tumour states already carry H3K4me1; after chemotherapy the IFN and proliferative states are depleted while those primed states persist or expand.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.018",
+      "date_added": "2026-10-20",
+      "published": "2026-10-15",
+      "title": "Inherent electrochemical activity of extrachromosomal DNA hub shapes spatial redox environment in nucleus",
+      "authors": "Qin L, Wu T, Qiao S, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.018",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.018",
+      "topics": [
+        "Cancer genomics"
+      ],
+      "summary": "In human cancer cells and mouse models, ecDNA hubs create an electrochemical environment that reduces oxidised glutathione (GSSG) to GSH without an enzyme. The GSH forms a protective cloud around the hubs, shielding ecDNA from damage and sustaining oncogene expression.",
+      "key_points": [
+        "The mechanism was found with metabolomics, biochemistry and imaging assays.",
+        "Spermidine, which disrupts the interfacial environment of ecDNA hubs, upsets their redox balance and drives tumour death.",
+        "The work describes a self-reinforcing loop that maintains ecDNA in an oxidising tumour nucleus."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.molcel.2026.09.018.svg",
+        "caption": "An ecDNA hub reduces GSSG to GSH and sits inside a protective GSH cloud; spermidine disrupts the hub interface, the redox balance is lost and tumour cells die.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/0008-5472.CAN-25-2748",
+      "date_added": "2026-10-20",
+      "published": "2026-10-19",
+      "title": "Spatial Transcriptomics on a Diverse Pancreatic Cancer Cohort Reveals Race-Related Differences in Tumor Subtypes and Immune Microenvironments",
+      "authors": "Wu Y, Sålas-Escabillas DJ, Xie A, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.CAN-25-2748",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-25-2748",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Multi-omics",
+        "Clinical"
+      ],
+      "summary": "Whole-exome sequencing, spatial transcriptomics and spatial proteomics were used to compare pancreatic ductal adenocarcinoma in Black African American and Non-African American patients. Driver mutations did not differ, but tumour subtypes and immune microenvironments did.",
+      "key_points": [
+        "Tumours from Black African American patients had fewer classical-subtype cells and more intermediate/hybrid-subtype cells, with no change in basal-like cells.",
+        "They also showed more B cell and fewer myeloid cell interactions.",
+        "A validation cohort showed larger and more numerous tertiary lymphoid structures in these tumours."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41591-026-04692-0",
+      "date_added": "2026-10-20",
+      "published": "2026-10-19",
+      "title": "Molecular predictors of minimal residual disease in newly diagnosed multiple myeloma treated with quadruplet therapy",
+      "authors": "Magrangeas F, Cherkaoui M, Bessonneau-Gaborit V, et al.",
+      "venue": "Nature Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41591-026-04692-0",
+      "url": "https://doi.org/10.1038/s41591-026-04692-0",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics",
+        "Epigenomics",
+        "Machine learning"
+      ],
+      "summary": "Genomic, transcriptomic and epigenomic profiling of 423 newly diagnosed myeloma tumours from the MIDAS trial links molecular features to measurable residual disease (MRD) after Isa-KRd induction. A multimodal random forest predicted MRD status better than clinical or genomic models.",
+      "key_points": [
+        "Whole-genome sequencing found known (APOBEC, chromothripsis) and new genomic instability phenotypes, validated in MMRF.",
+        "New driver alterations were validated across three external cohorts (1,451 cases).",
+        "DNA methylation defined nine MRD-linked subgroups; the multimodal model reached an AUC of 0.77."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41591-026-04689-9",
+      "date_added": "2026-10-20",
+      "published": "2026-10-12",
+      "title": "A health-system-scale, episode-resolved multimodal atlas of cancer cachexia",
+      "authors": "Castillon VJ, Xie AX, Boscenco S, et al.",
+      "venue": "Nature Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41591-026-04689-9",
+      "url": "https://doi.org/10.1038/s41591-026-04689-9",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Machine learning"
+      ],
+      "summary": "Longitudinal clinicogenomic data from 52,236 MSK-IMPACT patients were repurposed to define episodes of cachectic weight loss and link them to outcomes, serology and tumour genotype. The authors then built a model to predict impending cachexia risk.",
+      "key_points": [
+        "Cachectic episodes cluster near disease progression and predict worse outcomes in nearly all cancer types.",
+        "Somatic genotypes, including TP53 mutation across several diseases, were linked to more frequent cachexia.",
+        "The model for lung, colorectal and prostate cancer was validated in an external Dana-Farber cohort (n = 5,785)."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1073/pnas.2611959123",
+      "date_added": "2026-10-20",
+      "published": "2026-10-19",
+      "title": "Identification and characterization of neoplastic cells in keratin-positive giant cell-rich tumors",
+      "authors": "van der Linde M, Chrisinger JSA, Demicco EG, et al.",
+      "venue": "PNAS",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1073/pnas.2611959123",
+      "url": "https://doi.org/10.1073/pnas.2611959123",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Sarcoma"
+      ],
+      "summary": "Single-nucleus RNA sequencing and Xenium spatial transcriptomics were used to find the neoplastic cells of keratin-positive giant cell-rich tumour (KPGCT), a newly described bone and soft tissue tumour. The cells were compared with tenosynovial giant cell tumour.",
+      "key_points": [
+        "A minority population co-expressing keratin and the fusion partners was identified as the likely neoplastic cells, with no synovial markers.",
+        "Most of the tumour is macrophages and multinucleated giant cells, pointing to CSF1-CSF1R signalling.",
+        "The neoplastic cells show Hippo pathway activation, and the results support testing CSF1R inhibitors."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag928",
+      "date_added": "2026-10-20",
+      "published": "2026-09-22",
+      "title": "Development of CRISPR/Cas13-based analytical tools to study RNA-protein interactions",
+      "authors": "Yamamoto K, Shikata S, Hao Y, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag928",
+      "url": "https://doi.org/10.1093/nar/gkag928",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The authors combined BiFC, NanoBiT and split-TurboID with RNA-targeting dCas13 to record, monitor and discover RNA-protein interactions. They tested the tools on the NEAT1-NONO interaction in paraspeckles.",
+      "key_points": [
+        "BiFC-dCas13 gives a quantitative fluorescence record of NEAT1-NONO interaction events, and NanoBiT-dCas13 reads out dynamic changes reversibly.",
+        "Split-TurboID-dCas13 identified the m6A reader YTHDC1 as a paraspeckle-associated protein.",
+        "BiFC-dCas13 was reconfigured to detect other RNA-protein pairs."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag984",
+      "date_added": "2026-10-20",
+      "published": "2026-10-19",
+      "title": "RNAffinityDB: a curated database of experimental RNA-protein binding affinities",
+      "authors": "Lin W, Chen Z, Li Y, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag984",
+      "url": "https://doi.org/10.1093/nar/gkag984",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "RNAffinityDB curates 10,016 construct-resolved RNA-protein binding affinity records from 1,055 publications, each tied to one protein construct and one single-stranded RNA sequence. It is aimed at sequence-affinity analysis and affinity-model development.",
+      "key_points": [
+        "It covers 3,057 protein constructs and 4,638 RNA sequences and keeps non-binding observations.",
+        "Records link to UniProt and to AlphaFold 3-predicted complex structures.",
+        "The web interface supports retrieval by protein or RNA and semantic queries on function."
+      ],
+      "data": "ultrarnalab.com/RNAffinityDB.php",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77792-7",
+      "date_added": "2026-10-20",
+      "published": "2026-09-17",
+      "title": "The PAXT connection is a modifier of rare codon-enriched protein expression",
+      "authors": "Niehoff T, Peterson J, Li S, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77792-7",
+      "url": "https://doi.org/10.1038/s41467-026-77792-7",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "A targeted sgRNA screen with rare- versus common-codon fluorescent reporters identified the PAXT connection, a nuclear complex that sends transcripts to the exosome, as a modifier of rare codon-enriched gene expression.",
+      "key_points": [
+        "Losing a PAXT component raised mRNA levels and stability, and protein output even more, for rare codon reporters.",
+        "Transcriptomics and proteomics showed the same preferential rise for endogenous proteins from long, poorly expressed rare-codon mRNAs.",
+        "PAXT is proposed as a genetic suppressor of poorly expressed rare-codon genes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag785",
+      "date_added": "2026-10-20",
+      "published": "2026-10-19",
+      "title": "DNA-BFN: Bayesian Flow Networks for Generative Modeling of Regulatory DNA Sequences",
+      "authors": "Yu H, Du Q, Wei L, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag785",
+      "url": "https://doi.org/10.1093/bioinformatics/btag785",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "DNA-BFN generates regulatory DNA sequences by iteratively updating per-position nucleotide distributions, a diffusion-like process that never adds noise to the discrete sequence.",
+      "key_points": [
+        "It outperformed state-of-the-art baselines across eight regulatory sequence datasets spanning species, scales and lengths.",
+        "It preserves sequence feature statistics and regulatory patterns and supports few-shot design.",
+        "Sampling is faster than the baselines."
+      ],
+      "data": "Zenodo 10.5281/zenodo.20177972",
+      "code": "github.com/WangLabTHU/DNA-BFN"
+    },
+    {
+      "id": "10.64898/2026.10.13.758934",
+      "date_added": "2026-10-20",
+      "published": "2026-10-19",
+      "title": "scRBP infers cell-specific RNA-binding protein regulons from single-cell transcriptomes at gene and isoform resolution",
+      "authors": "Ma Y, Tang M, Sriram V, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.758934",
+      "url": "https://doi.org/10.64898/2026.10.13.758934",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Single-cell",
+        "Isoforms"
+      ],
+      "summary": "scRBP infers motif-supported RNA-binding protein regulons from short- and long-read single-cell data at gene and isoform resolution, split by transcript region, and scores their activity per cell.",
+      "key_points": [
+        "Built from 20,746 motifs for 616 RBPs, it recovered targets across 223 ENCODE eCLIP datasets.",
+        "Across 30 tissues, 3'UTR-associated stability factors separated from intron-dominant splicing regulators.",
+        "In CRISPRi Perturb-seq data, inferred targets were enriched among genes responding to RBP knockdown (161 RBPs)."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.10.758205",
+      "date_added": "2026-10-20",
+      "published": "2026-10-13",
+      "title": "Pan-cancer remodeling of reactive oxygen species homeostasis: distinct roles of the ROS-generation and antioxidant arms in immune context and outcome",
+      "authors": "Xie K, Xuan Y, Sun R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.10.758205",
+      "url": "https://doi.org/10.64898/2026.10.10.758205",
+      "topics": [
+        "Cancer genomics",
+        "Pan-cancer",
+        "Immuno-oncology"
+      ],
+      "summary": "A cell-line ROS phenotype measured with a gold-nanocluster array was generalised to public transcriptomes through a 107-gene program, then scored across pan-cancer tumour and normal tissue.",
+      "key_points": [
+        "Generation and antioxidant arms are both up in tumours but dissociate in biology.",
+        "The balance score tracks low immune infiltration, carried by low generation-arm activity.",
+        "Adverse outcome was attributable to the antioxidant arm, and the program separated tumour from normal in held-out cohorts."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757026",
+      "date_added": "2026-10-20",
+      "published": "2026-10-13",
+      "title": "ALBIS: simulation of multi-resolution and multi-dimensional spatial transcriptomics data",
+      "authors": "Matthias JH, Yao J, Hicks SC",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757026",
+      "url": "https://doi.org/10.64898/2026.10.06.757026",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "ALBIS simulates spatial transcriptomics from an in silico 3D tissue with ground-truth molecule and cell coordinates, then cuts it into 2D sections at cell, bin and spot resolution.",
+      "key_points": [
+        "Several resolutions come from one molecular realisation, so methods can be compared across resolutions.",
+        "Spatial domains, cell type composition, batch effects, resolution and tissue scale can be varied.",
+        "It is meant for stress-testing spatial methods under known conditions."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.14.756197",
+      "date_added": "2026-10-20",
+      "published": "2026-10-15",
+      "title": "Mitigating genotype-driven bias improves atlas-scale single-cell DNA methylome profiling",
+      "authors": "Song X, Diacofotaki A, van der Veer BK, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.14.756197",
+      "url": "https://doi.org/10.64898/2026.10.14.756197",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "In pooled single-cell bisulfite data, donor C-to-T variants are misread as unmethylated cytosines. Masking variant positions before methylation quantification reduces this confounding.",
+      "key_points": [
+        "Tested on a sciMET human blood dataset (10 donors, 25,674 nuclei).",
+        "Masking lowered donor-associated effects in clustering and cut spurious sample-specific differentially methylated regions.",
+        "Benchmarking showed better batch mixing and preserved biology."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.06.757024",
+      "date_added": "2026-10-20",
+      "published": "2026-10-13",
+      "title": "RNA evidence supports clinical stage antibody drug targets in oncology",
+      "authors": "Pozzobon D, Khusial N, Spreafico R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.06.757024",
+      "url": "https://doi.org/10.64898/2026.10.06.757024",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "A bulk and single-cell RNA ranking framework scored 4,532 surfaceome targets across six solid tumour indications for tumour specificity, normal-tissue safety and blood sink, and was tested against clinically pursued antibody targets.",
+      "key_points": [
+        "Single-cell specificity gave higher odds ratios than bulk for clinical-stage and approved targets.",
+        "Adding safety and blood sink features made the single-cell score strongest.",
+        "Performance varied by indication, with breast cancer weaker."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.10.758236",
+      "date_added": "2026-10-20",
+      "published": "2026-10-13",
+      "title": "Spatial context of cellular heterogeneity in triple-negative breast cancer reveals actionable subtypes",
+      "authors": "Mesrizadeh Z, Mukund K, Yang L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.10.758236",
+      "url": "https://doi.org/10.64898/2026.10.10.758236",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "Bulk and spatial transcriptomics with cellular mapping across a large TNBC cohort defined three reproducible ecosystem subtypes with distinct spatial microenvironments.",
+      "key_points": [
+        "The subtypes are immune-exhausted (linked to checkpoint therapy), fibrotic/hypoxic, and metabolically reprogrammed.",
+        "Spatial profiling showed subtype-specific organisation at tumour centres and invasive edges.",
+        "Multiplexed imaging independently supported the immune-infiltrated versus stromal-excluded architectures."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.10.758234",
+      "date_added": "2026-10-20",
+      "published": "2026-10-13",
+      "title": "Spatially resolved tumor-microenvironment architecture defines therapeutic response in unresectable hepatoblastoma",
+      "authors": "Mesrizadeh Z, Ningappa M, Ranganathan S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.10.758234",
+      "url": "https://doi.org/10.64898/2026.10.10.758234",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Deconvolution"
+      ],
+      "summary": "Visium spatial transcriptomics (11 tumours) and CosMx single-cell imaging (3 tumours) on post-chemotherapy hepatoblastoma explants link spatial architecture to relapse.",
+      "key_points": [
+        "Relapse-prone tumours had a centralised, TME-dominated organisation with SPP1+ macrophages, fibroblasts and MDK-LRP1 signalling.",
+        "Non-relapse tumours showed compartmentalised tumour-immune interactions.",
+        "Resection samples had lower tumour cell state heterogeneity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.12.758400",
+      "date_added": "2026-10-20",
+      "published": "2026-10-13",
+      "title": "Spatial transcriptomics reveals interferon pathway enrichment in early relapsing serous carcinoma",
+      "authors": "Niemeyer F, Aho N, Hanninen S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.12.758400",
+      "url": "https://doi.org/10.64898/2026.10.12.758400",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Copy number"
+      ],
+      "summary": "Spatial transcriptomics of matched adnexal and omental samples from nine HGSC patients, grouped by platinum-free interval, shows an interferon-driven phenotype in short-interval tumours.",
+      "key_points": [
+        "Differences between short and longer platinum-free interval tumours were mostly site-agnostic.",
+        "C3, IFI27 and BST2 were consistently associated with short intervals, and C3 was validated by RNA in situ hybridisation.",
+        "High C3 expression was linked to shorter platinum-free survival in two public cohorts."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.12.758619",
+      "date_added": "2026-10-20",
+      "published": "2026-10-14",
+      "title": "A multimodal precision oncology platform integrating genomics, single-cell transcriptomics, and functional drug screening expands therapeutic options in pediatric brain tumors",
+      "authors": "Huang X, Qiao Y, Black GS, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.12.758619",
+      "url": "https://doi.org/10.64898/2026.10.12.758619",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Clinical"
+      ],
+      "summary": "A tiered framework combining deep whole-genome sequencing, single-cell RNA-seq and ex vivo drug screening was applied to 17 children with malignant CNS tumours.",
+      "key_points": [
+        "Functional screening gave every patient at least one high-confidence targeted or chemotherapy nomination.",
+        "scRNA-seq found an average of 37 druggable targets per patient, a fourfold rise in high-confidence recommendations.",
+        "Functional classes matched outcomes in 8 of 10 evaluable cases, an exploratory result."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03264-x",
       "date_added": "2026-10-19",
