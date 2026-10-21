@@ -1,13 +1,505 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-20T10:30:00Z",
+  "updated": "2026-10-21T10:04:43Z",
   "retention_days": 90,
   "featured": [
-    "10.1158/2159-8290.CD-26-0180",
-    "10.1016/j.molcel.2026.09.018",
-    "10.1038/s41592-026-03264-x"
+    "10.1038/s41587-026-03359-y",
+    "10.1038/s41588-026-02783-9",
+    "10.1038/s41588-026-02799-1"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02783-9",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "The landscape of gene loss and missense variation across the mammalian tree informs on gene essentiality",
+      "authors": "Liao C, Ye R, Ivankovic F, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02783-9",
+      "url": "https://doi.org/10.1038/s41588-026-02783-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "The authors build two constraint metrics from 462 mammalian genomes: GISMO, which weights gene loss by evolutionary distance to humans, and GISMO-mis, which measures missense constraint across mammals. Both track human constraint estimates yet are independent of coding length, so they pick up essential short genes that human-only metrics miss.",
+      "key_points": [
+        "Both metrics correlate with human loss-of-function, missense and dosage constraint from large sequencing studies.",
+        "The most constrained deciles are enriched for rare-variant associations in schizophrenia, autism and neurodevelopmental disorders, and for common-variant heritability.",
+        "GISMO also improves prioritisation of recessive disease genes."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02783-9.svg",
+        "caption": "Orthologue presence, loss and missense changes across a mammalian tree feed two scores, GISMO (distance-weighted gene loss) and GISMO-mis (missense to synonymous ratio), which flag essential genes including short ones.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02799-1",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Multiancestry conditional and joint analysis applied to GWAS summary statistics",
+      "authors": "Wang X, Wang Y, Yang J, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02799-1",
+      "url": "https://doi.org/10.1038/s41588-026-02799-1",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "Manc-COJO extends conditional and joint analysis to multiancestry GWAS meta-analyses to find statistically independent association signals. In simulations and real data it detects more independent signals with fewer false positives than single-ancestry GCTA-COJO and ad hoc multiancestry adaptations.",
+      "key_points": [
+        "Manc-COJO:FIX is a follow-up algorithm that finds ancestry-specific independent associations.",
+        "The C++ implementation is over 120 times faster than GCTA-COJO.",
+        "It takes LD references from individual-level genotypes or precomputed matrices, so it works when data sharing is limited."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02799-1.svg",
+        "caption": "Summary statistics from three ancestries and an LD reference go into Manc-COJO, which returns independent associations; Manc-COJO:FIX then separates ancestry-specific ones.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41587-026-03359-y",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Engineered human Argonaute 2 for targeted C-to-U RNA base editing",
+      "authors": "Lusi RF, Moncayo von Hase S, Model C, et al.",
+      "venue": "Nature Biotechnology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41587-026-03359-y",
+      "url": "https://doi.org/10.1038/s41587-026-03359-y",
+      "topics": [
+        "RNA biology",
+        "Machine learning"
+      ],
+      "summary": "ALTER fuses human AGO2 to a C-to-U deaminase and uses guide RNAs that remodel target RNA structure, giving a programmable RNA editor built on a human protein rather than a Cas13 scaffold. In HEK293T cells it edits mRNA targets about 1.9-fold more than the Cas13 editors CURE and RESCUE.",
+      "key_points": [
+        "Transcriptome-wide RNA-seq shows similar or lower off-target editing than the Cas13 editors.",
+        "Machine learning models predict far fewer immunogenic peptides from ALTER.",
+        "The system fits a validated AI-directed deimmunisation workflow."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41587-026-03359-y.svg",
+        "caption": "Human AGO2 fused to a deaminase is guided by a guide RNA to a target cytidine in mRNA, converting C to U, in contrast with non-human Cas13 editors.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11162-7",
+      "date_added": "2026-10-21",
+      "published": "2026-10-14",
+      "title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
+      "authors": "Gómez-Banoy N, Barrero JA, Pinheiro de Carvalho LR, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11162-7",
+      "url": "https://doi.org/10.1038/s41586-026-11162-7",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Clinical"
+      ],
+      "summary": "Using records from 101,243 patients at a cancer centre, the authors define the clinical associations of brown adipose tissue (BAT). A machine learning approach semi-automatically quantified BAT activity in about 8,700 patients.",
+      "key_points": [
+        "Cardiovascular and psychiatric diseases were less prevalent in people with BAT.",
+        "Higher BAT activity was linked to lower odds of cardiometabolic disease and healthier white fat distribution.",
+        "Angiotensin receptor blocker use was associated with BAT presence, and losartan raised brown adipocyte activity and energy expenditure."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41576-026-01020-7",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Small variant calling in the era of long-read sequencing",
+      "authors": "Zheng Z, Sedlazeck FJ, Luo R",
+      "venue": "Nature Reviews Genetics",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1038/s41576-026-01020-7",
+      "url": "https://doi.org/10.1038/s41576-026-01020-7",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Benchmarking"
+      ],
+      "summary": "A review of how deep learning has reshaped small variant calling from long reads, covering germline, de novo, somatic and mosaic variants and both DNA and RNA sequencing. It also covers combinations with alignment-, assembly- and pangenome-based strategies.",
+      "key_points": [
+        "Long reads resolve repetitive regions but have different error profiles from short reads.",
+        "The review charts the path to complete telomere-to-telomere profiling of small variants.",
+        "It calls for new benchmarking approaches for newly accessible repetitive regions and complex variants."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77838-w",
+      "date_added": "2026-10-21",
+      "published": "2026-09-18",
+      "title": "BEAR-GRN: Systematic assessment of single-cell multi-omics-based gene regulatory network inference methods",
+      "authors": "Karamveer K, Moeller E, Valensi H, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77838-w",
+      "url": "https://doi.org/10.1038/s41467-026-77838-w",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "BEAR-GRN provides standardised datasets, curated ground-truth networks and a unified pipeline for benchmarking gene regulatory network inference from paired scRNA-seq and ATAC-seq. Using it, the authors assess current multi-omics methods in human and mouse cell types.",
+      "key_points": [
+        "Choice of ground truth strongly affects measured performance.",
+        "LINGER and DIRECT-NET show the highest overall accuracy and stability.",
+        "Current methods are mostly RNA-driven; chromatin accessibility adds limited independent signal."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag784",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Distilling Direct Effects via Conditional Differential Gene Expression Analysis",
+      "authors": "Gu J, Skelton A, Staley J, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag784",
+      "url": "https://doi.org/10.1093/bioinformatics/btag784",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "Across three RNA-seq datasets, including a genome-scale Perturb-seq experiment, only a small fraction of differentially expressed genes have direct effects on the trait. The authors introduce conditional differential expression analysis (CDGE), which tests conditional rather than marginal association for each gene.",
+      "key_points": [
+        "CDGE uses the GhostKnockoff procedure with lasso regression and controls the false discovery rate.",
+        "It works on summary statistics from existing DGE pipelines and accommodates batch effects.",
+        "CDGE genes mediate the effects of most other DE genes and are more enriched for known interactions and pathways."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag751",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Integration of polygenic risk with single cell methylation data using met-scDRS",
+      "authors": "Li X, Shi Z, Hou K, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag751",
+      "url": "https://doi.org/10.1093/bioinformatics/btag751",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "met-scDRS extends scDRS to integrate GWAS-derived disease genes with single-cell methylomes, scoring disease relevance for each cell. Applied to a public human brain single-cell methylome dataset for 75 traits, it recovers expected cell-type enrichments.",
+      "key_points": [
+        "The method is well calibrated and powered in simulations.",
+        "It finds within-cell-type heterogeneity in psychiatric disease risk along the brain spatial axis.",
+        "Genes whose methylation tracks disease relevance are enriched in synaptic pathways."
+      ],
+      "data": "",
+      "code": "github.com/bogdanlab/met-scDRS"
+    },
+    {
+      "id": "10.1073/pnas.2617057123",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Meta-analysis of 990 EBV genomes identifies EBER2 SNP7048 and its interaction with HLA-A*11:01 driving nasopharyngeal carcinoma risk",
+      "authors": "Wang CY, Yao F, Zhang X, et al.",
+      "venue": "PNAS",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1073/pnas.2617057123",
+      "url": "https://doi.org/10.1073/pnas.2617057123",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics"
+      ],
+      "summary": "Whole-genome sequencing of 388 EBV isolates with matched host exomes, plus a meta-GWAS across three cohorts (990 EBV genomes), identifies EBV strains carrying an EBER2 variant (SNP7048) as the main viral determinant of nasopharyngeal carcinoma risk.",
+      "key_points": [
+        "High-risk strains account for about 68% of attributable risk in Southeast Asia and associate with NPC across all cohorts.",
+        "Lacking the protective host HLA-A*11:01 allele while carrying a high-risk strain gives a 30.9-fold increase in risk.",
+        "Phylogenetic analysis shows the high-risk strains spread geographically."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.14.759081",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Delocalized DNA holes imprint mutation position in mismatch-repair-deficient cancers",
+      "authors": "Sung J-Y, Cheong J-H",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.14.759081",
+      "url": "https://doi.org/10.64898/2026.10.14.759081",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "In mismatch-repair-deficient gastric, colorectal and endometrial tumours, G>T substitutions inside guanine runs fall mostly at the 5' guanine and rarely at the 3' guanine. The profile matches the charge density computed for a delocalized electron hole in DNA without fitting.",
+      "key_points": [
+        "The asymmetry is near identical across the three cancer types and also appears in MMR-knockout cells.",
+        "It persists among clonal mutations, and the only free parameter is the transfer integral.",
+        "Guanine ionization energy does not predict where C>A substitutions occur."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.19.760246",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "A pan-cancer catalog of mutagenesis at transcription factor binding sites",
+      "authors": "Sahay H, Duan Y, Gordan R",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.19.760246",
+      "url": "https://doi.org/10.64898/2026.10.19.760246",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "Somatic mutations from over 4,000 tumours across 15 tissues are used to map mutation patterns at binding sites of 655 transcription factors, grouped into 276 motif clusters. Enrichment is tested at single-nucleotide resolution against sequence and local background mutation rates.",
+      "key_points": [
+        "Nearly a third of TF-cluster and tissue pairs show significant enrichment, most widely in melanoma.",
+        "Mutational signatures implicate processes beyond UV, including ageing, deamination, oxidative damage and tobacco.",
+        "The catalog helps interpret and prioritise non-coding mutations."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.16.759405",
+      "date_added": "2026-10-21",
+      "published": "2026-10-18",
+      "title": "Determining cellular phylogeny and migration at high resolution in spatial genomics",
+      "authors": "Zhang D, Jiang Y, Yu X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.16.759405",
+      "url": "https://doi.org/10.64898/2026.10.16.759405",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Tumour evolution"
+      ],
+      "summary": "StarTrak calls somatic variants and reconstructs lineages at single-pixel resolution in spatial data. A neural network combines nuclear and mitochondrial mutation evidence, spatial proximity, histology and transcriptomic state to cope with dropouts.",
+      "key_points": [
+        "Works across tissues and spatial platforms, especially spatial ATAC-seq.",
+        "In tumour sections it infers migration of mutated cells into adjacent non-malignant tissue and builds region-specific lineage trees.",
+        "It finds tumour regions with near-identical transcriptomes but distinct mutational profiles."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.19.760022",
+      "date_added": "2026-10-21",
+      "published": "2026-10-19",
+      "title": "Variable sparsity non-negative matrix and tensor factorization algorithms and their applications in cancer genomics",
+      "authors": "Pham T, Zhong J, Hwang J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.19.760022",
+      "url": "https://doi.org/10.64898/2026.10.19.760022",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "vsNMF enforces sparsity explicitly with a projective step on each column of W and row of H after every NMF update, instead of leaving it as a byproduct. Users tune solutions between parts-based overlapping features and partitional soft clustering.",
+      "key_points": [
+        "Improves interpretability of tumour subtypes and pathway activation.",
+        "The representations can integrate datasets or define tumour states.",
+        "The idea is extended to tensors (vsNTF) with sparsity set per dimension."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.10.758174",
+      "date_added": "2026-10-21",
+      "published": "2026-10-16",
+      "title": "The Multi-scale Copula Index (MCI): a new information-theoretic measure of association and its applications in functional cancer genomics",
+      "authors": "Pham T, Meneses-Cime K, Ma J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.10.758174",
+      "url": "https://doi.org/10.64898/2026.10.10.758174",
+      "topics": [
+        "Cancer genomics",
+        "Computational"
+      ],
+      "summary": "MCI is an information-theoretic association measure for cancer omics variables that needs no density estimation or parameter tuning. It targets contextual associations that are strong only in a subset of samples, where Pearson-type methods assume linearity and Gaussianity.",
+      "key_points": [
+        "Claims lower computational cost, more power at small sample sizes and robustness to outliers.",
+        "Captures directionality and symmetries in the association.",
+        "The Cumulative Entropy Diagram visualises MCI between a reference vector (phenotype, pathway, drug response) and all genomic features."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.23.740393",
+      "date_added": "2026-10-21",
+      "published": "2026-10-19",
+      "title": "MetaSplice: an ensemble pathogenicity predictor for intronic splice variants",
+      "authors": "Liu X",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.23.740393",
+      "url": "https://doi.org/10.64898/2026.07.23.740393",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Machine learning"
+      ],
+      "summary": "MetaSplice is a gradient-boosted ensemble that combines SpliceTransformer and Pangolin predictions with conservation, exon context and gene-level constraint to rank intronic SNVs by pathogenicity. It was trained on 413,199 ClinVar variants and tested on 46,112 newly classified ones.",
+      "key_points": [
+        "Among non-canonical variants it reached an AUPRC of 0.919 versus 0.757 for SpliceAI.",
+        "It detected 92.8% of splice-altering variants in experimental splicing assays at a 1.2% false-positive rate.",
+        "The author derives a candidate PP3/BP4 rule for ACMG evidence."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.19.760026",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Predicting cell-state-specific gene regulation from DNA across species",
+      "authors": "Liu H, Mao S, Gallent T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.19.760026",
+      "url": "https://doi.org/10.64898/2026.10.19.760026",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "Bolero is a sequence-to-function model whose parameters are conditioned on atlas-scale cell-state embeddings, so it predicts cell-state-specific chromatin accessibility and transcript abundance from DNA. It was trained on 10.7M cells from 33 datasets across six mammals.",
+      "key_points": [
+        "Matches or exceeds specialised models and resolves closely related cell states.",
+        "Extrapolates to cell states absent from training and traces non-coding variant effects to cell types.",
+        "Generalises to species excluded from training, with predictions across 84 mammals."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.14.758961",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "Elevated polyadenylated histone gene transcription in human cancer",
+      "authors": "Paranal RM, Bryson TD, Rios Rios GN, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.14.758961",
+      "url": "https://doi.org/10.64898/2026.10.14.758961",
+      "topics": [
+        "RNA biology",
+        "Pan-cancer"
+      ],
+      "summary": "A quantitative PCR assay in cell lines, backed by more than 1,400 RNA-seq datasets from human cancers, shows pervasive accumulation of polyadenylated histone transcripts, normally restricted to S-phase. More than 70% of patients show tumour-specific increases.",
+      "key_points": [
+        "The alternative processing preferentially enriches histone H2B across more than 8,300 tumours.",
+        "Disrupting nuclear components that keep RNAPII at histone genes increases polyadenylated histone transcripts.",
+        "S-phase histone genes appear to be transcribed in an unscheduled way during gap phases in cancer."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.13.758238",
+      "date_added": "2026-10-21",
+      "published": "2026-10-16",
+      "title": "SPEAR: Spatial Epitranscriptomic Analysis by Mass Spectrometry Reveals Localized RNA Modification Remodeling During Glioma Progression",
+      "authors": "Mateus S, Attina A, Bigot K, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.758238",
+      "url": "https://doi.org/10.64898/2026.10.13.758238",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Spatial"
+      ],
+      "summary": "SPEAR couples laser microdissection with a redesigned LC-MS/MS pipeline to quantify dozens of RNA modifications directly from FFPE tissue, from regions as small as 0.1 mm2. It resolved anatomically defined signatures in mouse brain.",
+      "key_points": [
+        "In human diffuse gliomas with low- and higher-grade foci in one specimen, methylated RNA modifications decrease together in higher-grade regions.",
+        "The change is masked in bulk analysis and reproducible across patients."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.13.756865",
+      "date_added": "2026-10-21",
+      "published": "2026-10-20",
+      "title": "X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement",
+      "authors": "Patel R, Duong B, Patel V, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.756865",
+      "url": "https://doi.org/10.64898/2026.10.13.756865",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "X-SPEAR designs targeted gene panels for platforms such as Xenium by combining DART marker selection (short Boolean gene rules trained with detection efficiency in mind) with probe-level off-target assessment.",
+      "key_points": [
+        "On held-out Xenium data from ovarian cancer, mouse brain and cervical cancer, DART beat Wilcoxon, COSG and NS-Forest by 0.04 to 0.18 macro-F1.",
+        "It matches the best Wilcoxon accuracy with 42 to 69% fewer genes and is robust to losing single probes."
+      ],
+      "data": "",
+      "code": "open-source Python package (link not given in abstract)"
+    },
     {
       "id": "10.1158/2159-8290.CD-26-0180",
       "date_added": "2026-10-20",

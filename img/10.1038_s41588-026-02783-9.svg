@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">Gene loss across 462 mammals</text>
+<!-- tree -->
+<g fill="none" stroke="#2B3138" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M30 190 H62"/>
+<path d="M62 120 V300"/>
+<path d="M62 120 H110"/>
+<path d="M62 300 H110"/>
+<path d="M110 90 V150"/><path d="M110 90 H170"/><path d="M110 150 H170"/>
+<path d="M110 270 V330"/><path d="M110 270 H170"/><path d="M110 330 H170"/>
+</g>
+<!-- leaves -->
+<g font-size="14" fill="#2B3138">
+<text x="180" y="95">Human</text>
+<text x="180" y="155">Close relative</text>
+<text x="180" y="275">Distant species</text>
+<text x="180" y="335">Distant species</text>
+</g>
+<!-- gene present / lost markers -->
+<rect x="318" y="76" width="30" height="24" rx="5" fill="#3C9A2E"/>
+<rect x="318" y="136" width="30" height="24" rx="5" fill="#3C9A2E"/>
+<rect x="318" y="256" width="30" height="24" rx="5" fill="#3C9A2E"/>
+<rect x="318" y="316" width="30" height="24" rx="5" fill="none" stroke="#C8323F" stroke-width="2.5" stroke-dasharray="5 4"/>
+<path d="M324 322 L342 334 M342 322 L324 334" stroke="#C8323F" stroke-width="3" stroke-linecap="round"/>
+<path d="M327 88 L331 92 L339 82" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M327 148 L331 152 L339 142" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="333" cy="268" r="5" fill="#D98A00"/>
+<text x="333" y="62" text-anchor="middle" font-size="13" fill="#2B3138">ortholog</text>
+<text x="333" y="372" text-anchor="middle" font-size="13" fill="#2B3138">lost</text>
+<text x="333" y="298" text-anchor="middle" font-size="13" fill="#D98A00">missense</text>
+<!-- metrics -->
+<path d="M368 200 H394" stroke="#2B3138" stroke-width="2.5"/>
+<path d="M388 193 L398 200 L388 207" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<rect x="404" y="70" width="222" height="104" rx="12" fill="#1E5FA8" fill-opacity="0.08" stroke="#1E5FA8" stroke-width="2"/>
+<text x="515" y="98" text-anchor="middle" font-size="18" font-weight="700" fill="#1E5FA8">GISMO</text>
+<text x="515" y="124" text-anchor="middle" font-size="13" fill="#2B3138">gene loss, weighted by</text>
+<text x="515" y="144" text-anchor="middle" font-size="13" fill="#2B3138">distance to human</text>
+<rect x="404" y="188" width="222" height="104" rx="12" fill="#D98A00" fill-opacity="0.08" stroke="#D98A00" stroke-width="2"/>
+<text x="515" y="216" text-anchor="middle" font-size="18" font-weight="700" fill="#D98A00">GISMO-mis</text>
+<text x="515" y="242" text-anchor="middle" font-size="13" fill="#2B3138">missense : synonymous</text>
+<text x="515" y="262" text-anchor="middle" font-size="13" fill="#2B3138">ratio across mammals</text>
+<path d="M515 296 V314" stroke="#2B3138" stroke-width="2.5"/>
+<path d="M508 308 L515 318 L522 308" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<rect x="404" y="322" width="222" height="56" rx="12" fill="#3C9A2E" fill-opacity="0.1" stroke="#3C9A2E" stroke-width="2"/>
+<text x="515" y="346" text-anchor="middle" font-size="14" font-weight="700" fill="#3C9A2E">Essential genes,</text>
+<text x="515" y="365" text-anchor="middle" font-size="14" font-weight="700" fill="#3C9A2E">even short ones</text>
+</svg>
