@@ -1,6 +1,6 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-21T10:04:43Z",
+  "updated": "2026-10-22T10:05:14Z",
   "retention_days": 90,
   "featured": [
     "10.1038/s41587-026-03359-y",
@@ -8,6 +8,234 @@
     "10.1038/s41588-026-02799-1"
   ],
   "posts": [
+    {
+      "id": "10.64898/2026.10.20.760397",
+      "date_added": "2026-10-22",
+      "published": "2026-10-21",
+      "title": "T2G: fast and accurate transcriptome to genome BAM liftover for short and long read RNA sequencing",
+      "authors": "Rudler DL, Mahmud S, Cleynen A, Shirokikh NE",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.20.760397",
+      "url": "https://doi.org/10.64898/2026.10.20.760397",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "RNA modifications"
+      ],
+      "summary": "T2G converts BAM files aligned to the transcriptome back to genome coordinates while keeping CIGAR strings, tags and per-base RNA modification calls. It works for nanopore direct RNA, ribosome footprinting and Illumina RNA-seq.",
+      "key_points": [
+        "Transcriptome alignment plus T2G gave higher on-target specificity and more accurate splice junctions than direct genome alignment.",
+        "It removed the systematic assignment of reads to processed pseudogenes (8.5-fold fewer in a reanalysed RBP experiment).",
+        "Keeping isoform identity reveals isoform-specific modification levels that genome alignment pools."
+      ],
+      "data": "",
+      "code": "github.com/Arnaroo/T2GD"
+    },
+    {
+      "id": "10.64898/2026.10.20.760332",
+      "date_added": "2026-10-22",
+      "published": "2026-10-21",
+      "title": "RiboTxAlign maps and quantifies ribosome footprints using sample-specific transcript references",
+      "authors": "Ueda H, Kaneda A",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.20.760332",
+      "url": "https://doi.org/10.64898/2026.10.20.760332",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms"
+      ],
+      "summary": "RiboTxAlign maps Ribo-seq reads to a compact reference built from sample RNA-seq (StringTie2 assemblies plus GENCODE) and allocates multimapping reads with a two-stage EM. It estimates transcript-level footprint abundance.",
+      "key_points": [
+        "With long-read RNA-seq references, primary genomic placement in simulations was 98.70% (HEK293T) and 95.38% (mouse brain), 17 and 20 points above STAR.",
+        "Log TPM correlation with simulation truth was 0.9784 in HEK293T, versus 0.9702 for RiboMap and 0.8844 for DeepShape-prime.",
+        "The references were 63.32% (human) and 47.49% (mouse) smaller than GENCODE protein-coding references."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.13.758896",
+      "date_added": "2026-10-22",
+      "published": "2026-10-15",
+      "title": "Biological and technical spatial variation in spatial transcriptomics",
+      "authors": "Jackson KC, Gorin G, Pachter L",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.758896",
+      "url": "https://doi.org/10.64898/2026.10.13.758896",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "The authors add a spatially variable capture term to a bursty transcription model, so that biological spatial variation can be separated from technical noise. It is implemented in a program called stipple.",
+      "key_points": [
+        "Spatially variable genes can reflect technical artefacts as well as biological function.",
+        "The model distinguishes the two sources of variation.",
+        "stipple is shown to help identify and interpret spatial expression variation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.09.757940",
+      "date_added": "2026-10-22",
+      "published": "2026-10-15",
+      "title": "Deciphering Spatial Cellular Organization through RNA-Anchored Multi-Omics Deconvolution",
+      "authors": "Bai Y, Guan X, Xiong S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.757940",
+      "url": "https://doi.org/10.64898/2026.10.09.757940",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Deconvolution"
+      ],
+      "summary": "SMODER deconvolves spots from spatial multi-omics assays by treating the transcriptome as the main determinant of cell identity and adding protein, chromatin or histone-mark layers in a constrained way.",
+      "key_points": [
+        "It outperformed existing methods in accuracy and spatial coherence in simulations and real protein, chromatin accessibility and histone modification datasets.",
+        "It also denoises the extra modalities and allows cell-type-aware analysis of regulatory programs.",
+        "Applied to spatial CUT&Tag-RNA-seq and RNA-ATAC-seq, it shows spatially resolved epigenetic repression and cis-regulatory links."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.13.758369",
+      "date_added": "2026-10-22",
+      "published": "2026-10-17",
+      "title": "Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing",
+      "authors": "Meier M, Howitt G, Grima CV, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.758369",
+      "url": "https://doi.org/10.64898/2026.10.13.758369",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Using engineered and multiplexed datasets, the study tests three ambient RNA correction tools (decontX, soupX, CellBender) with up to six doublet detectors. Doublet detection works best when run before ambient RNA correction.",
+      "key_points": [
+        "The exception is CellBender, which did not hurt doublet detection.",
+        "decontX and soupX remove proportionally more ambient RNA from doublets, partly masking the doublet signal.",
+        "The authors recommend calling doublets first unless CellBender is used."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.09.757827",
+      "date_added": "2026-10-22",
+      "published": "2026-10-15",
+      "title": "Non-exonic read content reorganises lncRNA co-expression networks in renal and other cancers",
+      "authors": "Youssef G, Han N",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.757827",
+      "url": "https://doi.org/10.64898/2026.10.09.757827",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "In 1,062 renal cancers, the leading lncRNA co-expression axis tracked the fraction of non-exonic reads at Spearman rho 0.90. Without adjusting for it, most of the lncRNA network merged into one module.",
+      "key_points": [
+        "9 of 25 TCGA cancer types had a lncRNA-specific axis and 4 showed network collapse.",
+        "Intronic lncRNAs tracked the metric more than intergenic ones in all 25 types.",
+        "The surviving renal modules added no discrimination over TNM and grade."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.08.757652",
+      "date_added": "2026-10-22",
+      "published": "2026-10-15",
+      "title": "2,234 attempts to harmonize a multi-platform B-cell lymphoma bulk transcriptomic dataset: ComBat is superior by cross-batch prediction quality",
+      "authors": "Nikitin D, Arakelyan A",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.08.757652",
+      "url": "https://doi.org/10.64898/2026.10.08.757652",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "The study re-scores 2,234 harmonization approaches on 7,174 B-cell lymphoma transcriptomes with 87 metrics grouped into classes. The best approach depends strongly on which metric class is used.",
+      "key_points": [
+        "Leave-one-batch-out prediction of lymphoma subtypes favoured the ComBat family (84 of its top 112 places).",
+        "A marker-panel agreement class picked only MNN and Scanorama, which corrupted biology by correlation.",
+        "The authors propose a six-step recipe for choosing metric classes and thresholds."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.21.760667",
+      "date_added": "2026-10-22",
+      "published": "2026-10-21",
+      "title": "Cytoplasmic localization of 5hmC reveals RNA hydroxymethylation in breast cancer",
+      "authors": "Wen J, Del Bel Belluz L, Ottaviani S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.760667",
+      "url": "https://doi.org/10.64898/2026.10.21.760667",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Clinical"
+      ],
+      "summary": "Immunoassays and digital pathology show a cytoplasmic 5hmC signal in breast cancer cell lines and tissue, and an RNase-sensitive ELISA indicates it reflects hydroxymethylation of total RNA and mRNA.",
+      "key_points": [
+        "The signal was enriched in triple-negative and grade 3 tumours and correlated with cytoplasmic TET2/TET3.",
+        "TET3 expression was associated with RNA-processing and spliceosomal transcripts.",
+        "TET3 knockdown in three TNBC lines reduced a subset of these targets, supported across 70 DepMap breast lines."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.15.759256",
+      "date_added": "2026-10-22",
+      "published": "2026-10-21",
+      "title": "PETRO enables robust estimation of on-target perturbation effects in Perturb-seq",
+      "authors": "Sun Z, Kang H, Keles S",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.15.759256",
+      "url": "https://doi.org/10.64898/2026.10.15.759256",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "PETRO estimates target-level Perturb-seq effects while allowing an unknown minority of guides to have arbitrary off-target effects, using agreement among replicate guides.",
+      "key_points": [
+        "Sequence-associated off-target bias persisted after pooling cells across guides in CRISPRa and CRISPRi datasets.",
+        "In simulations PETRO nearly matched pooling in power without off-target effects, and recovered on-target effects when pooling stayed biased.",
+        "In cortical Perturb-seq, most ZNF219 pathway enrichments from pooling rested on a single guide."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02783-9",
       "date_added": "2026-10-21",
