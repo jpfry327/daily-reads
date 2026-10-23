@@ -1,13 +1,684 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-22T10:05:14Z",
+  "updated": "2026-10-23T10:09:32Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41587-026-03359-y",
-    "10.1038/s41588-026-02783-9",
-    "10.1038/s41588-026-02799-1"
+    "10.1038/s41587-026-03348-1",
+    "10.1038/s41588-026-02809-2",
+    "10.1016/j.molcel.2026.10.003"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41587-026-03348-1",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells",
+      "authors": "Karbalayghareh A, Pelzer B, Chin CR, et al.",
+      "venue": "Nature Biotechnology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41587-026-03348-1",
+      "url": "https://doi.org/10.1038/s41587-026-03348-1",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "DynaVelo is a generative neural ordinary differential equation model that learns the joint dynamics of gene expression and transcription factor motif activity from single-cell multiome data. It recovers the bifurcating trajectories of wild-type mouse germinal centre B cells and shows how they change when Arid1a or Ctcf is lost.",
+      "key_points": [
+        "Because it learns the vector field, the model can be perturbed in silico, giving cell-state-specific gene regulatory networks that recover known TF-to-gene edges.",
+        "In silico perturbation of Arid1a-heterozygous germinal centres nominated Ctcf, Stat3 and Bcl6 as rescue targets.",
+        "In vivo experiments in double-heterozygous mice confirmed rescue of the Arid1a-het dark-zone phenotype for all three, and multiome profiling of Arid1a;Ctcf double-hets showed the predicted shift toward wild-type dynamics."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41587-026-03348-1.svg",
+        "caption": "A wild-type germinal centre B-cell trajectory forks into two branches, an Arid1a-het trajectory is shifted off it, and in silico perturbation of Ctcf, Stat3 or Bcl6 predicts rescue that was confirmed in mice.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02809-2",
+      "date_added": "2026-10-23",
+      "published": "2026-10-22",
+      "title": "Genome-wide detection of genotype-environment interactions at biobank scale with fastGxE",
+      "authors": "Ning C, Zhou X",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02809-2",
+      "url": "https://doi.org/10.1038/s41588-026-02809-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "fastGxE is a scalable genome-wide test for genetic variants whose effects depend on environmental factors. It controls for polygenic effects, polygenic interaction effects and noise heterogeneity, and stays robust to the number of environmental factors involved.",
+      "key_points": [
+        "It is 32.98-126.49 times faster than existing approaches, which makes biobank-scale GxE scans practical.",
+        "Applied to 32 physical traits and 67 blood biomarkers in the UK Biobank, it found 7 loci for physical traits (4 novel) and 18 for blood biomarkers (12 novel).",
+        "Performance was assessed with extensive simulations as well as the UK Biobank analysis."
+      ],
+      "data": "UK Biobank",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02809-2.svg",
+        "caption": "Two reaction-norm plots: genotype effects that keep the same gap across environments (main effect only) versus lines that diverge with environment (genotype x environment), the signal fastGxE tests for.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.10.003",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "Protein arginine methylation promotes global 3'UTR shortening in proliferating cells",
+      "authors": "Griffith L, Capitanchik C, Moore S, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.10.003",
+      "url": "https://doi.org/10.1016/j.molcel.2026.10.003",
+      "topics": [
+        "RNA biology",
+        "Isoforms"
+      ],
+      "summary": "Arginine methylation drives global 3'UTR shortening, which promotes oncogenic short isoforms. Inhibiting asymmetric and symmetric dimethylation together reverses the shift in human cancer cell lines, patient-derived organoids and activated mouse T cells.",
+      "key_points": [
+        "Arginine methylation promotes PCF11 association with the cleavage and polyadenylation machinery, allowing efficient processing of weak proximal poly(A) sites.",
+        "Affected transcripts have high GC content, large distances between alternative poly(A) sites and a position-dependent sequence code.",
+        "The authors suggest the shortening could be used to stratify patients for PRMT-targeting therapies."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.molcel.2026.10.003.svg",
+        "caption": "With PRMTs active, methylated PCF11 joins the cleavage machinery at a weak proximal poly(A) site and gives a short 3'UTR isoform; with PRMTs inhibited the distal site is used and the long isoform returns.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41587-026-03327-6",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "Recordanelles for transcriptome-wide single-cell RNA recording in human cells",
+      "authors": "Reinkemeier CD, Manero-Carranza M, Farouni R, et al.",
+      "venue": "Nature Biotechnology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41587-026-03327-6",
+      "url": "https://doi.org/10.1038/s41587-026-03327-6",
+      "topics": [
+        "Methods",
+        "Single-cell"
+      ],
+      "summary": "The recordanelle is a single-component synthetic organelle, built from a mitochondrial membrane anchor, a condensate assembler and a poly(A)-binding protein, that records the transcriptome in living human cells. It recruits and protects mRNAs for days.",
+      "key_points": [
+        "It can be engineered to sample up to 90% of endogenous mRNAs and protect them over several days.",
+        "Transient transcriptional responses from inducible promoters or interferon signalling are preserved over time at the single-cell level.",
+        "This gives a non-disruptive, unbiased way to read out a transcriptional history rather than a single snapshot."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02794-6",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "Genome-wide analyses identify 60 loci associated with liver triglyceride content",
+      "authors": "Jamialahmadi O, Mowlaei S, Gelev KZ, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02794-6",
+      "url": "https://doi.org/10.1038/s41588-026-02794-6",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Multi-omics"
+      ],
+      "summary": "A genome-wide association meta-analysis of MRI-derived liver triglyceride content in 71,488 UK Biobank participants of European ancestry roughly doubles the sample size of earlier studies. It identifies 60 independent loci, 31 of them new.",
+      "key_points": [
+        "SNP-based heritability is estimated at 25%, and fine-mapping nominated candidate effector genes at 48 loci; 14 of the 31 new loci replicated in a metabolic liver disease meta-analysis (42,163 cases).",
+        "The top versus bottom polygenic risk score decile had 2.71-fold higher odds of cirrhosis and 7.47-fold higher odds of hepatocellular carcinoma.",
+        "Plasma proteins linked to the score were enriched for metabolic remodelling and inflammatory pathways."
+      ],
+      "data": "UK Biobank",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41556-026-02086-5",
+      "date_added": "2026-10-23",
+      "published": "2026-10-20",
+      "title": "Spatial multi-omic atlas profiles early organogenesis of a Carnegie stage 12 human embryo",
+      "authors": "Wang LJ, Yang H, Song J, et al.",
+      "venue": "Nature Cell Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41556-026-02086-5",
+      "url": "https://doi.org/10.1038/s41556-026-02086-5",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Multi-omics",
+        "Resource"
+      ],
+      "summary": "The authors build spatial transcriptomic and metabolomic maps of a Carnegie stage 12 human embryo, co-registered with embryonic anatomy into one spatial multi-omic framework.",
+      "key_points": [
+        "Unsupervised clustering of the spatial transcriptomic data found 17 cell populations covering the major organ primordia.",
+        "The liver primordium contains spatially separable hepatocyte- and cholangiocyte-primed programmes, and cardiac outflow tract and sinoatrial node progenitors were detected.",
+        "Integrating gene and metabolite abundance links transcription factors to metabolic pathways in lineage specification."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.282617.126",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "Refining indel- and structural variant-trait associations with LAVrefiner",
+      "authors": "Xia X, Wu J, Gao Z, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282617.126",
+      "url": "https://doi.org/10.1101/gr.282617.126",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants"
+      ],
+      "summary": "LAVrefiner is a scalable, sequence-aware method that splits overlapping sequence-resolved structural variants and indels into non-overlapping refined components. It outputs genotype matrices that work with standard SNP-based analyses.",
+      "key_points": [
+        "In tandem repeat regions it supports motif-aware allele comparison and repeat copy-number estimation.",
+        "Applied to 1000 Genomes variants it produced 224,708 refined variants.",
+        "Models combining its copy-number estimates with refined variants gave the highest heritability estimates and prediction accuracy for gene expression in STR and VNTR regions, and eQTL mapping found an independent VNTR signal at TFRC."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281948.126",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "The Vizitig pangenome and pantranscriptome explorer",
+      "authors": "Degardins B, Paperman C, Marchet C",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281948.126",
+      "url": "https://doi.org/10.1101/gr.281948.126",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "Vizitig is a platform for real-time exploration and querying of DNA and RNA sequence de Bruijn graphs across many samples. It builds compacted colored de Bruijn graphs from raw reads and references and serves them through an interactive web interface.",
+      "key_points": [
+        "A query language combines sequences of any size, genomic features such as gene or exon IDs, and experimental factors such as sample or abundance thresholds.",
+        "On-demand subgraph loading lets it handle up to 20 assembled human haplotypes on a laptop.",
+        "Case studies recover fusion transcript breakpoints from long and short reads and explore variation in yeast, rice, nematode and human pangenomes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag791",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "XenoMix: Estimating mouse content from DNA methylation data of Patient-Derived Xenograft models",
+      "authors": "Esmaeelpour N, Mücke O, Altun G, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag791",
+      "url": "https://doi.org/10.1093/bioinformatics/btag791",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics"
+      ],
+      "summary": "XenoMix is a light-weight R tool that quantifies mouse DNA contamination in patient-derived xenograft (PDX) samples directly from DNA methylation microarray data, using the sequence homology between human and mouse genomes.",
+      "key_points": [
+        "On ground-truth mixtures the estimates correlate with the truth at Pearson r above 0.99.",
+        "In real PDX data it found varying contamination from biological and technical sources.",
+        "The estimated contamination can be added as a confounder in downstream analyses; it is also a module in RnBeads."
+      ],
+      "data": "",
+      "code": "git.dkfz.de/b370/scepigen/XenoMix"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag783",
+      "date_added": "2026-10-23",
+      "published": "2026-10-19",
+      "title": "ARCHER-LD: Rapid Long-Range Linkage Disequilibrium Calculations at Biobank Scale using GPU Acceleration",
+      "authors": "Kumar R, Singhal P, Zhang D, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag783",
+      "url": "https://doi.org/10.1093/bioinformatics/btag783",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "ARCHER-LD uses multi-GPU distributed computing to calculate R2 for every variant pair in a dataset, so LD can come from a study's own samples rather than external reference panels.",
+      "key_points": [
+        "On chromosome 22 of 30x 1000 Genomes WGS, eight consumer GPUs took under 10 minutes versus over 80 minutes for PLINK on a 64-thread CPU (about 8x).",
+        "In the Penn Medicine Biobank, chromosome 1 took 49 minutes versus 22.7 hours with PLINK (about 28x).",
+        "The full LD matrix of the 30x 1000 Genomes data (about 120 million variants) was computed in under 6 hours on 512 A100 GPUs."
+      ],
+      "data": "",
+      "code": "github.com/rachitk/ARCHER-LD"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag722",
+      "date_added": "2026-10-23",
+      "published": "2026-10-02",
+      "title": "MR-MAS: an end-to-end multi-agent system for autonomous Mendelian randomization analysis",
+      "authors": "Wei W, Fan Y, Li L, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag722",
+      "url": "https://doi.org/10.1093/bioinformatics/btag722",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "MR-MAS is an automated Mendelian randomization system built on a multi-agent LLM architecture. It links data acquisition, causal effect estimation, interpretation and manuscript drafting into one workflow, backed by a structured Mendelian Randomization Knowledge Base.",
+      "key_points": [
+        "Across test scenarios it ran stably and reproduced several literature-supported causal signals.",
+        "Causal estimates were consistent across repeated runs and different model backends.",
+        "Knowledge-base guidance improved trait retrieval and code repair."
+      ],
+      "data": "",
+      "code": "github.com/Zaiwen/MR-MAS"
+    },
+    {
+      "id": "10.1038/s41467-026-77645-3",
+      "date_added": "2026-10-23",
+      "published": "2026-09-18",
+      "title": "Learning chemical-induced gene expression perturbations with WAVE",
+      "authors": "Lv T, Chen B, Dai X, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77645-3",
+      "url": "https://doi.org/10.1038/s41467-026-77645-3",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "WAVE is a deep learning framework (a beta-variational autoencoder) that predicts chemical-induced gene expression profiles from drug structure plus the basal transcriptional state of bulk cell lines or single cells.",
+      "key_points": [
+        "It predicts profiles for compound and cell-line combinations that were never tested, supporting in silico perturbation screens.",
+        "It is used for drug discovery and repurposing.",
+        "In lung adenocarcinoma it identified potentially effective compounds."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78430-y",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "HRDPath: an explainable multi-model deep learning architecture for predicting homologous recombination deficiency from histopathology",
+      "authors": "Wu CI, Banda K, Arora R, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78430-y",
+      "url": "https://doi.org/10.1038/s41467-026-78430-y",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "HRDPath is a patient-level deep learning model that predicts homologous recombination deficiency (HRD) status in high-grade serous tubo-ovarian carcinoma from whole slide images, with no extra molecular testing.",
+      "key_points": [
+        "Across three cohorts it reaches an AUC of 0.846; using multiple slides per patient and targeted optimisation lifts sensitivity and specificity to 0.90.",
+        "An interpretability pipeline links HRD-positive tumours to morphological changes at cell and tissue level.",
+        "It is proposed as an accessible digital biomarker where genomic HRD tests are costly or slow."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1013",
+      "date_added": "2026-10-23",
+      "published": "2026-10-19",
+      "title": "ImmunEscpMap: a gene-centered knowledgebase for immune escape in cancer and viral infection",
+      "authors": "Jiang S, Ma S, Feng Y, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1013",
+      "url": "https://doi.org/10.1093/nar/gkag1013",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Immuno-oncology",
+        "Resource"
+      ],
+      "summary": "ImmunEscpMap is a gene-centred knowledgebase that puts cancer and viral-infection evidence into one immune-escape framework, to help prioritise genes from fragmented databases, literature and omics studies.",
+      "key_points": [
+        "The release holds 55,711 gene-evidence records (53,911 from 37,193 PubMed articles and 1,800 from 709 GEO accessions) covering 667 genes.",
+        "Evidence is organised into eight immune-escape mechanisms and 14 viral contexts; the cancer branch integrates multi-omics and clinical outcomes.",
+        "A web interface offers search, browsing, gene pages and bulk download."
+      ],
+      "data": "iescpemap.cqmu.edu.cn",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-75976-9",
+      "date_added": "2026-10-23",
+      "published": "2026-09-22",
+      "title": "Actionable genetic landscape and dynamics in circulating DNA from 12,827 patients with metastatic breast cancer",
+      "authors": "Leshchiner I, Medford AJ, Cha J, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-75976-9",
+      "url": "https://doi.org/10.1038/s41467-026-75976-9",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "The authors study 15,564 Guardant360 cell-free DNA samples from 12,827 patients with metastatic breast cancer, assigning samples to subtypes with a trained random forest model.",
+      "key_points": [
+        "Most patients carry variants tied to therapy resistance or targetability, including PIK3CA, ESR1, PTEN and AKT1.",
+        "Frequencies of several actionable alterations differ from primary disease, and multiple variants per gene suggest independent resistant clones.",
+        "The cohort size allows analysis of allele co-existence, exclusivity and allele-fraction correlations."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081100.126",
+      "date_added": "2026-10-23",
+      "published": "2026-10-21",
+      "title": "Pseudouridylation landscape across 42 nuclear-encoded tRNAs",
+      "authors": "Barry ML, Abu-Shumays RL, Barnes LE, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081100.126",
+      "url": "https://doi.org/10.1261/rna.081100.126",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Long-read"
+      ],
+      "summary": "The authors annotate pseudouridine sites in budding yeast tRNAs with nanopore direct RNA sequencing of seven pseudouridine synthase knockouts and with BACS chemical sequencing.",
+      "key_points": [
+        "Nanopore data confirmed 32 existing sites and predicted 10 new ones; BACS confirmed all 10 and found 11 more.",
+        "The combined map covers 126 sites (21 novel) and the enzymes responsible across all 42 nuclear tRNA isoacceptors.",
+        "Mass spectrometry and primer extension showed no change at position 37 on Pus3 loss, although nanopore signal changed there, a caution for reading direct RNA signal changes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.09.757915",
+      "date_added": "2026-10-23",
+      "published": "2026-10-16",
+      "title": "Scale-resolved correlation functions unify spatial omics across platforms and resolutions",
+      "authors": "Ilin M, Singh Y, Mages SW, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.09.757915",
+      "url": "https://doi.org/10.64898/2026.10.09.757915",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "SCOTE (Spatial COvariance TEnsors) quantifies the spatial relationships of all feature pairs across all length scales, from molecule coordinates or binned counts. It separates platform artefacts from biology across spatial omics technologies.",
+      "key_points": [
+        "Platform artefacts show up as scale-localised features.",
+        "Molecule-level functions resolved a knockout effect in mouse spleen that cell-level analysis missed.",
+        "A billion-molecule whole-transcriptome section runs in 26 minutes on one GPU; tissue area and replicates, not molecule depth, set the statistical error."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.16.759529",
+      "date_added": "2026-10-23",
+      "published": "2026-10-16",
+      "title": "On technical biases in imaging spatial transcriptomics",
+      "authors": "Chen C, Borm LE, Pascual-Reguant A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.16.759529",
+      "url": "https://doi.org/10.64898/2026.10.16.759529",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "The authors sort biases in imaging spatial transcriptomics into experimental sources (preservation, spatial sampling) and computational ones (z-stack registration, field-of-view stitching). Using public datasets they show how these biases compound.",
+      "key_points": [
+        "The taxonomy covers the whole measurement pipeline.",
+        "They propose a unified count-modelling framework for the sources of variance.",
+        "They call for better experimental design and knowledge sharing."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.10.28.681564",
+      "date_added": "2026-10-23",
+      "published": "2025-10-29",
+      "title": "Benchmarking large-scale single-cell RNA-seq analysis",
+      "authors": "Billato I, Pages H, Carey V, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.10.28.681564",
+      "url": "https://doi.org/10.1101/2025.10.28.681564",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The authors benchmark Seurat, OSCA, scrapper, Scanpy and rapids_singlecell on datasets of 1.3 and 4.2 million cells, plus four labelled datasets for clustering accuracy. They also compare six SVD algorithms for PCA and CPU versus GPU runs.",
+      "key_points": [
+        "The GPU method (rapids_singlecell) was 15 times faster than the best CPU method.",
+        "OSCA and scrapper had the highest clustering accuracy (ARI up to 0.97).",
+        "Choice of highly variable genes and the PCA implementation drive most of the differences."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.18.759502",
+      "date_added": "2026-10-23",
+      "published": "2026-10-19",
+      "title": "DCSMAP: A Hybrid Linear-Pangenome Framework for Accurate and Efficient Read Alignment",
+      "authors": "Yang Q, Wan R, Gong C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.18.759502",
+      "url": "https://doi.org/10.64898/2026.10.18.759502",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "DCSMAP aligns reads linearly, then uses an XGBoost classifier to pick unreliable reads and remap them to a personalised pangenome graph, followed by indel realignment. About 14.8% of read pairs are remapped.",
+      "key_points": [
+        "Across 17 GIAB runs, variant-calling errors fell 46.7% versus BWA-MEM2 and 8.4% versus vg personalised pangenome alignment.",
+        "Reference bias is comparable to full pangenome alignment.",
+        "It is 2 to 2.5 times faster than the personalised-pangenome workflow."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.13.758965",
+      "date_added": "2026-10-23",
+      "published": "2026-10-19",
+      "title": "LongVerse: verified AI agents for Nanopore and PacBio DNA methylation analysis",
+      "authors": "Liu Y, Zhang Q, Li S",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.13.758965",
+      "url": "https://doi.org/10.64898/2026.10.13.758965",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "LongVerse agents turn one English sentence into haplotype-resolved DNA methylation calls from Nanopore or PacBio reads by supplying arguments to a pinned pipeline, with no code written. On HG002, agent and expert calls were identical.",
+      "key_points": [
+        "Agent and expert calls were byte-identical (r = 1.000) and agreed with bisulfite sequencing (r = 0.943 and 0.884).",
+        "Runs cost $0.12 to $0.54.",
+        "A consensus agent that admits any per-site caller cut error by 10.7% against the best published caller."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.03.10.710955",
+      "date_added": "2026-10-23",
+      "published": "2026-03-13",
+      "title": "Fast and accurate resolution of ecDNA sequence using Cycle-Extractor",
+      "authors": "Faizrahnemoon M, Luebeck J, Hung KL, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.03.10.710955",
+      "url": "https://doi.org/10.64898/2026.03.10.710955",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Long-read"
+      ],
+      "summary": "Cycle-Extractor takes a breakpoint graph built from short or long reads and extracts the cycle with the maximum length-weighted copy number, using a mixed-integer linear program. It is compared with CoRAL, Decoil and AmpliconArchitect.",
+      "key_points": [
+        "Accuracy matches CoRAL and beats AmpliconArchitect and Decoil, at about 40 times the speed of CoRAL.",
+        "On a PC3 MYC ecDNA, Nanopore data gave a 4.2 Mbp reconstruction versus 690 kbp from short reads.",
+        "CRISPR-CATCH confirmed the large ecDNA molecule."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.21.760309",
+      "date_added": "2026-10-23",
+      "published": "2026-10-22",
+      "title": "ResponseVerdict overturns computationally validated immunotherapy signatures, recovers their missed responders and outperforms every published response predictor",
+      "authors": "Jiang H, Liu P, Gao F, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.760309",
+      "url": "https://doi.org/10.64898/2026.10.21.760309",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Immuno-oncology",
+        "Benchmarking"
+      ],
+      "summary": "The authors re-evaluate 1,566 published immune checkpoint blockade expression signatures in 2,045 treated patients and find no predictive ability (AUC 0.515). They show TIDE orients many signatures the wrong way, and ResponseVerdict orients and selects scores using measured response in other cohorts.",
+      "key_points": [
+        "A median of 44% of random gene sets pass the usual validation.",
+        "AUROC is 0.14 higher than TIDE.",
+        "The authors report more responders per 100 enrolment slots across trials; the claims are bold, so the methods are worth checking."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.21.760612",
+      "date_added": "2026-10-23",
+      "published": "2026-10-22",
+      "title": "SPATNIC enables H&E-grounded cancer-cell identification across spatial and single-cell transcriptomic modalities in colorectal cancer",
+      "authors": "Sakai SA, Nomura R, Ohira M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.760612",
+      "url": "https://doi.org/10.64898/2026.10.21.760612",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "SPATNIC is a variational autoencoder that labels single cells as cancer or normal. It is trained on Xenium cells annotated by a pathologist from matched H&E, and matches or beats existing tools in colorectal tumours and liver and lung metastases.",
+      "key_points": [
+        "It transfers zero-shot across Visium, Visium HD, CosMx, Xenium, MERSCOPE and scRNA-seq.",
+        "It found a rare POU2F3 tuft-like cancer stem cell population in public atlases, linked to worse survival.",
+        "It separates cancer from normal epithelium in rectal cancer before and after chemoradiotherapy, enabling per-patient ADC target screening."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.16.758976",
+      "date_added": "2026-10-23",
+      "published": "2026-10-22",
+      "title": "WRN deficiency generates oncogenic rearrangements at TA-rich tandem repeats",
+      "authors": "Wang M, Pan H, Samarkina A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.16.758976",
+      "url": "https://doi.org/10.64898/2026.10.16.758976",
+      "topics": [
+        "Cancer genomics",
+        "Structural variants",
+        "Pan-cancer"
+      ],
+      "summary": "WRN loss destabilises native, unexpanded TA-rich tandem repeats, which become fragile sites for chromosome breakage and rearrangement. In melanoma this recurrently produces an identical 15.7 Mb deletion that activates TERT.",
+      "key_points": [
+        "The same rearrangement class occurs in WRN-deficient cancers of other types.",
+        "The deletion also disrupts CDKN2A/B and NF1.",
+        "The work combines genomic analysis of tumours with experiments."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.11.21.689636",
+      "date_added": "2026-10-23",
+      "published": "2025-11-22",
+      "title": "Billi: Provably Accurate and Scalable Bubble Detection in Pangenome Graphs",
+      "authors": "Bhat SG, Mahajan D, Jain C",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.11.21.689636",
+      "url": "https://doi.org/10.1101/2025.11.21.689636",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "The authors define panbubble and hairpin bubble formalisations that allow cyclic subgraphs and prove strict nesting. They give an exact algorithm plus a heuristic, implemented in Billi.",
+      "key_points": [
+        "The heuristic scales to HPRC releases 1 and 2.",
+        "At the recurrent human Y-chromosome inversion locus, Billi recovers the inversion with its nested variants.",
+        "Existing methods miss parts of the variation or misrepresent the nesting."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.64898/2026.10.20.760397",
       "date_added": "2026-10-22",

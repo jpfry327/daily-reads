@@ -1,6 +1,251 @@
 {
   "updates": [
     {
+      "date": "2026-10-23T10:09:32Z",
+      "summary": "Added 6 Tier 1 papers (3 featured), 10 Tier 2 papers and 10 preprints; no chordoma papers or preprints this week (the two PubMed chordoma hits were already posted).",
+      "counts": {
+        "tier1": 6,
+        "tier2": 10,
+        "preprint": 10,
+        "chordoma": 0,
+        "removed": 0
+      },
+      "added": [
+        {
+          "id": "10.1038/s41587-026-03348-1",
+          "title": "Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells",
+          "venue": "Nature Biotechnology",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41588-026-02809-2",
+          "title": "Genome-wide detection of genotype-environment interactions at biobank scale with fastGxE",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1016/j.molcel.2026.10.003",
+          "title": "Protein arginine methylation promotes global 3'UTR shortening in proliferating cells",
+          "venue": "Molecular Cell",
+          "tier": 1,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.1038/s41587-026-03327-6",
+          "title": "Recordanelles for transcriptome-wide single-cell RNA recording in human cells",
+          "venue": "Nature Biotechnology",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41588-026-02794-6",
+          "title": "Genome-wide analyses identify 60 loci associated with liver triglyceride content",
+          "venue": "Nature Genetics",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41556-026-02086-5",
+          "title": "Spatial multi-omic atlas profiles early organogenesis of a Carnegie stage 12 human embryo",
+          "venue": "Nature Cell Biology",
+          "tier": 1,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1101/gr.282617.126",
+          "title": "Refining indel- and structural variant-trait associations with LAVrefiner",
+          "venue": "Genome Research",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1101/gr.281948.126",
+          "title": "The Vizitig pangenome and pantranscriptome explorer",
+          "venue": "Genome Research",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag791",
+          "title": "XenoMix: Estimating mouse content from DNA methylation data of Patient-Derived Xenograft models",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag783",
+          "title": "ARCHER-LD: Rapid Long-Range Linkage Disequilibrium Calculations at Biobank Scale using GPU Acceleration",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1093/bioinformatics/btag722",
+          "title": "MR-MAS: an end-to-end multi-agent system for autonomous Mendelian randomization analysis",
+          "venue": "Bioinformatics",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-77645-3",
+          "title": "Learning chemical-induced gene expression perturbations with WAVE",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1038/s41467-026-78430-y",
+          "title": "HRDPath: an explainable multi-model deep learning architecture for predicting homologous recombination deficiency from histopathology",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1093/nar/gkag1013",
+          "title": "ImmunEscpMap: a gene-centered knowledgebase for immune escape in cancer and viral infection",
+          "venue": "Nucleic Acids Research",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1038/s41467-026-75976-9",
+          "title": "Actionable genetic landscape and dynamics in circulating DNA from 12,827 patients with metastatic breast cancer",
+          "venue": "Nature Communications",
+          "tier": 2,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1261/rna.081100.126",
+          "title": "Pseudouridylation landscape across 42 nuclear-encoded tRNAs",
+          "venue": "RNA",
+          "tier": 2,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.10.09.757915",
+          "title": "Scale-resolved correlation functions unify spatial omics across platforms and resolutions",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.10.16.759529",
+          "title": "On technical biases in imaging spatial transcriptomics",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.1101/2025.10.28.681564",
+          "title": "Benchmarking large-scale single-cell RNA-seq analysis",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.10.18.759502",
+          "title": "DCSMAP: A Hybrid Linear-Pangenome Framework for Accurate and Efficient Read Alignment",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.10.13.758965",
+          "title": "LongVerse: verified AI agents for Nanopore and PacBio DNA methylation analysis",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.03.10.710955",
+          "title": "Fast and accurate resolution of ecDNA sequence using Cycle-Extractor",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.10.21.760309",
+          "title": "ResponseVerdict overturns computationally validated immunotherapy signatures, recovers their missed responders and outperforms every published response predictor",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.10.21.760612",
+          "title": "SPATNIC enables H&E-grounded cancer-cell identification across spatial and single-cell transcriptomic modalities in colorectal cancer",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.10.16.758976",
+          "title": "WRN deficiency generates oncogenic rearrangements at TA-rich tandem repeats",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.1101/2025.11.21.689636",
+          "title": "Billi: Provably Accurate and Scalable Bubble Detection in Pangenome Graphs",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        }
+      ],
+      "skipped": [
+        {
+          "title": "Monocyte surface Y RNAs potentiate innate immunity (Nat Cell Biol)",
+          "reason": "Tier 1 but main point is inflammation/immunology, not RNA processing"
+        },
+        {
+          "title": "Leveraging genomic deep learning models for noncoding variant effects (Nat Genet)",
+          "reason": "Review in a journal that is not on the review-journal list"
+        },
+        {
+          "title": "Programmable and selective silencing of oncogenic fusion transcripts by CRISPR-Cas13b (Sci Adv)",
+          "reason": "Tier 2; RNA-targeting therapeutic, not a close match to a main topic"
+        },
+        {
+          "title": "Early detection of ovarian cancer by cell-free mtDNA fragmentomics (Genome Med)",
+          "reason": "Tier 2 limit of 10 reached; experimental/clinical, ranked below computational papers"
+        },
+        {
+          "title": "DNAharvester: Nextflow pipeline for degraded ancient DNA (Bioinformatics)",
+          "reason": "Tier 2 limit of 10 reached; ancient-DNA pipeline is off the main topics"
+        },
+        {
+          "title": "The average individual genome: ~1M whole-genome sequences (Genome Med)",
+          "reason": "Tier 2; population-genetics survey, not a close match"
+        },
+        {
+          "title": "RaMN-Seq micronucleus sequencing (bioRxiv)",
+          "reason": "Preprint limit of 10 reached; mixed approach, ranked below computational preprints"
+        },
+        {
+          "title": "METTL1 dosage and activity in paediatric cancers (bioRxiv)",
+          "reason": "Experimental RNA-modification paper; lower rank than computational preprints"
+        },
+        {
+          "title": "GEMS and DNACipher sequence-to-function GWAS methods (bioRxiv)",
+          "reason": "Regulatory genomics of GWAS loci, not a close match to the main topics"
+        },
+        {
+          "title": "Clonucopya clonal architecture to drug prioritisation workflow (bioRxiv)",
+          "reason": "Workflow glue around existing tools, single use case"
+        }
+      ],
+      "notes": [
+        "No chordoma papers or preprints were found in the 7-day window; the two PubMed chordoma hits (Cureus 10.7759/cureus.116321 and Medicina pmid:42886980) were already posted.",
+        "bioRxiv search_preprints returned at most 30 results per page even with limit=100, and often timed out; the README rule of stopping when a page has fewer than 100 results would stop after one page, so paging continued until an empty page.",
+        "get_preprint returned version 1 for revised preprints that the listing shows as v2+, so 'published' for those is the first-posted date; none of the posted preprints had a journal DOI.",
+        "Tier 1 rule says to post every purely computational paper: the liver triglyceride GWAS (Nat Genet) was treated as computational and given the closest topic, Methods. Unclear whether biobank GWAS counts.",
+        "Source figures were not reusable for the 3 featured posts (no CC BY licence in PubMed), so hand-drawn illustrations were used.",
+        "Several Nat Commun/Genome Med items have a publication date weeks before the PubMed entry date; they were kept because the 7-day window is by entry date."
+      ]
+    },
+    {
       "date": "2026-10-22T10:05:14Z",
       "summary": "Second run today: no new journal papers or chordoma papers qualified (all matching PubMed hits were already posted or off-topic); added 9 preprints.",
       "counts": {
@@ -1166,222 +1411,6 @@
         "PubMed max_results is capped at 200 per call, and the raw get_article_metadata responses are too large to read inline; I filtered them from the saved output files by DOI instead.",
         "Rules unclear: whether a retrospective real-world cohort analysis (the ESR1/elacestrant paper) counts as cancer genomics rather than 'standard tools on one cohort'. I included it because it reports a variant-specific finding with transcriptomic support.",
         "Tag list has no entry for ctDNA, cryo-EM, ribosome profiling or translation control, so some RNA-biology posts carry fewer tags."
-      ]
-    },
-    {
-      "date": "2026-10-14T10:30:00Z",
-      "summary": "Added 5 Tier 1 papers (Nature Genetics PDAC clones; Cell centromere k-mers; Cancer Discovery metastasis mutability; Molecular Cell TE splicing; Molecular Cell m6A feedback), 5 Tier 2 journal papers (3 purely computational), 2 chordoma papers and 10 close-match preprints (7 purely computational). Featured: Cell centromere k-mers, Cancer Discovery metastasis mutability and Nature Genetics PDAC clones, all with hand-drawn illustrations because none allows figure reuse.",
-      "counts": {
-        "tier1": 5,
-        "tier2": 5,
-        "preprint": 10,
-        "chordoma": 2,
-        "removed": 0
-      },
-      "added": [
-        {
-          "id": "10.1038/s41588-026-02779-5",
-          "title": "Clonal heterogeneity in human pancreatic ductal adenocarcinoma and its impact on tumor progression",
-          "venue": "Nature Genetics",
-          "tier": 1,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.1016/j.cell.2026.08.053",
-          "title": "Rare k-mers reveal centromere haplogroups underlying human diversity and cancer translocations",
-          "venue": "Cell",
-          "tier": 1,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.1158/2159-8290.CD-25-2090",
-          "title": "Mutability Dependence of Breast Cancer Metastasis and Latency to Recurrence",
-          "venue": "Cancer Discovery",
-          "tier": 1,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.1016/j.molcel.2026.09.015",
-          "title": "Transposable element splicing reveals a tumor-enriched class of gene-independent transcripts",
-          "venue": "Molecular Cell",
-          "tier": 1,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.1016/j.molcel.2026.09.027",
-          "title": "A feedback mechanism of m6A via PARP1-mediated ADP ribosylation of METTL3/METTL14",
-          "venue": "Molecular Cell",
-          "tier": 1,
-          "topic": "RNA biology"
-        },
-        {
-          "id": "10.1093/nar/gkag945",
-          "title": "Double-base deletions and signatures associated with platinum adducts in metastatic cancer",
-          "venue": "Nucleic Acids Research",
-          "tier": 2,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.1093/nar/gkag969",
-          "title": "RiboBA: a bias-aware probabilistic framework for robust ORF identification across diverse ribosome profiling protocols",
-          "venue": "Nucleic Acids Research",
-          "tier": 2,
-          "topic": "RNA biology"
-        },
-        {
-          "id": "10.1101/gr.281770.125",
-          "title": "Reconstruction of contact signals from repeated elements with Hicberg",
-          "venue": "Genome Research",
-          "tier": 2,
-          "topic": "Methods"
-        },
-        {
-          "id": "10.1093/bioinformatics/btag760",
-          "title": "TL-iGeneCombo: Transfer Learning for Individual Sample Specific Gene Combination Effect Prediction and Selection in Cancer Cells",
-          "venue": "Bioinformatics",
-          "tier": 2,
-          "topic": "Methods"
-        },
-        {
-          "id": "10.1158/1078-0432.CCR-26-2212",
-          "title": "DNA-Based Biomarkers as Predictors of Carboplatin Response in Neoadjuvant Treatment for Hormone Receptor Positive and Triple-Negative Breast Cancer",
-          "venue": "Clinical Cancer Research",
-          "tier": 2,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.1016/j.jbo.2026.100805",
-          "title": "Ultrastructural pathological features and clinical significance of recurrent chordoma",
-          "venue": "Journal of Bone Oncology",
-          "tier": null,
-          "topic": "Chordoma"
-        },
-        {
-          "id": "10.1007/s00586-026-10416-2",
-          "title": "Primary spinal bone sarcomas in Japan: a nationwide comparative analysis of demographic and pathologic features, treatment patterns, and survival",
-          "venue": "European Spine Journal",
-          "tier": null,
-          "topic": "Chordoma"
-        },
-        {
-          "id": "10.64898/2026.10.09.758054",
-          "title": "Inferring ecDNA Evolution from Allele Frequency Spectra",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.64898/2026.10.05.756871",
-          "title": "Optimizing copy number profiles for tumor cell phylogeny inference from low-coverage single-cell sequencing data",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.64898/2026.10.08.757715",
-          "title": "Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.1101/2025.11.02.686099",
-          "title": "Calibrated analysis framework for nanopore direct RNA sequencing uncovers cell-specific m6A proportions at conserved sites",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "RNA biology"
-        },
-        {
-          "id": "10.64898/2026.10.05.756841",
-          "title": "phyloDS: phylogeny-aware differential splicing across species, beyond reference annotations",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "RNA biology"
-        },
-        {
-          "id": "10.64898/2026.10.01.755973",
-          "title": "Robust ORF Deconvolution from Multiple Ribo-seq Datasets with Group LASSO Penalty",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "RNA biology"
-        },
-        {
-          "id": "10.64898/2026.10.09.757944",
-          "title": "WarpDemuX-custom - Multiplexed sequence-specific direct RNA sequencing",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Methods"
-        },
-        {
-          "id": "10.64898/2026.10.09.757882",
-          "title": "STARgrid: an open-source pipeline from Visium HD sequencing reads to count matrices",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Methods"
-        },
-        {
-          "id": "10.64898/2026.10.02.756356",
-          "title": "DECONVersation: Single Cell Foundation Model-Derived Embeddings for Robust Cell Type Deconvolution of Bulk RNA-seq",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Methods"
-        },
-        {
-          "id": "10.64898/2026.10.08.757673",
-          "title": "A unified framework for quantitative splicing and transcript prediction",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "RNA biology"
-        }
-      ],
-      "skipped": [
-        {
-          "title": "Cell: Comprehensive lineage tracing maps cell fate decisions in mouse embryogenesis (10.1016/j.cell.2026.09.050)",
-          "reason": "Tier 1, but experimental developmental biology, outside the main topics"
-        },
-        {
-          "title": "Mol Cell: Toward interpretable foundation models for molecular biology (review)",
-          "reason": "Review in a journal not on the review-journal list"
-        },
-        {
-          "title": "Nature: RNA catalysis emerges from dynamic structural ensembles",
-          "reason": "Ribozyme structural biochemistry, not RNA processing or translation control"
-        },
-        {
-          "title": "Genome Res: Identity-by-descent captures shared environmental factors at biobank scale (10.1101/gr.282338.126)",
-          "reason": "Computational, but human population genetics rather than a main topic"
-        },
-        {
-          "title": "RNA: Optimization of Circle-Seq improves transcription error profiling (10.1261/rna.081090.126)",
-          "reason": "Bacterial RNA-seq protocol; borderline, left out as microbial"
-        },
-        {
-          "title": "Bioinformatics: ANCOM-BC in Python (10.1093/bioinformatics/btag767)",
-          "reason": "Microbiome differential abundance, out of scope as microbial"
-        },
-        {
-          "title": "Preprint: Loss of the Y chromosome is transcriptionally silent in ccRCC and across cancers (10.64898/2026.10.08.757570)",
-          "reason": "Close match, but cut by the 10-preprint limit; computational preprints ranked first"
-        },
-        {
-          "title": "Preprint: RiboWin ncORF framework (10.64898/2026.10.01.752299)",
-          "reason": "Close match, cut by the 10-preprint limit in favour of PRICE 2 on the same topic"
-        },
-        {
-          "title": "Preprint: Multi-omic long-read sequencing, nucleosomes and isoforms (10.64898/2026.10.08.757737)",
-          "reason": "Close match, experimental, cut by the 10-preprint limit"
-        },
-        {
-          "title": "Preprint: Benchmarking single-cell foundation models for cell-type and disease-state prediction (10.64898/2026.10.12.758421)",
-          "reason": "Close match, cut by the 10-preprint limit"
-        }
-      ],
-      "notes": [
-        "bioRxiv search_preprints returns at most 30 matches per call and its cursor counts matches within the chosen category, so the README's limit=100 with cursor 0, 100, 200 skips matches 30-99, 130-199 and so on. This run used limit=30 with cursor 0, 30, 60 until an empty page: bioinformatics 237 preprints, genomics 49, cancer biology 86, genetics 23. README step 3 should be updated.",
-        "PubMed get_article_metadata returns at most 20 articles per call, so about 270 PMIDs took 14 calls.",
-        "The Cell centromere k-mers paper is a method plus a cancer-translocation finding; it was given the main topic Cancer genomics, but the topic rules do not say how to place a method paper with a disease finding.",
-        "The m6A nanopore preprint (10.1101/2025.11.02.686099) is listed as v6 with a new title, but get_preprint returned the v1 abstract, so the summary uses that abstract with the current title.",
-        "Circle-Seq (RNA) and ANCOM-BC (Bioinformatics) were left out as microbial work; the rules do not say whether a general-purpose statistics tool for microbiome data counts as Methods."
       ]
     }
   ]
