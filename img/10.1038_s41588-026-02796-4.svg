@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#2B3138">Why TWAS can get the sign wrong</text>
+<line x1="330" y1="60" x2="330" y2="370" stroke="#8A949E" stroke-width="2" stroke-dasharray="6 6"/>
+<!-- left: linked haplotype -->
+<text x="90" y="100" text-anchor="middle" font-size="14" fill="#D98A00" font-weight="700">eQTL, other tissue</text>
+<text x="250" y="100" text-anchor="middle" font-size="14" fill="#C8323F" font-weight="700">GWAS variant</text>
+<line x1="30" y1="180" x2="310" y2="180" stroke="#8A949E" stroke-width="5"/>
+<path d="M90 140 L102 152 L90 164 L78 152 Z" fill="#D98A00"/>
+<path d="M250 140 L262 152 L250 164 L238 152 Z" fill="#C8323F"/>
+<line x1="90" y1="152" x2="90" y2="180" stroke="#D98A00" stroke-width="2"/>
+<line x1="250" y1="152" x2="250" y2="180" stroke="#C8323F" stroke-width="2"/>
+<path d="M90 124 L90 116 L250 116 L250 124" fill="none" stroke="#2B3138" stroke-width="2"/>
+<text x="170" y="136" text-anchor="middle" font-size="13" fill="#2B3138">tightly linked</text>
+<rect x="120" y="244" width="100" height="32" rx="8" fill="#1E5FA8"/>
+<text x="170" y="266" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">GENE</text>
+<path d="M90 190 L130 240" stroke="#D98A00" stroke-width="3" marker-end="url(#ar)"/>
+<text x="88" y="226" text-anchor="end" font-size="16" font-weight="700" fill="#D98A00">↑ expr.</text>
+<path d="M250 190 L210 240" stroke="#C8323F" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<text x="252" y="226" font-size="18" font-weight="700" fill="#C8323F">?</text>
+<text x="170" y="316" text-anchor="middle" font-size="15" fill="#2B3138">TWAS uses eQTL sign</text>
+<text x="170" y="340" text-anchor="middle" font-size="13" fill="#8A949E">Trait signal comes from the other variant</text>
+<!-- right: sign comparison -->
+<text x="480" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#2B3138">Direction of effect</text>
+<rect x="355" y="104" width="250" height="78" rx="8" fill="#fff" stroke="#3C9A2E" stroke-width="3"/>
+<text x="480" y="130" text-anchor="middle" font-size="14" fill="#2B3138">Loss-of-function test</text>
+<text x="480" y="164" text-anchor="middle" font-size="19" font-weight="700" fill="#3C9A2E">gene ↓ → trait ↑</text>
+<rect x="355" y="204" width="250" height="78" rx="8" fill="#fff" stroke="#C8323F" stroke-width="3"/>
+<text x="480" y="230" text-anchor="middle" font-size="14" fill="#2B3138">TWAS call</text>
+<text x="480" y="264" text-anchor="middle" font-size="19" font-weight="700" fill="#C8323F">gene ↑ → trait ↑</text>
+<text x="480" y="330" text-anchor="middle" font-size="18" font-weight="700" fill="#C8323F">Right gene, wrong sign</text>
+</svg>
