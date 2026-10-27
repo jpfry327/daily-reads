@@ -1,13 +1,519 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-26T10:10:00Z",
+  "updated": "2026-10-27T10:05:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03272-x",
-    "10.1038/s41588-026-02796-4",
-    "10.1038/s41592-026-03274-9"
+    "10.1038/s41588-026-02827-0",
+    "10.1126/science.aea7156",
+    "10.1158/2159-8290.CD-26-0255"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02827-0",
+      "date_added": "2026-10-27",
+      "published": "2026-10-26",
+      "title": "Quantification method affects replicability of eQTL analysis, colocalization and TWAS",
+      "authors": "Head ST, Bresnahan ST, Chang YH, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02827-0",
+      "url": "https://doi.org/10.1038/s41588-026-02827-0",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Isoforms"
+      ],
+      "summary": "The authors re-analyse GTEx data (48 tissues, 7 phenotypes) to test how the choice of transcript annotation and quantification method changes eQTL, colocalization and TWAS results. Both choices strongly affect eQTL detection and expression prediction, and the differences carry through to colocalization and TWAS calls.",
+      "key_points": [
+        "Annotation and quantifier choice substantially change eQTL detection and expression prediction.",
+        "The differences carry into colocalization and TWAS results.",
+        "Results agree across pipelines mainly for longer genes, genes with more isoforms and highly heritable genes."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02827-0.svg",
+        "caption": "The same RNA-seq data are quantified with two annotation and tool combinations, giving partly overlapping sets of eQTL, colocalization and TWAS calls.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1126/science.aea7156",
+      "date_added": "2026-10-27",
+      "published": "2026-10-22",
+      "title": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer",
+      "authors": "Englander RP, Brugiolo M, Devoucoux M, et al.",
+      "venue": "Science",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1126/science.aea7156",
+      "url": "https://doi.org/10.1126/science.aea7156",
+      "topics": [
+        "Cancer genomics",
+        "Long-read",
+        "Isoforms",
+        "Immuno-oncology"
+      ],
+      "summary": "Long-read RNA-seq of primary lung adenocarcinomas mapped alternative splicing and found more than 149,000 full-length isoforms, over half unannotated. Retained introns in STAT2 give altered protein isoforms that regulate interferon signalling and correlate with survival after anti-PD-L1 therapy.",
+      "key_points": [
+        "More than 149,000 full-length isoforms were found, over half unannotated.",
+        "Many of the new isoforms are in immune and type I interferon genes.",
+        "STAT2 intron retention acts as an interferon regulatory axis linked to anti-PD-L1 response."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1126_science.aea7156.svg",
+        "caption": "STAT2 pre-mRNA is either spliced to the canonical form or keeps its intron, giving an altered isoform that feeds into type I interferon signalling in lung tumours.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/2159-8290.CD-26-0255",
+      "date_added": "2026-10-27",
+      "published": "2026-10-26",
+      "title": "hnRNPA2B1 sustains antitumor T cell immunity and enhances cancer immunotherapy through IDR-dependent stabilization of chromatin-regulatory transcripts",
+      "authors": "Liu S, Gao W, Hu M, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-26-0255",
+      "url": "https://doi.org/10.1158/2159-8290.CD-26-0255",
+      "topics": [
+        "RNA biology",
+        "Immuno-oncology",
+        "Epigenomics"
+      ],
+      "summary": "An in vivo CRISPR screen identifies hnRNPA2B1 as a regulator of CD8+ T cell fitness. It forms nuclear puncta and stabilizes chromatin-organization RNAs, which keeps chromatin accessible and restrains terminal exhaustion.",
+      "key_points": [
+        "hnRNPA2B1 is enriched in proliferative, intermediate-exhausted T cells and tracks with favourable outcomes.",
+        "Knocking it out in CD8+ T cells accelerates exhaustion and weakens checkpoint-blockade response.",
+        "It acts through disordered-region-dependent RNA stabilization."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-26-0255.svg",
+        "caption": "With hnRNPA2B1 the T cell nucleus holds puncta and stable chromatin-regulatory RNAs and resists exhaustion; without it those RNAs are lost and exhaustion comes faster.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41568-026-00992-2",
+      "date_added": "2026-10-27",
+      "published": "2026-10-26",
+      "title": "Single-cell tumour phylogenetics",
+      "authors": "Gawron J, Kuipers J, Li A, et al.",
+      "venue": "Nature Reviews Cancer",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1038/s41568-026-00992-2",
+      "url": "https://doi.org/10.1038/s41568-026-00992-2",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Tumour evolution",
+        "Computational"
+      ],
+      "summary": "Reviews the models and assumptions behind methods that reconstruct tumour phylogenies from single-cell sequencing. It covers recent algorithmic advances, their use in basic and clinical oncology, and open challenges.",
+      "key_points": [
+        "The nature of single-cell tumour data needs bespoke phylogenetic models.",
+        "Covers methods and their use for individual cancers and patient cohorts.",
+        "Outlines open challenges and future applications."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.molcel.2026.09.037",
+      "date_added": "2026-10-27",
+      "published": "2026-10-20",
+      "title": "Regulatable in vivo gene expression via adaptamers",
+      "authors": "Bryant J, Herron L, Doctor Y, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.09.037",
+      "url": "https://doi.org/10.1016/j.molcel.2026.09.037",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The adaptamer is a compact (under 120 bp) RNA switch that pairs a small-molecule-responsive aptamer with ADAR-mediated editing of a stop codon to control translation. It works in cell lines and human T cells, and AAV-delivered adaptamer-controlled FGF21 reversed obesity and liver steatosis in mice.",
+      "key_points": [
+        "Cleavage-free, post-transcriptional control with no exogenous protein machinery.",
+        "Works in multiple cell lines, including human T cells.",
+        "AAV-delivered FGF21 under adaptamer control reversed obesity and hepatic steatosis in mice."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.282190.126",
+      "date_added": "2026-10-27",
+      "published": "2026-10-26",
+      "title": "Integration-free and cluster-free detection of localized differential gene coexpression in single-cell data with DiCoLo",
+      "authors": "Li R, Yang J, Su PC, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282190.126",
+      "url": "https://doi.org/10.1101/gr.282190.126",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "DiCoLo finds changes in gene coordination between conditions without clustering cells or aligning them across conditions. It builds optimal-transport gene graphs and compares their connectivity, outperforming existing methods on benchmarks and, on mouse hair follicle data, revealing gene programs behind dermal condensate differentiation.",
+      "key_points": [
+        "No clustering or integration is needed, so it works for small subpopulations and under batch effects.",
+        "It outperforms existing methods across multiple benchmarks.",
+        "Applied to hair follicle development, it finds perturbation-driven gene programs."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag796",
+      "date_added": "2026-10-27",
+      "published": "2026-10-26",
+      "title": "GBZ-base and GAF-base: Indexed pangenome file formats",
+      "authors": "Sirén J, Paten B",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag796",
+      "url": "https://doi.org/10.1093/bioinformatics/btag796",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "SQLite-backed indexed formats comparable to GBZ and GAF, for interactive use directly from disk. GBZ-base extracts local subgraphs efficiently, and GAF-base extracts all alignments to a subgraph and is the smallest sequence-to-graph alignment format.",
+      "key_points": [
+        "Indexed, disk-based access instead of batch loading.",
+        "Fast local subgraph extraction.",
+        "The smallest sequence-to-graph alignment file format."
+      ],
+      "data": "",
+      "code": "github.com/jltsiren/gbz-base"
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101641",
+      "date_added": "2026-10-27",
+      "published": "2026-10-22",
+      "title": "mChIP-seq for multiplex epigenomic profiling uncovers cancer-specific histone features in cellular and circulating nucleosomes",
+      "authors": "Sun C, Zhang Q, Yan J, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101641",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101641",
+      "topics": [
+        "Methods",
+        "Epigenomics",
+        "Clinical",
+        "Resource"
+      ],
+      "summary": "A multiplexed ChIP-seq method that uses one-step sample indexing and a pool-and-split strategy, and works on cellular and cell-free samples. It profiled H2A.Z and 10 histone marks across nine cancer cell lines, and the cell-free version showed distinct cfDNA fragment patterns in breast cancer plasma versus healthy controls.",
+      "key_points": [
+        "Cheaper and more efficient multiplexed profiling.",
+        "H2A.Z and H3K4me3 correlate less at promoters in cancer cells.",
+        "cf-mChIP-seq is a liquid-biopsy approach."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/0008-5472.CAN-25-5500",
+      "date_added": "2026-10-27",
+      "published": "2026-10-26",
+      "title": "Patient Sociodemographic Factors Impact the Breast Cancer Microenvironment",
+      "authors": "DeWitt JT, Jimenez-Tovar D, Oropeza E, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.CAN-25-5500",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-25-5500",
+      "topics": [
+        "Cancer genomics",
+        "Clinical",
+        "Resource",
+        "Immuno-oncology"
+      ],
+      "summary": "A new HR+ breast cancer transcriptomic dataset enriched for Black patients, controlled for healthcare access and education. Tumours from Black women showed more collagen deposition and unfavourable T-cell signatures, which were more strongly tied to poverty burden than to race or ancestry, with STAT4 as a candidate master regulator.",
+      "key_points": [
+        "A transcriptomic resource that fills a representation gap.",
+        "Collagen deposition patterns are partly tumour-cell intrinsic.",
+        "The poverty-associated immune phenotype is replicated across independent datasets."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01735-6",
+      "date_added": "2026-10-27",
+      "published": "2026-07-27",
+      "title": "Early and accurate detection of ovarian cancer by profiling cell-free mitochondrial DNA fragmentomics in multi-ethnic population",
+      "authors": "Guo X, Gong Z, Li Z, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01735-6",
+      "url": "https://doi.org/10.1186/s13073-026-01735-6",
+      "topics": [
+        "Cancer genomics",
+        "Machine learning",
+        "Clinical"
+      ],
+      "summary": "A multi-centre machine-learning study using plasma cell-free mtDNA fragmentomics. The detection model reached AUC 0.987 in training and above 0.979 in validation, and a second model separates malignant from benign adnexal masses (AUC 0.982).",
+      "key_points": [
+        "91.67% sensitivity for stage I at 95% specificity.",
+        "The benign-versus-malignant model outperforms serum biomarkers.",
+        "Performs well in a Chinese minority cohort."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.20.760393",
+      "date_added": "2026-10-27",
+      "published": "2026-10-21",
+      "title": "Phenotype-cloud reorganization shapes cancer progression and therapeutic adaptation",
+      "authors": "Zhang Y, Ji J, Gao M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.20.760393",
+      "url": "https://doi.org/10.64898/2026.10.20.760393",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Pan-cancer"
+      ],
+      "summary": "A graph-neural-network progression coordinate plus Field-Flow-Front analysis of breast cancer finds a fragmented intermediate state that stabilises into an interface-remodelling Front. Chemotherapy depletes the pretreatment phenotype cloud and enriches convergent survivor states, and pan-cancer dependency analysis points to an integrin-FAK vulnerability.",
+      "key_points": [
+        "Proliferation and invasion programmes decouple during progression.",
+        "The transition is recovered across molecular, protein and functional systems.",
+        "Survivor-state accessibility is partly encoded before treatment."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.19.760212",
+      "date_added": "2026-10-27",
+      "published": "2026-10-21",
+      "title": "Extrachromosomal circular DNA formation follows a 10.5-bp periodicity reflecting the minor groove orientation around nucleosomes",
+      "authors": "Zabala A, Ascension AM, Bagger FO, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.19.760212",
+      "url": "https://doi.org/10.64898/2026.10.19.760212",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Structural variants"
+      ],
+      "summary": "Short-time Fourier transform of eccDNA length distributions across 25 datasets resolves ~180 bp and 10.5 bp periodicities. Breakpoints fall preferentially in linker DNA and where the minor groove faces the histone surface.",
+      "key_points": [
+        "Chromatin geometry is a determinant of eccDNA biogenesis.",
+        "The analysis spans multiple species, tissues and assays.",
+        "It gives a structural basis for eccDNA length periodicity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.18.759920",
+      "date_added": "2026-10-27",
+      "published": "2026-10-20",
+      "title": "GOLDEN: Gene expression and allele-informed decomposition for genetic heterogeneity in spatial transcriptomic data",
+      "authors": "Paik H",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.18.759920",
+      "url": "https://doi.org/10.64898/2026.10.18.759920",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Deconvolution"
+      ],
+      "summary": "An allele-aware multitask network classifies spots as target, non-target or mixed and estimates target fractions in spatial transcriptomics. On synthetic benchmarks built from semi-allogeneic single-cell profiles it reaches r = 0.977 and MAE 0.045.",
+      "key_points": [
+        "It resolves interindividual (non-clonal) mixtures at spot level.",
+        "Predictions are consistent on real spatial data and genetically validated.",
+        "A simulation framework is released."
+      ],
+      "data": "",
+      "code": "github.com/othertics/GOLDEN"
+    },
+    {
+      "id": "10.64898/2026.10.21.760715",
+      "date_added": "2026-10-27",
+      "published": "2026-10-24",
+      "title": "Calibration of AlphaGenome Variant Impact and SpliceAI2 scores as PP3/BP4 evidence for missense, non-coding, and synonymous variants",
+      "authors": "Babazade A, Dolas Y, Duzenli T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.760715",
+      "url": "https://doi.org/10.64898/2026.10.21.760715",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Splicing"
+      ],
+      "summary": "Calibrates the AlphaGenome Variant Impact score and SpliceAI2 as graded ACMG PP3/BP4 evidence for missense, non-coding and synonymous variants. Both reach moderate to strong evidence near exons, and the evidence thresholds depend on whether ClinVar benign classes or population variants serve as controls.",
+      "key_points": [
+        "AlphaGenome's score does not beat its AlphaMissense component for missense variants.",
+        "SpliceAI2 discriminates better in two classes and in a splicing assay.",
+        "ClinVar likely-benign counts changed ~60-fold at 20 nt from the exon without a change in measured splicing."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.15.759426",
+      "date_added": "2026-10-27",
+      "published": "2026-10-20",
+      "title": "Optimal transport reveals unresolved cells in single cell multi-omics",
+      "authors": "Piran M, Vafaee F",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.15.759426",
+      "url": "https://doi.org/10.64898/2026.10.15.759426",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "An explicit optimal-transport coupling between modalities scores per-cell match uncertainty and upgrades existing integration and label-transfer tools without retraining. It was evaluated on 78 dataset pairs covering 10 integration and 10 label-transfer tools.",
+      "key_points": [
+        "The ambiguity score gave the larger, more consistent gain than the coupling itself.",
+        "Removing ambiguous cells beat random removal in 98% of integration tests and 91% of label-transfer tests.",
+        "Ambiguous cells are mostly rare or transitional populations."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.20.757714",
+      "date_added": "2026-10-27",
+      "published": "2026-10-21",
+      "title": "A clinically annotated proteomic and histological resource of 1,000 colorectal cancers",
+      "authors": "Qoku A, Ullrich N, Miranda F, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.20.757714",
+      "url": "https://doi.org/10.64898/2026.10.20.757714",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics",
+        "Resource",
+        "Clinical"
+      ],
+      "summary": "Deep proteomics of 1,000 treatment-naive colorectal cancers defines six proteomic subgroups, splitting the chromosomally unstable class into three, including an indolent group and a rare adverse-outcome group. Subgroups transfer to an independent cohort, and the paired slide images set benchmarks for inferring subgroup from morphology.",
+      "key_points": [
+        "It is the largest proteomically profiled CRC cohort to date.",
+        "Subgroups associate with outcome, chemotherapy-associated survival, drivers and predicted drug response.",
+        "All data are stated as released openly."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.17.759359",
+      "date_added": "2026-10-27",
+      "published": "2026-10-20",
+      "title": "Developmental origins of thymic B-cell lymphomas",
+      "authors": "Rai S, Yin Y, Fujisawa M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.17.759359",
+      "url": "https://doi.org/10.64898/2026.10.17.759359",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "Single-cell multiomics and spatial profiling define a thymus-specific CCL17 and germinal-centre-like B-cell differentiation programme, recreated in vitro. A malignant state in primary mediastinal B-cell lymphoma (PMBCL) shares its features and sits at early clonal positions in B-cell-receptor phylogenies.",
+      "key_points": [
+        "The B-cell trajectory is distinct from canonical germinal-centre differentiation.",
+        "The programme is redeployed during thymic B-cell lymphomagenesis.",
+        "The finding extends across human B-cell lymphomas."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.20.760582",
+      "date_added": "2026-10-27",
+      "published": "2026-10-21",
+      "title": "METTL1 gene dosage and catalytic activity define a targetable vulnerability in pediatric cancers",
+      "authors": "Liu PY, He S, Panasenko O, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.20.760582",
+      "url": "https://doi.org/10.64898/2026.10.20.760582",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Copy number",
+        "Pan-cancer"
+      ],
+      "summary": "METTL1 copy-number gain and high expression mark METTL1-dependent paediatric tumours. Cas13-mediated mRNA degradation impairs colony formation and lowers translation efficiency of genes enriched in codons decoded by m7G-modified tRNAs.",
+      "key_points": [
+        "Catalytic activity is required to rescue cells from METTL1 silencing.",
+        "MYC, MYCN and MCL-1 proteins fall on METTL1 loss.",
+        "It synergises with BCL-xL inhibition."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.21.760774",
+      "date_added": "2026-10-27",
+      "published": "2026-10-22",
+      "title": "RNA m6A mediates de novo DNA methylation and heritable epigenetic silencing in human cells",
+      "authors": "Divekar NS, Phan NT, Palma LG, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.760774",
+      "url": "https://doi.org/10.64898/2026.10.21.760774",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Epigenomics"
+      ],
+      "summary": "Genome-wide CRISPR screens and proximity proteomics show the m6A writer complex is recruited to chromatin with DNA methyltransferases and histone repressors during establishment of heritable silencing. Inhibiting m6A during the pluripotent transition impairs de novo DNA methylation and derepresses transposable elements.",
+      "key_points": [
+        "It links the epitranscriptome to the establishment of DNA methylation.",
+        "The m6A writer is recruited to chromatin during the transient establishment phase.",
+        "TE upregulation threatens genome integrity during early development."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03272-x",
       "date_added": "2026-10-26",
