@@ -1,6 +1,6 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-27T10:05:00Z",
+  "updated": "2026-10-28T10:05:00Z",
   "retention_days": 90,
   "featured": [
     "10.1038/s41588-026-02827-0",
@@ -8,6 +8,467 @@
     "10.1158/2159-8290.CD-26-0255"
   ],
   "posts": [
+    {
+      "id": "10.3390/biomedicines14102187",
+      "date_added": "2026-10-28",
+      "published": "2026-09-27",
+      "title": "CD47-SIRPα as a Therapeutic Target in Sarcoma: A Systematic Review of Expression, Preclinical, and Clinical Evidence",
+      "authors": "Xiao M, Guo C, Yang Q",
+      "venue": "Biomedicines",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.3390/biomedicines14102187",
+      "url": "https://doi.org/10.3390/biomedicines14102187",
+      "topics": [
+        "Chordoma",
+        "Sarcoma",
+        "Immuno-oncology"
+      ],
+      "summary": "PRISMA systematic review of 50 studies on the CD47-SIRPα 'don't eat me' innate checkpoint in sarcoma. CD47 expression is subtype-dependent and bimodal, and is consistent in chordoma and angiosarcoma, but only two single-arm interventional trials have enrolled sarcoma patients.",
+      "key_points": [
+        "CD47 blockade consistently increased macrophage phagocytosis in preclinical models, and combinations outperformed single agents.",
+        "Certainty of evidence was low for expression and patient-cohort data and very low for preclinical and interventional data.",
+        "The authors call for a harmonised immunohistochemistry standard and a biomarker-selected trial with an internal comparator."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281857.126",
+      "date_added": "2026-10-28",
+      "published": "2026-10-21",
+      "title": "Base composition reflects RNA polymerase II displacement",
+      "authors": "Barone GEF, Stanley JT, Ramirez D, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281857.126",
+      "url": "https://doi.org/10.1101/gr.281857.126",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "A probabilistic mixture model of nascent RNA-seq across gene bodies is used to study Pol II termination and displacement across cell types and species. Genes fall into two classes with conserved base-composition patterns near the displacement site, and the classes respond differently to perturbations that cause readthrough.",
+      "key_points": [
+        "The mixture model quantifies Pol II dynamics across entire gene bodies from nascent RNA-seq.",
+        "Both classes share an upstream T-rich region; one also has a GC-rich region around the displacement site.",
+        "T-rich-only genes are more affected by heat shock, viral infection, kinase inhibition and arsenic."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.xgen.2026.101398",
+      "date_added": "2026-10-28",
+      "published": "2026-10-27",
+      "title": "TFXcan reveals transcription factor programs driving GWAS loci",
+      "authors": "Adeluwa T, Salazar-Magaña S, Sumner S, et al.",
+      "venue": "Cell Genomics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.xgen.2026.101398",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101398",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "TFXcan correlates genetically predicted transcription-factor binding with phenotypes to nominate TF-tissue pairs behind GWAS loci. Its Enpact component combines Enformer and IMPACT to infer personalised TF binding from genotype. In a prostate cancer risk analysis across 700 TF-tissue pairs it implicates multiple TFs at risk loci.",
+      "key_points": [
+        "Enpact infers personalised TF-binding events from genotype using a deep-learning approach.",
+        "Matrix decomposition groups TF-tissue pairs into candidate driver programs.",
+        "The prostate cancer case study identifies TF programs at risk loci."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101642",
+      "date_added": "2026-10-28",
+      "published": "2026-10-22",
+      "title": "Standardizing spatial transcriptomic analysis for infectious diseases with STID",
+      "authors": "Qin Y, Peng Y, Chen Q, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101642",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101642",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "STID is a standardised Seurat- and Python-based framework for spatial transcriptomics of infectious disease. It adds an infection-specific data structure with pathogen background correction, infection-associated spot and niche identification, and multi-sample comparative and temporal analyses.",
+      "key_points": [
+        "Infection-specific, extensible data structure built on the Seurat ecosystem.",
+        "Pathogen background correction and niche identification.",
+        "Applies to bacterial, viral and parasitic infections."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s43588-026-01073-y",
+      "date_added": "2026-10-28",
+      "published": "2026-10-26",
+      "title": "Machine learning dataset and benchmark for accurate T cell receptor-pHLA binding prediction",
+      "authors": "Zhu X, Lu J, Lu Y, et al.",
+      "venue": "Nature Computational Science",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s43588-026-01073-y",
+      "url": "https://doi.org/10.1038/s43588-026-01073-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Benchmarking"
+      ],
+      "summary": "The authors present Hi-TPH, a large hierarchical TCR-pHLA dataset with an on-the-fly method for generating non-binding examples. Protein language models fine-tuned on it (Hi-TPH-PLMs) give a 19.2% gain over state-of-the-art tools on an external wet-lab test set.",
+      "key_points": [
+        "Hierarchical dataset with an unbiased non-binder selection method.",
+        "The hierarchy is used to dissect how TCR and HLA components contribute to binding prediction.",
+        "Dataset and models are released publicly."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag797",
+      "date_added": "2026-10-28",
+      "published": "2026-10-26",
+      "title": "Multi-View State-Space Modeling for Zero-Shot circRNA-miRNA Interaction Prediction",
+      "authors": "Wei MM, Wang L, Huang YA, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag797",
+      "url": "https://doi.org/10.1093/bioinformatics/btag797",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning",
+        "Benchmarking"
+      ],
+      "summary": "MV-S2M is a multi-view state-space model that predicts circRNA-miRNA interactions, including for circRNAs or miRNAs never seen in training. It builds disease-mediated semantic subgraphs and uses structure-aware diffusion to enrich molecular priors, and reports state-of-the-art results on benchmark datasets in zero-shot and conventional settings.",
+      "key_points": [
+        "Targets zero-shot interaction prediction rather than only known pairs.",
+        "Combines structure-aware diffusion, meta-path semantic subgraphs and state-space modelling.",
+        "Cold-start evaluations show how generalisation differs across unseen-entity settings."
+      ],
+      "data": "",
+      "code": "github.com/591286260/MV"
+    },
+    {
+      "id": "10.1073/pnas.2617730123",
+      "date_added": "2026-10-28",
+      "published": "2026-10-23",
+      "title": "Si-scRNA-seq: Enabling ambient-stable single-cell transcriptomics through spatially confined biosilicification",
+      "authors": "Zhou L, Ruan T, He Y, et al.",
+      "venue": "PNAS",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1073/pnas.2617730123",
+      "url": "https://doi.org/10.1073/pnas.2617730123",
+      "topics": [
+        "Methods",
+        "Single-cell"
+      ],
+      "summary": "Spatially confined biosilicification encapsulates cellular RNA in a nanoscopic silica layer so single-cell samples can be stored at room temperature. Transcriptomes stay highly faithful to fresh samples after 7 days (R=0.95), and the method resolved cell heterogeneity in clinical lung, liver and ovarian cancer specimens.",
+      "key_points": [
+        "RNA half-life at 25 °C is extended to 54.8 days, a 685-fold gain.",
+        "A silicification inhibitor prevents cell aggregation and over-crosslinking while keeping RNA accessible.",
+        "Compatible with mainstream scRNA-seq platforms."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081012.126",
+      "date_added": "2026-10-28",
+      "published": "2026-10-26",
+      "title": "Brr2p-mediated unwinding of U4/U6 is promoted by a mutually exclusive internal stem loop in U4 and involves destabilization of the 5' stem-loop of U4",
+      "authors": "Nielsen KH, Johnson B, Das A, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081012.126",
+      "url": "https://doi.org/10.1261/rna.081012.126",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "Yeast genetics and in vitro assays show how the helicase Brr2p unwinds U4/U6 to activate the spliceosome. Destabilising mutations in U4 stem I, stem II and the 5' stem loop suppress an unwinding-deficient brr2 mutant.",
+      "key_points": [
+        "Brr2p disrupts both U4/U6 stems in vivo.",
+        "Brr2p displaces Prp31p from the U4 5' stem loop in vitro.",
+        "A conserved internal U4 stem loop that is mutually exclusive with stem I promotes unwinding."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.23.761433",
+      "date_added": "2026-10-28",
+      "published": "2026-10-27",
+      "title": "Inferring somatic copy number aberrations from spatial transcriptomics data to study early cancer development",
+      "authors": "Honig F, Brochen C, Basha M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.23.761433",
+      "url": "https://doi.org/10.64898/2026.10.23.761433",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Copy number"
+      ],
+      "summary": "A computational framework infers somatic copy number aberrations from Xenium spatial transcriptomics data and maps cell populations sharing an SCNA profile. It recovers known CNAs in ovarian, cervical and breast cancer, and in high-grade serous ovarian cancer finds an intermediate fallopian-tube epithelial population with early transformation features.",
+      "key_points": [
+        "SCNAs inferred from Xenium data define spatially coherent clones.",
+        "SCNA-defined populations recapitulate known copy number alterations and pathology in three cancer types.",
+        "The HGSOC fallopian-tube population shows early transformation with immune remodelling."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.25.761640",
+      "date_added": "2026-10-28",
+      "published": "2026-10-27",
+      "title": "Quantifying epigenetic reprogramming and cellular plasticity in preneoplastic lesions reveals dedifferentiation as a key precancer hallmark",
+      "authors": "Teschendorff A, Tham JK",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.25.761640",
+      "url": "https://doi.org/10.64898/2026.10.25.761640",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "PLASTIC is a pan-tissue framework that quantifies cellular plasticity and epigenetic reprogramming from scRNA-seq and builds Waddington-like landscapes to flag high cancer-risk states. Across preneoplastic tissues the high-risk state shows increased dedifferentiation, even relative to its fetal counterpart.",
+      "key_points": [
+        "Works on scRNA-seq from any tissue.",
+        "Predicts metaplasia in lung cells from smokers.",
+        "The risk signature is validated in independent data."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.04.06.716771",
+      "date_added": "2026-10-28",
+      "published": "2026-04-09",
+      "title": "Detecting context-dependent selection on cancer driver genes with DiffDriver",
+      "authors": "Zhou J, Zhang Q, Song L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.04.06.716771",
+      "url": "https://doi.org/10.64898/2026.04.06.716771",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Tumour evolution"
+      ],
+      "summary": "DiffDriver is a statistical method that tests whether selection on a driver gene differs across individual-level contexts such as clinical traits or immune subtype. It models mutation-rate variation across bases and individuals and uses sequence functional information to gain power.",
+      "key_points": [
+        "Reduces false positives and improves power over current methods in simulations.",
+        "24.3% of driver genes show differential selection for at least one clinical trait.",
+        "8.2% of driver genes differ between immune subtypes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.22.760906",
+      "date_added": "2026-10-28",
+      "published": "2026-10-27",
+      "title": "CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification",
+      "authors": "Shukla P, Mannino M, Hofer M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.760906",
+      "url": "https://doi.org/10.64898/2026.10.22.760906",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "CATFISHR is a semi-automated workflow that combines expression similarity, inferred CNV profiles and consensus cell typing to classify malignant cells in scRNA-seq against high-confidence references. It was tested on seven scRNA-seq cohorts and one Visium sample.",
+      "key_points": [
+        "Balanced accuracy is above 0.85 in 6 of 8 cohorts.",
+        "It recovers 'Hidden' malignant cells that standard QC metrics do not explain.",
+        "In Visium, Hidden spots contain histologist-confirmed malignant cells."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2024.11.05.622095",
+      "date_added": "2026-10-28",
+      "published": "2024-11-06",
+      "title": "DNA methylation is a key determinant of response to targeted and immune checkpoint therapies in metastatic renal cell carcinoma",
+      "authors": "Jeanneret F, Schoch S, Ballester P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2024.11.05.622095",
+      "url": "https://doi.org/10.1101/2024.11.05.622095",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Clinical"
+      ],
+      "summary": "A meta-analysis of DNA methylation from 727 ccRCC tumours identifies a hyper-methylated subtype (15% of tumours) with shorter survival. A nine-gene-ratio expression classifier predicts the subtype (AUC 0.96 in an independent cohort).",
+      "key_points": [
+        "The hyper-methylated subtype is proliferative, DNMT3B-high and TET2-low.",
+        "Predicted hyper-methylated tumours do worse on sunitinib.",
+        "No such difference was seen on immune checkpoint-based regimens."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.04.10.717709",
+      "date_added": "2026-10-28",
+      "published": "2026-04-14",
+      "title": "Predicting Pre-treatment Resistance or Post-treatment Effect? A Systematic Benchmarking of Single-Cell Drug Response Models",
+      "authors": "Shen L, Sun X, Zheng S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.04.10.717709",
+      "url": "https://doi.org/10.64898/2026.04.10.717709",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Single-cell"
+      ],
+      "summary": "A benchmark of single-cell drug response prediction models on 26 scRNA-seq datasets (over 760,000 cells, 12 cancer types, 21 agents), including two lineage-tracing datasets with validated response labels. Performance is much higher in cell lines than in tissue and no method dominates.",
+      "key_points": [
+        "Treatment-associated states are easier to separate than pre-sensitive and pre-resistant states.",
+        "Pre-existing resistance signals are detectable but subtle.",
+        "scDEAL performance depends on the training-label definition and architecture."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.22.760919",
+      "date_added": "2026-10-28",
+      "published": "2026-10-23",
+      "title": "OmniRE-seq: A Dual-Method Framework for Decoding RNA Editing Dynamics in Disease and Therapy",
+      "authors": "Hang Y, Liu H, Li W, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.760919",
+      "url": "https://doi.org/10.64898/2026.10.22.760919",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications",
+        "Single-cell"
+      ],
+      "summary": "OmniRE-seq pairs RE-seq for bulk RNA-seq and scRE-seq for single-cell data to quantify RNA editing at locus, gene and burden level. It is applied to murine sepsis, MDS, drug-treated melanoma and colorectal cancer, where cell-type-specific editing is resolved.",
+      "key_points": [
+        "A standardised bulk and single-cell toolkit for RNA editing quantification.",
+        "Cell-type-specific editing patterns resolved in colorectal cancer.",
+        "Integrated analysis nominates convergent editing signals and therapeutic targets."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2024.09.11.612525",
+      "date_added": "2026-10-28",
+      "published": "2024-09-13",
+      "title": "Somatic evolution of cancer genes in sex chromosomes",
+      "authors": "Marco A, Akachukwu AC, Ratcliff JS",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2024.09.11.612525",
+      "url": "https://doi.org/10.1101/2024.09.11.612525",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution",
+        "Pan-cancer"
+      ],
+      "summary": "The authors adapt population-genetics models of haploid and diploid adaptation to somatic evolution and test them on COSMIC mutations. In male patients X-linked tumour suppressors show a higher loss-of-function to synonymous ratio than autosomal ones, with no such difference in females.",
+      "key_points": [
+        "Hemizygous male X means a single hit can inactivate an X-linked tumour suppressor.",
+        "X-linked tumour suppressors also show more frequent complete loss in males.",
+        "Ploidy and chromosomal context can be built into models of somatic evolution."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.16.759545",
+      "date_added": "2026-10-28",
+      "published": "2026-10-22",
+      "title": "Chromosomal instability drives continual flux in cancer genomes",
+      "authors": "Guscott MA, Lumeau A, Gallagher AD, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.16.759545",
+      "url": "https://doi.org/10.64898/2026.10.16.759545",
+      "topics": [
+        "Cancer genomics",
+        "Copy number",
+        "Tumour evolution",
+        "Sarcoma"
+      ],
+      "summary": "Single-genome sequencing of individual cells across 34 cancer cell lines and organoids tracks de novo copy number alterations. CIN generates one to five new CNAs per cell cycle, scales with genomic complexity and rises after whole-genome duplication.",
+      "key_points": [
+        "New CNAs are largely stochastic along the genome, with negative selection against large ones.",
+        "Whole-genome duplication acutely raises CIN.",
+        "Chemotherapy drives convergent recurrent CNAs while CIN stays high."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.22.760879",
+      "date_added": "2026-10-28",
+      "published": "2026-10-23",
+      "title": "Nonsense-mediated decay constrains transposable element-driven evolutionary innovation",
+      "authors": "Plowman T, Kassiotis G",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.760879",
+      "url": "https://doi.org/10.64898/2026.10.22.760879",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "Isoforms",
+        "Splicing"
+      ],
+      "summary": "Long-read RNA-seq of cell lines after NMD inhibition gives an NMD-extended transcriptome of about 217,000 transcripts, roughly 80% unannotated. NMD-regulated transcripts are enriched for exonization of LTR and LINE elements, mainly as alternative isoforms of annotated genes.",
+      "key_points": [
+        "NMD-silenced TEs are younger and more diverged, with less conserved splice sites.",
+        "NMD activity is elevated in lung cancer and linked to better survival in lung squamous cell carcinoma.",
+        "Alu-exonizing isoforms of DDX49, NEIL3 and SETDB1 give stable proteins with distinct activity."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02827-0",
       "date_added": "2026-10-27",
