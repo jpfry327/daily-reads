@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker><marker id="r" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#C8323F"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#2B3138">Lupus neutrophils: odd splicing, new targets</text>
+<!-- pre-mRNA -->
+<text x="20" y="78" font-size="14" fill="#8A949E">Pre-mRNA</text>
+<rect x="40" y="90" width="80" height="30" rx="4" fill="#1E5FA8"/><text x="80" y="110" text-anchor="middle" font-size="13" fill="#fff">Exon 1</text>
+<rect x="230" y="90" width="80" height="30" rx="4" fill="#1E5FA8"/><text x="270" y="110" text-anchor="middle" font-size="13" fill="#fff">Exon 2</text>
+<rect x="420" y="90" width="80" height="30" rx="4" fill="#1E5FA8"/><text x="460" y="110" text-anchor="middle" font-size="13" fill="#fff">Exon 3</text>
+<line x1="120" y1="105" x2="230" y2="105" stroke="#8A949E" stroke-width="3"/><line x1="310" y1="105" x2="420" y2="105" stroke="#8A949E" stroke-width="3"/>
+<path d="M100 90 Q270 40 440 90" fill="none" stroke="#8A949E" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="270" y="58" text-anchor="middle" font-size="13" fill="#8A949E">Usual splice</text>
+<path d="M100 120 Q205 170 330 120" fill="none" stroke="#C8323F" stroke-width="4"/>
+<rect x="330" y="90" width="60" height="30" rx="4" fill="#C8323F"/><text x="360" y="110" text-anchor="middle" font-size="13" fill="#fff">Novel</text>
+<text x="110" y="160" font-size="14" font-weight="700" fill="#C8323F">Aberrant splice junction</text>
+<!-- translate -->
+<path d="M360 180 L360 214" stroke="#C8323F" stroke-width="3" marker-end="url(#r)"/>
+<text x="372" y="202" font-size="13" fill="#2B3138">Translated</text>
+<!-- neutrophil -->
+<g transform="translate(150,290)">
+<path d="M-70 -10 Q-80 -60 -30 -62 Q10 -80 50 -50 Q90 -30 70 10 Q80 50 30 58 Q-10 76 -50 50 Q-90 40 -70 -10 Z" fill="#EEF1F4" stroke="#8A949E" stroke-width="3"/>
+<g fill="#1E5FA8"><circle cx="-22" cy="-8" r="13"/><circle cx="8" cy="-16" r="13"/><circle cx="2" cy="16" r="13"/></g>
+</g>
+<text x="150" y="376" text-anchor="middle" font-size="14" fill="#2B3138">Neutrophil</text>
+<!-- peptide on MHC-I -->
+<rect x="225" y="258" width="20" height="40" fill="#8A949E"/><rect x="215" y="270" width="40" height="8" rx="3" fill="#C8323F"/>
+<text x="262" y="326" text-anchor="middle" font-size="13" fill="#2B3138">MHC-I</text>
+<path d="M255 274 L330 274" stroke="#2B3138" stroke-width="3" marker-end="url(#a)"/>
+<!-- T cell -->
+<circle cx="400" cy="274" r="30" fill="#DCEFD8" stroke="#3C9A2E" stroke-width="3"/><circle cx="400" cy="274" r="10" fill="#3C9A2E"/>
+<text x="400" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#3C9A2E">T cell response</text>
+<!-- B cell and IgG -->
+<path d="M330 290 L330 290" stroke="none"/>
+<circle cx="540" cy="250" r="30" fill="#FBE8C2" stroke="#D98A00" stroke-width="3"/><circle cx="540" cy="250" r="10" fill="#D98A00"/>
+<text x="540" y="304" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">B cell</text>
+<g stroke="#D98A00" stroke-width="3" fill="none" stroke-linecap="round"><path d="M500 345 L500 365 M500 365 L488 350 M500 365 L512 350"/><path d="M545 345 L545 365 M545 365 L533 350 M545 365 L557 350"/><path d="M590 345 L590 365 M590 365 L578 350 M590 365 L602 350"/></g>
+<path d="M540 312 L540 336" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<text x="545" y="388" text-anchor="middle" font-size="13" fill="#2B3138">IgG antibodies</text>
+<path d="M420 250 L494 250" stroke="#2B3138" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#a)"/>
+</svg>

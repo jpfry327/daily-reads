@@ -1,13 +1,719 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-28T10:05:00Z",
+  "updated": "2026-10-29T10:05:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02827-0",
-    "10.1126/science.aea7156",
-    "10.1158/2159-8290.CD-26-0255"
+    "10.1038/s41586-026-11206-y",
+    "10.1038/s41586-026-10721-2",
+    "10.1038/s41586-026-11219-7"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41586-026-11206-y",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Alzheimer's disease genetics converges on microglial and neuronal dysregulation",
+      "authors": "Uffelmann E, Wightman DP, Bahrami S, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11206-y",
+      "url": "https://doi.org/10.1038/s41586-026-11206-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Multi-omics"
+      ],
+      "summary": "A multi-ancestry GWAS meta-analysis of about 109,000 cases, 74,000 proxy cases and 2.6 million controls finds 118 risk loci, 48 of them new. Gene and drug-target prioritisation, together with expression enrichment, links risk to genes more active in microglia and less active in neurons.",
+      "key_points": [
+        "118 loci found, plus 9 ancestry-specific ones; 48 are new.",
+        "Risk is enriched in genes up in microglia and down in neurons.",
+        "SNP heritability is estimated at 16%, about three times earlier estimates, and polygenic prediction improves."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11206-y.svg",
+        "caption": "Pooled case, proxy-case and control cohorts give risk loci, whose genes are more active in microglia and less active in neurons.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-10721-2",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Rare and common genetic variants shape single-cell immune gene expression (TenK10K phase 1)",
+      "authors": "Cuomo ASE, Spenceley E, Tanudisastro HA, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-10721-2",
+      "url": "https://doi.org/10.1038/s41586-026-10721-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "Single-cell RNA-seq of more than 5 million cells from 1,925 people, paired with whole-genome sequencing, is used to map how common and rare variants affect gene expression across 28 immune cell types. A method that models single cells directly, rather than pseudobulk, finds common-variant effects for 83% of 21,404 genes and cumulative rare-variant effects for 47%.",
+      "key_points": [
+        "About half of single-cell eQTL effects are specific to a cell type.",
+        "Cumulative rare variants affect expression of nearly half of tested genes.",
+        "Some variant effects depend on cell state."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-10721-2.svg",
+        "caption": "Donor genomes and single immune cells are combined to separate common and summed rare variant effects that are cell-type specific or cell-state dependent.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11219-7",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "T and B cells recognize splicing-derived neutrophil neoantigens in lupus",
+      "authors": "Najjar R, Wang X, Shaikh F, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11219-7",
+      "url": "https://doi.org/10.1038/s41586-026-11219-7",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Immuno-oncology"
+      ],
+      "summary": "Neutrophils from people with systemic lupus erythematosus carry many aberrantly spliced transcripts that are predicted to encode new protein sequences. Mass spectrometry found 21 such peptides on MHC-I, and they provoke T-cell and IgG responses.",
+      "key_points": [
+        "Lupus neutrophils show many aberrant splice events with predicted novel sequences.",
+        "21 splicing-derived peptides were detected on MHC-I.",
+        "The peptides drive T-cell and IgG antibody responses."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11219-7.svg",
+        "caption": "Aberrant splice junctions in neutrophils give novel peptides shown on MHC-I, which T cells and B cells then respond to with IgG.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11173-4",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Genetic variants shape single-cell chromatin accessibility and disease risk",
+      "authors": "Xue A, Fan J, Dong OA, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11173-4",
+      "url": "https://doi.org/10.1038/s41586-026-11173-4",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Epigenomics",
+        "Multi-omics"
+      ],
+      "summary": "Single-cell ATAC-seq of 3.5 million PBMCs from 1,042 donors with whole-genome data maps 243,225 chromatin accessibility QTLs across 28 cell types. A graph neural network trained on eQTL and caQTL layers infers peak-gene links in unpaired multiome data.",
+      "key_points": [
+        "caQTLs colocalise with GWAS and add 4.5-22.6% more signals than eQTLs alone.",
+        "The graph neural network improves peak-gene link accuracy by up to 17.2%.",
+        "Results span 28 immune cell types."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41586-026-10438-2",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Tandem repeat variation shapes immune cell type-specific gene expression",
+      "authors": "Tanudisastro HA, Cuomo ASE, Weisburd B, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-10438-2",
+      "url": "https://doi.org/10.1038/s41586-026-10438-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Structural variants"
+      ],
+      "summary": "More than 1.7 million tandem-repeat loci were genotyped in 1,925 people and linked to single-cell expression from 5.4 million cells. The analysis finds over 69,000 repeat-linked eQTLs and fine-maps candidate causal repeats.",
+      "key_points": [
+        "30.7% of tandem-repeat eQTLs are cell-type specific.",
+        "1,490 candidate causal repeats were fine-mapped.",
+        "Repeats mediate immune and haematological trait associations at more than 200 genes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02786-6",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Population-scale single-nucleus multi-omic profiling of skeletal muscle reveals extensive context-specific genetic regulation",
+      "authors": "Varshney A, Manickam N, Orchard P, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02786-6",
+      "url": "https://doi.org/10.1038/s41588-026-02786-6",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Epigenomics",
+        "Multi-omics"
+      ],
+      "summary": "Joint snATAC-seq and snRNA-seq of 287 skeletal muscle biopsies across 13 cell types maps eQTLs and chromatin accessibility QTLs. About 3,500 GWAS signals across 38 traits colocalise with these QTLs, mostly with caQTLs.",
+      "key_points": [
+        "More than 7,000 eQTLs and over 100,000 caQTLs were found.",
+        "Most colocalised GWAS signals involve caQTLs, not eQTLs.",
+        "Regulation is strongly cell-type and context specific."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/2159-8290.CD-26-1312",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Neuroendocrine Differentiation Mediates Escape from HER2-Targeted Therapy in Breast Cancer",
+      "authors": "Würth R, Cheytan T, Schwerd-Kleine P, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-26-1312",
+      "url": "https://doi.org/10.1158/2159-8290.CD-26-1312",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics"
+      ],
+      "summary": "Neuroendocrine differentiation appeared or increased in 22% of progressive HER2-positive breast cancers. Epigenetic and transcriptional mapping of epithelial and neuroendocrine states in models defines a neuroendocrine signature.",
+      "key_points": [
+        "EpCAM and HER2 are silenced epigenetically in the neuroendocrine state.",
+        "NEUROD1 acts as a master regulator.",
+        "Mesenchymal FGFR1 splicing is part of the program."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41586-026-11178-z",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers",
+      "authors": "Yankova E, Sapetschnig A, Thomas B, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11178-z",
+      "url": "https://doi.org/10.1038/s41586-026-11178-z",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "STM9005 is a selective first-in-class inhibitor of the tRNA m7G methyltransferase METTL1. In many cancer models it lowers m7G on a subset of tRNAs, impairs translation of oncogenic mRNAs and blocks cell growth.",
+      "key_points": [
+        "m7G falls on a subset of tRNAs, and their levels drop.",
+        "Growth is blocked across leukaemia, melanoma, pancreatic, oesophageal and small cell lung cancer models.",
+        "Tumour growth is impaired and survival extended in several mouse models."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03284-7",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Aptamer-mediated multivalent endogenous ADAR1 recruitment for highly efficient RNA editing",
+      "authors": "Zhu H, Zhou Y, Huang R, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03284-7",
+      "url": "https://doi.org/10.1038/s41592-026-03284-7",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Methods"
+      ],
+      "summary": "MARRS uses multivalent RNA aptamers against the Zα domain of ADAR1 p150, embedded in a circular RNA scaffold, to recruit the cell's own ADAR1 for A-to-I editing. It needs no exogenous enzyme.",
+      "key_points": [
+        "Editing reaches up to 100% in vitro and 84% in vivo.",
+        "It works across a range of transcript targets.",
+        "Off-target editing is minimal."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101643",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Geometric inference of cross-species transcriptome correspondence",
+      "authors": "Tokuta Y, Nakamura T, Fujiwara K, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101643",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101643",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "Species-OT is a Gromov-Wasserstein optimal-transport method that compares bulk or single-cell RNA-seq from two species. It returns a gene-to-gene correspondence and an overall transcriptomic distance.",
+      "key_points": [
+        "Tested on stem cell fate specification in mouse, monkey and human.",
+        "Also applied to scRNA-seq from six mammals.",
+        "Gene correspondences recapitulate regulatory roles."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cels.2026.101759",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Deep Lineage: Single-cell lineage tracing and fate inference using deep learning",
+      "authors": "Sadria M, Zhang A, Lai HG, et al.",
+      "venue": "Cell Systems",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.cels.2026.101759",
+      "url": "https://doi.org/10.1016/j.cels.2026.101759",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "Deep Lineage is a deep-learning method for time-series scRNA-seq with lineage barcodes. It predicts early fate biases and within-clone expression, and is checked on LineageSim, a new fate-aware simulator.",
+      "key_points": [
+        "Beats existing methods at fate prediction.",
+        "Robust to barcode dropout and clone misidentification.",
+        "In silico perturbation in reprogramming and haematopoiesis suggests key genes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cels.2026.101760",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Interpretable models for scRNA-seq data embedding with multi-scale structure preservation",
+      "authors": "Novak D, de Bodt C, Lambert P, et al.",
+      "venue": "Cell Systems",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.cels.2026.101760",
+      "url": "https://doi.org/10.1016/j.cels.2026.101760",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "ViScore is a scalable framework for scoring how well a dimensionality-reduction embedding preserves structure, and ViVAE is a deep-learning embedding model with interpretability tools.",
+      "key_points": [
+        "ViVAE preserves multi-scale structure better than existing embeddings.",
+        "ViScore offers fairer, scalable scoring.",
+        "Shown with quantitative comparison and case studies."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag801",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Starlng: STability Analysis of coReguLated \"Nests\" of Genes",
+      "authors": "Munteanu A",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag801",
+      "url": "https://doi.org/10.1093/bioinformatics/btag801",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "Starlng extends ClustAssess to assess the stability of gene-graph clustering in single-cell data, choosing stable clustering parameters and defining robust gene modules.",
+      "key_points": [
+        "Removes outlier clusters using pseudotime variance.",
+        "Reveals hierarchical links between cell clusters and gene modules.",
+        "Released as an R package."
+      ],
+      "data": "",
+      "code": "github.com/Core-Bioinformatics/Starlng"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag799",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "rustybam: a composable toolkit for alignment analysis and visualization with SafFire",
+      "authors": "Mirchandani C, Vollger MR",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag799",
+      "url": "https://doi.org/10.1093/bioinformatics/btag799",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "rustybam is a Rust command-line toolkit for CIGAR-aware manipulation of PAF and BAM alignments, covering overlap resolution, liftover, splitting at structural variants, scaffolding and identity statistics. SafFire is a browser tool for interactive genome-comparison views.",
+      "key_points": [
+        "Composable commands for assembly-scale alignments.",
+        "Includes liftover and splitting at SVs.",
+        "MIT licence, on Bioconda and crates.io."
+      ],
+      "data": "",
+      "code": "github.com/vollgerlab/rustybam"
+    },
+    {
+      "id": "10.1016/j.cels.2026.101761",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "A systematic delineation of 3'UTR regulatory elements and their contextual associations",
+      "authors": "Liang N, Li JY, Ding Y, et al.",
+      "venue": "Cell Systems",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.cels.2026.101761",
+      "url": "https://doi.org/10.1016/j.cels.2026.101761",
+      "topics": [
+        "RNA biology",
+        "Machine learning",
+        "Resource"
+      ],
+      "summary": "A massively parallel reporter assay of about 2 million synthetic 3'UTR inserts measured RNA output and nuclear-cytoplasmic partitioning in A549 and HCT116 cells. Short 2-8 nt elements act mostly additively, and a context-aware deep model predicts the behaviour.",
+      "key_points": [
+        "Output and localisation lie along one coupled axis.",
+        "Applied to ClinVar, the model flags pathogenic variants that create or disrupt U1-like motifs.",
+        "Short elements act mostly additively."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.080828.125",
+      "date_added": "2026-10-29",
+      "published": "2026-10-27",
+      "title": "Diverse RNA Editing Systems Across Heterolobosea (Discoba)",
+      "authors": "Mirzoyan S, Corre P, Zadrobilkova E, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.080828.125",
+      "url": "https://doi.org/10.1261/rna.080828.125",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "RNA modifications"
+      ],
+      "summary": "New genome assemblies for two Heterolobosea species, with RNA-seq, nanopore cDNA and direct RNA data and proteomics, show C-to-U editing and mononucleotide insertion editing together in the mitochondria of Paravahlkampfia ustiana. A-to-I editing also occurs in rRNA from rDNA plasmids.",
+      "key_points": [
+        "Editing was verified with long-read and direct RNA data.",
+        "C-to-U editing probably arose deep in Heterolobosea and was lost repeatedly.",
+        "Two new genome assemblies are reported."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gad.353786.126",
+      "date_added": "2026-10-29",
+      "published": "2026-10-27",
+      "title": "A ubiquitin network safeguards cell identity by continuously degrading a stem cell-related translational machinery",
+      "authors": "Danial S, Ghanim R, Makhzumy M, et al.",
+      "venue": "Genes & Development",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gad.353786.126",
+      "url": "https://doi.org/10.1101/gad.353786.126",
+      "topics": [
+        "RNA biology",
+        "Single-cell"
+      ],
+      "summary": "In Drosophila, the translational repressor Rogue (with Orb2) binds the dUbcH8/Kdo and eEF2 transcripts, shortens their poly(A) tails and suppresses Kdo in ageing enterocytes. This speeds clearance of the CTLH E3 complex and loosens enterocyte identity.",
+      "key_points": [
+        "In young cells, dUSP22 and CTLH degrade the RNA-binding proteins to keep identity.",
+        "Poly(A) tail shortening is part of the mechanism.",
+        "Uses scRNA-seq, lineage tracing and nanopore direct RNA-seq."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.01.13.699341",
+      "date_added": "2026-10-29",
+      "published": "2026-10-28",
+      "title": "Hypatia: a set of quantitative methods for profiling isoform across cell populations",
+      "authors": "Pan T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.01.13.699341",
+      "url": "https://doi.org/10.64898/2026.01.13.699341",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Single-cell",
+        "Isoforms"
+      ],
+      "summary": "Hypatia compares isoform complexity across cell populations in long-read single-cell RNA-seq along three axes: usage, diversity and expression. It is applied to real datasets.",
+      "key_points": [
+        "Cramer's V improves precision for detecting isoform-usage shifts but finds fewer events in sparse data.",
+        "Tsallis entropy is a tunable isoform-diversity measure.",
+        "The three analyses give complementary views of isoform variation."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.24.761506",
+      "date_added": "2026-10-29",
+      "published": "2026-10-27",
+      "title": "OTTER: Orchestrated Transcriptomic, Tumor-xenograft (PDX/CDX), and Epigenomic Reporting Workflow",
+      "authors": "Zheng Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.24.761506",
+      "url": "https://doi.org/10.64898/2026.10.24.761506",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Resource"
+      ],
+      "summary": "OTTER is a compiled workflow that separates mouse host reads from graft reads in tumour xenograft libraries, including bisulfite-seq where C-to-T conversion defeats conventional tools.",
+      "key_points": [
+        "Conventional tools reach under 0.015% graft recall on BS-seq; OTTER reaches 52-54%.",
+        "Full decision parity is kept on transcriptomics.",
+        "MIT-licensed, with test data on Hugging Face."
+      ],
+      "data": "",
+      "code": "github.com/otterlab-bio/otter"
+    },
+    {
+      "id": "10.64898/2026.10.26.761533",
+      "date_added": "2026-10-29",
+      "published": "2026-10-27",
+      "title": "Xenograft supervision and joint methylation-fragment-end encoding define a reusable molecular scoring layer for cell-free tumor DNA",
+      "authors": "Zhang X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.26.761533",
+      "url": "https://doi.org/10.64898/2026.10.26.761533",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Machine learning"
+      ],
+      "summary": "A Transformer scores individual bisulfite reads without predefined DMRs, encoding CpG methylation, nucleotide context and the fragment 3' end, with xenografts giving molecule-level tumour labels.",
+      "key_points": [
+        "The frozen scorer estimates tumour fraction in synthetic and PDX mixtures.",
+        "It enriches tumour signal in independent HCC and pan-cancer plasma without retraining.",
+        "Stage I versus healthy AUROC is 0.884 in 1,477 specimens."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.05.27.727977",
+      "date_added": "2026-10-29",
+      "published": "2026-10-22",
+      "title": "Tumour architecture shapes polarized epithelial states that predict survival in high-grade serous ovarian cancer",
+      "authors": "Nersesian S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.27.727977",
+      "url": "https://doi.org/10.64898/2026.05.27.727977",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "The authors integrate 1.98 million single-cell transcriptomes from 13 high-grade serous ovarian cancer studies and find a recurrent axis in malignant secretory cells, from proliferative progenitor-like (SecA) to quiescent injury-like (SecB). Spatial profiling and tissue microarrays place the axis in tumour space.",
+      "key_points": [
+        "SecB cells sit in avascular hypoxic niches and exclude lymphocytes.",
+        "SecB predicts poor survival across cohorts.",
+        "It also predicts preferential bevacizumab benefit in ICON7."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.22.761138",
+      "date_added": "2026-10-29",
+      "published": "2026-10-25",
+      "title": "Large-scale integrated single-cell analysis reveals molecular subtypes and microenvironmental remodeling in cutaneous T cell lymphoma",
+      "authors": "Reis RJ, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.761138",
+      "url": "https://doi.org/10.64898/2026.10.22.761138",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "Public scRNA-seq from 244 samples and 132 patients across cutaneous T cell lymphoma, healthy skin and benign dermatoses is integrated, using pseudobulk with linear mixed-effects models to avoid pseudoreplication.",
+      "key_points": [
+        "This is the largest CTCL atlas to date.",
+        "Composition and expression change by clinical stage.",
+        "Stable subtypes predict outcome in an independent dataset."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.24.761531",
+      "date_added": "2026-10-29",
+      "published": "2026-10-27",
+      "title": "Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo",
+      "authors": "Tung K-C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.24.761531",
+      "url": "https://doi.org/10.64898/2026.10.24.761531",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "JuloVelo classifies each gene's kinetics (circle, complete induction, complete repression) and uses this to initialise a neural RNA-velocity model. It also takes multiome input and supports in silico TF perturbation.",
+      "key_points": [
+        "Outperforms constant-rate and cell-specific models on 8 datasets.",
+        "Resolves all five lineages in hippocampal neurogenesis.",
+        "About 70% faster than cellDancer."
+      ],
+      "data": "",
+      "code": "github.com/jhlabtw/JuloVelo.jl"
+    },
+    {
+      "id": "10.64898/2026.10.20.760373",
+      "date_added": "2026-10-29",
+      "published": "2026-10-24",
+      "title": "Multi-scale microenvironment covariance for unsupervised spatial domain identification",
+      "authors": "Du B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.20.760373",
+      "url": "https://doi.org/10.64898/2026.10.20.760373",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "CoSMIM represents each cell's niche as a weighted fusion of multi-scale neighbourhood gene-gene covariance matrices, then uses PCA and Leiden clustering on the matrix square root to find spatial domains without model training.",
+      "key_points": [
+        "Best overall rank across 8 metrics among 16 methods on six datasets from five platforms.",
+        "Ranks first on a Xenium mouse brain dataset.",
+        "Domain covariances expose gene pairs that differ between domains."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.22.760090",
+      "date_added": "2026-10-29",
+      "published": "2026-10-25",
+      "title": "Evaluating the added value of sequence models in noncoding RNA assays: a baseline-aware framework",
+      "authors": "Guo R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.760090",
+      "url": "https://doi.org/10.64898/2026.10.22.760090",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "The paper estimates the gain that AlphaGenome and RNA-FM add over explicit baselines for lncRNA CRISPRi labels and miRNA repression, and argues that baseline content and regularisation should be tested before interpreting residual gains.",
+      "key_points": [
+        "AlphaGenome raises cross-cell CRISPRi AUROC from 0.643 to 0.755, but only to 0.753 once K562 accessibility is added.",
+        "RNA-FM adds about nothing after sequence-composition adjustment.",
+        "A mature-miRNA aggregate lifts baseline Spearman from 0.414 to 0.480."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.21.760641",
+      "date_added": "2026-10-29",
+      "published": "2026-10-23",
+      "title": "Relaxed evolutionary constraints on mitochondrial electron-transfer-associated variants in human cancers",
+      "authors": "Sung J-Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.760641",
+      "url": "https://doi.org/10.64898/2026.10.21.760641",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "Using the human complex III cryo-EM structure and Marcus theory, the authors predict how MT-CYB missense variants change electron-transfer kinetics, then compare 524 somatic mutations (TCGA, PCAWG) with 597 germline variant sites.",
+      "key_points": [
+        "Charge-changing substitutions near the haems are depleted in germline (obs/exp 0.12) but enriched in tumours (1.81).",
+        "Larger predicted kinetic change tracks stronger depletion in germline and enrichment in tumours.",
+        "Tunnelling-specific selection cannot be separated from electrostatics; no adaptive benefit is shown."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.05.24.727463",
+      "date_added": "2026-10-29",
+      "published": "2026-10-22",
+      "title": "Benchmarking normalisation methods for differential binding analysis in CUT&RUN",
+      "authors": "Ambani K, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.24.727463",
+      "url": "https://doi.org/10.64898/2026.05.24.727463",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Epigenomics"
+      ],
+      "summary": "Five normalisations for CUT&RUN (spike-in, library size, background, reads-in-peak and greenlist) are compared using simulated differential-binding scenarios and in-house datasets.",
+      "key_points": [
+        "Different normalisations give widely discrepant interpretations.",
+        "Data-driven normalisation is the most robust.",
+        "Spike-in performance varies and needs orthogonal justification."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.3390/biomedicines14102187",
       "date_added": "2026-10-28",
