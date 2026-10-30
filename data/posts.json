@@ -1,13 +1,595 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-29T10:05:00Z",
+  "updated": "2026-10-30T10:04:52Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41586-026-11206-y",
-    "10.1038/s41586-026-10721-2",
-    "10.1038/s41586-026-11219-7"
+    "10.1038/s41592-026-03278-5",
+    "10.1038/s41592-026-03270-z",
+    "10.1038/s41556-026-02085-6"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03278-5",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Enhanced cfDNA methylation profiling by detection and correction of jagged ends",
+      "authors": "Wang R, Hamilton EG, Almanza D, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03278-5",
+      "url": "https://doi.org/10.1038/s41592-026-03278-5",
+      "topics": [
+        "Methods",
+        "Epigenomics",
+        "Deconvolution"
+      ],
+      "summary": "End repair of jagged fragment ends during double-stranded library prep adds spurious methylation calls to cell-free DNA. JEEPERS detects and corrects these errors while keeping duplex integrity and native methylation patterns.",
+      "key_points": [
+        "Tumour burden is measured with higher fidelity after correction.",
+        "Allele-specific methylation links adjacent CpGs to EGFR and TP53 driver and resistance mutations.",
+        "Tumour-type profiles, hemimethylation, epigenetic-clock age and cell type deconvolution all improve."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03278-5.svg",
+        "caption": "Gaps filled in during end repair create false CpG calls that JEEPERS flags and masks, giving cleaner downstream cfDNA readouts.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03270-z",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations",
+      "authors": "Abdelmoula WM, Albuquerque T, Jaensch S, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03270-z",
+      "url": "https://doi.org/10.1038/s41592-026-03270-z",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Benchmarking"
+      ],
+      "summary": "Self-supervised foundation models (DINO, DINOv2, MAE, iTPN) were pretrained on about 1.77 million Cell Painting images from the JUMP-CP compound set and compared with CellProfiler. The best models beat CellProfiler at finding replicate compounds and compounds with the same mechanism of action.",
+      "key_points": [
+        "Contrastive DINO and hybrid DINOv2 generalised across perturbations and cell types.",
+        "They gave 31-37% gains over CellProfiler in mechanism-of-action retrieval on 2,464 bioactives.",
+        "Masked-image models were consistently weaker; pretrained models are released."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03270-z.svg",
+        "caption": "Four self-supervised image models and CellProfiler embed compound-treated cells, then are tested on replicate and mechanism-of-action retrieval.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41556-026-02085-6",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Methylated eEF1A selectively decodes mRNA to shape cancer proteomes",
+      "authors": "Liu S, Cruz-Navarrete FA, Hausmann S, et al.",
+      "venue": "Nature Cell Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41556-026-02085-6",
+      "url": "https://doi.org/10.1038/s41556-026-02085-6",
+      "topics": [
+        "RNA biology",
+        "Clinical"
+      ],
+      "summary": "METTL13 dimethylates the elongation factor eEF1A at lysine 55, which speeds decoding of under-represented codons with weak wobble pairing. This preferentially raises synthesis of pro-oncogenic proteins such as KRAS and supports resistance to KRAS inhibitors.",
+      "key_points": [
+        "Proteomics and single-molecule imaging show eEF1AK55me2 raises decoding efficiency for weak-wobble codons.",
+        "Recoding KRAS with eEF1AK55me2-independent codons reverses the METTL13 effect.",
+        "METTL13 loss slows sotorasib-resistant lung tumours in xenografts and a mouse model; inferred METTL13 activity tracks worse response in patients."
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41556-026-02085-6.svg",
+        "caption": "METTL13 methylates eEF1A, speeding weak-wobble codons so KRAS is made faster; knocking out METTL13 reverses sotorasib resistance in mice.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1186/s13059-026-04223-7",
+      "date_added": "2026-10-30",
+      "published": "2026-08-01",
+      "title": "Multi-genome benchmark for simple and complex genome inversion detection",
+      "authors": "Cheng S, Sedlazeck FJ",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04223-7",
+      "url": "https://doi.org/10.1186/s13059-026-04223-7",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Structural variants"
+      ],
+      "summary": "A tiered inversion benchmark built from Strand-seq and phased long-read assemblies across five reference samples is used to test structural variant callers on short-read, HiFi and nanopore data.",
+      "key_points": [
+        "Simple inversions are found with high sensitivity at enough coverage; complex and heterozygous ones stay hard.",
+        "Sniffles2 and Severus have the best recall for complex inversions, at more false positives.",
+        "Breakpoints are refined with haplotype-resolved assemblies."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04231-7",
+      "date_added": "2026-10-30",
+      "published": "2026-08-04",
+      "title": "LLM-based cell type annotation harmonization across single-cell studies using GCTHarmony",
+      "authors": "Zhang X, Ji Z",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04231-7",
+      "url": "https://doi.org/10.1186/s13059-026-04231-7",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "GCTHarmony uses a text embedding model to map free-text cell type labels to cell ontology terms and to reconcile annotation hierarchies across single-cell studies.",
+      "key_points": [
+        "Maps arbitrary labels to standard ontology terms.",
+        "Reconciles hierarchy differences between studies.",
+        "Improves annotation consistency in real data examples."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04209-5",
+      "date_added": "2026-10-30",
+      "published": "2026-08-01",
+      "title": "GECSI: large-scale chromatin state imputation from gene expression",
+      "authors": "Fu J, Ernst J",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04209-5",
+      "url": "https://doi.org/10.1186/s13059-026-04209-5",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics",
+        "Machine learning"
+      ],
+      "summary": "GECSI uses an ensemble of multi-class logistic regression models trained on IHEC EpiATLAS to predict chromatin state annotations from gene expression alone.",
+      "key_points": [
+        "Cross-validation shows accurate prediction of observed chromatin states.",
+        "Applied to 449 extra IHEC samples that have expression but no epigenomic data.",
+        "Gives an expanded chromatin state annotation resource."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41591-026-04721-y",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Insights into early-onset colorectal cancer from a single-nucleus RNA-seq atlas of colorectal cancer across the age continuum",
+      "authors": "Porter CBM, Murphy SP, Cazaubiel J, et al.",
+      "venue": "Nature Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41591-026-04721-y",
+      "url": "https://doi.org/10.1038/s41591-026-04721-y",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "A snRNA-seq atlas of 189 primary colorectal tumours (54 early-onset) across eight decades of age finds that microsatellite-stable tumours from younger patients have more stroma and less epithelium. Epithelial cells show more long noncoding RNAs and FN1 expression.",
+      "key_points": [
+        "The stromal-rich pattern was confirmed in an external cohort of 712 MSS tumours.",
+        "Young-onset epithelium shows a trend to more copy number heterogeneity.",
+        "Left-sided early-onset MSS tumours have more EMT-related cell-cell signalling (FN1, GDF, ACTIVIN)."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cels.2026.101762",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Categorization and analysis of 16 computational methods for estimating cell potency from single-cell RNA-seq data",
+      "authors": "Wang Q, Zhai Z, Lian Q, et al.",
+      "venue": "Cell Systems",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.cels.2026.101762",
+      "url": "https://doi.org/10.1016/j.cels.2026.101762",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The article reviews 16 methods that estimate differentiation potential from scRNA-seq expression, grouped as average-based, entropy-based and knowledge-based, using one set of mathematical notation.",
+      "key_points": [
+        "Explains key similarities and differences within and between the three categories.",
+        "Argues for community benchmark datasets and sensitivity analyses.",
+        "Sets up method benchmarking for potency, pseudotime and RNA velocity."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag803",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Verix: a toolkit for benchmarking and harmonization of complex structural variants",
+      "authors": "Rohlicek C, Battistella E, Maheshwari A, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag803",
+      "url": "https://doi.org/10.1093/bioinformatics/btag803",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Structural variants"
+      ],
+      "summary": "Verix scores multi-breakpoint complex structural variant calls against truth sets, separating errors such as over-segmentation and collapsed breakpoints, and can merge calls into consensus within or across pipelines.",
+      "key_points": [
+        "Existing SV evaluators only handle single-interval or single-junction events.",
+        "Metrics stratify breakpoint sensitivity, precision and structural integrity.",
+        "Includes an intra- and inter-callset harmonization module."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1065",
+      "date_added": "2026-10-30",
+      "published": "2026-10-30",
+      "title": "XYcellAtlas: a cell-type- and spatial-resolved pan-cancer atlas of sex-biased and Y chromosome loss-associated molecular signatures",
+      "authors": "Fan T, Shi X, Zhang L, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1065",
+      "url": "https://doi.org/10.1093/nar/gkag1065",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Resource"
+      ],
+      "summary": "XYcellAtlas is a database of sex-biased and Y-chromosome-loss signatures across 6,764 samples from 18 cancer types, with over 25.8 million single cells and one million spatial spots. Random forest classifiers estimate cell-type-specific loss of Y frequencies.",
+      "key_points": [
+        "Covers single-cell transcriptome, epigenome and spatial data.",
+        "Catalogs differentially expressed genes, chromatin peaks and transcription factors linked to sex and loss of Y.",
+        "Available as a web resource."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1054",
+      "date_added": "2026-10-30",
+      "published": "2026-10-30",
+      "title": "STRAND: a comprehensive subcellular-resolved spatial transcriptome RNA architecture and navigation database",
+      "authors": "Wu Z, Huo Y, Xu W, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1054",
+      "url": "https://doi.org/10.1093/nar/gkag1054",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Spatial",
+        "Resource"
+      ],
+      "summary": "STRAND assembles 35 subcellular-resolution spatial transcriptomics datasets from six platforms (about 4.9 billion transcript coordinates) with an analysis workflow for RNA localization and colocalization patterns.",
+      "key_points": [
+        "Agent-assisted curation and quality control of dispersed datasets.",
+        "Workflow covers segmentation evaluation, cell type annotation and subcellular compartment inference.",
+        "Case studies recover known localization patterns and drug-induced changes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78283-5",
+      "date_added": "2026-10-30",
+      "published": "2026-10-02",
+      "title": "Characterization of chemoresistant cell populations improves risk stratification and therapy prediction in pediatric acute myeloid leukemia",
+      "authors": "NajafPanah MJ, Stevens AM, Krueger MJ, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78283-5",
+      "url": "https://doi.org/10.1038/s41467-026-78283-5",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Clinical"
+      ],
+      "summary": "Chemoresistant cell populations inferred from single-cell transcriptomes of paired diagnosis-relapse samples, combined with cytogenetics and residual disease, improve relapse risk prediction in paediatric AML.",
+      "key_points": [
+        "Identifies a group of 20% of patients not sent to transplant who have 5-year event-free survival below 40%.",
+        "That group accounts for nearly half of deaths in the non-transplant population.",
+        "Molecular profiling of the resistant populations suggests targeted treatments."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.23.761370",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length cDNA datasets",
+      "authors": "Calicchio A, Li AO, Herwadkar T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.23.761370",
+      "url": "https://doi.org/10.64898/2026.10.23.761370",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "IG-28 identifies and quantifies isoforms from full-length cDNA datasets with billions of reads, in bulk and single-cell data, using little compute. It works with standard scRNA-seq workflows.",
+      "key_points": [
+        "Successor to Mandalorion, now handling single-cell data.",
+        "Benchmarked against established and new isoform tools on bulk and single-cell sets.",
+        "Recovered more high-confidence public isoforms than the other tools."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.762506",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale",
+      "authors": "Cheng L, Shireman J, Gogate A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762506",
+      "url": "https://doi.org/10.64898/2026.10.28.762506",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Pan-cancer"
+      ],
+      "summary": "SMART is a multi-agent LLM framework that takes a published scRNA-seq paper and a new dataset, extracts the testable findings, runs the analyses and reports which findings transfer. It was applied to 121 studies across six cancer types.",
+      "key_points": [
+        "A lung cancer prognostic signature was confirmed in liver, pancreatic cancer and pleural mesothelioma.",
+        "Also generates new mechanistic hypotheses.",
+        "Targets the rarely tested question of whether findings hold in other cancers."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.26.761932",
+      "date_added": "2026-10-30",
+      "published": "2026-10-28",
+      "title": "Transient Splicing-Associated Isoform Remodeling Defines Early MAPKi Resistance Adaptation in Melanoma",
+      "authors": "Mukherjee S, Singh A, Patiyal S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.26.761932",
+      "url": "https://doi.org/10.64898/2026.10.26.761932",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Isoforms"
+      ],
+      "summary": "Integrating public bulk and single-cell RNA-seq from melanoma lines, mice, xenografts and patients, the study finds that differential transcript usage peaks during early MAPK inhibitor adaptation and fades once resistance is established.",
+      "key_points": [
+        "Most genes with transcript usage changes show no change in total expression.",
+        "Classifiers on transcript usage identify the adaptive state better than expression models in independent PDX and patient data.",
+        "Changes echo melanoblast developmental splicing programs and a few splicing regulators."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.762504",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Lineage-mixed neurodevelopmental programs in pediatric sarcomas nominate tumor-selective surface antigen pairs",
+      "authors": "Davini A, Liu X, Norrie JL, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762504",
+      "url": "https://doi.org/10.64898/2026.10.28.762504",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Sarcoma"
+      ],
+      "summary": "A pan-pediatric scRNA-seq atlas of 266 samples across 22 solid tumour types is interpreted with an LLM agent framework. It finds ectopic neuronal marker expression in several fusion-driven sarcomas, giving tumour-specific mixed mesenchymal/neuronal surface markers.",
+      "key_points": [
+        "Nominates STEAP1/NPTXR as a Ewing sarcoma target pair for AND-gated bispecific ADC or CAR-T approaches.",
+        "The pair was validated experimentally.",
+        "Delivers the atlas and an agent method for interpreting gene expression programs."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.05.01.722316",
+      "date_added": "2026-10-30",
+      "published": "2026-05-06",
+      "title": "A complete human pancreatic cancer genome",
+      "authors": "Wagner J, Keskus AG, Oshima KK, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.01.722316",
+      "url": "https://doi.org/10.64898/2026.05.01.722316",
+      "topics": [
+        "Cancer genomics",
+        "Long-read",
+        "Structural variants",
+        "Resource"
+      ],
+      "summary": "Haplotype-resolved, near-complete assemblies of a pancreatic cancer cell line and matched normal tissue resolve somatic variants and methylation in repeats and reference gaps. They give a tumour-normal assembly-based benchmark.",
+      "key_points": [
+        "The tumour assembly shows all 35 chromosomes, including dicentric hybrids and nested foldback inversions with 14 breakpoints.",
+        "Adds over 8,000 somatic small variants and 149 somatic SVs, many absent from GRCh38.",
+        "CC0 benchmark for algorithms in repetitive regions of cancer genomes."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.08.737173",
+      "date_added": "2026-10-30",
+      "published": "2026-07-09",
+      "title": "Predicting subclonal TP53 mutations from tumor spatial transcriptomics data using a graph convolutional neural network",
+      "authors": "Luijts T, Hoogstoel S, Pappaert E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.08.737173",
+      "url": "https://doi.org/10.64898/2026.07.08.737173",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "SPOT-Mut is a graph convolutional network trained on simulated spatial transcriptomics slides that infers mutated subclones from expression alone, starting with TP53.",
+      "key_points": [
+        "Precision and recall above 95% in most cancer types analysed for TP53.",
+        "Validated on serial cutaneous SCC slices with matched DNA sequencing.",
+        "Models for 40 of 62 driver genes performed well, including KRAS, KEAP1, CTNNB1 and APC."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.758685",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Joint localization and testing reveals spatial context of differential expression",
+      "authors": "Stotzem N, Chang S, Cai N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.758685",
+      "url": "https://doi.org/10.64898/2026.10.28.758685",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "SpaceDX uses gene-specific attention-based spatial weighting to test differential expression between subjects or conditions while locating where in the tissue the signal comes from, without predefined regions.",
+      "key_points": [
+        "Beats cluster-based DE in simulations when signals cross region borders.",
+        "Found 45.8% more DE genes than regional DESeq2 pseudobulk in a mouse chronic stress dataset.",
+        "Adds 19.1% over DESeq2 alone in an Alzheimer's model."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.26.762060",
+      "date_added": "2026-10-30",
+      "published": "2026-10-28",
+      "title": "Systematic analysis of genetic vulnerabilities caused by chromosome loss events in cancer",
+      "authors": "Bei Y, Keane J, Lynch M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.26.762060",
+      "url": "https://doi.org/10.64898/2026.10.26.762060",
+      "topics": [
+        "Cancer genomics",
+        "Copy number",
+        "Pan-cancer"
+      ],
+      "summary": "Joining genome-wide CRISPR screens with chromosome-level copy number from 1,150 cancer cell lines identifies 389 dependencies tied to specific chromosome losses, mostly paralog pairs.",
+      "key_points": [
+        "Loss of 8p (PPP2CB) creates dependency on PPP2CA; loss of Y (DDX3Y) creates dependency on DDX3X.",
+        "DDX3X degradation triggers apoptosis in vitro and tumour regression in mice.",
+        "Positions chromosome loss as a source of biomarker-defined targets."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.762238",
+      "date_added": "2026-10-30",
+      "published": "2026-10-29",
+      "title": "Scooby-2: fine-tuning AlphaGenome for single-cell genomic track prediction",
+      "authors": "Hingerl JC, Gagneur J",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762238",
+      "url": "https://doi.org/10.64898/2026.10.28.762238",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "Scooby-2 adds a cell-specific decoder to AlphaGenome to predict single-cell RNA-seq coverage and chromatin accessibility tracks from DNA sequence, with a parameter-efficient fine-tuning setup.",
+      "key_points": [
+        "Pearson 0.56 for cell-type-specific expression differences versus 0.53 for Scooby on bone marrow data.",
+        "Variant effect concordance for OneK1K eQTLs rose from 0.37 to 0.47 with the distilled backbone.",
+        "Code, training and inference scripts are provided."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.22.761021",
+      "date_added": "2026-10-30",
+      "published": "2026-10-26",
+      "title": "SPARK: Bayesian structure learning of enhancer-based gene regulatory networks from single-cell multiomics data and prior knowledge",
+      "authors": "Masaki N, Acharya S, Malysheva V, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.761021",
+      "url": "https://doi.org/10.64898/2026.10.22.761021",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "SPARK learns enhancer-based gene regulatory networks from single-cell multiome data as directed acyclic graphs with Bayesian inference, using a prior built from heterogeneous mechanistic evidence.",
+      "key_points": [
+        "Beats DAG-based and regression-based algorithms in simulations and benefits from prior knowledge.",
+        "Applied to enhancers with immune disease GWAS variants in primary monocytes.",
+        "Reveals known and novel regulatory links for validation."
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41586-026-11206-y",
       "date_added": "2026-10-29",

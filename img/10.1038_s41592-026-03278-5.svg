@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#2B3138">cfDNA jagged ends fake methylation</text>
+<text x="24" y="70" font-size="15" font-weight="700" fill="#C8323F">Standard library prep</text>
+<text x="24" y="92" font-size="13" fill="#8A949E">1. Fragment with 5' overhang</text>
+<rect x="40" y="104" width="150" height="14" fill="#1E5FA8"/><rect x="40" y="122" width="110" height="14" fill="#3C9A2E"/>
+<text x="196" y="116" font-size="13" fill="#2B3138">jagged end</text>
+<line x1="230" y1="125" x2="290" y2="125" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<text x="260" y="145" text-anchor="middle" font-size="13" fill="#8A949E">end repair</text>
+<text x="300" y="92" font-size="13" fill="#8A949E">2. Gap filled with C</text>
+<rect x="300" y="104" width="150" height="14" fill="#1E5FA8"/><rect x="300" y="122" width="110" height="14" fill="#3C9A2E"/><rect x="410" y="122" width="40" height="14" fill="#C8323F"/>
+<text x="430" y="154" text-anchor="middle" font-size="13" fill="#C8323F">filled-in bases</text>
+<line x1="470" y1="125" x2="520" y2="125" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<rect x="526" y="104" width="90" height="34" rx="4" fill="#fff" stroke="#C8323F" stroke-width="2"/><text x="571" y="126" text-anchor="middle" font-size="13" fill="#C8323F">spurious CpG</text>
+<line x1="24" y1="180" x2="616" y2="180" stroke="#8A949E" stroke-dasharray="5 5"/>
+<text x="24" y="212" font-size="15" font-weight="700" fill="#3C9A2E">With JEEPERS</text>
+<rect x="40" y="228" width="150" height="14" fill="#1E5FA8"/><rect x="40" y="246" width="110" height="14" fill="#3C9A2E"/>
+<text x="196" y="240" font-size="13" fill="#2B3138">flag the ends</text>
+<line x1="230" y1="250" x2="290" y2="250" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<rect x="300" y="228" width="150" height="14" fill="#1E5FA8"/><rect x="300" y="246" width="110" height="14" fill="#3C9A2E"/><rect x="410" y="246" width="40" height="14" fill="none" stroke="#D98A00" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="430" y="278" text-anchor="middle" font-size="13" fill="#D98A00">mask repaired bases</text>
+<line x1="470" y1="250" x2="520" y2="250" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<rect x="526" y="228" width="90" height="34" rx="4" fill="#3C9A2E"/><text x="571" y="250" text-anchor="middle" font-size="13" fill="#fff">true CpG</text>
+<text x="24" y="320" font-size="14" fill="#2B3138">Cleaner calls for:</text>
+<g font-size="13" fill="#fff" text-anchor="middle">
+<rect x="24" y="334" width="140" height="36" rx="18" fill="#1E5FA8"/><text x="94" y="357">Tumour burden</text>
+<rect x="176" y="334" width="140" height="36" rx="18" fill="#1E5FA8"/><text x="246" y="357">EGFR/TP53 alleles</text>
+<rect x="328" y="334" width="140" height="36" rx="18" fill="#1E5FA8"/><text x="398" y="357">Age clocks</text>
+<rect x="480" y="334" width="136" height="36" rx="18" fill="#1E5FA8"/><text x="548" y="357">Deconvolution</text></g>
+</svg>
