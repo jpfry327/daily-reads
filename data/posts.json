@@ -823,8 +823,7 @@
       "url": "https://doi.org/10.1038/s41592-026-03284-7",
       "topics": [
         "RNA biology",
-        "RNA modifications",
-        "Methods"
+        "RNA modifications"
       ],
       "summary": "MARRS uses multivalent RNA aptamers against the Zα domain of ADAR1 p150, embedded in a circular RNA scaffold, to recruit the cell's own ADAR1 for A-to-I editing. It needs no exogenous enzyme.",
       "key_points": [
