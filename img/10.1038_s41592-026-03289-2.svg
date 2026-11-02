@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B3138"/></marker></defs>
+<rect width="640" height="400" fill="#fff"/>
+<text x="320" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#2B3138">ATLAS: decoding mouse brain sections</text>
+<rect x="24" y="60" width="130" height="64" rx="6" fill="#fff" stroke="#1E5FA8" stroke-width="2"/>
+<text x="89" y="88" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5FA8">scRNA-seq</text>
+<text x="89" y="108" text-anchor="middle" font-size="14" fill="#1E5FA8">signatures</text>
+<line x1="154" y1="92" x2="196" y2="92" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<rect x="200" y="60" width="130" height="64" rx="6" fill="#fff" stroke="#D98A00" stroke-width="2"/>
+<text x="265" y="88" text-anchor="middle" font-size="14" font-weight="700" fill="#D98A00">Oligo probes</text>
+<text x="265" y="108" text-anchor="middle" font-size="14" fill="#D98A00">encode in situ</text>
+<line x1="330" y1="92" x2="372" y2="92" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<rect x="376" y="60" width="110" height="64" rx="6" fill="#fff" stroke="#8A949E" stroke-width="2"/>
+<text x="431" y="88" text-anchor="middle" font-size="14" font-weight="700" fill="#2B3138">Imaging</text>
+<text x="431" y="108" text-anchor="middle" font-size="14" fill="#2B3138">brain section</text>
+<line x1="486" y1="92" x2="518" y2="92" stroke="#2B3138" stroke-width="2" marker-end="url(#a)"/>
+<rect x="522" y="60" width="96" height="64" rx="6" fill="#fff" stroke="#3C9A2E" stroke-width="2"/>
+<text x="570" y="88" text-anchor="middle" font-size="14" font-weight="700" fill="#3C9A2E">Decode</text>
+<text x="570" y="108" text-anchor="middle" font-size="13" fill="#3C9A2E">cell types</text>
+<ellipse cx="170" cy="250" rx="130" ry="85" fill="#fff" stroke="#8A949E" stroke-width="2"/>
+<circle cx="110" cy="220" r="9" fill="#1E5FA8"/><circle cx="150" cy="195" r="9" fill="#3C9A2E"/><circle cx="195" cy="215" r="9" fill="#C8323F"/>
+<circle cx="130" cy="265" r="9" fill="#D98A00"/><circle cx="180" cy="270" r="9" fill="#1E5FA8"/><circle cx="225" cy="250" r="9" fill="#3C9A2E"/>
+<circle cx="90" cy="255" r="9" fill="#C8323F"/><circle cx="160" cy="300" r="9" fill="#3C9A2E"/><circle cx="215" cy="290" r="9" fill="#D98A00"/>
+<text x="170" y="360" text-anchor="middle" font-size="13" fill="#8A949E">Cell types placed in situ</text>
+<text x="330" y="190" font-size="15" font-weight="700" fill="#2B3138">Compared mouse brains</text>
+<rect x="330" y="206" width="280" height="38" rx="5" fill="#fff" stroke="#1E5FA8" stroke-width="2"/>
+<text x="470" y="231" text-anchor="middle" font-size="14" fill="#1E5FA8">C57BL/6J male vs female</text>
+<rect x="330" y="256" width="280" height="38" rx="5" fill="#fff" stroke="#C8323F" stroke-width="2"/>
+<text x="470" y="281" text-anchor="middle" font-size="14" fill="#C8323F">C57BL/6J vs BTBR (autism)</text>
+<text x="330" y="326" font-size="14" fill="#2B3138">Result: cell-type distribution</text>
+<text x="330" y="346" font-size="14" fill="#2B3138">and regional composition differences</text>
+</svg>

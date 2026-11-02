@@ -1,13 +1,887 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-10-30T10:04:52Z",
+  "updated": "2026-11-02T11:05:19Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03278-5",
-    "10.1038/s41592-026-03270-z",
-    "10.1038/s41556-026-02085-6"
+    "10.1038/s41588-026-02819-0",
+    "10.1038/s41592-026-03289-2",
+    "10.1016/j.ccell.2026.10.003"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02819-0",
+      "published": "2026-10-30",
+      "title": "A haplotype reference panel constructed from 490,319 UK Biobank genomes improves genotype imputation for global populations.",
+      "authors": "Wienbrandt L, Prieß C, Schmöhl M, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02819-0",
+      "url": "https://doi.org/10.1038/s41588-026-02819-0",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource",
+        "Benchmarking"
+      ],
+      "summary": "Builds a genotype imputation reference panel from whole-genome sequencing of 490,319 UK Biobank participants, with phasing and imputation via EagleImp and EagleImp-RAP on the UK Biobank Research Analysis Platform. It lowers phasing switch error versus TOPMed r3 for most populations and improves imputation accuracy, most for East and South Asian groups. Reimputing COVID-19 GWAS datasets improved locus discovery and fine-mapping.",
+      "key_points": [
+        "Panel from 490,319 UKB genomes",
+        "Lower switch error than TOPMed r3 in most 1000 Genomes subpopulations",
+        "Reimputation of COVID-19 GWAS improved loci discovery and fine-mapping"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02819-0.svg",
+        "caption": "Phased UK Biobank genomes form a reference panel that is compared with TOPMed r3 and used to reimpute COVID-19 GWAS.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s43018-026-01264-6",
+      "published": "2026-10-29",
+      "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study.",
+      "authors": "Gallifant J, Chen S, Shin KY, et al.",
+      "venue": "Nature Cancer",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s43018-026-01264-6",
+      "url": "https://doi.org/10.1038/s43018-026-01264-6",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Clinical"
+      ],
+      "summary": "Develops an agentic large language model system that extracts presence, timing, severity grade, attribution and certainty of six immune-related adverse event types from clinical notes of patients on checkpoint inhibitors. Retrospectively it reached a macro-averaged F1 of 0.92 for current-event detection and cost about US$0.02 per note. In a randomized crossover study of trial staff, assistance cut annotation time by 2.71 minutes and raised inter-annotator agreement.",
+      "key_points": [
+        "Macro F1 0.92 for current irAE detection; 0.66 for severity grading",
+        "About US$0.02 per note",
+        "Randomized crossover: faster annotation and higher agreement"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1038/s41592-026-03289-2",
+      "published": "2026-10-30",
+      "title": "Spatial single-cell mapping of transcriptional differences across genetic backgrounds in mouse brains.",
+      "authors": "Hemminger Z, Tam G, De Ocampo H, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03289-2",
+      "url": "https://doi.org/10.1038/s41592-026-03289-2",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "Introduces ATLAS, a tissue mapping method that learns transcriptional signatures from single-cell RNA-seq, encodes them in situ with tens of thousands of oligonucleotide probes and decodes them to infer cell types and imputed transcriptomes. Validated against MERFISH, it was used to profile 40 million cells across over 400 coronal sections of C57BL/6J and BTBR mouse brains, finding over 40 cell-type distribution differences and 16 regional composition changes.",
+      "key_points": [
+        "Scalable in situ method decoding aggregate transcript signatures",
+        "40 million cells across more than 400 brain sections profiled",
+        "Over 40 cell-type distribution differences between sexes and strains"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03289-2.svg",
+        "caption": "Probe-encoded scRNA-seq signatures are imaged in mouse brain sections and decoded into cell types, comparing sexes and strains.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.ccell.2026.10.003",
+      "published": "2026-10-29",
+      "title": "KRAS-targeted therapy sensitivity depends on interferon signaling activation in pancreatic cancer.",
+      "authors": "Zhang Y, Tang S, Zhang Y, et al.",
+      "venue": "Cancer Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.ccell.2026.10.003",
+      "url": "https://doi.org/10.1016/j.ccell.2026.10.003",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics",
+        "Clinical"
+      ],
+      "summary": "Integrated genomics, transcriptomics and proteomics of 242 patient-derived pancreatic cancer organoids and matched tumours reveal a KRAS-mutant subset intrinsically resistant to KRAS-targeted drugs, marked by low innate immune signalling. Suppressing interferon signalling induced resistance in sensitive models, while IFN-beta combined with KRAS inhibitors was synergistic in resistant ones. Sustained MYC activity correlated with repressed interferon signalling.",
+      "key_points": [
+        "242 organoids profiled by genomics, transcriptomics and proteomics",
+        "Intrinsic resistance linked to downregulated interferon signalling",
+        "IFN-beta plus KRAS inhibitors synergize in resistant models"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.ccell.2026.10.003.svg",
+        "caption": "Resistant KRAS-mutant organoids have weak interferon signalling and sustained MYC; IFN-beta combined with KRAS inhibitors overcomes it.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.09.064",
+      "published": "2026-10-28",
+      "title": "Multimodal spatial transcriptomics redefines cortical pathology in Huntington's disease.",
+      "authors": "Vazquez-Sanchez S, Arnold-Garcia O, Chillon-Marinas C, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.09.064",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.064",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "Develops a multimodal spatial transcriptomics approach that reads transcriptional programs at subcellular resolution, somatic CAG repeat lengths and eight pathology markers, including HTT inclusions, in every cell of intact brain sections. Imaging 428,173 cells from control and Huntington's disease cortex showed selective loss of over 50% of layer 5-6 near-projecting and L6b excitatory neurons, linked to large somatic repeat expansions above 450 CAGs.",
+      "key_points": [
+        "Spatial method reads repeat length, transcripts and pathology per cell",
+        "428,173 cortical cells imaged in control and HD",
+        "Over 50% loss of L5-6 NP and L6b neurons tied to large CAG expansions"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1016/j.ccell.2026.10.006",
+      "published": "2026-10-27",
+      "title": "Macrophage lipid signaling drives glioblastoma invasion and represents a therapeutic vulnerability.",
+      "authors": "Pallarés-Moratalla C, Guyot M, Gopalan KS, et al.",
+      "venue": "Cancer Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.ccell.2026.10.006",
+      "url": "https://doi.org/10.1016/j.ccell.2026.10.006",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "Integrating single-cell transcriptomics, spatial lipidomics and functional perturbation in mouse models and human glioblastoma, the study finds invading tumor cells engage microglia/macrophages through CSF1R-PI3K signalling. This reprograms lipid metabolism and drives secretion of lysophosphatidylcholines and lysophosphatidic acids that promote invasion; targeting LPA receptor or YAP/TAZ signalling constrains invasion.",
+      "key_points": [
+        "Single-cell and spatial lipidomic data link myeloid cells to invasion",
+        "CSF1R-PI3K drives LPC and LPA secretion",
+        "LPAR or YAP/TAZ targeting limits invasion"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1016/j.molcel.2026.10.004",
+      "published": "2026-10-26",
+      "title": "Amyloid-mediated RNA uptake by sperm for embryonic delivery.",
+      "authors": "Mallen WS, Zabello N, Brenner-Morton S, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.10.004",
+      "url": "https://doi.org/10.1016/j.molcel.2026.10.004",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Seminal fluid contains cationic peptides that phase separate with RNA to form functional amyloid fibrils, which bind and traffic RNA to mammalian sperm and, after fertilization, to the zygote. Cryo-electron tomography, volume EM and live-cell imaging show fibrils are internalized by sperm, and chaperones control RNA release from the amyloid.",
+      "key_points": [
+        "Seminal fluid peptides and RNA form amyloid fibrils",
+        "Fibrils are internalized by sperm and carry RNA to the zygote",
+        "Chaperones control RNA release"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101646",
+      "published": "2026-10-30",
+      "title": "An interpretable deep learning framework for revealing fine-grained spatial domains",
+      "authors": "Feng X, Wang C, Cao B, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101646",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101646",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Machine learning",
+        "Computational"
+      ],
+      "summary": "RIF is an interpretable graph neural network framework for fine-grained spatial domain identification in spatial transcriptomics, trained semi-supervised with pseudo-labels and a dual-preprocessing ensemble. It outperformed state-of-the-art comparison algorithms across several sequencing platforms and also detects spatially variable genes. In breast cancer and a >720,000-cell invasive ductal carcinoma dataset, RIF domains suggested suppressed T cell activity and an EMT gradient.",
+      "key_points": [
+        "GNN with pseudo-label semi-supervision and dual-preprocessing ensemble",
+        "Outperformed comparison algorithms across platforms",
+        "Cancer datasets showed T cell suppression and an EMT gradient"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/nar/gkag1117",
+      "published": "2026-11-02",
+      "title": "RNAactDrug 2.0: an updated resource for systematically exploring molecular features associated with drug sensitivity across multi-omics datasets",
+      "authors": "Li F, Pei L, Xing J, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1117",
+      "url": "https://doi.org/10.1093/nar/gkag1117",
+      "topics": [
+        "Cancer genomics",
+        "Pan-cancer",
+        "Resource",
+        "Computational"
+      ],
+      "summary": "RNAactDrug 2.0 is an updated database of molecular features associated with drug sensitivity across multi-omics datasets. It covers about 30,000 drugs, 38,908 RNA molecules and 22.8 million drug-RNA associations across expression, CNV, mutation and methylation, plus 11,099 TCGA cases in 33 cancer types and about 3.8 million single cells. It adds enhancer-drug associations and seven analysis tools.",
+      "key_points": [
+        "22.8 million drug-RNA associations over four molecular layers",
+        "TCGA pan-cancer (33 types) and >200 scRNA-seq datasets",
+        "Seven tools plus enhancer-drug associations"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/nar/gkag1030",
+      "published": "2026-10-26",
+      "title": "LncACTdb 4.0: an updated resource of experimentally supported ceRNA interactions and multi-level regulatory networks for precision oncology",
+      "authors": "Guo Q, Liu Q, He Y, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1030",
+      "url": "https://doi.org/10.1093/nar/gkag1030",
+      "topics": [
+        "Cancer genomics",
+        "Resource",
+        "Single-cell",
+        "Computational"
+      ],
+      "summary": "LncACTdb 4.0 is a curated repository of experimentally supported ceRNA interactions and multi-level regulatory networks for precision oncology. It holds 15,008 ceRNA-disease associations, 18,974 cancer biomarkers, and transcriptomes from >60,000 individuals and about 600,000 single cells across 69 tissues. It provides 12 web tools for bulk, single-sample and single-cell ceRNA analysis.",
+      "key_points": [
+        "15,008 ceRNA-disease associations curated",
+        "Four-tier architecture: tissue, cell line, organoid, single-cell",
+        "12 web-based analysis tools"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/nar/gkag1092",
+      "published": "2026-11-02",
+      "title": "tModBase v2.0: an expanded database of tRNA modifications with an AI-powered assistant",
+      "authors": "Tan Y, Xin NN, Wu T, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1092",
+      "url": "https://doi.org/10.1093/nar/gkag1092",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Resource",
+        "Computational"
+      ],
+      "summary": "tModBase v2.0 is an expanded database of tRNA modifications with 528 datasets across 23 species, 40 sequencing and library-preparation methods and 42 modification types, including 68 third-generation and 210 modification-specific sequencing datasets. It links modifications to enzymes, variants, tsRNAs, diseases and expression, and adds an LLM/RAG assistant, tModBot.",
+      "key_points": [
+        "528 datasets, 23 species, 42 modification types",
+        "Covers direct-RNA and modification-specific sequencing",
+        "LLM/RAG assistant tModBot"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/nar/gkag1037",
+      "published": "2026-10-26",
+      "title": "SpatialRegNet: spatially resolved mapping of active regulatory network of human and mouse",
+      "authors": "Li F, Fan W, Kang A, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1037",
+      "url": "https://doi.org/10.1093/nar/gkag1037",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Resource",
+        "Computational"
+      ],
+      "summary": "SpatialRegNet is a database of 1,322 tissue slices from 152 human and mouse spatial transcriptomic datasets, covering 68 tissue types and 3.7 million spots. It quantifies spot-level activity of 6,733 transcription factor regulon networks and provides online tools for spatial regulon analysis, trajectories, cell communication and 3D visualization.",
+      "key_points": [
+        "1,322 slices, 3,744,216 spatial spots",
+        "6,733 TF regulons quantified per spot",
+        "Interactive tools incl. 3D visualization"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1261/rna.081163.126",
+      "published": "2026-10-29",
+      "title": "m⁶A presence and dosage are associated with IGF2BP2 binding, RNA abundance, and translation in mouse heart and liver",
+      "authors": "Liu J, Xu T, Pan W, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081163.126",
+      "url": "https://doi.org/10.1261/rna.081163.126",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Multi-omics"
+      ],
+      "summary": "The authors integrated m6A-seq, RNA-seq, IGF2BP2 RIP-seq and Ribo-seq across mouse heart and liver development to relate m6A presence and dosage to gene expression. m6A-modified transcripts had higher baseline expression, but higher methylation intensity was linked to lower abundance and lower IGF2BP2 occupancy. 3' UTR m6A associated with higher and CDS m6A with lower translation efficiency.",
+      "key_points": [
+        "m6A presence and dosage show a dual pattern with abundance",
+        "IGF2BP2 binding decreases with higher methylation intensity",
+        "3' UTR m6A linked to higher TE, CDS m6A to lower"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/nar/gkag1019",
+      "published": "2026-10-24",
+      "title": "Structural probing of RNA hairpins quantifies protein occupancy on RNA and links it to function in human cells",
+      "authors": "Thurm AR, Nguyen TH, Torres Campos JD, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1019",
+      "url": "https://doi.org/10.1093/nar/gkag1019",
+      "topics": [
+        "RNA biology",
+        "Methods"
+      ],
+      "summary": "The study establishes a quantitative framework combining dimethyl sulfate mutational profiling and sequencing to measure RNA structure and RBP binding in human cells at single-nucleotide resolution. Applied to a 1,600-member MS2 hairpin library, it showed RNA folding is the strongest determinant of MS2 coat protein recognition, and an in-cell occupancy model predicted RNA degradation efficiency.",
+      "key_points": [
+        "DMS mutational profiling quantifies RBP occupancy in cells",
+        "Hairpin folding is the strongest determinant of MCP binding",
+        "Inferred occupancy predicts RNA degradation efficiency"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/nar/gkag1022",
+      "published": "2026-10-24",
+      "title": "EWSR1 associates with the 40S ribosomal subunit and represses translation to maintain endoplasmic reticulum homeostasis",
+      "authors": "Hassoun ZEO, Ongena L, Condé L, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1022",
+      "url": "https://doi.org/10.1093/nar/gkag1022",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "EWSR1 is shown to act as a selective translational repressor in cancer cells, targeting mRNAs involved in lipid metabolism and ER homeostasis. EWSR1 loss disrupts ER morphology and impairs the unfolded protein response, and a region spanning two RGG boxes contributes to association with the 40S ribosomal subunit.",
+      "key_points": [
+        "EWSR1 represses translation of lipid metabolism and ER mRNAs",
+        "Loss disrupts ER morphology and UPR activation",
+        "RGG-box region mediates 40S association"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/nar/gkag1101",
+      "published": "2026-10-24",
+      "title": "Queuosine-modification dependent histidyl tRNA fragment promotes cell-type dependent proliferation",
+      "authors": "Zhang W, Chew BJ, Matuszek Z, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1101",
+      "url": "https://doi.org/10.1093/nar/gkag1101",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The study examines how queuosine (Q) modification of tRNA affects cell proliferation. In MCF7 breast cancer cells Q-modification reduced proliferation, while the Q-dependent histidyl tRNA fragment (tRFHis) increased it; polysome profiling showed decreased translation efficiency of ribosomal proteins. Msi2 was identified as a tRFHis-binding protein mediating the effect.",
+      "key_points": [
+        "Q-tRNA effect on proliferation is cell-type dependent",
+        "tRFHis promotes MCF7 proliferation",
+        "Msi2 identified as tRFHis-binding protein"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1126/sciadv.aee7939",
+      "published": "2026-10-30",
+      "title": "Evidence of active whole-genome doubling (WGD) subclones in non-WGD tumors.",
+      "authors": "He F, Noureen M, Dray E, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aee7939",
+      "url": "https://doi.org/10.1126/sciadv.aee7939",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Tumour evolution"
+      ],
+      "summary": "The authors integrate bulk, single-cell and spatial data to study subclonal whole-genome doubling (WGD). Single-cell analysis shows WGD cells are common even in tumours classed as non-WGD, and these subclones keep acquiring copy number alterations. They built WAGES, an expression-based method that estimates the WGD cell fraction in bulk tumours, and link its scores to metastatic potential, treatment response and prognosis.",
+      "key_points": [
+        "WGD cells are prevalent in tumours classified as non-WGD",
+        "WGD subclones keep acquiring somatic copy number alterations as they expand",
+        "WAGES scores correlate with metastatic potential, therapy response and prognosis"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag805",
+      "published": "2026-10-30",
+      "title": "TRACER: Twin-contrastive learning for fine-grained and rare spatial domain identification in spatial transcriptomics.",
+      "authors": "Liu Q, Lu X, Song B, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag805",
+      "url": "https://doi.org/10.1093/bioinformatics/btag805",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "TRACER combines a graph convolutional autoencoder with neighbourhood-aware instance-level and cluster-level contrastive learning to find small or rare spatial domains. It was compared with representative methods on Visium, STARmap, osmFISH, BARISTAseq and human breast cancer data. It recovered major cortical structures, improved rare or transitional domain detection in mouse somatosensory cortex and suggested functionally distinct small domains in a breast cancer region.",
+      "key_points": [
+        "Twin-contrastive framework on a graph autoencoder for spatial domains",
+        "Competitive and generally robust performance across several spatial platforms",
+        "Improved rare domain identification in mouse cortex"
+      ],
+      "data": "",
+      "code": "github.com/luxin-heart/TRACER",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag798",
+      "published": "2026-10-30",
+      "title": "SiSaNA: A Python-based command line interface for Single-Sample Network Analysis.",
+      "authors": "Newman NK, Belova T, Kuijjer ML",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag798",
+      "url": "https://doi.org/10.1093/bioinformatics/btag798",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "SiSaNA is a command-line workflow for reconstructing and analysing single-sample regulatory networks without programming experience. A tutorial with example inputs covers running the pipeline and interpreting results, and the output is summarised as figures in one HTML file. It installs with pip.",
+      "key_points": [
+        "Command-line workflow for single-sample regulatory network reconstruction",
+        "Outputs summarised in a single HTML report",
+        "Installable via PyPI; example inputs on Zenodo"
+      ],
+      "data": "Zenodo 10.5281/zenodo.17190642 (example inputs)",
+      "code": "github.com/kuijjerlab/sisana",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag802",
+      "published": "2026-10-29",
+      "title": "PRIDA: Cross-domain protein-RNA interaction prediction based on biological language models and conditional domain-adversarial learning.",
+      "authors": "Zhou Y, Li J, Liu S, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag802",
+      "url": "https://doi.org/10.1093/bioinformatics/btag802",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "PRIDA predicts protein-RNA interactions by combining pretrained protein and RNA language models with bilinear attention and conditional domain-adversarial learning, aiming to cope with distribution shift and scarce labelled data. Paired with Monte Carlo Tree Search it was used in a virtual screening pipeline to propose RNA aptamer candidates. The authors report state-of-the-art cross-domain performance.",
+      "key_points": [
+        "Language-model plus domain-adversarial design for protein-RNA interaction prediction",
+        "Reported state-of-the-art cross-domain performance",
+        "Used with Monte Carlo Tree Search for aptamer virtual screening"
+      ],
+      "data": "Zenodo 23644677",
+      "code": "github.com/zhouyyang/PRIDA",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag749",
+      "published": "2026-10-30",
+      "title": "Assessment of LLMs on basic bioinformatics tasks requiring multi-step reasoning and code writing.",
+      "authors": "Rajesh V, Blumberg M, Jain S, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag749",
+      "url": "https://doi.org/10.1093/bioinformatics/btag749",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "The study benchmarks general-purpose LLMs on 104 Rosalind bioinformatics questions that need code writing and multi-step reasoning, against expert ground truth and 68,760 human solvers. GPT-5.2 answered 77% correctly, followed by Claude Sonnet 4.6. Performance varied by question category, broadly mirrored human difficulty, and newer models were sometimes worse than earlier ones in specific categories.",
+      "key_points": [
+        "104 Rosalind questions compared with experts and 68,760 humans",
+        "GPT-5.2 correct on 80/104, followed by Claude Sonnet 4.6",
+        "LLM difficulty broadly tracks human difficulty, with exceptions"
+      ],
+      "data": "",
+      "code": "github.com/SiwoResearch/lllm-bioinformatics",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1126/sciadv.aei0901",
+      "published": "2026-10-30",
+      "title": "Integrative discovery and functional dependency mapping uncover essential chimeric RNAs in the active transcriptome.",
+      "authors": "Lalani S, Haddox S, Bromley K, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aei0901",
+      "url": "https://doi.org/10.1126/sciadv.aei0901",
+      "topics": [
+        "RNA biology",
+        "Resource",
+        "Pan-cancer"
+      ],
+      "summary": "The authors built a prediction pipeline and an atlas of 569,640 chimeric RNAs across 1019 cancer cell lines, then intersected it with Cancer Dependency Map perturbation data to find chimeras needed for cell fitness. This includes recurrent chimeras formed by cis-splicing of adjacent genes. Depleting selected candidates disrupted cell cycle progression and fitness, and the transcripts were frequently dysregulated in primary breast tumours.",
+      "key_points": [
+        "Atlas of 569,640 predicted chimeric RNAs in 1019 cancer cell lines",
+        "Dependency Map integration prioritises functionally essential chimeras",
+        "Depleting candidates impairs cell cycle and fitness; dysregulated in breast tumours"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1038/s41467-026-78178-5",
+      "published": "2026-10-06",
+      "title": "Embryonic origin of cancer in newborn twins.",
+      "authors": "Walkowiak B, Baskind S, Dave M, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78178-5",
+      "url": "https://doi.org/10.1038/s41467-026-78178-5",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution"
+      ],
+      "summary": "Whole genome sequencing of multiple tumour, normal and placental samples from monozygotic twins sharing a soft tissue cancer was used to reconstruct the tumour phylogeny. The tumour arose in one twin and spread to the other in utero in a single event, and the approach also showed asymmetric embryonic lineage contributions to the placenta and each twin, challenging the classical twinning model.",
+      "key_points": [
+        "Phylogeny from multi-sample WGS of tumour, normal and placenta",
+        "Single transplacental spread from one twin to the other",
+        "Asymmetric lineage contributions challenge the classical twinning model"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1126/sciadv.ady5085",
+      "published": "2026-10-30",
+      "title": "Decoder-FFPE-seq enables sensitive, genome-wide spatial transcriptomics of archival tissues at single-cell resolution.",
+      "authors": "Cao J, Zeng J, Meng Y, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.ady5085",
+      "url": "https://doi.org/10.1126/sciadv.ady5085",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Single-cell"
+      ],
+      "summary": "Decoder-FFPE-seq uses a dendrimeric DNA coordinate barcoding design with RNA-to-DNA probe conversion and blotting-assisted barcoding for spatial RNA sequencing of FFPE tissue at single-cell resolution. The authors report over 2.6-fold higher sensitivity than existing platforms in mouse brain and archived human samples. With expanded probes it captured lncRNAs and viral RNAs in oral squamous cell carcinoma and identified two CD8 T cell subpopulations in an immunotherapy cohort.",
+      "key_points": [
+        ">2.6-fold sensitivity gain over existing FFPE spatial platforms",
+        "Captures long noncoding and viral RNAs with expanded probes",
+        "Applied to oral squamous cell carcinoma immunotherapy samples"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.10.23.761453",
+      "published": "2026-10-28",
+      "title": "NicheCorr: Identifying Niche-Specific Differential Gene Co-Expression in Spatial Transcriptomics",
+      "authors": "Yang S, Ho Y-Y, Fan D",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.23.761453",
+      "url": "https://doi.org/10.64898/2026.10.23.761453",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Computational"
+      ],
+      "summary": "NicheCorr is a statistical procedure that finds cell type-specific changes in gene co-expression across spatial niches and integrates ligand-receptor inference. In simulations it had the highest power and was the only method evaluated that kept Type I error under control when mean expression varied nonlinearly with the niche. Applied to CosMx human liver and Xenium pancreatic cancer data, it identified 52 and 48 niche-dependent gene pairs respectively.",
+      "key_points": [
+        "Highest power in simulations; Type I error controlled where CS-CORE and scHOT were inflated",
+        "Integrates ligand-receptor inference",
+        "Applied to CosMx liver and Xenium pancreatic cancer datasets"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.10.21.759514",
+      "published": "2026-10-26",
+      "title": "RFind-sc maps single cells onto biological axes defined by external gene signatures",
+      "authors": "Murano T, Miyakawa T",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.759514",
+      "url": "https://doi.org/10.64898/2026.10.21.759514",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Computational"
+      ],
+      "summary": "RFind-sc compares each cell with external references, placing it on axes defined by expression signatures, gene sets or genetic perturbations. It reproduced reported cell states from independent references and used about 1,900 in vivo Perturb-seq knock-outs to nominate candidate stress-response genes per cell type. On average it matched or exceeded the accuracy of existing methods tested.",
+      "key_points": [
+        "Turns external gene lists into single-cell axes",
+        "Uses ~1,900 in vivo Perturb-seq knock-outs as references",
+        "Matched or exceeded existing methods on average and was robust to reference length"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.03.28.714542",
+      "published": "2026-10-26",
+      "title": "scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data",
+      "authors": "Khan MSA, Kabir MH, Faisal MM",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.03.28.714542",
+      "url": "https://doi.org/10.64898/2026.03.28.714542",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Machine learning",
+        "Computational"
+      ],
+      "summary": "scTGCL is a Transformer-based graph contrastive learning framework for scRNA-seq clustering that builds weighted cell-cell graphs with multi-head self-attention and uses gene and attention masking to cope with dropout. Across twenty real and simulated datasets it achieved the highest average performance among nine baselines on clustering metrics, with better imputation and lower runtime on large datasets.",
+      "key_points": [
+        "Attention masking models dropout-related uncertainty in cell-cell relationships",
+        "Best average clustering performance versus nine baselines on twenty datasets",
+        "Better imputation and lower runtime on large-scale data"
+      ],
+      "data": "",
+      "code": "https://github.com/ShoaibAbdullahKhan/scTGCL",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.05.01.722166",
+      "published": "2026-10-26",
+      "title": "Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation",
+      "authors": "Choudhury A, Kitak T, Carrillo B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.01.722166",
+      "url": "https://doi.org/10.64898/2026.05.01.722166",
+      "topics": [
+        "Methods",
+        "Benchmarking",
+        "Single-cell",
+        "Computational"
+      ],
+      "summary": "The authors use the Omnibenchmark framework to build a reproducible, extensible benchmark of five scRNA-seq pipelines (filtering, normalisation, dimensionality reduction, clustering) on three datasets. Harmonising the pipelines showed that tools implement the clustering resolution parameter differently. The work argues for standardised, extensible benchmark construction.",
+      "key_points": [
+        "Benchmarks five scRNA-seq pipelines on three datasets",
+        "Finds tools implement the clustering resolution parameter differently",
+        "Standardised framework allows extension to more pipelines, datasets and metrics"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.10.21.760716",
+      "published": "2026-10-26",
+      "title": "Prediction transfer does not imply reliability transfer in single-cell foundation models",
+      "authors": "Park HJ, Sriram A, Luo T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.21.760716",
+      "url": "https://doi.org/10.64898/2026.10.21.760716",
+      "topics": [
+        "Methods",
+        "Machine learning",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The study defines reliability transfer, the transfer of an accurate assessment of when a model's predictions are correct, and examines it across ten perturbation-prediction systems. Reliability transfer varied across source-target pairs and could not be inferred from predictive performance alone. The authors introduce SHAP-based reliability-attribution fingerprints to characterise it.",
+      "key_points": [
+        "Reliability transfer is distinct from prediction transfer",
+        "Tested across ten perturbation-prediction systems",
+        "Reliability-attribution fingerprints from cross-fitted SHAP explanations"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.1101/2025.08.05.668750",
+      "published": "2026-10-29",
+      "title": "AlphaGenome Enhances Personal Gene Expression Prediction but Retains Key Limitations",
+      "authors": "Kashyap S, Ramakrishnan A, Shen L",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.08.05.668750",
+      "url": "https://doi.org/10.1101/2025.08.05.668750",
+      "topics": [
+        "Methods",
+        "Benchmarking",
+        "Machine learning",
+        "Computational"
+      ],
+      "summary": "This benchmark evaluates AlphaGenome for predicting tissue-specific personal gene expression. Across 1,000 genes and 11,471 gene-tissue pairs it significantly outperformed Enformer in 3,103 pairs versus 828 for Enformer (win ratio 3.75). Pretrained AlphaGenome still underperformed Elastic Net and Random Forest trained on individual-level data.",
+      "key_points": [
+        "AlphaGenome beats Enformer: 3,103 vs 828 significant gene-tissue pairs",
+        "Global permutation test P = 2.0e-4",
+        "Still underperforms Elastic Net and Random Forest trained on individual-level data"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.04.23.720348",
+      "published": "2026-10-26",
+      "title": "Generative augmentation recovers prognostic disease signatures from underpowered transcriptomic datasets",
+      "authors": "Sethi T, Anand A, Pratiti M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.04.23.720348",
+      "url": "https://doi.org/10.64898/2026.04.23.720348",
+      "topics": [
+        "Methods",
+        "Machine learning",
+        "Computational"
+      ],
+      "summary": "GeneLift augments small transcriptomic datasets with Gaussian mixture modelling in an invertible latent space, keeps genes recovered reproducibly, and dates them against the literature with a Bayesian PubMed co-occurrence score called EvidenceClock. Across 52 datasets spanning breast and ovarian cancer, diabetes, sepsis and tuberculosis, it recovered candidate genes missed by standard differential expression, including 326 in breast cancer and 976 in ovarian cancer. Candidates stratified overall survival in TCGA-BRCA, METABRIC and TCGA ovarian cancer.",
+      "key_points": [
+        "52 datasets across five diseases including breast and ovarian cancer",
+        "Gaussian mixture modelling outperformed transformer-based GANs in benchmarking",
+        "Candidates stratified survival in independent cohorts"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.03.02.708895",
+      "published": "2026-10-29",
+      "title": "ggDNAvis: a ggplot2-based R package for creating high-quality DNA sequence and modification visualisations",
+      "authors": "Jade E, Scotter EL",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.03.02.708895",
+      "url": "https://doi.org/10.64898/2026.03.02.708895",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Epigenomics",
+        "Computational"
+      ],
+      "summary": "ggDNAvis is an R package and Shiny app that renders single or multiple DNA sequences and read-level methylation. It was designed for visualising many long-read nanopore reads over short tandem repeat expansion disease genes such as NOTCH2NLC, HTT and FMR1. It also reads and processes inputs such as FASTQ, and its outputs can be extended through ggplot2.",
+      "key_points": [
+        "Visualises single sequences, multiple sequences and read-level methylation",
+        "Designed for long-read nanopore data over STR expansion genes",
+        "Available as a Shiny web app and a CRAN R package"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.10.22.761068",
+      "published": "2026-10-26",
+      "title": "Berkson's Paradox: A Common Statistical Error in Genomics Analyses",
+      "authors": "Hum J, Korthauer K, de Boer CG",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.761068",
+      "url": "https://doi.org/10.64898/2026.10.22.761068",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "The authors argue that Berkson's paradox, a spurious correlation between independent variables within a subset selected on a third variable they both cause, is likely to arise in common genomics analyses. They give examples of such cases and suggest analysis approaches to avoid misinterpreting the resulting correlations.",
+      "key_points": [
+        "Conditions for Berkson's paradox are common in genomics",
+        "Gives examples of spurious correlations in common analyses",
+        "Suggests approaches to avoid them"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
+    {
+      "id": "10.64898/2026.05.26.728026",
+      "published": "2026-10-28",
+      "title": "Pan-gastrointestinal prioritization links LINC01094 to a colorectal cancer transcriptional state and replication-associated checkpoint activation",
+      "authors": "Flowers B, Lialios P, Park E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.26.728026",
+      "url": "https://doi.org/10.64898/2026.05.26.728026",
+      "topics": [
+        "Cancer genomics"
+      ],
+      "summary": "The study integrates tumour upregulation, clinical association, co-expression context and malignant epithelial detectability across colorectal, gastric and esophageal cancers to prioritise lncRNAs, then characterises LINC01094 in colorectal cancer. CRISPRi depletion in HCT116 produced a transcriptional response nearly inverse to its expression-defined state (Pearson r = -0.962), impaired growth, and was accompanied by increased gammaH2AX, CHK1 Ser345 phosphorylation and p21.",
+      "key_points": [
+        "Five lncRNAs with convergent clinical and network support across GI cancers",
+        "LINC01094 depletion impaired growth in HCT116 and Caco-2 cells",
+        "Depletion reduced DNA synthesis with replication-associated DNA-damage signalling"
+      ],
+      "data": "",
+      "code": "",
+      "date_added": "2026-11-02"
+    },
     {
       "id": "10.1038/s41592-026-03278-5",
       "date_added": "2026-10-30",
