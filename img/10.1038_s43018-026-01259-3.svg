@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Two myeloid niches sustain two EMT states</text>
+<!-- EMT axis -->
+<circle cx="90" cy="110" r="34" fill="#3C9A2E"/>
+<text x="90" y="115" text-anchor="middle" font-size="13" fill="#FFFFFF">Epithelial</text>
+<circle cx="320" cy="110" r="34" fill="#D98A00"/>
+<text x="320" y="106" text-anchor="middle" font-size="13" fill="#FFFFFF">Hybrid</text>
+<text x="320" y="122" text-anchor="middle" font-size="13" fill="#FFFFFF">EMT</text>
+<circle cx="550" cy="110" r="34" fill="#C8323F"/>
+<text x="550" y="106" text-anchor="middle" font-size="13" fill="#FFFFFF">Late</text>
+<text x="550" y="122" text-anchor="middle" font-size="13" fill="#FFFFFF">EMT</text>
+<path d="M126 110 H282" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<path d="M274 102 L286 110 L274 118" fill="#2B3138"/>
+<path d="M356 110 H512" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<path d="M504 102 L516 110 L504 118" fill="#2B3138"/>
+<!-- hybrid niche -->
+<rect x="190" y="180" width="260" height="190" rx="10" fill="#FFFFFF" stroke="#D98A00" stroke-width="2.5" stroke-dasharray="7 5"/>
+<ellipse cx="250" cy="236" rx="52" ry="26" fill="#1E5FA8"/>
+<text x="250" y="241" text-anchor="middle" font-size="13" fill="#FFFFFF">Neutrophil</text>
+<text x="326" y="241" font-size="14" font-weight="bold" fill="#D98A00">Oncostatin M</text>
+<path d="M304 236 H318" stroke="#D98A00" stroke-width="2.5" fill="none"/>
+<path d="M310 228 L322 236 L310 244" fill="#D98A00"/>
+<text x="210" y="288" font-size="13" fill="#2B3138">Partial EMT, epithelial</text>
+<text x="210" y="308" font-size="13" fill="#2B3138">programme kept</text>
+<text x="210" y="338" font-size="13" fill="#2B3138">Promotes metastasis</text>
+<!-- late niche (moved right) -->
+<path d="M320 144 V178" stroke="#D98A00" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="470" y="180" width="160" height="190" rx="10" fill="#FFFFFF" stroke="#C8323F" stroke-width="2.5" stroke-dasharray="7 5"/>
+<ellipse cx="550" cy="228" rx="58" ry="26" fill="#1E5FA8"/>
+<text x="550" y="233" text-anchor="middle" font-size="13" fill="#FFFFFF">Macrophage</text>
+<text x="550" y="278" text-anchor="middle" font-size="14" font-weight="bold" fill="#C8323F">TGFβ1</text>
+<text x="550" y="302" text-anchor="middle" font-size="13" fill="#2B3138">also from other</text>
+<text x="550" y="322" text-anchor="middle" font-size="13" fill="#2B3138">stromal cells</text>
+<path d="M550 144 V176" stroke="#C8323F" stroke-width="2" stroke-dasharray="4 4"/>
+<!-- feed-forward -->
+<text x="320" y="392" text-anchor="middle" font-size="13" fill="#8A949E">Each signal recruits cells that keep its niche</text>
+<!-- epithelial label -->
+<text x="90" y="170" text-anchor="middle" font-size="13" fill="#8A949E">Mouse skin</text>
+<text x="90" y="188" text-anchor="middle" font-size="13" fill="#8A949E">tumours</text>
+<text x="90" y="216" text-anchor="middle" font-size="13" fill="#8A949E">Single-cell +</text>
+<text x="90" y="234" text-anchor="middle" font-size="13" fill="#8A949E">spatial RNA</text>
+</svg>

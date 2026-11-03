@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Qatar Biobank regulatory variant catalogue</text>
+<!-- inputs -->
+<rect x="24" y="70" width="150" height="48" rx="8" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2"/>
+<text x="99" y="100" text-anchor="middle" font-size="14" fill="#1E5FA8">Blood RNA-seq</text>
+<rect x="24" y="140" width="150" height="48" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="99" y="170" text-anchor="middle" font-size="14" fill="#3C9A2E">Whole genomes</text>
+<rect x="24" y="210" width="150" height="48" rx="8" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/>
+<text x="99" y="240" text-anchor="middle" font-size="14" fill="#D98A00">45 clinical traits</text>
+<path d="M176 94 L222 150 M176 164 H222 M176 234 L222 178" stroke="#8A949E" stroke-width="2" fill="none"/>
+<!-- hub -->
+<circle cx="268" cy="164" r="48" fill="#1E5FA8"/>
+<text x="268" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">QTL</text>
+<text x="268" y="178" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">mapping</text>
+<!-- QTL types -->
+<rect x="340" y="62" width="276" height="140" rx="8" fill="#FFFFFF" stroke="#8A949E" stroke-width="1.5"/>
+<text x="356" y="86" font-size="14" font-weight="bold" fill="#2B3138">Variants affecting:</text>
+<text x="356" y="110" font-size="13" fill="#2B3138">• Gene expression</text>
+<text x="356" y="130" font-size="13" fill="#2B3138">• Isoform usage</text>
+<text x="356" y="150" font-size="13" fill="#2B3138">• Splicing</text>
+<text x="356" y="170" font-size="13" fill="#2B3138">• Allele-specific expression</text>
+<text x="356" y="190" font-size="13" fill="#8A949E">Short and structural variants</text>
+<path d="M268 214 V250" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<path d="M260 242 L268 254 L276 242" fill="#2B3138"/>
+<path d="M440 202 V250" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<path d="M432 242 L440 254 L448 242" fill="#2B3138"/>
+<!-- findings -->
+<rect x="24" y="262" width="190" height="104" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="119" y="288" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C9A2E">Autozygosity</text>
+<text x="119" y="312" text-anchor="middle" font-size="13" fill="#2B3138">Causal variants depleted</text>
+<text x="119" y="332" text-anchor="middle" font-size="13" fill="#2B3138">in homozygous runs</text>
+<text x="119" y="352" text-anchor="middle" font-size="13" fill="#2B3138">(purifying selection)</text>
+<rect x="226" y="262" width="190" height="104" rx="8" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/>
+<text x="321" y="288" text-anchor="middle" font-size="14" font-weight="bold" fill="#C8323F">Recessive effects</text>
+<text x="321" y="312" text-anchor="middle" font-size="13" fill="#2B3138">Deleterious QTLs in</text>
+<text x="321" y="332" text-anchor="middle" font-size="13" fill="#2B3138">Mendelian disease</text>
+<text x="321" y="352" text-anchor="middle" font-size="13" fill="#2B3138">genes</text>
+<rect x="428" y="262" width="188" height="104" rx="8" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/>
+<text x="522" y="288" text-anchor="middle" font-size="14" font-weight="bold" fill="#D98A00">Colocalisation</text>
+<text x="522" y="312" text-anchor="middle" font-size="13" fill="#2B3138">Novel genes ATP6V0B,</text>
+<text x="522" y="332" text-anchor="middle" font-size="13" fill="#2B3138">RQCD1 in metabolic,</text>
+<text x="522" y="352" text-anchor="middle" font-size="13" fill="#2B3138">blood disorders</text>
+</svg>

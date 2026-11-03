@@ -1,13 +1,633 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-02T11:05:19Z",
+  "updated": "2026-11-03T11:05:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02819-0",
-    "10.1038/s41592-026-03289-2",
-    "10.1016/j.ccell.2026.10.003"
+    "10.1038/s41592-026-03277-6",
+    "10.1038/s41588-026-02785-7",
+    "10.1038/s43018-026-01259-3"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03277-6",
+      "date_added": "2026-11-03",
+      "published": "2026-11-02",
+      "title": "Selective profiling of translationally active tRNAs and their dynamics under stress.",
+      "authors": "Monti M, Yilmaz H, Del Piano A, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03277-6",
+      "url": "https://doi.org/10.1038/s41592-026-03277-6",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "RNA modifications"
+      ],
+      "summary": "Develops tRIBO-seq, a nanopore method that captures native tRNAs from actively translating ribosomes and reads their abundance, modifications and fragmentation in one experiment. Ribosome-associated tRNAs often change under stress when total tRNAs do not, and each stress has its own signature.",
+      "key_points": [
+        "Nanopore capture of ribosome-associated native tRNAs",
+        "Viral infection and leucine deprivation shift ribo-tRNA abundance",
+        "Methionine starvation causes a large loss of methyl-based tRNA modifications",
+        "Arsenite fragments selected ribo-tRNAs without changing abundance or modifications"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03277-6.svg",
+        "caption": "Native tRNAs captured from translating ribosomes are read by nanopore, and three stresses leave different marks on them.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02785-7",
+      "date_added": "2026-11-03",
+      "published": "2026-11-02",
+      "title": "A catalog of transcriptome genetic regulation in a consanguineous Middle Eastern biobank.",
+      "authors": "Naeem H, Diboun I, Siddig Z, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02785-7",
+      "url": "https://doi.org/10.1038/s41588-026-02785-7",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Isoforms",
+        "Resource"
+      ],
+      "summary": "Integrates blood RNA-seq, whole-genome sequencing and 45 traits from 1,882 Qatar Biobank participants to map QTLs affecting expression, isoform usage, splicing and allele-specific expression, including structural variants. Causal variants are depleted from runs of homozygosity, and the catalogue yields recessive QTLs in Mendelian disease genes and colocalisation with clinical traits.",
+      "key_points": [
+        "~7 million significant QTLs, 1,379 novel eGenes",
+        "Causal variants depleted from runs of homozygosity, consistent with purifying selection",
+        "Recessive deleterious QTLs in 10 Mendelian disease genes",
+        "Colocalisation implicates ATP6V0B and RQCD1 in metabolic and blood disorders"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02785-7.svg",
+        "caption": "Blood RNA-seq, whole genomes and traits feed a QTL catalogue with findings on autozygosity, recessive effects and colocalisation.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s43018-026-01259-3",
+      "date_added": "2026-11-03",
+      "published": "2026-11-02",
+      "title": "Myeloid-derived TGFβ1 and oncostatin M establish two distinct stromal niches controlling late and hybrid EMT states.",
+      "authors": "Dong A, Vanuytven S, González AP, et al.",
+      "venue": "Nature Cancer",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s43018-026-01259-3",
+      "url": "https://doi.org/10.1038/s43018-026-01259-3",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "Single-cell and spatial transcriptomics of mouse skin tumours show that different EMT states sit in different stromal niches. Neutrophil-derived oncostatin M supports hybrid EMT and metastasis, while macrophage and stromal TGFβ1 drives the late EMT state, and each signal recruits the cells that maintain its niche.",
+      "key_points": [
+        "Hybrid EMT niches are rich in neutrophils secreting oncostatin M",
+        "Late EMT niches are rich in macrophages and stromal TGFβ1",
+        "Oncostatin M promotes hybrid EMT and metastasis",
+        "Each pathway recruits myeloid cells that sustain its own niche"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s43018-026-01259-3.svg",
+        "caption": "Neutrophil oncostatin M maintains hybrid EMT while macrophage and stromal TGFβ1 maintains late EMT, each in its own niche.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02795-5",
+      "date_added": "2026-11-03",
+      "published": "2026-11-02",
+      "title": "Clonal hematopoiesis and cytopenias following CAR19 therapy.",
+      "authors": "Hamilton MP, Phillips N, Noordenbos T, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02795-5",
+      "url": "https://doi.org/10.1038/s41588-026-02795-5",
+      "topics": [
+        "Cancer genomics",
+        "Clinical",
+        "Single-cell"
+      ],
+      "summary": "Studies lymphoma patients after CD19 CAR T therapy against propensity-matched autoHCT controls. Clonal hematopoiesis commonly expands after CAR19 and is linked to poor immune reconstitution, prolonged cytopenias and therapy-related myeloid neoplasm. Single-cell DNA analysis shows mostly independent CH clones, and CAR integration into CH-mutant T cells is frequent.",
+      "key_points": [
+        "Clonal hematopoiesis commonly expands after CAR19",
+        "CH linked to impaired immune reconstitution and treatment-related myeloid malignancy",
+        "Post-CAR tMN is molecularly comparable to post-autoHCT tMN",
+        "CAR integration into CH-mutant T cells may drive their persistence"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/2159-8290.CD-25-0942",
+      "date_added": "2026-11-03",
+      "published": "2026-10-28",
+      "title": "Extracellular matrix stiffness controls Transposable Elements through Pin1 to promote immune evasion in breast cancer.",
+      "authors": "Bertolio R, Rustighi A, Renzi A, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-25-0942",
+      "url": "https://doi.org/10.1158/2159-8290.CD-25-0942",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Immuno-oncology"
+      ],
+      "summary": "In breast cancer, a stiff extracellular matrix stabilises Pin1, which keeps heterochromatin and nuclear envelope integrity and silences transposable elements. Losing Pin1 reactivates LINE1, triggers cGAS/STING interferon signalling and TE-derived neoantigens, and sensitises immune-cold tumours to checkpoint blockade.",
+      "key_points": [
+        "ECM rigidity stabilises Pin1 and keeps HP1α-Lamin interactions",
+        "Pin1 loss reactivates LINE1 and activates cGAS/STING",
+        "Pin1 loss promotes TE-derived neoantigens",
+        "Pin1 depletion or inhibition sensitises fibrotic tumours to checkpoint blockade"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41576-026-01026-1",
+      "date_added": "2026-11-03",
+      "published": "2026-11-02",
+      "title": "Sequencing and analysis of the human adaptive immune receptor repertoire.",
+      "authors": "ElAbd H, Franke A",
+      "venue": "Nature Reviews Genetics",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1038/s41576-026-01026-1",
+      "url": "https://doi.org/10.1038/s41576-026-01026-1",
+      "topics": [
+        "Methods"
+      ],
+      "summary": "Review of how human T and B cell receptor repertoires arise by V(D)J recombination, how inherited variation shapes them, and how high-throughput sequencing and analysis methods profile them. It covers uses in cancer, infection, vaccination and inflammatory disease.",
+      "key_points": [
+        "Repertoires reflect V(D)J recombination, germline variation and selection",
+        "Sequencing now profiles repertoires at scale across cohorts",
+        "Applications include cancer, infection, vaccination and inflammation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.tig.2026.10.002",
+      "date_added": "2026-11-03",
+      "published": "2026-10-30",
+      "title": "Advancing microbial pangenomics through human pangenomics.",
+      "authors": "Bravo JE, Sapoval N, Han Y, et al.",
+      "venue": "Trends in Genetics",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1016/j.tig.2026.10.002",
+      "url": "https://doi.org/10.1016/j.tig.2026.10.002",
+      "topics": [
+        "Methods",
+        "Benchmarking"
+      ],
+      "summary": "Reviews which eukaryotic and human pangenome tools and methods can be extended to microbial species. It focuses on scalability, data quality, evolutionary complexity and benchmarking, and points out where methods generalise and where redesign is needed.",
+      "key_points": [
+        "Compares eukaryotic and microbial pangenome approaches",
+        "Scalability, data quality and benchmarking are the main hurdles",
+        "Identifies where existing methods generalise and where new ones are needed"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78013-x",
+      "date_added": "2026-11-03",
+      "published": "2026-10-05",
+      "title": "TransGram for heterogeneity-aware transcriptome reconstruction from long read RNA-Seq data.",
+      "authors": "Ren Z, Qi J, Han R, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78013-x",
+      "url": "https://doi.org/10.1038/s41467-026-78013-x",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "TransGram reconstructs transcripts from long-read RNA-seq. It splits datasets by how much alternative splicing appears in reliably supported splice-graph sub-paths, assembles paths in the splicing graph and uses a machine-learning model to remove false-positive transcripts. It works with or without annotation and beats StringTie2 and other tools in the authors' evaluations.",
+      "key_points": [
+        "Heterogeneity-aware assembly on the splicing graph",
+        "Machine-learning filter removes false-positive transcripts",
+        "Annotation-free and annotation-guided modes",
+        "Outperforms StringTie2 and other widely used tools"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04235-3",
+      "date_added": "2026-11-03",
+      "published": "2026-08-05",
+      "title": "Voyager: rapid taxonomic characterization of long-read mixed-species sequencing samples in sorted motif distance space.",
+      "authors": "Branders S, Grabherr MG, Ahmad R",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04235-3",
+      "url": "https://doi.org/10.1186/s13059-026-04235-3",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "Voyager maps error-prone long reads to a database of organisms using Sorted Motif Distance Space, a compressed representation of sequence similarity. It reaches about 99% species-level accuracy across 15 datasets, discriminates strains, and uses a deconvolution step for closely related genomes, with runtime like the fastest methods at under half the memory.",
+      "key_points": [
+        "Average species-level accuracy of 99% across 15 datasets",
+        "Strain-level discrimination with a deconvolution step",
+        "Memory under half that of the fastest methods"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01736-5",
+      "date_added": "2026-11-03",
+      "published": "2026-08-06",
+      "title": "Integrative stratification of response to immunotherapy using host and microbial signatures in patients with advanced non-small cell lung cancer.",
+      "authors": "Lee JB, Yang J, Chalita M, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01736-5",
+      "url": "https://doi.org/10.1186/s13073-026-01736-5",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics",
+        "Immuno-oncology"
+      ],
+      "summary": "Serial gut microbiome profiling with RNA-seq and whole-exome sequencing in 92 NSCLC patients on pembrolizumab, combined with 728 public ICI-treated samples. Responders were enriched for Faecalibacterium and non-responders for Lactobacillus and Escherichia, and the authors build a score for classifying ICI response.",
+      "key_points": [
+        "92 NSCLC patients with serial microbiome, RNA-seq and WES",
+        "Faecalibacterium in responders; Lactobacillus and Escherichia in non-responders",
+        "Score developed and validated with 728 public ICI-treated samples"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/0008-5472.CAN-26-1476",
+      "date_added": "2026-11-03",
+      "published": "2026-10-27",
+      "title": "Histopathology-Based Spatial Profiling of Immune and Molecular Features Predicts Cancer Risk in Barrett's Esophagus Patients.",
+      "authors": "Ercan C, Pan X, Paulson TG, et al.",
+      "venue": "Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/0008-5472.CAN-26-1476",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-26-1476",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Clinical"
+      ],
+      "summary": "BEACON combines DACOR, a multi-instance learning model that predicts DNA content abnormality from routine histopathology, with spatial immune architecture from cell classification and segmentation. DACOR was trained on 777 Barrett's esophagus biopsies, and patients it flags show more cancer progression.",
+      "key_points": [
+        "DACOR predicts DNA content from histology, trained on 777 biopsies",
+        "DNA-content-abnormal patients show more progression",
+        "Adds spatial immune ecology to stratify cancer risk"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77835-z",
+      "date_added": "2026-11-03",
+      "published": "2026-11-02",
+      "title": "HuBMAP Data Portal: a resource for multimodal spatial and single-cell data of healthy human tissues.",
+      "authors": "Turner ML, Smits TC, Liaw TS, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77835-z",
+      "url": "https://doi.org/10.1038/s41467-026-77835-z",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "Describes the HuBMAP Data Portal, which hosts 9,316 public multimodal spatial and single-cell datasets from 26 data types, 29 organ classes and 501 donors. It offers search, Vitessce visualisation, cloud workspaces and uniform processing pipelines with quality control.",
+      "key_points": [
+        "9,316 public datasets across 29 organ classes",
+        "Uniform pipelines make results comparable across labs and donors",
+        "Browser-based search, visualisation and analysis"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1106",
+      "date_added": "2026-11-03",
+      "published": "2026-10-24",
+      "title": "RNA viruses can exploit self-cleaving ribozymes for translation initiation.",
+      "authors": "López-Galiano MJ, Rueda O, Chiba S, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1106",
+      "url": "https://doi.org/10.1093/nar/gkag1106",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Finds self-cleaving ribozymes, including type I hammerhead, hepatitis delta and twister, in the linear genomes of RNA viruses of fungi and plants. In a fungal chrysovirus, the 5'-UTR ribozyme's self-cleaving activity proved essential for translation initiation.",
+      "key_points": [
+        "Hammerhead ribozymes in 5'-UTRs of chrysovirids and fusarivirids",
+        "Ribozyme activity shown in vitro and in vivo",
+        "Self-cleavage needed for translation initiation in a chrysovirus"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081254.126",
+      "date_added": "2026-11-03",
+      "published": "2026-10-29",
+      "title": "Antisense Oligonucleotides with 5'-decoy technology triggers nonsense-mediated decay of SCN9A to elicit long-lasting analgesia.",
+      "authors": "Meng S, Yang X, Liu X, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081254.126",
+      "url": "https://doi.org/10.1261/rna.081254.126",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "An antisense oligonucleotide with a 5'-decoy sequence that intercepts U1 snRNA suppresses exon 5 of SCN9A (NaV1.7). The exon skipping causes a frameshift and nonsense-mediated decay of the transcript, giving long-lasting analgesia, and ELAVL2 is shown to enforce exon inclusion.",
+      "key_points": [
+        "5'-decoy ASO suppresses SCN9A exon 5 recognition",
+        "Frameshift triggers nonsense-mediated decay",
+        "ELAVL2 enforces exon inclusion",
+        "Selective for SCN9A over homologous NaV channels"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081035.126",
+      "date_added": "2026-11-03",
+      "published": "2026-11-02",
+      "title": "Cytoplasmic mRNA recapping is essential for stress recovery and intracellular proliferation in.",
+      "authors": "Nguyen KDM, Takagi Y, Kurama M, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081035.126",
+      "url": "https://doi.org/10.1261/rna.081035.126",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Shows that the cytoplasmic capping enzyme TcCe1 in Trypanosoma cruzi supports transcriptome homeostasis, the heat-shock response and intracellular infection. Loss of TcCe1 reduces transcript abundance across polycistronic units and impairs recovery and infectivity, and the authors suggest recapping as a parasite-selective drug target.",
+      "key_points": [
+        "Cytoplasmic recapping enzyme TcCe1 needed for stress recovery",
+        "TcCe1 loss lowers transcript abundance across polycistronic units",
+        "Required for productive intracellular infection"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.26.761949",
+      "date_added": "2026-11-03",
+      "published": "2026-10-27",
+      "title": "Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type",
+      "authors": "Chen X, Li J, Battle A",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.26.761949",
+      "url": "https://doi.org/10.64898/2026.10.26.761949",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Random cell-level train/test splits gave consistently higher macro F1 than donor-held-out evaluation in PBMC and lung datasets, even after batch adjustment and mixed-effects modelling. The gap was minimal in near-ceiling kidney, pancreas and blood benchmarks, so donor-held-out evaluation is needed when claiming generalisation to new individuals.",
+      "key_points": [
+        "Random splits overstate performance in PBMC and lung",
+        "Gap persists after batch and donor-level adjustment",
+        "Minimal gap in near-ceiling benchmarks and label-shuffled controls"
+      ],
+      "data": "Public datasets",
+      "code": "github.com/danielchen05/scRNA-cross-donor-generalization"
+    },
+    {
+      "id": "10.64898/2026.10.22.760939",
+      "date_added": "2026-11-03",
+      "published": "2026-10-27",
+      "title": "Best Practices for Pre-Processing Large-Scale ATAC-Seq Data: Why Epidemiological Studies Demand Greater Stringency",
+      "authors": "Wells PM, Flores-Payan M, Chioza B, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.760939",
+      "url": "https://doi.org/10.64898/2026.10.22.760939",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics"
+      ],
+      "summary": "Presents PIPPA, a pipeline for quality control and peak-set curation of population-scale ATAC-seq. In two cell-sorted datasets, peak-calling performance depended on the dataset and no single significance threshold was best, so the authors give practical parameter recommendations that also apply to ChIP-seq and CUT&Tag.",
+      "key_points": [
+        "PIPPA pipeline for population-scale ATAC-seq peak calling",
+        "No single significance threshold works across datasets",
+        "Recommendations extend to ChIP-seq and CUT&Tag"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.22.761023",
+      "date_added": "2026-11-03",
+      "published": "2026-10-27",
+      "title": "Benchmarking Large Language Models for Transcriptomic Data Analysis and Visualization: Multi-Model Workflow Evaluation",
+      "authors": "Iyer A, Subedi A, Butler KS, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.22.761023",
+      "url": "https://doi.org/10.64898/2026.10.22.761023",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "Benchmarks four LLMs and agentic coding systems on reproducing transcriptomic analysis steps such as dimensionality reduction, clustering and outlier detection, using human COVID-19 response data. Prompt specificity improved code structure and correctness, but clustering quality depended on preprocessing and environment, and alignment with label-based clustering was inconsistent.",
+      "key_points": [
+        "Four LLMs tested on transcriptomic workflow components",
+        "More specific prompts give better code structure",
+        "Quantitative results depend heavily on preprocessing choices"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.24.759415",
+      "date_added": "2026-11-03",
+      "published": "2026-10-27",
+      "title": "Transcriptome-wide Differential Expression and Splicing in Inflammatory Bowel Disease Patients",
+      "authors": "Han S, Huang YC, Silverstein S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.24.759415",
+      "url": "https://doi.org/10.64898/2026.10.24.759415",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "Joint differential expression and differential splicing analysis of uninvolved colonic biopsies from Crohn's and ulcerative colitis patients and controls. Differentially spliced and differentially expressed genes were almost mutually exclusive and enriched for distinct pathways, which makes splicing a separate contributor to IBD transcriptomic change.",
+      "key_points": [
+        "491 DS and 316 DE genes in CD; 1,298 DS and 1,107 DE genes in UC",
+        "DS and DE genes nearly non-overlapping",
+        "DS genes enriched for splicing, signalling and lipid metabolism"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.762453",
+      "date_added": "2026-11-03",
+      "published": "2026-10-28",
+      "title": "Scalable variant-to-function screens using prime editing perturb-seq",
+      "authors": "De Jonghe J, Armas Reyes M, Jamieson C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762453",
+      "url": "https://doi.org/10.64898/2026.10.28.762453",
+      "topics": [
+        "Methods",
+        "Single-cell"
+      ],
+      "summary": "Introduces PEP-seq, which links programmed prime-edit mutations to single-cell transcriptomes. With 2,164 guides targeting eQTLs, premature stop codons and synonymous controls, it produced 749,110 time-resolved transcriptomes, detected nonsense-mediated decay and often found the intended eQTL target as the most affected transcript within 1 Mb.",
+      "key_points": [
+        "2,164 prime editing guides, 749,110 single-cell transcriptomes",
+        "Detects nonsense-mediated decay",
+        "Edit effects at eQTLs linked to open chromatin near the edit"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.27.756267",
+      "date_added": "2026-11-03",
+      "published": "2026-10-30",
+      "title": "Somatic variant detection using an individual-specific pangenome reference: a case study of a pediatric acute myeloid leukemia patient",
+      "authors": "Kulaeva E, Bertrums EJ, van Roosmalen MJ, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.27.756267",
+      "url": "https://doi.org/10.64898/2026.10.27.756267",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "Builds an individual-specific pangenome from Nanopore assemblies of a child's normal blood stem cells and compares somatic calling with hg38 in bulk and single cells. The pangenome removed some false-positive indels and driver calls, mainly in repeats, but split a WT1 indel call and still needed read-level validation.",
+      "key_points": [
+        "NUP98-NSD1 and FLT3-ITD detected with both references",
+        "Fewer false-positive indels in repeats and single cells with the pangenome",
+        "Surjection to hg38 split a WT1 driver indel into two calls"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.29.762960",
+      "date_added": "2026-11-03",
+      "published": "2026-10-30",
+      "title": "Molecule-resolved inference reveals the spatial organization of transcriptional programs",
+      "authors": "Si Y, Lee C, Cheng W, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.29.762960",
+      "url": "https://doi.org/10.64898/2026.10.29.762960",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "FICTURE2 infers the transcriptional program that generated each individual RNA molecule in spatial transcriptomics from gene identity and spatial context, with no segmentation or binning. It finds programs from millimetre-scale gradients to subcellular localisation, supports reference-guided inference, and is orders of magnitude more efficient than alternatives.",
+      "key_points": [
+        "Per-molecule program inference without segmentation or binning",
+        "Captures millimetre to subcellular patterns",
+        "Orders of magnitude more efficient than alternatives"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.26.761423",
+      "date_added": "2026-11-03",
+      "published": "2026-10-28",
+      "title": "Histone modifications define distinct nucleosome positions in cell-free DNA",
+      "authors": "Ou Y, Gulati GS, Tyndall CF, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.26.761423",
+      "url": "https://doi.org/10.64898/2026.10.26.761423",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Clinical"
+      ],
+      "summary": "Using cfChIP-seq from prostate cancer plasma, the authors find 35,120 modification-associated positions where nucleosomes with H3K4me2 or H3K9me3 sit at offset positions. A 50-position model estimates tumour fraction from standard cfDNA sequencing (AUC 0.91-0.96) and MAP protection at ASCL1 sites identifies neuroendocrine transformation.",
+      "key_points": [
+        "35,120 modification-associated nucleosome positions",
+        "50-position model separates tumour fraction ≥3% from 0% (AUC 0.91-0.96)",
+        "Flags neuroendocrine transformation of prostate cancer"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.09.17.752250",
+      "date_added": "2026-11-03",
+      "published": "2026-10-27",
+      "title": "Single-Cell Analysis of Non-Functioning Gonadotroph Tumors Identifies Lineage Infidelity and Tumor Growth Programs",
+      "authors": "Dennis E, Kim GD, Zhou Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.09.17.752250",
+      "url": "https://doi.org/10.64898/2026.09.17.752250",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell"
+      ],
+      "summary": "Single-cell/nucleus RNA-seq of 21 non-functioning gonadotroph pituitary tumours and 8 normal anterior pituitary samples. Tumour cells share a conserved signature with non-gonadotroph neuroendocrine and stem cell markers, indicating lineage infidelity, and CAD, BRF2 and SOX12 track tumour volume.",
+      "key_points": [
+        "77,342 normal and 152,649 tumour cells profiled",
+        "Recurrent lineage infidelity across tumours",
+        "CAD, BRF2, SOX12 correlate with tumour volume"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02819-0",
       "published": "2026-10-30",
