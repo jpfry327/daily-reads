@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">De novo peptide sequencing: why models fail</text>
+<!-- spectrum -->
+<text x="24" y="62" font-size="13" font-weight="bold" fill="#2B3138">Fragmentation spectrum</text>
+<path d="M24 160 H320" stroke="#8A949E" stroke-width="2"/>
+<g stroke="#1E5FA8" stroke-width="5"><path d="M44 160 V110"/><path d="M76 160 V92"/><path d="M148 160 V120"/><path d="M180 160 V86"/><path d="M276 160 V104"/></g>
+<g stroke="#C8323F" stroke-width="3" stroke-dasharray="4 4" fill="none"><path d="M108 160 V112"/><path d="M212 160 V100"/><path d="M244 160 V118"/></g>
+<text x="24" y="182" font-size="13" fill="#1E5FA8">observed fragments</text>
+<text x="24" y="200" font-size="13" fill="#C8323F">missing fragments (dashed)</text>
+<!-- arrow -->
+<path d="M334 136 H372" stroke="#2B3138" stroke-width="2.5"/><path d="M364 128 L376 136 L364 144" fill="#2B3138"/>
+<!-- models -->
+<rect x="388" y="70" width="230" height="130" rx="8" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<text x="503" y="94" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">8 deep-learning models</text>
+<g fill="#3C9A2E"><rect x="408" y="112" width="30" height="20" rx="3"/><rect x="448" y="112" width="30" height="20" rx="3"/><rect x="488" y="112" width="30" height="20" rx="3"/><rect x="528" y="112" width="30" height="20" rx="3"/><rect x="568" y="112" width="30" height="20" rx="3"/>
+<rect x="408" y="142" width="30" height="20" rx="3"/><rect x="448" y="142" width="30" height="20" rx="3"/><rect x="488" y="142" width="30" height="20" rx="3"/></g>
+<text x="503" y="188" text-anchor="middle" font-size="13" fill="#2B3138">3 public datasets</text>
+<path d="M24 232 H618" stroke="#8A949E" stroke-width="1" stroke-dasharray="4 4"/>
+<!-- venn -->
+<g opacity="0.55"><circle cx="150" cy="292" r="44" fill="#1E5FA8"/><circle cx="192" cy="292" r="44" fill="#3C9A2E"/><circle cx="171" cy="322" r="44" fill="#D98A00"/></g>
+<text x="171" y="304" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">shared</text>
+<text x="171" y="388" text-anchor="middle" font-size="13" fill="#2B3138">Correct calls overlap</text>
+<!-- findings -->
+<rect x="300" y="252" width="318" height="52" rx="6" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/>
+<text x="459" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#C8323F">Most errors: model-independent</text>
+<text x="459" y="293" text-anchor="middle" font-size="13" fill="#2B3138">limited fragment-ion coverage</text>
+<rect x="300" y="318" width="318" height="52" rx="6" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<text x="459" y="340" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">Rescoring, reranking, refinement</text>
+<text x="459" y="359" text-anchor="middle" font-size="13" fill="#2B3138">no or modest gains</text>
+</svg>

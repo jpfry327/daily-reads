@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">MANTIS: methylation to individual survival</text>
+<!-- CpG array -->
+<rect x="24" y="64" width="150" height="150" rx="6" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<g fill="#1E5FA8">
+<circle cx="46" cy="88" r="6"/><circle cx="74" cy="88" r="6" opacity=".35"/><circle cx="102" cy="88" r="6"/><circle cx="130" cy="88" r="6" opacity=".35"/><circle cx="154" cy="88" r="6"/>
+<circle cx="46" cy="116" r="6" opacity=".35"/><circle cx="74" cy="116" r="6"/><circle cx="102" cy="116" r="6" opacity=".35"/><circle cx="130" cy="116" r="6"/><circle cx="154" cy="116" r="6" opacity=".35"/>
+<circle cx="46" cy="144" r="6"/><circle cx="74" cy="144" r="6"/><circle cx="102" cy="144" r="6" opacity=".35"/><circle cx="130" cy="144" r="6" opacity=".35"/><circle cx="154" cy="144" r="6"/>
+<circle cx="46" cy="172" r="6" opacity=".35"/><circle cx="74" cy="172" r="6" opacity=".35"/><circle cx="102" cy="172" r="6"/><circle cx="130" cy="172" r="6"/><circle cx="154" cy="172" r="6" opacity=".35"/>
+</g>
+<text x="99" y="238" text-anchor="middle" font-size="13" fill="#2B3138">DNA methylation array</text>
+<text x="99" y="256" text-anchor="middle" font-size="13" fill="#8A949E">2,786 patients</text>
+<!-- arrow -->
+<path d="M180 139 H226" stroke="#2B3138" stroke-width="2.5"/><path d="M218 131 L230 139 L218 147" fill="#2B3138"/>
+<!-- neural net node -->
+<g stroke="#8A949E" stroke-width="1.5"><path d="M250 100 L300 120 M250 100 L300 160 M250 139 L300 120 M250 139 L300 160 M250 178 L300 120 M250 178 L300 160 M300 120 L350 139 M300 160 L350 139"/></g>
+<g fill="#3C9A2E"><circle cx="250" cy="100" r="9"/><circle cx="250" cy="139" r="9"/><circle cx="250" cy="178" r="9"/><circle cx="300" cy="120" r="9"/><circle cx="300" cy="160" r="9"/><circle cx="350" cy="139" r="9"/></g>
+<text x="300" y="214" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C9A2E">MANTIS</text>
+<!-- arrow -->
+<path d="M368 139 H400" stroke="#2B3138" stroke-width="2.5"/><path d="M392 131 L404 139 L392 147" fill="#2B3138"/>
+<!-- outputs -->
+<rect x="414" y="64" width="204" height="52" rx="6" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2"/>
+<text x="516" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E5FA8">Medulloblastoma</text>
+<text x="516" y="104" text-anchor="middle" font-size="13" fill="#2B3138">Ependymoma</text>
+<rect x="414" y="130" width="204" height="52" rx="6" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="516" y="152" text-anchor="middle" font-size="13" font-weight="bold" fill="#3C9A2E">Individual 10-year</text>
+<text x="516" y="170" text-anchor="middle" font-size="13" fill="#2B3138">survival probability</text>
+<!-- divider -->
+<path d="M24 276 H618" stroke="#8A949E" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="24" y="302" font-size="14" font-weight="bold" fill="#2B3138">Average-risk medulloblastoma: treatment effect</text>
+<rect x="24" y="316" width="360" height="34" fill="#3C9A2E"/>
+<rect x="384" y="316" width="234" height="34" fill="#D98A00"/>
+<text x="204" y="338" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">~60%: lower-dose radiation</text>
+<text x="501" y="338" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Other patients</text>
+<text x="204" y="372" text-anchor="middle" font-size="13" fill="#2B3138">no significant survival loss</text>
+<text x="501" y="372" text-anchor="middle" font-size="13" fill="#2B3138">not identified by MANTIS</text>
+</svg>

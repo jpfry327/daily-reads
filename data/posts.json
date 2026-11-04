@@ -1,13 +1,456 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-03T11:05:00Z",
+  "updated": "2026-11-04T11:05:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03277-6",
-    "10.1038/s41588-026-02785-7",
-    "10.1038/s43018-026-01259-3"
+    "10.1038/s41588-026-02815-4",
+    "10.1038/s41588-026-02807-4",
+    "10.1038/s41592-026-03301-9"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02815-4",
+      "date_added": "2026-11-04",
+      "published": "2026-11-03",
+      "title": "AI-based precision prognostics and therapy personalization for childhood brain tumors.",
+      "authors": "Stefan S, Amann AS, Smith KS, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02815-4",
+      "url": "https://doi.org/10.1038/s41588-026-02815-4",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "MANTIS is a neural-network tool that predicts individual 10-year survival for medulloblastoma and ependymoma from genome-wide DNA methylation arrays of 2,786 patients. It reaches concordance indices up to 0.80 and beats current clinical indicators. Extended to estimate treatment effects, it flags about 60% of average-risk medulloblastoma patients with no significant survival disadvantage on lower-dose craniospinal irradiation.",
+      "key_points": [
+        "Methylation-array AI for time-dependent survival prediction",
+        "Concordance index up to 0.80 ± 0.07, above clinical indicators",
+        "~60% of average-risk medulloblastoma patients may tolerate lower-dose radiation (P = 0.683)",
+        "Offered as a blueprint for other cancer types"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02815-4.svg",
+        "caption": "A methylation array feeds the MANTIS network, which outputs individual survival and flags about 60% of average-risk medulloblastoma patients for lower-dose radiation.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02807-4",
+      "date_added": "2026-11-04",
+      "published": "2026-11-03",
+      "title": "A framework for genome-wide characterization of DNA methylation and variant effect prediction.",
+      "authors": "Mao W, Chen KM, Park CY, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02807-4",
+      "url": "https://doi.org/10.1038/s41588-026-02807-4",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Epigenomics"
+      ],
+      "summary": "Builds a harmonised compendium of methylation profiles from over 90 tissues and cell types and uses it to define data-driven methylation classes with context-dependent roles. Wreath, a deep-learning sequence model, predicts the tissue-specific effect of any genetic variant on methylation and is used to generate mechanistic hypotheses for noncoding pathogenic variants.",
+      "key_points": [
+        "Compendium of >90 tissues and cell types",
+        "Data-driven methylation classes with context-dependent roles",
+        "Wreath predicts variant effects on methylation from sequence",
+        "Compendium, classes and model released to the community"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02807-4.svg",
+        "caption": "One noncoding variant is scored by the Wreath model, which predicts a different methylation effect in tissue A than in tissue B.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03301-9",
+      "date_added": "2026-11-04",
+      "published": "2026-11-03",
+      "title": "Limitations of de novo peptide sequencing in resolving sequence ambiguity.",
+      "authors": "van Puyenbroeck S, Beslic D, Suomi T, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03301-9",
+      "url": "https://doi.org/10.1038/s41592-026-03301-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "Benchmarks eight deep-learning de novo peptide sequencing models on three public proteomics datasets and quantifies how much they agree. Post-processing by refinement, rescoring and reranking gives little or no gain, and most errors are model-independent, driven by limited fragment-ion coverage.",
+      "key_points": [
+        "Eight models compared on three public datasets",
+        "Considerable overlap in correct identifications",
+        "Post-processing gives no or modest improvement",
+        "Errors mostly caused by missing fragment ions, also seen in large database searches"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03301-9.svg",
+        "caption": "A spectrum with missing fragment ions goes to eight models whose correct calls overlap, and most errors are shared across models.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.10.009",
+      "date_added": "2026-11-04",
+      "published": "2026-11-03",
+      "title": "An SMN2 splicing-correcting antisense oligonucleotide promotes gene looping and transcription activation.",
+      "authors": "Stigliano JN, Haberfeld E, Marasco LE, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.10.009",
+      "url": "https://doi.org/10.1016/j.molcel.2026.10.009",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "Targeting histone acetylation at SMN2 exon 7 with CRISPR-dCas reproduces the HDAC-inhibitor boost to nusinersen, and activates a promoter 30 kb away. 3C shows the antisense oligonucleotide itself promotes gene looping, which depends on cohesin, CTCF, cleavage/polyadenylation factors and a canonical poly(A) signal.",
+      "key_points": [
+        "Targeted acetylation at exon 7 activates the distant promoter",
+        "Nusinersen (ASO1) promotes SMN2 gene looping",
+        "Looping needs cohesin, CTCF, cleavage/polyadenylation factors and a poly(A) signal",
+        "Widens the therapeutic scope of splicing-correcting ASOs"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1073/pnas.2629041123",
+      "date_added": "2026-11-04",
+      "published": "2026-11-03",
+      "title": "Rising cell-free DNA level tracks cancer-associated methylation signal and improves multicancer detection.",
+      "authors": "Basu S, Hiremath P, Rathod N, et al.",
+      "venue": "PNAS",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1073/pnas.2629041123",
+      "url": "https://doi.org/10.1073/pnas.2629041123",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Pan-cancer",
+        "Clinical"
+      ],
+      "summary": "In 1,480 untreated participants across 14 cancer types, benign lesions and controls, higher total cell-free DNA concentration is enriched in fragments carrying cancer-associated methylation signatures. Total ccfDNA explains more of the methylation signal than stage does, and detection sensitivity rises with ccfDNA level, especially in early-stage disease.",
+      "key_points": [
+        "ccfDNA level tracks methylation signal across cancer types and stages",
+        "Stage I sensitivity 0.55 to 0.85 from lowest to highest ccfDNA tertile",
+        "ccfDNA concentration as a stage-independent stratifier for multicancer tests",
+        "Similar behaviour in symptomatic benign lesions"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.xgen.2026.101418",
+      "date_added": "2026-11-04",
+      "published": "2026-11-03",
+      "title": "Multi-platform framework for mapping somatic retrotransposition in human tissues.",
+      "authors": "Wang S, Bae M, Wang J, et al.",
+      "venue": "Cell Genomics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.xgen.2026.101418",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101418",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Benchmarking",
+        "Structural variants"
+      ],
+      "summary": "Benchmarks somatic mobile element insertion detection across short-read, long-read and MEI-targeted sequencing using cell-line mixtures, and builds a cross-platform integrative calling framework. Phasing, donor-specific assemblies and a new LINE-1 source-tracing approach refine calls, revealing rare somatic L1 insertions in all four donor tissue types.",
+      "key_points": [
+        "Long-read and MEI-targeted sequencing best for ultra-rare insertions",
+        "Cross-platform integration validated on cell-line mixtures",
+        "Source tracing from internal sequence variation expands active L1 sources",
+        "Rare somatic L1 insertions found in all four tissues"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1062",
+      "date_added": "2026-11-04",
+      "published": "2026-10-24",
+      "title": "Physical determinants of reliable RNA-ligand binding prediction revealed by P-RISE.",
+      "authors": "Li H, Deng Y, Jiang Z, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1062",
+      "url": "https://doi.org/10.1093/nar/gkag1062",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "P-RISE is a physics-based framework for RNA-ligand binding prediction. Systematic tests of force fields, ionic environments, dielectric treatment and entropy correction define what reliable affinity ranking, metal-ion localisation and pose discrimination require, benchmarked against RNA docking tools, AlphaFold3 and machine-learning methods.",
+      "key_points": [
+        "Three coupled physical requirements for reliable prediction",
+        "Better pose discrimination than established RNA docking and scoring",
+        "Co-folding models benefit from a physics-based evaluation layer",
+        "Purely data-driven methods are unstable in this data-poor regime"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1059",
+      "date_added": "2026-11-04",
+      "published": "2026-10-24",
+      "title": "Biobank-scale self-supervised genotype pretraining yields transferable representations for human genetics.",
+      "authors": "Sheng C, Du H, Shen H, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1059",
+      "url": "https://doi.org/10.1093/nar/gkag1059",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "SNPBERT is a transformer pretrained on genotypes from 485,923 UK Biobank participants by masked rsID prediction. Its embeddings recover population structure in UK Biobank and three external datasets, and a fine-tuned head gives disease risk scores that add information beyond polygenic scores.",
+      "key_points": [
+        "Masked-rsID pretraining on 485,923 genotypes",
+        "Embeddings match PCA for population structure",
+        "Risk scores add 0.7-3.3% relative Nagelkerke R2 over PRS",
+        "In celiac disease attention highlights CCHCR1 and NOTCH4 besides MHC"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag995",
+      "date_added": "2026-11-04",
+      "published": "2026-10-24",
+      "title": "Exploring DNA movement through the application of droplet-based high-efficiency chromatin conformation capture (DropHiChew) and loop velocity.",
+      "authors": "Zhang C, Xie Y, Tan C, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag995",
+      "url": "https://doi.org/10.1093/nar/gkag995",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "DropHiChew is a droplet-based single-cell chromatin conformation capture method on the 10x Genomics platform, paired with a loop-velocity algorithm that infers the direction and speed of cell-state change from chromatin movement. It works at about 50k contacts per cell and was validated in HEK293T cells, spermiogenesis and embryo development.",
+      "key_points": [
+        "Low-cost single-cell Hi-C on 10x",
+        "Loop velocity infers trajectories from chromatin dynamics",
+        "Works at shallow depth (~50k contacts per cell)",
+        "Validated in HEK293T, spermiogenesis and embryonic development"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1053",
+      "date_added": "2026-11-04",
+      "published": "2026-10-24",
+      "title": "Metal-ion coordination drives active-site remodeling for backsplicing in circularly permuted group II introns.",
+      "authors": "Zhang J, Yao Y, Ma J",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1053",
+      "url": "https://doi.org/10.1093/nar/gkag1053",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "Cryo-EM structures of a circularly permuted group II intron (Gdi-1) from branching to backsplicing, under K+/Mg2+, K+/Ca2+ and Cs+/Mg2+, show how metal-ion coordination controls 3' splice-site docking and catalytic-core reassembly during circRNA formation.",
+      "key_points": [
+        "Cryo-EM snapshots along the branching-to-backsplicing pathway",
+        "New monovalent cation site K3",
+        "K3 couples the gamma-gamma' interaction to four-metal core reassembly",
+        "Structural basis for metal-ion selectivity in circRNA biogenesis"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.26.761703",
+      "date_added": "2026-11-04",
+      "published": "2026-10-31",
+      "title": "Transcript quantification using context-aware MAPQ modeling",
+      "authors": "Parthiban S, Hicks S C",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.26.761703",
+      "url": "https://doi.org/10.64898/2026.10.26.761703",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "CALMeR replaces a fixed MAPQ cutoff in long-read transcript quantification with a zero-one inflated beta regression that predicts expected MAPQ from transcript and read features. It rescues low-MAPQ reads from multi-isoform genes and paralogs, removes anomalous reads, and recovers more spike-in transcripts with better concentration agreement.",
+      "key_points": [
+        "Context-conditioned MAPQ filtering instead of a static cutoff",
+        "Zero-one inflated beta regression on transcript and read features",
+        "Better spike-in recovery than MAPQ>=1 filtering and EM quantifiers",
+        "Output can feed any downstream quantifier"
+      ],
+      "data": "",
+      "code": "github.com/sparthib/CALMeR"
+    },
+    {
+      "id": "10.64898/2026.10.26.761332",
+      "date_added": "2026-11-04",
+      "published": "2026-10-30",
+      "title": "CNVSIM: an interpretable copy-number reference atlas for cancer subtyping",
+      "authors": "Yu J, Bardet-Trouilloud J, Jaeger S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.26.761332",
+      "url": "https://doi.org/10.64898/2026.10.26.761332",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Resource"
+      ],
+      "summary": "CNVSIM organises 155,881 Progenetix copy-number analyses into cancer-specific reference spaces and defines 112 CNV subtypes across 19 cancer roots with chromosome-scale and gene-level signatures. Calibrated projection assigns 85.7% of held-out profiles, and projecting 4,605 cell-line profiles covers 90 of 112 subtypes.",
+      "key_points": [
+        "112 CNV subtypes across 19 cancer roots",
+        "Calibrated projection assigns 85.7% of held-out profiles",
+        "Cell lines cover 90 of 112 subtypes, gaps flagged",
+        "Built on 155,881 Progenetix analyses"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.30.763015",
+      "date_added": "2026-11-04",
+      "published": "2026-10-30",
+      "title": "Mapping chromothripsis across human cancer cell lines reveals genome evolution and therapeutic vulnerabilities",
+      "authors": "Leor G, Ben-Yishay T, Tarrab A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.30.763015",
+      "url": "https://doi.org/10.64898/2026.10.30.763015",
+      "topics": [
+        "Cancer genomics",
+        "Structural variants",
+        "Copy number",
+        "Resource"
+      ],
+      "summary": "A copy-number-only pipeline detects chromothripsis-like events across 1,646 cancer cell lines. Patterns match primary tumours but prevalence is higher and chromothripsis keeps arising in culture. Chromothriptic lines resist DNA-damaging agents yet are sensitive to HDAC inhibitors, which synergise with DNA damage in isogenic models.",
+      "key_points": [
+        "Chromothripsis called from copy number alone in 1,646 lines",
+        "Higher prevalence than primary tumours, and it arises during propagation",
+        "HDAC-inhibitor sensitivity linked to chromothripsis",
+        "Isogenic validation of HDACi plus DNA damage synergy"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.30.762970",
+      "date_added": "2026-11-04",
+      "published": "2026-10-31",
+      "title": "Single-base mapping of m6A in lncRNAs reveals a distinct landscape linked to transposable elements and RNA processing",
+      "authors": "Kwon E, Li Z, Zhou C",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.30.762970",
+      "url": "https://doi.org/10.64898/2026.10.30.762970",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Splicing"
+      ],
+      "summary": "Single-base-resolution m6A maps of lncRNAs show sites spread along transcripts, unlike the mRNA pattern. Transposable-element-derived sequence supplies motifs and shapes local structure, splicing constraints act near exon junctions, and m6A also appears linked to lncRNA polyadenylation.",
+      "key_points": [
+        "m6A broadly distributed along lncRNAs, unlike mRNAs",
+        "Transposable elements contribute motifs and structure",
+        "Exon-junction splicing constraint on deposition",
+        "Possible role in lncRNA polyadenylation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.02.763838",
+      "date_added": "2026-11-04",
+      "published": "2026-11-03",
+      "title": "Edi-Set-Flow: detecting differential RNA-editing at scale",
+      "authors": "Munro J E, Bahlo M, Ansell B R E",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.02.763838",
+      "url": "https://doi.org/10.64898/2026.11.02.763838",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications",
+        "Benchmarking"
+      ],
+      "summary": "Edi-Set-Flow is a Nextflow pipeline for transcriptome-wide A-to-I editing in bulk RNA-seq, from FASTQ through JACUSA2 site calls, gnomAD SNP filtering and annotation, with an R package for differential-editing models and FDR control. Applied to GTEx brain it finds tissue-specific editing and recovers known recoding events.",
+      "key_points": [
+        "End-to-end Nextflow pipeline built on JACUSA2",
+        "R package for differential editing statistics",
+        "Scales to GTEx-sized cohorts",
+        "Recovers known recoding events in brain"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.760887",
+      "date_added": "2026-11-04",
+      "published": "2026-11-02",
+      "title": "Cellular context shapes the transcriptomic impact of somatic variants",
+      "authors": "Sun P, Jia P, Lou C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.760887",
+      "url": "https://doi.org/10.64898/2026.10.28.760887",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Long-read",
+        "Machine learning"
+      ],
+      "summary": "PrismSNV with Ligo-Seq, a single-cell full-length transcriptome platform, measures the transcriptomic displacement when a somatic SNV toggles state within a cell. Across 26 samples from three cancer types, over 60% of candidate SNVs show cell-type-specific displacement, sequence deleteriousness tracks it poorly, and fewer than 3% of top-displacement SNVs are in ClinVar.",
+      "key_points": [
+        "Variant-cell pair as the unit of interpretation",
+        "More than 60% of candidate SNVs show cell-type-specific displacement",
+        "Sequence-based deleteriousness poorly predicts displacement",
+        "Fewer than 3% of top SNVs are catalogued in ClinVar"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03277-6",
       "date_added": "2026-11-03",

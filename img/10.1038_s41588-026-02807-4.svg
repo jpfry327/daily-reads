@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Wreath: one variant, different methylation</text>
+<!-- DNA strand with variant at centre top -->
+<rect x="60" y="64" width="520" height="14" rx="3" fill="#8A949E"/>
+<rect x="296" y="58" width="48" height="26" rx="3" fill="#C8323F"/>
+<text x="320" y="76" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">variant</text>
+<text x="60" y="104" font-size="13" fill="#8A949E">noncoding DNA sequence</text>
+<!-- arrow to model -->
+<path d="M320 112 V140" stroke="#2B3138" stroke-width="2.5"/><path d="M312 132 L320 144 L328 132" fill="#2B3138"/>
+<rect x="240" y="150" width="160" height="40" rx="8" fill="#3C9A2E"/>
+<text x="320" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Wreath model</text>
+<!-- branches -->
+<path d="M270 190 L150 224" stroke="#2B3138" stroke-width="2.5" fill="none"/><path d="M370 190 L490 224" stroke="#2B3138" stroke-width="2.5" fill="none"/>
+<!-- tissue A -->
+<rect x="30" y="230" width="240" height="120" rx="8" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2"/>
+<text x="150" y="254" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E5FA8">Tissue A</text>
+<path d="M54 316 H246" stroke="#8A949E" stroke-width="3"/>
+<g fill="#1E5FA8"><circle cx="78" cy="296" r="8"/><circle cx="114" cy="296" r="8"/><circle cx="150" cy="296" r="8"/><circle cx="186" cy="296" r="8"/><circle cx="222" cy="296" r="8"/></g>
+<text x="150" y="340" text-anchor="middle" font-size="13" fill="#2B3138">predicted effect: small</text>
+<!-- tissue B -->
+<rect x="370" y="230" width="240" height="120" rx="8" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/>
+<text x="490" y="254" text-anchor="middle" font-size="14" font-weight="bold" fill="#D98A00">Tissue B</text>
+<path d="M394 316 H586" stroke="#8A949E" stroke-width="3"/>
+<g fill="#FFFFFF" stroke="#D98A00" stroke-width="2.5"><circle cx="418" cy="296" r="8"/><circle cx="454" cy="296" r="8"/></g>
+<g fill="#D98A00"><circle cx="490" cy="296" r="8"/><circle cx="526" cy="296" r="8"/><circle cx="562" cy="296" r="8"/></g>
+<text x="490" y="340" text-anchor="middle" font-size="13" fill="#2B3138">predicted effect: different</text>
+<text x="320" y="296" text-anchor="middle" font-size="26" fill="#8A949E">≠</text>
+<text x="320" y="382" text-anchor="middle" font-size="13" fill="#2B3138">Compendium: 90+ tissues and cell types</text>
+</svg>
