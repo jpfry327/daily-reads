@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<defs><clipPath id="sec"><rect x="40" y="60" width="330" height="190" rx="28"/></clipPath></defs>
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Glioblastoma: one spatial cell trajectory</text>
+<!-- tumour section with three zones -->
+<g clip-path="url(#sec)">
+<rect x="40" y="60" width="110" height="190" fill="#D6E4F4"/>
+<rect x="150" y="60" width="110" height="190" fill="#FBEBCC"/>
+<rect x="260" y="60" width="110" height="190" fill="#F6D5D8"/>
+</g>
+<rect x="40" y="60" width="330" height="190" rx="28" fill="none" stroke="#8A949E" stroke-width="2"/>
+<g fill="#1E5FA8"><circle cx="78" cy="100" r="6"/><circle cx="112" cy="132" r="6"/><circle cx="66" cy="208" r="6"/><circle cx="124" cy="220" r="6"/><circle cx="96" cy="170" r="6"/></g>
+<g fill="#D98A00"><circle cx="182" cy="96" r="6"/><circle cx="226" cy="124" r="6"/><circle cx="176" cy="218" r="6"/><circle cx="238" cy="206" r="6"/><circle cx="208" cy="170" r="6"/></g>
+<g fill="#C8323F"><circle cx="296" cy="100" r="6"/><circle cx="346" cy="134" r="6"/><circle cx="302" cy="226" r="6"/><circle cx="342" cy="200" r="6"/><circle cx="320" cy="168" r="6"/></g>
+<path d="M62 156 Q205 120 346 160" fill="none" stroke="#2B3138" stroke-width="3"/>
+<path d="M334 150 L350 161 L333 169" fill="#2B3138"/>
+<text x="95" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E5FA8">Developmental-like</text>
+<text x="205" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#D98A00">Glial injury</text>
+<text x="315" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#C8323F">Hypoxia</text>
+<!-- subclone zoom -->
+<circle cx="500" cy="155" r="76" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<g fill="#2B3138"><circle cx="470" cy="120" r="7"/><circle cx="520" cy="108" r="7"/><circle cx="548" cy="150" r="7"/><circle cx="494" cy="162" r="7"/><circle cx="462" cy="188" r="7"/><circle cx="530" cy="196" r="7"/></g>
+<g fill="#FFFFFF" stroke="#2B3138" stroke-width="2.5"><circle cx="496" cy="126" r="6"/><circle cx="470" cy="154" r="6"/><circle cx="526" cy="146" r="6"/><circle cx="512" cy="180" r="6"/><circle cx="486" cy="200" r="6"/><circle cx="548" cy="182" r="6"/></g>
+<text x="500" y="262" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">Subclones intermixed</text>
+<text x="500" y="280" text-anchor="middle" font-size="13" fill="#8A949E">filled vs hollow = clone</text>
+<!-- data layers -->
+<g stroke="#1E5FA8" stroke-width="2" fill="#FFFFFF">
+<rect x="120" y="304" width="120" height="30" rx="15"/><rect x="260" y="304" width="120" height="30" rx="15"/><rect x="400" y="304" width="120" height="30" rx="15"/>
+</g>
+<g font-size="13" text-anchor="middle" fill="#1E5FA8">
+<text x="180" y="324">Transcriptome</text><text x="320" y="324">Epigenome</text><text x="460" y="324">Genome</text>
+</g>
+<text x="320" y="366" text-anchor="middle" font-size="14" fill="#2B3138">Paired profiling: 12 tumours, many regions</text>
+</svg>
