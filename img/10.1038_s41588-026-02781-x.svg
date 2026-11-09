@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">TCRi: clonotype and phenotype, jointly</text>
+<!-- centre: latent space -->
+<ellipse cx="320" cy="215" rx="120" ry="95" fill="#EAF1F9" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="320" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E5FA8">VAE latent space</text>
+<circle cx="275" cy="215" r="26" fill="#DDEFD9" stroke="#3C9A2E" stroke-width="2"/>
+<circle cx="355" cy="205" r="26" fill="#FBEBCC" stroke="#D98A00" stroke-width="2"/>
+<circle cx="355" cy="265" r="22" fill="#F6DADD" stroke="#C8323F" stroke-width="2"/>
+<text x="320" y="326" text-anchor="middle" font-size="13" fill="#2B3138">phenotype states</text>
+<!-- left: scRNA input -->
+<rect x="30" y="170" width="110" height="90" rx="6" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<text x="85" y="212" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">scRNA-seq</text>
+<text x="85" y="232" text-anchor="middle" font-size="13" fill="#2B3138">expression</text>
+<path d="M140 215 L196 215" stroke="#8A949E" stroke-width="2.5"/><polygon points="196,208 208,215 196,222" fill="#8A949E"/>
+<!-- right: TCR clonotypes -->
+<rect x="500" y="110" width="110" height="38" rx="6" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2"/>
+<text x="555" y="134" text-anchor="middle" font-size="14" fill="#1E5FA8">Clonotype 1</text>
+<rect x="500" y="200" width="110" height="38" rx="6" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2"/>
+<text x="555" y="224" text-anchor="middle" font-size="14" fill="#1E5FA8">Clonotype 2</text>
+<rect x="500" y="290" width="110" height="38" rx="6" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2"/>
+<text x="555" y="314" text-anchor="middle" font-size="14" fill="#1E5FA8">Clonotype 3</text>
+<!-- links clonotype to phenotype regions -->
+<path d="M500 129 L297 205" stroke="#1E5FA8" stroke-width="2" fill="none"/>
+<path d="M500 129 L380 198" stroke="#1E5FA8" stroke-width="2" fill="none"/>
+<path d="M500 219 L381 208" stroke="#1E5FA8" stroke-width="2" fill="none"/>
+<path d="M500 219 L376 258" stroke="#1E5FA8" stroke-width="2" fill="none"/>
+<path d="M500 309 L374 270" stroke="#1E5FA8" stroke-width="2" fill="none"/>
+<text x="555" y="360" text-anchor="middle" font-size="13" fill="#2B3138">TCR sequencing</text>
+<text x="450" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">hierarchical Bayesian model</text>
+<text x="450" y="84" text-anchor="middle" font-size="13" fill="#2B3138">P(phenotype | clonotype)</text>
+</svg>

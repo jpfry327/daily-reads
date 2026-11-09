@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">CORAL: joining spatial omics across scales</text>
+<!-- top-left fine grid, few molecules -->
+<text x="110" y="62" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E5FA8">Fine resolution</text>
+<text x="110" y="78" text-anchor="middle" font-size="13" fill="#1E5FA8">few molecules</text>
+<g stroke="#1E5FA8" stroke-width="1.5" fill="#EAF1F9">
+<rect x="60" y="90" width="25" height="25"/><rect x="85" y="90" width="25" height="25"/><rect x="110" y="90" width="25" height="25"/><rect x="135" y="90" width="25" height="25"/>
+<rect x="60" y="115" width="25" height="25"/><rect x="85" y="115" width="25" height="25"/><rect x="110" y="115" width="25" height="25"/><rect x="135" y="115" width="25" height="25"/>
+<rect x="60" y="140" width="25" height="25"/><rect x="85" y="140" width="25" height="25"/><rect x="110" y="140" width="25" height="25"/><rect x="135" y="140" width="25" height="25"/>
+</g>
+<!-- bottom-left coarse grid, genome-wide -->
+<text x="110" y="228" text-anchor="middle" font-size="13" font-weight="bold" fill="#D98A00">Coarse resolution</text>
+<text x="110" y="244" text-anchor="middle" font-size="13" fill="#D98A00">genome-wide</text>
+<g stroke="#D98A00" stroke-width="2" fill="#FBEBCC">
+<rect x="60" y="256" width="50" height="50"/><rect x="110" y="256" width="50" height="50"/>
+<rect x="60" y="306" width="50" height="50"/><rect x="110" y="306" width="50" height="50"/>
+</g>
+<!-- arrows to centre -->
+<path d="M170 128 L250 190" stroke="#8A949E" stroke-width="2.5" fill="none"/>
+<path d="M170 306 L250 230" stroke="#8A949E" stroke-width="2.5" fill="none"/>
+<!-- centre box -->
+<rect x="250" y="170" width="140" height="80" rx="10" fill="#FFFFFF" stroke="#2B3138" stroke-width="2.5"/>
+<text x="320" y="204" text-anchor="middle" font-size="16" font-weight="bold" fill="#2B3138">CORAL</text>
+<text x="320" y="226" text-anchor="middle" font-size="13" fill="#2B3138">graph attention</text>
+<path d="M390 210 L460 210" stroke="#8A949E" stroke-width="2.5"/><polygon points="458,203 470,210 458,217" fill="#8A949E"/>
+<!-- right: fine grid, broad coverage -->
+<text x="545" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#3C9A2E">Fine resolution</text>
+<text x="545" y="146" text-anchor="middle" font-size="13" fill="#3C9A2E">broad coverage</text>
+<g stroke="#3C9A2E" stroke-width="1.5" fill="#DDEFD9">
+<rect x="485" y="158" width="30" height="30"/><rect x="515" y="158" width="30" height="30"/><rect x="545" y="158" width="30" height="30"/><rect x="575" y="158" width="30" height="30"/>
+<rect x="485" y="188" width="30" height="30"/><rect x="515" y="188" width="30" height="30"/><rect x="545" y="188" width="30" height="30"/><rect x="575" y="188" width="30" height="30"/>
+<rect x="485" y="218" width="30" height="30"/><rect x="515" y="218" width="30" height="30"/><rect x="545" y="218" width="30" height="30"/><rect x="575" y="218" width="30" height="30"/>
+</g>
+<text x="545" y="278" text-anchor="middle" font-size="13" fill="#2B3138">transcriptome, proteome,</text>
+<text x="545" y="296" text-anchor="middle" font-size="13" fill="#2B3138">metabolome, epigenome</text>
+</svg>

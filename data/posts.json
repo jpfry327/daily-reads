@@ -1,13 +1,769 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-06T11:15:00Z",
+  "updated": "2026-11-09T11:20:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41586-026-11210-2",
-    "10.1038/s41586-026-11177-0",
-    "10.1038/s41586-026-11234-8"
+    "10.1038/s41588-026-02780-y",
+    "10.1038/s41588-026-02781-x",
+    "10.1038/s41588-026-02821-6"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02780-y",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "Robust fine-mapping in the presence of linkage disequilibrium mismatch.",
+      "authors": "Zhang W, Lu T, Sladek R, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02780-y",
+      "url": "https://doi.org/10.1038/s41588-026-02780-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "RSparsePro is a probabilistic graphical model with variational inference that fine-maps GWAS signals when the external LD reference panel does not match the study population. In simulations with varying LD mismatch it gave credible sets with higher power and coverage than existing methods, and it also gave better-enriched credible sets for cis-pQTL and complex-trait loci.",
+      "key_points": [
+        "Targets LD mismatch between the reference panel and the GWAS cohort",
+        "Higher power and coverage than existing fine-mapping methods in simulations",
+        "Applied to cis-pQTL and complex-trait risk loci"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02780-y.svg",
+        "caption": "RSparsePro uses LD from the GWAS cohort to keep a credible set around the causal SNP, even when the reference panel's LD differs.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02798-2",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "Efficient and accurate mixed model association tool for single-cell eQTL analysis.",
+      "authors": "Zhou W, Cuomo ASE, Hu L, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02798-2",
+      "url": "https://doi.org/10.1038/s41588-026-02798-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "SAIGE-QTL is a Poisson mixed model that works directly on single-cell read counts for eQTL mapping, accounting for donor- and cell-level covariates and unequal cell numbers per donor. It was calibrated and scalable, found more eGenes than pseudobulk methods, and matched existing single-cell models at much lower computational cost.",
+      "key_points": [
+        "Models raw single-cell counts instead of pseudobulk or Gaussian approximations",
+        "More eGenes than pseudobulk methods in simulations and three datasets",
+        "Much cheaper to run than existing single-cell models"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02781-x",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "An information-theoretic framework for inferring T cell dynamics from single-cell RNA and T cell receptor sequencing.",
+      "authors": "Ceglia N, Salehi S, Sethna ZM, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02781-x",
+      "url": "https://doi.org/10.1038/s41588-026-02781-x",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "TCRi is a hierarchical Bayesian, information-theoretic framework that infers the joint distribution of clonotype and transcriptional phenotype from paired single-cell RNA and TCR sequencing. A variational autoencoder embeds expression into a latent space and a hierarchical model learns clonotype-specific phenotype distributions.",
+      "key_points": [
+        "Treats phenotype assignment as probabilistic inference",
+        "Uses a variational autoencoder plus hierarchical Bayesian model",
+        "Gives a principled joint model of clonotype and phenotype"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02781-x.svg",
+        "caption": "TCRi links single-cell expression, embedded in a VAE latent space of phenotype states, to TCR clonotypes through a hierarchical Bayesian model.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02821-6",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "Multiscale multimodal integration of spatial omics through a deep generative model with CORAL.",
+      "authors": "He S, Bieniosek M, Zhou J, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02821-6",
+      "url": "https://doi.org/10.1038/s41588-026-02821-6",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "CORAL is a probabilistic deep generative model that uses graph attention to integrate spatial transcriptomic, proteomic, metabolomic and epigenomic data across spatial scales. It combines high-resolution data with limited molecular coverage and low-resolution genome-wide data into unified representations with broad coverage and high spatial resolution.",
+      "key_points": [
+        "Graph attention integrates data across spatial scales and modalities",
+        "Joins high-resolution, low-coverage data with low-resolution, genome-wide data",
+        "Tested on synthetic and experimental data from several tissues and platforms"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02821-6.svg",
+        "caption": "CORAL combines fine-resolution data with few molecules and coarse genome-wide data into one fine-resolution map with broad molecular coverage.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03282-9",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "Integration and annotation of spatial multi-omic data with DIRAC.",
+      "authors": "Xu C, Liu S, Heng Y, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03282-9",
+      "url": "https://doi.org/10.1038/s41592-026-03282-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "DIRAC is a geometric deep learning model that unifies vertical integration (across modalities) and horizontal integration (across studies) as domain adaptation. It learns features insensitive to batch, modality or site effects, giving a shared embedding and automated cell-type annotation by label transfer. In the abstract it identified a new microvascular proliferation domain in glioblastoma.",
+      "key_points": [
+        "One domain-adaptation framework for vertical and horizontal integration",
+        "Label transfer from reference datasets for cell-type annotation",
+        "Works on sequencing-based and imaging-based spatial data"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41586-026-11220-0",
+      "date_added": "2026-11-09",
+      "published": "2026-11-04",
+      "title": "Microbiome-wide PheWAS links gut microbial SNVs to health and exposures.",
+      "authors": "Wang D, Goumagias A, Andreu-Sánchez S, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11220-0",
+      "url": "https://doi.org/10.1038/s41586-026-11220-0",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Multi-omics"
+      ],
+      "summary": "A phenome-wide association study of 12.8 million gut microbial single-nucleotide variants against 244 host phenotypes and exposures in 10,781 people from 6 cohorts. It found 940 independent associations across 69 host factors, including age, sex and cardiovascular and metabolic parameters, and used structural analyses to place associated SNVs in proteins.",
+      "key_points": [
+        "12.8 million microbial SNVs tested against 244 host phenotypes",
+        "940 independent associations across 69 host factors",
+        "Moves from species-level composition to within-species genetic variation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03299-0",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "abcFISH enables multiplexed, single-molecule visualization of circular RNA spatial heterogeneity.",
+      "authors": "Liu YX, Jiang BW, Liu KM, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03299-0",
+      "url": "https://doi.org/10.1038/s41592-026-03299-0",
+      "topics": [
+        "RNA biology",
+        "Methods",
+        "Isoforms"
+      ],
+      "summary": "abcFISH is an amplicon-based fluorescence in situ hybridization method that uses rolling-circle amplification targeting back-splicing junctions to image single circRNA molecules despite their sequence overlap with linear RNAs. It enables multiplexed imaging in cells and tissues, revealing alternative circularization patterns from one locus and distinct circRNA distributions in neurons and brain tissue.",
+      "key_points": [
+        "Targets back-splicing junctions with rolling-circle amplification",
+        "Multiplexed, single-molecule circRNA imaging in cells and tissues",
+        "Shows Cdr1as and Cyrano colocalization and checks circRNA aptamer delivery"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cell.2026.10.014",
+      "date_added": "2026-11-09",
+      "published": "2026-11-02",
+      "title": "Convergent genomic evolution of human gut bacteria along an industrialization gradient.",
+      "authors": "Rühlemann M, Ma Y, Szánthó LL, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.10.014",
+      "url": "https://doi.org/10.1016/j.cell.2026.10.014",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Multi-omics"
+      ],
+      "summary": "The authors built a collection of isolate genomes from gut bacteria across host geographies and lifestyles. Paired isolate genomes recovered more functional elements and horizontal gene transfer signals than metagenome-assembled genomes, and strains from industrialized hosts showed larger proteomes and a more fluid pangenome, driven by recent HGT.",
+      "key_points": [
+        "Isolate genomes beat MAGs for functional elements and HGT signals",
+        "Industrialized-host strains have expanded proteomes and fluid pangenomes",
+        "Gene- and variant-level analyses show convergent lifestyle-specific adaptation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41586-025-09064-1",
+      "date_added": "2026-11-09",
+      "published": "2026-10-28",
+      "title": "Tracing the spread of Germanic languages using ancient genomics.",
+      "authors": "McColl H, Kroonen G, Moreno-Mayar JV, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-025-09064-1",
+      "url": "https://doi.org/10.1038/s41586-025-09064-1",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "Sequencing 712 ancient human genomes and analysing them with 4,009 published genomes, the authors identify a previously elusive population that entered Sweden, likely from the Baltic region, by about 4000 BP and spread across Scandinavia by 3500 BP. This offers a possible vector for Germanic languages reaching Scandinavia roughly 800 years later than traditionally assumed.",
+      "key_points": [
+        "712 new ancient genomes analysed with 4,009 published ones",
+        "A population entering Sweden by ~4000 BP is proposed as a vector for Germanic",
+        "Follows the Late Iron Age split of Germanic into its descendant languages"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03303-7",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "Automated identification of individual birds by song enables multi-year recapture from passive acoustic monitoring data.",
+      "authors": "Lapp S, Lyon RP, Wilson SJ, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03303-7",
+      "url": "https://doi.org/10.1038/s41592-026-03303-7",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "A convolutional neural network learns features from audio through a location-prediction task, then dimensionality reduction and clustering identify individual birds from distinctive song. It identified individuals not in the training data with 96% accuracy and was used to track 405 male ovenbirds across years, replacing invasive capture-mark-recapture.",
+      "key_points": [
+        "CNN features plus clustering give song-based individual identification",
+        "96% accuracy on individuals unseen in training",
+        "Tracked 405 male ovenbirds over multiple years from passive recordings"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04234-4",
+      "date_added": "2026-11-09",
+      "published": "2026-08-10",
+      "title": "DeMixNB: deconvolution of sparse-count RNA sequencing data for tumor cells using embedded negative binomial distributions.",
+      "authors": "Montierth MD, Yan H, Xie L, et al.",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04234-4",
+      "url": "https://doi.org/10.1186/s13059-026-04234-4",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Deconvolution"
+      ],
+      "summary": "DeMixNB is a semi-reference-based deconvolution model that assumes a sum of negative binomial distributions, built for sparse count data such as miRNA-seq and spatial transcriptomics. The authors made a mixed small-RNA benchmark to show the problem and applied the model to miRNA-seq from 885 breast cancer patients and 4,709 lung cancer spatial spots.",
+      "key_points": [
+        "Designed for sparse-count data where existing methods are untested",
+        "New mixed small-RNA benchmark dataset",
+        "Applied to breast cancer miRNA-seq and lung cancer spatial data"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag810",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "DeSCENT: Deconvolutional Single-Cell RNA-seq Enhances Transcriptome-based Cancer Survival Analysis.",
+      "authors": "Zhao Y, You Z, Shen Y, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag810",
+      "url": "https://doi.org/10.1093/bioinformatics/btag810",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Deconvolution",
+        "Machine learning"
+      ],
+      "summary": "DeSCENT builds reference-informed cellular profiles from bulk RNA-seq and combines them with the bulk profile for survival prediction. On eight TCGA cohorts it improved average C-index over bulk-only models, and it also did so in external validation, though performance was lower than internally.",
+      "key_points": [
+        "Cellular profiles inferred from bulk RNA-seq using a single-cell reference",
+        "Better average C-index than bulk-only across three survival models",
+        "External validation still ahead of baselines but weaker than internal"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag807",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "scPhyloGRN: gene regulatory network inference guided by lineage topology in single-cell developmental data.",
+      "authors": "Meng R, Wang K, Hu J, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag807",
+      "url": "https://doi.org/10.1093/bioinformatics/btag807",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scPhyloGRN is a supervised framework that combines single-cell expression with cellular phylogeny to prioritize directed transcription factor-target pairs. It maps cell ancestry to gene associations that guide graph construction, attention in a dual-stream encoder and lineage-consistency regularization, and was compared with ten methods across 17 dataset-reference settings.",
+      "key_points": [
+        "Uses cell lineage relationships to inform regulatory inference",
+        "Dual-stream encoder with lineage-consistency regularization",
+        "Compared with ten methods on mouse embryo and C. elegans data"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04193-w",
+      "date_added": "2026-11-09",
+      "published": "2026-08-08",
+      "title": "Unlocking biological insight from single-cell data with an interpretable dual-stream foundation model.",
+      "authors": "Guo H, Cui Q, Zhang X, et al.",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04193-w",
+      "url": "https://doi.org/10.1186/s13059-026-04193-w",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scDMC is a single-cell pre-training framework that processes a rank-based sequence and an absolute expression-aware sequence in parallel, to avoid the information loss of single-encoding schemes in transformer single-cell language models. The aim is more holistic and discriminative cell representations that can be interpreted.",
+      "key_points": [
+        "Dual-stream input: rank-based and absolute-expression sequences",
+        "Targets information loss in single-encoding foundation models",
+        "Framed as interpretable for biological insight"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01799-4",
+      "date_added": "2026-11-09",
+      "published": "2026-10-18",
+      "title": "Combining MAVEs and computational predictors improves variant classification across ancestries in hereditary cancer genes.",
+      "authors": "Bora N, Badonyi M, Pathak AK, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01799-4",
+      "url": "https://doi.org/10.1186/s13073-026-01799-4",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "Many variant effect predictors are biased by ancestry because their training data under-represent global diversity. The authors compare multiplexed assays of variant effect (MAVEs) with population-free predictors (GEMME, EVE, CPT-1) across five cancer-associated genes and find MAVEs are more conservative and decisive in classification.",
+      "key_points": [
+        "Evaluates MAVEs and population-free predictors across five cancer genes",
+        "Both avoid ancestry bias from clinical or population training data",
+        "MAVEs classify more conservatively, assigning fewer variants as pathogenic"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1145",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "LncRNAfunc 2.0: an evidence-integrated knowledgebase for regulatory and functional interpretation of lncRNAs in cancer.",
+      "authors": "Yang M, Li J, Lu X, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1145",
+      "url": "https://doi.org/10.1093/nar/gkag1145",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Pan-cancer",
+        "Resource"
+      ],
+      "summary": "lncRNAfunc 2.0 reprocesses pan-cancer TCGA data, adds GTEx and CCLE context, and expands binding, interaction and perturbation evidence for cancer lncRNAs. It organises function into six dimensions: dysregulation, upstream regulation, mRNA regulation, transcript remodeling, protein regulation and tumour phenotypes.",
+      "key_points": [
+        "Integrates association, binding, perturbation and predicted evidence",
+        "Six functional dimensions including alternative splicing and drug response",
+        "Adds normal-tissue and cell-line contexts"
+      ],
+      "data": "",
+      "code": "https://lncrnafunc.xu-bioinfo.com/"
+    },
+    {
+      "id": "10.1093/nar/gkag1096",
+      "date_added": "2026-11-09",
+      "published": "2026-11-05",
+      "title": "Ribocentre-FoldBridge: a comprehensive database bridging RNA chemical probing data and 3D structures.",
+      "authors": "Sun H, Hu L, Peng X, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1096",
+      "url": "https://doi.org/10.1093/nar/gkag1096",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "An AI-assisted, curator-reviewed database that links chemical-probing profiles to experimentally determined 3D RNA structures. It covers 12 RNA types, linking 256,929 probing profiles in five experimental categories to 5,321 structure-linked cases, and visualises probing data on secondary and tertiary structure at nucleotide resolution.",
+      "key_points": [
+        "256,929 probing profiles linked to 5,321 structure cases",
+        "Nucleotide-resolution visualisation on 2D and 3D structure",
+        "Aligns two experimental modalities to study RNA folding"
+      ],
+      "data": "",
+      "code": "https://foldbridge.ribocentre.org/"
+    },
+    {
+      "id": "10.1186/s13073-026-01794-9",
+      "date_added": "2026-11-09",
+      "published": "2026-11-03",
+      "title": "Cellular and spatial continuum of TAM functional states governs immune exclusion and dictates immune checkpoint resistance in melanoma.",
+      "authors": "Chakraborty S, Corrales E, Godbole I, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01794-9",
+      "url": "https://doi.org/10.1186/s13073-026-01794-9",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Single-cell",
+        "Immuno-oncology"
+      ],
+      "summary": "The authors integrated public scRNA-seq data (N = 32) with in-house spatial transcriptomics and imaging mass cytometry from six melanomas to map the immune neighbourhoods linked to checkpoint therapy response and resistance. They then built a scRNA-seq-derived signature matrix to validate the findings, and describe tumour-associated macrophage states as a continuum tied to immune exclusion.",
+      "key_points": [
+        "Public scRNA-seq combined with in-house spatial transcriptomics and mass cytometry",
+        "Maps cell neighbourhoods tied to ICI response versus resistance",
+        "TAM functional states form a continuum linked to immune exclusion"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78908-9",
+      "date_added": "2026-11-09",
+      "published": "2026-11-02",
+      "title": "Reconstructing the single-cell spatiotemporal dynamics of glioblastoma invasion.",
+      "authors": "Mangukiya HB, Skeppås M, Lasses Armatowski A, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78908-9",
+      "url": "https://doi.org/10.1038/s41467-026-78908-9",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "GlioTrace is an ex vivo imaging and computational framework that tracks glioblastoma invasion in patient-derived xenograft brain slices, using confocal microscopy, machine learning morphology classification and probabilistic modelling of state transitions. Across six patient-derived models, invasion plasticity was patient-specific and spatially organised.",
+      "key_points": [
+        "Real-time tracking in PDX brain slices across six patient models",
+        "Machine learning classifies morphology; probabilistic model infers state switching",
+        "Invasion shaped by vascular proximity and microglial interactions"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.06.764802",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "Somatic Structural Variant Discovery from Tumor Specific Strings Computed Against a Draft Composite Germline Reference (VESPA-SS)",
+      "authors": "Monti DC, Ciccolella S, Cozzi D, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.06.764802",
+      "url": "https://doi.org/10.64898/2026.11.06.764802",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "VESPA-SS finds somatic structural variants from paired tumour-normal long-read data by computing tumour-specific strings against a draft composite germline reference, with no read-mapping step. On PacBio HiFi data it scored F1 above 0.92 on HG008 and above 0.90 on COLO829, versus 0.86 and 0.85 for the best competitors.",
+      "key_points": [
+        "Mapping-free somatic SV calling using specific strings",
+        "F1 above 0.92 (HG008) and 0.90 (COLO829) on HiFi data",
+        "Code at github.com/dcmonti/VESPA"
+      ],
+      "data": "",
+      "code": "github.com/dcmonti/VESPA"
+    },
+    {
+      "id": "10.64898/2026.11.05.764632",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "Somatic structural variation discovery on cancer pangenome graphs",
+      "authors": "Kara M, Ashyralyyev A, Alkan C",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764632",
+      "url": "https://doi.org/10.64898/2026.11.05.764632",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "JANUS calls somatic SVs directly in a personal pangenome graph built from matched tumour and normal HiFi reads, without whole-genome alignment. On five CASTLE tumour-normal pairs the mean F1 was 0.887 versus 0.858 for the next best caller in an 18-caller consensus, and it ran in about 11 minutes per pair.",
+      "key_points": [
+        "Calls SVs on a personal pangenome graph, not a linear alignment",
+        "Mean F1 0.887 vs 0.858; lead widens at low coverage and purity",
+        "Joint multi-sample calling beat pairwise runs in a 20-tumour simulation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764698",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "spearfish: ultrafast Δ-mapping of long reads to redundant transcriptomes",
+      "authors": "Abdelgawad H, Martayan I, Marchet C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764698",
+      "url": "https://doi.org/10.64898/2026.11.05.764698",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "spearfish aligns long reads only where candidate transcripts differ, using LCP seeds and a core graph that shares chaining state across isoforms. It maps reads 26-83x faster than minimap2 in at most a seventh of the memory, and quantification with oarfish matched or beat minimap2 on simulated data and 7 SG-NEx spike-in runs.",
+      "key_points": [
+        "Delta-mapping: align only where isoforms differ",
+        "26-83x faster than minimap2, up to 7x less memory",
+        "Feeds oarfish isoform quantification with equal or better accuracy"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.30.762958",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "Deducing splicing events from transcript sets with splicelogic",
+      "authors": "Campillo B, Love MI",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.30.762958",
+      "url": "https://doi.org/10.64898/2026.10.30.762958",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Isoforms"
+      ],
+      "summary": "splicelogic is an R/Bioconductor package that converts comparisons between transcript sets, such as novel versus annotated or between conditions, into discrete events: exon skipping, alternative splice sites, intron retention and alternative start or end sites. It is tool-agnostic and supports RBP-site annotation, summaries and visualisation.",
+      "key_points": [
+        "Turns long-read isoform differences into discrete splicing events",
+        "Tool-agnostic and modular",
+        "Supports downstream RBP-site annotation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764607",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "Isoform diversity as a complementary dimension of gene expression",
+      "authors": "Shanas S, Lubaton E, Jermans S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764607",
+      "url": "https://doi.org/10.64898/2026.11.05.764607",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms"
+      ],
+      "summary": "Using an adaptation of Shannon evenness on 4,814 GTEx samples from 25 tissues, the authors show isoform diversity is a dimension of expression separate from gene-level abundance. It separates tissues using genes that are not differentially expressed, shifts with age most strongly in brain, and rises most in RNA processing and splicing genes during neuronal differentiation.",
+      "key_points": [
+        "Evenness metric applied to 4,814 GTEx samples across 25 tissues",
+        "Separates tissues independent of gene-level abundance",
+        "Changes with age, most in brain"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.762297",
+      "date_added": "2026-11-09",
+      "published": "2026-11-02",
+      "title": "A single-cell multimodal foundation model enables cross modality analysis between transcriptome and chromatin",
+      "authors": "Bao X, Zhu J, Song X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762297",
+      "url": "https://doi.org/10.64898/2026.10.28.762297",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "MUTUAL keeps the scFoundation and EpiAgent foundation models frozen and learns a shared RNA-ATAC space from 3.0 million paired cells in 400 public multiome datasets. Applied without refitting to ten unseen datasets, it matched RNA and ATAC profiles more accurately than methods fitted on other donors of the same dataset and transferred TF motif activity to RNA-only cells.",
+      "key_points": [
+        "Shared RNA-ATAC space from 3.0 million paired cells",
+        "Used without refitting on ten held-out datasets",
+        "Annotates ATAC-only cells and transfers motif activity to RNA-only cells"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.24.761590",
+      "date_added": "2026-11-09",
+      "published": "2026-11-02",
+      "title": "scRM: A single-cell foundation model trained on scRNA-seq reads",
+      "authors": "He D, Patro R, Nassar M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.24.761590",
+      "url": "https://doi.org/10.64898/2026.10.24.761590",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scRM is described as the first single-cell foundation model trained on sequencing reads rather than count matrices. The authors say raw-read pretraining is feasible and competitive at a fraction of the computational cost, and that it enables dataset-specific pretraining.",
+      "key_points": [
+        "Pretrained on reads, not counts",
+        "Competitive at a fraction of the compute",
+        "Code at github.com/altoslabs/scRM"
+      ],
+      "data": "",
+      "code": "github.com/altoslabs/scRM"
+    },
+    {
+      "id": "10.64898/2026.10.28.762701",
+      "date_added": "2026-11-09",
+      "published": "2026-11-02",
+      "title": "Refining RNA-Seq Transcriptome Profiles with Transcript-Specific Minimal-Shared Regions",
+      "authors": "Su Q",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762701",
+      "url": "https://doi.org/10.64898/2026.10.28.762701",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms"
+      ],
+      "summary": "The author finds extensive undefined shared regions between transcripts, including those of different genes, that make read assignment ambiguous. A minimal-sharing strategy partitions transcripts into unique k-mer sets and isolates regions specific to each isoform. In simulations and real data it outperformed probabilistic quantification, with an example in a Huntington's disease mouse model.",
+      "key_points": [
+        "Partitions transcripts into unique k-mer sets to cut mapping ambiguity",
+        "Outperformed probabilistic model-based quantification",
+        "Example isoforms found in a Huntington's disease mouse model"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764473",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "MOCHI enables systematic identification of candidate independent intronic transcriptional signals from short-read RNA-seq data",
+      "authors": "Gurer-Er DC, Karakulah G, Gautheret D, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764473",
+      "url": "https://doi.org/10.64898/2026.11.05.764473",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "MOCHI is a k-mer-based, reference-independent method that finds candidate independent intronic transcription units in strand-specific short-read RNA-seq. In ten cancer cell lines the host introns were enriched for a transcription-initiation signal, and in ten TCGA cohorts a subset of candidates was associated with overall survival after adjusting for age and host-gene expression.",
+      "key_points": [
+        "Reference-independent k-mer discovery of intronic transcripts",
+        "Candidates resemble lncRNAs with initiation signals",
+        "Some associated with survival across ten TCGA cohorts"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.04.763174",
+      "date_added": "2026-11-09",
+      "published": "2026-11-06",
+      "title": "Long-read DNA sequencing reveals global hypomethylation and focal hypermethylation in SDHx-deficient pheochromocytoma and paraganglioma",
+      "authors": "Xu Z, Prajapati HK, Coey CT, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.04.763174",
+      "url": "https://doi.org/10.64898/2026.11.04.763174",
+      "topics": [
+        "Cancer genomics",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "Nanopore long-read sequencing of tumour and blood DNA from SDHx and non-SDHx PPGL patients, plus normal adrenal medulla, shows both tumour types are globally hypomethylated, especially at centromeres. Some H3K4me-marked CpG islands are hypermethylated in SDHx tumours but most are not, which the authors attribute to succinate inhibiting TET demethylases against a background of tumour hypomethylation.",
+      "key_points": [
+        "Both SDHx and non-SDHx PPGLs are globally hypomethylated",
+        "Only some H3K4me-marked CpG islands gain methylation in SDHx tumours",
+        "Proposes opposing effects of succinate on methylation and demethylation"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41586-026-11210-2",
       "date_added": "2026-11-06",
