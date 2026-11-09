@@ -192,7 +192,7 @@
       "url": "https://doi.org/10.1038/s41592-026-03299-0",
       "topics": [
         "RNA biology",
-        "Methods",
+        "Spatial",
         "Isoforms"
       ],
       "summary": "abcFISH is an amplicon-based fluorescence in situ hybridization method that uses rolling-circle amplification targeting back-splicing junctions to image single circRNA molecules despite their sequence overlap with linear RNAs. It enables multiplexed imaging in cells and tissues, revealing alternative circularization patterns from one locus and distinct circRNA distributions in neurons and brain tissue.",

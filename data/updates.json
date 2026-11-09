@@ -2,7 +2,7 @@
   "updates": [
     {
       "date": "2026-11-09T11:20:00Z",
-      "summary": "Added 10 Tier 1 research papers (3 featured, each with a hand-drawn illustration), 10 Tier 2 papers and 10 preprints; no new chordoma papers (the only PubMed hit was already posted). Tier 1, Tier 2 and Preprints all reached their 10-paper cap.",
+      "summary": "Added 10 Tier 1 research papers (3 featured, each with a hand-drawn illustration), 9 Tier 2 papers and 10 preprints; no new chordoma papers (the only PubMed hit was already posted). Tier 1 and Preprints reached their 10-paper cap.",
       "counts": {
         "tier1": 10,
         "tier2": 9,
