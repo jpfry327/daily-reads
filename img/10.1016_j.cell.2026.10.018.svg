@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">scSLIDE: compare whole samples, not groups</text>
+<text x="85" y="58" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">cells per sample</text>
+<text x="258" y="58" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">density profile</text>
+<text x="500" y="58" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">sample embedding</text>
+<!-- sample 1 -->
+<rect x="20" y="70" width="130" height="84" rx="6" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<text x="28" y="88" font-size="13" fill="#2B3138">Sample 1</text>
+<g fill="#1E5FA8"><circle cx="38" cy="108" r="4"/><circle cx="48" cy="118" r="4"/><circle cx="34" cy="126" r="4"/><circle cx="56" cy="104" r="4"/><circle cx="52" cy="132" r="4"/><circle cx="68" cy="120" r="4"/><circle cx="42" cy="140" r="4"/><circle cx="64" cy="138" r="4"/><circle cx="78" cy="110" r="4"/></g>
+<g fill="#D98A00"><circle cx="118" cy="112" r="4"/><circle cx="130" cy="130" r="4"/></g>
+<!-- sample 2 -->
+<rect x="20" y="170" width="130" height="84" rx="6" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<text x="28" y="188" font-size="13" fill="#2B3138">Sample 2</text>
+<g fill="#1E5FA8"><circle cx="40" cy="214" r="4"/><circle cx="60" cy="230" r="4"/><circle cx="48" cy="240" r="4"/></g>
+<g fill="#D98A00"><circle cx="100" cy="206" r="4"/><circle cx="112" cy="216" r="4"/><circle cx="124" cy="204" r="4"/><circle cx="108" cy="232" r="4"/><circle cx="122" cy="238" r="4"/><circle cx="96" cy="222" r="4"/><circle cx="134" cy="222" r="4"/></g>
+<!-- sample 3 -->
+<rect x="20" y="270" width="130" height="84" rx="6" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<text x="28" y="288" font-size="13" fill="#2B3138">Sample 3</text>
+<g fill="#1E5FA8"><circle cx="40" cy="316" r="4"/><circle cx="70" cy="336" r="4"/><circle cx="56" cy="304" r="4"/></g>
+<g fill="#D98A00"><circle cx="110" cy="306" r="4"/><circle cx="130" cy="334" r="4"/><circle cx="96" cy="338" r="4"/></g>
+<g fill="#3C9A2E"><circle cx="84" cy="318" r="4"/><circle cx="116" cy="322" r="4"/><circle cx="46" cy="340" r="4"/></g>
+<!-- arrows to density -->
+<g stroke="#8A949E" stroke-width="2.5" fill="#8A949E"><path d="M152 112 L204 112"/><polygon points="204,105 216,112 204,119"/><path d="M152 212 L204 212"/><polygon points="204,205 216,212 204,219"/><path d="M152 312 L204 312"/><polygon points="204,305 216,312 204,319"/></g>
+<!-- density grids -->
+<g stroke="#FFFFFF" stroke-width="1" fill="#1E5FA8">
+<rect x="220" y="76" width="24" height="24" fill-opacity="0.9"/><rect x="244" y="76" width="24" height="24" fill-opacity="0.6"/><rect x="268" y="76" width="24" height="24" fill-opacity="0.15"/><rect x="292" y="76" width="24" height="24" fill-opacity="0.45"/>
+<rect x="220" y="100" width="24" height="24" fill-opacity="0.7"/><rect x="244" y="100" width="24" height="24" fill-opacity="0.3"/><rect x="268" y="100" width="24" height="24" fill-opacity="0.1"/><rect x="292" y="100" width="24" height="24" fill-opacity="0.1"/>
+<rect x="220" y="124" width="24" height="24" fill-opacity="0.5"/><rect x="244" y="124" width="24" height="24" fill-opacity="0.8"/><rect x="268" y="124" width="24" height="24" fill-opacity="0.2"/><rect x="292" y="124" width="24" height="24" fill-opacity="0.1"/>
+<rect x="220" y="176" width="24" height="24" fill-opacity="0.15"/><rect x="244" y="176" width="24" height="24" fill-opacity="0.1"/><rect x="268" y="176" width="24" height="24" fill-opacity="0.5"/><rect x="292" y="176" width="24" height="24" fill-opacity="0.85"/>
+<rect x="220" y="200" width="24" height="24" fill-opacity="0.2"/><rect x="244" y="200" width="24" height="24" fill-opacity="0.1"/><rect x="268" y="200" width="24" height="24" fill-opacity="0.7"/><rect x="292" y="200" width="24" height="24" fill-opacity="0.9"/>
+<rect x="220" y="224" width="24" height="24" fill-opacity="0.1"/><rect x="244" y="224" width="24" height="24" fill-opacity="0.3"/><rect x="268" y="224" width="24" height="24" fill-opacity="0.6"/><rect x="292" y="224" width="24" height="24" fill-opacity="0.5"/>
+<rect x="220" y="276" width="24" height="24" fill-opacity="0.4"/><rect x="244" y="276" width="24" height="24" fill-opacity="0.2"/><rect x="268" y="276" width="24" height="24" fill-opacity="0.35"/><rect x="292" y="276" width="24" height="24" fill-opacity="0.2"/>
+<rect x="220" y="300" width="24" height="24" fill-opacity="0.2"/><rect x="244" y="300" width="24" height="24" fill-opacity="0.55"/><rect x="268" y="300" width="24" height="24" fill-opacity="0.3"/><rect x="292" y="300" width="24" height="24" fill-opacity="0.45"/>
+<rect x="220" y="324" width="24" height="24" fill-opacity="0.45"/><rect x="244" y="324" width="24" height="24" fill-opacity="0.15"/><rect x="268" y="324" width="24" height="24" fill-opacity="0.4"/><rect x="292" y="324" width="24" height="24" fill-opacity="0.25"/>
+</g>
+<!-- arrows to embedding -->
+<g stroke="#8A949E" stroke-width="2.5" fill="#8A949E"><path d="M320 112 L384 150"/><polygon points="378,160 394,156 386,142"/><path d="M320 212 L384 212"/><polygon points="384,205 396,212 384,219"/><path d="M320 312 L384 274"/><polygon points="378,264 394,268 386,282"/></g>
+<!-- embedding panel -->
+<rect x="400" y="70" width="220" height="286" rx="6" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<g stroke="#2B3138" stroke-width="2" fill="#2B3138"><path d="M418 332 L418 88"/><polygon points="411,98 418,84 425,98"/><path d="M418 332 L604 332"/><polygon points="594,325 608,332 594,339"/></g>
+<text x="513" y="350" text-anchor="middle" font-size="13" fill="#2B3138">infection axis</text>
+<text x="436" y="210" font-size="13" fill="#2B3138" transform="rotate(-90 436 210)" text-anchor="middle">severity axis</text>
+<ellipse cx="480" cy="270" rx="44" ry="30" fill="#EAF1F9" stroke="#1E5FA8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<ellipse cx="560" cy="130" rx="38" ry="30" fill="#F6DADD" stroke="#C8323F" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="480" y="312" text-anchor="middle" font-size="13" fill="#1E5FA8">subgroup</text>
+<text x="560" y="96" text-anchor="middle" font-size="13" fill="#C8323F">subgroup</text>
+<path d="M468 268 C500 240 500 190 530 168 C545 158 550 148 556 136" fill="none" stroke="#2B3138" stroke-width="2.5" stroke-dasharray="7 5"/>
+<polygon points="548,132 562,122 562,140" fill="#2B3138" transform="rotate(10 556 132)"/>
+<text x="506" y="204" font-size="13" fill="#2B3138">disease</text>
+<text x="506" y="220" font-size="13" fill="#2B3138">trajectory</text>
+<circle cx="468" cy="268" r="9" fill="#D98A00"/><text x="468" y="272" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+<circle cx="520" cy="176" r="9" fill="#3C9A2E"/><text x="520" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+<circle cx="560" cy="130" r="9" fill="#C8323F"/><text x="560" y="134" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+</svg>

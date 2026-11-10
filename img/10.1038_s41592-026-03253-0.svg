@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Epi-PHR: two marks, one in-situ signal</text>
+<!-- left: zoom on chromatin -->
+<rect x="20" y="50" width="300" height="330" rx="8" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+<text x="170" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">one locus, zoomed in</text>
+<path d="M36 250 C80 250 90 250 120 250 L220 250 C250 250 270 250 304 250" stroke="#2B3138" stroke-width="3" fill="none"/>
+<circle cx="130" cy="250" r="26" fill="#EEF0F2" stroke="#8A949E" stroke-width="3"/>
+<circle cx="210" cy="250" r="26" fill="#EEF0F2" stroke="#8A949E" stroke-width="3"/>
+<text x="130" y="255" text-anchor="middle" font-size="13" fill="#2B3138">nucl.</text>
+<text x="210" y="255" text-anchor="middle" font-size="13" fill="#2B3138">nucl.</text>
+<!-- mark A -->
+<path d="M130 224 L130 190" stroke="#3C9A2E" stroke-width="3"/>
+<circle cx="130" cy="184" r="8" fill="#3C9A2E"/>
+<text x="118" y="212" text-anchor="end" font-size="13" font-weight="bold" fill="#3C9A2E">mark A</text>
+<!-- mark B -->
+<path d="M210 224 L210 190" stroke="#C8323F" stroke-width="3"/>
+<circle cx="210" cy="184" r="8" fill="#C8323F"/>
+<text x="218" y="212" font-size="13" font-weight="bold" fill="#C8323F">mark B</text>
+<!-- antibody-oligo probes -->
+<path d="M130 176 L118 150 L142 150 Z" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2.5"/>
+<path d="M210 176 L198 150 L222 150 Z" fill="#FFFFFF" stroke="#C8323F" stroke-width="2.5"/>
+<path d="M142 140 C150 110 190 110 198 140" stroke="#2B3138" stroke-width="2.5" fill="none" stroke-dasharray="4 3"/>
+<path d="M130 150 C130 120 124 110 130 104" stroke="#3C9A2E" stroke-width="2.5" fill="none"/>
+<path d="M210 150 C210 120 216 110 210 104" stroke="#C8323F" stroke-width="2.5" fill="none"/>
+<text x="170" y="98" text-anchor="middle" font-size="13" fill="#2B3138">antibody + DNA tag</text>
+<!-- readout -->
+<path d="M170 120 L170 306" stroke="#8A949E" stroke-width="2" stroke-dasharray="3 4"/>
+<polygon points="170,336 156,308 184,308" fill="#D98A00"/>
+<text x="170" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#D98A00">tags meet: readout lights up</text>
+<!-- right: nucleus -->
+<text x="475" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">3D genome kept intact</text>
+<ellipse cx="475" cy="214" rx="140" ry="140" fill="#F5F7FA" stroke="#8A949E" stroke-width="2.5"/>
+<!-- maternal chain -->
+<path d="M390 160 C410 120 450 140 440 180 C432 214 400 210 410 250" fill="none" stroke="#1E5FA8" stroke-width="3"/>
+<g fill="#1E5FA8"><circle cx="390" cy="160" r="6"/><circle cx="412" cy="130" r="6"/><circle cx="448" cy="140" r="6"/><circle cx="440" cy="180" r="6"/><circle cx="420" cy="208" r="6"/><circle cx="410" cy="250" r="6"/></g>
+<circle cx="448" cy="140" r="11" fill="none" stroke="#3C9A2E" stroke-width="2.5"/><circle cx="420" cy="208" r="11" fill="none" stroke="#C8323F" stroke-width="2.5"/>
+<!-- paternal chain -->
+<path d="M520 290 C560 300 580 260 550 240 C520 222 540 190 570 180 C590 172 580 140 560 130" fill="none" stroke="#D98A00" stroke-width="3"/>
+<g fill="#D98A00"><circle cx="520" cy="290" r="6"/><circle cx="566" cy="280" r="6"/><circle cx="550" cy="240" r="6"/><circle cx="548" cy="200" r="6"/><circle cx="570" cy="180" r="6"/><circle cx="560" cy="130" r="6"/></g>
+<circle cx="566" cy="280" r="11" fill="none" stroke="#3C9A2E" stroke-width="2.5"/><circle cx="548" cy="200" r="11" fill="none" stroke="#C8323F" stroke-width="2.5"/>
+<text x="420" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E5FA8">maternal allele</text>
+<text x="548" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#D98A00">paternal allele</text>
+<text x="475" y="362" text-anchor="middle" font-size="13" fill="#2B3138">imprinted gene cluster, chromatin tracing</text>
+</svg>

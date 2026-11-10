@@ -1,13 +1,657 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-09T11:20:00Z",
+  "updated": "2026-11-10T11:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02780-y",
-    "10.1038/s41588-026-02781-x",
-    "10.1038/s41588-026-02821-6"
+    "10.1016/j.cell.2026.10.018",
+    "10.1016/j.ccell.2026.10.005",
+    "10.1038/s41592-026-03253-0"
   ],
   "posts": [
+    {
+      "id": "10.1016/j.cell.2026.10.018",
+      "date_added": "2026-11-10",
+      "published": "2026-11-09",
+      "title": "Reconstructing developmental and disease progression with sample-level embeddings.",
+      "authors": "Jiang L, Tan ZC, Grabski IN, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.10.018",
+      "url": "https://doi.org/10.1016/j.cell.2026.10.018",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "scSLIDE turns each sample's single-cell data into a density profile of where its cells sit in high-dimensional space, then embeds samples by comparing those profiles. It is implemented in Seurat v6 and applied to COVID-19, Alzheimer's disease and zebrafish embryogenesis, where it found patient subgroups, disease trajectories and embryonic pseudostages.",
+      "key_points": [
+        "Compares whole samples instead of collapsing them into case versus control labels",
+        "Separates axes of infection and severity in COVID-19 and a trajectory of Alzheimer's progression",
+        "Finds embryonic pseudostages that vary across and within time points"
+      ],
+      "data": "",
+      "code": "Seurat v6",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.cell.2026.10.018.svg",
+        "caption": "Cells in each sample become a density profile, and the profiles place samples in an embedding that shows subgroups and a disease trajectory.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.ccell.2026.10.005",
+      "date_added": "2026-11-10",
+      "published": "2026-11-09",
+      "title": "Decoding neutrophil spatial heterogeneity and clinical implications in breast cancer.",
+      "authors": "Xu YZ, Wu XR, Qiu ZY, et al.",
+      "venue": "Cancer Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.ccell.2026.10.005",
+      "url": "https://doi.org/10.1016/j.ccell.2026.10.005",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Immuno-oncology"
+      ],
+      "summary": "The authors combined AI-based computational pathology (1,113 patients) with single-cell spatial omics (104 patients) to study where neutrophils sit in breast tumours. In triple-negative breast cancer, neutrophils close to tumour cells tracked with better prognosis, and those close to immune cells with better immunotherapy response.",
+      "key_points": [
+        "Tumour-proximal neutrophils raise MHC I on tumour cells through inflammatory crosstalk",
+        "Neutrophils next to immune cells show an antigen-presenting phenotype that polyamine targeting can boost",
+        "Spatial patterns added to existing biomarkers improved TNBC stratification"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.ccell.2026.10.005.svg",
+        "caption": "Neutrophils next to tumour cells raise MHC I and favour prognosis, while neutrophils next to immune cells take an antigen-presenting state linked to immunotherapy response.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03253-0",
+      "date_added": "2026-11-10",
+      "published": "2026-11-05",
+      "title": "Nondisruptive 3D profiling of combinations of epigenetic marks in single cells.",
+      "authors": "Chen Y, Radda JSD, Alderman MH, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03253-0",
+      "url": "https://doi.org/10.1038/s41592-026-03253-0",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Epigenomics"
+      ],
+      "summary": "Epi-PHR is an image-based method that detects combinations of epigenetic marks in situ at hundreds of gene targets in single cells while keeping 3D genome organisation intact. Combined with chromatin tracing, it linked mark enrichment to chromatin folding of an imprinted gene cluster separately for the maternal and paternal alleles.",
+      "key_points": [
+        "Reads two marks at once at the same locus without disrupting the nucleus",
+        "Phased Epi-PHR tells apart alleles of different parental origin",
+        "Reveals unexpected links between mark enrichment and chromatin folding at the imprinted cluster"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03253-0.svg",
+        "caption": "Two mark-bound probes whose DNA tags meet give an in-situ signal, which is read on maternal and paternal alleles inside an intact nucleus.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.10.015",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "PARP1 hyperactivation uncouples transcription from protein expression through nuclear RNA retention.",
+      "authors": "Ortega P, Bournique E, Sanchez A, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.10.015",
+      "url": "https://doi.org/10.1016/j.molcel.2026.10.015",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Hyperactivated PARP1, driven by APE1 cleavage of abasic sites, suppresses global mRNA translation in human cells. Excess PAR competes with RNA for RNA-binding proteins, disrupting splicing and export, so RNA is retained in the nucleus and less reaches the cytoplasm.",
+      "key_points": [
+        "PAR synthesis competes with RNA for binding to RNA-binding proteins",
+        "Nuclear RNA accumulates and PARP1-dependent nuclear condensates form",
+        "mRNAs of many DNA damage-induced stress factors are blocked from nuclear export"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41576-026-01026-1",
+      "date_added": "2026-11-10",
+      "published": "2026-11-02",
+      "title": "Sequencing and analysis of the human adaptive immune receptor repertoire.",
+      "authors": "ElAbd H, Franke A",
+      "venue": "Nature Reviews Genetics",
+      "type": "Review",
+      "tier": "review",
+      "doi": "10.1038/s41576-026-01026-1",
+      "url": "https://doi.org/10.1038/s41576-026-01026-1",
+      "topics": [
+        "Methods",
+        "Immuno-oncology"
+      ],
+      "summary": "This Review covers how T cell and B cell receptor repertoires form through V(D)J recombination and how inherited variation shapes them. It also discusses the experimental and computational advances that turn repertoire sequencing data into insight, clinical use and therapies.",
+      "key_points": [
+        "Repertoire profiling is used to monitor cancer, infection, vaccination and inflammatory disease",
+        "Covers the role of inherited genetic variation in repertoire architecture",
+        "Surveys computational analysis of repertoire data"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04236-2",
+      "date_added": "2026-11-10",
+      "published": "2026-08-11",
+      "title": "Impact of data quality on deep learning prediction of spatial transcriptomics from histology images.",
+      "authors": "Hallinan C, Lucas CG, Fan J",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04236-2",
+      "url": "https://doi.org/10.1186/s13059-026-04236-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "This study asks how the quality of training data affects deep learning models that predict spatial gene expression from H&E images. In silico ablation showed that sparser and noisier molecular data and lower image resolution reduce accuracy, and imputation rescued performance only slightly.",
+      "key_points": [
+        "Sparsity and noise in spatial transcriptomics data degrade prediction",
+        "Imputation gave limited gains that did not generalise beyond the test set",
+        "Lower image resolution also hurts accuracy and model interpretability"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aeg0571",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "BCLAF1 links RNA splicing to ATF4-dependent metabolic adaptation in acute myeloid leukemia.",
+      "authors": "López-Hernández L, Crowley SJ, Cea-Sánchez S, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aeg0571",
+      "url": "https://doi.org/10.1126/sciadv.aeg0571",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "BCLAF1 binds core spliceosome components and controls alternative splicing in human AML cells and mouse models. It is needed for productive splicing of ATF4 mRNA, so losing it lowers ATF4 protein, impairs amino acid synthesis and increases sensitivity to venetoclax.",
+      "key_points": [
+        "BCLAF1 physically associates with the spliceosome",
+        "Productive ATF4 splicing sustains metabolic gene programs",
+        "BCLAF1 loss raises venetoclax sensitivity"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aec2297",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "METTL3-mediated m6A modification of DNMT1 enhances ovarian cancer progression.",
+      "authors": "Kumari K, Pérez-Núñez I, Noguera Castells A, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aec2297",
+      "url": "https://doi.org/10.1126/sciadv.aec2297",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "In high-grade serous ovarian carcinoma, METTL3 deposits m6A on DNMT1 mRNA and boosts its translation. Genetic or drug inhibition of METTL3 or METTL14 impairs proliferation and tumour progression and derepresses the tumour suppressors TNFAIP3 and FBXO32.",
+      "key_points": [
+        "m6A-METTL3 axis raises DNMT1 translation",
+        "METTL3 inhibition lowers DNMT1 and derepresses TNFAIP3 and FBXO32",
+        "DNMT1 mainly mediates the effect on migration, not proliferation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aeg8317",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "N6-methyladenosine-dependent ARv7 translation couples lactate metabolism with enzalutamide resistance in prostate cancer.",
+      "authors": "Zhang M, Cheng B, Jia M, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aeg8317",
+      "url": "https://doi.org/10.1126/sciadv.aeg8317",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "ARv7 mRNA carries m6A, and enzalutamide raises METTL3-dependent methylation at A1177, which YTHDC2 reads to increase ARv7 translation. Resistant cells also show high lactate metabolism, and the METTL3 inhibitor STM2457 synergised with enzalutamide against tumour growth.",
+      "key_points": [
+        "METTL3 methylates ARv7 mRNA at A1177 and YTHDC2 reads it",
+        "Lactate metabolism feeds back on AR transcription",
+        "STM2457 plus enzalutamide inhibited tumour growth in vivo"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-1855",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "Multiomics Analysis of Malignant Pleural Mesothelioma Reveals the Immunological Microenvironment Associated with MTAP Loss and Immunotherapy Outcomes.",
+      "authors": "Tateishi A, Yoshida T, Shiraishi K, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-1855",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-1855",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics",
+        "Immuno-oncology"
+      ],
+      "summary": "Whole-genome and RNA sequencing of 52 mesothelioma tumours, validated in a nationwide cohort, looked for features linked to response to checkpoint inhibitors. Responders had higher T-cell receptor diversity, more CD8 T-cell infiltration and more M1 macrophages, and MTAP loss was linked to more CD8 infiltration and a higher response rate.",
+      "key_points": [
+        "BAP1 and NF2 alterations were frequent in both cohorts",
+        "Responders showed greater TCR diversity and CD8 infiltration",
+        "MTAP loss tracked with an inflamed microenvironment and response"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1079",
+      "date_added": "2026-11-10",
+      "published": "2026-11-05",
+      "title": "iGPSC-DB: a comprehensive database for an inferred single-cell genetic perturbation atlas.",
+      "authors": "Wang P, Chen Z, Zhang Y, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1079",
+      "url": "https://doi.org/10.1093/nar/gkag1079",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "iGPSC-DB links 178,114 inferred genetic perturbation events targeting 7,407 genes to more than 9 million single cells from 1,580 samples across 88 cancer types. It offers seven tools to explore how perturbations affect cell function, trajectories, cell-cell communication and combined effects.",
+      "key_points": [
+        "Perturbation effects are inferred from existing tumour single-cell data",
+        "Tools cover cell-cell communication and combination effects",
+        "Aimed at finding therapeutic targets"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77453-9",
+      "date_added": "2026-11-10",
+      "published": "2026-09-21",
+      "title": "Genetic variants associated with cell-type-specific intra-individual gene expression variability reveal mechanisms of genome regulation.",
+      "authors": "Xue A, Yazar S, Alquicira-Hernández J, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77453-9",
+      "url": "https://doi.org/10.1038/s41467-026-77453-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "MEOTIVE is a statistical framework that maps genetic effects on cell-to-cell variability in gene expression while modelling the mean-variance dependence. Applied to 1.2 million blood cells from 980 donors in OneK1K, it found sc-veQTLs for 14 to 3,488 genes depending on cell type, plus 55 SNP-gene pairs for dispersion.",
+      "key_points": [
+        "Separates variability effects from mean expression effects",
+        "rs1131017 in the RPS26 5'UTR is linked to widespread dispersion and lower autoimmune risk",
+        "A monocyte-specific dispersion QTL in LYZ replicates"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081230.126",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "The evolutionary conserved protein-RNA interface formed by the cell-fate regulator Bicaudal-C.",
+      "authors": "Dowdle ME, Johnson-Sheehan ET, Walker MN, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081230.126",
+      "url": "https://doi.org/10.1261/rna.081230.126",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "Binding assays, protein-RNA crosslinking mass spectrometry, sequence alignments and AlphaFold 3 predictions defined how Bicaudal-C (Bicc1) recognises its mRNA targets. It binds a bipartite site of a GAC sequence plus a stem-loop, using both KH1 and KH2 domains, and the interface is conserved from invertebrates to vertebrates.",
+      "key_points": [
+        "Bipartite RNA site: GAC primary sequence and stem-loop",
+        "Key RNA contacts conserved across species and confirmed with recombinant proteins",
+        "AlphaFold 3 model complements the experiments"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081251.126",
+      "date_added": "2026-11-10",
+      "published": "2026-11-05",
+      "title": "High-resolution Analysis of Magnesium Ions in Ribosomes across Species and rRNA Modification States.",
+      "authors": "Shu Y, Zhao Y, Li H",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081251.126",
+      "url": "https://doi.org/10.1261/rna.081251.126",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The authors analysed high-resolution cryo-EM large-subunit structures from three organisms, including variants lacking specific rRNA modifications, to map Mg2+ ions. Distributions are conserved in core regions but differ in peripheral regions and near 2'-O-methylation and pseudouridine sites when those modifications are lost.",
+      "key_points": [
+        "Mg2+ positions largely conserved across species and modification states",
+        "Differences appear near 2'-O-methyl and pseudouridine sites",
+        "Positively charged residues in human-specific proteins can stand in for Mg2+"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1002/hed.70536",
+      "date_added": "2026-11-10",
+      "published": "2026-11-09",
+      "title": "Far Medial Endoscopic Transcervical Approach for Excision of a Recurrent Clival Chordoma Involving the Parapharyngeal and Prevertebral Spaces.",
+      "authors": "Kim JD, Brandel MG, Podury A, et al.",
+      "venue": "Head & Neck",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1002/hed.70536",
+      "url": "https://doi.org/10.1002/hed.70536",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A case report of a 16-year-old with recurrent clival chordoma in the right prevertebral and parapharyngeal space at C1-C2, after chemoradiation, multiple operations and proton therapy. An endoscopic transcervical approach through an unoperated corridor gave gross total resection without complication.",
+      "key_points": [
+        "Salvage surgery through unoperated, unirradiated tissue",
+        "Early control of great vessels and lower cranial nerves",
+        "Bimanual endoscopic technique with low wound-healing risk"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.04.762854",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "Pervasive chromothripsis drives pleural mesothelioma to impact gene function and patient survival.",
+      "authors": "Semple C, Sherwood K, Aitken S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.04.762854",
+      "url": "https://doi.org/10.64898/2026.11.04.762854",
+      "topics": [
+        "Cancer genomics",
+        "Structural variants",
+        "Copy number"
+      ],
+      "summary": "Joint genome and transcriptome profiling of 443 pleural mesotheliomas found that most driver variants act through copy number changes, with chromothripsis in 74% of tumours and chromoplexy in 59%. Chromothripsis creates hotspots that delete CDKN2A, NF2 and BAP1 and is linked to worse survival.",
+      "key_points": [
+        "Chromothripsis drives deletion of known tumour suppressors",
+        "Presence of chromothripsis tracks with worse survival",
+        "Mitochondrial and nuclear genomes show crosstalk during evolution"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.06.764802",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "Somatic Structural Variant Discovery from Tumor Specific Strings Computed Against a Draft Composite Germline Reference.",
+      "authors": "Monti DC, Ciccolella S, Cozzi D, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.06.764802",
+      "url": "https://doi.org/10.64898/2026.11.06.764802",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "VESPA-SS finds somatic structural variants from tumour-normal long-read data by extracting tumour-specific strings against a draft composite germline reference, with no read mapping step. On PacBio HiFi data it beat other somatic SV callers on the HG008 and COLO829 cancer cell lines.",
+      "key_points": [
+        "No initial read mapping or high-quality germline assembly needed",
+        "F1 above 0.92 on HG008 and above 0.90 on COLO829",
+        "Free software on GitHub"
+      ],
+      "data": "",
+      "code": "github.com/dcmonti/VESPA"
+    },
+    {
+      "id": "10.64898/2026.11.05.764632",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "Somatic structural variation discovery on cancer pangenome graphs.",
+      "authors": "Kara M, Ashyralyyev A, Alkan C",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764632",
+      "url": "https://doi.org/10.64898/2026.11.05.764632",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "JANUS calls somatic structural variants inside a personal pangenome graph built from matched normal and tumour PacBio HiFi reads, finding sites traversed only by tumour reads before any alignment. It led an 18-caller consensus on five tumour-normal pairs and was about 24 times faster than read alignment alone.",
+      "key_points": [
+        "Reference-unbiased and keeps sensitivity at low coverage and purity",
+        "Joint graph calling across samples beat independent pairwise runs in simulation",
+        "Free software on GitHub"
+      ],
+      "data": "",
+      "code": "github.com/BilkentCompGen/janus"
+    },
+    {
+      "id": "10.64898/2026.06.26.734559",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "MintCNA: A Unified Framework for Integrative Copy Number Profiling with Single-Cell Multi-Omics Data.",
+      "authors": "Bao W, Qin F, Xiao F",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.06.26.734559",
+      "url": "https://doi.org/10.64898/2026.06.26.734559",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "MintCNA calls copy number alterations from paired single-cell multi-omics data, using deep-learning denoising with a missingness-adjusted multivariate change-point procedure. It beat other single-cell CNA callers in simulations, tracked bulk WGS in colorectal cancer and found copy number subclones in IDH-mutant glioma.",
+      "key_points": [
+        "Works on paired DNA/RNA and ATAC/RNA data",
+        "Showed progressive loss of chromosome 17 during colorectal metastasis",
+        "Subclones matched distinct malignant cell states in glioma"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.01.763496",
+      "date_added": "2026-11-10",
+      "published": "2026-11-05",
+      "title": "OncoSpot enables benchmarking of cancer spatial transcriptomics methods across tumor evolutionary modes.",
+      "authors": "Bhattarai P, Yuan W, Zhou XM, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.01.763496",
+      "url": "https://doi.org/10.64898/2026.11.01.763496",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "OncoSpot simulates Visium-like cancer spatial data with known copy number profiles, subclones and malignant fractions, using spatial tumour evolution models. Benchmarking CopyKAT, CancerFinder, Clonalscope and RCTD on ovarian, colorectal and liver cancer showed cancer-dependent performance and a failure mode in Clonalscope.",
+      "key_points": [
+        "Ground truth for CNAs, subclones and malignant spots",
+        "Method performance depended on the cancer's evolutionary mode",
+        "Free software on GitHub"
+      ],
+      "data": "",
+      "code": "github.com/compbio-mallory/OncoSpot"
+    },
+    {
+      "id": "10.64898/2026.11.05.764698",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "spearfish: ultrafast Δ-mapping of long reads to redundant transcriptomes.",
+      "authors": "Abdelgawad H, Martayan I, Marchet C, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764698",
+      "url": "https://doi.org/10.64898/2026.11.05.764698",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "spearfish maps long reads to transcriptomes by aligning only where isoforms differ, using a graph of shared sequence. It mapped reads 26 to 83 times faster than minimap2 and, with oarfish, gave abundance estimates that matched or beat minimap2-based ones.",
+      "key_points": [
+        "Skips sequence shared by all candidate isoforms",
+        "Uses much less memory than minimap2",
+        "Quantification 3.0 to 8.8 times faster than lr-kallisto"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.03.764063",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "Long read sequencing reveals changes in measured isoform structure and abundance due to RNA processing.",
+      "authors": "Aharon R, Oshlack A",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.03.764063",
+      "url": "https://doi.org/10.64898/2026.11.03.764063",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "Using seven SG-NEx cell line datasets, the authors compared nanopore direct RNA, direct cDNA and PCR-amplified cDNA to measure bias from reverse transcription and PCR. Hundreds of genes and isoforms differed between protocols, with more exitrons after RT and amplification and lower PCR counts for transcripts with high m6A.",
+      "key_points": [
+        "Differential transcript usage between protocols involves complex structural changes",
+        "Inserted introns (exitrons) more common after RT and amplification",
+        "Raw coverage plots were key to validating findings"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764757",
+      "date_added": "2026-11-10",
+      "published": "2026-11-09",
+      "title": "scPolyA enables efficient, interactive and agent-guided alternative polyadenylation analysis in single-cell and spatial transcriptomes.",
+      "authors": "Yang J, Yang H, Liu L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764757",
+      "url": "https://doi.org/10.64898/2026.11.05.764757",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "scPolyA turns standard single-cell and spatial 3'-end data into maps of poly(A) site usage, 3'UTR length and intronic polyadenylation, with a deep-learning module (DeepCPS) for cleavage sites. In cutaneous squamous cell carcinoma it found recurrent 3'UTR shortening in tumour keratinocytes across all ten patients.",
+      "key_points": [
+        "Includes a graphical workspace and an AI agent for APA analysis",
+        "Higher agreement with reference atlases than most de novo methods",
+        "Competitive runtime and memory use"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.03.763976",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "Neural RNA splicing models rely on reading frame information unavailable to the splicing machinery.",
+      "authors": "Gupta K, Wang B, Sharp PA, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.03.763976",
+      "url": "https://doi.org/10.64898/2026.11.03.763976",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning",
+        "Splicing"
+      ],
+      "summary": "The authors tested common deep learning splice-site predictors with mutations that should not strongly affect splicing. Predictions changed far more for frame-shifting deletions and in-frame stop codons than for frame-preserving ones, so the models systematically miss poison exons.",
+      "key_points": [
+        "Black-box models use information the splicing machinery cannot access",
+        "Grey-box models with splicing-specific structure depend on it much less",
+        "Code on GitHub"
+      ],
+      "data": "",
+      "code": "github.com/kavigupta/frame-alignment-checks"
+    },
+    {
+      "id": "10.64898/2026.11.03.762080",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases.",
+      "authors": "Turhan B, Lee H, Liu D, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.03.762080",
+      "url": "https://doi.org/10.64898/2026.11.03.762080",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "Perturbscape learns gene programs for individual perturbations in CRISPR Perturb-seq screens and integrates them with human genetics to prioritise disease genes and pathways. Across 7 Perturb-seq systems and 53 diseases and traits, perturbation programs were more informative for heritability than steady-state gene prioritisation.",
+      "key_points": [
+        "Preserving perturbation-specific programs beat pooled or control-derived programs",
+        "In HepG2 it revealed statin-responsive pathways linked to LDL cholesterol",
+        "Supported by orthogonal CRISPRi screens and trans-eQTLs"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02780-y",
       "date_added": "2026-11-09",
