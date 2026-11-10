@@ -1,6 +1,6 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-10T11:30:00Z",
+  "updated": "2026-11-10T11:45:00Z",
   "retention_days": 90,
   "featured": [
     "10.1016/j.cell.2026.10.018",
@@ -8,6 +8,158 @@
     "10.1038/s41592-026-03253-0"
   ],
   "posts": [
+    {
+      "id": "10.64898/2026.11.07.765116",
+      "date_added": "2026-11-10",
+      "published": "2026-11-10",
+      "title": "KLONE: An Imbalance-Robust k-NN Ensemble for Cross-Modal Single-Cell Clone Assignment.",
+      "authors": "Huang X, Ye S, Silva A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.07.765116",
+      "url": "https://doi.org/10.64898/2026.11.07.765116",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "KLONE assigns unpaired scRNA-seq cells to copy-number clones found by scDNA-seq in the same tumour, using a per-clone k-nearest-neighbour ensemble on cross-modal Pearson similarity. Each clone gets an equal neighbourhood budget so majority clones do not dominate. On three colorectal cancer patients it was the most accurate of seven methods and recalled minority clones fully.",
+      "key_points": [
+        "Needs no parametric model or clone labels for RNA cells",
+        "Equal neighbourhood budget protects minority subclones",
+        "Recovered the clonal distribution of RNA cells almost exactly"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.03.763977",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "A Distinct Mode of Chromosome-End Genome Instability Revealed by Circulome Characterization and Analyses.",
+      "authors": "Roy G, Lei Z, McCoy M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.03.763977",
+      "url": "https://doi.org/10.64898/2026.11.03.763977",
+      "topics": [
+        "Cancer genomics",
+        "Structural variants"
+      ],
+      "summary": "The authors isolated circular DNA physically and chemically and sequenced it in cancer cell lines and patient tumours, with non-cancer cells and adjacent normal tissue as controls. The circle maps showed enrichment at particular chromosome ends, reaching up to tens of megabases inward, with matching rearrangements in the linear genome, a pattern they call EDGE.",
+      "key_points": [
+        "Circular element maps are enriched at chromosome ends",
+        "The EDGE signal beat interior regions at separating bladder tumour from matched normal",
+        "Frames chromosome-end instability as a spatial signature of cancer"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.01.763455",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "SQANTI-evidence: isoform-resolved, evidence-tiered structural annotation of unannotated genomes from long-read RNA-seq.",
+      "authors": "Atienza Lopez P, Conesa A",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.01.763455",
+      "url": "https://doi.org/10.64898/2026.11.01.763455",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "SQANTI-evidence annotates a genome from long-read RNA-seq alone, with no reference annotation or protein database. SQANTI3-curated transcripts enter as observed, with isoforms and UTRs, and AUGUSTUS predicts genes where reads give no support. It was the most precise gene set in five of seven species and was used to annotate 13 ERGA datasets.",
+      "key_points": [
+        "Recovered twice as many exact isoforms as BRAKER in mammals",
+        "3' ends placed nearest the poly(A) site",
+        "Evidence-tiered output"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.03.763780",
+      "date_added": "2026-11-10",
+      "published": "2026-11-04",
+      "title": "Leveraging short and long-read sequencing to comprehensively characterize alternatively polyadenylated and alternatively spliced transcripts.",
+      "authors": "Gupta M, Pasipamire L, Peart N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.03.763780",
+      "url": "https://doi.org/10.64898/2026.11.03.763780",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "Splicing"
+      ],
+      "summary": "In mantle cell lymphoma, short-read data showed no widespread 3'UTR shortening, but SOX11 and ATM made short-3'UTR transcripts and both canonical and non-canonical polyadenylation signals were used. Combining short and long reads classified splice variants of genes including PTEN and EZH2, and GLS1 expression was validated at protein level and with GLS1 inhibitors.",
+      "key_points": [
+        "Polyadenylation signals used by specific transcripts were verified experimentally",
+        "Long reads helped classify splice variants",
+        "Mixed computational and experimental work"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.06.764851",
+      "date_added": "2026-11-10",
+      "published": "2026-11-09",
+      "title": "Systematic promoter perturbation reveals limitations of AlphaGenome gene expression predictions.",
+      "authors": "Sreenivasan VKA, Aksu ED, Spielmann M",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.06.764851",
+      "url": "https://doi.org/10.64898/2026.11.06.764851",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Benchmarking"
+      ],
+      "summary": "The authors disrupted 2,111 annotated promoters in silico with shuffling, random substitution and N-masking, and compared AlphaGenome's predicted CAGE and RNA-seq signals across 20 tissues. Promoter disruption sharply cut predicted CAGE activity but much less of the predicted RNA-seq signal, and the effect often failed to reach downstream exons.",
+      "key_points": [
+        "CAGE and RNA-seq predictions uncouple after promoter loss",
+        "Discordance is larger in longer genes",
+        "Argues for biological benchmarking before using such models for noncoding variants"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764670",
+      "date_added": "2026-11-10",
+      "published": "2026-11-06",
+      "title": "Structural Variant Aware Identity-by-Descent Detection on Pangenome Graphs.",
+      "authors": "Islam UI, Marsico F, Garrison E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764670",
+      "url": "https://doi.org/10.64898/2026.11.05.764670",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants"
+      ],
+      "summary": "GIBD finds identity-by-descent segments in the Graph Burrows-Wheeler Transform of a pangenome graph and labels each segment with the structural variants it carries. Its power and accuracy were within 0.009 and 0.001 of hap-ibd, and it ran in 33 seconds versus 9.6 hours for a pangenome-based method.",
+      "key_points": [
+        "Insertion, deletion and inversion labels had precision 1.000 in HPRC-based simulations",
+        "Correctly tracked a disease-associated 900-kb inversion at 17q21.31 across three generations",
+        "Reports no IBD between unrelated family members"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1016/j.cell.2026.10.018",
       "date_added": "2026-11-10",
@@ -120,30 +272,6 @@
         "PAR synthesis competes with RNA for binding to RNA-binding proteins",
         "Nuclear RNA accumulates and PARP1-dependent nuclear condensates form",
         "mRNAs of many DNA damage-induced stress factors are blocked from nuclear export"
-      ],
-      "data": "",
-      "code": ""
-    },
-    {
-      "id": "10.1038/s41576-026-01026-1",
-      "date_added": "2026-11-10",
-      "published": "2026-11-02",
-      "title": "Sequencing and analysis of the human adaptive immune receptor repertoire.",
-      "authors": "ElAbd H, Franke A",
-      "venue": "Nature Reviews Genetics",
-      "type": "Review",
-      "tier": "review",
-      "doi": "10.1038/s41576-026-01026-1",
-      "url": "https://doi.org/10.1038/s41576-026-01026-1",
-      "topics": [
-        "Methods",
-        "Immuno-oncology"
-      ],
-      "summary": "This Review covers how T cell and B cell receptor repertoires form through V(D)J recombination and how inherited variation shapes them. It also discusses the experimental and computational advances that turn repertoire sequencing data into insight, clinical use and therapies.",
-      "key_points": [
-        "Repertoire profiling is used to monitor cancer, infection, vaccination and inflammatory disease",
-        "Covers the role of inherited genetic variation in repertoire architecture",
-        "Surveys computational analysis of repertoire data"
       ],
       "data": "",
       "code": ""
@@ -394,83 +522,6 @@
       "code": ""
     },
     {
-      "id": "10.64898/2026.11.04.762854",
-      "date_added": "2026-11-10",
-      "published": "2026-11-04",
-      "title": "Pervasive chromothripsis drives pleural mesothelioma to impact gene function and patient survival.",
-      "authors": "Semple C, Sherwood K, Aitken S, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.64898/2026.11.04.762854",
-      "url": "https://doi.org/10.64898/2026.11.04.762854",
-      "topics": [
-        "Cancer genomics",
-        "Structural variants",
-        "Copy number"
-      ],
-      "summary": "Joint genome and transcriptome profiling of 443 pleural mesotheliomas found that most driver variants act through copy number changes, with chromothripsis in 74% of tumours and chromoplexy in 59%. Chromothripsis creates hotspots that delete CDKN2A, NF2 and BAP1 and is linked to worse survival.",
-      "key_points": [
-        "Chromothripsis drives deletion of known tumour suppressors",
-        "Presence of chromothripsis tracks with worse survival",
-        "Mitochondrial and nuclear genomes show crosstalk during evolution"
-      ],
-      "data": "",
-      "code": ""
-    },
-    {
-      "id": "10.64898/2026.11.06.764802",
-      "date_added": "2026-11-10",
-      "published": "2026-11-06",
-      "title": "Somatic Structural Variant Discovery from Tumor Specific Strings Computed Against a Draft Composite Germline Reference.",
-      "authors": "Monti DC, Ciccolella S, Cozzi D, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.64898/2026.11.06.764802",
-      "url": "https://doi.org/10.64898/2026.11.06.764802",
-      "topics": [
-        "Cancer genomics",
-        "Computational",
-        "Long-read",
-        "Structural variants"
-      ],
-      "summary": "VESPA-SS finds somatic structural variants from tumour-normal long-read data by extracting tumour-specific strings against a draft composite germline reference, with no read mapping step. On PacBio HiFi data it beat other somatic SV callers on the HG008 and COLO829 cancer cell lines.",
-      "key_points": [
-        "No initial read mapping or high-quality germline assembly needed",
-        "F1 above 0.92 on HG008 and above 0.90 on COLO829",
-        "Free software on GitHub"
-      ],
-      "data": "",
-      "code": "github.com/dcmonti/VESPA"
-    },
-    {
-      "id": "10.64898/2026.11.05.764632",
-      "date_added": "2026-11-10",
-      "published": "2026-11-06",
-      "title": "Somatic structural variation discovery on cancer pangenome graphs.",
-      "authors": "Kara M, Ashyralyyev A, Alkan C",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.64898/2026.11.05.764632",
-      "url": "https://doi.org/10.64898/2026.11.05.764632",
-      "topics": [
-        "Cancer genomics",
-        "Computational",
-        "Long-read",
-        "Structural variants"
-      ],
-      "summary": "JANUS calls somatic structural variants inside a personal pangenome graph built from matched normal and tumour PacBio HiFi reads, finding sites traversed only by tumour reads before any alignment. It led an 18-caller consensus on five tumour-normal pairs and was about 24 times faster than read alignment alone.",
-      "key_points": [
-        "Reference-unbiased and keeps sensitivity at low coverage and purity",
-        "Joint graph calling across samples beat independent pairwise runs in simulation",
-        "Free software on GitHub"
-      ],
-      "data": "",
-      "code": "github.com/BilkentCompGen/janus"
-    },
-    {
       "id": "10.64898/2026.06.26.734559",
       "date_added": "2026-11-10",
       "published": "2026-11-06",
@@ -492,84 +543,6 @@
         "Works on paired DNA/RNA and ATAC/RNA data",
         "Showed progressive loss of chromosome 17 during colorectal metastasis",
         "Subclones matched distinct malignant cell states in glioma"
-      ],
-      "data": "",
-      "code": ""
-    },
-    {
-      "id": "10.64898/2026.11.01.763496",
-      "date_added": "2026-11-10",
-      "published": "2026-11-05",
-      "title": "OncoSpot enables benchmarking of cancer spatial transcriptomics methods across tumor evolutionary modes.",
-      "authors": "Bhattarai P, Yuan W, Zhou XM, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.64898/2026.11.01.763496",
-      "url": "https://doi.org/10.64898/2026.11.01.763496",
-      "topics": [
-        "Methods",
-        "Computational",
-        "Spatial",
-        "Benchmarking"
-      ],
-      "summary": "OncoSpot simulates Visium-like cancer spatial data with known copy number profiles, subclones and malignant fractions, using spatial tumour evolution models. Benchmarking CopyKAT, CancerFinder, Clonalscope and RCTD on ovarian, colorectal and liver cancer showed cancer-dependent performance and a failure mode in Clonalscope.",
-      "key_points": [
-        "Ground truth for CNAs, subclones and malignant spots",
-        "Method performance depended on the cancer's evolutionary mode",
-        "Free software on GitHub"
-      ],
-      "data": "",
-      "code": "github.com/compbio-mallory/OncoSpot"
-    },
-    {
-      "id": "10.64898/2026.11.05.764698",
-      "date_added": "2026-11-10",
-      "published": "2026-11-06",
-      "title": "spearfish: ultrafast Δ-mapping of long reads to redundant transcriptomes.",
-      "authors": "Abdelgawad H, Martayan I, Marchet C, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.64898/2026.11.05.764698",
-      "url": "https://doi.org/10.64898/2026.11.05.764698",
-      "topics": [
-        "Methods",
-        "Computational",
-        "Long-read",
-        "Isoforms"
-      ],
-      "summary": "spearfish maps long reads to transcriptomes by aligning only where isoforms differ, using a graph of shared sequence. It mapped reads 26 to 83 times faster than minimap2 and, with oarfish, gave abundance estimates that matched or beat minimap2-based ones.",
-      "key_points": [
-        "Skips sequence shared by all candidate isoforms",
-        "Uses much less memory than minimap2",
-        "Quantification 3.0 to 8.8 times faster than lr-kallisto"
-      ],
-      "data": "",
-      "code": ""
-    },
-    {
-      "id": "10.64898/2026.11.03.764063",
-      "date_added": "2026-11-10",
-      "published": "2026-11-04",
-      "title": "Long read sequencing reveals changes in measured isoform structure and abundance due to RNA processing.",
-      "authors": "Aharon R, Oshlack A",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.64898/2026.11.03.764063",
-      "url": "https://doi.org/10.64898/2026.11.03.764063",
-      "topics": [
-        "Methods",
-        "Computational",
-        "Long-read",
-        "Isoforms"
-      ],
-      "summary": "Using seven SG-NEx cell line datasets, the authors compared nanopore direct RNA, direct cDNA and PCR-amplified cDNA to measure bias from reverse transcription and PCR. Hundreds of genes and isoforms differed between protocols, with more exitrons after RT and amplification and lower PCR counts for transcripts with high m6A.",
-      "key_points": [
-        "Differential transcript usage between protocols involves complex structural changes",
-        "Inserted introns (exitrons) more common after RT and amplification",
-        "Raw coverage plots were key to validating findings"
       ],
       "data": "",
       "code": ""
@@ -599,32 +572,6 @@
       ],
       "data": "",
       "code": ""
-    },
-    {
-      "id": "10.64898/2026.11.03.763976",
-      "date_added": "2026-11-10",
-      "published": "2026-11-04",
-      "title": "Neural RNA splicing models rely on reading frame information unavailable to the splicing machinery.",
-      "authors": "Gupta K, Wang B, Sharp PA, et al.",
-      "venue": "bioRxiv",
-      "type": "Preprint",
-      "tier": null,
-      "doi": "10.64898/2026.11.03.763976",
-      "url": "https://doi.org/10.64898/2026.11.03.763976",
-      "topics": [
-        "RNA biology",
-        "Computational",
-        "Machine learning",
-        "Splicing"
-      ],
-      "summary": "The authors tested common deep learning splice-site predictors with mutations that should not strongly affect splicing. Predictions changed far more for frame-shifting deletions and in-frame stop codons than for frame-preserving ones, so the models systematically miss poison exons.",
-      "key_points": [
-        "Black-box models use information the splicing machinery cannot access",
-        "Grey-box models with splicing-specific structure depend on it much less",
-        "Code on GitHub"
-      ],
-      "data": "",
-      "code": "github.com/kavigupta/frame-alignment-checks"
     },
     {
       "id": "10.64898/2026.11.03.762080",

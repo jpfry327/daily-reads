@@ -1,16 +1,58 @@
 {
   "updates": [
     {
-      "date": "2026-11-10T11:30:00Z",
-      "summary": "Added 5 Tier 1 papers (3 featured with hand-drawn illustrations; 1 review), 9 Tier 2 papers, 10 preprints (cap reached) and 1 chordoma case report. PubMed and bioRxiv connectors were both available; bioRxiv listings were read exhaustively by paging in steps of 30.",
+      "date": "2026-11-10T11:45:00Z",
+      "summary": "Added 4 Tier 1 research papers (all 3 featured, with hand-drawn illustrations), 9 Tier 2 papers, 9 preprints and 1 chordoma case report. Several strong candidates (e.g. FLAIR3 variants, JANUS, VESPA-SS, spearfish, a Nat Rev Genet review) turned out to be already posted and were skipped.",
       "counts": {
-        "tier1": 5,
+        "tier1": 4,
         "tier2": 9,
-        "preprint": 10,
+        "preprint": 9,
         "chordoma": 1,
         "removed": 0
       },
       "added": [
+        {
+          "id": "10.64898/2026.11.07.765116",
+          "title": "KLONE: An Imbalance-Robust k-NN Ensemble for Cross-Modal Single-Cell Clone Assignment.",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.11.03.763977",
+          "title": "A Distinct Mode of Chromosome-End Genome Instability Revealed by Circulome Characterization and Analyses.",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Cancer genomics"
+        },
+        {
+          "id": "10.64898/2026.11.01.763455",
+          "title": "SQANTI-evidence: isoform-resolved, evidence-tiered structural annotation of unannotated genomes from long-read RNA-seq.",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.11.03.763780",
+          "title": "Leveraging short and long-read sequencing to comprehensively characterize alternatively polyadenylated and alternatively spliced transcripts.",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "RNA biology"
+        },
+        {
+          "id": "10.64898/2026.11.06.764851",
+          "title": "Systematic promoter perturbation reveals limitations of AlphaGenome gene expression predictions.",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
+        {
+          "id": "10.64898/2026.11.05.764670",
+          "title": "Structural Variant Aware Identity-by-Descent Detection on Pangenome Graphs.",
+          "venue": "bioRxiv",
+          "tier": null,
+          "topic": "Methods"
+        },
         {
           "id": "10.1016/j.cell.2026.10.018",
           "title": "Reconstructing developmental and disease progression with sample-level embeddings.",
@@ -38,13 +80,6 @@
           "venue": "Molecular Cell",
           "tier": 1,
           "topic": "RNA biology"
-        },
-        {
-          "id": "10.1038/s41576-026-01026-1",
-          "title": "Sequencing and analysis of the human adaptive immune receptor repertoire.",
-          "venue": "Nature Reviews Genetics",
-          "tier": "review",
-          "topic": "Methods"
         },
         {
           "id": "10.1186/s13059-026-04236-2",
@@ -117,27 +152,6 @@
           "topic": "Chordoma"
         },
         {
-          "id": "10.64898/2026.11.04.762854",
-          "title": "Pervasive chromothripsis drives pleural mesothelioma to impact gene function and patient survival.",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.64898/2026.11.06.764802",
-          "title": "Somatic Structural Variant Discovery from Tumor Specific Strings Computed Against a Draft Composite Germline Reference.",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Cancer genomics"
-        },
-        {
-          "id": "10.64898/2026.11.05.764632",
-          "title": "Somatic structural variation discovery on cancer pangenome graphs.",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Cancer genomics"
-        },
-        {
           "id": "10.64898/2026.06.26.734559",
           "title": "MintCNA: A Unified Framework for Integrative Copy Number Profiling with Single-Cell Multi-Omics Data.",
           "venue": "bioRxiv",
@@ -145,36 +159,8 @@
           "topic": "Cancer genomics"
         },
         {
-          "id": "10.64898/2026.11.01.763496",
-          "title": "OncoSpot enables benchmarking of cancer spatial transcriptomics methods across tumor evolutionary modes.",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Methods"
-        },
-        {
-          "id": "10.64898/2026.11.05.764698",
-          "title": "spearfish: ultrafast Δ-mapping of long reads to redundant transcriptomes.",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Methods"
-        },
-        {
-          "id": "10.64898/2026.11.03.764063",
-          "title": "Long read sequencing reveals changes in measured isoform structure and abundance due to RNA processing.",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "Methods"
-        },
-        {
           "id": "10.64898/2026.11.05.764757",
           "title": "scPolyA enables efficient, interactive and agent-guided alternative polyadenylation analysis in single-cell and spatial transcriptomes.",
-          "venue": "bioRxiv",
-          "tier": null,
-          "topic": "RNA biology"
-        },
-        {
-          "id": "10.64898/2026.11.03.763976",
-          "title": "Neural RNA splicing models rely on reading frame information unavailable to the splicing machinery.",
           "venue": "bioRxiv",
           "tier": null,
           "topic": "RNA biology"
@@ -217,11 +203,15 @@
           "reason": "Routine database-issue update"
         },
         {
-          "title": "Droplet-MT, SQANTI-evidence, KLONE, splicelogic, MOCHI (bioRxiv)",
-          "reason": "Good matches but ranked below the 10 preprints posted (cap of 10)"
+          "title": "Chordoma in Skull Base J (10.1055/a-2790-2179)",
+          "reason": "Already posted"
         },
         {
-          "title": "Chordoma in Skull Base J (10.1055/a-2790-2179)",
+          "title": "Droplet-MT, splicelogic, MOCHI, isoform-diversity, Edi-Set-Flow (bioRxiv)",
+          "reason": "Already posted in earlier runs"
+        },
+        {
+          "title": "Sequencing and analysis of the human adaptive immune receptor repertoire (Nat Rev Genet)",
           "reason": "Already posted"
         }
       ],
@@ -231,7 +221,8 @@
         "Listing dates for some bioRxiv records are the latest version date; MintCNA (first posted July 2026, v2 in window) is dated by its listing date and was never posted before.",
         "Epi-PHR (Nat Methods) license could not be confirmed as CC BY from PubMed, so all three featured posts use hand-drawn illustrations.",
         "Genome Biol histology/spatial paper has PubMed entry date in window but a publication date of 2026-08-11.",
-        "Rule gap: the README does not say whether Sci Adv/NAR-style reviews or database-issue papers count; I skipped them."
+        "Rule gap: the README does not say whether Sci Adv/NAR-style reviews or database-issue papers count; I skipped them.",
+        "Only 9 preprints posted after removing already-posted DOIs; remaining candidates (e.g. SQANTI-style, Mola chromatin model, DECONVersation) ranked lower."
       ]
     },
     {
