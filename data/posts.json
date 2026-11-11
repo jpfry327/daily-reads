@@ -1,13 +1,613 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-10T11:45:00Z",
+  "updated": "2026-11-11T11:13:13Z",
   "retention_days": 90,
   "featured": [
-    "10.1016/j.cell.2026.10.018",
-    "10.1016/j.ccell.2026.10.005",
-    "10.1038/s41592-026-03253-0"
+    "10.1038/s41592-026-03308-2",
+    "10.1038/s41556-026-02123-3",
+    "10.1038/s41588-026-02825-2"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03308-2",
+      "date_added": "2026-11-11",
+      "published": "2026-11-09",
+      "title": "Deciphering the gene-centric spatial dynamics across tissue and time with GeneSPOT.",
+      "authors": "Zou Q, Wang Z, Li S, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03308-2",
+      "url": "https://doi.org/10.1038/s41592-026-03308-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Multi-omics"
+      ],
+      "summary": "GeneSPOT (Gene SPatial Optimal Transport) is a computational framework for spatial omics that looks at genes rather than cells: it measures how genes are arranged relative to each other in tissue and how that arrangement changes between conditions. It resolved tissue structures, integrated paired and unpaired spatial multi-omics data, and showed gene programmes converging in space during embryonic development. In ageing tissue it found genes whose spatial relationships were reorganised even though their expression did not change significantly.",
+      "key_points": [
+        "Gene-centric complement to the usual cell-centric spatial analysis",
+        "Uses optimal transport to compare gene spatial patterns across conditions",
+        "Finds ageing changes that differential expression misses"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03308-2.svg",
+        "caption": "Two genes that sit together in young tissue lie far apart in aged tissue, a change GeneSPOT scores as a longer transport distance even when expression is unchanged.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41556-026-02123-3",
+      "date_added": "2026-11-11",
+      "published": "2026-11-09",
+      "title": "Full-length RNA sequencing profiles intracellular and extracellular RNAs in euploid and aneuploid human embryos.",
+      "authors": "Sugimoto T, Mariya T, Kato T, et al.",
+      "venue": "Nature Cell Biology",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41556-026-02123-3",
+      "url": "https://doi.org/10.1038/s41556-026-02123-3",
+      "topics": [
+        "RNA biology",
+        "Resource"
+      ],
+      "summary": "The authors ran full-length total RNA sequencing on individual human blastocysts and on the spent culture medium each one grew in. Cell-free RNA in the medium differed by chromosomal status: euploid embryos had stable intracellular and extracellular programmes, while aneuploid embryos showed disrupted states with stress signatures including nonsense-mediated decay and TP53-mediated apoptosis. Co-expression analyses tied the cfRNA signatures to RNA processing, export, vesicle trafficking, autophagy and RNA degradation, and mouse perturbation experiments supported the autophagy-lysosome-vesicle link.",
+      "key_points": [
+        "Paired embryo and spent-medium transcriptomes from single blastocysts",
+        "Aneuploid embryos carry NMD and TP53 apoptosis signatures",
+        "Supports cfRNA as a readout of embryonic state"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41556-026-02123-3.svg",
+        "caption": "Cell-free RNA released into the culture drop differs between a euploid blastocyst and an aneuploid one, which shows NMD and TP53 apoptosis stress signatures; both embryo and medium are sequenced full-length.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02825-2",
+      "date_added": "2026-11-11",
+      "published": "2026-11-09",
+      "title": "A multi-tissue atlas of genetic regulatory effects in sheep.",
+      "authors": "Gong M, Zhuang Z, Sun X, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02825-2",
+      "url": "https://doi.org/10.1038/s41588-026-02825-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource",
+        "Multi-omics"
+      ],
+      "summary": "The pilot phase of SheepGTEx, part of the FarmGTEx project, analyses 6,761 RNA-seq samples from 51 primary tissues in a multibreed sheep cohort. It finds millions of regulatory variants for 7 types of molecular phenotype and fine-maps 322,468 primary and 114,017 nonprimary effects. The effects are characterised across tissues, breeds, sexes and developmental stages, and the resource is used to explain regulatory mechanisms behind 34 complex traits, divergence between European and Asian breeds, and adaptation over the past 10 millennia.",
+      "key_points": [
+        "GTEx-style molecular QTL atlas for a livestock species",
+        "Extensive allelic heterogeneity, with many nonprimary effects",
+        "Links regulatory variants to 34 complex traits"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02825-2.svg",
+        "caption": "SheepGTEx maps regulatory variants to molecular phenotypes across 51 tissues, shows that their effects depend on tissue, breed, sex and life stage, and uses them to explain complex traits, breed divergence and adaptation.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41568-026-00988-y",
+      "date_added": "2026-11-11",
+      "published": "2026-11-06",
+      "title": "Origins and heterogeneity of colorectal cancer.",
+      "authors": "Sphyris N, Nasreddin N, Leedham SJ, et al.",
+      "venue": "Nature Reviews Cancer",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1038/s41568-026-00988-y",
+      "url": "https://doi.org/10.1038/s41568-026-00988-y",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution"
+      ],
+      "summary": "This review argues that where the cell-of-origin sits on the vertical crypt axis determines which mechanisms a neoplastic clone must use to escape homeostatic control, and so which route of carcinogenesis it follows. It covers clonal dynamics at the pre-cancer stage, the distinct precursor lesions that result, and how these progress to molecularly heterogeneous colorectal cancer subtypes. It stresses that phenotypic heterogeneity, not only genotype, drives adaptation, therapy resistance and metastasis.",
+      "key_points": [
+        "Crypt position of the cell-of-origin sets the carcinogenesis route",
+        "Links pre-cancer clonal dynamics to molecular subtypes",
+        "Phenotypic plasticity matters alongside genotype"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag808",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "CellSavior: an open-source framework for improved cell calling in targeted single-cell DNA sequencing.",
+      "authors": "Kim T, Chung YS, Park D, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag808",
+      "url": "https://doi.org/10.1093/bioinformatics/btag808",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "CellSavior is an open-source cell-calling algorithm and downstream pipeline for targeted single-cell DNA sequencing such as Tapestri, replacing proprietary threshold-based calling. It clusters barcodes with an ensemble of distance metrics and merges the results by confidence into a consensus call. On 33 public and in-house datasets it matched the commercial CellFinder annotations in 31 (93.9%), and in the discordant cases rescued clusters enriched for hotspot genomic alterations.",
+      "key_points": [
+        "Open alternative to proprietary Tapestri cell calling",
+        "Ensemble clustering with confidence-weighted merging",
+        "Recovers cells carrying hotspot alterations that were missed"
+      ],
+      "data": "Zenodo 10.5281/zenodo.22744146",
+      "code": "github.com/dauer-tgilab/CellSavior"
+    },
+    {
+      "id": "10.1101/gr.281868.126",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "Derivation of doxorubicin mutational signatures in cancer.",
+      "authors": "Skinner KT, Lee BP, Woods CW, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281868.126",
+      "url": "https://doi.org/10.1101/gr.281868.126",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution"
+      ],
+      "summary": "The authors exposed cells to doxorubicin in two ways, constant dosing followed by whole-genome sequencing of single-cell clones and pulsed dose escalation followed by bulk whole-genome sequencing, after confirming with cisplatin data that the two designs agree. They derived two signatures: SBS-doxorubicin-1, rich in C>A mutations, and SBS-doxorubicin-2, with more T>C mutations. Both were found in 83% of 12 samples from patients with follicular or diffuse large B cell lymphoma and renal medullary carcinoma treated with doxorubicin-containing regimens; the rest carried one of the two.",
+      "key_points": [
+        "Two experimentally derived doxorubicin mutational signatures",
+        "Bulk dose-escalation design agrees with single-cell clone design",
+        "Signatures detected in treated patient genomes"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78563-0",
+      "date_added": "2026-11-11",
+      "published": "2026-11-09",
+      "title": "Absolute quantification and profiling of cellular tRNAs by nanopore sequencing and a deep learning classifier.",
+      "authors": "Ueda H, Maeda M, Okada S, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78563-0",
+      "url": "https://doi.org/10.1038/s41467-026-78563-0",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "RNA modifications",
+        "Machine learning"
+      ],
+      "summary": "The nano tRNA classifier is an end-to-end deep learning model that identifies tRNAs straight from nanopore direct RNA sequencing current signals, without basecalling. It reaches 98.2% accuracy across all Escherichia coli tRNA species with high read retention. An equimolar mixture of native tRNAs serves as ground truth to correct read-count bias, which gives absolute tRNA quantification under different culture conditions, and separate binary classifiers detect specific tRNA modifications on single molecules.",
+      "key_points": [
+        "Classifies tRNAs from raw signal, no basecalling",
+        "Equimolar native tRNA standard enables absolute quantification",
+        "Single-molecule detection of specific tRNA modifications"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1137",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "IsoAPA: a multi-species long-read RNA-seq atlas of isoform-resolved alternative polyadenylation.",
+      "authors": "Zhang J, Yau TK, Chan TF",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1137",
+      "url": "https://doi.org/10.1093/nar/gkag1137",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "IsoAPA is a curated database that uses PacBio and Oxford Nanopore long-read RNA-seq to map polyadenylation sites while keeping the transcript isoform each site belongs to. The release holds over 2.3 million transcript-resolved site records from 816 sample groups across 99 species. Individual transcript backbones often carry several sites (a mean of 2.52 per observed transcript across 286 human sample groups), and transcript-level analysis shows usage patterns that gene-level summaries hide.",
+      "key_points": [
+        "Polyadenylation sites anchored to full transcript models",
+        "2.3 million records, 99 species, 816 sample groups",
+        "Gene-level aggregation masks isoform-level site usage"
+      ],
+      "data": "isoapa.sls.cuhk.edu.hk",
+      "code": ""
+    },
+    {
+      "id": "10.1261/rna.081279.126",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "Large-scale structural analysis of pre-mRNA structure using RADIS.",
+      "authors": "Fleurisson C, Chen S, Macdonald RM, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081279.126",
+      "url": "https://doi.org/10.1261/rna.081279.126",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "RADIS builds tiled arrays of RNAs spanning whole intron-rich loci to get strand-resolved chemical probing profiles, including the deep intronic regions where most intronic disease variants lie. It recovers known E. coli rRNA architecture and correlates well with in-cell DMS-MaP at splice sites (r = 0.87-0.90). Folding 109 5' and 88 3' splice sites with RADIS constraints shows that more base-pairing in the spliceosome footprint goes with weaker splice sites, and 81 branchpoints fall into three structural classes; across 233 full-length Alu elements, sense Alus are more structured than antisense ones.",
+      "key_points": [
+        "Structure probing across entire introns, not just splice sites",
+        "Splice-site strength inversely related to local base-pairing",
+        "Branchpoints split into three structural classes"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1146",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "Microfluidic concatemer sequencing unveils cooperative and competitive enhancer clusters in gene regulation.",
+      "authors": "Chen Q, Zheng S, Li F, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1146",
+      "url": "https://doi.org/10.1093/nar/gkag1146",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "Drop-t is a microfluidics-based concatemer sequencing method for profiling higher-order chromatin contacts on single molecules and across populations. It avoids the ligation-induced DNA entanglements that often clog nanopores. With it the authors found widespread non-specific enhancer-promoter interactions that may raise transcriptional variability by competing with specific ones, and they split genes into dictator and leader classes according to whether their promoters are regulated mainly by competing or cooperating enhancers.",
+      "key_points": [
+        "Multi-way chromatin contacts read on single molecules",
+        "Resists the DNA tangles that clog nanopores",
+        "Defines competitive (dictator) and cooperative (leader) genes"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-77651-5",
+      "date_added": "2026-11-11",
+      "published": "2026-11-09",
+      "title": "Single-cell machine learning uncovers genetically anchored, cell-type specific programs of Alzheimer's disease.",
+      "authors": "Madduri AV, Ellis RJ, Lakhani CM, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-77651-5",
+      "url": "https://doi.org/10.1038/s41467-026-77651-5",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "TriSCOPE combines multivariate predictive modelling, donor-aware differential expression and pseudotime inference, and is applied to six Alzheimer's disease snRNA-seq datasets (about 4.2 million nuclei, 627 donors). Across six brain cell types and 41 subclusters it finds predictively expressed genes that mostly do not overlap the differentially expressed ones. Conditional GWAS-eQTL colocalisation ties 27 gene-cell type pairs, including ARL17B and JAZF1, to inherited risk loci, and key genes replicate across independent cohorts.",
+      "key_points": [
+        "Multivariate prediction finds signals univariate tests miss",
+        "27 gene-cell type pairs anchored to GWAS risk loci",
+        "Clinical and neuropathological signatures diverge by cell type"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.spinee.2026.11.009",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "Impact of facility volume on margin-negative resection and survival in spinal chordoma: A mediation analysis of the National Cancer Database.",
+      "authors": "Singh S, Kim JH, Vattipally VN, et al.",
+      "venue": "The Spine Journal",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1016/j.spinee.2026.11.009",
+      "url": "https://doi.org/10.1016/j.spinee.2026.11.009",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A National Cancer Database study (2004-2022) of 1,233 patients who had spinal chordoma resected at 355 facilities. High-volume facilities (more than 7 cases) achieved more margin-negative resections (62.5% vs 47.9%; OR 1.88) and better survival (HR 0.43; 11.5 months more restricted mean survival at 10 years). Mediation analysis attributed only 16.9% of the survival benefit to R0 resection; the remaining 83.1% reflected factors beyond margins.",
+      "key_points": [
+        "High-volume centres: more R0 resections and longer survival",
+        "Margins explain only about a sixth of the benefit",
+        "Supports centralising spinal chordoma care"
+      ],
+      "data": "National Cancer Database",
+      "code": ""
+    },
+    {
+      "id": "10.2106/JBJS.CC.26.00377",
+      "date_added": "2026-11-11",
+      "published": "2026-10-23",
+      "title": "Extra-Axial Chordoma of the Distal Fibula: Oncological Resection Without Reconstruction in an Elderly Patient: A Case Report.",
+      "authors": "Louka JG, Meli GM, Lopez J, et al.",
+      "venue": "JBJS Case Connector",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.2106/JBJS.CC.26.00377",
+      "url": "https://doi.org/10.2106/JBJS.CC.26.00377",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "Case report of a patient aged 90 or older with an expansile lytic lesion of the distal fibula that biopsy showed to be chordoma. Wide resection without reconstruction gave negative margins, and histopathology confirmed a chondroid-type chordoma, with brachyury immunostaining distinguishing it from chondrosarcoma. A wound dehiscence needed 4 months of care; at 24 months the patient walks without pain and has no recurrence or metastasis.",
+      "key_points": [
+        "Rare extra-axial chordoma in the distal fibula",
+        "Brachyury staining separated it from chondrosarcoma",
+        "No reconstruction needed for stable, pain-free walking"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2022.08.01.502364",
+      "date_added": "2026-11-11",
+      "published": "2026-11-06",
+      "title": "Fully integrated SNV, fusion, and isoform analysis of cancer drivers with FLAIR3 for improved functional interpretation",
+      "authors": "Felton CA, Galvez A, Damle T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2022.08.01.502364",
+      "url": "https://doi.org/10.1101/2022.08.01.502364",
+      "topics": [
+        "Cancer genomics",
+        "Long-read",
+        "Isoforms",
+        "Sarcoma"
+      ],
+      "summary": "FLAIR3 analyses single nucleotide variants, indels, gene fusions and alternative splicing together from long-read RNA-seq, and predicts their combined effect on the amino acid sequence. Because long reads cover full-length molecules, variants can be phased with specific isoforms. In osteosarcoma samples it found alternative splicing of gene fusions in known drivers including TP53, and in lung adenocarcinoma it showed isoform-biased expression of oncogenic SNVs in BRAF, CDKN2A and TP53.",
+      "key_points": [
+        "Variants, fusions and splicing called in one long-read workflow",
+        "Phases variants onto the isoforms that carry them",
+        "Spliced driver fusions in osteosarcoma, including TP53"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.29.741419",
+      "date_added": "2026-11-11",
+      "published": "2026-11-11",
+      "title": "Replicative and chronological epigenetic age track genome instability in opposite directions across cancers",
+      "authors": "Mukherji A, Chattopadhyay S",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.29.741419",
+      "url": "https://doi.org/10.64898/2026.07.29.741419",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Pan-cancer"
+      ],
+      "summary": "The authors compare four mitotic clocks with the Horvath pan-tissue clock in 506 matched tumour-normal pairs from 13 adult solid cancers and in 1,731 paediatric tumours. Mitotic age is higher in tumour than matched normal tissue in every adult cancer type, robust to purity and cell composition, and tracks grade, stage and genome instability; the Horvath clock does not, or does so inversely. Horvath age reads older in some cancer types and younger in others, and neither clock family reports within-tumour heterogeneity of methylation change once its global magnitude and purity are accounted for.",
+      "key_points": [
+        "Mitotic clocks are advanced in all 13 adult cancer types",
+        "Chronological clock readings are cancer-type specific",
+        "Clock advance reflects tissue remodelling more than proliferation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.07.736532",
+      "date_added": "2026-11-11",
+      "published": "2026-11-04",
+      "title": "SPARC Reveals Distinct Osteoclastogenesis-Associated Malignant States in Metastatic Osteosarcoma",
+      "authors": "Wu S, Walker WC, Nirala BK, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.07.736532",
+      "url": "https://doi.org/10.64898/2026.07.07.736532",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Sarcoma"
+      ],
+      "summary": "SPARC is a graph-based optimisation framework for trajectory inference that reconstructs progression within each condition and transitions between ordered conditions under one connectivity formulation, with direction constraints. It improved recovery of metastatic precursors and full progression routes in simulations and performed competitively on tumour lineage-tracing data. The authors also generated paired scRNA-seq of primary osteosarcoma and spontaneous lung metastases from the same mice and a patient-derived osteosarcoma Visium HD dataset, which suggest that some metastatic malignant states preferentially promote osteoclastogenesis.",
+      "key_points": [
+        "Joint within- and between-condition trajectory reconstruction",
+        "Paired primary and lung-metastasis osteosarcoma scRNA-seq",
+        "Malignant states linked to osteoclast-like myeloid cells"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764536",
+      "date_added": "2026-11-11",
+      "published": "2026-11-06",
+      "title": "Towards a foundation model for raw nanopore signal through discrete tokenization",
+      "authors": "Cheng G, Pitkänen E",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764536",
+      "url": "https://doi.org/10.64898/2026.11.05.764536",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Machine learning"
+      ],
+      "summary": "Brieno turns continuous nanopore current into discrete tokens by residual vector quantisation and pretrains a Transformer with masked-token prediction on raw signal from 118 million reads. With frozen or fine-tuned features it identifies species without reference genomes, classifies reads that Dorado leaves unassigned in native-barcode demultiplexing, and approaches Dorado's basecalling performance across six genomes. It exceeds Dorado's specialised 5-methylcytosine model and a dedicated 6-methyladenine caller, and detects CpG methylation with limited labelled data.",
+      "key_points": [
+        "Self-supervised pretraining directly on raw nanopore signal",
+        "One model for demultiplexing, basecalling and modification calling",
+        "Beats Dorado's 5mC model and a dedicated 6mA caller"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.04.13.718259",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "MitoScope: a comprehensive mitochondrial genome analysis workflow for long-read sequencing data",
+      "authors": "Zakarian C, Smith JD, Wong CH, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.04.13.718259",
+      "url": "https://doi.org/10.64898/2026.04.13.718259",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "MitoScope is an end-to-end long-read workflow for the mitochondrial genome, which is hard for short reads because of repeats and nuclear mitochondrial DNA segments (NUMTs). It combines mtDNA read selection, heteroplasmic variant detection, assembly, copy number estimation, read-level haplotyping and NUMT profiling. On benchmarking data from the SMaHT Network it showed high sensitivity and precision compared with existing methods.",
+      "key_points": [
+        "Heteroplasmy, assembly, copy number and NUMTs in one workflow",
+        "Read-level mtDNA haplotyping from long reads",
+        "Benchmarked on SMaHT Network data"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.03.20.713192",
+      "date_added": "2026-11-11",
+      "published": "2026-11-11",
+      "title": "Integrating Long-Read Structural Variant Analysis with single-nucleus RNA-seq to Elucidate Gene Expression Effects in Disease",
+      "authors": "Kim K, Lin Z, Simmons SK, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.03.20.713192",
+      "url": "https://doi.org/10.64898/2026.03.20.713192",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Structural variants",
+        "Single-cell"
+      ],
+      "summary": "Long-read whole-genome sequencing of 100 post-mortem brain samples from a Parkinson's disease cohort gave a high-confidence catalogue of 74,552 structural variants. The authors combined it with single-nucleus RNA-seq from two brain regions of the same samples, focusing on variants near genes nominated as targets of Parkinson's GWAS loci. eQTL and allele-specific expression analyses found structural variants tied to expression in specific cell types, as well as effects shared across cell types.",
+      "key_points": [
+        "74,552 structural variants from 100 long-read brain genomes",
+        "Cell-type-resolved SV-eQTLs from matched snRNA-seq",
+        "Focus on genes at Parkinson's disease GWAS loci"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.04.764463",
+      "date_added": "2026-11-11",
+      "published": "2026-11-06",
+      "title": "DisCell: Separating Spillover from Niche Response in Spatial Transcriptomics",
+      "authors": "Molen R, Toosi H, Ferreira PF, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.04.764463",
+      "url": "https://doi.org/10.64898/2026.11.04.764463",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "In single-cell-resolution spatial transcriptomics, diffusion and segmentation errors add neighbours' transcripts to a cell's counts, which looks the same as a real response to the niche. DisCell is a generative model with an intrinsic state, a niche response and a separate spillover term; it refits at increasing spillover levels to test how robust each finding is. In simulations it separated spillover artefacts from real responses, and on five ovarian and lung sections it kept more of each cell's own properties than competing methods. It confirmed that oesophageal cancer cells in immune- or stroma-infiltrated niches express more of an EMT programme.",
+      "key_points": [
+        "Models intrinsic state, niche response and spillover jointly",
+        "Ranks niche findings by robustness to spillover",
+        "Trains in under ten minutes for 400,000-cell sections"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.07.765075",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "Statistical significance testing for spatial domain detection in spatial transcriptomics",
+      "authors": "Wang H, Cao F, Shen H, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.07.765075",
+      "url": "https://doi.org/10.64898/2026.11.07.765075",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "SigDoTS tests whether candidate spatial domains should be kept or merged, since the number of domains a method finds depends on user settings and testing on the same data used for detection gives anti-conservative p-values. It uses hierarchical testing with family-wise error control, accounts for gene-gene covariance and spatial dependence, and gets p-values by rerunning the detection pipeline on data simulated under a single-domain null. It controlled type I error in simulations, merged Layer 3 candidate domains in human dorsolateral prefrontal cortex, and kept distinct epithelial domains in ovarian and colorectal cancers.",
+      "key_points": [
+        "Guards against oversegmentation in spatial domain detection",
+        "Corrects for post-selection bias by simulating under the null",
+        "Works on top of existing domain-detection pipelines"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.07.05.662870",
+      "date_added": "2026-11-11",
+      "published": "2026-11-10",
+      "title": "mRNABench: A curated benchmark for mature mRNA property and function prediction",
+      "authors": "Shi R, Dalal T, Fradkin P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.07.05.662870",
+      "url": "https://doi.org/10.1101/2025.07.05.662870",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "mRNABench is a benchmarking suite for mature mRNA biology in human transcripts that tests how well embeddings from self-supervised nucleotide foundation models predict properties such as half-life, localisation and translation efficiency. It curates 13 datasets and 81 prediction tasks and evaluates 29 families of models in about 750,000 experiments. The authors use it to study parameter scaling, sequence compressibility, data-splitting strategies and the effect of the training objective.",
+      "key_points": [
+        "13 datasets and 81 tasks for mature mRNA properties",
+        "29 nucleotide foundation model families compared",
+        "Examines data splits and training objectives"
+      ],
+      "data": "",
+      "code": "github.com/morrislab/mRNABench"
+    },
+    {
+      "id": "10.1101/2025.07.21.665977",
+      "date_added": "2026-11-11",
+      "published": "2026-11-05",
+      "title": "Towards universal modeling of transcript isoform expression levels",
+      "authors": "Chow SH-C, Shi CH, Deshpande A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.07.21.665977",
+      "url": "https://doi.org/10.1101/2025.07.21.665977",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms",
+        "Epigenomics"
+      ],
+      "summary": "Using paired transcriptomic and epigenomic data from the International Human Epigenome Consortium, the authors model expression of individual transcript isoforms in 324 human samples from 29 tissue types. The graph-based models combine location-specific epigenomic features with several kinds of gene-gene relationship. A model that pools many samples from other tissue types consistently predicts a sample's isoform expression better than a model trained on that sample itself, which supports building a universal model across tissues.",
+      "key_points": [
+        "Predicts isoform-level, not gene-level, expression from epigenomes",
+        "Trained on primary human samples rather than cell lines",
+        "Cross-tissue model beats sample-specific model"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.64898/2026.11.07.765116",
       "date_added": "2026-11-10",

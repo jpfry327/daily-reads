@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">SheepGTEx: one variant, many regulatory contexts</text>
+<!-- sheep -->
+<g>
+<path d="M92 196 L92 232 M112 200 L112 232 M150 200 L150 232 M170 196 L170 232" stroke="#2B3138" stroke-width="5" stroke-linecap="round"/>
+<g fill="#F5F7FA" stroke="#8A949E" stroke-width="2.5">
+<circle cx="96" cy="170" r="22"/><circle cx="124" cy="158" r="24"/><circle cx="154" cy="162" r="22"/><circle cx="172" cy="178" r="20"/><circle cx="130" cy="186" r="24"/><circle cx="104" cy="190" r="18"/><circle cx="156" cy="190" r="20"/>
+</g>
+<ellipse cx="66" cy="160" rx="17" ry="13" fill="#2B3138"/>
+<path d="M76 150 L88 142" stroke="#2B3138" stroke-width="5" stroke-linecap="round"/>
+<circle cx="60" cy="157" r="2.5" fill="#FFFFFF"/>
+</g>
+<text x="124" y="258" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">multibreed cohort</text>
+<text x="124" y="276" text-anchor="middle" font-size="13" fill="#2B3138">6,761 RNA-seq samples</text>
+<text x="124" y="294" text-anchor="middle" font-size="13" fill="#2B3138">51 tissues</text>
+<!-- locus -->
+<path d="M230 190 L440 190" stroke="#2B3138" stroke-width="4"/>
+<polygon points="270,176 284,190 270,204 256,190" fill="#C8323F"/>
+<rect x="350" y="176" width="74" height="28" rx="4" fill="#1E5FA8"/>
+<text x="387" y="195" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">gene</text>
+<path d="M270 172 C290 130 360 130 384 166" fill="none" stroke="#C8323F" stroke-width="2.5"/>
+<polygon points="388,174 376,166 390,160" fill="#C8323F"/>
+<text x="270" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#C8323F">regulatory variant</text>
+<text x="330" y="124" text-anchor="middle" font-size="13" fill="#2B3138">7 molecular phenotype types</text>
+<!-- context chips -->
+<text x="335" y="262" text-anchor="middle" font-size="13" font-weight="bold" fill="#D98A00">effect depends on</text>
+<g font-size="13" fill="#2B3138" text-anchor="middle">
+<rect x="226" y="274" width="64" height="26" rx="13" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/><text x="258" y="292">tissue</text>
+<rect x="298" y="274" width="64" height="26" rx="13" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/><text x="330" y="292">breed</text>
+<rect x="370" y="274" width="52" height="26" rx="13" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/><text x="396" y="292">sex</text>
+<rect x="296" y="308" width="80" height="26" rx="13" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/><text x="336" y="326">life stage</text>
+</g>
+<!-- outputs -->
+<path d="M448 190 L476 190" stroke="#8A949E" stroke-width="3"/>
+<path d="M476 96 L476 286" stroke="#8A949E" stroke-width="3"/>
+<path d="M476 96 L490 96 M476 190 L490 190 M476 286 L490 286" stroke="#8A949E" stroke-width="3"/>
+<g font-size="13" fill="#2B3138">
+<rect x="492" y="70" width="134" height="52" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="559" y="92" text-anchor="middle" font-weight="bold" fill="#3C9A2E">34 complex traits</text>
+<text x="559" y="110" text-anchor="middle">mechanisms found</text>
+<rect x="492" y="164" width="134" height="52" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="559" y="186" text-anchor="middle" font-weight="bold" fill="#3C9A2E">breed divergence</text>
+<text x="559" y="204" text-anchor="middle">European vs Asian</text>
+<rect x="492" y="260" width="134" height="52" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="559" y="282" text-anchor="middle" font-weight="bold" fill="#3C9A2E">adaptive evolution</text>
+<text x="559" y="300" text-anchor="middle">past 10 millennia</text>
+</g>
+<text x="320" y="374" text-anchor="middle" font-size="14" fill="#2B3138">322,468 primary and 114,017 nonprimary effects fine-mapped</text>
+</svg>

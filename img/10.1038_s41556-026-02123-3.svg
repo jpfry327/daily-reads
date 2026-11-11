@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Embryo cell-free RNA tracks chromosomal status</text>
+<!-- dish -->
+<path d="M30 250 L610 250" stroke="#8A949E" stroke-width="4"/>
+<text x="320" y="272" text-anchor="middle" font-size="13" fill="#8A949E">culture dish, one blastocyst per drop</text>
+<!-- euploid drop -->
+<path d="M60 250 C60 120 280 120 280 250 Z" fill="#EAF1F9" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="170" y="64" text-anchor="middle" font-size="15" font-weight="bold" fill="#3C9A2E">Euploid embryo</text>
+<circle cx="150" cy="196" r="34" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="4"/>
+<circle cx="136" cy="206" r="13" fill="#3C9A2E"/>
+<path d="M200 172 q6 -8 12 0 t12 0" fill="none" stroke="#1E5FA8" stroke-width="2.5"/>
+<path d="M214 204 q6 -8 12 0 t12 0" fill="none" stroke="#1E5FA8" stroke-width="2.5"/>
+<path d="M196 230 q6 -8 12 0 t12 0" fill="none" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="170" y="88" text-anchor="middle" font-size="13" fill="#2B3138">stable RNA programmes,</text>
+<text x="170" y="106" text-anchor="middle" font-size="13" fill="#2B3138">inside and outside</text>
+<!-- aneuploid drop -->
+<path d="M360 250 C360 120 580 120 580 250 Z" fill="#EAF1F9" stroke="#1E5FA8" stroke-width="2.5"/>
+<text x="470" y="64" text-anchor="middle" font-size="15" font-weight="bold" fill="#C8323F">Aneuploid embryo</text>
+<circle cx="506" cy="196" r="34" fill="#FFFFFF" stroke="#C8323F" stroke-width="4" stroke-dasharray="9 5"/>
+<circle cx="520" cy="206" r="13" fill="#C8323F"/>
+<path d="M404 172 q6 -8 12 0 t12 0" fill="none" stroke="#C8323F" stroke-width="2.5"/>
+<path d="M388 204 q6 -8 12 0 t12 0" fill="none" stroke="#D98A00" stroke-width="2.5"/>
+<path d="M410 230 q6 -8 12 0 t12 0" fill="none" stroke="#C8323F" stroke-width="2.5"/>
+<path d="M430 196 q6 -8 12 0 t12 0" fill="none" stroke="#D98A00" stroke-width="2.5"/>
+<text x="470" y="88" text-anchor="middle" font-size="13" fill="#2B3138">stress signatures:</text>
+<text x="470" y="106" text-anchor="middle" font-size="13" fill="#2B3138">NMD, TP53 apoptosis</text>
+<!-- labels for parts -->
+<text x="320" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E5FA8">cfRNA in</text>
+<text x="320" y="188" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E5FA8">spent medium</text>
+<path d="M284 192 L246 200" stroke="#1E5FA8" stroke-width="1.5"/>
+<path d="M356 192 L384 200" stroke="#1E5FA8" stroke-width="1.5"/>
+<!-- sequencing -->
+<path d="M170 282 L170 306 L470 306 L470 282" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<path d="M320 306 L320 322" stroke="#2B3138" stroke-width="2.5"/>
+<polygon points="320,334 311,320 329,320" fill="#2B3138"/>
+<rect x="130" y="338" width="380" height="44" rx="8" fill="#FFFFFF" stroke="#2B3138" stroke-width="2"/>
+<text x="320" y="357" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">Full-length total RNA-seq</text>
+<text x="320" y="374" text-anchor="middle" font-size="13" fill="#2B3138">each blastocyst + its matched medium</text>
+</svg>
