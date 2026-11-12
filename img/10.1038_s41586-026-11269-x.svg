@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Blood clones in the years before AML</text>
+<!-- staircase of clones -->
+<!-- step 1: polyclonal -->
+<rect x="36" y="232" width="130" height="92" rx="8" fill="#F5F7FA" stroke="#8A949E" stroke-width="2"/>
+<g>
+<circle cx="60" cy="256" r="8" fill="#8A949E"/><circle cx="84" cy="256" r="8" fill="#D98A00"/><circle cx="108" cy="256" r="8" fill="#3C9A2E"/><circle cx="132" cy="256" r="8" fill="#8A949E"/>
+<circle cx="60" cy="280" r="8" fill="#3C9A2E"/><circle cx="84" cy="280" r="8" fill="#8A949E"/><circle cx="108" cy="280" r="8" fill="#1E5FA8"/><circle cx="132" cy="280" r="8" fill="#D98A00"/>
+<circle cx="60" cy="304" r="8" fill="#D98A00"/><circle cx="84" cy="304" r="8" fill="#3C9A2E"/><circle cx="108" cy="304" r="8" fill="#8A949E"/><circle cx="132" cy="304" r="8" fill="#3C9A2E"/>
+</g>
+<text x="101" y="346" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">Polyclonal blood</text>
+<text x="101" y="364" text-anchor="middle" font-size="13" fill="#1E5FA8">first driver, early life</text>
+<!-- step 2: slow clone -->
+<rect x="196" y="172" width="130" height="92" rx="8" fill="#F5F7FA" stroke="#8A949E" stroke-width="2"/>
+<g>
+<circle cx="220" cy="196" r="8" fill="#1E5FA8"/><circle cx="244" cy="196" r="8" fill="#1E5FA8"/><circle cx="268" cy="196" r="8" fill="#3C9A2E"/><circle cx="292" cy="196" r="8" fill="#8A949E"/>
+<circle cx="220" cy="220" r="8" fill="#1E5FA8"/><circle cx="244" cy="220" r="8" fill="#C8323F"/><circle cx="268" cy="220" r="8" fill="#D98A00"/><circle cx="292" cy="220" r="8" fill="#3C9A2E"/>
+<circle cx="220" cy="244" r="8" fill="#D98A00"/><circle cx="244" cy="244" r="8" fill="#8A949E"/><circle cx="268" cy="244" r="8" fill="#3C9A2E"/><circle cx="292" cy="244" r="8" fill="#8A949E"/>
+</g>
+<text x="261" y="286" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">Slow early clone</text>
+<text x="261" y="304" text-anchor="middle" font-size="13" fill="#C8323F">gains further drivers</text>
+<!-- step 3: sweep -->
+<rect x="356" y="112" width="130" height="92" rx="8" fill="#F5F7FA" stroke="#8A949E" stroke-width="2"/>
+<g fill="#C8323F">
+<circle cx="380" cy="136" r="8"/><circle cx="404" cy="136" r="8"/><circle cx="428" cy="136" r="8"/><circle cx="452" cy="136" r="8"/>
+<circle cx="380" cy="160" r="8"/><circle cx="404" cy="160" r="8"/><circle cx="428" cy="160" r="8"/><circle cx="452" cy="160" r="8"/>
+<circle cx="380" cy="184" r="8"/><circle cx="404" cy="184" r="8"/><circle cx="428" cy="184" r="8"/><circle cx="452" cy="184" r="8"/>
+</g>
+<text x="421" y="226" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B3138">Complete somatic sweep</text>
+<text x="421" y="244" text-anchor="middle" font-size="13" fill="#C8323F">multi-driver clone</text>
+<!-- step 4: AML -->
+<rect x="516" y="62" width="100" height="72" rx="8" fill="#C8323F"/>
+<text x="566" y="96" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">AML</text>
+<text x="566" y="116" text-anchor="middle" font-size="13" fill="#FFFFFF">diagnosis</text>
+<!-- arrows between steps -->
+<path d="M120 224 L120 204 L182 204" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<polygon points="192,204 180,197 180,211" fill="#2B3138"/>
+<path d="M280 164 L280 144 L342 144" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<polygon points="352,144 340,137 340,151" fill="#2B3138"/>
+<path d="M440 104 L440 84 L502 84" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<polygon points="512,84 500,77 500,91" fill="#2B3138"/>
+<text x="476" y="72" text-anchor="middle" font-size="13" fill="#8A949E">decades</text>
+<!-- legend / footer -->
+<circle cx="390" cy="316" r="8" fill="#1E5FA8"/>
+<text x="404" y="321" font-size="13" fill="#2B3138">one driver mutation</text>
+<circle cx="390" cy="342" r="8" fill="#C8323F"/>
+<text x="404" y="347" font-size="13" fill="#2B3138">several driver mutations</text>
+<text x="390" y="378" font-size="13" fill="#8A949E">Serial blood, duplex sequencing</text>
+</svg>

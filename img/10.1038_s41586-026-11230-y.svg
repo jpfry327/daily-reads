@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">Basal-like cells hidden in luminal tumours</text>
+<!-- tumour: grid of cells -->
+<text x="150" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">Luminal breast tumour</text>
+<g stroke="#FFFFFF" stroke-width="2">
+<rect x="50" y="80" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="90" y="80" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="130" y="80" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="170" y="80" width="40" height="40" rx="9" fill="#C8323F"/><rect x="210" y="80" width="40" height="40" rx="9" fill="#1E5FA8"/>
+<rect x="50" y="120" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="90" y="120" width="40" height="40" rx="9" fill="#C8323F"/><rect x="130" y="120" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="170" y="120" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="210" y="120" width="40" height="40" rx="9" fill="#1E5FA8"/>
+<rect x="50" y="160" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="90" y="160" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="130" y="160" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="170" y="160" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="210" y="160" width="40" height="40" rx="9" fill="#C8323F"/>
+<rect x="50" y="200" width="40" height="40" rx="9" fill="#C8323F"/><rect x="90" y="200" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="130" y="200" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="170" y="200" width="40" height="40" rx="9" fill="#1E5FA8"/><rect x="210" y="200" width="40" height="40" rx="9" fill="#1E5FA8"/>
+</g>
+<rect x="58" y="258" width="18" height="18" rx="5" fill="#1E5FA8"/>
+<text x="84" y="272" font-size="13" fill="#2B3138">luminal cell</text>
+<rect x="58" y="284" width="18" height="18" rx="5" fill="#C8323F"/>
+<text x="84" y="298" font-size="13" fill="#2B3138">basal-like cell</text>
+<text x="58" y="326" font-size="13" fill="#8A949E">found by CyTOF and</text>
+<text x="58" y="344" font-size="13" fill="#8A949E">methylation deconvolution</text>
+<!-- arrow to blood -->
+<path d="M262 160 L338 160" stroke="#2B3138" stroke-width="3"/>
+<polygon points="350,160 336,152 336,168" fill="#2B3138"/>
+<text x="304" y="144" text-anchor="middle" font-size="13" fill="#2B3138">shed to blood</text>
+<!-- blood vessel with cell-free nucleosomes -->
+<text x="480" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B3138">Cell-free nucleosomes</text>
+<rect x="360" y="84" width="240" height="152" rx="76" fill="#FDF1F2" stroke="#C8323F" stroke-width="2.5"/>
+<!-- nucleosome 1 (marked) -->
+<circle cx="430" cy="140" r="20" fill="#8A949E"/>
+<path d="M404 132 C420 108 446 110 458 134" fill="none" stroke="#2B3138" stroke-width="3"/>
+<path d="M404 150 C420 172 446 170 458 148" fill="none" stroke="#2B3138" stroke-width="3"/>
+<line x1="444" y1="126" x2="462" y2="106" stroke="#D98A00" stroke-width="3"/>
+<circle cx="465" cy="103" r="7" fill="#D98A00"/>
+<!-- nucleosome 2 (marked) -->
+<circle cx="530" cy="184" r="20" fill="#8A949E"/>
+<path d="M504 176 C520 152 546 154 558 178" fill="none" stroke="#2B3138" stroke-width="3"/>
+<path d="M504 194 C520 216 546 214 558 192" fill="none" stroke="#2B3138" stroke-width="3"/>
+<line x1="544" y1="170" x2="562" y2="150" stroke="#D98A00" stroke-width="3"/>
+<circle cx="565" cy="147" r="7" fill="#D98A00"/>
+<!-- nucleosome 3 (unmarked) -->
+<circle cx="440" cy="204" r="14" fill="#8A949E"/>
+<path d="M422 198 C432 182 450 184 458 200" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<circle cx="535" cy="118" r="14" fill="#8A949E"/>
+<path d="M517 112 C527 96 545 98 553 114" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<circle cx="372" cy="262" r="7" fill="#D98A00"/>
+<text x="386" y="267" font-size="13" fill="#2B3138">histone modification</text>
+<!-- outcomes -->
+<rect x="360" y="290" width="240" height="34" rx="17" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="480" y="312" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C9A2E">early diagnosis</text>
+<rect x="360" y="336" width="240" height="34" rx="17" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/>
+<text x="480" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#C8323F">basal signature: relapse risk</text>
+</svg>

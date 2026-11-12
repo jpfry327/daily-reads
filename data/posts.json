@@ -1,13 +1,667 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-11T11:13:13Z",
+  "updated": "2026-11-12T11:15:35Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03308-2",
-    "10.1038/s41556-026-02123-3",
-    "10.1038/s41588-026-02825-2"
+    "10.1038/s41588-026-02830-5",
+    "10.1038/s41586-026-11269-x",
+    "10.1038/s41586-026-11230-y"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02830-5",
+      "date_added": "2026-11-12",
+      "published": "2026-11-10",
+      "title": "Efficient count-based models improve power and robustness for large-scale single-cell eQTL mapping.",
+      "authors": "Zhang ZE, Kim A, Suboc N, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02830-5",
+      "url": "https://doi.org/10.1038/s41588-026-02830-5",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "jaxQTL is a fast pseudobulk framework for mapping single-cell eQTLs that models counts directly with a negative binomial model instead of a linear one. In simulations it gave calibrated results and beat linear models, and in the OneK1K data it found 16% more eGenes while running much faster than single-cell Poisson mixed models. Fine-mapped single-cell eQTLs lay further from the transcription start site than bulk eQTLs, were enriched in cell-type-specific enhancers, and explained more SNP heritability across 16 blood and immune traits (9.9% versus 6.1%).",
+      "key_points": [
+        "Negative binomial pseudobulk model, 16% more eGenes than linear models in OneK1K",
+        "Single-cell eQTLs are more distal and more enhancer-enriched than bulk eQTLs",
+        "Explain more trait heritability than bulk eQTLs, but the GWAS-eQTL gap remains"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02830-5.svg",
+        "caption": "A bulk eQTL sits beside the transcription start site, while a single-cell eQTL mapped by jaxQTL lies in a distal cell-type-specific enhancer.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11269-x",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "Evolutionary dynamics in the years preceding acute myeloid leukaemia.",
+      "authors": "Watson CJ, Poon GYP, MacGregor HAJ, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11269-x",
+      "url": "https://doi.org/10.1038/s41586-026-11269-x",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution"
+      ],
+      "summary": "Using blood samples taken every year for up to a decade, starting as early as 15 years before an AML diagnosis, the authors combined deep duplex sequencing with evolutionary theory to time driver mutations and measure how much fitness each one adds. The first drivers usually arise in the first decades of life, while the blood is still highly polyclonal. Those slow clones later pick up further drivers with selective advantages up to 100-fold larger, and the resulting multi-driver clones can sweep the blood completely decades before diagnosis.",
+      "key_points": [
+        "Serial pre-diagnosis blood samples plus deep duplex sequencing",
+        "Early drivers are weak; later drivers add up to 100-fold larger advantages",
+        "Complete somatic sweeps of blood are strongly associated with future AML"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11269-x.svg",
+        "caption": "Polyclonal blood gains a slow early clone, which acquires further drivers and sweeps the blood completely decades before an AML diagnosis.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11230-y",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis.",
+      "authors": "Furth N, Riemenschneider C, Arieli Y, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11230-y",
+      "url": "https://doi.org/10.1038/s41586-026-11230-y",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Single-cell",
+        "Deconvolution"
+      ],
+      "summary": "Single-cell epigenetic profiling by mass cytometry (CyTOF) of treatment-naive luminal breast tumours found a recurring subpopulation of basal-like cells with an epigenetic signature shared across patients. The same cells showed up when whole-genome DNA methylation was deconvolved, and they had aggressive oncogenic traits and low hormone-receptor signalling; H3K4me1 and H3K4me3 were the marks most tied to loss of luminal identity. Histone modifications measured on single cell-free nucleosomes in blood detected breast cancer early, and the basal signature in blood was linked to relapse risk.",
+      "key_points": [
+        "Basal-like cells hide inside luminal tumours, with a conserved epigenetic signature",
+        "Confirmed by deconvolution of whole-genome methylation",
+        "Cell-free nucleosome histone marks work as an epigenetic liquid biopsy"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11230-y.svg",
+        "caption": "A few basal-like cells sit among luminal cells in a breast tumour, and histone modifications on cell-free nucleosomes in blood report diagnosis and relapse risk.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11256-2",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss.",
+      "authors": "Keuss MJ, Harley P, Ryadnov E, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11256-2",
+      "url": "https://doi.org/10.1038/s41586-026-11256-2",
+      "topics": [
+        "RNA biology",
+        "Splicing"
+      ],
+      "summary": "Loss of nuclear TDP-43, the hallmark of ALS and frontotemporal dementia, causes cryptic splicing in hundreds of transcripts. This paper shows that it leaves neurons structurally intact but badly impairs synaptic communication, and that genetically correcting a single cryptic splicing event in UNC13A is enough to rescue the deficit. Splice-switching antisense oligonucleotides corrected UNC13A splicing in human cortical and spinal motor neurons and in a humanised mouse, restoring vesicle release, release probability and network synchrony in human neurons.",
+      "key_points": [
+        "TDP-43 loss breaks synaptic transmission before neurons degenerate",
+        "Fixing one cryptic exon in UNC13A rescues the synaptic defect",
+        "Splice-switching ASOs work in human neurons and a humanised mouse"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag653",
+      "date_added": "2026-11-12",
+      "published": "2026-11-10",
+      "title": "RNA sequencing depth guidelines for the study of alternative splicing.",
+      "authors": "Chervontseva Z, Tsoy O, Hackl LM, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag653",
+      "url": "https://doi.org/10.1093/nar/gkag653",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Benchmarking"
+      ],
+      "summary": "How deep do you need to sequence to study alternative splicing? Using public and newly generated very deep paired-end RNA-seq (150 to more than 500 million reads) from human buffy coat, subcutaneous fat, heart and hypothalamus, the authors show that the depth typically used in published cohorts does not capture the full splicing landscape. They give depth guidelines and a website for choosing a depth, and argue for deeper sequencing or long reads in future studies.",
+      "key_points": [
+        "Samples sequenced to 150-500+ million reads across several human tissues",
+        "Typical cohort depth misses much of the alternative splicing landscape",
+        "Guidelines and a web tool for choosing sequencing depth"
+      ],
+      "data": "",
+      "code": "sequencing-depth4splicing.com"
+    },
+    {
+      "id": "10.1186/s13059-026-04238-0",
+      "date_added": "2026-11-12",
+      "published": "2026-08-17",
+      "title": "Benchmarking DNA foundation models for zero-shot variant effect prediction shows the importance of context, training, and architecture.",
+      "authors": "Alfisi I, Ciapi F, Baragli M, et al.",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04238-0",
+      "url": "https://doi.org/10.1186/s13059-026-04238-0",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "A benchmark of DNA foundation models (Nucleotide Transformer, DNABERT, HyenaDNA and Evo 2) on zero-shot scoring of pathogenic, benign and uncertain ClinVar SNVs, with no task-specific fine-tuning. Large multi-species Nucleotide Transformer models separated variant classes best, especially when scores were aggregated over the tokens surrounding the variant. Models trained only on human sequence or with a next-token objective showed limited awareness of context and discriminated variant effects less well.",
+      "key_points": [
+        "Zero-shot variant effect scoring on ClinVar SNVs, four model families",
+        "Multi-species Nucleotide Transformer models perform best",
+        "Aggregating scores over neighbouring tokens improves discrimination"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01746-3",
+      "date_added": "2026-11-12",
+      "published": "2026-08-13",
+      "title": "Evidence-based recommendations for application of construct-based splicing data in clinical variant classification.",
+      "authors": "Canson DM, Wiggins GAR, Velasco-Sampedro EA, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01746-3",
+      "url": "https://doi.org/10.1186/s13073-026-01746-3",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Clinical"
+      ],
+      "summary": "An evaluation of more than 41,000 variants from construct-based splicing assays, covering seven massively parallel splicing assays (MPSAs) and 673 variants from traditional minigene RT-PCR studies. Scores from five of the seven MPSAs could not tell aberrant from natural splicing, whereas minigene results agreed well with SpliceAI: a score of 0.285 gave 90% sensitivity and specificity for separating no or low aberration from intermediate-to-complete aberration. Minigene and patient RNA results were highly concordant in 89% of cases, and the paper sets out calibrated recommendations for using such data in variant classification.",
+      "key_points": [
+        "Five of seven MPSA datasets failed to separate aberrant from natural splicing",
+        "SpliceAI 0.285 threshold: 90% sensitivity and specificity against minigene data",
+        "Minigene and patient-derived RNA results concordant in 81 of 91 variants"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1165",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "oRNAment V2: an expanded database of putative RNA binding protein target sites in the transcriptomes of diverse model species.",
+      "authors": "Zhou D, Elhajjajy SI, Deschamps-Francoeur G, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1165",
+      "url": "https://doi.org/10.1093/nar/gkag1165",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "oRNAment V2 is an updated database of predicted RNA-binding protein (RBP) binding sites across coding and non-coding transcripts. It adds more RBPs, motifs and species, and now includes intronic sequence, for about 3.8 billion putative sites in human and 14 other species. New features include the evolutionary age of each site, annotation of CLIP support and UCSC track hubs.",
+      "key_points": [
+        "About 3.8 billion predicted RBP sites in human and 14 other species",
+        "Now covers introns as well as mature transcripts",
+        "Adds site evolutionary age, CLIP support and UCSC track hubs"
+      ],
+      "data": "rnabiology.ircm.qc.ca/oRNAmentv2",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78316-z",
+      "date_added": "2026-11-12",
+      "published": "2026-10-14",
+      "title": "Interpretable and scalable spatial gene set activity analysis with GESSO uncovers functional tissue architecture.",
+      "authors": "Yang AJ, Tan C, Ma Y",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78316-z",
+      "url": "https://doi.org/10.1038/s41467-026-78316-z",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "GESSO scores gene set activity in spatial transcriptomics data while using information from neighbouring locations. It also reports how much each gene contributes to a score and tests each location for elevated pathway activity. In simulations and 13 datasets from five platforms it recovered known spatial patterns better than existing methods, with well-calibrated tests and better scaling, and it picked out epithelial-to-mesenchymal transition at tumour-stroma interfaces and coordinated immune pathways in germinal centres.",
+      "key_points": [
+        "Spatially aware gene set activity scores with per-location tests",
+        "Reports each gene's contribution to the score",
+        "Tested on 13 datasets from five spatial platforms"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78447-3",
+      "date_added": "2026-11-12",
+      "published": "2026-10-14",
+      "title": "Mapping cell-type-specific spatial gene programs uncovers tissue architecture and microenvironment organization.",
+      "authors": "Zeng Y, Wang Z, Liu Y, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78447-3",
+      "url": "https://doi.org/10.1038/s41467-026-78447-3",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "MacSGP finds cell-type-specific spatial gene programs: sets of genes whose expression varies together across space within one cell type. It combines deep graph neural networks with probabilistic modelling and accounts for spots that mix several cell types, which lets it separate real spatial programs from plain marker-gene patterns. In mouse brain it found replicable programs reflecting subregional neuronal specialisation, and across colorectal cancer datasets from several platforms it found consistent programs that define distinct niches in the tumour microenvironment.",
+      "key_points": [
+        "Separates within-cell-type spatial programs from marker-gene patterns",
+        "Handles cell-type mixtures within spots",
+        "Consistent tumour microenvironment niches across colorectal cancer datasets"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aeh1407",
+      "date_added": "2026-11-12",
+      "published": "2026-11-06",
+      "title": "Age reshapes selection on melanoma driver mutations.",
+      "authors": "Liu Y, Mandell JD, Rajaei M, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aeh1407",
+      "url": "https://doi.org/10.1126/sciadv.aeh1407",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Tumour evolution"
+      ],
+      "summary": "Does ageing drive melanoma by raising mutation rates or by changing which mutations are selected? Analysing 5,472 melanomas, and accounting for differing neutral mutation rates, the authors found that mutation rates rose only modestly with age and UV damage stayed dominant. Selection changed much more: the advantage of BRAF V600E fell steeply with age while NRAS Q61 mutations gained advantage, so ageing reshapes melanoma evolution mainly through selection.",
+      "key_points": [
+        "5,472 melanomas; selection estimated per variant as a function of patient age",
+        "Neutral mutation rates rise only modestly with age",
+        "BRAF V600E loses its advantage with age while NRAS Q61 gains"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.7554/elife.109124",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "Multimodal single-cell analyses reveal distinct fusion-regulated transcriptional programs in Ewing sarcoma.",
+      "authors": "Waltner OG, Apfelbaum AA, Wrenn ED, et al.",
+      "venue": "eLife",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.7554/elife.109124",
+      "url": "https://doi.org/10.7554/elife.109124",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Sarcoma",
+        "Epigenomics"
+      ],
+      "summary": "Ewing sarcoma is driven by EWS::FLI1 and related fusions, yet outcomes vary widely. Joint single-cell RNA and ATAC profiling of cell lines identified several distinct modules of gene regulation whose use differed between lines and, in some cases, could be shifted by TGF-beta. The same modules were variably enriched both between and within primary patient tumours, showing that several fusion-regulated programs coexist in one tumour.",
+      "key_points": [
+        "Single-cell RNA plus ATAC co-assay in Ewing sarcoma lines and tumours",
+        "Multiple regulatory modules, some modifiable by TGF-beta",
+        "Modules vary within individual patient tumours"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag829",
+      "date_added": "2026-11-12",
+      "published": "2026-11-12",
+      "title": "Deep learning-based enhancing spatial biological context parsing.",
+      "authors": "Xu J, Liao X, Zhou C, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag829",
+      "url": "https://doi.org/10.1093/bioinformatics/btag829",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "CroSP is a multi-view graph autoencoder that combines gene expression, spatial location and tissue morphology from spatial transcriptomics into one low-dimensional representation, using cross-view contrastive learning and metric learning to align the views. Across datasets from several platforms and resolutions it improved spatial domain identification and outlined brain and olfactory bulb structures. Downstream analyses characterised spatially variable genes, immune microenvironments and cell-cell communication in human breast cancer tissue.",
+      "key_points": [
+        "Integrates expression, location and histology in a multi-view graph autoencoder",
+        "Improved spatial domain identification across platforms",
+        "Applied to human breast cancer tissue"
+      ],
+      "data": "zenodo.org/records/22533825",
+      "code": "github.com/Biowust/CroSP"
+    },
+    {
+      "id": "10.1093/nar/gkag1109",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "MethMarkerDB 2.0: an expanded and functionally annotated database for cancer DNA methylation biomarkers.",
+      "authors": "Sun Y, Peng Z, Zhong L, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1109",
+      "url": "https://doi.org/10.1093/nar/gkag1109",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Resource"
+      ],
+      "summary": "MethMarkerDB 2.0 is a database of cancer-associated differentially methylated regions (DMRs). It now covers 21 cancer types and 1,236 whole-genome methylomes, with about 5.6 million candidate DMRs and 6,411 literature-curated biomarker records. The update adds TCGA and EWAS Atlas 450K data, cell-type-resolved reference methylation, analysis modules linking DMRs to age, transcription factor binding and drug response, and a guide RNA designer for methylation-based Cas assays.",
+      "key_points": [
+        "21 cancer types, 1,236 whole-genome methylomes, about 5.6 million DMRs",
+        "Cross-checks against TCGA and EWAS Atlas 450K data",
+        "Includes a guide RNA designer for methylation-sensitive Cas assays"
+      ],
+      "data": "methmarkerdb.hzau.edu.cn/v2",
+      "code": ""
+    },
+    {
+      "id": "10.4132/jptm.2026.08.31",
+      "date_added": "2026-11-12",
+      "published": "2026-11-10",
+      "title": "Extra-axial poorly differentiated chordoma of the knee masquerading as periprosthetic joint infection: a case report.",
+      "authors": "Yang HJ, Jung HR, Choi JH, et al.",
+      "venue": "Journal of Pathology and Translational Medicine",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.4132/jptm.2026.08.31",
+      "url": "https://doi.org/10.4132/jptm.2026.08.31",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A case report of extra-axial poorly differentiated chordoma, of which only 10 cases had been reported, arising in the soft tissue around the knee of a 69-year-old woman. It was first misdiagnosed as a periprosthetic joint infection after total knee replacement. The tumour was positive for brachyury and cytokeratin with loss of INI-1 (SMARCB1) expression; sequencing found a homozygous CDKN2A deletion but no SMARCB1 genomic alteration despite the INI-1 loss.",
+      "key_points": [
+        "Eleventh reported extra-axial poorly differentiated chordoma",
+        "Initially mistaken for infection around a knee prosthesis",
+        "Homozygous CDKN2A deletion; INI-1 lost with no SMARCB1 alteration detected"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.07.16.665183",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "Aberrant splicing prediction during human organ development",
+      "authors": "Wagner N, Neverov AM, Martin-Geary AC, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.07.16.665183",
+      "url": "https://doi.org/10.1101/2025.07.16.665183",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Machine learning"
+      ],
+      "summary": "An extension of the AbSplice framework that predicts splice-disrupting variants across developmental stages, from embryonic to adult tissues. It adds a continuous representation of splice site usage and predictions from the sequence model Pangolin, and outperforms purely sequence-based models including AlphaGenome. Genome-wide scores reveal more than 18,000 variants whose splicing effects are confined to early brain development; these are enriched in neurodevelopmental disorder genes, and predicted timing correlates with clinical age of onset. (Revised version; summary based on the first version's abstract.)",
+      "key_points": [
+        "AbSplice extended with developmental splicing dynamics and Pangolin scores",
+        "Outperforms sequence-only models including AlphaGenome",
+        "Development-only splicing variants enriched in neurodevelopmental disorder genes"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.06.764993",
+      "date_added": "2026-11-12",
+      "published": "2026-11-09",
+      "title": "Integrated genotyping, annotation and epigenetic characterization of transposable elements with GraffiTE",
+      "authors": "Goubert C, Laflamme R, Eveleigh R, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.06.764993",
+      "url": "https://doi.org/10.64898/2026.11.06.764993",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Structural variants",
+        "Epigenomics"
+      ],
+      "summary": "GraffiTE v1.1 is a Nextflow pipeline that genotypes structural variants, annotates polymorphic mobile element insertions and maps long-read epigenetic signals (CpG methylation, Fiber-seq) onto them using pangenome graphs, in one command. In genomes and methylomes from 20 Quebec residents it found 4,908 Alu, 704 LINE1, 112 SVA and 21 HERVK polymorphic insertions, which add 144,748 CpGs absent from the reference. Older insertions were slightly less methylated.",
+      "key_points": [
+        "One pipeline for TE genotyping, annotation and allele-specific methylation",
+        "Uses pangenome graphs and long-read methylation calls",
+        "Polymorphic insertions add 144,748 CpGs missing from the reference"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.10.765445",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups",
+      "authors": "Srinivasan B, Nazar S, Gandhi V, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.10.765445",
+      "url": "https://doi.org/10.64898/2026.11.10.765445",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Machine learning"
+      ],
+      "summary": "RawMod is a small transformer (0.23 million parameters) that flags modified DNA positions from nanopore raw signal without knowing the modification type and without an unmodified control sample. It compares the signals of many reads at a site with the unmodified reference and treats all modifications as one class. A single model detected 5mC, 5hmC, 4mC, 6mA and 5hmU with a mean AUROC of 0.964, against 0.799 for the best released model, and still detected a modification type withheld from training (AUROC 0.91 to 0.98) when another modification of the same base had been seen.",
+      "key_points": [
+        "Control-free, modification-agnostic detection from raw nanopore signal",
+        "Mean AUROC 0.964 across five modification types with one small model",
+        "Detects modification types it was not trained on"
+      ],
+      "data": "SquiDBase",
+      "code": "github.com/STORMgroup/RawMod"
+    },
+    {
+      "id": "10.64898/2025.12.12.693322",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "Connecting spatial regions to clinical phenotypes by transferring knowledge from bulk gene expression data",
+      "authors": "Bayarbaatar A, Hodzic E, Kesimoglu ZN, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2025.12.12.693322",
+      "url": "https://doi.org/10.64898/2025.12.12.693322",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "SpacePhenotyper assigns clinical phenotypes such as hazard or drug response to regions of a spatial transcriptomics slide, even though those phenotypes are only measured per patient. It uses spectral techniques to learn the expression pattern that predicts a phenotype in bulk data, the 'Eigen-Patient' vector, and then scores each spatial spot against it. After validation on simulated and real data, the authors used it to study how spatial heterogeneity in breast tumours relates to residual cancer burden after treatment. (Revised version; summary based on the first version's abstract.)",
+      "key_points": [
+        "Transfers phenotype-expression relationships from bulk data to spatial spots",
+        "Summarises the predictive pattern as an 'Eigen-Patient' vector",
+        "Applied to residual cancer burden in breast cancer"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764594",
+      "date_added": "2026-11-12",
+      "published": "2026-11-06",
+      "title": "Rapid, accurate, and memory-frugal sub-gene-level quantification of probe-based, multiplexed single-cell data",
+      "authors": "He D, Gao Y, Patro R",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764594",
+      "url": "https://doi.org/10.64898/2026.11.05.764594",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "An extension of simpleaf for demultiplexing and quantifying probe-based, multiplexed single-cell libraries such as 10x Genomics Flex. Across five Flex datasets (44 samples) it was the fastest and most memory-efficient of three tools, about twice as fast as cyto with roughly one-thirteenth of the memory, while giving gene counts, clusters and marker genes concordant with cyto and Cell Ranger. It also exports probe-level counts, which reveal expression changes hidden by gene-level aggregation and give a view of splicing dynamics across cell types.",
+      "key_points": [
+        "simpleaf now handles probe-based multiplexed single-cell data",
+        "About 2x faster than cyto with roughly 1/13 of the memory",
+        "Probe-level counts expose sub-gene and splicing changes"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.05.736662",
+      "date_added": "2026-11-12",
+      "published": "2026-11-10",
+      "title": "RICO enables integrated analysis of ribosomal DNA copy number and methylation from nanopore long-read sequencing",
+      "authors": "Yuen ZWS, Leeder N, Udumanne T, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.05.736662",
+      "url": "https://doi.org/10.64898/2026.07.05.736662",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Copy number",
+        "Epigenomics"
+      ],
+      "summary": "RICO estimates ribosomal DNA copy number and methylation together from Oxford Nanopore reads that span whole rDNA repeats, mapped to an rDNA-augmented reference and normalised with a panel of single-copy genes. It was accurate in simulations, agreed with short-read and PCR-based estimates, and reproduced the roughly 40% drop in rDNA copy number in Atrx-knockout cells and the increase in a MYC-driven lymphoma mouse model. In human cohorts, people with more rDNA copies had a higher fraction of highly methylated copies, suggesting dosage compensation. (Revised version; summary based on the first version's abstract.)",
+      "key_points": [
+        "Joint rDNA copy number and methylation from nanopore reads",
+        "Agrees with short-read and PCR-based estimates",
+        "Higher copy number goes with more methylated copies across individuals"
+      ],
+      "data": "",
+      "code": "github.com/comprna/RICO"
+    },
+    {
+      "id": "10.64898/2026.11.10.765759",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "Single-nucleus long-read RNA sequencing reveals isoform usage shifts in mouse acute kidney injury",
+      "authors": "Oda Y, Noonan ML, Dixon EE, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.10.765759",
+      "url": "https://doi.org/10.64898/2026.11.10.765759",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "Single-cell",
+        "Isoforms"
+      ],
+      "summary": "Single-cell and single-nucleus long-read RNA sequencing of healthy and ischaemia-reperfusion-injured mouse kidneys, 1.3 billion reads in total. Single-nucleus libraries assigned a smaller share of reads to isoforms because of intronic reads, but detected more distinct isoforms and greater isoform diversity than single-cell libraries. After injury, proximal tubule cells downregulated oxidative phosphorylation genes both in expression and through shifts in isoform composition, and Fut9 and Prrc2b showed prominent isoform switches.",
+      "key_points": [
+        "Direct comparison of single-cell and single-nucleus long-read libraries",
+        "Nuclei detect more isoforms despite more intronic reads",
+        "Kidney injury shifts isoform usage, including Fut9 and Prrc2b"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.04.764099",
+      "date_added": "2026-11-12",
+      "published": "2026-11-05",
+      "title": "Benchmarking Statistical Methods for Differential Composition Analysis in Population-Scale Single-Cell Data",
+      "authors": "Wu W, He M, Hu Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.04.764099",
+      "url": "https://doi.org/10.64898/2026.11.04.764099",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "A benchmark of 12 methods for testing whether cell-type proportions differ between conditions, using three population-scale single-cell RNA-seq datasets. On real data the methods agreed poorly with each other, and permutations and simulations based on the real data showed excess false discoveries for most of them. LOCOM performed best, controlling the false discovery rate with good power, followed by ANCOM-BC and linear regression on centred-log-ratio-transformed proportions.",
+      "key_points": [
+        "12 differential composition methods on three population-scale datasets",
+        "Most methods produce excess false discoveries",
+        "LOCOM best; ANCOM-BC and CLR linear regression next"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.02.11.705358",
+      "date_added": "2026-11-12",
+      "published": "2026-11-10",
+      "title": "Simple models outperform single-cell foundation models on downstream benchmarks",
+      "authors": "Souza H, Mehta P",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.02.11.705358",
+      "url": "https://doi.org/10.64898/2026.02.11.705358",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "The authors ask whether single-cell foundation models such as TranscriptFormer are needed for the tasks they are evaluated on. Simple, interpretable pipelines built on careful normalisation and linear methods matched or beat state-of-the-art results on several standard benchmarks, including cell-type classification and disease-state prediction. They also outperformed foundation models on out-of-distribution tasks with cell types and organisms absent from training. (Revised version; summary based on the first version's abstract.)",
+      "key_points": [
+        "Careful normalisation plus linear methods match or beat foundation models",
+        "Better on novel cell types and unseen organisms",
+        "Argues for more rigorous benchmarking of single-cell foundation models"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.09.765503",
+      "date_added": "2026-11-12",
+      "published": "2026-11-11",
+      "title": "OligoFragger: spectrum graph-guided analysis of modified RNA oligonucleotides by mass spectrometry",
+      "authors": "Shen J, Polasky DA, Yu F, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.09.765503",
+      "url": "https://doi.org/10.64898/2026.11.09.765503",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications"
+      ],
+      "summary": "OligoFragger identifies modified RNA oligonucleotides from tandem mass spectra, a search that becomes very hard when dozens of candidate modifications must be considered at once, as in densely modified tRNAs. It uses a spectrum graph of fragment evidence to narrow the candidates before full database scoring. On controlled RNA samples and tRNA datasets from E. coli and human cells it increased identifications under stringent FDR control, recovered known modification patterns and supported label-free quantification.",
+      "key_points": [
+        "Spectrum graph narrows the search before database scoring",
+        "More identifications at stringent FDR on E. coli and human tRNA",
+        "Supports label-free quantification of modified oligonucleotides"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03308-2",
       "date_added": "2026-11-11",

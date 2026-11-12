@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+<rect width="640" height="400" fill="#FFFFFF"/>
+<text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2B3138">jaxQTL: where single-cell eQTLs sit</text>
+<!-- bulk row -->
+<text x="40" y="74" font-size="14" font-weight="bold" fill="#8A949E">Bulk tissue</text>
+<line x1="40" y1="150" x2="600" y2="150" stroke="#8A949E" stroke-width="3"/>
+<rect x="470" y="138" width="110" height="24" fill="#2B3138"/>
+<text x="525" y="182" text-anchor="middle" font-size="13" fill="#2B3138">gene</text>
+<path d="M470 138 L470 112 L492 112" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<polygon points="500,112 490,106 490,118" fill="#2B3138"/>
+<text x="506" y="117" font-size="13" fill="#2B3138">TSS</text>
+<polygon points="430,150 421,134 439,134" fill="#8A949E"/>
+<path d="M430 132 C436 104 452 100 466 110" fill="none" stroke="#8A949E" stroke-width="2.5"/>
+<text x="392" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#8A949E">bulk eQTL</text>
+<text x="392" y="182" text-anchor="middle" font-size="13" fill="#8A949E">near the TSS</text>
+<!-- single-cell row -->
+<text x="40" y="226" font-size="14" font-weight="bold" fill="#1E5FA8">One cell type (pseudobulk counts)</text>
+<line x1="40" y1="310" x2="600" y2="310" stroke="#8A949E" stroke-width="3"/>
+<rect x="470" y="298" width="110" height="24" fill="#2B3138"/>
+<text x="525" y="342" text-anchor="middle" font-size="13" fill="#2B3138">gene</text>
+<path d="M470 298 L470 272 L492 272" fill="none" stroke="#2B3138" stroke-width="2.5"/>
+<polygon points="500,272 490,266 490,278" fill="#2B3138"/>
+<rect x="96" y="300" width="88" height="20" rx="4" fill="#D98A00"/>
+<text x="140" y="342" text-anchor="middle" font-size="13" fill="#D98A00">cell-type-specific enhancer</text>
+<polygon points="140,300 131,284 149,284" fill="#1E5FA8"/>
+<path d="M140 282 C200 226 400 226 464 268" fill="none" stroke="#1E5FA8" stroke-width="3"/>
+<text x="150" y="256" text-anchor="end" font-size="13" font-weight="bold" fill="#1E5FA8">single-cell eQTL</text>
+<text x="506" y="277" font-size="13" fill="#2B3138">TSS</text>
+<text x="320" y="270" text-anchor="middle" font-size="13" fill="#1E5FA8">distal effect</text>
+<!-- footer -->
+<rect x="90" y="358" width="460" height="32" rx="16" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+<text x="320" y="379" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C9A2E">Negative binomial model finds more eGenes</text>
+</svg>
