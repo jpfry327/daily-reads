@@ -1,13 +1,800 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-12T11:15:35Z",
+  "updated": "2026-11-13T11:11:39Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02830-5",
-    "10.1038/s41586-026-11269-x",
-    "10.1038/s41586-026-11230-y"
+    "10.1038/s41592-026-03295-4",
+    "10.1126/science.aeg8777",
+    "10.1038/s43018-026-01260-w"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03295-4",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases.",
+      "authors": "Kim S, Cheong S, Lee S, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03295-4",
+      "url": "https://doi.org/10.1038/s41592-026-03295-4",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "PANGEA is a remapped atlas of human cells built by a pipeline that automatically reprocesses raw sequence files from public repositories. A core of 12.6 million cells defines a hierarchy of 32 major cell types and 165 subtypes, which is then used to annotate 46.5 million cells from 160 diseases across 48 organs. The atlas reveals core archetypes of multicellular disease response that recur across organs, and it works as a reference for spatial transcriptomics, where it picks out spatial features linked to immunotherapy response.",
+      "key_points": [
+        "46.5 million cells, 160 diseases, 48 organs, reprocessed from raw public data",
+        "Hierarchy of 32 major cell types and 165 subtypes",
+        "Recurring disease archetypes across organs; usable as a spatial reference"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03295-4.svg",
+        "caption": "Raw public reads are reprocessed into a 12.6-million-cell core atlas with a hierarchy of 32 major cell types and 165 subtypes, used to annotate 46.5 million cells and to show the same disease-response archetype recurring in different organs.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1126/science.aeg8777",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "The genetic landscape of canine tumors: Insights from the Canine Cancer Genome Atlas (CCGA).",
+      "authors": "Mazzone E, Marconato L, Fanelli A, et al.",
+      "venue": "Science",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1126/science.aeg8777",
+      "url": "https://doi.org/10.1126/science.aeg8777",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Resource"
+      ],
+      "summary": "The Canine Cancer Genome Atlas (CCGA) is an open comparative oncology resource that harmonises whole-exome data from 667 tumour-normal pairs across 10 canine tumour types, with curated point mutations, indels, structural variants and copy number changes called through consensus pipelines. Selection analyses identified 39 cancer driver genes, and direct comparison with matched human cancers showed which oncogenic mechanisms and pathways are conserved and which are enriched in one species. (PubMed's abstract drops the gene names, so the specific drivers are not listed here.)",
+      "key_points": [
+        "667 tumour-normal exome pairs across 10 canine tumour types, uniformly reprocessed",
+        "39 driver genes from selection analysis, plus recurrent amplifications and deletions",
+        "Matched comparison with human cancers; data and interactive analyses are open"
+      ],
+      "data": "caninecancergenomeatlas.org",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1126_science.aeg8777.svg",
+        "caption": "Exome data from 667 canine tumour-normal pairs go through consensus variant calling for four variant classes, and the resulting drivers and pathways are compared with human tumours as conserved, dog-enriched or human-enriched.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s43018-026-01260-w",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "A single-cell lung cancer atlas reveals cellular and molecular drivers of metastasis and clinical outcome.",
+      "authors": "Jurmeister P, Keyl P, Mochmann LH, et al.",
+      "venue": "Nature Cancer",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s43018-026-01260-w",
+      "url": "https://doi.org/10.1038/s43018-026-01260-w",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Clinical",
+        "Resource"
+      ],
+      "summary": "LuCaS+ is a multicentre single-nucleus RNA-seq atlas of non-small-cell lung cancer with over 2.5 million nuclei from 454 clinically annotated patients with long-term follow-up, split into a discovery set (Berlin and Cologne, 364 patients) and a validation set (Munich, 90 patients). It identifies tumour cell subpopulations with high metastatic potential, linked to oncogenic signalling, immune evasion and epithelial-mesenchymal transition, that are strongly prognostic in early-stage adenocarcinoma. Combining tumour and microenvironment profiles improved survival prediction at every stage.",
+      "key_points": [
+        "2.5 million nuclei from 454 NSCLC patients, with an independent validation cohort",
+        "Metastasis-prone tumour subpopulations are prognostic in early-stage adenocarcinoma",
+        "Distinct tumour-immune-stromal patterns in adenocarcinoma versus squamous carcinoma"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s43018-026-01260-w.svg",
+        "caption": "In the LuCaS+ atlas, lung adenocarcinoma shows monocyte- and fibroblast-driven inflammation around tumour cells, while squamous carcinoma shows a VEGF-TGFβ angiogenic feedback loop between tumour cells and vessels.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1126/science.aef4622",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "A cellular atlas of the preinvasive breast cancer microenvironment.",
+      "authors": "He S, Thennavan A, Wei R, et al.",
+      "venue": "Science",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1126/science.aef4622",
+      "url": "https://doi.org/10.1126/science.aef4622",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Resource"
+      ],
+      "summary": "This atlas maps the tumour microenvironment of oestrogen-receptor-positive ductal carcinoma in situ (DCIS), the most common preinvasive breast cancer, using fresh normal breast, DCIS and invasive cancer samples. Single-cell RNA-seq of 854,911 cells from 159 patients and spatial transcriptomics of 39 samples defined 9 cell types and 60 cell states. Fibroblasts, vascular cells and basal cells that encircle DCIS regions are remodelled, and immunosuppressive ducts support the growth of the preinvasive cells; many of these changes persist into invasive disease.",
+      "key_points": [
+        "854,911 cells from 159 patients plus spatial data from 39 samples",
+        "Fibroblast, vascular and basal cells around DCIS ducts are remodelled",
+        "Many early microenvironment changes persist in invasive cancer"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/2159-8290.CD-26-0691",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "Perivascular epithelial remodeling is reflected in circulating cfDNA methylation signals as detection markers for early esophageal tumorigenesis.",
+      "authors": "Yi Y, Li D, Zhang S, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-26-0691",
+      "url": "https://doi.org/10.1158/2159-8290.CD-26-0691",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Clinical",
+        "Multi-omics"
+      ],
+      "summary": "A circulating cell-free DNA methylation assay detects early oesophageal squamous neoplasia: in prospective community screening it reached 78% sensitivity at 79% specificity for high-grade intraepithelial neoplasia or carcinoma. Genome-wide methylation profiling shows that high-grade neoplasia is already an early stage of epigenetic reprogramming, and spatial and single-cell RNA-seq trace the cfDNA signal to a remodelled population of epithelial cells next to the endothelium. These findings guided an 11-gene methylation panel that was validated in three retrospective case-control sets and one screening-derived set.",
+      "key_points": [
+        "cfDNA methylation assay: 78% sensitivity at 79% specificity in community screening",
+        "Signal traced to remodelled epithelial cells near blood vessels",
+        "11-gene panel validated in four case-control sets"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cell.2026.08.012",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "Single-cell multimodal atlas reveals regulatory programs in the human brain.",
+      "authors": "Xie Y, Chang L, Zhong G, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.08.012",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.012",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Epigenomics",
+        "Resource"
+      ],
+      "summary": "Part of the BICAN brain atlas package: a single-cell multimodal atlas that profiles the transcriptome together with an active (H3K27ac) or repressive (H3K27me3) histone mark in over 750,000 nuclei, spanning 160 cell types and 18 adult human brain regions. Integrated with chromatin accessibility, DNA methylation, 3D genome and spatial data, it assigns chromatin states to over 500,000 candidate regulatory elements, links enhancers to genes and finds Polycomb-associated ultra-long-range contacts. A sequence-to-function model built on the atlas predicts cell-type-specific effects of candidate neurological disease variants.",
+      "key_points": [
+        "Joint RNA plus H3K27ac or H3K27me3 in 750,000 nuclei from 18 brain regions",
+        "Chromatin states for over 500,000 candidate regulatory elements",
+        "Active programmes conserved across species; repressive programmes diverge"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cell.2026.10.022",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "An integrative single-cell epigenomic atlas annotates the regulatory genome of the adult mouse brain.",
+      "authors": "Wang Z, Zu S, Armand EJ, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.10.022",
+      "url": "https://doi.org/10.1016/j.cell.2026.10.022",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Epigenomics",
+        "Machine learning"
+      ],
+      "summary": "Part of the BICAN brain atlas package: four histone modifications were profiled jointly with the transcriptome in 2.5 million nuclei from the adult mouse brain. Combined with chromatin accessibility, DNA methylation and 3D genome data, the atlas covers over 100 brain cell subclasses and assigns active, primed or repressive chromatin states to 81% of the genome. Active states defined by combinations of histone marks nominate functional enhancers better than accessibility alone, and the data were used to train deep learning models that predict cell-type-specific epigenomic features and expression from DNA sequence.",
+      "key_points": [
+        "Four histone marks plus RNA in 2.5 million mouse brain nuclei",
+        "Chromatin states assigned across 81% of the genome in over 100 subclasses",
+        "Histone-mark states beat accessibility alone for finding enhancers"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.cell.2026.10.012",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "Cross-species multiomic atlas of the primate basal ganglia.",
+      "authors": "Johansen NJ, Fu Y, Schmitz M, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.10.012",
+      "url": "https://doi.org/10.1016/j.cell.2026.10.012",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Multi-omics",
+        "Resource"
+      ],
+      "summary": "The flagship cross-species paper of the BICAN basal ganglia package: a consensus atlas of 1.8 million nuclei from humans, macaques and marmosets across eight basal ganglia structures, integrating gene expression, open chromatin and spatial profiling. Aligning the species with each other and with mouse and human whole-brain atlases identifies 61 homologous cell types conserved over 76 million years. Cis-regulatory analysis finds conserved sequence grammars that encode cell identity, and cell-type-resolved mapping places psychiatric and neurodegenerative risk in specific cell populations.",
+      "key_points": [
+        "1.8 million nuclei from human, macaque and marmoset, eight structures",
+        "61 homologous cell types conserved over 76 million years",
+        "Dorsal-ventral identity is more conserved than D1/D2 or striosome/matrix identity"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41592-026-03296-3",
+      "date_added": "2026-11-13",
+      "published": "2026-11-10",
+      "title": "In situ profiling of plasma cell clonality with image-based single-cell transcriptomics.",
+      "authors": "Yang E, Aceves-Salvador J, Castrillon C, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03296-3",
+      "url": "https://doi.org/10.1038/s41592-026-03296-3",
+      "topics": [
+        "Methods",
+        "Spatial",
+        "Single-cell"
+      ],
+      "summary": "BCR-MERFISH extends image-based single-cell transcriptomics to read which V gene each plasma cell uses, so that clonality can be measured in intact tissue alongside the transcriptome. It identified V gene usage accurately in cell culture and in mice with restricted or native plasma cell diversity. In the mouse gut it showed microbiota-dependent changes in plasma cell abundance, clonal diversity and public clonotype usage, and an uneven distribution of clones along the ileum.",
+      "key_points": [
+        "MERFISH readout of B cell receptor V gene usage plus transcriptome",
+        "Validated in cell culture and in mice with restricted or native diversity",
+        "Maps microbiota-dependent plasma cell clones along the mouse ileum"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02832-3",
+      "date_added": "2026-11-13",
+      "published": "2026-11-11",
+      "title": "Saturation genome editing of BRCA1 across cell types improves interpretation of variant pathogenicity.",
+      "authors": "Dace P, Forrester NM, Zanti M, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02832-3",
+      "url": "https://doi.org/10.1038/s41588-026-02832-3",
+      "topics": [
+        "Cancer genomics",
+        "Clinical"
+      ],
+      "summary": "Saturation genome editing of BRCA1 in HAP1 cells scored 4,113 previously unassayed variants, and a new assay in human mammary epithelial cells (HMECs) allowed effects to be compared across cell lines, drug treatments and genetic backgrounds. The work found 538 variants that affect gene function, and HAP1 scores separated known pathogenic from benign variants with near-perfect accuracy. Nearly half of the loss-of-function variants in HAP1 scored as neutral in HMECs; these discordant variants are hypomorphic and confer intermediate cancer risk.",
+      "key_points": [
+        "4,113 new BRCA1 variants scored by saturation genome editing",
+        "HAP1 scores separate known pathogenic and benign variants almost perfectly",
+        "Variants discordant between HAP1 and HMECs are hypomorphs with intermediate risk"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101661",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells.",
+      "authors": "Wang N, Cardenas C, Nieto-Caballero VE, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101661",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101661",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "PIANO is a deep learning framework for integrating single-cell data built around a generative model of gene expression. It corrects strong batch effects, trains about 10 times faster than earlier methods, and integrates data across species and across single-cell and spatial transcriptomics. The authors use it to model spatially resolved expression during Alzheimer's disease progression and to integrate over 100 million cancer cells to model drug perturbations.",
+      "key_points": [
+        "Generative autoencoder model of gene expression that also models covariate effects",
+        "Trains about 10x faster than previous integration methods",
+        "Scaled to more than 100 million cancer cells for drug perturbation modelling"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101664",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "multiVIB: A unified probabilistic contrastive learning framework for atlas-scale integration of single-cell multi-omics data.",
+      "authors": "Xu Y, Fleming SJ, Wang B, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101664",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101664",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "multiVIB combines the variational information bottleneck with probabilistic contrastive learning to integrate single-cell multi-omics data in horizontal, vertical and mosaic settings. Across benchmarks it performed competitively while keeping spurious alignments low. On BRAIN Initiative atlas data it integrated nine molecular modalities in mouse primary motor cortex step by step, and aligned primate basal ganglia transcriptomes across species.",
+      "key_points": [
+        "One framework for horizontal, vertical and mosaic integration",
+        "Competitive on benchmarks with few spurious alignments",
+        "Incrementally integrated nine modalities in mouse motor cortex"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101650",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "MapMyCells: High-performance mapping of cell-by-gene data to reference brain taxonomies.",
+      "authors": "Daniel SF, Lee C, Mollenkopf T, et al.",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101650",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101650",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Spatial"
+      ],
+      "summary": "MapMyCells is an open-source framework for mapping single-cell omics datasets onto hierarchical reference cell-type taxonomies with little preprocessing. It supports six brain references, including whole mouse and human brain, and works with transcriptomic, epigenomic and spatial data. In benchmarks it matched the accuracy of other tools with much lower compute needs, so taxonomies with thousands of cell types can be handled on a standard workstation.",
+      "key_points": [
+        "Maps cell-by-gene data to hierarchical reference taxonomies",
+        "Stays robust with reduced gene panels, including spatial data",
+        "Competitive accuracy at much lower computational cost"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.xgen.2026.101420",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "Population-scale integration of spatial omics networks for clinical prediction and biological discovery by SPIN.",
+      "authors": "Liu T, Ko E, Yang Y, et al.",
+      "venue": "Cell Genomics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.xgen.2026.101420",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101420",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Clinical"
+      ],
+      "summary": "SPIN builds a spatially informed co-expression or co-abundance network for each cell type in each person, then uses those networks to predict clinical outcomes across a cohort with a Bayesian scalar-on-network regression. In the SEA-AD MERFISH cohort it predicted dementia status with an accuracy of 0.81 and picked out biologically relevant co-expression subnetworks. In a breast cancer single-cell proteomics cohort it predicted survival with a C-index of 0.78 and found two survival-associated spatial subnetworks.",
+      "key_points": [
+        "Subject-specific, cell-type-level spatial networks as predictors",
+        "Dementia status accuracy 0.81 in SEA-AD MERFISH data",
+        "Breast cancer survival C-index 0.78 from spatial proteomics"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04326-1",
+      "date_added": "2026-11-13",
+      "published": "2026-11-09",
+      "title": "Community benchmarking of generative models for privacy-preserving synthetic bulk RNA-seq data generation.",
+      "authors": "Öztürk H, Afonja T, Jälkö J, et al.",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04326-1",
+      "url": "https://doi.org/10.1186/s13059-026-04326-1",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Machine learning"
+      ],
+      "summary": "Building on the CAMDA 2025 Health Privacy Challenge, this study benchmarks 11 generative methods for making synthetic bulk RNA-seq data from two cancer cohorts of about 1,000 and 5,000 patients. Expressive deep generative models gave the best predictive utility and differential expression recovery but were more exposed to membership inference attacks. Differentially private methods resisted attacks better at a cost in utility, and simpler statistical approaches gave competitive utility with moderate privacy risk and fast training.",
+      "key_points": [
+        "11 generative methods compared on fidelity, utility, biology and privacy",
+        "Deep generative models: most useful, but most vulnerable to membership inference",
+        "Simple statistical models are a competitive, fast middle ground"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1216",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "SnoDB 3.0: a specialized database featuring murine and human annotation and cross-species correspondence for the snoRNA community.",
+      "authors": "Montmartin S, Bergeron D, Song KS, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1216",
+      "url": "https://doi.org/10.1093/nar/gkag1216",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications",
+        "Resource"
+      ],
+      "summary": "snoDB collects annotations for small nucleolar RNAs, which guide ribosomal RNA modifications: genomic location, host gene, motifs, protein and RNA interactors, expression, rRNA target sites and modification levels. The third release adds mouse snoRNAs at the same level of annotation and updates human host genes and interactors. New tools link snoRNAs and their rRNA targets between the two species.",
+      "key_points": [
+        "Mouse snoRNAs added with full annotation",
+        "Updated human host genes, RNA and protein interactors",
+        "Cross-species correspondence of snoRNAs and rRNA target sites"
+      ],
+      "data": "bioinfo-scottgroup.med.usherbrooke.ca/snoDB",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1149",
+      "date_added": "2026-11-13",
+      "published": "2026-11-13",
+      "title": "TransCirc 2.0: a multi-species resource for translatable circular RNAs and cognate translation products.",
+      "authors": "Xie D, Ling Y, Li D, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1149",
+      "url": "https://doi.org/10.1093/nar/gkag1149",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Resource",
+        "RNA modifications"
+      ],
+      "summary": "TransCirc 2.0 is a database for judging whether circular RNAs are translated and what they might encode. The update grows from a mainly human resource to 10 vertebrate species and more than 2.8 million circRNAs with full-length sequences, about 10 times the earlier coverage. Evidence now includes translation initiation sites, internal ribosome entry sites, m6A, ribosome association, mass spectrometry and AI-predicted regulatory features, and the predicted proteins are annotated for stability and possible MHC-I presentation.",
+      "key_points": [
+        "10 vertebrate species, over 2.8 million circRNAs",
+        "Multiple lines of translation evidence, including m6A and mass spectrometry",
+        "Encoded peptides annotated for degrons and MHC-I presentation"
+      ],
+      "data": "biosino.org/transcirc",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag827",
+      "date_added": "2026-11-13",
+      "published": "2026-11-13",
+      "title": "A Topology-Feature Disentangled Deep Clustering Method for scRNA-seq Based on Graph-to-MLP Distillation.",
+      "authors": "Gao X, Liu H, Zhao Y, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag827",
+      "url": "https://doi.org/10.1093/bioinformatics/btag827",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scAdaG2M is a clustering method for scRNA-seq that separates learning from the cell graph from learning from expression features. A graph neural network teacher learns relationships between cells, and several lightweight MLP students learn without a graph, with AdaBoost-style reweighting that focuses on hard-to-separate and potentially rare cells. The design aims to reduce over-smoothing, dependence on a pre-built graph, and the cost of large cell graphs.",
+      "key_points": [
+        "Graph-to-MLP knowledge distillation for single-cell clustering",
+        "AdaBoost-style reweighting targets ambiguous and rare cells",
+        "Lower compute cost than graph-based inference on large datasets"
+      ],
+      "data": "",
+      "code": "github.com/gxl1110/scAdaG2M"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag814",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "MetaHQ: Harmonized, high-quality metadata annotations of public omics samples and studies.",
+      "authors": "Hicks P, Valtadoros LE, Mancuso CA, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag814",
+      "url": "https://doi.org/10.1093/bioinformatics/btag814",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "MetaHQ harmonises standardized metadata annotations for public omics samples that were previously scattered across curation projects in different formats. The database covers more than 567,000 samples and 27,000 studies in GEO from 13 sources. A command-line tool queries it and retrieves annotations, making it easier to find samples and studies for reuse.",
+      "key_points": [
+        "Annotations for over 567k GEO samples and 27k studies",
+        "Brings together 13 separate curation sources",
+        "Python command-line interface on PyPI"
+      ],
+      "data": "doi.org/10.5281/zenodo.17663086",
+      "code": "github.com/krishnanlab/meta-hq"
+    },
+    {
+      "id": "10.1093/nar/gkag1153",
+      "date_added": "2026-11-13",
+      "published": "2026-11-10",
+      "title": "Truncated APC regulates alternative splicing by interacting with DDX21 in colorectal cancer.",
+      "authors": "Lv Y, Huang C, Ling H, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1153",
+      "url": "https://doi.org/10.1093/nar/gkag1153",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Isoforms"
+      ],
+      "summary": "Truncating APC mutations in colorectal cancer often leave a shortened APC protein, and this study shows that it acts as an RNA-binding protein. It binds pre-mRNA through its first 169 amino acids, interacts with the helicase DDX21, and helps recruit the SF3B complex, changing alternative splicing widely. One result is exon inclusion in ARHGEF11, giving an isoform linked to reduced apoptosis, and the splicing inhibitor Madrasin reduced tumour burden in ApcMin/+ mice.",
+      "key_points": [
+        "Truncated APC binds pre-mRNA and regulates alternative splicing",
+        "Works with DDX21 to recruit SF3B to pre-mRNA",
+        "Splicing inhibitor Madrasin reduced tumours in ApcMin/+ mice"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.08.24.746754",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "HIDE-Deconv: A hierarchical deconvolution framework for multiscale characterization of cellular remodeling",
+      "authors": "Voelkl D, Bolz S, Rayford A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.08.24.746754",
+      "url": "https://doi.org/10.64898/2026.08.24.746754",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Deconvolution"
+      ],
+      "summary": "HIDE-Deconv estimates cell-type proportions from bulk data at several levels of a cell-type hierarchy at once, keeping the coarse and fine estimates consistent with each other. It had the best overall accuracy among the methods benchmarked, and in lung adenocarcinoma, sepsis, COVID-19 and lupus it picked up shifts in fine-grained subpopulations that were hidden at broader cell-type levels. This is version 3 of the preprint; the summary is based on the version 1 abstract.",
+      "key_points": [
+        "Deconvolves jointly across levels of a cell-type hierarchy",
+        "Best overall accuracy among the benchmarked methods",
+        "Finds subpopulation shifts hidden at coarse resolution in four diseases"
+      ],
+      "data": "",
+      "code": "github.com/dvoelkl/HIDE-deconv"
+    },
+    {
+      "id": "10.1101/2025.03.12.642799",
+      "date_added": "2026-11-13",
+      "published": "2026-11-11",
+      "title": "A reformulation of the t-test in single-cell transcriptomics dramatically reduces false positives",
+      "authors": "Kviman O, Ferreira PF, Jun SH, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.03.12.642799",
+      "url": "https://doi.org/10.1101/2025.03.12.642799",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "The default differential expression tests in single-cell software, used to find marker genes for clusters, are shown by theory and experiments to give too many false positives, which affects cell-type annotation. The authors propose LN's t-test, built on a new log-fold-change estimator that is asymptotically unbiased, which avoids these false positives and is just as fast. This is version 2 with a new title; the summary is based on the version 1 abstract.",
+      "key_points": [
+        "Default single-cell t-tests have inflated false positive rates",
+        "LN's t-test uses an asymptotically unbiased log-fold-change estimator",
+        "Removes the false positives with no loss of speed"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.03.763968",
+      "date_added": "2026-11-13",
+      "published": "2026-11-10",
+      "title": "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines",
+      "authors": "Cupaioli FA, Merelli I",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.03.763968",
+      "url": "https://doi.org/10.64898/2026.11.03.763968",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Five single-cell foundation models (scGPT, Geneformer V1 and V2, Nicheformer, scFoundation) were compared with CellOracle, supervised perturbation models and simple baselines on the same data, from K562 Perturb-seq to brain organoids and lung cancer biopsies. The foundation models helped most when transferring cell labels across species (up to 0.98 accuracy from human to mouse lung versus 0.68 for the best baseline), but within a species their embeddings annotated cells no better than principal components, and predicted knockout effects in organoids were largely explained by where the target gene is expressed. The benchmark is released as the fmaudit package. This is version 2; the summary is based on the version 1 abstract.",
+      "key_points": [
+        "Foundation models clearly win only for cross-species label transfer",
+        "Within a species, embeddings match principal components for annotation",
+        "Only 12 to 35% of predicted knockout effects were gene-specific"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.04.16.719000",
+      "date_added": "2026-11-13",
+      "published": "2026-11-12",
+      "title": "Bulk transcriptomic subtypes in high-grade serous ovarian carcinoma (HGSC) are readouts of tumor cellular composition",
+      "authors": "Tanis S, Lixandrao M, Ivich A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.04.16.719000",
+      "url": "https://doi.org/10.64898/2026.04.16.719000",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Deconvolution",
+        "Single-cell"
+      ],
+      "summary": "The four transcriptomic subtypes of high-grade serous ovarian carcinoma are assigned from bulk expression, so the authors tested whether cell-type composition alone decides the subtype. In pseudo-tumours built from single cells with the epithelial cells held constant, changing the amount of one cell type within the observed range switched the subtype, and across 2,161 tumours from ten cohorts composition predicted subtype in held-out cohorts (ROC-AUC 0.817 to 0.963). Adjusting for composition largely removed the subtypes' link to survival, while fibroblast content stayed prognostic. This is version 2; the summary is based on the version 1 abstract.",
+      "key_points": [
+        "Varying one cell type's abundance is enough to reassign the HGSC subtype",
+        "Composition predicts subtype across ten cohorts (ROC-AUC 0.817 to 0.963)",
+        "Subtype survival associations fade after adjusting for composition; fibroblast content remains prognostic"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.04.764422",
+      "date_added": "2026-11-13",
+      "published": "2026-11-06",
+      "title": "Measuring satellite arrays of the human Y chromosome from sequencing reads",
+      "authors": "Ortigas-Vasquez A, Guarracino A",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.04.764422",
+      "url": "https://doi.org/10.64898/2026.11.04.764422",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants"
+      ],
+      "summary": "Yruler measures the length and composition of human Y chromosome satellite arrays, and Y dosage, straight from sequencing reads without alignment, using pangenome assemblies as the reference. It found centromere-length differences between related Y lineages, short non-centromeric arrays across a whole lineage, and composition changes that track heterochromatin length. The aim is to bring satellite variation into population-scale phenotype studies.",
+      "key_points": [
+        "Alignment-free satellite length and composition from reads",
+        "Built on pangenome assemblies rather than a linear reference",
+        "Centromere length differs between related Y lineages"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.06.764604",
+      "date_added": "2026-11-13",
+      "published": "2026-11-09",
+      "title": "Uncertainty-Aware Personalised Gene Expression Prediction Improves Cell-Type-Specific Association Testing",
+      "authors": "Styll P, Di Y, Cai N",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.06.764604",
+      "url": "https://doi.org/10.64898/2026.11.06.764604",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Single-cell"
+      ],
+      "summary": "ATTICUS predicts a person's cell-type-specific gene expression from their own genome sequence and reports how uncertain each prediction is. It carries regulatory information learned from bulk expression over to cell types, so it does not need genotypes paired with single-cell data. Across blood and brain cell types in OneK1K and ROSMAP it roughly doubled prediction correlations compared with scPrediXcan and got the direction of effect right more often, and uncertainty-aware TWAS for lupus and Alzheimer's disease found more associations with less statistical inflation.",
+      "key_points": [
+        "Personalised sequence-to-expression model with calibrated uncertainty",
+        "About double the prediction correlation of scPrediXcan",
+        "Uncertainty-aware TWAS is better calibrated and more cell-type specific"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.08.765139",
+      "date_added": "2026-11-13",
+      "published": "2026-11-10",
+      "title": "Gene-level structure of prior knowledge and perturbation responses informs target-level predictability in prior-informed models",
+      "authors": "Park J, Sim H, Hwang B",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.08.765139",
+      "url": "https://doi.org/10.64898/2026.11.08.765139",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Models that predict the transcriptional effect of unseen gene perturbations lean on prior biological knowledge, and this study measures how well that knowledge matches real Perturb-seq responses. Across eight prior sources and six Perturb-seq datasets, agreement among priors explained 30-47% of the variance in co-function agreement and 35-43% in co-regulation agreement, with better agreement for essential genes and worse for transcription factors and signalling genes. In three prior-informed models, targets whose measured responses matched the priors and resembled the training perturbations were predicted more accurately, and this could be estimated before the response was measured.",
+      "key_points": [
+        "Eight prior-knowledge sources compared with six Perturb-seq datasets",
+        "Priors fit essential genes better than transcription factors",
+        "Prior agreement forecasts which targets a model will predict well"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.08.764985",
+      "date_added": "2026-11-13",
+      "published": "2026-11-10",
+      "title": "ProClust provides reliable statistical significance of clusters for single-cell transcriptomic data",
+      "authors": "Qian H, Wu H, Dai Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.08.764985",
+      "url": "https://doi.org/10.64898/2026.11.08.764985",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "ProClust is a statistical test for whether two single-cell RNA-seq clusters are really separate populations. It treats a single population as a log-concave distribution, uses projections to get a p-value, and merges clusters when the evidence for a split is too weak, so the final number of clusters does not have to be set in advance. In simulations it avoided false subdivisions while recovering the true populations, and on the Human Lung Cell Atlas, Tabula Muris and Hydra data its clusters agreed with the reference annotations.",
+      "key_points": [
+        "Gives p-values for whether clusters are distinct populations",
+        "Merges overclustered groups without presetting cluster number",
+        "Avoids false splits in simulations; agrees with atlas annotations"
+      ],
+      "data": "",
+      "code": "github.com/Anonym027/ProClust"
+    },
+    {
+      "id": "10.64898/2026.10.28.762499",
+      "date_added": "2026-11-13",
+      "published": "2026-11-09",
+      "title": "mFrag: Integrating External DNA Methylation References Improves Lung Cancer Early Detection by Fragmentomics",
+      "authors": "Cui S, Swarup N, He Q, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762499",
+      "url": "https://doi.org/10.64898/2026.10.28.762499",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Epigenomics",
+        "Machine learning"
+      ],
+      "summary": "mFrag improves lung cancer detection from cell-free DNA fragment patterns by adding information from external DNA methylation reference atlases, either as weights on fragment features or through a neural network, and averaging the two. Trained on 287 at-risk individuals and tested on an independent set of 385 controls and 46 cancers, it raised sensitivity at 99% specificity from 0.043 to 0.478 compared with a DELFI-style approach, and ROC-AUC from 0.871 to 0.908. The gain needs no extra sequencing or methylation profiling of the samples.",
+      "key_points": [
+        "Adds external methylation atlases to cfDNA fragmentomics",
+        "Sensitivity at 99% specificity rises from 0.043 to 0.478",
+        "Stage I lung cancer ROC-AUC improves from 0.855 to 0.894"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.05.764665",
+      "date_added": "2026-11-13",
+      "published": "2026-11-06",
+      "title": "Hub labeling makes exact distance calculation practical for large human pangenome graphs",
+      "authors": "Truong Z, Novak A, Paten B",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.05.764665",
+      "url": "https://doi.org/10.64898/2026.11.05.764665",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "Pangenome graph tools such as vg need fast minimum-distance queries between graph positions, but the existing distance index stores a dense matrix for each nested subgraph (snarl), which becomes too large for big, complex snarls. This work replaces the matrix with hub labels for large snarls, so every snarl can be indexed. On four human chromosome pangenomes the index took 0.9 to 3.0 GB, an estimated 28 to 119 times less than dense matrices for the large snarls, answered the 3 to 18.6% of queries the old index could not, and whole-genome indexes under 50 GB were built in under 6 hours.",
+      "key_points": [
+        "Hub labels replace dense distance matrices for large snarls",
+        "28 to 119 times less space for those snarls",
+        "Whole-genome human pangenome indexes under 50 GB in under 6 hours"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02830-5",
       "date_added": "2026-11-12",
