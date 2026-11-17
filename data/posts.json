@@ -1,13 +1,639 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-16T11:05:20Z",
+  "updated": "2026-11-17T11:15:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s43018-026-01270-8",
-    "10.1158/2159-8290.CD-26-0498",
-    "10.1016/j.molcel.2026.10.020"
+    "10.1038/s41592-026-03279-4",
+    "10.1038/s41592-026-03319-z",
+    "10.1016/j.molcel.2026.10.027"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03279-4",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "Echidna: a Bayesian framework for integrative inference of copy number alterations impacting phenotypic plasticity.",
+      "authors": "Fan JL, Zhang M, O'Brien W, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03279-4",
+      "url": "https://doi.org/10.1038/s41592-026-03279-4",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Single-cell"
+      ],
+      "summary": "Echidna is a Bayesian hierarchical model that infers copy number alterations by combining single-cell RNA-seq with bulk whole-genome sequencing, fitting samples and treatment time points jointly rather than one at a time. This lets it separate the transcriptional effects of copy number changes from other sources of variability. Applied to patient tumour specimens, it reconstructed clones better than the alternatives and gave insight into therapy resistance.",
+      "key_points": [
+        "Bayesian hierarchical model couples single-cell RNA-seq with bulk WGS",
+        "Infers CNAs jointly across samples and treatment time points",
+        "Outperformed alternatives in clonal reconstruction on patient tumours"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03279-4.svg",
+        "caption": "Echidna combines single-cell RNA-seq with bulk whole-genome sequencing in one Bayesian model shared across samples and time points, so that inferred copy number changes can be tied to clones and separated from other expression variation.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03319-z",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression.",
+      "authors": "Lorenzini MH, Balderson B, Lavalle SN, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03319-z",
+      "url": "https://doi.org/10.1038/s41592-026-03319-z",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Superb-seq reads out Cas9 edits and the transcriptome in the same cell by combining Cas9 editing, T7 in situ transcription and single-cell RNA-seq. In 35,000 cells from three cell lines, including 10,000 K562 cells targeted at four chromatin remodeller genes, it found all on-target sites and 36 off-target sites. It estimated downstream perturbation effects better than Perturb-seq, and 19 off-target edits were associated with differential expression, 9 of them cell-type specific.",
+      "key_points": [
+        "Cas9 editing plus T7 in situ transcription tags edited loci for single-cell RNA-seq",
+        "5,761 edited cells detected among 10,000 K562 cells; all on-target and 36 off-target sites",
+        "19 off-target edits linked to expression changes, 9 cell-type specific"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03319-z.svg",
+        "caption": "In a single cell, Superb-seq marks both the intended edit and off-target cuts with T7-transcribed tags that are sequenced alongside the cell's mRNA, so each edit can be matched to the expression changes in that same cell.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.molcel.2026.10.027",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "An image-based CRISPR screen reveals RNA processing control of HP1a condensates.",
+      "authors": "Wong MM, Zhou S, Rubio LS, et al.",
+      "venue": "Molecular Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.molcel.2026.10.027",
+      "url": "https://doi.org/10.1016/j.molcel.2026.10.027",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Epigenomics"
+      ],
+      "summary": "The authors built an image-based CRISPR screening platform to find regulators of HP1a condensates and recovered RNA processing as the central pathway. Perturbations that disrupt RNA processing increased HP1a-RNA interactions and reduced HP1a binding to chromatin, which caused loss of silencing. The work places RNA processing as a post-transcriptional control point for heterochromatin organisation.",
+      "key_points": [
+        "Image-based CRISPR screen for regulators of HP1a condensates",
+        "Disrupting RNA processing increases HP1a-RNA interaction and strips HP1a from chromatin",
+        "Links RNA metabolism to heterochromatin silencing and nuclear architecture"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1016_j.molcel.2026.10.027.svg",
+        "caption": "With RNA processing intact, HP1a condensates sit on heterochromatin and silencing holds; when processing is disrupted, HP1a binds more RNA, leaves chromatin and silencing is lost.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1007/s11060-026-05883-y",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "Centralization of care for chordoma: a systematic review of oncologic and sociodemographic outcomes.",
+      "authors": "Iyer JM, Adapa AR, Willoughby CJ, et al.",
+      "venue": "Journal of Neuro-Oncology",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1007/s11060-026-05883-y",
+      "url": "https://doi.org/10.1007/s11060-026-05883-y",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A PRISMA systematic review of five retrospective US registry studies asked whether treating chordoma at high-volume, academic or specialised centres changes outcomes. Centralised care was generally associated with more frequent surgery (97.3% vs 73.7% at high-volume facilities) and better overall survival, with adjusted hazard ratios for worse survival at lower-volume or non-academic centres of 1.7 to 2.5. Patients reaching these centres travelled farther and were more often younger, privately insured or metropolitan, so the survival advantage cannot be separated from access barriers.",
+      "key_points": [
+        "Five US registry studies, searched through November 2026, with varying definitions of centralisation",
+        "Surgery was more common and survival longer at high-volume or academic centres",
+        "Access to those centres was uneven, and overlapping cohorts limit the evidence"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1084",
+      "date_added": "2026-11-17",
+      "published": "2026-11-13",
+      "title": "DIANA-miRGen v5: TSS characterization and transcriptional regulation of miRNAs in human and mouse.",
+      "authors": "Giannoukakos S, Miliotis M, Bouloutsos A, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1084",
+      "url": "https://doi.org/10.1093/nar/gkag1084",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Long-read",
+        "Resource"
+      ],
+      "summary": "DIANA-miRGen v5 uses GENCODE Capture Long-read Sequencing (CLS) data with reference annotations to resolve host transcripts and transcription start sites of primary miRNAs, which are poorly captured by conventional transcriptomics because of rapid nuclear processing. It provides transcript-anchored host and promoter annotations for 81% of human and mouse pre-miRNA loci, cross-referenced with CAGE, PRO-cap and RAMPAGE, plus ChIP-Atlas transcription factor occupancy around host TSSs.",
+      "key_points": [
+        "Long-read CLS data resolve primary miRNA host transcripts and TSSs",
+        "Covers 1560/1918 human and 994/1227 mouse pre-miRNA loci",
+        "Millions of TF-occupancy records; REST API and bulk downloads"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1076",
+      "date_added": "2026-11-17",
+      "published": "2026-11-13",
+      "title": "Evo2VED: a database of DNA large language model-derived scores for variant interpretation.",
+      "authors": "Zhu R, Zhou X, Liang I, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1076",
+      "url": "https://doi.org/10.1093/nar/gkag1076",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Resource"
+      ],
+      "summary": "Evo2VED catalogues precomputed Evo2 (7B and 40B) variant effect scores for 6.48 million common human variants, together with functional, constraint, allele-age and disease annotations and GWAS data from UK Biobank, FinnGen and the Million Veteran Program. The authors evaluate the scores against MPRAs, molecular QTLs, fine-mapping probabilities and clinical annotations, and assess what they add beyond conservation and regulatory annotations.",
+      "key_points": [
+        "Precomputed Evo2 scores for 6.48M gnomAD variants under three scoring schemes",
+        "Linked to GWAS and per-SNP heritability across thousands of traits",
+        "Benchmarked against MPRA, QTL, fine-mapping and clinical labels"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1128",
+      "date_added": "2026-11-17",
+      "published": "2026-11-10",
+      "title": "scGWAS-DB: an integrated database bridging GWAS to tissue-resolved single-cell contexts.",
+      "authors": "Zhu X, Wang Z, Wang YY, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1128",
+      "url": "https://doi.org/10.1093/nar/gkag1128",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "scGWAS-DB integrates 3,649 GWAS datasets with single-cell atlases covering 74 human tissues and 1,713 cell types to link traits to cell types and hub genes. It identifies 213,992 significant trait-cell type-gene triplets and over 800,000 gene-gene interactions, separating co-occurrent from mutually exclusive patterns to reveal recurrent cellular signatures across diseases.",
+      "key_points": [
+        "3,649 GWAS combined with single-cell atlases across 74 tissues",
+        "213,992 trait-cell type-gene triplets and 821,480 gene-gene interactions",
+        "Prioritises hub genes and cell types shared across traits"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1160",
+      "date_added": "2026-11-17",
+      "published": "2026-11-13",
+      "title": "The Biodiversity Cell Atlas database: a curated resource for comparative single-cell genomics across the eukaryotic tree of life.",
+      "authors": "Saraiva-Agostinho N, Becerra A, Pashkovskaia T, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1160",
+      "url": "https://doi.org/10.1093/nar/gkag1160",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Resource"
+      ],
+      "summary": "The Biodiversity Cell Atlas database uniformly reprocesses whole-organism single-cell atlases from raw reads through one workflow, adding QC metrics, metacells, co-expression modules and phylogeny-based orthology so that cell types can be compared across species. It currently hosts 39 datasets from 33 species across 13 eukaryotic phyla, with a web portal and a REST API.",
+      "key_points": [
+        "Uniform reprocessing of single-cell atlases from raw data",
+        "39 datasets, 33 species, 13 phyla with orthology-based comparison",
+        "Open data, code and REST API"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1170",
+      "date_added": "2026-11-17",
+      "published": "2026-11-12",
+      "title": "KinaseMD 2.0: an updated database of kinase mutations and drug response.",
+      "authors": "Hu X, Lin S, Fu S, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1170",
+      "url": "https://doi.org/10.1093/nar/gkag1170",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "KinaseMD 2.0 links kinase mutations in resistance-associated substructures (gatekeeper, G-loop, alphaC-helix, A-loop) to drug response and phosphorylation signalling. The update expands annotations to 13,522 substructure mutations across 547 kinases and adds 422,244 drug-response measurements, plus an LLM-based literature extraction workflow combined with 30 drug-treatment phosphoproteomic datasets.",
+      "key_points": [
+        "13,522 substructure annotations across 547 kinases",
+        "422,244 drug-response measurements and 1,614 resistance evidence records",
+        "New KPEM workflow combines LLM literature mining with phosphoproteomics"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.xgen.2026.101422",
+      "date_added": "2026-11-17",
+      "published": "2026-11-11",
+      "title": "Genome-wide association study meta-analysis identifies susceptibility loci informing Ewing sarcoma etiology and potential mechanisms of risk.",
+      "authors": "Hubbard AK, Neyret-Kahn H, Müller-Nurasyid M, et al.",
+      "venue": "Cell Genomics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.xgen.2026.101422",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101422",
+      "topics": [
+        "Cancer genomics",
+        "Sarcoma"
+      ],
+      "summary": "A two-stage GWAS and case-parent trio meta-analysis of 2,014 Ewing sarcoma cases and 10,525 controls identifies 18 variants at 14 susceptibility loci, 9 of them new. The loci are enriched for enhancer-like GGAA microsatellites bound by EWSR1::FLI1, and knocking down the fusion dysregulates nearby genes involved in skeletal/muscle development, RNA processing and chromatin regulation.",
+      "key_points": [
+        "14 susceptibility loci (9 new) from 2,014 cases",
+        "Risk loci enriched for EWSR1::FLI1-bound GGAA microsatellites",
+        "Germline variation interacts with the somatic fusion"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1177",
+      "date_added": "2026-11-17",
+      "published": "2026-11-10",
+      "title": "An RNA-targeting ADP-ribosyltransferase toxin uncouples mRNA stability from productive translation.",
+      "authors": "Lv F, Weng G, Whitney JC",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1177",
+      "url": "https://doi.org/10.1093/nar/gkag1177",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The interbacterial toxin RhsP2 ADP-ribosylates the ribose 2'-OH of mRNA coding sequences at UAAG-enriched motifs, which eCLIP-seq identified. Modified mRNAs are broadly stabilised yet poorly translated, and monosome- and disome-seq together with in vitro translation show that the modification stalls elongating ribosomes and causes collisions.",
+      "key_points": [
+        "eCLIP-seq maps RhsP2 to UAAG-enriched motifs in coding sequences",
+        "mRNA ADP-ribosylation stabilises transcripts but blocks elongation",
+        "Disome-seq shows ribosome stalling and collisions"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag817",
+      "date_added": "2026-11-17",
+      "published": "2026-11-10",
+      "title": "DeepHel: improving the accuracy and completeness of Helitron annotation with a multi-stage deep learning framework.",
+      "authors": "Liu Y, Xu M, Wang J",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag817",
+      "url": "https://doi.org/10.1093/bioinformatics/btag817",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Benchmarking"
+      ],
+      "summary": "DeepHel is a multi-stage deep learning framework for annotating Helitron transposons that models element intactness, boundaries and structural consistency, and detects both HLE1 and HLE2. Benchmarked on five eukaryotic genomes against HiTE, HELIANO, HelitronScanner, RepeatModeler2 and EDTA, it gives a better sensitivity-precision balance and recovers more intact families, including previously unannotated Helitrons.",
+      "key_points": [
+        "Four-module pipeline: candidate, intactness, boundary refinement, classification",
+        "Outperforms HiTE, EDTA, RepeatModeler2 and others across five genomes",
+        "Handles low-copy and nested Helitron insertions"
+      ],
+      "data": "",
+      "code": "github.com/lyysxb/DeepHel"
+    },
+    {
+      "id": "10.1038/s41467-026-78454-4",
+      "date_added": "2026-11-17",
+      "published": "2026-10-16",
+      "title": "LitGene: an interpretable transformer model integrating text and ontology for gene representation learning.",
+      "authors": "Macaulay O, Jararweh A, Arredondo D, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78454-4",
+      "url": "https://doi.org/10.1038/s41467-026-78454-4",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "LitGene is a transformer model that learns gene representations by combining literature text with Gene Ontology annotations via contrastive learning. It is competitive on eight protein-property benchmarks, makes zero-shot predictions of GO terms, pathways and gene-disease links, and flagged ANGPTL6 as a candidate gene in idiopathic pulmonary fibrosis.",
+      "key_points": [
+        "Contrastive learning over text plus GO annotations",
+        "Zero-shot GO, KEGG and gene-disease prediction",
+        "SHAP-based interpretability and public web interface"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.7554/elife.110625",
+      "date_added": "2026-11-17",
+      "published": "2026-11-17",
+      "title": "Transposons contribute to splice-isoform diversity in the brain.",
+      "authors": "Choucri M, Rainey T, Treiber CD",
+      "venue": "eLife",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.7554/elife.110625",
+      "url": "https://doi.org/10.7554/elife.110625",
+      "topics": [
+        "RNA biology",
+        "Splicing",
+        "Isoforms"
+      ],
+      "summary": "Responding to a reanalysis that failed to detect transposable element (TE)-gene splicing in fly brain data, the authors quantify TE exonisation and show intronic TE insertions are frequently used as alternative exons, from rare to near-complete inclusion. An improved TEChim pipeline and RT-PCR support TE-gene splicing at the seven contested loci and identify methodological issues in the prior study.",
+      "key_points": [
+        "Intronic TEs are recruited as alternative exons in neural transcripts",
+        "Updated TEChim software for quantifying TE exonisation",
+        "RT-PCR validates the seven loci disputed by Azad et al."
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.10.28.762670",
+      "date_added": "2026-11-17",
+      "published": "2026-11-10",
+      "title": "LIMBER: A Hybrid RNA Foundation Model for Predicting and Understanding RNA Structure and Function",
+      "authors": "Wang Z, Qiu Y, He Y, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.10.28.762670",
+      "url": "https://doi.org/10.64898/2026.10.28.762670",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "LIMBER is a hybrid RNA foundation model interleaving bidirectional self-attention with Mamba state-space layers, pre-trained on 40.5 million non-coding RNA sequences. After fine-tuning it leads on secondary-structure prediction and ncRNA classification and transfers to translation-related and RNA-small-molecule tasks; a task-agnostic interpretation framework and scaling experiments show how structural, evolutionary and functional knowledge is organised across layers.",
+      "key_points": [
+        "Hybrid attention plus state-space architecture pre-trained on 40.5M ncRNAs",
+        "Leading secondary-structure and ncRNA classification performance",
+        "Different scaling behaviour for structural, evolutionary and functional capabilities"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.10.765779",
+      "date_added": "2026-11-17",
+      "published": "2026-11-11",
+      "title": "A multi- tissue atlas of age-associated differential transcript usage in mouse reveals predominantly regulatory isoform switching across brain, liver, and adipose",
+      "authors": "Paidimukkala N, Ali SS, Laux L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.10.765779",
+      "url": "https://doi.org/10.64898/2026.11.10.765779",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms",
+        "Splicing"
+      ],
+      "summary": "The authors mapped age-associated differential transcript usage and isoform switches in mouse brain, liver and adipose tissue during natural ageing and in Ercc1 knockout mice. Across tissues 36.5-42.6% of switches changed the predicted coding sequence and 31.2-36.5% involved non-coding features; 3'UTRs lengthened with age in brain and shortened in adipose, and structural modelling suggests most switches act through regulation rather than protein structure.",
+      "key_points": [
+        "Isoform-switch atlas across three mouse tissues with age",
+        "Opposite 3'UTR length shifts in brain and adipose",
+        "Only a minority of switches plausibly alter protein structure"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.12.766258",
+      "date_added": "2026-11-17",
+      "published": "2026-11-13",
+      "title": "ModBERT: a DNA modification and genetic variant-aware DNA large language model",
+      "authors": "Bolzan D, Davuluri RV, Mahony S, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.12.766258",
+      "url": "https://doi.org/10.64898/2026.11.12.766258",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Machine learning"
+      ],
+      "summary": "ModBERT is a DNA language model built on a five-letter probabilistic genome (A, C, G, T, 5mC), pre-trained on allele frequencies and CpG methylation from 242 individuals in the 1000 Genomes long-read consortium, and fine-tuned on one person's genotype and methylation. Using methylation improved prediction of histone-mark and TF ChIP-seq peaks, it predicted chromatin accessibility at held-out loci in held-out individuals (AUROC 0.88), and its variant effects tracked likely causal caQTLs.",
+      "key_points": [
+        "Five-letter genome representation including 5mC",
+        "Personal-genome fine-tuning from a single long-read assay",
+        "Variant effects agree with causal caQTLs (rho 0.52) but not linked-only variants"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.10.765459",
+      "date_added": "2026-11-17",
+      "published": "2026-11-11",
+      "title": "Detection of Maximal Exact Matches in Terabases of Genome Assemblies in Compressed Space and Sublinear Time",
+      "authors": "Sanaullah A, Zhi D, Li H, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.10.765459",
+      "url": "https://doi.org/10.64898/2026.11.10.765459",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants"
+      ],
+      "summary": "The authors give compressed-space algorithms that find all supermaximal and maximal exact matches between all pairs of assemblies in a pangenome panel in time proportional to the BWT run count. On 625 human centromere haplotypes they use 7.5x less memory and are 20x faster than existing tools including index construction, and all-vs-all analysis of HPRC release 2 centromeres revealed an inversion flanking the chromosome 2 alpha-satellite array and large segmental duplications in every centromere except chrY.",
+      "key_points": [
+        "All-pairs MEMs across terabase pangenomes in O(r) memory",
+        "2,500x faster than competitors excluding index build",
+        "New centromere structural variation found in HPRC r2"
+      ],
+      "data": "",
+      "code": "github.com/ucfcbb/TeraTools"
+    },
+    {
+      "id": "10.64898/2026.08.01.742217",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation",
+      "authors": "Handa D, Martin-Linares C, Stein-O'Brien G, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.08.01.742217",
+      "url": "https://doi.org/10.64898/2026.08.01.742217",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Benchmarking"
+      ],
+      "summary": "SAFFRON uses a Matryoshka sparse autoencoder to decompose spatial foundation model embeddings into sparse interpretable features and tests whether they capture known local and global spatial variation. Only two spatial foundation models learned global spatial gradients better than naive baselines, and none beat baselines on local amyloid-beta plaque microenvironment patterns.",
+      "key_points": [
+        "Sparse-autoencoder framework to interpret spatial foundation models",
+        "Few models beat simple baselines on global gradients",
+        "No model captured local microenvironment variation better than baselines"
+      ],
+      "data": "",
+      "code": "github.com/chitra-lab/SAFFRON"
+    },
+    {
+      "id": "10.64898/2026.11.13.766380",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "Somatic mutation probabilities learned from the DNA sequence",
+      "authors": "Aguilar-Herrador M, Mueller YD, Sanabria M, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.13.766380",
+      "url": "https://doi.org/10.64898/2026.11.13.766380",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "EAGLE-MUT is a set of DNA language models trained on sparse single-base substitution data from oesophageal adenocarcinoma and melanoma to predict sequence-dependent somatic mutation probabilities. Predicted probabilities span orders of magnitude, with hotspots and coldspots linked to nucleosome positioning, CTCF sites, replication origins and intron-exon boundaries, and the models can be fine-tuned to individual patients.",
+      "key_points": [
+        "DNA language models trained on EAC and melanoma SBS data",
+        "T>G hotspots in A/T-rich ~200 bp nucleosome-associated motifs",
+        "Per-patient fine-tuning shifts mutation distributions over driver genes"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.12.765990",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "Decomposing tissue-of-origin aging clocks reveals composite aging states across cancers",
+      "authors": "Bock P, Smith J, Narnur P, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.12.765990",
+      "url": "https://doi.org/10.64898/2026.11.12.765990",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Machine learning"
+      ],
+      "summary": "A pan-cancer transcriptomic analysis introduces tissue-of-origin aging clocks that measure how far each tumour deviates from its expected tissue aging, plus ClockSHAP to break deviations into pathway contributions. Tumours show composite aging states, with youth-like proliferative pathways alongside older-like damage-response and signalling pathways; in breast cancer a normal-trained clock replicates in ~9,700 tumours and predicts survival.",
+      "key_points": [
+        "Tissue-of-origin aging clocks trained on normal tissue",
+        "ClockSHAP decomposes deviations into pathways",
+        "Breast cancer deviations track subtype, TP53 status and survival"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.13.766454",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "GRASER: haplotype assignment of graph-aligned short reads",
+      "authors": "Garza JE, Macias-Velasco JF, Albracht DA, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.13.766454",
+      "url": "https://doi.org/10.64898/2026.11.13.766454",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics"
+      ],
+      "summary": "GRASER phases short reads directly from pangenome graph alignments against per-individual haplotype paths, avoiding the reference bias reintroduced by surjecting to a linear reference. It placed over 96% of assigned simulated fragments on the correct haplotype and assigned more fragments than a WhatsHap-based linear workflow; on bisulfite data it recovered allele-specific methylation at imprinted loci and within a structural variant.",
+      "key_points": [
+        "Read phasing directly on pangenome graph alignments",
+        "More fragments assigned than WhatsHap linear workflow",
+        "Haplotype-resolved methylation from WGBS, including inside an SV"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.14.766251",
+      "date_added": "2026-11-17",
+      "published": "2026-11-16",
+      "title": "Learning gene co-regulation across cells with Multicellular Transformer",
+      "authors": "Wiatrak M, Andersson A, Hoi KH, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.14.766251",
+      "url": "https://doi.org/10.64898/2026.11.14.766251",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "The Multicellular Transformer is a foundation model that takes sets of cells from the same sample, rather than single cells, as input, learning context-aware gene embeddings from over 4,200 scRNA-seq samples across 30+ tissues. It recovers ligand-receptor interactions and spatial co-localisation patterns from scRNA-seq, detects disease rewiring in lupus and COVID-19, and predicts perturbation effects in cancer without retraining.",
+      "key_points": [
+        "Multi-cell input captures cross-cell gene interactions",
+        "Trained on >4,200 samples from >30 tissues",
+        "Zero-shot prediction of perturbation effects in cancer"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.11.765974",
+      "date_added": "2026-11-17",
+      "published": "2026-11-13",
+      "title": "Single-cell transfer RNA sequencing reveals principles of translational regulation",
+      "authors": "Kida LC, Helmsauer K, Nalbant BN, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.11.765974",
+      "url": "https://doi.org/10.64898/2026.11.11.765974",
+      "topics": [
+        "RNA biology",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "sctRNA-seq is a massively parallel assay that profiles mRNA and tRNA abundance together in single cells, applied to 364,841 cells with multimodal perturbation screens. It reveals tRNA modules regulated by metabolism and Pol III, matching of codon demand and anticodon supply in haematopoiesis, and tRNA regulation that partly explains mRNA-protein discordance in primary T cells.",
+      "key_points": [
+        "Joint single-cell mRNA and tRNA profiling",
+        "Codon demand tracks tRNA anticodon pools in haematopoiesis",
+        "Stress-responsive tRNA module defined by internal promoters"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s43018-026-01270-8",
       "date_added": "2026-11-16",
