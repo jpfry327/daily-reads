@@ -1,13 +1,688 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-17T11:15:00Z",
+  "updated": "2026-11-19T17:57:07Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03279-4",
-    "10.1038/s41592-026-03319-z",
-    "10.1016/j.molcel.2026.10.027"
+    "10.1038/s41586-026-11270-4",
+    "10.1158/2159-8290.CD-26-1021",
+    "10.1038/s41592-026-03263-y"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41586-026-11270-4",
+      "date_added": "2026-11-19",
+      "published": "2026-11-18",
+      "title": "Conservation of the tumour microenvironment across organs and species.",
+      "authors": "Januszyk M, Lu JM, Korah M, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11270-4",
+      "url": "https://doi.org/10.1038/s41586-026-11270-4",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Pan-cancer"
+      ],
+      "summary": "The authors algorithmically screened thousands of public single-cell transcriptomic datasets for stromal and immune signatures, comparing the host response to tumours across tissues and between human and mouse. Across 42 cancer types and more than 2,000 tumour samples they find conserved hallmarks in how host cells are transcriptionally reprogrammed by malignancy. The results are released as an interactive web atlas and the scTME software package.",
+      "key_points": [
+        "Pan-cancer re-analysis of thousands of public scRNA-seq datasets",
+        "Conserved stromal and immune programs across 42 cancer types in human and mouse",
+        "Released as the tmeatlas.stanford.edu web atlas and the scTME package"
+      ],
+      "data": "tmeatlas.stanford.edu",
+      "code": "scTME",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11270-4.svg",
+        "caption": "Public single-cell datasets are screened algorithmically, and tumours from many organs in human and mouse converge on a shared core of stromal and immune programs, released as the scTME atlas.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/2159-8290.CD-26-1021",
+      "date_added": "2026-11-19",
+      "published": "2026-11-18",
+      "title": "Systematic Characterization of Clinically Actionable Antibody-Drug Targets Across Solid Tumors to Advance Precision Oncology.",
+      "authors": "Hu Z, Sun Y, Yuan J, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-26-1021",
+      "url": "https://doi.org/10.1158/2159-8290.CD-26-1021",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Clinical"
+      ],
+      "summary": "The study characterises 87 clinically actionable tumour-associated antigens for antibody-drug conjugates by integrating transcriptomic, proteomic, spatial and single-cell profiles from more than 32,000 specimens, covering expression prevalence, heterogeneity, immune context, internalisation and payload sensitivity. It introduces ANCHOR, a reference frame for standardising patient RNA-seq, and ReSort, a two-tier scoring system that ranks targets and matches patients to virtual basket and umbrella trials. ReSort agreed with clinical assays, predicted response in patient-derived models and pointed to repurposing options in rare cancers.",
+      "key_points": [
+        "87 ADC target antigens profiled across >32,000 tumour specimens and several omic layers",
+        "ANCHOR standardises patient RNA-seq; ReSort ranks targets in two tiers",
+        "Virtual basket and umbrella trial matching, plus an AI decision-support agent"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-26-1021.svg",
+        "caption": "Target features on the tumour cell (antigen expression, internalisation, payload sensitivity) feed the two-tier ReSort score, which matches patients to ADCs in basket or umbrella designs.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41592-026-03263-y",
+      "date_added": "2026-11-19",
+      "published": "2026-11-18",
+      "title": "A zero-shot spillover denoiser for highly multiplexed images.",
+      "authors": "Lequyer J, Nowlan F, Hsu WH, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03263-y",
+      "url": "https://doi.org/10.1038/s41592-026-03263-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "SpillOT is an unsupervised, zero-shot tool that removes noise and channel spillover from highly multiplexed tissue images using only the input image, with no extra wet-lab controls or training sets. It uses optimal transport to find similar patches across channels and keep only the true signal. It beat existing zero-shot restoration methods on Imaging Mass Cytometry, cyclic immunofluorescence and Opal data, and revealed previously hidden immune infiltration patterns in diabetes tissue.",
+      "key_points": [
+        "Corrects spillover without the usual extra calibration experiments",
+        "Optimal transport matches patches across channels to separate bleed from signal",
+        "Works on IMC, CyCIF and Opal; available as a script and Fiji plugin"
+      ],
+      "data": "",
+      "code": "SpillOT (standalone script and Fiji plugin)",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03263-y.svg",
+        "caption": "In the raw image, channel A bleeds into channel B; SpillOT matches similar patches across channels with optimal transport and removes the shared bleed, leaving only true signal in each channel.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02844-z",
+      "date_added": "2026-11-19",
+      "published": "2026-11-18",
+      "title": "Regularized ensemble polygenic risk prediction with GWAS summary statistics.",
+      "authors": "Zhao Z, Dorn S, Wu Y, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02844-z",
+      "url": "https://doi.org/10.1038/s41588-026-02844-z",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "Ensemble learning is now the last step of most multi-ancestry polygenic risk score methods, but it normally needs individual-level genotypes for training, which are scarce for non-European populations. This paper introduces a regularised ensemble framework that combines many candidate PRS models using only GWAS summary statistics. Across many traits and ancestries it consistently outperformed state-of-the-art PRS methods and lets new PRS models be added to existing ones.",
+      "key_points": [
+        "Builds ensemble PRS from summary statistics alone, no individual-level training data",
+        "Outperforms current PRS methods within and across ancestries",
+        "Designed to absorb newly developed PRS models as they appear"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/2159-8290.CD-26-0302",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "A comprehensive proteogenomic, immunopeptidomic, and metabolomic atlas decodes immunogenicity in cutaneous melanoma.",
+      "authors": "Gong J, Petralia F, Ruiz Cuevas MV, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-26-0302",
+      "url": "https://doi.org/10.1158/2159-8290.CD-26-0302",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics",
+        "Immuno-oncology"
+      ],
+      "summary": "The authors profiled 183 cutaneous melanomas across 13 omic layers, including HLA-I immunopeptidomics, metabolomics, ubiquitylomics and glycoproteomics, to link mutations, antigens and post-translational regulation to immune outcomes. Presented tumour antigens correlated with CD8+ T-cell infiltration, and a highly ubiquitylated subset with IFN-pathway ubiquitylation and AKT1 activation had worse survival. GPNMB glycosylation emerged as a feature tied to sex-specific survival and a lysosome-associated program.",
+      "key_points": [
+        "183 melanomas profiled across 13 omic layers",
+        "Immunopeptidome antigens track CD8+ T-cell infiltration",
+        "IFN-pathway ubiquitylation and GPNMB glycosylation linked to survival"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.tig.2026.10.005",
+      "date_added": "2026-11-19",
+      "published": "2026-11-18",
+      "title": "Understanding distributed genomes: assessing the evidence from animal pangenomes.",
+      "authors": "Van Belleghem SM, Ayeraselvan SS, Madrid-Restrepo MA, et al.",
+      "venue": "Trends in Genetics",
+      "type": "Article",
+      "tier": "review",
+      "doi": "10.1016/j.tig.2026.10.005",
+      "url": "https://doi.org/10.1016/j.tig.2026.10.005",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "This review uses animal pangenomes to show how variation poorly captured by a single reference genome can be brought into population, functional and evolutionary genetics. It points out that differences in sampling, variant detection and reporting make it hard to compare how much variably present sequence different studies find, and that evidence for biological relevance ranges from GO enrichments to demonstrated causal effects. The authors propose reporting priorities to make pangenome studies comparable.",
+      "key_points": [
+        "Long reads and pangenomes reveal large variation in genome content",
+        "Sampling and variant-calling differences make studies hard to compare",
+        "Proposes reporting priorities for pangenome studies"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aei2542",
+      "date_added": "2026-11-19",
+      "published": "2026-11-18",
+      "title": "An integrative single-cell long noncoding RNA atlas reveals regulatory programs in the pan-cancer tumor microenvironment.",
+      "authors": "Wang S, Qian Q, Liu Y, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aei2542",
+      "url": "https://doi.org/10.1126/sciadv.aei2542",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Pan-cancer"
+      ],
+      "summary": "The authors built a lncRNA atlas from more than 370,000 single cells across 18 cancer types. Besides lineage- and state-transition lncRNAs, they find lncRNAs embedded in cell-type-specific regulons. Integrating CRISPR screens and clinical data prioritises lncRNAs linked to tumour cell fitness, immune cell states, survival and immunotherapy response.",
+      "key_points": [
+        "lncRNA atlas of >370,000 cells from 18 cancer types",
+        "lncRNAs embedded in cell-type-specific regulons",
+        "CRISPR screens and clinical data prioritise fitness- and response-linked lncRNAs"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1227",
+      "date_added": "2026-11-19",
+      "published": "2026-11-19",
+      "title": "TISCH3: an expanded resource for single-cell and spatial transcriptomics of the tumor microenvironment.",
+      "authors": "Lu Y, Zuo S, Han Y, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1227",
+      "url": "https://doi.org/10.1093/nar/gkag1227",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Resource"
+      ],
+      "summary": "TISCH3 expands the Tumor Immune Single Cell Hub from 190 to 408 scRNA-seq datasets (48 cancer types) and adds 69 spatial transcriptomics datasets covering 27 cancer types. Spatial samples are processed individually, with single-cell references used to estimate cell-type composition per spot. A new spatial workspace covers spatially variable genes, cell-type co-occurrence, inferred cell-cell communication and downloads.",
+      "key_points": [
+        "477 curated tumour datasets: 408 scRNA-seq and 69 spatial",
+        "Per-spot cell-type composition from single-cell references",
+        "Spatial modules for SVGs, co-occurrence and cell-cell communication"
+      ],
+      "data": "tisch3.compbio.cn",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag840",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "TMCells: A topic-based probabilistic framework for interpretable metacell construction in single-cell data.",
+      "authors": "Qiu W, Hua J, Chen J, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag840",
+      "url": "https://doi.org/10.1093/bioinformatics/btag840",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "TMCells builds metacells from single-cell data with a probabilistic generative model that borrows from topic modelling, using a Gaussian mixture prior over topics and defining metacells as distribution centres in topic space. Topics and metacell partitions are learned jointly, capturing gradual state transitions instead of hard assignments. The metacells reduce noise while keeping heterogeneity, improving differential expression, rare cell detection and trajectory inference.",
+      "key_points": [
+        "Probabilistic topic model for metacell construction",
+        "Learns topics and metacell partitions end to end",
+        "Improves downstream DE, rare-cell detection and trajectories"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.crmeth.2026.101667",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Auditing the adversarial robustness of genomic foundation models with SafeGenes.",
+      "authors": "Zhan H, Barbour C, Moore JH",
+      "venue": "Cell Reports Methods",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1016/j.crmeth.2026.101667",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101667",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Benchmarking"
+      ],
+      "summary": "SafeGenes is a framework for testing how genomic foundation models such as ESM hold up against adversarial attacks when used for variant effect prediction. On cardiomyopathy and arrhythmia variants, iterative attacks cut AUC by more than 30 points and a soft-prompt backdoor raised scores of benign variants across ESM architectures. A single real, population-observed background substitution could push pathogenicity ranking below chance (AUC 0.76 to 0.39).",
+      "key_points": [
+        "Input-space, SNV-reachable HotFlip and backdoor attacks on genomic models",
+        "PGD attacks reduce AUC by >30 points on clinical variant sets",
+        "One observed background variant can invert pathogenicity ranking"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01748-1",
+      "date_added": "2026-11-19",
+      "published": "2026-08-21",
+      "title": "Germline variants affect lung-to-tumor transcription dynamics and NSCLC outcomes.",
+      "authors": "Mathieu S, Gaudreault N, Renaut S, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01748-1",
+      "url": "https://doi.org/10.1186/s13073-026-01748-1",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Clinical"
+      ],
+      "summary": "Using an extended eQTL approach in 515 lung adenocarcinomas with matched non-tumour lung, the authors ask how germline variants shape expression changes from lung to tumour, and run survival and relapse GWAS in about 3,400 NSCLC patients. Significant eQTLs were about three times rarer in tumour than in lung, and variants with differential lung-versus-tumour effects sat more often in bivalent or distal regulatory elements. Differential eQTLs for NRG1, SECISBP2L and JAML colocalised with lung cancer risk loci, and 6p22.3-MBOAT1 and 16p13.3-RBFOX1 were prognostic.",
+      "key_points": [
+        "Differential eQTLs between matched lung and tumour in 515 cases",
+        "Germline control of expression is weaker in tumour than in lung",
+        "Survival GWAS nominates MBOAT1 and RBFOX1 loci"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-2631",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "CCNE1 Amplification Confers Poor Outcomes and Therapeutic Resistance in Breast Cancer.",
+      "authors": "Marra A, Boscolo-Bielo L, Selenica P, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-2631",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-2631",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Copy number",
+        "Clinical"
+      ],
+      "summary": "Using targeted sequencing and allele-specific copy number (FACETS) from 6,318 breast cancers at MSK, the authors find CCNE1 amplification in 4.0%, more often in HER2+ and triple-negative than HR+/HER2- disease. Amplified tumours were more aggressive and showed TP53 alterations, high genome instability and whole-genome doubling. In HER2+ disease CCNE1 amplification was linked to markedly shorter progression-free survival on first-line THP.",
+      "key_points": [
+        "CCNE1 amplified in 4.0% of 6,318 breast cancers",
+        "Linked to TP53 alterations, whole-genome doubling and chromosomal instability",
+        "Shorter PFS on first-line THP in HER2+ disease"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-2348",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Molecular Features Underlying Discordance Between Clinical and Genomic Risk Stratification in Localized Prostate Cancer in Over 280, 000 Patients.",
+      "authors": "Zelefsky MJ, Ryu H, Zhao X, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-2348",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-2348",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Clinical"
+      ],
+      "summary": "Using Decipher transcriptomic data from 287,145 prostate biopsies, the study asks why genomic and clinical (NCCN) risk groups disagree. Decipher moved 21% of low/favourable-intermediate patients to high risk and 33% of high-risk patients lower. TP53-mutant-like status, PTEN inactivation and lower AR activity were tied to the discordance and independently predicted distant metastasis.",
+      "key_points": [
+        "Transcriptomic risk data from >280,000 prostate biopsies",
+        "TP53-like, PTEN loss and low AR activity explain clinical-genomic discordance",
+        "These features independently predict distant metastasis"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78838-6",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Identification of translation events that drive nonsense-mediated mRNA decay reveals functional roles for alternative RNA isoforms.",
+      "authors": "Young DJ, Wang Y, Guydosh NR",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78838-6",
+      "url": "https://doi.org/10.1038/s41467-026-78838-6",
+      "topics": [
+        "RNA biology",
+        "Isoforms"
+      ],
+      "summary": "Most yeast transcripts targeted by nonsense-mediated decay have no obvious premature stop codon. Combining RNA-seq with 40S ribosome profiling, the authors identify cryptic premature termination events that explain NMD for nearly all of them, including many alternative isoforms. Many NMD targets belong to two-promoter systems resembling long undecoded transcript isoforms (LUTIs), and the DAL5 LUTI is shown to regulate DAL5 protein-coding mRNA in response to nitrogen.",
+      "key_points": [
+        "40S profiling finds cryptic premature termination behind NMD targets",
+        "Many targets are alternative isoforms in two-promoter systems",
+        "DAL5 LUTI tunes DAL5 expression in response to nitrogen"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1220",
+      "date_added": "2026-11-19",
+      "published": "2026-11-10",
+      "title": "Timing of ribosomal RNA modification during eukaryotic ribosome biogenesis.",
+      "authors": "Han R, Donohue JP, Ares M, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1220",
+      "url": "https://doi.org/10.1093/nar/gkag1220",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Long-read"
+      ],
+      "summary": "The authors purified yeast pre-rRNA intermediates and used Nanopore direct RNA sequencing to measure when each modification is installed during ribosome biogenesis. All H/ACA snoRNPs (pseudouridines) and C/D snoRNPs (2'-O-methylations) act co-transcriptionally, before 20S and 27SA2 pre-rRNAs separate. Most modifications, especially at the 5' end of 18S, are complete in 35S pre-rRNA, but some central and 3' 18S sites finish only later in assembly.",
+      "key_points": [
+        "Nanopore direct RNA sequencing of staged pre-rRNA intermediates",
+        "snoRNP-guided pseudouridylation and 2'-O-methylation are co-transcriptional",
+        "Some 18S sites are completed only in later assembly steps"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-2232",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Genomic, Clinical, and Spatial Predictors of Durable Response to BRAF/MEK Inhibition in BRAF-Mutant Melanoma.",
+      "authors": "Shi Y, Savchenko A, Brase JC, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-2232",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-2232",
+      "topics": [
+        "Cancer genomics",
+        "Tumour evolution",
+        "Clinical"
+      ],
+      "summary": "Whole-exome sequencing of pre-treatment tumours from 155 patients with BRAF-mutant melanoma, followed for up to five years on first-line BRAF/MEK inhibitors, was used to separate durable responders from rapid progressors. A global measure of tumour genomic heterogeneity, rather than any single gene alteration, distinguished the groups. Combined with baseline tumour burden it gave a simple model that predicted durable response with high precision, and the predictors were specific to targeted therapy.",
+      "key_points": [
+        "WES of 155 BRAF-mutant melanomas with five-year follow-up",
+        "Genomic heterogeneity, not single genes, marks durable responders",
+        "Heterogeneity plus tumour burden predicts durable response"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.07.761937",
+      "date_added": "2026-11-19",
+      "published": "2026-11-16",
+      "title": "Sisyphus at the splenic flexure: sidedness in colorectal cancer",
+      "authors": "Ke L, Cecchini M, Cannataro VL, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.07.761937",
+      "url": "https://doi.org/10.64898/2026.11.07.761937",
+      "topics": [
+        "Cancer genomics",
+        "Computational"
+      ],
+      "summary": "Using 1,027 whole-exome and whole-genome sequenced colorectal tumours, the authors separate the prevalence of six driver groups into mutation supply and cancer effect (selection) and ask whether a binary left/right label captures how these vary along the colorectum. Mostly it does: mutational input behaves as two blocks, and even the more than thirty-fold stronger cancer effect of BRAF V600E from sigmoid to caecum is captured by side. APC and PIK3CA H1047 are exceptions, so finer location data would be worth recording.",
+      "key_points": [
+        "Decomposes driver prevalence into mutation supply and selection in 1,027 colorectal tumours",
+        "A left/right split mostly captures the variation, with APC and PIK3CA H1047 as exceptions",
+        "Recommends recording tumour location at ICD-O-3 topography resolution"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.12.766165",
+      "date_added": "2026-11-19",
+      "published": "2026-11-16",
+      "title": "Survival-informed mutational network clustering reveals prognostic glioma architectures",
+      "authors": "Leitao BN, Kuipers J, Beerenwinkel N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.12.766165",
+      "url": "https://doi.org/10.64898/2026.11.12.766165",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Clinical"
+      ],
+      "summary": "SNOWS is a probabilistic framework that combines somatic mutations, clinical covariates and survival data, using Bayesian networks, to find patient groups with distinct mutation patterns and outcomes. In 950 TCGA adult-type diffuse gliomas it found three clusters that transferred to an independent cohort of 181 CGGA patients without needing their survival data, and added prognostic information beyond WHO 2021 subtype, age and sex (C-index 0.691 to 0.712). It also improved prognostic discrimination in pan-kidney and pan-myeloid cohorts.",
+      "key_points": [
+        "Bayesian-network clustering that uses mutations, clinical variables and survival together",
+        "Three glioma clusters transferred to an independent cohort and raised the C-index from 0.691 to 0.712",
+        "Also helped in pan-kidney and pan-myeloid cohorts"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2025.12.19.695383",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "ModkitOpt: Systematic optimisation of modkit parameters for accurate nanopore-based RNA modification detection",
+      "authors": "Sneddon A, Prodic S, Eyras E.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2025.12.19.695383",
+      "url": "https://doi.org/10.64898/2025.12.19.695383",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "RNA modifications",
+        "Long-read"
+      ],
+      "summary": "ModkitOpt is a pipeline that tunes modkit's filtering thresholds and stoichiometry cutoffs against orthogonally validated modification sites. It substantially improves site-calling accuracy across modification types, even when the nanopore sample and the validation sites come from different biological contexts. The authors report optimal site-calling parameters for m6A and pseudouridine.",
+      "key_points": [
+        "Optimises modkit thresholds and stoichiometry cutoffs using validated sites",
+        "Improves site calling across modification types, including across biological contexts",
+        "Reports optimal parameters for m6A and pseudouridine"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.15.765655",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Chimeric and Outward Reads in Short-Read RNA Sequencing Data: A Unified Circular RNA Assembly Framework",
+      "authors": "Sen A, Zahin T, Shao M.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.15.765655",
+      "url": "https://doi.org/10.64898/2026.11.15.765655",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms"
+      ],
+      "summary": "Most circular RNA callers rely on reads crossing the back-splice junction, which are often missing for lowly expressed circRNAs. TERRACE 2.0 also uses outward-facing read pairs, tests which candidate junctions give a fragment length consistent with the library, and assembles full-length circRNAs from a splice graph that combines both signals. On eight human tissue samples it had the best average F-score with and without annotations, and outward reads were involved in 36 to 56% of the true circRNAs its predecessor missed.",
+      "key_points": [
+        "Adds outward-facing read pairs as a second signal for circRNA detection",
+        "Assembles full-length circRNAs from a splice graph combining both read types",
+        "Best average F-score on eight human tissues, with or without annotation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.15.766754",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Infernal-GPU: accurate E-values and sensitive covariance-model search for structured RNAs",
+      "authors": "Wang D, Jin J, Qiao J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.15.766754",
+      "url": "https://doi.org/10.64898/2026.11.15.766754",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "Infernal-GPU reimplements the covariance-model dynamic programming behind Infernal and Rfam on GPUs, matching Infernal's results by evaluating the one serial recurrence as two parallel prefix scans. One GPU can calibrate all 4,227 Rfam models overnight on ten times more random sequence, which shows that Rfam's distributed E-values are off by more than twofold for about one model in eight. It also shows that sequence-only filters discard remote homologs whose similarity lies mostly in base pairing.",
+      "key_points": [
+        "GPU implementation that matches Infernal's results",
+        "Longer calibrations show Rfam E-values off by more than 2-fold for about 1 in 8 models",
+        "Sequence filters miss base-pair-driven remote homologs; Rfam 15.0 recalibrated"
+      ],
+      "data": "",
+      "code": "github.com/void-echo/infernal-gpu"
+    },
+    {
+      "id": "10.64898/2026.11.15.766871",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "DiGi: An Integer Programming Formulation for Diploid Genome Inference Using a Pangenome Reference",
+      "authors": "Mishra A, Dilthey AT, Jain C.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.15.766871",
+      "url": "https://doi.org/10.64898/2026.11.15.766871",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants"
+      ],
+      "summary": "DiGi genotypes a diploid genome against a pangenome by representing it as a haplotype trellis graph and jointly inferring a pair of mosaic haplotype paths from sequencing reads with an exact integer programming formulation. A probabilistic model sets the optimisation parameters from read length and coverage. It reconstructed both copies of 90% of key HLA genes in genomes absent from the reference at over 99.9% identity, and scored well on SNVs, indels and structural variants in the MHC region of HG002.",
+      "key_points": [
+        "Joint inference of two haplotype paths on a pangenome haplotype trellis graph",
+        "Reconstructs 90% of key HLA genes at >99.9% identity for genomes absent from the reference",
+        "Accurate across a wide range of coverages"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.11.765824",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Evaluating local assembly strategies for human long-read structural variant calling",
+      "authors": "Mirus T, Luepken R, Kehr B.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.11.765824",
+      "url": "https://doi.org/10.64898/2026.11.11.765824",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Benchmarking"
+      ],
+      "summary": "The authors implemented five consensus-computation strategies like those used by popular structural variant callers that do local assembly, and compared them step by step on simulated and real long-read data. Some strategies suit particular input types: the one used in PacBio's Sawfish works well on HiFi and recent ONT reads but fails on older, noisier ONT reads. Read error profiles and pre-processing strongly affect some strategies, while others are more robust.",
+      "key_points": [
+        "Isolates the local-assembly step of long-read SV calling",
+        "Compares five consensus strategies on simulated and real data",
+        "Best strategy depends on read type and error profile"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.15.766357",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "Efficient genome graphs indexing, querying and visualization with gfaidx and gfaidx-viz",
+      "authors": "Dabbaghie F, Steinegger M",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.15.766357",
+      "url": "https://doi.org/10.64898/2026.11.15.766357",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "gfaidx is a general-purpose indexer that gives fast, low-memory access to pangenome, assembly and de Bruijn graphs in GFA format. It retrieves gene-sized subgraphs and their haplotypes over 100-fold faster than ODGI and vg, and can index human pangenome-scale graphs on a personal computer. The companion gfaidx-viz visualises pre-indexed human pangenomes interactively.",
+      "key_points": [
+        "Indexer for GFA genome graphs with low memory use",
+        "Retrieves gene-sized subgraphs more than 100x faster than ODGI and vg",
+        "gfaidx-viz for interactive viewing of indexed human pangenomes"
+      ],
+      "data": "",
+      "code": "github.com/fawaz-dabbaghieh/gfaidx"
+    },
+    {
+      "id": "10.64898/2026.11.09.764265",
+      "date_added": "2026-11-19",
+      "published": "2026-11-12",
+      "title": "Cell type-specific coexpression networks funnel genetic risk into core genes",
+      "authors": "Wang X, Sankararaman S, Liu X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.09.764265",
+      "url": "https://doi.org/10.64898/2026.11.09.764265",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell"
+      ],
+      "summary": "Using population-scale single-cell immune transcriptomes, the authors split inter-individual gene coexpression into cell-type-shared and cell-type-specific networks, which have almost opposite properties. Shared hubs are enriched in constrained housekeeping genes, while specific hubs are dynamically expressed, enriched in matched enhancers and transcription factors, and carry immune-disease GWAS heritability, Mendelian genes and drug targets. Specific hubs raised the relative success of genetically supported immune drug targets from 1.7-fold to 2.7-fold.",
+      "key_points": [
+        "Separates shared from cell-type-specific coexpression in population-scale scRNA-seq",
+        "Specific hubs concentrate immune GWAS heritability, Mendelian genes and drug targets",
+        "Edges enriched for trans-eQTL and Perturb-seq regulation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.13.766598",
+      "date_added": "2026-11-19",
+      "published": "2026-11-17",
+      "title": "A full-length isoform atlas of the non-failing and failing human heart",
+      "authors": "Ye B, Noureen M, He F, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.13.766598",
+      "url": "https://doi.org/10.64898/2026.11.13.766598",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "The authors sequenced six human left ventricles (non-failing, dilated cardiomyopathy and ischaemic heart disease) with PacBio HiFi long reads and curated 48,232 isoforms across 11,760 genes, including 15,535 novel ones concentrated in sarcomere genes. Adding them to GENCODE and re-quantifying two short-read cohorts showed that many transcripts changing more than 2-fold in DCM are not visible at the gene level; 98% of 626 transcripts changed in the same direction in both cohorts. The resource is available as the CardioIsoMap portal.",
+      "key_points": [
+        "48,232 isoforms from long-read sequencing of six hearts, 15,535 of them novel",
+        "Isoform-level changes in DCM are often invisible at gene level",
+        "Released as the CardioIsoMap interactive portal"
+      ],
+      "data": "cardioisomap.streamlit.app",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03279-4",
       "date_added": "2026-11-17",

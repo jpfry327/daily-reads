@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">One host response, many tumours</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">public scRNA-seq screened across 42 cancer types, human and mouse</text>
+
+  <!-- left: public dataset stack being screened -->
+  <g stroke="#8A949E" stroke-width="1.5" fill="#F3F5F7">
+    <rect x="34" y="112" width="96" height="62" rx="5"/>
+    <rect x="28" y="120" width="96" height="62" rx="5"/>
+    <rect x="22" y="128" width="96" height="62" rx="5"/>
+  </g>
+  <g fill="#8A949E">
+    <circle cx="40" cy="146" r="4"/><circle cx="54" cy="152" r="4"/><circle cx="68" cy="144" r="4"/><circle cx="84" cy="158" r="4"/><circle cx="100" cy="148" r="4"/>
+    <circle cx="46" cy="172" r="4"/><circle cx="62" cy="168" r="4"/><circle cx="78" cy="176" r="4"/><circle cx="96" cy="172" r="4"/>
+  </g>
+  <text x="76" y="212" font-size="13" fill="#2B3138" text-anchor="middle">thousands of</text>
+  <text x="76" y="228" font-size="13" fill="#2B3138" text-anchor="middle">public datasets</text>
+
+  <!-- funnel: algorithmic screen -->
+  <path d="M136 120 L196 150 L196 186 L136 216 Z" fill="none" stroke="#1E5FA8" stroke-width="2"/>
+  <text x="166" y="248" font-size="13" fill="#1E5FA8" text-anchor="middle">algorithmic</text>
+  <text x="166" y="264" font-size="13" fill="#1E5FA8" text-anchor="middle">screen</text>
+  <line x1="198" y1="168" x2="236" y2="168" stroke="#2B3138" stroke-width="2"/>
+  <polygon points="244,168 234,162 234,174" fill="#2B3138"/>
+
+  <!-- centre: ring of tumour sites around conserved core -->
+  <circle cx="390" cy="210" r="118" fill="none" stroke="#8A949E" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <!-- organ nodes on the ring -->
+  <g font-size="13" fill="#2B3138" text-anchor="middle">
+    <circle cx="390" cy="92" r="25" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/><text x="390" y="97">lung</text>
+    <circle cx="492" cy="151" r="25" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/><text x="492" y="156">skin</text>
+    <circle cx="492" cy="269" r="25" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/><text x="492" y="274">liver</text>
+    <circle cx="390" cy="328" r="25" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/><text x="390" y="333">gut</text>
+    <circle cx="288" cy="269" r="25" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/><text x="288" y="274">breast</text>
+    <circle cx="288" cy="151" r="25" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/><text x="288" y="156">brain</text>
+  </g>
+  <!-- spokes -->
+  <g stroke="#8A949E" stroke-width="1.5">
+    <line x1="390" y1="112" x2="390" y2="160"/>
+    <line x1="474" y1="161" x2="432" y2="186"/>
+    <line x1="474" y1="259" x2="432" y2="234"/>
+    <line x1="390" y1="308" x2="390" y2="260"/>
+    <line x1="306" y1="259" x2="348" y2="234"/>
+    <line x1="306" y1="161" x2="348" y2="186"/>
+  </g>
+  <!-- conserved core -->
+  <circle cx="390" cy="210" r="64" fill="#EAF1FA" stroke="#1E5FA8" stroke-width="2"/>
+  <text x="390" y="194" font-size="13" font-weight="bold" fill="#1E5FA8" text-anchor="middle">conserved</text>
+  <text x="390" y="210" font-size="13" font-weight="bold" fill="#1E5FA8" text-anchor="middle">stromal and</text>
+  <text x="390" y="226" font-size="13" font-weight="bold" fill="#1E5FA8" text-anchor="middle">immune programs</text>
+
+  <!-- species legend -->
+  <g font-size="13" fill="#2B3138">
+    <rect x="532" y="96" width="92" height="74" rx="8" fill="#FFFFFF" stroke="#8A949E" stroke-width="1.5"/>
+    <circle cx="550" cy="120" r="7" fill="#3C9A2E"/><text x="564" y="125">human</text>
+    <circle cx="550" cy="148" r="7" fill="#D98A00"/><text x="564" y="153">mouse</text>
+  </g>
+  <!-- species dots on core showing both present -->
+  <circle cx="366" cy="246" r="6" fill="#3C9A2E"/>
+  <circle cx="414" cy="246" r="6" fill="#D98A00"/>
+
+  <!-- output -->
+  <rect x="532" y="300" width="92" height="58" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+  <text x="578" y="324" font-size="13" font-weight="bold" fill="#3C9A2E" text-anchor="middle">scTME</text>
+  <text x="578" y="342" font-size="13" fill="#2B3138" text-anchor="middle">web atlas</text>
+  <path d="M508 290 Q520 300 530 314" fill="none" stroke="#2B3138" stroke-width="2"/>
+  <polygon points="532,318 522,312 530,306" fill="#2B3138"/>
+</svg>
