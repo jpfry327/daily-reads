@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">RhoAgent: designing functional RNA</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">agentic loop of 3D-aware generation and experimental feedback</text>
+
+  <!-- RDiff box -->
+  <rect x="40" y="80" width="170" height="86" rx="8" fill="#F3F5F7" stroke="#1E5FA8" stroke-width="2"/>
+  <text x="125" y="106" font-size="15" font-weight="bold" fill="#1E5FA8" text-anchor="middle">RDiff</text>
+  <text x="125" y="126" font-size="13" fill="#2B3138" text-anchor="middle">diffusion generator</text>
+  <text x="125" y="146" font-size="13" fill="#2B3138" text-anchor="middle">base pairs + motifs</text>
+
+  <!-- candidates -->
+  <rect x="262" y="80" width="130" height="86" rx="8" fill="#F3F5F7" stroke="#8A949E" stroke-width="2"/>
+  <text x="327" y="106" font-size="14" font-weight="bold" fill="#2B3138" text-anchor="middle">RNA candidates</text>
+  <path d="M290 150 q8 -26 16 0 q8 -26 16 0 q8 -26 16 0 q8 -26 16 0" stroke="#D98A00" stroke-width="3" fill="none"/>
+
+  <!-- wet lab -->
+  <rect x="444" y="80" width="156" height="86" rx="8" fill="#F3F5F7" stroke="#3C9A2E" stroke-width="2"/>
+  <text x="522" y="106" font-size="14" font-weight="bold" fill="#3C9A2E" text-anchor="middle">Lab assay</text>
+  <text x="522" y="126" font-size="13" fill="#2B3138" text-anchor="middle">cleavage or</text>
+  <text x="522" y="146" font-size="13" fill="#2B3138" text-anchor="middle">fluorescence</text>
+
+  <!-- arrows -->
+  <g stroke="#2B3138" stroke-width="2" fill="none">
+    <path d="M212 123 L258 123"/><path d="M394 123 L440 123"/>
+    <path d="M522 168 V196 H125 V170"/>
+  </g>
+  <g fill="#2B3138"><path d="M260 123 l-8 -5 v10 z"/><path d="M442 123 l-8 -5 v10 z"/><path d="M125 168 l-5 8 h10 z"/></g>
+  <text x="323" y="190" font-size="13" fill="#2B3138" text-anchor="middle" >feedback refines the next round</text>
+
+  <!-- outputs -->
+  <text x="320" y="238" font-size="14" font-weight="bold" fill="#2B3138" text-anchor="middle">Validated designs</text>
+  <rect x="40" y="252" width="176" height="110" rx="8" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2"/>
+  <text x="128" y="276" font-size="13" font-weight="bold" fill="#1E5FA8" text-anchor="middle">Ribozymes</text>
+  <text x="128" y="298" font-size="13" fill="#2B3138" text-anchor="middle">active at 40-70%</text>
+  <text x="128" y="316" font-size="13" fill="#2B3138" text-anchor="middle">identity to wild type</text>
+  <text x="128" y="344" font-size="13" fill="#2B3138" text-anchor="middle">hovlinc: up to 6x</text>
+
+  <rect x="232" y="252" width="176" height="110" rx="8" fill="#FFFFFF" stroke="#D98A00" stroke-width="2"/>
+  <text x="320" y="276" font-size="13" font-weight="bold" fill="#D98A00" text-anchor="middle">Fluorogenic aptamer</text>
+  <text x="320" y="298" font-size="13" fill="#2B3138" text-anchor="middle">scaffold glows</text>
+  <text x="320" y="316" font-size="13" fill="#2B3138" text-anchor="middle">230% of wild type</text>
+
+  <rect x="424" y="252" width="176" height="110" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2"/>
+  <text x="512" y="276" font-size="13" font-weight="bold" fill="#3C9A2E" text-anchor="middle">FRET scaffolds</text>
+  <text x="512" y="298" font-size="13" fill="#2B3138" text-anchor="middle">two functional cores</text>
+  <text x="512" y="316" font-size="13" fill="#2B3138" text-anchor="middle">held in 3D position</text>
+  <circle cx="486" cy="338" r="8" fill="#C8323F"/><circle cx="538" cy="338" r="8" fill="#3C9A2E"/>
+  <path d="M495 338 H529" stroke="#8A949E" stroke-width="2" stroke-dasharray="3 3"/>
+</svg>
