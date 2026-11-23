@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">Endometriosis: multiancestry GWAS</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">from biobank cohorts to loci to candidate genes</text>
+  <!-- cohorts -->
+  <g stroke-width="2" fill="#F3F5F7">
+    <rect x="30" y="90" width="130" height="46" rx="8" stroke="#1E5FA8"/>
+    <rect x="30" y="150" width="130" height="46" rx="8" stroke="#3C9A2E"/>
+    <rect x="30" y="210" width="130" height="46" rx="8" stroke="#D98A00"/>
+    <rect x="30" y="270" width="130" height="46" rx="8" stroke="#C8323F"/>
+  </g>
+  <g font-size="14" fill="#2B3138" text-anchor="middle">
+    <text x="95" y="119">European</text><text x="95" y="179">African</text><text x="95" y="239">Admixed American</text><text x="95" y="299">Other ancestries</text>
+  </g>
+  <text x="95" y="345" font-size="13" fill="#8A949E" text-anchor="middle">Biobank meta-analysis</text>
+  <path d="M165 113 L215 190 M165 173 L215 196 M165 233 L215 204 M165 293 L215 210" stroke="#2B3138" stroke-width="2" fill="none"/>
+  <!-- loci circles -->
+  <circle cx="320" cy="200" r="100" fill="#F3F5F7" stroke="#1E5FA8" stroke-width="3"/>
+  <circle cx="340" cy="225" r="52" fill="#FBE9C2" stroke="#D98A00" stroke-width="3"/>
+  <text x="290" y="160" font-size="14" font-weight="bold" fill="#1E5FA8" text-anchor="middle">58 regions</text>
+  <text x="340" y="223" font-size="14" font-weight="bold" fill="#D98A00" text-anchor="middle">27</text>
+  <text x="340" y="242" font-size="13" fill="#2B3138" text-anchor="middle">new</text>
+  <text x="320" y="326" font-size="13" fill="#8A949E" text-anchor="middle">schematic, not to scale</text>
+  <path d="M428 200 L470 200" stroke="#2B3138" stroke-width="2" fill="none"/>
+  <path d="M464 194 L474 200 L464 206" stroke="#2B3138" stroke-width="2" fill="none"/>
+  <!-- genes -->
+  <rect x="480" y="130" width="130" height="140" rx="10" fill="#F3F5F7" stroke="#3C9A2E" stroke-width="2"/>
+  <text x="545" y="172" font-size="15" font-weight="bold" fill="#3C9A2E" text-anchor="middle">314 genes</text>
+  <text x="545" y="198" font-size="13" fill="#2B3138" text-anchor="middle">implicated by</text>
+  <text x="545" y="216" font-size="13" fill="#2B3138" text-anchor="middle">integrative</text>
+  <text x="545" y="234" font-size="13" fill="#2B3138" text-anchor="middle">multiomics</text>
+</svg>

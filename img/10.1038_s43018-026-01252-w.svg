@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">THREADS: slide meets genome</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">pretraining aligns H&amp;E morphology with molecular profiles</text>
+  <!-- slide -->
+  <rect x="30" y="80" width="150" height="100" rx="10" fill="#F3F5F7" stroke="#C8323F" stroke-width="2"/>
+  <ellipse cx="90" cy="130" rx="55" ry="32" fill="#F2C9CF" stroke="#C8323F" stroke-width="2"/>
+  <g fill="#C8323F"><circle cx="70" cy="122" r="5"/><circle cx="92" cy="136" r="5"/><circle cx="110" cy="120" r="5"/><circle cx="82" cy="146" r="4"/><circle cx="104" cy="144" r="4"/></g>
+  <text x="105" y="204" font-size="14" font-weight="bold" fill="#C8323F" text-anchor="middle">H&amp;E whole slide</text>
+  <!-- molecular -->
+  <rect x="30" y="236" width="150" height="100" rx="10" fill="#F3F5F7" stroke="#3C9A2E" stroke-width="2"/>
+  <g stroke="#3C9A2E" stroke-width="3"><path d="M50 260 L50 310"/><path d="M68 275 L68 310"/><path d="M86 252 L86 310"/><path d="M104 288 L104 310"/><path d="M122 268 L122 310"/><path d="M140 282 L140 310"/><path d="M158 258 L158 310"/></g>
+  <text x="105" y="358" font-size="14" font-weight="bold" fill="#3C9A2E" text-anchor="middle">Genomic / RNA profile</text>
+  <!-- encoders -->
+  <path d="M185 130 L250 150" stroke="#2B3138" stroke-width="2" fill="none"/>
+  <path d="M185 286 L250 250" stroke="#2B3138" stroke-width="2" fill="none"/>
+  <rect x="250" y="140" width="130" height="120" rx="10" fill="#F3F5F7" stroke="#1E5FA8" stroke-width="2"/>
+  <text x="315" y="188" font-size="15" font-weight="bold" fill="#1E5FA8" text-anchor="middle">THREADS</text>
+  <text x="315" y="210" font-size="13" fill="#2B3138" text-anchor="middle">aligned</text>
+  <text x="315" y="228" font-size="13" fill="#2B3138" text-anchor="middle">embedding space</text>
+  <path d="M385 200 L430 200" stroke="#2B3138" stroke-width="2" fill="none"/>
+  <path d="M424 194 L434 200 L424 206" stroke="#2B3138" stroke-width="2" fill="none"/>
+  <!-- tasks -->
+  <g font-size="14" fill="#2B3138">
+    <rect x="440" y="82" width="170" height="52" rx="8" fill="#F3F5F7" stroke="#D98A00" stroke-width="2"/><text x="525" y="114" text-anchor="middle">Subtyping, grading</text>
+    <rect x="440" y="148" width="170" height="52" rx="8" fill="#F3F5F7" stroke="#D98A00" stroke-width="2"/><text x="525" y="180" text-anchor="middle">Tumour microenvironment</text>
+    <rect x="440" y="214" width="170" height="52" rx="8" fill="#F3F5F7" stroke="#D98A00" stroke-width="2"/><text x="525" y="246" text-anchor="middle">Treatment response</text>
+    <rect x="440" y="280" width="170" height="52" rx="8" fill="#F3F5F7" stroke="#D98A00" stroke-width="2"/><text x="525" y="312" text-anchor="middle">Survival</text>
+  </g>
+  <text x="525" y="358" font-size="13" fill="#8A949E" text-anchor="middle">107 oncology tasks</text>
+</svg>

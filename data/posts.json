@@ -1,13 +1,611 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-20T11:30:00Z",
+  "updated": "2026-11-23T11:00:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03321-5",
-    "10.1038/s41588-026-02826-1",
-    "10.1038/s41587-026-03362-3"
+    "10.1038/s43018-026-01252-w",
+    "10.1038/s41588-026-02810-9",
+    "10.1038/s41592-026-03321-5"
   ],
   "posts": [
+    {
+      "id": "10.1038/s43018-026-01252-w",
+      "date_added": "2026-11-23",
+      "published": "",
+      "title": "A multimodal foundation model for molecular and morphologic data in oncology.",
+      "authors": "Vaidya A, Zhang A, Jaume G, et al.",
+      "venue": "Nature Cancer",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s43018-026-01252-w",
+      "url": "https://doi.org/10.1038/s43018-026-01252-w",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Multi-omics"
+      ],
+      "summary": "THREADS learns whole-slide representations by aligning H&E tissue morphology with genomic or transcriptomic profiles. It was pretrained on more than 47,000 H&E sections and outperformed leading whole-slide foundation models and supervised baselines across 107 oncology tasks.",
+      "key_points": [
+        "Pretraining aligns slide morphology with genomic or transcriptomic profiles",
+        "Evaluated on 107 tasks: subtyping and grading, tumour microenvironment, treatment response and survival",
+        "Transfers well to external cohorts and is label-efficient"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s43018-026-01252-w.svg",
+        "caption": "H&E whole slides and genomic or RNA profiles are pulled into one aligned embedding space (THREADS), which is then used for subtyping, microenvironment, treatment-response and survival tasks.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41588-026-02810-9",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "Multiancestry genome-wide association and integrative multiomics analyses implicate key pathways in endometriosis.",
+      "authors": "Guare LA, Das J, Caruth L, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02810-9",
+      "url": "https://doi.org/10.1038/s41588-026-02810-9",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Multi-omics",
+        "Clinical"
+      ],
+      "summary": "A genome-wide association meta-analysis in the Global Biobank Meta-analysis Initiative, with over 1 million participants (32% of non-European ancestry), found 58 genomic regions, 27 of them previously unreported. Integrative multiomic analyses implicated 314 genes.",
+      "key_points": [
+        "Includes loci unique to African and admixed American populations",
+        "New case-identification algorithms confirmed by procedure records",
+        "Genetically driven comorbidity associations were also found"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02810-9.svg",
+        "caption": "Biobank cohorts of several ancestries feed one meta-analysis that yields 58 regions, 27 of them new, and 314 implicated genes.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1016/j.cell.2026.10.051",
+      "date_added": "2026-11-23",
+      "published": "2026-11-19",
+      "title": "Genomic surveillance reveals age-structured SARS-CoV-2 transmission across settings.",
+      "authors": "Moreno GK, Brock-Fisher T, Krasilnikova LA, et al.",
+      "venue": "Cell",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1016/j.cell.2026.10.051",
+      "url": "https://doi.org/10.1016/j.cell.2026.10.051",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "Analysis of more than 85,000 SARS-CoV-2 genomes linked to epidemiological data from 666 Massachusetts settings shows elevated transmission concentrated in specific age subpopulations, such as older adolescents in schools, undergraduates in colleges and nursing-facility residents. The authors also estimate the sequencing thresholds needed to detect emerging variants.",
+      "key_points": [
+        "Young adults, especially in colleges, played a disproportionate role in spread",
+        "Viral spread followed reproducible urban-to-rural gradients",
+        "Vaccination was associated with reduced onward transmission"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1261",
+      "date_added": "2026-11-23",
+      "published": "2026-11-23",
+      "title": "MIsoTEx: a mammalian transcript-isoform classification framework and database for exploring tissue distribution, expression stability, and abundance patterns.",
+      "authors": "Balagannavar G, Basavaraju K, Manivelan V, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1261",
+      "url": "https://doi.org/10.1093/nar/gkag1261",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms",
+        "Resource"
+      ],
+      "summary": "MIsoTEx is a database and expression-based classification framework for protein-coding iso-mRNAs in human, mouse and rat, built from GTEx, ARCHS4 and newly curated SRA RNA-seq of normal adult tissues. Isoforms are classed by tissue distribution and abundance consistency, with confidence scores.",
+      "key_points": [
+        "About 147,000 protein-coding iso-mRNAs classed as uniformly or variably abundant, or tissue-predominant, -exclusive, -poor or -absent",
+        "Supports gene and transcript queries, tissue-pattern search and cross-species ortholog comparison",
+        "Can analyse user expression data to find candidate control iso-mRNAs"
+      ],
+      "data": "https://resources.ibab.ac.in/MIsoTEx/",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1214",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "FusionGDB 3.0: integrating breakpoints, generating personalized sequences, and inferring tumorigenic scenarios for human fusion genes.",
+      "authors": "Kim P, Yang Z, Kim J, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1214",
+      "url": "https://doi.org/10.1093/nar/gkag1214",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Structural variants",
+        "Resource"
+      ],
+      "summary": "An updated knowledgebase of human fusion genes that integrates RNA-seq- and WGS-based breakpoint events, adds personalized fusion protein sequences and infers tumorigenic scenarios.",
+      "key_points": [
+        "156K fusion genes from 216K RNA-seq-based and 100K WGS-based breakpoint events",
+        "1.13 million personalized fusion protein sequences reflecting nsSNVs from TCGA and CCLE",
+        "18K potential tumorigenic scenarios, including drug-targetable gene group fusions"
+      ],
+      "data": "https://compbio.uth.edu/FusionGDB/",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1156",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "CIViC 2026: expanding cancer variant curation with AI, genome-wide biomarkers, and genomic regions.",
+      "authors": "Danos AM, Coffman AC, Kiwala S, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1156",
+      "url": "https://doi.org/10.1093/nar/gkag1156",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Clinical",
+        "Resource"
+      ],
+      "summary": "CIViC is a free, publicly curated knowledgebase of somatic cancer variant interpretations and the curation platform for ClinGen Somatic Cancer. This update extends its data model to wider classes of genomic events.",
+      "key_points": [
+        "New top-level Feature entity covers genes, fusions, regions (large structural variants) and genome-wide biomarkers",
+        "Molecular Profiles allow curation of complex combinations of variants",
+        "Adds ClinVar submission of approved assertions, guidance on AI use in curation and an advanced query builder"
+      ],
+      "data": "https://civicdb.org",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag844",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "pyGENIE: A Python library for programmatic access and mutational analysis of AACR Project GENIE.",
+      "authors": "Dayan D, Gerstein M",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag844",
+      "url": "https://doi.org/10.1093/bioinformatics/btag844",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Resource"
+      ],
+      "summary": "pyGENIE is a Python package giving a unified API to AACR Project GENIE data, supporting clinical and genomic queries, tumour mutational burden and mutational signature tools. In a lung adenocarcinoma case study it reproduces known mutation frequencies, co-mutation patterns and signatures.",
+      "key_points": [
+        "Returns results as pandas DataFrames for use with machine-learning and visualisation libraries",
+        "Integrates SigProfiler and SigMA",
+        "Reduces the required code by about an order of magnitude in the case study"
+      ],
+      "data": "AACR Project GENIE",
+      "code": "github.com/gersteinlab/pyGENIE"
+    },
+    {
+      "id": "10.1038/s41467-026-78669-5",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "velotest: statistical assessment of RNA velocity embeddings reveals quality differences for reliable trajectory visualizations.",
+      "authors": "Bischoff S, Poličar PG, Mukherjee S, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78669-5",
+      "url": "https://doi.org/10.1038/s41467-026-78669-5",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "velotest is a cell-level statistical test of how faithfully a 2D RNA velocity embedding represents the high-dimensional velocities, addressing the lack of a tool that quantifies this and can prevent misleading velocity visualisations.",
+      "key_points": [
+        "Applied across multiple datasets and embedding methods",
+        "Embedding quality differs strongly between methods, datasets and regions within a dataset",
+        "Provides a validation step for choosing a suitable visualisation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.7554/eLife.110672",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "Calibrated analysis framework for nanopore direct RNA sequencing uncovers cell-specific m⁶A proportions at conserved sites.",
+      "authors": "Ohnezeit D, Loliashvili E, Putzel G, et al.",
+      "venue": "eLife",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.7554/eLife.110672",
+      "url": "https://doi.org/10.7554/eLife.110672",
+      "topics": [
+        "RNA biology",
+        "Long-read",
+        "RNA modifications",
+        "Benchmarking"
+      ],
+      "summary": "The study sets out a best-practice workflow for nanopore direct RNA sequencing m6A analysis with Dorado modification-aware basecalling, evaluated on primary-cell RNA, unmodified in vitro transcribed RNA and a methyltransferase-inhibitor control. It presents the first systematic Dorado versus GLORI comparison from the same input RNA.",
+      "key_points": [
+        "Stringent filtering is needed to reduce background",
+        "Dorado predictions captured an increasing proportion of GLORI sites at high m6A/A proportions",
+        "Human primary fibroblasts and HD10.6 neurons showed differing predicted m6A/A proportions at conserved sites"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1126/sciadv.aee4872",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "Subclonal evolution can shape the transition toward a sarcomatoid phenotype in pleural mesothelioma.",
+      "authors": "Arnould M, Assie JB, Meiller C, et al.",
+      "venue": "Science Advances",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1126/sciadv.aee4872",
+      "url": "https://doi.org/10.1126/sciadv.aee4872",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Tumour evolution",
+        "Copy number"
+      ],
+      "summary": "Single-cell RNA-seq of mesothelioma tumours and derived primary cell lines defined four phenotypic cell types linked to survival in bulk cohorts. Sarcomatoid cells can arise from intermediate-phenotype parents after acquiring copy number variation, and spatial transcriptomics linked this to subclonal architecture.",
+      "key_points": [
+        "Four cell types: epithelioid, sarcomatoid, intermediate and nondifferentiated",
+        "Subclones were conserved in cell lines and kept their phenotypes, suggesting high phenotypic heritability",
+        "Subclonal cells colocalised and showed specific morphologies in tissue"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1263",
+      "date_added": "2026-11-23",
+      "published": "2026-11-23",
+      "title": "Translons upstream of protein-coding regions rather than their products are crucial for proliferation of human cells of distinct origin.",
+      "authors": "Shepelev NM, Razumova EA, Lavrov AI, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1263",
+      "url": "https://doi.org/10.1093/nar/gkag1263",
+      "topics": [
+        "RNA biology",
+        "Resource"
+      ],
+      "summary": "A CRISPR-Cas9 mutagenesis screen targeted 969 translated human uORFs in three cell lines; disrupting 155 impaired proliferation, mostly in a cell-type-specific way. The phenotypes arose from altered cis-regulation of coding-sequence translation, not from the uORF products.",
+      "key_points": [
+        "Only 6 of the 155 hits were shared across all three cell lines",
+        "Conservation, coding potential and population constraint did not distinguish hits",
+        "uORFs in short 5′ leaders were sensitive to indels that changed the uORF-CDS configuration"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13073-026-01758-z",
+      "date_added": "2026-11-23",
+      "published": "2026-09-09",
+      "title": "Obesity reprograms the spatial ecosystem of colorectal cancer through early epithelial reprogramming and immunosuppressive remodeling.",
+      "authors": "Park I, Lee JG, Kim J, et al.",
+      "venue": "Genome Medicine",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13073-026-01758-z",
+      "url": "https://doi.org/10.1186/s13073-026-01758-z",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Immuno-oncology"
+      ],
+      "summary": "Dual-platform spatial transcriptomics (GeoMx DSP and CosMx SMI) of 89 and 24 colorectal cancer patients shows that obese normal mucosa has an early epithelial transcriptional shift that persists through tumour development, and that in tumours obesity is linked to spatial immune suppression.",
+      "key_points": [
+        "Two expression trajectories among 30 CRC-related genes in obese normal mucosa",
+        "Localised enrichment of SPP1+ macrophages near cancer cells",
+        "Proposed two-phase reprogramming: early epithelial, then spatially restricted immune suppression"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78854-6",
+      "date_added": "2026-11-23",
+      "published": "2026-10-21",
+      "title": "Sequencing-based spatial transcriptomics with high sensitivity.",
+      "authors": "Liao R, Fu D, Xu Z, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78854-6",
+      "url": "https://doi.org/10.1038/s41467-026-78854-6",
+      "topics": [
+        "Methods",
+        "Spatial"
+      ],
+      "summary": "A sequencing-based spatial transcriptomic system with about 1 µm capture resolution and much higher capture efficiency than current methods, demonstrated on mouse testis.",
+      "key_points": [
+        "As many as about 14,000 UMIs per 10x10 µm² at 0.43 sequencing saturation",
+        "Rare single-cell-layer populations recovered at 2 µm effective resolution",
+        "Addresses the low capture efficiency that limits high-resolution methods"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.13.766490",
+      "date_added": "2026-11-23",
+      "published": "2026-11-16",
+      "title": "Genomic tessellations",
+      "authors": "Ekim B, Cheng H",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.13.766490",
+      "url": "https://doi.org/10.64898/2026.11.13.766490",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "Proposes a canonical factorisation of repetitive and non-repetitive DNA into \"tiles\" (identity plus geometry) and a tessellated BWT index (tBWT) buildable in linear time. It beats long-read mappers in repeat-dense regions and also works for polishing and for grouping contigs by homology.",
+      "key_points": [
+        "tBWT chaining is up to 57x (ONT) and 83x (HiFi) faster than minimap2 and Winnowmap2 on 20x simulated HG002 maternal X reads, with comparable accuracy",
+        "Geometry-only polishing of an ONT-only HG002 maternal X assembly with ~50x HiFi raises QV from 45.4 to 60.6 in under a minute",
+        "Autotessellation groups 167 mitochondrial contigs into one family"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.19.767955",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "SOUR Disentangles Heritable and Microenvironmental Contributions to Intratumoral Heterogeneity in Spatial Lineage Tracing Data",
+      "authors": "Weine E, Burt D, Abraham KJ, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.19.767955",
+      "url": "https://doi.org/10.64898/2026.11.19.767955",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Spatial",
+        "Tumour evolution"
+      ],
+      "summary": "SOUR is a statistical method that uses both cell ancestry and spatial location to split gene-expression variation into heritable and local-environment components, addressing the confounding that arises because related cells sit close together. It is tested on simulations and two spatial lineage-tracing datasets.",
+      "key_points": [
+        "Existing methods test ancestry and space separately and can misattribute effects",
+        "SOUR estimates separate contributions of ancestry and location to expression variation",
+        "Substantially reduces confounding in simulated data and two real datasets"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.20.768050",
+      "date_added": "2026-11-23",
+      "published": "2026-11-23",
+      "title": "Evolutionary constraints on mitochondrial bioenergetics are reshaped in cancer",
+      "authors": "Sung J-Y, Cheong J-H",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.20.768050",
+      "url": "https://doi.org/10.64898/2026.11.20.768050",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer"
+      ],
+      "summary": "Compares somatic mtDNA variants from 8,886 tumours with population variation using a dataset-specific mutational null, showing that the tumour constraint pattern is reshaped rather than simply relaxed. Density-functional calculations and a gated-tunnelling model interpret substitutions at a complex I proton bridge.",
+      "key_points": [
+        "ATP synthase is the least constrained complex in the germline but the most constrained in tumours",
+        "The germline avoids charge-changing substitutions at complex I proton-loading sites; tumours no longer distinguish them",
+        "Damage at redox centres of complexes III and IV is tolerated mainly at low variant allele fraction"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.11.765857",
+      "date_added": "2026-11-23",
+      "published": "2026-11-17",
+      "title": "AlphaGenome 2 predicts regulatory activity and variant effects across cell states",
+      "authors": "Gayoso A, Mottram A, Karollus A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.11.765857",
+      "url": "https://doi.org/10.64898/2026.11.11.765857",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Machine learning",
+        "Single-cell"
+      ],
+      "summary": "AlphaGenome 2 takes a 1-Mb DNA sequence plus a condition (tissue, cell type or cell state) and predicts gene expression and chromatin accessibility. It is trained on organism-wide human and mouse single-cell atlases plus bulk functional genomics, and the condition can be inferred from expression so it extends to unseen datasets without fine-tuning.",
+      "key_points": [
+        "Doubles recall of causal single-cell eQTLs at 90% precision versus fine-tuned AlphaGenome 1 and specialised models",
+        "State-of-the-art enhancer-gene linking",
+        "Releases an atlas of enhancer-gene links and scores for 7 million common variants across hundreds of human cell types"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.07.08.736040",
+      "date_added": "2026-11-23",
+      "published": "2026-11-16",
+      "title": "CADD-SV v2.0: An Extended Framework for Structural Variant Deleteriousness Prediction Using Coordinate- and Sequence-Based Features",
+      "authors": "Catona O, Kircher M",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.07.08.736040",
+      "url": "https://doi.org/10.64898/2026.07.08.736040",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants",
+        "Machine learning"
+      ],
+      "summary": "CADD-SV v2.0 is a unified random-forest scoring framework for structural variant deleteriousness, trained on proxy-neutral and proxy-deleterious variants from human and non-human primate genomes. Features combine updated annotations with sequence-derived SegmentNT predictions.",
+      "key_points": [
+        "Scores deletions, insertions, duplications and inversions in one framework",
+        "Tests whether SegmentNT sequence-based features add information alone or combined with coordinate-based annotations",
+        "Outperforms CADD-SV v1 and other tools at prioritising deleterious variants"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.05.29.728810",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "RAD: A Read-structure Agnostic Demultiplexer for Single-Cell Long-Read Sequencing and Analysis",
+      "authors": "Vaidya CM, Carpenter MC, Abdullah L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.29.728810",
+      "url": "https://doi.org/10.64898/2026.05.29.728810",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Single-cell"
+      ],
+      "summary": "RAD is an error-robust demultiplexer for single-cell long-read data: the user specifies the read structure and it extracts those elements, builds barcode whitelists from long reads alone and applies comprehensive barcode error correction.",
+      "key_points": [
+        "Generates accurate whitelists without short-read support or priors",
+        "Faster than gold-standard demultiplexers with better downstream gene-expression discovery in benchmarks",
+        "Applied to long-read spatial transcriptomics and targeted single-cell immune receptor sequencing"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.13.766464",
+      "date_added": "2026-11-23",
+      "published": "2026-11-16",
+      "title": "Spectrast: a multiscale spatial statistics toolkit for single-cell spatial transcriptomics",
+      "authors": "Gingerich IK, Frost HR",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.13.766464",
+      "url": "https://doi.org/10.64898/2026.11.13.766464",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "Recasts standard spatial-autocorrelation statistics as convolutions on a rasterised gene-expression matrix and evaluates them with the FFT, making multiscale spatial statistics tractable for imaging-based datasets with hundreds of thousands of cells and thousands of genes.",
+      "key_points": [
+        "Spatial statistics computed across multiple length scales for every gene",
+        "Scales to imaging-based spatial transcriptomics where standard statistics scale poorly",
+        "Extends to differential reorganisation testing between two tissue conditions"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.10.31.685820",
+      "date_added": "2026-11-23",
+      "published": "2026-11-18",
+      "title": "Compound-specific DNA adduct profiling with nanopore sequencing and IonStats",
+      "authors": "Koski Y, Patel D, Kakko von Koch N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.10.31.685820",
+      "url": "https://doi.org/10.1101/2025.10.31.685820",
+      "topics": [
+        "Methods",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "IonStats is a statistical toolkit for profiling DNA adducts in nanopore data at single-nucleotide precision. The authors use it to study the genotoxic compounds aristolochic acid II and melphalan, which cause both shared and compound-specific perturbations.",
+      "key_points": [
+        "Both treatments shift base quality scores, ionic current profiles and translocation dynamics",
+        "Treatments caused substantial sequence-specific read interruptions",
+        "Nanopore sequencing can detect and characterise DNA adducts"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/2025.08.26.672372",
+      "date_added": "2026-11-23",
+      "published": "2026-11-20",
+      "title": "Transcriptional programs define solid and ascitic dissemination in ovarian cancer",
+      "authors": "Zhang K, Fei L, Afenteva D, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.1101/2025.08.26.672372",
+      "url": "https://doi.org/10.1101/2025.08.26.672372",
+      "topics": [
+        "Cancer genomics",
+        "Multi-omics",
+        "Tumour evolution",
+        "Single-cell"
+      ],
+      "summary": "Integrates RNA-seq and whole-genome sequencing of 600 multiregion and longitudinal specimens from 284 high-grade serous ovarian carcinoma patients, plus methylation, single-nucleus multiome and histomorphology, and identifies 25 recurrent cancer-cell transcriptional programs linked to anatomical site.",
+      "key_points": [
+        "Mes-ECM is associated with solid omental/peritoneal metastases and Mechano-EMP with ascites; both are present in treatment-naive tumours",
+        "Both states share a TEAD-AP-1/YAP-TAZ mechanotransductive signature but differ in regulatory and microenvironmental relationships",
+        "Chemotherapy-associated remodelling and prognostic associations vary by site"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.16.766949",
+      "date_added": "2026-11-23",
+      "published": "2026-11-18",
+      "title": "Common early-life exposure of the colorectal epithelium to the microbiome-derived mutagen colibactin",
+      "authors": "Marshall HN, Pham MH, Jung H, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.16.766949",
+      "url": "https://doi.org/10.64898/2026.11.16.766949",
+      "topics": [
+        "Cancer genomics",
+        "Clinical",
+        "Tumour evolution"
+      ],
+      "summary": "Sequences normal colorectal epithelial genomes from 90 healthy and IBD-affected children and adolescents to detect colibactin mutational signatures SBS88 and ID18, establishing how common, when and where this mutagenesis occurs in early life.",
+      "key_points": [
+        "Colibactin mutagenesis was present in about 43% of children, with or without IBD; it usually begins shortly after birth and stops by age five",
+        "Burdens are higher in the left than the right colon, with large variation between children",
+        "Some children carry burdens comparable to non-exposed people over 60"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03321-5",
       "date_added": "2026-11-20",
