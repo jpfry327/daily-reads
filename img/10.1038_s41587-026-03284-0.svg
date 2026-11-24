@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">spotGLM and SPARROW</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">cell-type-specific niche effects from mixed spots</text>
+  <!-- spot grid -->
+  <text x="130" y="86" font-size="14" font-weight="bold" fill="#2B3138" text-anchor="middle">Mixed spatial spots</text>
+  <g stroke="#8A949E" stroke-width="1.5">
+    <circle cx="70" cy="120" r="22" fill="#F3F5F7"/><circle cx="130" cy="120" r="22" fill="#F3F5F7"/><circle cx="190" cy="120" r="22" fill="#F3F5F7"/>
+    <circle cx="70" cy="180" r="22" fill="#F3F5F7"/><circle cx="130" cy="180" r="22" fill="#F3F5F7"/><circle cx="190" cy="180" r="22" fill="#F3F5F7"/>
+    <circle cx="70" cy="240" r="22" fill="#F3F5F7"/><circle cx="130" cy="240" r="22" fill="#F3F5F7"/><circle cx="190" cy="240" r="22" fill="#F3F5F7"/>
+  </g>
+  <g>
+    <circle cx="62" cy="114" r="6" fill="#1E5FA8"/><circle cx="78" cy="126" r="5" fill="#C8323F"/>
+    <circle cx="122" cy="114" r="6" fill="#1E5FA8"/><circle cx="138" cy="126" r="6" fill="#1E5FA8"/><circle cx="130" cy="130" r="4" fill="#3C9A2E"/>
+    <circle cx="190" cy="118" r="7" fill="#C8323F"/>
+    <circle cx="62" cy="176" r="6" fill="#3C9A2E"/><circle cx="78" cy="186" r="5" fill="#1E5FA8"/>
+    <circle cx="130" cy="180" r="8" fill="#C8323F"/><circle cx="188" cy="176" r="5" fill="#3C9A2E"/><circle cx="196" cy="188" r="5" fill="#C8323F"/>
+    <circle cx="66" cy="240" r="7" fill="#1E5FA8"/><circle cx="126" cy="236" r="5" fill="#3C9A2E"/><circle cx="138" cy="246" r="5" fill="#C8323F"/><circle cx="190" cy="240" r="7" fill="#3C9A2E"/>
+  </g>
+  <text x="130" y="286" font-size="13" fill="#2B3138" text-anchor="middle">cell types overlap in each spot</text>
+  <!-- arrow to model -->
+  <path d="M232 180 L290 180" stroke="#2B3138" stroke-width="2.5"/><path d="M290 180 L280 173 M290 180 L280 187" stroke="#2B3138" stroke-width="2.5"/>
+  <!-- model -->
+  <rect x="300" y="100" width="150" height="160" rx="10" fill="#F3F5F7" stroke="#1E5FA8" stroke-width="2"/>
+  <text x="375" y="130" font-size="15" font-weight="bold" fill="#1E5FA8" text-anchor="middle">spotGLM</text>
+  <text x="375" y="152" font-size="13" fill="#2B3138" text-anchor="middle">mixture-aware GLM</text>
+  <rect x="316" y="166" width="118" height="26" rx="6" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="1.5"/>
+  <text x="375" y="184" font-size="13" fill="#3C9A2E" text-anchor="middle">SPARROW</text>
+  <text x="375" y="212" font-size="13" fill="#2B3138" text-anchor="middle">power-preserving</text>
+  <text x="375" y="230" font-size="13" fill="#2B3138" text-anchor="middle">data distillation</text>
+  <!-- outputs -->
+  <path d="M452 180 L490 180" stroke="#2B3138" stroke-width="2.5"/><path d="M490 180 L480 173 M490 180 L480 187" stroke="#2B3138" stroke-width="2.5"/>
+  <text x="552" y="112" font-size="14" font-weight="bold" fill="#2B3138" text-anchor="middle">Data types</text>
+  <rect x="496" y="124" width="112" height="30" rx="6" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="1.5"/><text x="552" y="144" font-size="13" fill="#1E5FA8" text-anchor="middle">gene counts</text>
+  <rect x="496" y="166" width="112" height="30" rx="6" fill="#FFFFFF" stroke="#D98A00" stroke-width="1.5"/><text x="552" y="186" font-size="13" fill="#D98A00" text-anchor="middle">isoform ratios</text>
+  <rect x="496" y="208" width="112" height="30" rx="6" fill="#FFFFFF" stroke="#C8323F" stroke-width="1.5"/><text x="552" y="228" font-size="13" fill="#C8323F" text-anchor="middle">accessibility</text>
+  <text x="320" y="340" font-size="14" fill="#2B3138" text-anchor="middle">Tested on Visium HD colorectal cancer and mouse kidney</text>
+  <text x="320" y="364" font-size="13" fill="#8A949E" text-anchor="middle">one framework across modalities</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">A mouse pangenome graph</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">strains share a T2T backbone; variants form bubbles</text>
+  <!-- backbone -->
+  <text x="30" y="112" font-size="14" font-weight="bold" fill="#2B3138">C57BL/6J mT2T backbone</text>
+  <path d="M30 140 L170 140" stroke="#2B3138" stroke-width="6" stroke-linecap="round"/>
+  <path d="M470 140 L610 140" stroke="#2B3138" stroke-width="6" stroke-linecap="round"/>
+  <!-- bubbles: strain paths -->
+  <path d="M170 140 C210 140 220 100 260 100 L380 100 C420 100 430 140 470 140" stroke="#1E5FA8" stroke-width="4" fill="none"/>
+  <path d="M170 140 L470 140" stroke="#2B3138" stroke-width="6" fill="none"/>
+  <path d="M170 140 C210 140 220 180 260 180 L380 180 C420 180 430 140 470 140" stroke="#D98A00" stroke-width="4" fill="none"/>
+  <text x="320" y="92" font-size="13" fill="#1E5FA8" text-anchor="middle">variant allele</text>
+  <text x="320" y="132" font-size="13" fill="#2B3138" text-anchor="middle" font-weight="bold">reference path</text>
+  <text x="320" y="204" font-size="13" fill="#D98A00" text-anchor="middle">another strain's allele</text>
+  <!-- three graphs -->
+  <text x="320" y="248" font-size="15" font-weight="bold" fill="#2B3138" text-anchor="middle">Three graphs built</text>
+  <rect x="30" y="262" width="180" height="84" rx="10" fill="#F3F5F7" stroke="#1E5FA8" stroke-width="2"/>
+  <text x="120" y="296" font-size="14" font-weight="bold" fill="#1E5FA8" text-anchor="middle">Draft pangenome</text>
+  <text x="120" y="320" font-size="13" fill="#2B3138" text-anchor="middle">19 strains</text>
+  <rect x="230" y="262" width="180" height="84" rx="10" fill="#F3F5F7" stroke="#3C9A2E" stroke-width="2"/>
+  <text x="320" y="296" font-size="14" font-weight="bold" fill="#3C9A2E" text-anchor="middle">Founder pangenome</text>
+  <text x="320" y="320" font-size="13" fill="#2B3138" text-anchor="middle">8 CC founders</text>
+  <rect x="430" y="262" width="180" height="84" rx="10" fill="#F3F5F7" stroke="#C8323F" stroke-width="2"/>
+  <text x="520" y="296" font-size="14" font-weight="bold" fill="#C8323F" text-anchor="middle">CC pangenome</text>
+  <text x="520" y="320" font-size="13" fill="#2B3138" text-anchor="middle">+ 40 diploid lines</text>
+  <path d="M210 304 L230 304" stroke="#2B3138" stroke-width="2"/>
+  <path d="M410 304 L430 304" stroke="#2B3138" stroke-width="2"/>
+  <text x="320" y="376" font-size="13" fill="#2B3138" text-anchor="middle">Short reads recover per-animal diploid mosaics</text>
+</svg>
