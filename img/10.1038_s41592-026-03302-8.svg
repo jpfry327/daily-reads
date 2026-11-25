@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">ISOMPRA: two layers in one reporter</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">transcription versus RNA stability</text>
+  <!-- reporter construct -->
+  <text x="40" y="92" font-size="14" font-weight="bold" fill="#2B3138">Reporter construct</text>
+  <rect x="40" y="104" width="100" height="36" rx="6" fill="#FFFFFF" stroke="#D98A00" stroke-width="2.5"/>
+  <text x="90" y="127" font-size="13" fill="#D98A00" text-anchor="middle">enhancer</text>
+  <rect x="150" y="104" width="70" height="36" rx="6" fill="#F3F5F7" stroke="#8A949E" stroke-width="2"/>
+  <text x="185" y="127" font-size="13" fill="#2B3138" text-anchor="middle">promoter</text>
+  <rect x="230" y="104" width="70" height="36" rx="6" fill="#1E5FA8"/>
+  <text x="265" y="127" font-size="13" fill="#FFFFFF" text-anchor="middle">exon 1</text>
+  <path d="M300 122 L335 122" stroke="#8A949E" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="318" y="100" font-size="13" fill="#8A949E" text-anchor="middle">intron</text>
+  <rect x="335" y="104" width="70" height="36" rx="6" fill="#1E5FA8"/>
+  <text x="370" y="127" font-size="13" fill="#FFFFFF" text-anchor="middle">exon 2</text>
+  <rect x="415" y="104" width="100" height="36" rx="6" fill="#FFFFFF" stroke="#C8323F" stroke-width="2.5"/>
+  <text x="465" y="127" font-size="13" fill="#C8323F" text-anchor="middle">3'UTR variant</text>
+  <!-- two RNA readouts -->
+  <path d="M265 150 L170 214" stroke="#2B3138" stroke-width="2"/><path d="M170 214 L172 203 M170 214 L181 210" stroke="#2B3138" stroke-width="2"/>
+  <path d="M440 150 L470 214" stroke="#2B3138" stroke-width="2"/><path d="M470 214 L464 204 M470 214 L476 204" stroke="#2B3138" stroke-width="2"/>
+  <rect x="40" y="220" width="250" height="84" rx="10" fill="#F3F5F7" stroke="#D98A00" stroke-width="2"/>
+  <text x="165" y="246" font-size="14" font-weight="bold" fill="#D98A00" text-anchor="middle">Pre-spliced RNA</text>
+  <text x="165" y="270" font-size="13" fill="#2B3138" text-anchor="middle">proxy for transcription rate</text>
+  <text x="165" y="290" font-size="13" fill="#2B3138" text-anchor="middle">enhancer effect</text>
+  <rect x="350" y="220" width="250" height="84" rx="10" fill="#F3F5F7" stroke="#C8323F" stroke-width="2"/>
+  <text x="475" y="246" font-size="14" font-weight="bold" fill="#C8323F" text-anchor="middle">Spliced RNA, corrected</text>
+  <text x="475" y="270" font-size="13" fill="#2B3138" text-anchor="middle">post-transcriptional effect</text>
+  <text x="475" y="290" font-size="13" fill="#2B3138" text-anchor="middle">3'UTR stability element</text>
+  <text x="320" y="340" font-size="14" fill="#2B3138" text-anchor="middle">Ignoring either layer gives false calls</text>
+  <text x="320" y="364" font-size="13" fill="#8A949E" text-anchor="middle">tested on enhancers, 3'UTRs and autism variants</text>
+</svg>

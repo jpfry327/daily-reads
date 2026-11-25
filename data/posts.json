@@ -1,13 +1,589 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-24T11:00:00Z",
+  "updated": "2026-11-25T11:00:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02842-1",
-    "10.1038/s41587-026-03284-0",
-    "10.1016/j.ccell.2026.10.015"
+    "10.1038/s41592-026-03302-8",
+    "10.1158/2159-8290.CD-25-0748",
+    "10.1038/s41588-026-02842-1"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41592-026-03302-8",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "ISOMPRA enables the disambiguation of transcriptional and post-transcriptional effects of genetic variants.",
+      "authors": "Fischer AD, Selmanovic D, Florian CP, et al.",
+      "venue": "Nature Methods",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41592-026-03302-8",
+      "url": "https://doi.org/10.1038/s41592-026-03302-8",
+      "topics": [
+        "RNA biology",
+        "Benchmarking",
+        "Resource"
+      ],
+      "summary": "ISOMPRA is a massively parallel reporter assay that separates transcriptional effects from post-transcriptional (RNA stability) effects of DNA and RNA elements. Pre-spliced RNA serves as a proxy for transcription rate, and spliced RNA corrected for that rate reveals 3'UTR stability elements.",
+      "key_points": [
+        "Ignoring either layer gives many false positives and false negatives",
+        "Finds functional enhancers and UTRs, including a subset of high-impact autism patient variants",
+        "Adapted for use in vivo in specific cell types"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41592-026-03302-8.svg",
+        "caption": "ISOMPRA reads pre-spliced RNA for enhancer (transcription) effects and corrected spliced RNA for 3'UTR (stability) effects.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1158/2159-8290.CD-25-0748",
+      "date_added": "2026-11-25",
+      "published": "2026-11-20",
+      "title": "Targeting Neutrophil Extracellular Traps to Inhibit Colon Cancer Tumor Necrosis and Metastasis.",
+      "authors": "Gazzara ER, Adrover JM, Dziadowicz SA, et al.",
+      "venue": "Cancer Discovery",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1158/2159-8290.CD-25-0748",
+      "url": "https://doi.org/10.1158/2159-8290.CD-25-0748",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Spatial",
+        "Immuno-oncology"
+      ],
+      "summary": "Tumour necrosis in colorectal cancer tracks with metastasis independently of tumour size. Single-cell RNA-seq and spatial transcriptomics show peri-necrotic programs linked to metastatic progression, with NET-primed neutrophils and NET aggregates beside necrotic regions. Blocking NETs in a mismatch-repair-proficient mouse model reduced necrosis and metastasis and improved chemotherapy.",
+      "key_points": [
+        "Necrosis appears to be an active driver of CRC metastasis, not just a by-product",
+        "NET-primed, CD177-low neutrophils are found in patient tumours",
+        "Genetic and drug NET inhibition is proposed as a therapeutic strategy"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1158_2159-8290.CD-25-0748.svg",
+        "caption": "NET aggregates and NET-primed neutrophils ring the necrotic core of an untreated tumour; NET inhibition shrinks necrosis.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1101/gr.281825.125",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Somatic haplotyping for tumor DNA fraction estimation and variant recalibration with LongPhase-S.",
+      "authors": "Ho ME, Zheng Z, Luo RL, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281825.125",
+      "url": "https://doi.org/10.1101/gr.281825.125",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Benchmarking"
+      ],
+      "summary": "LongPhase-S reconstructs somatic haplotypes from paired tumour-normal long-read data and estimates tumour DNA fraction, then recalibrates somatic variant calls in a fraction-aware way.",
+      "key_points": [
+        "Anchors each somatic read to a parental germline lineage, handling contamination, subclonality and aneuploidy",
+        "On 8 ONT benchmark datasets mean F1 rises 4.5% (SNV) and 7.1% (indel) with ClairS, and 1.2% and 0.5% with DeepSomatic",
+        "The ONT-trained model generalises to 6 PacBio HiFi dilution series without retraining"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.282016.126",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Donor-specific assemblies enhance somatic structural variant detection in complex genomic regions.",
+      "authors": "Mack TM, Lin J, Ren L, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282016.126",
+      "url": "https://doi.org/10.1101/gr.282016.126",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Structural variants",
+        "Long-read"
+      ],
+      "summary": "A SMaHT Network benchmark of a donor-specific assembly (DSA) against GRCh38 and CHM13 for somatic SV calling in the COLO829 melanoma line, using three SV callers across long-read platforms.",
+      "key_points": [
+        "The DSA finds 1.8x more validated somatic SVs, many in satellite and repeat-rich regions",
+        "Two variants in cancer-associated genes were missed by both linear references",
+        "Caller-, platform- and region-specific filters improve precision"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04260-2",
+      "date_added": "2026-11-25",
+      "published": "2026-09-02",
+      "title": "Perplexity as a metric for isoform diversity in the human transcriptome.",
+      "authors": "Schertzer MD, Park SH, Su J, et al.",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04260-2",
+      "url": "https://doi.org/10.1186/s13059-026-04260-2",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms",
+        "Long-read"
+      ],
+      "summary": "Proposes perplexity, the effective number of isoforms per gene derived from Shannon entropy, to quantify isoform diversity. Every isoform counts, so no arbitrary expression threshold is needed.",
+      "key_points": [
+        "Applied to 124 ENCODE4 PacBio datasets across 55 human cell types",
+        "Gives interpretable, reproducible diversity measures across genes, regulatory levels and tissues",
+        "An alternative to thresholded long-read isoform filtering"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.282756.126",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "The RNAdecayCafe atlas of RNA half-life estimates across multiple human cell lines.",
+      "authors": "Vock IW, Tang D, Giraldez AJ, et al.",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282756.126",
+      "url": "https://doi.org/10.1101/gr.282756.126",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "A database of RNA half-lives from SLAM-seq and TimeLapse-seq (nucleotide-recoding) data, uniformly processed with the EZbakR suite and used to examine how RNA stability shapes expression.",
+      "key_points": [
+        "Covers 11 human cell lines, 15 datasets and 64 samples",
+        "Half-lives were consistent and orthogonally validated",
+        "Distributed as a Zenodo repository and a web app"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1247",
+      "date_added": "2026-11-25",
+      "published": "2026-11-23",
+      "title": "Differential co-localization analysis of multi-sample and multi-condition experiments with spatialFDA.",
+      "authors": "Emons M, Scheipl F, Gunz S, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1247",
+      "url": "https://doi.org/10.1093/nar/gkag1247",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "spatialFDA combines spatial statistics with functional data analysis to test differential cellular co-localisation across spatial scales and conditions in spatial omics data.",
+      "key_points": [
+        "Performs well in two simulation studies",
+        "Recovers known biology in type-1 diabetes and adds scale-resolved insight",
+        "Open-source Bioconductor R package"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag830",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data.",
+      "authors": "Li H, Qi J, Cui Y, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag830",
+      "url": "https://doi.org/10.1093/bioinformatics/btag830",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scGPL is a gene regulatory network inference framework that combines global graph topology with local TF-target pair features, using importance-guided subgraph sampling.",
+      "key_points": [
+        "Fuses graph-based and pairwise learning paradigms",
+        "Reports up to 13.7% gain over the best baseline across 7 benchmarks",
+        "Code on GitHub and Zenodo"
+      ],
+      "data": "",
+      "code": "github.com/talent-hang/scGPL"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag856",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Fast genomic read alignment with minibwa.",
+      "authors": "Li H, Homer N",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag856",
+      "url": "https://doi.org/10.1093/bioinformatics/btag856",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "minibwa combines BWA-MEM seeding with minimap2 chaining and base alignment, for short and accurate long reads.",
+      "key_points": [
+        "About 4x faster than BWA-MEM and over 2x faster than BWA-MEM2 at comparable accuracy",
+        "Native directional bisulfite support",
+        "Skips mate rescue and reduces effort in repetitive regions"
+      ],
+      "data": "",
+      "code": "github.com/lh3/minibwa"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag849",
+      "date_added": "2026-11-25",
+      "published": "2026-11-20",
+      "title": "Met4All: a dockerised Shiny application for DNA methylation array analysis, visualization and reporting.",
+      "authors": "Roca C, Campo-Fernández G, Moreno-Cabrera JM, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag849",
+      "url": "https://doi.org/10.1093/bioinformatics/btag849",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics",
+        "Copy number"
+      ],
+      "summary": "A graphical tool for 450K, EPIC and EPICv2 methylation arrays covering QC, normalisation, UMAP and consensus clustering, differential methylation, GSEA and copy number, aimed at tumour classification and subgrouping.",
+      "key_points": [
+        "Accepts raw IDAT files or a beta matrix",
+        "Compared with 9 tools on 17 criteria; the only one meeting all",
+        "Unsupervised structure discovery only"
+      ],
+      "data": "",
+      "code": "github.com/gcampof/Met4All"
+    },
+    {
+      "id": "10.1038/s41467-026-78718-z",
+      "date_added": "2026-11-25",
+      "published": "2026-10-27",
+      "title": "scBOA: Bayesian optimization of single-cell analysis pipelines for robust annotation and discovery.",
+      "authors": "Su Q, Long Y, Duan F, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78718-z",
+      "url": "https://doi.org/10.1038/s41467-026-78718-z",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Benchmarking"
+      ],
+      "summary": "Gaussian-process Bayesian optimisation selects scRNA-seq workflow parameters against configurable objectives such as annotation purity and marker concordance. It is benchmarked against 14 alternative strategies on FACS-labelled PBMC, pancreas and heart data.",
+      "key_points": [
+        "Objective-driven parameter selection",
+        "Not uniformly superior, but strong when annotation targets match the biology",
+        "Extensions for low-confidence refinement and multi-sample integration"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78646-y",
+      "date_added": "2026-11-25",
+      "published": "2026-10-24",
+      "title": "Recommendation system-inspired learning of crossmodal interaction patterns between chromatin accessibility and gene expression.",
+      "authors": "Wang X, Lin X, Zhang Q, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78646-y",
+      "url": "https://doi.org/10.1038/s41467-026-78646-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "CrossRec recasts scATAC and scRNA data as a recommender-style bipartite interaction graph and learns interpretable peak-gene attention with a graph transformer. It generalises to unseen cell types.",
+      "key_points": [
+        "Robust in data-scarce settings",
+        "Produces cell- and cell-type-specific regulatory maps",
+        "Applied to cortical neurogenesis and drug-induced rewiring in melanoma resistance"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.23.768572",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "A refined InDel taxonomy broadens the repertoire of mutational processes shaping multiple myeloma",
+      "authors": "Papadimitriou M, Pandey A, Poos A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.768572",
+      "url": "https://doi.org/10.64898/2026.11.23.768572",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Clinical"
+      ],
+      "summary": "An 89-channel InDel classification applied to whole genomes of 887 myeloma samples reveals signatures for replication slippage, APOBEC, TOP1, NHEJ and two rare repair-deficiency processes.",
+      "key_points": [
+        "The APOBEC InDel signature InD9a improved prediction of progression-free survival and MRD negativity in two randomized trials",
+        "The NHEJ signature InD29 is enriched in melphalan-exposed samples and high SV burden",
+        "A recurrent InDel hotspot sits at TXNDC5"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.13.762587",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "FiberTron enables regulatory variant effect prediction and testing from multi-omic long reads of a single sample",
+      "authors": "Eftychiou M, Lambrechts L, Vande Velde J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.13.762587",
+      "url": "https://doi.org/10.64898/2026.11.13.762587",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Machine learning"
+      ],
+      "summary": "A 12M-parameter convolutional-transformer trained from scratch on one sample profiled with Fiber-seq and nanopore direct RNA-seq predicts CpG methylation, accessibility and transcript coverage from 524 kb of sequence.",
+      "key_points": [
+        "Median Pearson r of 0.85-0.97 on held-out chromosomes",
+        "Matches AlphaGenome on dsQTL and eQTL tasks despite being over 10x smaller",
+        "Recovers allele-specific accessibility variants in a melanoma line and predicts EWSR1::ATF1 fusion expression in a clear cell sarcoma sample"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.23.768611",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "ModFormer: A unified structure-aware model of transcriptome-wide A-to-I RNA editing",
+      "authors": "Slater C, Nassar E, Dreesen Bonet N, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.768611",
+      "url": "https://doi.org/10.64898/2026.11.23.768611",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning",
+        "RNA modifications"
+      ],
+      "summary": "ModFormer combines RNA sequence representations with predicted secondary structure to predict ADAR-mediated editing sites and rates, trained on human data.",
+      "key_points": [
+        "Generalises to unseen substrates and species",
+        "Anticipates measured responses to RNA mutations and prioritises responsive sites",
+        "Guides an autonomous AI agent toward candidate RNA designs"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.23.768692",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Benchmarking sample mispairing detection tools in complex cancer datasets",
+      "authors": "Lathouwers E, Dixon S, Akatsu GY, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.768692",
+      "url": "https://doi.org/10.64898/2026.11.23.768692",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Benchmarking",
+        "Multi-omics"
+      ],
+      "summary": "An independent benchmark of tools that detect sample mispairs in multimodal transcriptomic cancer datasets, using pseudobulk experiments with known pairings and real data.",
+      "key_points": [
+        "Four tools reach near-perfect F1 on pseudobulk and three do well on real data",
+        "Mispairs were found in three of five real datasets",
+        "A high-grade serous ovarian carcinoma dataset was repaired using genetic ancestry inference"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.22.768449",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Beyond Abundance: Integrated Splicing and Expression Quantitative Trait Loci Refine Causal Gene Mapping in IBD",
+      "authors": "Huang EY-C, Han S, Hamiton NH, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.22.768449",
+      "url": "https://doi.org/10.64898/2026.11.22.768449",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Multi-omics"
+      ],
+      "summary": "cis-eQTL and cis-sQTL mapping in colon samples from the SPARC IBD cohort, colocalised with IBD GWAS loci, assessing splicing consequences such as NMD and protein domain changes.",
+      "key_points": [
+        "20,566 eGenes and 9,906 sGenes identified",
+        "Colocalisation prioritised 239 eGenes and 164 sGenes across 147 of 320 IBD loci",
+        "Five genes show reciprocal changes in expression and NMD-sensitive junction usage"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.05.14.725161",
+      "date_added": "2026-11-25",
+      "published": "2026-11-23",
+      "title": "The Paipu framework enables creation of a large-scale mammalian cancer transcriptomics atlas",
+      "authors": "Smith BS, Smith LA, Daluwatumulle G, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.05.14.725161",
+      "url": "https://doi.org/10.64898/2026.05.14.725161",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Pan-cancer",
+        "Resource"
+      ],
+      "summary": "Paipu is a pipeline for querying, preprocessing and harmonising public SRA RNA-seq across species with different annotation quality. Applied to 188 cancer terms in 240 non-human mammals, it yields a pan-mammalian cancer atlas.",
+      "key_points": [
+        "51,561 RNA-seq samples, 18 species and 83 cancers",
+        "Aimed at comparative genomics to understand rare human cancers",
+        "The pipeline can build atlases for any species and search terms"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.22.768410",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Distinctive fragmentation of circulating DNA from chromosome Y and its alteration in cancer",
+      "authors": "Ruffinel L, Richaud M, Pisareva E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.22.768410",
+      "url": "https://doi.org/10.64898/2026.11.22.768410",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Clinical"
+      ],
+      "summary": "Characterises chromosome Y cell-free DNA fragmentation and nucleosome occupancy in healthy males and patients with colorectal, pancreatic, lung and prostate cancer, using public cohorts and a local colorectal cohort.",
+      "key_points": [
+        "chrY has lower nucleosome occupancy, and its short fragments come mainly from heterochromatin",
+        "The chrY-specific short-fragment enrichment is attenuated in cancer",
+        "Short/long fragment ratios separate healthy males from colorectal, pancreatic and lung cancer with AUC above 0.98, replicated in an independent cohort"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.23.768176",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Evaluating the Nanopore Inosine Model for ADAR-Dependent A-to-I RNA Editing Detection",
+      "authors": "Di Giorgio S, Griesche V.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.768176",
+      "url": "https://doi.org/10.64898/2026.11.23.768176",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Long-read",
+        "Benchmarking"
+      ],
+      "summary": "Tests the Dorado inosine model against Illumina-defined editing sites, comparing wild-type and ADAR1-KO macrophages and in vitro transcribed RNA before and after inflammatory stimulation.",
+      "key_points": [
+        "Model confidence alone cannot identify editing; a matched ADAR-deficient control is essential",
+        "Detection is still limited by depth, low editing levels and basecalling errors",
+        "Inosine calls need orthogonal confirmation"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.20.768132",
+      "date_added": "2026-11-25",
+      "published": "2026-11-23",
+      "title": "APOBEC3 Activation Drives Epitranscriptomic Remodeling and Clonal Hematopoiesis",
+      "authors": "van der Werf I, Isquith J, Klacking E, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.20.768132",
+      "url": "https://doi.org/10.64898/2026.11.20.768132",
+      "topics": [
+        "RNA biology",
+        "RNA modifications",
+        "Splicing",
+        "Single-cell"
+      ],
+      "summary": "Overexpression of A3B, A3C, A3D, A3F and A3G in haematopoietic stem and progenitor cells, profiled by WGS, RNA-seq and scRNA-seq with functional assays and mouse models.",
+      "key_points": [
+        "A3C and A3F induce more C-to-T DNA mutations; A3B, A3C and A3G deregulate splicing; all induce C-to-U RNA edits",
+        "A3C overexpression in aged HSPCs drives replating and myeloid skewing in mice",
+        "A3C editing of clonal-hematopoiesis transcripts separates MPN from normal HSPCs"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.22.768006",
+      "date_added": "2026-11-25",
+      "published": "2026-11-24",
+      "title": "Full-length transcript architecture reveals RNA fate and regulatory state",
+      "authors": "Dai Y, Stigliani A, Auxillos JY, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.22.768006",
+      "url": "https://doi.org/10.64898/2026.11.22.768006",
+      "topics": [
+        "RNA biology",
+        "Epigenomics"
+      ],
+      "summary": "Ultra-deep sequencing of polyadenylated and non-polyadenylated capped RNAs in mouse ES cells shows how full-length transcript architecture relates to RNA fate.",
+      "key_points": [
+        "Nuclear exosome surveillance of PROMPTs is linked to transcript length and sequence composition",
+        "For most protein-coding genes, capped transcripts are mostly cytosolic degradation intermediates or prematurely terminated products",
+        "Identifies convergently transcribed enhancers with PRC2-associated, poised features"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02842-1",
       "date_added": "2026-11-24",
