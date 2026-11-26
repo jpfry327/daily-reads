@@ -1,13 +1,663 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-25T11:00:00Z",
+  "updated": "2026-11-26T11:10:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41592-026-03302-8",
-    "10.1158/2159-8290.CD-25-0748",
-    "10.1038/s41588-026-02842-1"
+    "10.1038/s41588-026-02853-y",
+    "10.1038/s41586-026-11301-0",
+    "10.1038/s41586-026-11345-2"
   ],
   "posts": [
+    {
+      "id": "10.1038/s41588-026-02853-y",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "Uncovering directionally and temporally variable genes with STAVAG.",
+      "authors": "Shen Q, Gai K, Li S, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02853-y",
+      "url": "https://doi.org/10.1038/s41588-026-02853-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "STAVAG extends spatially variable gene analysis by finding genes that vary along a biological axis (directionally variable genes) or over time (temporally variable genes). It is a purely computational framework applied to spatial transcriptomics from tumours, brain, planaria, heart and embryos.",
+      "key_points": [
+        "DVGs in tumours give prognostic gene modules that match the malignant-immune-stroma structure",
+        "Finds 12 polarization genes in planarian regeneration",
+        "TVGs flag candidate biomarkers for the ultra-acute phase of myocardial infarction"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41588-026-02853-y.svg",
+        "caption": "STAVAG finds genes that vary along a tumour axis (directional) or along time (temporal), unlike plain spatially variable genes.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11301-0",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "Heterogeneity co-evolves with architecture to determine colon cancer outcome.",
+      "authors": "Bertillot F, Hervé S, Outla Z, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11301-0",
+      "url": "https://doi.org/10.1038/s41586-026-11301-0",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Machine learning",
+        "Tumour evolution"
+      ],
+      "summary": "A deep-learning model reads colorectal cancer tissue architecture and nuclear morphology to predict outcome, and is combined with spatial transcriptomics, multiplex immunofluorescence and patient-derived organoids. The work links tissue architecture to cancer stem-cell states.",
+      "key_points": [
+        "Tissue fragmentation creates compressive forces that activate YAP and push cells to fetal/regenerative stem states",
+        "TGFβ signalling from the stroma then diversifies hybrid partial-EMT cells into distinct stem and EMT states",
+        "β-catenin activity tunes how cells respond to architectural cues"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11301-0.svg",
+        "caption": "Tissue fragmentation activates YAP, which drives hybrid stem/EMT states that stromal TGFβ diversifies, feeding back on architecture.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11345-2",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "Rare-variant genetic architecture of height in over 1.4 million individuals.",
+      "authors": "Kosmicki JA, Ganel L, Watanabe K, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11345-2",
+      "url": "https://doi.org/10.1038/s41586-026-11345-2",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Resource"
+      ],
+      "summary": "An exome-wide association study of rare protein-altering variants in 826,066 discovery exomes finds 207 height-associated genes, 98% of which replicate in 624,567 further people. Singleton loss-of-function variants in 17 genes have effects far larger than common variants.",
+      "key_points": [
+        "Per-allele effects range from -17 cm (ACAN) to +11 cm (FBN1)",
+        "TET1, DTL and IGF2BP2 have large effects but no documented growth syndrome",
+        "Informs trait prediction, clinical evaluation and drug-target prioritisation"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1038_s41586-026-11345-2.svg",
+        "caption": "Discovery in 826,066 exomes and replication, with singleton loss-of-function genes such as FBN1 (taller) and ACAN (shorter).",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1038/s41586-026-11275-z",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "Single-cell variant-to-enhancer-to-gene map for coronary artery disease.",
+      "authors": "Amrute JM, Lee PC, Eres I, et al.",
+      "venue": "Nature",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41586-026-11275-z",
+      "url": "https://doi.org/10.1038/s41586-026-11275-z",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Multi-omics",
+        "Epigenomics"
+      ],
+      "summary": "Single-nucleus multi-omics of coronary arteries from 44 people is used to build a genome-wide single-cell map linking GWAS variants to enhancers and genes. Hi-C and CRISPRi then nominate causal distal genes.",
+      "key_points": [
+        "11,269 chromatin accessibility QTLs across vascular cell types",
+        "Dynamic single-cell caQTL modelling shows variant effects change as smooth muscle cells shift state",
+        "AMOTL2 is nominated as a distal smooth-muscle CAD gene"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41588-026-02838-x",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "Exhaustive rearrangement of an enhancer reveals that dependency-syntax encodes tissue specificity.",
+      "authors": "Solvason JJ, Tellez K, Lim F, et al.",
+      "venue": "Nature Genetics",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1038/s41588-026-02838-x",
+      "url": "https://doi.org/10.1038/s41588-026-02838-x",
+      "topics": [
+        "Methods",
+        "Single-cell",
+        "Epigenomics"
+      ],
+      "summary": "The authors test 460,800 arrangements of ETS and GATA binding sites in Ciona embryos and introduce SEMPRA, a single-cell whole-embryo massively parallel reporter assay. Only 18% of elements with identical binding-site content are active.",
+      "key_points": [
+        "Flipping the orientation of a single site converts 54,000 inert elements into enhancers",
+        "Dependent-syntax enhancers stay sensitive to the cellular environment and tissue-specific; robust-syntax enhancers are broadly active",
+        "Enhancer syntax tunes responsiveness to the trans environment"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.281800.125",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "Exploring and visualizing complex pangenome graphs with PanAbyss.",
+      "authors": "Graziani F, Zytnicki M",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.281800.125",
+      "url": "https://doi.org/10.1101/gr.281800.125",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants",
+        "Resource"
+      ],
+      "summary": "PanAbyss is an application for interactively exploring large pangenome variation graphs, built around a new data model that handles annotated graph segments. A cattle use case recovers structural variants linked to the white head phenotype.",
+      "key_points": [
+        "Query regions by annotation and find regions shared among chosen individuals",
+        "Computes proximity trees between individuals and retrieves region sequences",
+        "Reproduces earlier white-head structural variant findings in cattle"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gr.282217.126",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "MaxGeomHash bridges MinHash and FracMinHash for scalable similarity estimation using sub-linear k-mer sketching.",
+      "authors": "Rahman Hera M, Koslicki D, Martinez C",
+      "venue": "Genome Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gr.282217.126",
+      "url": "https://doi.org/10.1101/gr.282217.126",
+      "topics": [
+        "Methods",
+        "Computational"
+      ],
+      "summary": "MaxGeomHash is a new k-mer sketching algorithm that gives samples between constant size (MinHash) and linear size (FracMinHash), without knowing the number of k-mers in advance. It is permutation-invariant and parallelizable.",
+      "key_points": [
+        "Sketch size is b·lg(n/b) + O(b); a variant gives Θ(n^α) sketches",
+        "First permutation-invariant, parallelizable sub-linear sketching algorithm",
+        "Balances efficiency with the quality of Jaccard and cosine estimates"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1186/s13059-026-04264-y",
+      "date_added": "2026-11-26",
+      "published": "2026-09-03",
+      "title": "Differential analysis of image-based chromatin tracing data with Dory.",
+      "authors": "Ma Z, Liu M, Wang S, et al.",
+      "venue": "Genome Biology",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1186/s13059-026-04264-y",
+      "url": "https://doi.org/10.1186/s13059-026-04264-y",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Epigenomics"
+      ],
+      "summary": "Dory is a statistical method that compares two groups of image-based chromatin traces and gives a differential score for each pair of genomic regions. It was applied to several chromatin tracing datasets.",
+      "key_points": [
+        "Detects structural changes tied to A/B compartment alterations",
+        "Finds promoter-enhancer interactions linked to differential gene expression",
+        "Gives a user-friendly tool for quantitative 3D genome analysis"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-79009-3",
+      "date_added": "2026-11-26",
+      "published": "2026-10-28",
+      "title": "CPRISP: an interpretable deep learning framework predicting circRNA-RBP interactions and guiding therapeutic discovery in neurodegeneration.",
+      "authors": "Wang Y, Li J, Liu X, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-79009-3",
+      "url": "https://doi.org/10.1038/s41467-026-79009-3",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "CPRISP is a deep-learning framework that predicts circRNA-RNA-binding protein interaction sites by combining sequence, physicochemical properties, secondary structure, pretrained representations and protein features. It improves prediction across 37 benchmark datasets and generalises across cell lines.",
+      "key_points": [
+        "Interpretation recovers conserved single-stranded sequence patterns",
+        "Applied to proteins linked to Alzheimer, Parkinson and ALS to find recurrent pathways",
+        "Prioritises compounds for follow-up, without implying therapeutic efficacy"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-79621-3",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "Autosomal dosage compensation in aneuploidy and cancer involves transcriptional burst regulation.",
+      "authors": "Papanicolaou N, Wettersten S, Maia G, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-79621-3",
+      "url": "https://doi.org/10.1038/s41467-026-79621-3",
+      "topics": [
+        "Cancer genomics",
+        "Single-cell",
+        "Copy number"
+      ],
+      "summary": "Allele-resolved single-cell RNA-seq of monoclonal cell expansions with different degrees of aneuploidy shows widespread dosage compensation of autosomes. Cancer transcriptomes show the same compensation in human tumours.",
+      "key_points": [
+        "Chromosome losses are compensated by higher transcriptional burst frequency from the remaining allele",
+        "Compensation is region-specific, for whole and segmental aneuploidies",
+        "Protein-level buffering restores stoichiometric balance only in part"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag864",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "Pathway-Transformer: Integrating Transcript Variants and Biological Pathways for Cancer Phenotype Prediction.",
+      "authors": "Baul S, Sun J, Fahmi NA, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag864",
+      "url": "https://doi.org/10.1093/bioinformatics/btag864",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Isoforms"
+      ],
+      "summary": "Pathway-Transformer combines transcript variants (alternative splicing and polyadenylation) with gene expression from the same RNA-seq data, using KEGG pathways as prior knowledge in a transformer encoder. It predicts cancer phenotypes in TCGA breast cancer.",
+      "key_points": [
+        "Encodes pathway network structure and learns pathway-specific representations",
+        "Splicing and polyadenylation variants carry more informative signal than expression alone",
+        "Evaluated on individual pathways and integrated pathway sets"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag855",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "UniPanSurv: zero- and few-shot pan-cancer survival analysis with multi-omics data.",
+      "authors": "Zhang S, Zhang Y, Du W, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag855",
+      "url": "https://doi.org/10.1093/bioinformatics/btag855",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Machine learning",
+        "Pan-cancer"
+      ],
+      "summary": "UniPanSurv shares one backbone across cancers and scores directed relations among observed molecules to predict survival curves. An \"Unknown\" context allows zero-shot prediction and light updates allow few-shot adaptation.",
+      "key_points": [
+        "Common-input cancer-macro C-index of 0.752",
+        "Small C-index gains over MMOSurv in 10- and 20-shot settings",
+        "Authors note the interval against the closest comparator includes zero and that database support is not causal"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/bioinformatics/btag859",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "HARP-RPA: Interface-Aware HeteroPairFormer for Protein-RNA Binding Affinity Prediction.",
+      "authors": "Wang B, Xie X",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag859",
+      "url": "https://doi.org/10.1093/bioinformatics/btag859",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "HARP-RPA predicts protein-RNA binding affinity by modelling residue/base pairs at the complex interface, combining protein and RNA language-model embeddings with structural pair features. It targets post-transcriptional regulation and RNA-directed design.",
+      "key_points": [
+        "Distinguishes intra-protein, intra-RNA and cross-interface relations",
+        "Reaches PCC/SCC of 0.621/0.633 on PRA310 and 0.580/0.598 on PRA201",
+        "Combines global complex evidence with local interface signals"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1038/s41467-026-78852-8",
+      "date_added": "2026-11-26",
+      "published": "2026-10-19",
+      "title": "Spatially resolved host and microbiota RNA profiling in the mouse gut using microDBiT.",
+      "authors": "Tao B, Song D, Dong M, et al.",
+      "venue": "Nature Communications",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1038/s41467-026-78852-8",
+      "url": "https://doi.org/10.1038/s41467-026-78852-8",
+      "topics": [
+        "Methods",
+        "Spatial"
+      ],
+      "summary": "microDBiT is a spatial transcriptomics platform that profiles host and bacterial RNA (mRNA and rRNA) together in tissue. It was used in germ-free, gnotobiotic and DSS-colitis mouse ileum and colon.",
+      "key_points": [
+        "Maps location-specific changes in host and bacterial transcripts after colonisation and in inflammation",
+        "Shows spatial microbial localisation",
+        "Gives a way to dissect host-microbiome interactions at high resolution"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1101/gad.354114.126",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "YTHDC1 is a nuclear RNA surveillance factor.",
+      "authors": "Rathore O, Wu G, Dierks D, et al.",
+      "venue": "Genes & Development",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1101/gad.354114.126",
+      "url": "https://doi.org/10.1101/gad.354114.126",
+      "topics": [
+        "RNA biology",
+        "RNA modifications"
+      ],
+      "summary": "The study shows that m6A contributes substantially to nuclear RNA turnover, through the nuclear m6A reader YTHDC1 and the nuclear exosome targeting (NEXT) complex. This makes m6A a general nuclear RNA surveillance mark.",
+      "key_points": [
+        "Rapid YTHDC1 depletion causes accumulation of a subset of short NEXT substrates",
+        "YTHDC1 and NEXT also target 3'-extended, intron-containing and nuclear-retained RNAs",
+        "Recognition needs both the YTH domain and the m6A modification itself"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.768929",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "Phirefly: hierarchical quantum haplotype phasing at the chromosome scale",
+      "authors": "Wang Y, Le MK, Li H",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.768929",
+      "url": "https://doi.org/10.64898/2026.11.24.768929",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read"
+      ],
+      "summary": "Phirefly is described as the first practical quantum algorithm for read-based haplotype phasing, with the key step run on quantum hardware. A CPU step first groups SNPs with strong read support into small \"phaselets\", and the quantum step phases across them.",
+      "key_points": [
+        "Runs on D-Wave and IBM quantum computers, or a quantum-inspired CPU/GPU solver",
+        "Accuracy broadly comparable to QHap and mainstream phasers on HG002",
+        "Relevant to long-read variant calling"
+      ],
+      "data": "",
+      "code": "github.com/wangyf1125/Phirefly"
+    },
+    {
+      "id": "10.64898/2026.11.24.768960",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "A pangenomic approach identifies new structural variants associated with gene expression in the CARTaGENE cohort",
+      "authors": "Laflamme R, Groza C, Bourque G, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.768960",
+      "url": "https://doi.org/10.64898/2026.11.24.768960",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Structural variants"
+      ],
+      "summary": "PanGenie and the HPRC release 2 pangenome were used to genotype 645,680 structural variants from short reads in 2,173 CARTaGENE participants, then test them for expression associations.",
+      "key_points": [
+        "103 independent SV-eGene associations involving 99 SVs; 41 replicate in 1000 Genomes",
+        "SV-eQTLs are enriched in ENCODE candidate cis-regulatory elements",
+        "65 of 99 are in strong LD with fine-mapped GWAS variants, making them candidate causal variants"
+      ],
+      "data": "CARTaGENE cohort; 1000 Genomes",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.23.768697",
+      "date_added": "2026-11-26",
+      "published": "2026-11-24",
+      "title": "ELLA-mix: Detecting Cell-to-Cell Heterogeneity in Subcellular RNA Localization",
+      "authors": "Wang J, Bandreddi A, Bruce SA",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.768697",
+      "url": "https://doi.org/10.64898/2026.11.23.768697",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Spatial"
+      ],
+      "summary": "ELLA-mix is a finite mixture model that finds cell subpopulations with different radial RNA localisation patterns in imaging-based spatial transcriptomics. It conditions on each cell's transcript count to separate localisation from abundance.",
+      "key_points": [
+        "Found distinct subpopulations in seqFISH+ mouse fibroblasts for genes previously given one localisation class",
+        "Variable genes are enriched for endoplasmic reticulum and extracellular matrix functions",
+        "In Xenium ovarian cancer, more peripheral localisation goes with more proliferating (S-phase) cells"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.768843",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "mRNAspect: Real-Time Quality Control of Therapeutic mRNA with N1-Methylpseudouridine Bias Correction Using Nanopore Direct RNA Sequencing",
+      "authors": "Lee S",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.768843",
+      "url": "https://doi.org/10.64898/2026.11.24.768843",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Long-read",
+        "RNA modifications"
+      ],
+      "summary": "mRNAspect is a real-time nanopore direct RNA sequencing pipeline for therapeutic mRNA quality control. It corrects for the bias that N1-methylpseudouridine causes in basecalling and poly(A) length estimates.",
+      "key_points": [
+        "Fine-tuned basecaller cuts the error rate on m1Ψ constructs from 20.1% to 7.2% (3.0% for unmodified RNA)",
+        "Poly(A) correction shrinks modified-versus-unmodified tail differences from up to 9.0 nt to within 1.8 nt",
+        "Runs as a macOS app that watches the MinKNOW output"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.768872",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "BRISANCE: A GPU-Accelerated Pipeline for Somatic Short-Variant Detection in Whole-Genome Sequencing Data",
+      "authors": "Porfirio de Aguiar M, Bispo S, Teixeira SA, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.768872",
+      "url": "https://doi.org/10.64898/2026.11.24.768872",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Benchmarking"
+      ],
+      "summary": "BRISANCE is a GPU-accelerated somatic SNV and indel pipeline built on NVIDIA Parabricks, tested on the HG008 pancreatic cancer tumour-normal WGS. It is compared with a DRAGEN-derived call set, which is not a validated truth set.",
+      "key_points": [
+        "10.6 hours on GPU versus 219.4 hours on CPU (20.6-fold faster)",
+        "73.66% overlap with the DRAGEN call set; filtering raised comparator precision from 0.8375 to 0.9110",
+        "Runs as a Nextflow workflow with a configuration interface"
+      ],
+      "data": "Cancer Genome in a Bottle HG008",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.768923",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "A method to disentangle enhancer-gene interactions from latent factors in single-cell multi-omics data",
+      "authors": "Nguyen ND, McNulty MT, Kim G, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.768923",
+      "url": "https://doi.org/10.64898/2026.11.24.768923",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Multi-omics"
+      ],
+      "summary": "CREMAP estimates shared latent factors (cell cycle, cell quality, sample differences) from single-cell multiome data and adjusts for them before testing each peak-gene pair. This removes spurious links without removing true genotype-driven ones.",
+      "key_points": [
+        "More accurate peak-gene links than existing methods, tested against CRISPRi and fine-mapped eQTLs",
+        "Works across two cell lines and 13 cell types from bone marrow, brain and kidney",
+        "Latent factors capture a tubular injury program in kidney"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.769044",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "GASTON-VI efficiently quantifies spatial axes and molecular gradients from multi-sample, multi-modal spatial-omics data",
+      "authors": "Ning Z, Dharmasena S, Chitra U",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.769044",
+      "url": "https://doi.org/10.64898/2026.11.24.769044",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "GASTON-VI is a variational-inference deep-learning model that learns a spatial axis (\"isodepth\") per tissue slice and molecular gradients along it across many samples and conditions, for any molecular modality.",
+      "key_points": [
+        "Tests for differential spatial gradients between conditions, such as healthy and diseased",
+        "Finds differential gradients along the portal-central vein axis in fibrotic liver",
+        "Handles large atlases that earlier single-slice methods cannot"
+      ],
+      "data": "",
+      "code": "github.com/chitra-lab/GASTON-VI"
+    },
+    {
+      "id": "10.64898/2026.11.24.751906",
+      "date_added": "2026-11-26",
+      "published": "2026-11-25",
+      "title": "SYNDRI: Context-aware removal of transcript spillover in imaging-based spatial transcriptomics",
+      "authors": "Winchell J, Ma J, Krieger S",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.751906",
+      "url": "https://doi.org/10.64898/2026.11.24.751906",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "SYNDRI is a transformer that predicts gene-level transcript spillover between neighbouring cells after segmentation, trained on simulated spillover (SYNDRI-SIM) made from spatially mapped scRNA-seq.",
+      "key_points": [
+        "AUPRC of 0.86 on simulated held-out data versus 0.64 for the next-best method",
+        "Best aggregate performance across MERFISH, CosMx and Xenium datasets",
+        "In CosMx lung cancer it removes contaminating tumour and macrophage markers from fibroblast differential expression"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.18.767577",
+      "date_added": "2026-11-26",
+      "published": "2026-11-20",
+      "title": "Learning RNA secondary structure from chemical probing with MXfold2",
+      "authors": "Yamauchi R, Tsukiyama S, Sato K",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.18.767577",
+      "url": "https://doi.org/10.64898/2026.11.18.767577",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Machine learning"
+      ],
+      "summary": "MXfold2, which combines neural and thermodynamic folding scores, is extended to learn from chemical probing profiles, so it can predict RNA secondary structure from sequence alone using abundant probing data.",
+      "key_points": [
+        "Three training objectives, two using implicit maximum-likelihood estimation through discrete folding",
+        "Better chemical agreement and base-pair prediction when probing is combined with structural pretraining and replay",
+        "Useful for RNA populations with few full structure annotations"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.18.767567",
+      "date_added": "2026-11-26",
+      "published": "2026-11-20",
+      "title": "The tumor suppressor role of the KRAS proto-oncogene in metastatic pancreatic cancer.",
+      "authors": "Zhang L, Gurreri E, Tang H, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.18.767567",
+      "url": "https://doi.org/10.64898/2026.11.18.767567",
+      "topics": [
+        "Cancer genomics",
+        "Copy number",
+        "Tumour evolution",
+        "Immuno-oncology"
+      ],
+      "summary": "A new mouse model traces Kras loss of heterozygosity in pancreatic cancer in vivo. Metastases select for loss of the wild-type KRAS allele, and human data link KRAS-LOH to metastasis and shorter survival.",
+      "key_points": [
+        "Single-cell RNA-seq links KRAS-LOH to loss of tumour interferon response and fewer CD8+ T cells",
+        "Only Kras-LOH cells form tumours in immune-competent mice",
+        "Restoring wild-type Kras blocks tumours via the TBK1-IRF axis"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41592-026-03302-8",
       "date_added": "2026-11-25",

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">Colon cancer: shape feeds cell state</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">a feedforward loop between architecture and stem-cell states</text>
+  <!-- left: deep learning reads tissue -->
+  <rect x="24" y="96" width="150" height="120" rx="10" fill="#F3F5F7" stroke="#8A949E" stroke-width="2"/>
+  <text x="99" y="118" font-size="13" font-weight="bold" fill="#2B3138" text-anchor="middle">Tumour tissue</text>
+  <path d="M44 150 Q60 134 76 150 Q60 166 44 150Z" fill="none" stroke="#1E5FA8" stroke-width="2"/>
+  <path d="M86 140 Q104 124 120 142 Q104 160 86 140Z" fill="none" stroke="#1E5FA8" stroke-width="2"/>
+  <path d="M120 176 Q138 160 154 178 Q138 196 120 176Z" fill="none" stroke="#1E5FA8" stroke-width="2"/>
+  <path d="M52 188 Q70 172 86 190 Q70 206 52 188Z" fill="none" stroke="#1E5FA8" stroke-width="2"/>
+  <path d="M99 222 L99 250" stroke="#2B3138" stroke-width="2"/><path d="M99 250 L93 241 M99 250 L105 241" stroke="#2B3138" stroke-width="2"/>
+  <rect x="24" y="256" width="150" height="62" rx="10" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2.5"/>
+  <text x="99" y="280" font-size="13" font-weight="bold" fill="#1E5FA8" text-anchor="middle">Deep learning</text>
+  <text x="99" y="299" font-size="13" fill="#2B3138" text-anchor="middle">architecture + nuclei</text>
+  <text x="99" y="346" font-size="13" fill="#2B3138" text-anchor="middle">predicts patient outcome</text>
+  <!-- loop nodes -->
+  <rect x="268" y="82" width="170" height="52" rx="10" fill="#FFFFFF" stroke="#8A949E" stroke-width="2.5"/>
+  <text x="353" y="104" font-size="13" font-weight="bold" fill="#2B3138" text-anchor="middle">Tissue fragmentation</text>
+  <text x="353" y="123" font-size="13" fill="#2B3138" text-anchor="middle">compressive forces</text>
+  <rect x="460" y="168" width="160" height="52" rx="10" fill="#FFFFFF" stroke="#D98A00" stroke-width="2.5"/>
+  <text x="540" y="190" font-size="13" font-weight="bold" fill="#D98A00" text-anchor="middle">YAP activated</text>
+  <text x="540" y="209" font-size="13" fill="#2B3138" text-anchor="middle">fetal/regenerative stem</text>
+  <rect x="268" y="262" width="170" height="64" rx="10" fill="#FFFFFF" stroke="#C8323F" stroke-width="2.5"/>
+  <text x="353" y="284" font-size="13" font-weight="bold" fill="#C8323F" text-anchor="middle">Hybrid partial EMT</text>
+  <text x="353" y="303" font-size="13" fill="#2B3138" text-anchor="middle">then TGFβ from stroma</text>
+  <!-- arrows clockwise -->
+  <path d="M438 112 Q500 118 520 160" fill="none" stroke="#2B3138" stroke-width="2.5"/><path d="M520 160 L512 150 M520 160 L528 151" stroke="#2B3138" stroke-width="2.5"/>
+  <path d="M530 224 Q510 290 442 296" fill="none" stroke="#2B3138" stroke-width="2.5"/><path d="M442 296 L452 289 M442 296 L451 304" stroke="#2B3138" stroke-width="2.5"/>
+  <path d="M264 296 Q196 280 196 214 Q200 140 262 112" fill="none" stroke="#2B3138" stroke-width="2.5"/><path d="M262 112 L252 114 M262 112 L256 122" stroke="#2B3138" stroke-width="2.5"/>
+  <text x="240" y="206" font-size="13" fill="#2B3138" text-anchor="middle">distinct</text>
+  <text x="240" y="224" font-size="13" fill="#2B3138" text-anchor="middle">stem and</text>
+  <text x="240" y="242" font-size="13" fill="#2B3138" text-anchor="middle">EMT states</text>
+  <!-- beta-catenin -->
+  <rect x="438" y="344" width="182" height="40" rx="8" fill="#F3F5F7" stroke="#3C9A2E" stroke-width="2"/>
+  <text x="529" y="369" font-size="13" fill="#3C9A2E" text-anchor="middle">β-catenin tunes the response</text>
+  <path d="M530 344 L530 326" stroke="#3C9A2E" stroke-width="2" stroke-dasharray="4 3"/>
+</svg>
