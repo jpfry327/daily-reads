@@ -1,13 +1,581 @@
 {
   "site": "Daily Reads",
-  "updated": "2026-11-26T11:10:00Z",
+  "updated": "2026-11-27T11:30:00Z",
   "retention_days": 90,
   "featured": [
-    "10.1038/s41588-026-02853-y",
-    "10.1038/s41586-026-11301-0",
-    "10.1038/s41586-026-11345-2"
+    "10.1126/science.aei6252",
+    "10.1126/science.adx9551",
+    "10.1038/s41588-026-02853-y"
   ],
   "posts": [
+    {
+      "id": "10.1126/science.aei6252",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "AI-based digital pathology defines spatial border ecosystems in triple-negative breast cancer.",
+      "authors": "Zhang H, Yang F, Tian P, et al.",
+      "venue": "Science",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1126/science.aei6252",
+      "url": "https://doi.org/10.1126/science.aei6252",
+      "topics": [
+        "Cancer genomics",
+        "Spatial",
+        "Machine learning",
+        "Immuno-oncology"
+      ],
+      "summary": "The authors combined AI-based digital pathology with spatial multi-omics to define the invasive border of triple-negative breast cancer. They describe five border ecosystems, three of them prognostic, and show that targeting an FLT1+ endothelial niche at tumour-adipose borders inhibits progression.",
+      "key_points": [
+        "Five AI-defined border ecosystems, three associated with prognosis",
+        "Immune-infiltrated borders carry a triadic immune niche linked to better prognosis and immunotherapy sensitivity",
+        "MIF+ fibroblasts exclude immune cells at tumour-stroma borders; FLT1+ endothelial cells promote hypoxia and dissemination at tumour-adipose borders"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1126_science.aei6252.svg",
+        "caption": "Three tumour-border niches in TNBC: an immune niche linked to better prognosis, MIF+ fibroblasts excluding T cells, and an FLT1+ endothelial niche promoting hypoxia and spread.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1126/science.adx9551",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "Priming of AGO2 by type I interferons balances inflammation and antiviral immunity.",
+      "authors": "Ren Y, Zhu XX, Wang Y, et al.",
+      "venue": "Science",
+      "type": "Article",
+      "tier": 1,
+      "doi": "10.1126/science.adx9551",
+      "url": "https://doi.org/10.1126/science.adx9551",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "The ubiquitin ligase RNF126, induced by type I interferon signalling, ubiquitinates AGO2 and enhances its loading of siRNAs and miRNAs. This helps AGO2 silence proinflammatory genes and inhibit viral replication. Lipid-nanoparticle delivery of RNF126 mRNA in mice reduced inflammation and viral replication.",
+      "key_points": [
+        "RNF126 interacts with and ubiquitinates AGO2",
+        "This raises AGO2 small-RNA loading",
+        "RNF126 mRNA delivery in mice reduced inflammation and viral replication"
+      ],
+      "data": "",
+      "code": "",
+      "figure": {
+        "kind": "illustration",
+        "src": "img/10.1126_science.adx9551.svg",
+        "caption": "Interferon induces RNF126, which ubiquitinates AGO2 so more siRNA/miRNA is loaded and proinflammatory and viral RNAs are silenced.",
+        "credit": "Illustration drawn by Claude from the abstract, not a figure from the paper"
+      }
+    },
+    {
+      "id": "10.1007/s11060-026-05891-y",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "The immune landscape of chordoma and opportunities for immunotherapy.",
+      "authors": "Jonathan SV, Gellert J, Wu X, et al.",
+      "venue": "Journal of Neuro-Oncology",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1007/s11060-026-05891-y",
+      "url": "https://doi.org/10.1007/s11060-026-05891-y",
+      "topics": [
+        "Chordoma",
+        "Immuno-oncology",
+        "Clinical"
+      ],
+      "summary": "A review of the chordoma tumour immune microenvironment, with a PRISMA-style search of ClinicalTrials.gov that found 30 immunotherapy trials in chordoma. Tumour-associated macrophages dominate and effector T cells are excluded from the tumour parenchyma.",
+      "key_points": [
+        "Spatially compartmentalised immune microenvironment with T-cell exclusion and low tumour mutational burden",
+        "PD-1 blockade has given durable disease control in a subset of patients; brachyury vaccines are immunogenic but rarely produce objective responses",
+        "Authors call for biomarker-driven selection using tumour genomics, spatial immune architecture and checkpoint expression"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1136/jmg-2026-111837",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "Familial chordoma secondary to TBXT duplication: a case report and consensus clinical management recommendations.",
+      "authors": "Law PP, Tarpey P, Atton G, et al.",
+      "venue": "Journal of Medical Genetics",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1136/jmg-2026-111837",
+      "url": "https://doi.org/10.1136/jmg-2026-111837",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A case report of familial chordoma caused by duplication of TBXT (brachyury), with consensus recommendations for clinical management. PubMed lists no abstract, so this overview is based on the title only.",
+      "key_points": [
+        "Familial chordoma linked to a TBXT duplication",
+        "Includes consensus clinical management recommendations",
+        "Abstract not available in PubMed at the time of posting"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1016/j.meddos.2026.10.006",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "Dose-painted VMAT for postoperative residual skull-base chordoma with 73.1 Gy residual-core escalation: A technical note.",
+      "authors": "El Mouden O, Sekkat H, Bannan A, et al.",
+      "venue": "Medical Dosimetry",
+      "type": "Article",
+      "tier": null,
+      "doi": "10.1016/j.meddos.2026.10.006",
+      "url": "https://doi.org/10.1016/j.meddos.2026.10.006",
+      "topics": [
+        "Chordoma",
+        "Clinical"
+      ],
+      "summary": "A technical note and case report of postoperative photon VMAT for residual skull-base chordoma in a 16-year-old patient, using a dose-painting boost to the residual core while sparing the brainstem and optic apparatus.",
+      "key_points": [
+        "Residual-core boost reached D50 73.1 Gy over 41 fractions with 3 coplanar VMAT arcs",
+        "Brainstem D2 52.1 Gy and optic chiasm D2 20.6 Gy",
+        "Suggests optimised photon VMAT as a pragmatic option when particle therapy is not accessible"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1228",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "IsoAtlas: visual interpretation of known and novel transcript isoforms using population-scale long-read evidence.",
+      "authors": "Zheng X, Sedlazeck FJ",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1228",
+      "url": "https://doi.org/10.1093/nar/gkag1228",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Isoforms"
+      ],
+      "summary": "IsoAtlas is an interactive multispecies database built from 1035 human and 414 mouse uniformly processed long-read RNA-seq samples. Users can look up genes or submit novel transcript models and see sample support, prevalence, expression, tissue and disease context.",
+      "key_points": [
+        "Population-scale evidence layer for judging novel isoforms",
+        "Merges equivalent transcripts across GENCODE, RefSeq and CHESS",
+        "Links human and mouse transcript counterparts"
+      ],
+      "data": "",
+      "code": "https://isoatlas.org/"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag871",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "SPAMO: Spatial Multi-Omics Integration via Dual-Graph Encoding and Neighborhood-Constrained Cross-Modal Fusion.",
+      "authors": "Su H, Feng J, Long W, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag871",
+      "url": "https://doi.org/10.1093/bioinformatics/btag871",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Spatial",
+        "Machine learning"
+      ],
+      "summary": "SPAMO detects spatial domains from multi-omics data by combining a shared spatial KNN graph with modality-specific feature graphs, then fusing modalities with neighbourhood-constrained cross-modal attention. It gives competitive or better results on human lymph node, mouse brain and simulated benchmarks.",
+      "key_points": [
+        "Attention restricted to co-located and neighbouring spots",
+        "Keeps modality-specific representations",
+        "Clearest gains on real datasets"
+      ],
+      "data": "",
+      "code": "github.com/ai4nucleome/SPAMO"
+    },
+    {
+      "id": "10.1093/bioinformatics/btag865",
+      "date_added": "2026-11-27",
+      "published": "2026-11-24",
+      "title": "scPriorDiff: Bridging Single-Cell Modalities through Biological Network Prior-Guided Latent Diffusion.",
+      "authors": "Zeng ZY, Cao XY, Huang ZA, et al.",
+      "venue": "Bioinformatics",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/bioinformatics/btag865",
+      "url": "https://doi.org/10.1093/bioinformatics/btag865",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "scPriorDiff is a conditional latent diffusion model that translates between RNA and chromatin accessibility in single-cell multi-omics, conditioned on a graph neural network over biological-network priors. It outperformed eight methods on six paired datasets.",
+      "key_points": [
+        "Network priors guide cross-modal generation",
+        "Generalises across batches and to unseen cell types",
+        "Generated profiles preserve cell identity and molecular signatures"
+      ],
+      "data": "",
+      "code": "github.com/ChrisOliver2345/scPriorDiff"
+    },
+    {
+      "id": "10.1261/rna.081106.126",
+      "date_added": "2026-11-27",
+      "published": "2026-11-25",
+      "title": "Genome-wide profiling of human nucleolar RNAome.",
+      "authors": "Konovalova EV, Tikhomirova MA, Musinova YR, et al.",
+      "venue": "RNA",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1261/rna.081106.126",
+      "url": "https://doi.org/10.1261/rna.081106.126",
+      "topics": [
+        "RNA biology",
+        "Multi-omics",
+        "Resource"
+      ],
+      "summary": "Deep sequencing of long RNAs from HeLa nucleoli, with systematic bioinformatic analysis, defines the nucleolar RNAome. It is strongly enriched for non-coding RNAs, including many from unannotated regions, with higher GC content and enrichment of specific transposable elements.",
+      "key_points": [
+        "Only a small portion of nucleolar RNAs comes from loci near rDNA or nucleolus-associated domains",
+        "Sequence-encoded features direct nucleolar localisation",
+        "Some features are shared by coding and non-coding RNAs, others are class-specific"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1158/1078-0432.CCR-26-3037",
+      "date_added": "2026-11-27",
+      "published": "2026-11-20",
+      "title": "Molecularly profiling cell-free DNA from cerebrospinal fluid yields quantitative biomarkers to diagnose and monitor breast cancer leptomeningeal carcinomatosis.",
+      "authors": "Malani R, Farrell A, Bronner MP, et al.",
+      "venue": "Clinical Cancer Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1158/1078-0432.CCR-26-3037",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-26-3037",
+      "topics": [
+        "Cancer genomics",
+        "Copy number",
+        "Clinical"
+      ],
+      "summary": "CSF cell-free DNA from 35 breast cancer patients was sequenced with TrueR (duplex mutation calling) and PolkaDot (a new low-pass WGS algorithm that maps genomic instability). Both outperformed cytology and MRI for diagnosing leptomeningeal carcinomatosis and predicted survival.",
+      "key_points": [
+        "TrueR: 78.3% sensitivity, 100% specificity",
+        "PolkaDot: 87.0% sensitivity, 100% specificity, HR 17.5 for worse survival",
+        "Serial samples tracked treatment response and recurrence"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1197",
+      "date_added": "2026-11-27",
+      "published": "2026-11-23",
+      "title": "Androgen stimulation rapidly reorganizes temporal 3D genome and epigenome states to trigger AR-mediated transcription in prostate cancer.",
+      "authors": "Campbell EM, Laven-Law G, Jones AK, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1197",
+      "url": "https://doi.org/10.1093/nar/gkag1197",
+      "topics": [
+        "Cancer genomics",
+        "Epigenomics",
+        "Multi-omics"
+      ],
+      "summary": "A time course of androgen stimulation in prostate cancer cells was integrated with MOFA+/MEFISTO factor analysis. AR binds promoters within 5 minutes, H3K27ac at FOXA1-pre-marked AREs precedes AR recruitment, and 3D chromatin contacts are transiently disrupted.",
+      "key_points": [
+        "Nascent transcription shifts early from MYC to AR targets",
+        "CRISPR inhibition of AR-linked contacts suppresses distal target genes",
+        "Dynamic genome architecture is functionally required"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.1093/nar/gkag1289",
+      "date_added": "2026-11-27",
+      "published": "2026-11-23",
+      "title": "SHFL engages CCR4-NOT to promote CNOT3-dependent mRNA decay.",
+      "authors": "Lin YQ, Wu YJ, Shih YC, et al.",
+      "venue": "Nucleic Acids Research",
+      "type": "Article",
+      "tier": 2,
+      "doi": "10.1093/nar/gkag1289",
+      "url": "https://doi.org/10.1093/nar/gkag1289",
+      "topics": [
+        "RNA biology"
+      ],
+      "summary": "The antiviral factor SHFL promotes mRNA turnover through the CCR4-NOT 5'-3' decay pathway, including when tethered to a 3' UTR, independently of -1 programmed ribosomal frameshifting. It binds CNOT3, which is required for the decay.",
+      "key_points": [
+        "CNOT3-dependent decay mechanism",
+        "Decay and -1 PRF repression are separable activities",
+        "Overexpression changes inflammatory and interferon transcriptome modules"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.22.768438",
+      "date_added": "2026-11-27",
+      "published": "2026-11-24",
+      "title": "Measuring Cell Type Resolved Aging Through Long-Read Sequencing",
+      "authors": "Wu Y, Stevens H, Eames A, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.22.768438",
+      "url": "https://doi.org/10.64898/2026.11.22.768438",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "LongReadClock builds cell-type-resolved epigenetic aging clocks from bulk-blood long-read WGS. Reads are classified by methylation likelihood against a purified-cell atlas, so no cell sorting is needed.",
+      "key_points": [
+        "Mean absolute error 2.8-5.7 years on held-out samples",
+        "Cell-type-specific associations with sex, blood pressure, heart rate and asthma",
+        "Fisher-information screen of age-informative windows, with read-level methylation at ELOVL2"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.23.767630",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "Parent-of-origin classification for diploid genomes using Pooch",
+      "authors": "Kim J, Pickett BD, Belluck J, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.767630",
+      "url": "https://doi.org/10.64898/2026.11.23.767630",
+      "topics": [
+        "Methods",
+        "Computational",
+        "Long-read",
+        "Epigenomics"
+      ],
+      "summary": "Differentially methylated CpGs alone give the parent of origin of each haplotype in a Hi-C-phased assembly, without trios. The model was built from 123 HPRC trio-phased assemblies.",
+      "key_points": [
+        "880 imprinted DMRs catalogued (150 strong, 730 moderate)",
+        "Elastic-net model with accuracy 0.997 that generalises across technologies, cell types and karyotypes",
+        "91.7% of informative CpGs lie outside known iDMRs"
+      ],
+      "data": "HPRC assemblies",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.02.20.707061",
+      "date_added": "2026-11-27",
+      "published": "2026-11-24",
+      "title": "Donor-specific assemblies enhance somatic structural variant detection in complex genomic regions",
+      "authors": "Mack TM, Lin J, Ren L, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.02.20.707061",
+      "url": "https://doi.org/10.64898/2026.02.20.707061",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Long-read",
+        "Structural variants"
+      ],
+      "summary": "Benchmarks a donor-specific assembly against GRCh38 and CHM13 for somatic SV discovery in the COLO829 melanoma cell line with matched normal, using three callers and several long-read platforms. Listed as v2 in the November window; v1 appeared in February.",
+      "key_points": [
+        "The donor-specific assembly finds 1.8-fold more validated somatic SVs, many in satellite and repeat-rich regions",
+        "Two variants found only with it lie in cancer-associated genes",
+        "Caller-, platform- and region-specific filters improve precision"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.769066",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "BYSTER: multimodal graph learning resolves bystander versus tumor-specific T cell states in the tumor immune microenvironment",
+      "authors": "Xu H, Wen J, Zhou X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.769066",
+      "url": "https://doi.org/10.64898/2026.11.24.769066",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Machine learning"
+      ],
+      "summary": "A heterogeneous graph neural network combines transcriptomes and paired TCR sequences at metacell level to separate bystander from tumour-specific T cells, applied to lung and pancreatic cancer cohorts.",
+      "key_points": [
+        "AUROC 0.73-0.92 across three datasets, better than baselines",
+        "Bystander cells enriched for naive/memory and MAIT-like SLC4A10+ cells with TNF/NF-kB and hypoxia programs",
+        "Immunotherapy responders had more predicted bystanders"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.25.769087",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "Learning the Malignant Transformation of Lung Adenocarcinoma Cells Using Explainable AI",
+      "authors": "Klingler D, Bergmayr L, Schleich K, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.25.769087",
+      "url": "https://doi.org/10.64898/2026.11.25.769087",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Tumour evolution"
+      ],
+      "summary": "Uses snRNA-seq from 227 LUAD patients (422,727 tumour cells) to define Global Tumor Time, a continuous cross-patient measure of tumour-cell progression, and applies explainable AI to find the transcriptional programs behind it.",
+      "key_points": [
+        "Prognostic: C-index 0.60, 0.66 in external snRNA-seq and 0.61 in bulk RNA-seq",
+        "Two distinct programs for early and late progression states",
+        "Aligns with clinicopathological and spatial features"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.768856",
+      "date_added": "2026-11-27",
+      "published": "2026-11-26",
+      "title": "Dissecting the Tumor Microenvironment at Single-Cell Resolution to Prioritize Candidate Tumor Antigens Across Multiple Cancer Types",
+      "authors": "Tavares TV, Silva PLA, Pantoja LB, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.768856",
+      "url": "https://doi.org/10.64898/2026.11.24.768856",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Pan-cancer"
+      ],
+      "summary": "Integrates a pan-cancer single-cell dataset (355,941 cells, 10 tumour types) and ranks candidate tumour antigens by malignant-cell enrichment, normal-tissue expression, epitopes and survival association.",
+      "key_points": [
+        "30 of 22,779 genes kept as candidates, including CLDN6, MAGEC2 and PLAC1",
+        "16 of the 30 are associated with overall survival",
+        "Several cancer-testis antigens excluded because they are expressed in non-malignant cells"
+      ],
+      "data": "",
+      "code": "public Nextflow pipeline (link not given in abstract)"
+    },
+    {
+      "id": "10.64898/2026.11.23.768752",
+      "date_added": "2026-11-27",
+      "published": "2026-11-24",
+      "title": "FN1 is produced by cancer-associated fibroblasts and carries no immune-exclusion signal beyond the collagen program: a two-cohort single-cell re-examination in non-small cell lung cancer",
+      "authors": "Guo Z, Bai W, Cao X, et al.",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.768752",
+      "url": "https://doi.org/10.64898/2026.11.23.768752",
+      "topics": [
+        "Cancer genomics",
+        "Computational",
+        "Single-cell",
+        "Immuno-oncology"
+      ],
+      "summary": "Re-analyses public NSCLC single-cell cohorts (92,330 cells in GSE207422) plus bulk data to test whether FN1 drives immune exclusion, controlling for collagen/ECM abundance and dissociation stress.",
+      "key_points": [
+        "FN1 comes mainly from CAFs, not macrophages, replicated in GSE131907",
+        "The bulk FN1-cytotoxic association vanished after collagen adjustment",
+        "AP-1 regulon activity tracks dissociation-stress scores (rho 0.88)"
+      ],
+      "data": "GEO GSE148071, GSE207422, GSE131907",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.24.768849",
+      "date_added": "2026-11-27",
+      "published": "2026-11-24",
+      "title": "Transcription starting inside human introns is widespread but mostly yields short-lived RNA",
+      "authors": "Szczesniak M, Wanowska E",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.24.768849",
+      "url": "https://doi.org/10.64898/2026.11.24.768849",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Isoforms",
+        "Resource"
+      ],
+      "summary": "Maps transcription starts inside introns from nascent capped RNA data in two human cell lines, finding 1,346 and 3,061 mostly unannotated, cell-type-specific starts. Their nascent RNA fades within a few kb and is partly degraded by the nuclear exosome.",
+      "key_points": [
+        "Many host-strand intronic lncRNAs may be pieces of host transcripts rather than independent genes",
+        "The starts lack the early splice-donor site that protects promoter transcripts",
+        "All intronic start sites are provided as a resource"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.19.767917",
+      "date_added": "2026-11-27",
+      "published": "2026-11-24",
+      "title": "Large-scale analyses of short open reading frames yield few if any novel human genes",
+      "authors": "Ji HJ, Salzberg SL",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.19.767917",
+      "url": "https://doi.org/10.64898/2026.11.19.767917",
+      "topics": [
+        "RNA biology",
+        "Computational"
+      ],
+      "summary": "Re-analyses the TransCODE Consortium's high-confidence short ORF predictions. Of the top 19, three were already known and the other 16 can be explained without a novel protein; most of the remaining 118 are also explained by known mechanisms.",
+      "key_points": [
+        "A critical re-analysis of claimed novel human protein-coding genes",
+        "Transcription and translation evidence is usually explained by known mechanisms",
+        "Bears directly on translation and annotation claims"
+      ],
+      "data": "",
+      "code": ""
+    },
+    {
+      "id": "10.64898/2026.11.23.768762",
+      "date_added": "2026-11-27",
+      "published": "2026-11-24",
+      "title": "Alternative splicing edits intrinsically disordered regions across human protein isoforms",
+      "authors": "Phan T, Song S, Akey JM",
+      "venue": "bioRxiv",
+      "type": "Preprint",
+      "tier": null,
+      "doi": "10.64898/2026.11.23.768762",
+      "url": "https://doi.org/10.64898/2026.11.23.768762",
+      "topics": [
+        "RNA biology",
+        "Computational",
+        "Splicing",
+        "Isoforms"
+      ],
+      "summary": "Maps predicted disorder onto coding exons of human isoforms. Alternatively spliced exons are more disordered than constitutive exons in every protein class, and splicing mostly adds or removes disordered segments at their ends.",
+      "key_points": [
+        "Exons with poorly conserved splice sites encode more disorder",
+        "Apparent loss of disorder over gene evolution reflects differences between protein families",
+        "Poorly conserved splice sites may be a route by which disorder enters proteins"
+      ],
+      "data": "",
+      "code": ""
+    },
     {
       "id": "10.1038/s41588-026-02853-y",
       "date_added": "2026-11-26",

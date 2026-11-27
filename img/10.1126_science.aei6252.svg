@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">Three tumour-border niches in TNBC</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">AI pathology + spatial multi-omics</text>
+  <!-- tumour core with border ring -->
+  <circle cx="125" cy="215" r="98" fill="#F3F5F7" stroke="#8A949E" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="125" cy="215" r="70" fill="#C8323F" opacity="0.28" stroke="#C8323F" stroke-width="3"/>
+  <text x="125" y="212" font-size="14" font-weight="bold" fill="#2B3138" text-anchor="middle">TNBC</text>
+  <text x="125" y="230" font-size="13" fill="#2B3138" text-anchor="middle">tumour</text>
+  <text x="125" y="330" font-size="13" fill="#8A949E" text-anchor="middle">invasive border</text>
+  <!-- niche 1 green: immune -->
+  <circle cx="215" cy="142" r="9" fill="#3C9A2E"/><circle cx="232" cy="156" r="9" fill="#3C9A2E"/><circle cx="208" cy="162" r="9" fill="#3C9A2E"/>
+  <path d="M245 150 L300 112" stroke="#3C9A2E" stroke-width="3"/>
+  <rect x="305" y="92" width="170" height="40" rx="8" fill="#FFFFFF" stroke="#3C9A2E" stroke-width="2.5"/>
+  <text x="390" y="117" font-size="14" font-weight="bold" fill="#3C9A2E" text-anchor="middle">Triadic immune niche</text>
+  <path d="M475 112 L505 112" stroke="#3C9A2E" stroke-width="3"/>
+  <text x="512" y="117" font-size="14" fill="#2B3138">Better prognosis</text>
+  <!-- niche 2 orange: MIF+ fibroblasts -->
+  <path d="M205 215 Q240 195 262 215 Q240 235 205 215Z" fill="#D98A00" opacity="0.8"/>
+  <path d="M262 215 L300 215" stroke="#D98A00" stroke-width="3"/>
+  <rect x="305" y="195" width="170" height="40" rx="8" fill="#FFFFFF" stroke="#D98A00" stroke-width="2.5"/>
+  <text x="390" y="220" font-size="14" font-weight="bold" fill="#D98A00" text-anchor="middle">MIF+ fibroblast niche</text>
+  <path d="M475 215 L505 215" stroke="#D98A00" stroke-width="3"/>
+  <text x="512" y="212" font-size="14" fill="#2B3138">T cells</text>
+  <text x="512" y="229" font-size="14" fill="#2B3138">excluded</text>
+  <!-- niche 3 blue: FLT1+ endothelial near adipose -->
+  <circle cx="212" cy="290" r="17" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+  <circle cx="238" cy="296" r="17" fill="#FFFFFF" stroke="#8A949E" stroke-width="2"/>
+  <path d="M190 268 Q215 252 245 262" fill="none" stroke="#1E5FA8" stroke-width="5"/>
+  <path d="M255 275 L300 308" stroke="#1E5FA8" stroke-width="3"/>
+  <rect x="305" y="288" width="170" height="40" rx="8" fill="#FFFFFF" stroke="#1E5FA8" stroke-width="2.5"/>
+  <text x="390" y="313" font-size="14" font-weight="bold" fill="#1E5FA8" text-anchor="middle">FLT1+ endothelial niche</text>
+  <path d="M475 308 L505 308" stroke="#1E5FA8" stroke-width="3"/>
+  <text x="512" y="302" font-size="14" fill="#2B3138">Hypoxia,</text>
+  <text x="512" y="319" font-size="14" fill="#2B3138">spread</text>
+  <text x="390" y="352" font-size="13" fill="#8A949E" text-anchor="middle">tumour-adipose border</text>
+  <text x="390" y="378" font-size="14" fill="#C8323F" text-anchor="middle">Targeting it inhibits progression</text>
+</svg>

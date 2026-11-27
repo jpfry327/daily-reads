@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Noto Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#FFFFFF"/>
+  <text x="320" y="30" font-size="19" font-weight="bold" fill="#2B3138" text-anchor="middle">Interferon primes AGO2 via RNF126</text>
+  <text x="320" y="52" font-size="13" fill="#8A949E" text-anchor="middle">more small-RNA loading, quieter inflammation</text>
+  <!-- cell -->
+  <ellipse cx="255" cy="220" rx="230" ry="150" fill="#F3F5F7" stroke="#8A949E" stroke-width="2"/>
+  <!-- receptor + IFN -->
+  <rect x="38" y="190" width="14" height="60" rx="5" fill="#1E5FA8"/>
+  <text x="26" y="150" font-size="14" font-weight="bold" fill="#1E5FA8">Type I IFN</text>
+  <path d="M45 160 L45 185" stroke="#1E5FA8" stroke-width="3"/>
+  <path d="M45 185 L39 177 M45 185 L51 177" stroke="#1E5FA8" stroke-width="3"/>
+  <text x="30" y="290" font-size="13" fill="#8A949E">IFN receptor</text>
+  <path d="M60 218 L108 218" stroke="#1E5FA8" stroke-width="3"/>
+  <path d="M108 218 L98 211 M108 218 L98 225" stroke="#1E5FA8" stroke-width="3"/>
+  <!-- RNF126 -->
+  <circle cx="150" cy="218" r="36" fill="#D98A00" opacity="0.85"/>
+  <text x="150" y="223" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">RNF126</text>
+  <text x="150" y="276" font-size="13" fill="#8A949E" text-anchor="middle">induced</text>
+  <!-- ubiquitin tag arrow -->
+  <path d="M188 218 L240 218" stroke="#D98A00" stroke-width="3"/>
+  <path d="M240 218 L230 211 M240 218 L230 225" stroke="#D98A00" stroke-width="3"/>
+  <circle cx="214" cy="198" r="10" fill="#C8323F"/>
+  <text x="214" y="203" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Ub</text>
+  <!-- AGO2 with loaded small RNA -->
+  <path d="M250 190 Q262 168 300 170 Q340 172 346 214 Q344 258 300 264 Q258 262 250 240 Q242 215 250 190Z" fill="#3C9A2E" opacity="0.85"/>
+  <text x="298" y="222" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AGO2</text>
+  <path d="M276 276 Q300 296 324 276" fill="none" stroke="#1E5FA8" stroke-width="4"/>
+  <text x="300" y="314" font-size="13" fill="#1E5FA8" text-anchor="middle">more siRNA/miRNA loaded</text>
+  <!-- targets -->
+  <path d="M350 200 L392 176" stroke="#3C9A2E" stroke-width="3"/>
+  <path d="M350 238 L392 262" stroke="#3C9A2E" stroke-width="3"/>
+  <path d="M396 168 Q412 150 428 168 T460 168" fill="none" stroke="#8A949E" stroke-width="4"/>
+  <path d="M440 150 L452 186 M452 150 L440 186" stroke="#C8323F" stroke-width="3"/>
+  <text x="396" y="140" font-size="13" fill="#2B3138">Proinflammatory mRNA</text>
+  <path d="M396 270 Q412 252 428 270 T460 270" fill="none" stroke="#8A949E" stroke-width="4"/>
+  <path d="M440 252 L452 288 M452 252 L440 288" stroke="#C8323F" stroke-width="3"/>
+  <text x="396" y="306" font-size="13" fill="#2B3138">Viral RNA</text>
+  <!-- right-side mouse result -->
+  <rect x="490" y="150" width="140" height="130" rx="8" fill="#FFFFFF" stroke="#C8323F" stroke-width="2"/>
+  <text x="560" y="176" font-size="14" font-weight="bold" fill="#C8323F" text-anchor="middle">Mice</text>
+  <text x="560" y="200" font-size="13" fill="#2B3138" text-anchor="middle">RNF126 mRNA</text>
+  <text x="560" y="217" font-size="13" fill="#2B3138" text-anchor="middle">in lipid</text>
+  <text x="560" y="234" font-size="13" fill="#2B3138" text-anchor="middle">nanoparticles:</text>
+  <text x="560" y="258" font-size="13" fill="#3C9A2E" text-anchor="middle">less inflammation</text>
+  <text x="560" y="274" font-size="13" fill="#3C9A2E" text-anchor="middle">less viral spread</text>
+  <path d="M462 220 L486 220" stroke="#8A949E" stroke-width="2" stroke-dasharray="4 3"/>
+</svg>
